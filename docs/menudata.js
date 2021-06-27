@@ -24,8 +24,6 @@
 */
 var menudata={children:[
 {text:"Pàgina principal",url:"index.xhtml"},
-{text:"Paquets",url:"namespaces.xhtml",children:[
-{text:"Paquets",url:"namespaces.xhtml"}]},
 {text:"Classes",url:"annotated.xhtml",children:[
 {text:"Llista de Classes",url:"annotated.xhtml"},
 {text:"Índex de Classes",url:"classes.xhtml"},
@@ -56,8 +54,6 @@ var menudata={children:[
 {text:"u",url:"functions_u.xhtml#index_u"},
 {text:"v",url:"functions_v.xhtml#index_v"},
 {text:"w",url:"functions_w.xhtml#index_w"},
-{text:"x",url:"functions_x.xhtml#index_x"},
-{text:"y",url:"functions_y.xhtml#index_y"},
 {text:"z",url:"functions_z.xhtml#index_z"}]},
 {text:"Funcions",url:"functions_func.xhtml",children:[
 {text:"a",url:"functions_func.xhtml#index_a"},
@@ -102,8 +98,6 @@ var menudata={children:[
 {text:"u",url:"functions_vars_u.xhtml#index_u"},
 {text:"v",url:"functions_vars_v.xhtml#index_v"},
 {text:"w",url:"functions_vars_w.xhtml#index_w"},
-{text:"x",url:"functions_vars_x.xhtml#index_x"},
-{text:"y",url:"functions_vars_y.xhtml#index_y"},
 {text:"z",url:"functions_vars_z.xhtml#index_z"}]},
 {text:"Enumeracions",url:"functions_enum.xhtml"},
 {text:"Propietats",url:"functions_prop.xhtml"}]}]},

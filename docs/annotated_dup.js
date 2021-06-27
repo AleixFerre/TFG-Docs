@@ -1,8 +1,5 @@
 var annotated_dup =
 [
-    [ "UnityTemplateProjects", "namespace_unity_template_projects.xhtml", [
-      [ "SimpleCameraController", "class_unity_template_projects_1_1_simple_camera_controller.xhtml", "class_unity_template_projects_1_1_simple_camera_controller" ]
-    ] ],
     [ "Ability", "class_ability.xhtml", "class_ability" ],
     [ "Ability_Dash", "class_ability___dash.xhtml", "class_ability___dash" ],
     [ "Ability_Instanciable", "class_ability___instanciable.xhtml", "class_ability___instanciable" ],
@@ -14,7 +11,6 @@ var annotated_dup =
     [ "AbilityBase", "class_ability_base.xhtml", "class_ability_base" ],
     [ "AbilityCooldown", "class_ability_cooldown.xhtml", "class_ability_cooldown" ],
     [ "AbilityIndicator", "class_ability_indicator.xhtml", "class_ability_indicator" ],
-    [ "AdjustTimeScale", "class_adjust_time_scale.xhtml", "class_adjust_time_scale" ],
     [ "ADUpgradeEffect", "class_a_d_upgrade_effect.xhtml", "class_a_d_upgrade_effect" ],
     [ "ArrowAnimation", "class_arrow_animation.xhtml", "class_arrow_animation" ],
     [ "BackgroundScaling", "class_background_scaling.xhtml", "class_background_scaling" ],
@@ -51,19 +47,12 @@ var annotated_dup =
     [ "PostGameMenu", "class_post_game_menu.xhtml", "class_post_game_menu" ],
     [ "PressAnyKey", "class_press_any_key.xhtml", "class_press_any_key" ],
     [ "ProfilePanel", "class_profile_panel.xhtml", "class_profile_panel" ],
-    [ "ProximityActivate", "class_proximity_activate.xhtml", "class_proximity_activate" ],
-    [ "RampAsset", "class_ramp_asset.xhtml", "class_ramp_asset" ],
     [ "RandomLightIntensity", "class_random_light_intensity.xhtml", "class_random_light_intensity" ],
     [ "RangedAttackFollow", "class_ranged_attack_follow.xhtml", "class_ranged_attack_follow" ],
-    [ "RotateGameObject", "class_rotate_game_object.xhtml", "class_rotate_game_object" ],
     [ "SettingsData", "class_settings_data.xhtml", null ],
     [ "ShowPing", "class_show_ping.xhtml", "class_show_ping" ],
-    [ "SimpleCharacterMotor", "class_simple_character_motor.xhtml", "class_simple_character_motor" ],
     [ "Singleton", "class_singleton.xhtml", "class_singleton" ],
-    [ "Slide", "class_slide.xhtml", "class_slide" ],
-    [ "SpawnEffect", "class_spawn_effect.xhtml", "class_spawn_effect" ],
     [ "Stats", "class_stats.xhtml", "class_stats" ],
     [ "TimedEffect", "class_timed_effect.xhtml", "class_timed_effect" ],
-    [ "Togglescript", "class_togglescript.xhtml", "class_togglescript" ],
     [ "UIController", "class_u_i_controller.xhtml", "class_u_i_controller" ]
 ];

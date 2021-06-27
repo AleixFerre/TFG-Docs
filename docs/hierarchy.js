@@ -1,6 +1,5 @@
 var hierarchy =
 [
-    [ "UnityTemplateProjects.SimpleCameraController.CameraState", "class_unity_template_projects_1_1_simple_camera_controller_1_1_camera_state.xhtml", null ],
     [ "IDictionary", null, [
       [ "GenericDictionary< TKey, TValue >", "class_generic_dictionary.xhtml", null ]
     ] ],
@@ -15,7 +14,6 @@ var hierarchy =
       ] ],
       [ "AbilityCooldown", "class_ability_cooldown.xhtml", null ],
       [ "AbilityIndicator", "class_ability_indicator.xhtml", null ],
-      [ "AdjustTimeScale", "class_adjust_time_scale.xhtml", null ],
       [ "ArrowAnimation", "class_arrow_animation.xhtml", null ],
       [ "BackgroundScaling", "class_background_scaling.xhtml", null ],
       [ "BasicAttack", "class_basic_attack.xhtml", null ],
@@ -32,15 +30,10 @@ var hierarchy =
       [ "PostGameMenu", "class_post_game_menu.xhtml", null ],
       [ "PressAnyKey", "class_press_any_key.xhtml", null ],
       [ "ProfilePanel", "class_profile_panel.xhtml", null ],
-      [ "ProximityActivate", "class_proximity_activate.xhtml", null ],
       [ "RandomLightIntensity", "class_random_light_intensity.xhtml", null ],
       [ "RangedAttackFollow", "class_ranged_attack_follow.xhtml", null ],
-      [ "RotateGameObject", "class_rotate_game_object.xhtml", null ],
       [ "ShowPing", "class_show_ping.xhtml", null ],
-      [ "SimpleCharacterMotor", "class_simple_character_motor.xhtml", null ],
       [ "Singleton< T >", "class_singleton.xhtml", null ],
-      [ "Slide", "class_slide.xhtml", null ],
-      [ "SpawnEffect", "class_spawn_effect.xhtml", null ],
       [ "Stats", "class_stats.xhtml", [
         [ "AbilityAffectedStats", "class_ability_affected_stats.xhtml", [
           [ "MinionStats", "class_minion_stats.xhtml", null ],
@@ -50,13 +43,11 @@ var hierarchy =
         ] ],
         [ "NexusStats", "class_nexus_stats.xhtml", null ]
       ] ],
-      [ "Togglescript", "class_togglescript.xhtml", null ],
       [ "UIController", "class_u_i_controller.xhtml", [
         [ "MinionUIController", "class_minion_u_i_controller.xhtml", null ],
         [ "NexusUIController", "class_nexus_u_i_controller.xhtml", null ],
         [ "PlayerUIController", "class_player_u_i_controller.xhtml", null ]
-      ] ],
-      [ "UnityTemplateProjects.SimpleCameraController", "class_unity_template_projects_1_1_simple_camera_controller.xhtml", null ]
+      ] ]
     ] ],
     [ "MonoBehaviourPunCallbacks", null, [
       [ "ConnectToServer", "class_connect_to_server.xhtml", null ],
@@ -81,8 +72,7 @@ var hierarchy =
         [ "TimedEffect", "class_timed_effect.xhtml", [
           [ "ADUpgradeEffect", "class_a_d_upgrade_effect.xhtml", null ]
         ] ]
-      ] ],
-      [ "RampAsset", "class_ramp_asset.xhtml", null ]
+      ] ]
     ] ],
     [ "SettingsData", "class_settings_data.xhtml", null ],
     [ "Singleton< GameController >", "class_singleton.xhtml", [

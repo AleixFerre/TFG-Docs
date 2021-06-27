@@ -1,42 +1,39 @@
 var indexSectionsWithContent =
 {
-  0: "_abcdefghijklmnopqrstuvwxyz",
+  0: "_abcdefghijklmnopqrstuvwz",
   1: "abcdeghiklmnoprstu",
-  2: "u",
-  3: "abcdeghilmnoprstu",
-  4: "abcdefghijklmorstu",
-  5: "_abcdefghiklmnopqrstuvwxyz",
-  6: "h",
-  7: "ept",
-  8: "abnoprw",
-  9: "ciktv"
+  2: "abcdeghilmnoprstu",
+  3: "abcdefghijklmorstu",
+  4: "_abcdefghiklmnopqrstuvwz",
+  5: "h",
+  6: "ept",
+  7: "abnoprw",
+  8: "ciktv"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "classes",
-  2: "namespaces",
-  3: "files",
-  4: "functions",
-  5: "variables",
-  6: "typedefs",
-  7: "enums",
-  8: "enumvalues",
-  9: "properties"
+  2: "files",
+  3: "functions",
+  4: "variables",
+  5: "typedefs",
+  6: "enums",
+  7: "enumvalues",
+  8: "properties"
 };
 
 var indexSectionLabels =
 {
   0: "Tot",
   1: "Classes",
-  2: "Namespaces",
-  3: "Fitxers",
-  4: "Funcions",
-  5: "Variables",
-  6: "Definicions de Tipus",
-  7: "Enumeracions",
-  8: "Valors de les Enumeracions",
-  9: "Propietats"
+  2: "Fitxers",
+  3: "Funcions",
+  4: "Variables",
+  5: "Definicions de Tipus",
+  6: "Enumeracions",
+  7: "Valors de les Enumeracions",
+  8: "Propietats"
 };
 

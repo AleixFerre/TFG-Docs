@@ -25,9 +25,6 @@
 var NAVTREE =
 [
   [ "Treball de Fi de Grau", "index.xhtml", [
-    [ "Paquets", "namespaces.xhtml", [
-      [ "Paquets", "namespaces.xhtml", "namespaces_dup" ]
-    ] ],
     [ "Classes", "annotated.xhtml", [
       [ "Llista de Classes", "annotated.xhtml", "annotated_dup" ],
       [ "Índex de Classes", "classes.xhtml", null ],
@@ -54,9 +51,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_d_upgrade_effect_8cs.xhtml",
-"class_background_scaling.xhtml#ab2ada3bb126137a919e876bc35de4a05",
-"class_options_menu.xhtml#aa4b4c49e85d15b68bf68205ba187817b",
-"dir_a3707b6e14a70c47334d1470d38037c9.xhtml"
+"class_basic_attack.xhtml#a6241042f8affb143a9c710c05fd1706c",
+"class_player_controller.xhtml#a4e7678b9f3a9cd56474a5649e4b39591"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
