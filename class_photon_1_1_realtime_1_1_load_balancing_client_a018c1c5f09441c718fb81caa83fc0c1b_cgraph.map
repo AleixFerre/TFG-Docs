@@ -1,9 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingClient.CallbackRoomEnterFailed" name="Photon.Realtime.LoadBalancingClient.CallbackRoomEnterFailed">
-<area shape="rect" id="node1" title=" " alt="" coords="5,93,215,134"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_match_making_callbacks_container.xhtml#a52332db2b7cfe5f0640389a7779f3acd" title="Called when the server couldn&#39;t create a room (OpCreateRoom failed)." alt="" coords="273,5,499,61"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_match_making_callbacks_container.xhtml#a0a77d7207c77bf84e3ca6619d5520bd5" title="Called when a previous OpJoinRandom call failed on the server." alt="" coords="273,85,499,141"/>
-<area shape="rect" id="node6" href="$class_photon_1_1_realtime_1_1_match_making_callbacks_container.xhtml#a3e22fb73baf29511e4035e0bc63e549d" title="Called when a previous OpJoinRoom call failed on the server." alt="" coords="263,166,509,207"/>
-<area shape="rect" id="node3" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml#a099d97fa4d65074adb0db876f47bacd7" title="Called when the server couldn&#39;t create a room (OpCreateRoom failed)." alt="" coords="557,13,764,54"/>
-<area shape="rect" id="node5" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml#a837e8522439b89e68805a2b2c25fa824" title="Called when a previous OpJoinRandom call failed on the server." alt="" coords="557,93,764,134"/>
-<area shape="rect" id="node7" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml#a55bcc9aca42ebe749a8dcb210ed145e9" title="Called when a previous OpJoinRoom call failed on the server." alt="" coords="559,166,762,207"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingClient.ReconnectAndRejoin" name="Photon.Realtime.LoadBalancingClient.ReconnectAndRejoin">
-<area shape="rect" id="node1" title="Can be used to return to a room quickly, by directly reconnecting to a game server to rejoin a room." alt="" coords="503,5,709,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ae42cf1f2e37a5c3631e2537b35d511bc" title="When the client lost connection during gameplay, this method attempts to reconnect and rejoin the roo..." alt="" coords="268,5,455,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a441719b8ef5cb4f4426a1277498d58ac" title=" " alt="" coords="5,5,220,47"/>
-</map>

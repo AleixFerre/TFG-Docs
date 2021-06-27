@@ -1,6 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.OnJoinedInstantiate.GetSpawnPoint" name="Photon.Pun.UtilityScripts.OnJoinedInstantiate.GetSpawnPoint">
-<area shape="rect" id="node1" title="Get the transform of the next SpawnPoint from the list, selected using the SpawnSequence setting." alt="" coords="560,39,791,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_on_joined_instantiate.xhtml#ae0da222aad517adee6e8d5d963586b8e" title="Gets the next SpawnPoint from the list using the SpawnSequence, and applies RandomOffset (if used) to..." alt="" coords="281,5,512,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_on_joined_instantiate.xhtml#a9773f06a13ab245f2fa071ec38dbb849" title=" " alt="" coords="285,71,509,112"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_on_joined_instantiate.xhtml#a107f60bb378b3d63f76cf333319f749d" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="5,71,233,112"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="Photon.Pun.Demo.Asteroids.AsteroidsGameManager.Start" name="Photon.Pun.Demo.Asteroids.AsteroidsGameManager.Start">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,200,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_player.xhtml#a73de822cb4ab788e9dce94795566a656" title="Updates and synchronizes this Player&#39;s Custom Properties." alt="" coords="248,5,431,47"/>
-</map>

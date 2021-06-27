@@ -1,5 +1,0 @@
-<map id="Photon.Realtime.OpJoinRandomRoomParams" name="Photon.Realtime.OpJoinRandomRoomParams">
-<area shape="rect" id="node1" title="Parameters for the matchmaking of JoinRandomRoom and JoinRandomOrCreateRoom." alt="" coords="107,95,317,136"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_typed_lobby.xhtml" title="Refers to a specific lobby on the server." alt="" coords="5,5,197,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="291,5,354,32"/>
-</map>

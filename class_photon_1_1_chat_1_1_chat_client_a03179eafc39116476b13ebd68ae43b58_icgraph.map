@@ -1,4 +1,0 @@
-<map id="Photon.Chat.ChatClient.AddFriends" name="Photon.Chat.ChatClient.AddFriends">
-<area shape="rect" id="node1" title="Adds friends to a list on the Chat Server which will send you status updates for those." alt="" coords="205,5,391,47"/>
-<area shape="rect" id="node2" href="$class_chat_gui.xhtml#a05ac6bff242c371c67f9f07e9966aba3" title="Client is connected now." alt="" coords="5,13,157,39"/>
-</map>

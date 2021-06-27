@@ -1,6 +1,0 @@
-<map id="Photon.Realtime.EnterRoomParams" name="Photon.Realtime.EnterRoomParams">
-<area shape="rect" id="node1" title="Parameters for creating rooms." alt="" coords="149,184,335,225"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_room_options.xhtml" title="Wraps up common room properties needed when you create rooms." alt="" coords="141,95,343,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,5,68,32"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_typed_lobby.xhtml" title="Refers to a specific lobby on the server." alt="" coords="367,95,559,121"/>
-</map>

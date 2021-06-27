@@ -1,6 +1,0 @@
-<map id="Lobby.Start" name="Lobby.Start">
-<area shape="rect" id="node1" title=" " alt="" coords="5,42,95,69"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_player.xhtml#a73de822cb4ab788e9dce94795566a656" title="Updates and synchronizes this Player&#39;s Custom Properties." alt="" coords="143,5,325,47"/>
-<area shape="rect" id="node3" href="$class_lobby.xhtml#abc05e832fc67e0a832d9e7f2bf3f7698" title=" " alt="" coords="173,71,295,98"/>
-<area shape="rect" id="node4" href="$class_lobby.xhtml#a808606e1a267d99f79a488a41f88c6e2" title=" " alt="" coords="373,71,487,98"/>
-</map>

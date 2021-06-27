@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.Room.AddPlayer" name="Photon.Realtime.Room.AddPlayer">
-<area shape="rect" id="node1" title="Checks if the player is in the room&#39;s list already and calls StorePlayer() if not." alt="" coords="5,5,188,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_room.xhtml#a5e614a00e26aae5f35f0805c4e4bb7a9" title="Updates a player reference in the Players dictionary (no matter if it existed before or not)." alt="" coords="236,5,427,47"/>
-</map>

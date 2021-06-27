@@ -1,4 +1,0 @@
-<map id="Photon.Pun.Demo.Procedural.WorldGenerator.CreateWorld" name="Photon.Pun.Demo.Procedural.WorldGenerator.CreateWorld">
-<area shape="rect" id="node1" title="Called whenever a client receives a Custom Room Properties update containing all necessary informatio..." alt="" coords="305,13,504,54"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_ingame_control_panel.xhtml#a890762417042c4f6a8d93f483fdccff6" title="Gets called whenever the Custom Room Properties are updated." alt="" coords="5,5,257,61"/>
-</map>

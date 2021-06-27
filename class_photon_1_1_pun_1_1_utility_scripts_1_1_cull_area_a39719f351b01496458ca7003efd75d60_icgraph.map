@@ -1,4 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.CullArea.DrawCells" name="Photon.Pun.UtilityScripts.CullArea.DrawCells">
-<area shape="rect" id="node1" title="Draws the cells." alt="" coords="225,5,397,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#ae6cf4cd517e6710fd0d6c8278f8584eb" title="Creates the cell hierarchy in editor and draws the cell view." alt="" coords="5,5,177,47"/>
-</map>

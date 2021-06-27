@@ -1,5 +1,0 @@
-<map id="Photon.Pun.PhotonAnimatorView.DeserializeDataContinuously" name="Photon.Pun.PhotonAnimatorView.DeserializeDataContinuously">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,225,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_stream_queue.xhtml#a5ce6660209d3c8b2988d2e4444dfe36b" title="Determines whether the queue has stored any objects" alt="" coords="273,5,492,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_stream_queue.xhtml#a8ce49494951095aabcdc4d22d4420ea2" title="Receives the next object from the queue." alt="" coords="273,71,492,112"/>
-</map>

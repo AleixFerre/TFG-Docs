@@ -1,5 +1,0 @@
-<map id="Photon.Realtime.Player.ToStringFull" name="Photon.Realtime.Player.ToStringFull">
-<area shape="rect" id="node1" title="String summary of the Player: player.ID, name and all custom properties of this user." alt="" coords="324,43,501,84"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering_inspector.xhtml#a8e650f5122f44fa3665d48e4046a823f" title=" " alt="" coords="5,5,276,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering_extensions.xhtml#a4a72cdb30d4efd4800588ec57e542762" title="Sets the player number." alt="" coords="17,71,264,127"/>
-</map>

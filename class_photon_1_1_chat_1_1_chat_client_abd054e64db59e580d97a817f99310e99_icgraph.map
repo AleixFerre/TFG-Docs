@@ -1,8 +1,0 @@
-<map id="Photon.Chat.ChatClient.publishMessage" name="Photon.Chat.ChatClient.publishMessage">
-<area shape="rect" id="node1" title=" " alt="" coords="688,23,891,65"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#afefc5d6f79d10d6d755669d14eee9c12" title="Sends a message to a public channel which this client subscribed to." alt="" coords="435,23,640,65"/>
-<area shape="rect" id="node3" href="$class_chat_gui.xhtml#ae90fc3a9b4e7fd23e3e5295b122e0bff" title="Result of Subscribe operation." alt="" coords="218,5,373,32"/>
-<area shape="rect" id="node4" href="$class_chat_gui.xhtml#a68f45c78a96103fbc13469b6c0603295" title=" " alt="" coords="204,56,387,83"/>
-<area shape="rect" id="node5" href="$class_chat_gui.xhtml#a4d4a6ffcf4f6191edf14ce7274c91717" title=" " alt="" coords="6,31,155,57"/>
-<area shape="rect" id="node6" href="$class_chat_gui.xhtml#adcb3927d375b06b5525f47cd6a4ee727" title=" " alt="" coords="5,81,156,108"/>
-</map>

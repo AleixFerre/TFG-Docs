@@ -1,6 +1,0 @@
-<map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
-<area shape="rect" id="node1" href="$interface_photon_1_1_pun_1_1_i_photon_view_callback.xhtml" title="Empty Base class for all PhotonView callbacks." alt="" coords="5,78,221,105"/>
-<area shape="rect" id="node2" href="$interface_photon_1_1_pun_1_1_i_on_photon_view_controller_change.xhtml" title="This interface defines a callback for changes to the PhotonView&#39;s controller." alt="" coords="269,5,452,47"/>
-<area shape="rect" id="node3" href="$interface_photon_1_1_pun_1_1_i_on_photon_view_owner_change.xhtml" title="This interface defines a callback for changes to the PhotonView&#39;s owner." alt="" coords="269,71,452,112"/>
-<area shape="rect" id="node4" href="$interface_photon_1_1_pun_1_1_i_on_photon_view_pre_net_destroy.xhtml" title="This interface defines a callback which fires prior to the PhotonNetwork destroying the PhotonView an..." alt="" coords="269,136,452,177"/>
-</map>

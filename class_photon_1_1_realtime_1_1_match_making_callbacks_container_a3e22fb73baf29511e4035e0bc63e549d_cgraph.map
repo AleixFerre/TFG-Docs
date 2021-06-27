@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.MatchMakingCallbacksContainer.OnJoinRoomFailed" name="Photon.Realtime.MatchMakingCallbacksContainer.OnJoinRoomFailed">
-<area shape="rect" id="node1" title="Called when a previous OpJoinRoom call failed on the server." alt="" coords="5,5,252,47"/>
-<area shape="rect" id="node2" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml#a55bcc9aca42ebe749a8dcb210ed145e9" title="Called when a previous OpJoinRoom call failed on the server." alt="" coords="300,5,503,47"/>
-</map>

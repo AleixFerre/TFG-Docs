@@ -1,6 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingClient.OpSetCustomPropertiesOfRoom" name="Photon.Realtime.LoadBalancingClient.OpSetCustomPropertiesOfRoom">
-<area shape="rect" id="node1" title="Updates and synchronizes this Room&#39;s Custom Properties." alt="" coords="5,5,252,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a69dd43d4c7211b5b83cd54d0ebcf79e7" title="Debug output of low level api (and this client)." alt="" coords="300,5,507,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7f48b5f0c44ef0c67ef32f147ff87246" title="Creates a Peer with specified connection protocol." alt="" coords="555,5,761,47"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#affaff7e1fdffe86b25156ffac5e738c9" title=" " alt="" coords="809,5,1016,47"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="Photon.Pun.PhotonStreamQueue.Serialize" name="Photon.Pun.PhotonStreamQueue.Serialize">
-<area shape="rect" id="node1" title="Serializes the specified stream." alt="" coords="244,29,463,71"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml#a35a3d7a2cff101c804c6e71ea0df1a32" title="Called by PUN several times per second, so that your script can write and read synchronization data f..." alt="" coords="5,29,196,71"/>
-</map>

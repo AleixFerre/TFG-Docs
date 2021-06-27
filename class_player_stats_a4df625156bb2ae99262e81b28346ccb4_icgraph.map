@@ -1,7 +1,0 @@
-<map id="PlayerStats.BlockAbilityForSeconds" name="PlayerStats.BlockAbilityForSeconds">
-<area shape="rect" id="node1" title=" " alt="" coords="721,23,884,65"/>
-<area shape="rect" id="node2" href="$class_player_stats.xhtml#af942d9a5150c2d4c47800335ec062ee1" title=" " alt="" coords="491,31,673,57"/>
-<area shape="rect" id="node3" href="$class_ability_cooldown.xhtml#a24d10146f84157eecd34133535f98c0b" title=" " alt="" coords="233,31,443,57"/>
-<area shape="rect" id="node4" href="$class_ability_indicator.xhtml#a4bf84483d8c8507ea690e7c814d8431a" title=" " alt="" coords="5,5,185,32"/>
-<area shape="rect" id="node5" href="$class_ability_cooldown.xhtml#a0a1223f783a3c342413172a5797fa597" title=" " alt="" coords="16,56,175,83"/>
-</map>

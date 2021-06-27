@@ -1,5 +1,0 @@
-<map id="AbilityCooldown.ButtonTriggered" name="AbilityCooldown.ButtonTriggered">
-<area shape="rect" id="node1" title=" " alt="" coords="233,31,443,57"/>
-<area shape="rect" id="node2" href="$class_ability_indicator.xhtml#a4bf84483d8c8507ea690e7c814d8431a" title=" " alt="" coords="5,5,185,32"/>
-<area shape="rect" id="node3" href="$class_ability_cooldown.xhtml#a0a1223f783a3c342413172a5797fa597" title=" " alt="" coords="16,56,175,83"/>
-</map>

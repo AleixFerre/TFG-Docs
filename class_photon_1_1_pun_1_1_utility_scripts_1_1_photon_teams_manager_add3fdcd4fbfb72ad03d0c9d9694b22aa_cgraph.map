@@ -1,5 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.PhotonTeamsManager.OnJoinedRoom" name="Photon.Pun.UtilityScripts.PhotonTeamsManager.OnJoinedRoom">
-<area shape="rect" id="node1" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="5,5,249,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#acd2e9899c27858f55a06b3fc17380add" title=" " alt="" coords="297,5,533,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a57cfef967101ace21866a6927b226b49" title=" " alt="" coords="581,5,807,47"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="AbilityAffectedStats" name="AbilityAffectedStats">
-<area shape="rect" id="node1" title="Base class Stats of the entity who is affected by Abilities." alt="" coords="40,155,176,181"/>
-<area shape="rect" id="node4" href="$class_minion_stats.xhtml" title=" " alt="" coords="5,229,96,256"/>
-<area shape="rect" id="node5" href="$class_player_stats.xhtml" title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut..." alt="" coords="120,229,211,256"/>
-<area shape="rect" id="node2" href="$class_stats.xhtml" title="Base class Stats of the entity." alt="" coords="81,80,135,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="53,5,163,32"/>
-<area shape="rect" id="node6" href="$class_mannequin_stats.xhtml" title=" " alt="" coords="107,304,223,331"/>
-</map>

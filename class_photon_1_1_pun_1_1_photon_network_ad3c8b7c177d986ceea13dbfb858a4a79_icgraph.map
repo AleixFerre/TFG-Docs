@@ -1,5 +1,0 @@
-<map id="Photon.Pun.PhotonNetwork.ConnectToBestCloudServer" name="Photon.Pun.PhotonNetwork.ConnectToBestCloudServer">
-<area shape="rect" id="node1" title="Connect to the Photon Cloud region with the lowest ping (on platforms that support Unity&#39;s Ping)." alt="" coords="268,50,455,91"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#aa1e25a33ff6d9e679ebb0f1738c5f7fd" title=" " alt="" coords="5,5,220,61"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ae031208b657a2e01d80ddf4b02d0d23f" title=" " alt="" coords="19,86,206,127"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.PlayerNumberingInspector.OnDisable" name="Photon.Pun.UtilityScripts.PlayerNumberingInspector.OnDisable">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,244,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering_inspector.xhtml#a9d482b5e491c92638eb2fcbe39be95d5" title="force repaint fo the inspector, else we would not see the new data in the inspector." alt="" coords="292,5,541,47"/>
-</map>

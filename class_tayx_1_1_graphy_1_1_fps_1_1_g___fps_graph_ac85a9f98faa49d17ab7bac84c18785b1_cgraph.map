@@ -1,5 +1,0 @@
-<map id="Tayx.Graphy.Fps.G_FpsGraph.CreatePoints" name="Tayx.Graphy.Fps.G_FpsGraph.CreatePoints">
-<area shape="rect" id="node1" title="Creates the points for the graph/s." alt="" coords="5,39,209,80"/>
-<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#ac039f519ec84d521e44bf8f9b90ff7e8" title="Updates the material linked with this shader graph with the values in the float[] array." alt="" coords="257,5,455,47"/>
-<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#ac4ec72181f804fc7e8516292bd3a5995" title="Updates the colors in the material." alt="" coords="257,71,455,112"/>
-</map>

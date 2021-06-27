@@ -1,8 +1,0 @@
-<map id="Photon.Pun.Demo.Asteroids.Asteroid.OnCollisionEnter" name="Photon.Pun.Demo.Asteroids.Asteroid.OnCollisionEnter">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,196,112"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroid.xhtml#a33a7e318d6d9308a29c9e9da93187b8c" title=" " alt="" coords="244,37,459,79"/>
-<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroid.xhtml#a8930c58d3d7cff374704186ea890889e" title=" " alt="" coords="247,103,455,144"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ada7d7b9bdb306863c66b260dde7c544e" title="Network&#45;Destroy the GameObject associated with the PhotonView, unless the PhotonView is static or not..." alt="" coords="507,5,693,47"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a7e68c3cae2b1b2b7495b545b246192c2" title=" " alt="" coords="507,71,693,112"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ab20d21ae87fdbe5db26810e506089158" title=" " alt="" coords="741,71,928,112"/>
-</map>

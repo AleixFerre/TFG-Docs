@@ -1,5 +1,0 @@
-<map id="Photon.Pun.PhotonNetwork.OpCleanActorRpcBuffer" name="Photon.Pun.PhotonNetwork.OpCleanActorRpcBuffer">
-<area shape="rect" id="node1" title="Removes the RPCs of someone else (to be used as master)." alt="" coords="240,39,427,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#af875d9527ce0aff17d798b7030e7ee98" title="Destroys all Instantiates and RPCs locally and (if not localOnly) sends EvDestroy(player) and clears ..." alt="" coords="5,5,192,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a15db18b5389663d86c17117eba98714d" title="Remove all buffered RPCs from server that were sent by targetPlayer." alt="" coords="5,71,192,112"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="PlayerUIController.UpdateCurrentMana" name="PlayerUIController.UpdateCurrentMana">
-<area shape="rect" id="node1" title="Sets the current MP value to the Image." alt="" coords="244,5,415,47"/>
-<area shape="rect" id="node2" href="$class_player_stats.xhtml#adb29a13d34d6e2880a34d67340b8b74a" title=" " alt="" coords="5,13,196,39"/>
-</map>

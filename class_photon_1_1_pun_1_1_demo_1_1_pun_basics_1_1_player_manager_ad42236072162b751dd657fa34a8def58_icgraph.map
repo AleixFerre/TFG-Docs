@@ -1,4 +1,0 @@
-<map id="Photon.Pun.Demo.PunBasics.PlayerManager.ProcessInputs" name="Photon.Pun.Demo.PunBasics.PlayerManager.ProcessInputs">
-<area shape="rect" id="node1" title="Processes the inputs." alt="" coords="252,5,451,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_player_manager.xhtml#abe0628018b575fc2208679a09876f68f" title="MonoBehaviour method called on GameObject by Unity on every frame." alt="" coords="5,5,204,47"/>
-</map>

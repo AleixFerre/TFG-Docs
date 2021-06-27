@@ -1,6 +1,0 @@
-<map id="ChatGui.OnUnsubscribed" name="ChatGui.OnUnsubscribed">
-<area shape="rect" id="node1" title="Result of Unsubscribe operation." alt="" coords="5,46,175,73"/>
-<area shape="rect" id="node2" href="$class_chat_gui.xhtml#aa83d13b8a9345313627a401e3ec5a938" title=" " alt="" coords="223,46,375,73"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_chat_1_1_chat_channel.xhtml#a9ff674eb16730b6b99234d887616feee" title="Provides a string&#45;representation of all messages in this channel." alt="" coords="425,5,601,47"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a5dd578fb1b7cbbebcbe28a95187bb85e" title="Simplified access to either private or public channels by name." alt="" coords="423,71,603,112"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="PlayerStats.BlockAbilityFor" name="PlayerStats.BlockAbilityFor">
-<area shape="rect" id="node1" title=" " alt="" coords="5,35,188,61"/>
-<area shape="rect" id="node2" href="$class_player_stats.xhtml#a4df625156bb2ae99262e81b28346ccb4" title=" " alt="" coords="236,57,399,98"/>
-<area shape="rect" id="node3" href="$class_player_stats.xhtml#a12436c563a621825a095f0fcbee67e74" title=" " alt="" coords="447,5,653,32"/>
-<area shape="rect" id="node4" href="$class_ability_cooldown.xhtml#abe17348393bdde47c5aef87b5311593c" title=" " alt="" coords="465,57,635,98"/>
-<area shape="rect" id="node5" href="$class_player_controller.xhtml#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="701,57,868,98"/>
-</map>

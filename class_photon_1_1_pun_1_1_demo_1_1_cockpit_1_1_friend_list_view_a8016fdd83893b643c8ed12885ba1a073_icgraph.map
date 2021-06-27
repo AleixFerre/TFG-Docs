@@ -1,8 +1,0 @@
-<map id="Photon.Pun.Demo.Cockpit.FriendListView.FindFriends" name="Photon.Pun.Demo.Cockpit.FriendListView.FindFriends">
-<area shape="rect" id="node1" title=" " alt="" coords="1032,39,1212,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_friend_list_view.xhtml#aa8196984d03a944e9dc367dbd8bddb1f" title=" " alt="" coords="777,39,984,80"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#adfb141a92ec187041fa91caf9959c7df" title=" " alt="" coords="508,39,729,80"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a322ad513352aed28e2d4b66e5b7605b2" title="Called when the client is connected to the Master Server and ready for matchmaking and other tasks." alt="" coords="233,5,460,47"/>
-<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a8a84aefe02e52f4abfacc83f0b7e21bc" title="Called on entering a lobby on the Master Server." alt="" coords="255,71,438,112"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a96d91c8a4398280fb582bd516bf147f6" title=" " alt="" coords="5,39,185,80"/>
-</map>

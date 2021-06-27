@@ -1,4 +1,0 @@
-<map id="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnStartGameButtonClicked" name="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnStartGameButtonClicked">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,245,61"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a9aa7d7a2389b180e95c81921076ac056" title="This method wraps loading a level asynchronously and pausing network messages during the process." alt="" coords="293,13,480,54"/>
-</map>

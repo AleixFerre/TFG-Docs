@@ -1,5 +1,0 @@
-<map id="Photon.Pun.ServerSettings.ResetBestRegionCodeInPreferences" name="Photon.Pun.ServerSettings.ResetBestRegionCodeInPreferences">
-<area shape="rect" id="node1" title="Sets the &quot;best region summary&quot; in the preferences to null. On next start, the client will ping all av..." alt="" coords="268,50,500,91"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#aa1e25a33ff6d9e679ebb0f1738c5f7fd" title=" " alt="" coords="5,5,220,61"/>
-<area shape="rect" id="node3" href="$class_server_settings_inspector.xhtml#a8700b5c9f2191179a4eb9af443e8297d" title=" " alt="" coords="31,86,194,127"/>
-</map>

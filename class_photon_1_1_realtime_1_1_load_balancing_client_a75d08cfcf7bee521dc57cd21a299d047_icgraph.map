@@ -1,5 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingClient.OpGetGameList" name="Photon.Realtime.LoadBalancingClient.OpGetGameList">
-<area shape="rect" id="node1" title="Gets a list of rooms matching the (non empty) SQL filter for the given SQL&#45;typed lobby." alt="" coords="473,5,680,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aeede03b2d9c3d09b972437316adc435d" title="Fetches a custom list of games from the server, matching a (non&#45;empty) SQL&#45;like filter." alt="" coords="239,5,425,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_room_list_view.xhtml#a4bccf37529af15f6c4c6094e2452382e" title=" " alt="" coords="5,5,191,47"/>
-</map>

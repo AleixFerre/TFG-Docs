@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.MatchMakingCallbacksContainer.OnFriendListUpdate" name="Photon.Realtime.MatchMakingCallbacksContainer.OnFriendListUpdate">
-<area shape="rect" id="node1" title="Called when the server sent the response to a FindFriends request." alt="" coords="5,5,217,61"/>
-<area shape="rect" id="node2" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml#a8f08da473647d070c554b5b4daba60af" title="Called when the server sent the response to a FindFriends request." alt="" coords="265,13,468,54"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingClient.OpJoinLobby" name="Photon.Realtime.LoadBalancingClient.OpJoinLobby">
-<area shape="rect" id="node1" title="If already connected to a Master Server, this joins the specified lobby." alt="" coords="240,5,447,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a20aecd560712580935a29ea0d14946c4" title="On a Master Server you can join a lobby to get lists of available rooms." alt="" coords="5,5,192,47"/>
-</map>

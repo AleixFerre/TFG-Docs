@@ -1,4 +1,0 @@
-<map id="Photon.Chat.ChatClient.SetOnlineStatus" name="Photon.Chat.ChatClient.SetOnlineStatus">
-<area shape="rect" id="node1" title="Sets the user&#39;s status without changing your status&#45;message." alt="" coords="5,5,188,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a4082838ff7355c23a7d92b02e8405efc" title="Sets the user&#39;s status (pre&#45;defined or custom) and an optional message." alt="" coords="236,5,419,47"/>
-</map>

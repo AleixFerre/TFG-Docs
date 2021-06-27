@@ -1,5 +1,0 @@
-<map id="Photon.Pun.Demo.Procedural.WorldGenerator.GenerateWorld" name="Photon.Pun.Demo.Procedural.WorldGenerator.GenerateWorld">
-<area shape="rect" id="node1" title="Generates a new world based on the settings made either by the MasterClient on the Ingame Control Pan..." alt="" coords="5,27,209,69"/>
-<area shape="rect" id="node2" href="$class_simplex_1_1_noise.xhtml#ae67cfa841f1b9bc6f9c6f9d6c95cb9aa" title=" " alt="" coords="268,5,449,32"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_cluster.xhtml#a8479a55313448580061516fb51d5bccc" title="Gets called when a remote client has modified a certain Block within this Cluster." alt="" coords="257,57,460,98"/>
-</map>

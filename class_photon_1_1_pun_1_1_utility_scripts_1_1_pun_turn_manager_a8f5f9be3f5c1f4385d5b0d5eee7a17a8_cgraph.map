@@ -1,4 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.PunTurnManager.Update" name="Photon.Pun.UtilityScripts.PunTurnManager.Update">
-<area shape="rect" id="node1" title=" " alt="" coords="5,13,177,54"/>
-<area shape="rect" id="node2" href="$interface_photon_1_1_pun_1_1_utility_scripts_1_1_i_pun_turn_manager_callbacks.xhtml#a027fdca7ca7475db51f189a04e182641" title="Called when a turn completes due to a time constraint (timeout for a turn)" alt="" coords="225,5,452,61"/>
-</map>

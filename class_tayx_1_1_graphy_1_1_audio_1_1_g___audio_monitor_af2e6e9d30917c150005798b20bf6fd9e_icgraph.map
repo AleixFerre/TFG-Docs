@@ -1,5 +1,0 @@
-<map id="Tayx.Graphy.Audio.G_AudioMonitor.lin2dB" name="Tayx.Graphy.Audio.G_AudioMonitor.lin2dB">
-<area shape="rect" id="node1" title="Converts spectrum values to decibels using logarithms." alt="" coords="425,5,572,47"/>
-<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_graph.xhtml#a0b5a3d57d1cb98ffee11d483f9a0ef01" title="Updates the graph/s." alt="" coords="200,5,377,47"/>
-<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_graph.xhtml#a145988067ae336c0780904bdc81b616f" title=" " alt="" coords="5,5,152,47"/>
-</map>

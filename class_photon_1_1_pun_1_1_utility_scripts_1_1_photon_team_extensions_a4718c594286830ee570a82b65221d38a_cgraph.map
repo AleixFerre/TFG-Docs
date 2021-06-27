@@ -1,4 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.PhotonTeamExtensions.LeaveCurrentTeam" name="Photon.Pun.UtilityScripts.PhotonTeamExtensions.LeaveCurrentTeam">
-<area shape="rect" id="node1" title="Leave the current team if any." alt="" coords="5,5,276,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_player.xhtml#a73de822cb4ab788e9dce94795566a656" title="Updates and synchronizes this Player&#39;s Custom Properties." alt="" coords="324,5,507,47"/>
-</map>

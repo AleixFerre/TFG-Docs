@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.RoomInfo" name="Photon.Realtime.RoomInfo">
-<area shape="rect" id="node1" title="A simplified room with just the info required to list and join, used for the room listing in the lobb..." alt="" coords="5,5,181,32"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_room.xhtml" title="This class represents a room a client joins/joined." alt="" coords="15,80,171,107"/>
-</map>

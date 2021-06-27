@@ -1,5 +1,0 @@
-<map id="PlayerUIController.UpdateCurrentHP" name="PlayerUIController.UpdateCurrentHP">
-<area shape="rect" id="node1" title="Sets the current HP value to the Image." alt="" coords="248,23,419,65"/>
-<area shape="rect" id="node2" href="$class_player_stats.xhtml#a6542a649dfb0cccc9fe329c83024e3ed" title=" " alt="" coords="5,5,200,32"/>
-<area shape="rect" id="node3" href="$class_player_stats.xhtml#a07cb6a60391d769fea03f1bc3b6927c6" title=" " alt="" coords="29,56,176,83"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnLoginButtonClicked" name="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnLoginButtonClicked">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,256,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a3eaa67a8c2af70028949403df6b60ca2" title="Connect to Photon as configured in the PhotonServerSettings file." alt="" coords="304,5,491,47"/>
-</map>

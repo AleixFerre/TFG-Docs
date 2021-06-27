@@ -1,4 +1,0 @@
-<map id="MinionUIController.UpdateCurrentHP" name="MinionUIController.UpdateCurrentHP">
-<area shape="rect" id="node1" title="Updates the current HP of the entity." alt="" coords="249,5,421,47"/>
-<area shape="rect" id="node2" href="$class_minion_stats.xhtml#ad1a8cab09c44cd06629a2dbe924c83ff" title=" " alt="" coords="5,13,201,39"/>
-</map>

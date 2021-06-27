@@ -1,4 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.IPunTurnManagerCallbacks.OnTurnBegins" name="Photon.Pun.UtilityScripts.IPunTurnManagerCallbacks.OnTurnBegins">
-<area shape="rect" id="node1" title="Called the turn begins event." alt="" coords="288,5,515,61"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_turn_manager.xhtml#a47537e5b4e90f3e259a728412b80977c" title="Called by PhotonNetwork" alt="" coords="5,5,240,61"/>
-</map>

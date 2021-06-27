@@ -1,4 +1,0 @@
-<map id="DoxyRunner" name="DoxyRunner">
-<area shape="rect" id="node1" title="This class spawns and runs Doxygen in a separate thread, and could serve as an example of how to crea..." alt="" coords="37,95,130,121"/>
-<area shape="rect" id="node2" href="$class_doxy_thread_safe_output.xhtml" title="This class encapsulates the data output by Doxygen so it can be shared with Unity in a thread share w..." alt="" coords="5,5,161,32"/>
-</map>

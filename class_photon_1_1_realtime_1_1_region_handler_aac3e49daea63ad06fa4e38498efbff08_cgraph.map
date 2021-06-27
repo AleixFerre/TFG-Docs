@@ -1,8 +1,0 @@
-<map id="Photon.Realtime.RegionHandler.OnPreferredRegionPinged" name="Photon.Realtime.RegionHandler.OnPreferredRegionPinged">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,216,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_region_handler.xhtml#a8ae051b93b79d6e40d0f7978ce3551e6" title=" " alt="" coords="264,39,475,80"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_region_handler.xhtml#a313396589f975623ea7acacf19d12de5" title=" " alt="" coords="523,5,733,47"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_region_pinger.xhtml#abfd13a0dae129c3ae367c3ff2578fb0b" title="Starts the ping routine for the assigned region." alt="" coords="527,71,729,112"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_region_pinger.xhtml#ab9fbb3965c6b45422afdba264cc91ff9" title="Selects the best fitting ping implementation or uses the one set in RegionHandler...." alt="" coords="781,37,984,79"/>
-<area shape="rect" id="node6" href="$class_photon_1_1_realtime_1_1_region_pinger.xhtml#a6c5cbc3b74e3415708c89a788c930cf0" title="Attempts to resolve a hostname into an IP string or returns empty string if that fails." alt="" coords="781,103,984,144"/>
-</map>

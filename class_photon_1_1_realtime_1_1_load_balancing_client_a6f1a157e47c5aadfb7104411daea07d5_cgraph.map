@@ -1,5 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingClient.UpdatedActorList" name="Photon.Realtime.LoadBalancingClient.UpdatedActorList">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,212,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_room.xhtml#ab41f8e8ab3cf7c212007684a9410e4b0" title="Tries to find the player with given actorNumber (a.k.a." alt="" coords="265,5,446,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_room.xhtml#a5e614a00e26aae5f35f0805c4e4bb7a9" title="Updates a player reference in the Players dictionary (no matter if it existed before or not)." alt="" coords="260,71,451,112"/>
-</map>

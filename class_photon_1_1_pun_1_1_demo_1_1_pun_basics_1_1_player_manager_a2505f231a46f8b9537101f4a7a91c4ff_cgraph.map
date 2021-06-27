@@ -1,4 +1,0 @@
-<map id="Photon.Pun.Demo.PunBasics.PlayerManager.OnLevelWasLoaded" name="Photon.Pun.Demo.PunBasics.PlayerManager.OnLevelWasLoaded">
-<area shape="rect" id="node1" title="See CalledOnLevelWasLoaded. Outdated in Unity 5.4." alt="" coords="5,13,233,54"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_player_manager.xhtml#abe71f5ae36daf1a9b316a1f25fb268bb" title="MonoBehaviour method called after a new level of index &#39;level&#39; was loaded." alt="" coords="281,5,504,61"/>
-</map>

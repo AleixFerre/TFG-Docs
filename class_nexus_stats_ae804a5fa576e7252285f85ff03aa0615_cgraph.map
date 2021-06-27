@@ -1,6 +1,0 @@
-<map id="NexusStats.DealDamageRPC" name="NexusStats.DealDamageRPC">
-<area shape="rect" id="node1" title=" " alt="" coords="5,35,200,61"/>
-<area shape="rect" id="node2" href="$class_nexus_stats.xhtml#a3faadcb2bca6d50c1da5e1235900f3f7" title="Function that implements what is done when this entity dies." alt="" coords="277,5,390,32"/>
-<area shape="rect" id="node3" href="$class_nexus_u_i_controller.xhtml#ae447bcfebc5992515b4ff2b8ffb3a0e2" title="Updates the current HP of the entity." alt="" coords="248,57,419,98"/>
-<area shape="rect" id="node4" href="$class_u_i_controller.xhtml#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="467,57,631,98"/>
-</map>

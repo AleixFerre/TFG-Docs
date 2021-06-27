@@ -1,4 +1,0 @@
-<map id="ConnectToServer.OnErrorInfo" name="ConnectToServer.OnErrorInfo">
-<area shape="rect" id="node1" title="Called when the client receives an event from the server indicating that an error happened there." alt="" coords="5,5,195,32"/>
-<area shape="rect" id="node2" href="$class_connect_to_server.xhtml#a2ca5fc3ab94cacd35c3cc2b641e1b463" title=" " alt="" coords="243,5,427,32"/>
-</map>

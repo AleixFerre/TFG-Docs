@@ -1,5 +1,0 @@
-<map id="Photon.Pun.Demo.PunBasics.GameManager.OnPlayerEnteredRoom" name="Photon.Pun.Demo.PunBasics.GameManager.OnPlayerEnteredRoom">
-<area shape="rect" id="node1" title="Called when a Photon Player got connected." alt="" coords="5,5,249,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_game_manager.xhtml#a63783d4d9661b28b342f21146c5fd94f" title=" " alt="" coords="297,5,496,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a9aa7d7a2389b180e95c81921076ac056" title="This method wraps loading a level asynchronously and pausing network messages during the process." alt="" coords="544,5,731,47"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="Photon.Pun.Demo.PunBasics.CameraWork.OnStartFollowing" name="Photon.Pun.Demo.PunBasics.CameraWork.OnStartFollowing">
-<area shape="rect" id="node1" title="Raises the start following event." alt="" coords="252,71,453,112"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_camera_work.xhtml#a4fb707b5f4415ce3bf8242b1986520b1" title=" " alt="" coords="5,5,204,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_camera_work.xhtml#abb9e5890a94692f686b7280e34b22271" title="MonoBehaviour method called on GameObject by Unity during initialization phase" alt="" coords="5,71,204,112"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_player_manager.xhtml#af77eca63b14543aad1c244119b15d5fb" title="MonoBehaviour method called on GameObject by Unity during initialization phase." alt="" coords="5,136,204,177"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="PlayerStats.DealDamageRPC" name="PlayerStats.DealDamageRPC">
-<area shape="rect" id="node1" title=" " alt="" coords="5,35,200,61"/>
-<area shape="rect" id="node2" href="$class_player_stats.xhtml#a5caca2bd8f676341a2b269aea8a0f1ff" title="Function that implements what is done when this entity dies." alt="" coords="277,5,390,32"/>
-<area shape="rect" id="node5" href="$class_player_u_i_controller.xhtml#aca577b724c1f3f2ed54ad1165a7842c2" title="Sets the current HP value to the Image." alt="" coords="248,57,419,98"/>
-<area shape="rect" id="node3" href="$class_player_stats.xhtml#a95d085936404a6d0100b3780ec88edb4" title=" " alt="" coords="489,5,609,32"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a92bc79e36a53f2137e4b45e5162bdd7b" title="Call a RPC method of this GameObject on remote clients of this room (or on all, including this client..." alt="" coords="679,5,873,32"/>
-<area shape="rect" id="node6" href="$class_u_i_controller.xhtml#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="467,57,631,98"/>
-</map>

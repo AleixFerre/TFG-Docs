@@ -1,7 +1,0 @@
-<map id="Photon.Pun.Demo.SlotRacer.PlayerControl.SetupCarOnTrack" name="Photon.Pun.Demo.SlotRacer.PlayerControl.SetupCarOnTrack">
-<area shape="rect" id="node1" title="Setups the car on track." alt="" coords="5,13,212,54"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_spline_walker.xhtml#a06d0d6aeb98ca516d1e12caee5fa864c" title=" " alt="" coords="260,13,505,54"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#a882790bce850708c85428578c2eb1c2c" title=" " alt="" coords="553,5,751,61"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#a781ddf5344420bfeb2f5bf8413fcaa54" title=" " alt="" coords="799,13,992,54"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier.xhtml#a92b639bbe28e91ebf634d21804d19b50" title=" " alt="" coords="1040,13,1233,54"/>
-</map>

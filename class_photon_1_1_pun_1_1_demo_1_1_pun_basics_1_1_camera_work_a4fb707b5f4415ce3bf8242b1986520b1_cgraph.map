@@ -1,6 +1,0 @@
-<map id="Photon.Pun.Demo.PunBasics.CameraWork.LateUpdate" name="Photon.Pun.Demo.PunBasics.CameraWork.LateUpdate">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,204,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_camera_work.xhtml#a2d9a54c98a5c4be91a3d1c5af0459cd0" title="Follow the target smoothly" alt="" coords="253,5,452,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_camera_work.xhtml#a60e535ee79e36273332789ae1391e0eb" title="Raises the start following event." alt="" coords="252,71,453,112"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_camera_work.xhtml#ad0ae45574ae6fe8c4319d8ef72f80369" title=" " alt="" coords="501,71,700,112"/>
-</map>

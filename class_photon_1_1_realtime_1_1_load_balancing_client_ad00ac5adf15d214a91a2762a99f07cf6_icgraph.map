@@ -1,5 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingClient.OpJoinRandomRoom" name="Photon.Realtime.LoadBalancingClient.OpJoinRandomRoom">
-<area shape="rect" id="node1" title="Joins a random room that matches the filter." alt="" coords="320,39,527,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a875d4e8ae4a362db598eac33b5fb5313" title="Joins a random room that matches the filter." alt="" coords="45,5,232,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_demo_1_1_connect_and_join_random_lb.xhtml#a9892dfffa14371a343074e9bf96092f2" title="Called when the client is connected to the Master Server and ready for matchmaking and other tasks." alt="" coords="5,71,272,112"/>
-</map>

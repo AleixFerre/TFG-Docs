@@ -1,7 +1,0 @@
-<map id="Photon.Chat.ChatClient" name="Photon.Chat.ChatClient">
-<area shape="rect" id="node1" title="Central class of the Photon Chat API to connect, handle channels and messages." alt="" coords="193,171,351,197"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,81,144,108"/>
-<area shape="rect" id="node3" href="$interface_photon_1_1_chat_1_1_i_chat_client_listener.xhtml" title="Callback interface for Chat client side." alt="" coords="169,81,375,108"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_chat_1_1_chat_peer.xhtml" title="Provides basic operations of the Photon Chat server." alt="" coords="400,81,552,108"/>
-<area shape="rect" id="node5" title=" " alt="" coords="431,5,521,32"/>
-</map>

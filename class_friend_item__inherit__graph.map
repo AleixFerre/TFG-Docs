@@ -1,4 +1,0 @@
-<map id="FriendItem" name="FriendItem">
-<area shape="rect" id="node1" title="Friend UI item used to represent the friend status as well as message." alt="" coords="19,80,102,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,116,32"/>
-</map>

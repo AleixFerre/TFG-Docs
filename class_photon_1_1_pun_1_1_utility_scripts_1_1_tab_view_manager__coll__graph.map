@@ -1,7 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.TabViewManager" name="Photon.Pun.UtilityScripts.TabViewManager">
-<area shape="rect" id="node1" title="Tab view manager." alt="" coords="559,57,731,98"/>
-<area shape="rect" id="node2" title=" " alt="" coords="251,5,361,32"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_tab_view_manager_1_1_tab.xhtml" title=" " alt="" coords="220,57,392,98"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_tab_view_manager_1_1_tab_change_event.xhtml" title="Tab change event." alt="" coords="195,122,417,163"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,129,145,156"/>
-</map>

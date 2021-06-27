@@ -1,8 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.PhotonTeamsManager.OnDisable" name="Photon.Pun.UtilityScripts.PhotonTeamsManager.OnDisable">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,221,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a57cfef967101ace21866a6927b226b49" title=" " alt="" coords="269,5,495,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ab9dccde85539981763815278d55f5e27" title="Removes the target object from callbacks for its implemented callback&#45;interfaces." alt="" coords="289,71,475,112"/>
-<area shape="rect" id="node4" href="$interface_photon_1_1_pun_1_1_i_pun_ownership_callbacks.xhtml#a20d83cdb1516ef38cf1506181b067477" title="Called when another player requests ownership of a PhotonView." alt="" coords="549,5,758,47"/>
-<area shape="rect" id="node5" href="$interface_photon_1_1_pun_1_1_i_pun_ownership_callbacks.xhtml#ac538522c1aba77f1cc6475ca05787b0e" title="Called when ownership of a PhotonView is transfered to another player." alt="" coords="543,71,764,112"/>
-<area shape="rect" id="node6" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a2b479687e6c8f0d73661447c91e41a88" title="Unregisters an object from callbacks for the implemented callback&#45;interfaces." alt="" coords="550,136,757,177"/>
-</map>
