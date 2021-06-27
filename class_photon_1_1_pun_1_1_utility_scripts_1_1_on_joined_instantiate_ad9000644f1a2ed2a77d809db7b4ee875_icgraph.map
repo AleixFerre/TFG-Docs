@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.OnJoinedInstantiate.GetRandomOffset" name="Photon.Pun.UtilityScripts.OnJoinedInstantiate.GetRandomOffset">
+<area shape="rect" id="node1" title="When UseRandomeOffset is enabled, this method is called to produce a Vector3 offset." alt="" coords="284,5,527,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_on_joined_instantiate.xhtml#ae0da222aad517adee6e8d5d963586b8e" title="Gets the next SpawnPoint from the list using the SpawnSequence, and applies RandomOffset (if used) to..." alt="" coords="5,5,236,47"/>
+</map>

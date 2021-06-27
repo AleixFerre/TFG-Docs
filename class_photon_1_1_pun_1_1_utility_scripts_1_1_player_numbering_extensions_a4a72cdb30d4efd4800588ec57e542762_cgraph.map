@@ -1,0 +1,5 @@
+<map id="Photon.Pun.UtilityScripts.PlayerNumberingExtensions.SetPlayerNumber" name="Photon.Pun.UtilityScripts.PlayerNumberingExtensions.SetPlayerNumber">
+<area shape="rect" id="node1" title="Sets the player number." alt="" coords="5,31,252,87"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_player.xhtml#a73de822cb4ab788e9dce94795566a656" title="Updates and synchronizes this Player&#39;s Custom Properties." alt="" coords="300,5,483,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_player.xhtml#adc2ee499bb90ef7ca85999f8f01a6dac" title="String summary of the Player: player.ID, name and all custom properties of this user." alt="" coords="303,71,480,112"/>
+</map>

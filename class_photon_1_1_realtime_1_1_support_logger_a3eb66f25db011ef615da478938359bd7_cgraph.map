@@ -1,0 +1,5 @@
+<map id="Photon.Realtime.SupportLogger.OnCreateRoomFailed" name="Photon.Realtime.SupportLogger.OnCreateRoomFailed">
+<area shape="rect" id="node1" title="Called when the server couldn&#39;t create a room (OpCreateRoom failed)." alt="" coords="5,39,216,80"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_support_logger.xhtml#aa9fd97374270d9c14b0fd96d56d56fc0" title=" " alt="" coords="264,5,475,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_support_logger_1_1_debug.xhtml#a4aca16e5f5b089d5db20b5ad4474cce0" title=" " alt="" coords="264,71,475,112"/>
+</map>

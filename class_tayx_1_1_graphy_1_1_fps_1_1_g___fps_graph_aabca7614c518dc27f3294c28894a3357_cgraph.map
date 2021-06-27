@@ -1,0 +1,7 @@
+<map id="Tayx.Graphy.Fps.G_FpsGraph.Update" name="Tayx.Graphy.Fps.G_FpsGraph.Update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,209,112"/>
+<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_graph.xhtml#a02d3c97832d2dc91b4824f2c4a91eb3c" title="Updates the graph/s." alt="" coords="257,71,461,112"/>
+<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#a67831882b060d17c9d7a754546ef2e6b" title="Updates the average parameter in the material." alt="" coords="509,5,707,47"/>
+<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#a2a5905cd3809406d645ef762f86d9280" title="Updates the points in the graph with the set array of values." alt="" coords="509,71,707,112"/>
+<area shape="rect" id="node5" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#af57c3227f9ad5e7a55f17532749cbf18" title="Updates the thresholds in the material." alt="" coords="509,136,707,177"/>
+</map>

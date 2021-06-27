@@ -1,0 +1,16 @@
+<map id="Photon.Realtime.LoadBalancingClient.ConnectToNameServer" name="Photon.Realtime.LoadBalancingClient.ConnectToNameServer">
+<area shape="rect" id="node1" title="Connects to the NameServer for Photon Cloud, where a region and server list can be obtained." alt="" coords="1252,151,1459,193"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ad3c8b7c177d986ceea13dbfb858a4a79" title="Connect to the Photon Cloud region with the lowest ping (on platforms that support Unity&#39;s Ping)." alt="" coords="1007,86,1194,127"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#affac531c1eb7a4d77326135150f19b7e" title="Uses the connection&#39;s statusCodes to advance the internal state and call operations as needed." alt="" coords="997,151,1204,193"/>
+<area shape="rect" id="node14" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a68f4e2a8a556a5d754f19a9bcf482cc2" title="in progress, not fully working" alt="" coords="1011,217,1191,258"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#aa1e25a33ff6d9e679ebb0f1738c5f7fd" title=" " alt="" coords="735,5,949,61"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ae031208b657a2e01d80ddf4b02d0d23f" title=" " alt="" coords="749,86,935,127"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a1da1c658340e7ecf28575b720104b122" title="Makes this client disconnect from the photon server, a process that leaves any room and calls OnDisco..." alt="" coords="749,151,935,193"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_demo_1_1_hub_1_1_to_demo_hub_button.xhtml#a83cf2b61cc387ebc9fc311480833e857" title=" " alt="" coords="464,21,671,62"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a1cc72ee5a728acc04e81d411d88d6179" title=" " alt="" coords="477,86,657,127"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_photon_editor.xhtml#a8ff69bf37b897f6afb973016c09fa65e" title=" " alt="" coords="481,151,654,193"/>
+<area shape="rect" id="node12" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_states_gui.xhtml#a414fd2160f0bd79c9a6826cb31f8006a" title=" " alt="" coords="481,217,653,258"/>
+<area shape="rect" id="node13" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#aab2bcc420ff0aadcf299d2704bccd5dd" title="Called when the local user/client left a room, so the game&#39;s logic can clean up it&#39;s internal state." alt="" coords="448,282,687,323"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_photon_editor.xhtml#af1f1cae280c6374bd45f8863ad1f30f8" title=" " alt="" coords="227,151,400,193"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_pun_1_1_photon_editor.xhtml#a6f2a81525fca83b7245f023595015253" title=" " alt="" coords="5,151,179,193"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Photon.Realtime.ConnectionCallbacksContainer.OnConnectedToMaster" name="Photon.Realtime.ConnectionCallbacksContainer.OnConnectedToMaster">
+<area shape="rect" id="node1" title="Called when the client is connected to the Master Server and ready for matchmaking and other tasks." alt="" coords="5,5,223,61"/>
+<area shape="rect" id="node2" href="$interface_photon_1_1_realtime_1_1_i_connection_callbacks.xhtml#a52dfd77079d550168c7ff7aa0ce01a6c" title="Called when the client is connected to the Master Server and ready for matchmaking and other tasks." alt="" coords="271,13,487,54"/>
+</map>

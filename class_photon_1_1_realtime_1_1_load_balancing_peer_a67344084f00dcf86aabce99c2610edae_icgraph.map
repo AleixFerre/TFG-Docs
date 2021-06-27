@@ -1,0 +1,14 @@
+<map id="Photon.Realtime.LoadBalancingPeer.OpCreateRoom" name="Photon.Realtime.LoadBalancingPeer.OpCreateRoom">
+<area shape="rect" id="node1" title="Creates a room (on either Master or Game Server)." alt="" coords="869,205,1076,246"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aae79523656b407a63d1112528093d953" title="Uses the OperationResponses provided by the server to advance the internal state and call ops as need..." alt="" coords="615,171,821,213"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#ac5360b52a4284e623f41b0f870843342" title="Creates a new room." alt="" coords="615,237,821,278"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a755417a54b55bdb92361dc74b4a09953" title="Creates a new room." alt="" coords="345,203,531,245"/>
+<area shape="rect" id="node12" href="$class_photon_1_1_realtime_1_1_demo_1_1_connect_and_join_random_lb.xhtml#a87c1e195c79cdfbf18644f0c1fbd360b" title="Called when a previous OpJoinRandom call failed on the server." alt="" coords="309,269,567,310"/>
+<area shape="rect" id="node5" href="$class_main_menu.xhtml#ad1ecd6c8eea2c5f5531906486e1f0040" title=" " alt="" coords="54,5,213,32"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#af748530e9da9ad5a1d411191b5930df9" title=" " alt="" coords="43,57,223,98"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#add3669bfe4f0772f5a98655b4be816d6" title=" " alt="" coords="9,123,258,179"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_states_gui.xhtml#a414fd2160f0bd79c9a6826cb31f8006a" title=" " alt="" coords="47,203,219,245"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a7a3bee5bbe6b6089b3356fddcc01843b" title="Called when a previous OpJoinRandom call failed on the server." alt="" coords="11,269,256,310"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_launcher.xhtml#a89c3b0ab473f7be7c1240230a8a70ec7" title="Called when a JoinRandom() call failed." alt="" coords="32,334,235,375"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_connect_and_join_random.xhtml#ad46a9fab53a0b38efbb4f5963bc902fe" title="Called when a previous OpJoinRandom call failed on the server." alt="" coords="5,400,261,456"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="Photon.Pun.PhotonNetwork.Instantiate" name="Photon.Pun.PhotonNetwork.Instantiate">
+<area shape="rect" id="node1" title=" " alt="" coords="852,260,1039,301"/>
+<area shape="rect" id="node2" href="$class_basic_attack.xhtml#ad8c0baca6db1fe663aebf592bcc6c2f2" title=" " alt="" coords="589,5,790,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_on_click_instantiate.xhtml#ac8ffc0e518ea6ef18d62039fdbf9de08" title=" " alt="" coords="580,71,799,112"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_on_joined_instantiate.xhtml#a9773f06a13ab245f2fa071ec38dbb849" title=" " alt="" coords="577,136,801,177"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_game_manager.xhtml#a973aa2181aa1e1369b45353a5a636654" title="MonoBehaviour method called on GameObject by Unity during initialization phase." alt="" coords="590,201,789,243"/>
+<area shape="rect" id="node8" href="$class_game_controller.xhtml#a97788a7aa0f09c8d748781683e5f045b" title=" " alt="" coords="617,267,761,294"/>
+<area shape="rect" id="node9" href="$class_player_controller.xhtml#ae1117d9c4da3193181cddad2c814e467" title=" " alt="" coords="616,318,763,345"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#a8f0cbc452ca5141a8e777bef5794c0f1" title=" " alt="" coords="575,369,804,411"/>
+<area shape="rect" id="node14" href="$class_ability___instanciable.xhtml#acd9b521d5e3e7b9d8b9e6d46c5e43f3e" title=" " alt="" coords="601,435,778,476"/>
+<area shape="rect" id="node15" href="$class_ability___player_relative.xhtml#a74129ed38e185f90a00ec9924a3ecdbb" title=" " alt="" coords="594,500,785,541"/>
+<area shape="rect" id="node3" href="$class_model_player_mediator.xhtml#a3ed3668391fbccbd3a0f19394333baa6" title=" " alt="" coords="299,5,507,47"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_on_joined_instantiate.xhtml#a107f60bb378b3d63f76cf333319f749d" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="289,136,517,177"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#a3651fb672cdb24b35a534135ad9c607d" title=" " alt="" coords="280,362,527,418"/>
+<area shape="rect" id="node12" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#aaabb84195392790ecfa4c21c5028aaf0" title=" " alt="" coords="5,336,232,377"/>
+<area shape="rect" id="node13" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#ab79592fe0c9dd5e839c1dab28ab68a9a" title=" " alt="" coords="7,401,230,443"/>
+</map>

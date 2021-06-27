@@ -1,0 +1,5 @@
+<map id="DoxyRunner.Run" name="DoxyRunner.Run">
+<area shape="rect" id="node1" title="Runs the specified executable with the provided arguments and returns the process&#39; exit code." alt="" coords="5,31,125,57"/>
+<area shape="rect" id="node2" href="$class_doxy_runner.xhtml#a9e1ad0bb37f42899aeac2e2fb59cb769" title="Quotes all arguments that contain whitespace, or begin with a quote and returns a single argument str..." alt="" coords="173,5,377,32"/>
+<area shape="rect" id="node3" href="$class_doxy_runner.xhtml#a0923bf6769c3b99b4fb8e9ce67877a94" title="Expands environment variables and, if unqualified, locates the exe in the working directory or the ev..." alt="" coords="189,56,361,83"/>
+</map>

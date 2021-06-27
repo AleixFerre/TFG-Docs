@@ -1,0 +1,12 @@
+<map id="ChatGui" name="ChatGui">
+<area shape="rect" id="node1" title="This simple Chat UI demonstrate basics usages of the Chat Api" alt="" coords="820,91,889,117"/>
+<area shape="rect" id="node2" title=" " alt="" coords="500,5,611,32"/>
+<area shape="rect" id="node3" href="$interface_photon_1_1_chat_1_1_i_chat_client_listener.xhtml" title="Callback interface for Chat client side." alt="" coords="490,56,621,83"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_chat_1_1_chat_client.xhtml" title="Central class of the Photon Chat API to connect, handle channels and messages." alt="" coords="476,107,635,133"/>
+<area shape="rect" id="node5" title=" " alt="" coords="179,56,318,83"/>
+<area shape="rect" id="node6" href="$interface_photon_1_1_chat_1_1_i_chat_client_listener.xhtml" title="Callback interface for Chat client side." alt="" coords="145,107,352,133"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_chat_1_1_chat_peer.xhtml" title="Provides basic operations of the Photon Chat server." alt="" coords="173,157,325,184"/>
+<area shape="rect" id="node8" title=" " alt="" coords="5,157,96,184"/>
+<area shape="rect" id="node9" title=" " alt="" coords="532,165,579,192"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_chat_1_1_chat_app_settings.xhtml" title="Settings for Photon application(s) and the server to connect to." alt="" coords="457,216,653,243"/>
+</map>

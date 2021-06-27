@@ -1,0 +1,4 @@
+<map id="PlayerStats.DealDamage" name="PlayerStats.DealDamage">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a92bc79e36a53f2137e4b45e5162bdd7b" title="Call a RPC method of this GameObject on remote clients of this room (or on all, including this client..." alt="" coords="221,5,416,32"/>
+</map>

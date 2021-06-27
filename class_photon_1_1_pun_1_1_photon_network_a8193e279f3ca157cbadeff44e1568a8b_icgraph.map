@@ -1,0 +1,4 @@
+<map id="Photon.Pun.PhotonNetwork.AllocateRoomViewID" name="Photon.Pun.PhotonNetwork.AllocateRoomViewID">
+<area shape="rect" id="node1" title="Enables the Master Client to allocate a viewID for room objects." alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a6a88396fedad4f37ff61e289b180559e" title=" " alt="" coords="5,5,192,47"/>
+</map>

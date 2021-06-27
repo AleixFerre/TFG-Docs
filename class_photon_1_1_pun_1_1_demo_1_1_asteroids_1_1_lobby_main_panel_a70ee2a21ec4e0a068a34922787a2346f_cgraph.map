@@ -1,0 +1,5 @@
+<map id="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnJoinRandomRoomButtonClicked" name="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnJoinRandomRoomButtonClicked">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,249,87"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aff48055ef5c0ffb25fad9c8a8e04f50f" title="Joins a random room that matches the filter." alt="" coords="309,5,496,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#ae0f058a2d1732456fd5c65f2ad8a99dc" title=" " alt="" coords="297,71,508,112"/>
+</map>

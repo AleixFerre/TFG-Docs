@@ -1,0 +1,6 @@
+<map id="Tayx.Graphy.GraphyDebugger.GetRequestedValueFromDebugVariable" name="Tayx.Graphy.GraphyDebugger.GetRequestedValueFromDebugVariable">
+<area shape="rect" id="node1" title="Obtains the requested value from the specified variable." alt="" coords="753,5,1005,47"/>
+<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_graphy_debugger.xhtml#aeab01bc7a2a6c73d5752f6e2692b84ee" title="Returns true if a condition is met." alt="" coords="504,5,705,47"/>
+<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_graphy_debugger.xhtml#ac8fcf29d989dae663b9ad7256b8d6096" title="Checks all the Debug Packets to see if they have to be executed." alt="" coords="255,5,456,47"/>
+<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_graphy_debugger.xhtml#afa8764cb2a8cd8394270613b67ddb889" title=" " alt="" coords="5,5,207,47"/>
+</map>

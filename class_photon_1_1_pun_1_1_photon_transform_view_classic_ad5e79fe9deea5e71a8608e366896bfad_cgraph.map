@@ -1,0 +1,13 @@
+<map id="Photon.Pun.PhotonTransformViewClassic.OnPhotonSerializeView" name="Photon.Pun.PhotonTransformViewClassic.OnPhotonSerializeView">
+<area shape="rect" id="node1" title="Called by PUN several times per second, so that your script can write and read synchronization data f..." alt="" coords="5,195,239,237"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_transform_view_position_control.xhtml#a405f84b3bf8aac0ca7121ba0f4508e67" title="Gets the last position that was received through the network" alt="" coords="321,5,531,61"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_transform_view_rotation_control.xhtml#affa47dab8540da289dd2644d75c89100" title="Gets the last rotation that was received through the network" alt="" coords="321,85,531,141"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_transform_view_scale_control.xhtml#a4b2071b81dd9508283553676bb077996" title="Gets the last scale that was received through the network" alt="" coords="311,166,541,207"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_transform_view_rotation_control.xhtml#a8eec6613797ed8d43f98dde34c016221" title=" " alt="" coords="613,315,892,357"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_photon_transform_view_position_control.xhtml#a2cdc231368e9d46379e9b6658ef03557" title=" " alt="" coords="287,334,565,375"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_pun_1_1_photon_transform_view_scale_control.xhtml#a76355e21d2aa0005fdf8e0ab130e16c1" title=" " alt="" coords="621,185,885,226"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#a50038b09fdec1b4d1072c9f8b5a231dc" title="Read next piece of data from the stream when IsReading is true." alt="" coords="940,250,1121,291"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#adf067be77d2034b07fd696d97110a57a" title="Add another piece of data to send it when IsWriting is true." alt="" coords="940,315,1121,357"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_photon_transform_view_position_control.xhtml#aac20104d2e19337d24f61849ebcdbdd9" title=" " alt="" coords="636,250,869,291"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_photon_transform_view_position_control.xhtml#a332f91b81ef8aa7a2ebd54af7a581f01" title=" " alt="" coords="643,381,862,422"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Ability_Lis4.OnTriggerExit" name="Ability_Lis4.OnTriggerExit">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,177,32"/>
+<area shape="rect" id="node2" href="$class_ability_base.xhtml#add0b200b1767eda2024849eb72821340" title="Funció generica que retorna null si no és un objectiu valid o el component concret de Stats de l&#39;obje..." alt="" coords="225,5,369,32"/>
+</map>

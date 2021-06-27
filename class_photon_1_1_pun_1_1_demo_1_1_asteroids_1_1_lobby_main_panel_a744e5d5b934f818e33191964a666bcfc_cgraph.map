@@ -1,0 +1,4 @@
+<map id="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnJoinRoomFailed" name="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnJoinRoomFailed">
+<area shape="rect" id="node1" title="Called when a previous OpJoinRoom call failed on the server." alt="" coords="5,5,236,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#ae0f058a2d1732456fd5c65f2ad8a99dc" title=" " alt="" coords="284,5,495,47"/>
+</map>

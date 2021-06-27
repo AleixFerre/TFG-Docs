@@ -1,0 +1,7 @@
+<map id="Tayx.Graphy.GraphyManager.SetModulePosition" name="Tayx.Graphy.GraphyManager.SetModulePosition">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,201,145"/>
+<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a0e5e65da50bc546e002b4a3eb04bb32a" title="Sets the position of the module." alt="" coords="273,5,455,47"/>
+<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_manager.xhtml#a67d3972a35762f59378be42c0021652f" title="Sets the position of the module." alt="" coords="273,71,455,112"/>
+<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_manager.xhtml#a5e6eacb402913740f54045950953d6b4" title="Sets the position of the module." alt="" coords="255,136,473,177"/>
+<area shape="rect" id="node5" href="$class_tayx_1_1_graphy_1_1_ram_1_1_g___ram_manager.xhtml#a4b0b2224234a738b775e5184f2b759a6" title="Sets the position of the module." alt="" coords="249,201,479,243"/>
+</map>

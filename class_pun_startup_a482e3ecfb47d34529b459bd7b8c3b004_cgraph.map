@@ -1,0 +1,7 @@
+<map id="PunStartup.PunStartup" name="PunStartup.PunStartup">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,161,61"/>
+<area shape="rect" id="node2" href="$class_pun_startup.xhtml#a0e8ad86daded478ee21810ed830e2e9e" title=" " alt="" coords="209,35,359,61"/>
+<area shape="rect" id="node3" href="$class_pun_startup.xhtml#aeb6f03ee929aaee7306973dbe8c87027" title=" " alt="" coords="407,5,605,32"/>
+<area shape="rect" id="node5" href="$class_pun_startup.xhtml#a3d101e19ce41fd17486cfd3bd74ff65c" title="Finds scenes in &quot;Assets/Photon Unity Networking/Demos/&quot;, excludes those in folder &quot;PUNGuide_M2H&quot; and ..." alt="" coords="407,57,605,98"/>
+<area shape="rect" id="node4" href="$class_pun_startup.xhtml#a76c2bc0eefa7ba641adf538a91768543" title="Finds the asset path base on its name or search query: https://docs.unity3d.com/ScriptReference/Asset..." alt="" coords="653,5,831,32"/>
+</map>

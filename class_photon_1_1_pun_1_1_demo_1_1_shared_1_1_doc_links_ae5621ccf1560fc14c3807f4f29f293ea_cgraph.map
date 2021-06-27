@@ -1,0 +1,5 @@
+<map id="Photon.Pun.Demo.Shared.DocLinks.GetLink" name="Photon.Pun.Demo.Shared.DocLinks.GetLink">
+<area shape="rect" id="node1" title="Gets a documentation link given a reference" alt="" coords="5,39,205,80"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_shared_1_1_doc_links.xhtml#ae8fdf31ec4ea1b25b6e5e87e9e78c17d" title="Gets the API link given a reference" alt="" coords="253,5,453,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_shared_1_1_doc_links.xhtml#a836b8604a14c6c2b0cbf2388773c35c9" title="Gets the Doc link given a reference" alt="" coords="253,71,453,112"/>
+</map>

@@ -1,5 +1,5 @@
 var namespace_unity_standard_assets_1_1_characters_1_1_third_person_1_1_pun_demos =
 [
-    [ "ThirdPersonCharacter", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_pun_demos_1_1_third_person_character.html", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_pun_demos_1_1_third_person_character" ],
-    [ "ThirdPersonUserControl", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_pun_demos_1_1_third_person_user_control.html", null ]
+    [ "ThirdPersonCharacter", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_pun_demos_1_1_third_person_character.xhtml", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_pun_demos_1_1_third_person_character" ],
+    [ "ThirdPersonUserControl", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_pun_demos_1_1_third_person_user_control.xhtml", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_pun_demos_1_1_third_person_user_control" ]
 ];

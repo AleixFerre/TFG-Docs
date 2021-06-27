@@ -1,0 +1,4 @@
+<map id="Tayx.Graphy.GraphyDebugger.RemoveFirstDebugPacketWithId" name="Tayx.Graphy.GraphyDebugger.RemoveFirstDebugPacketWithId">
+<area shape="rect" id="node1" title="Removes the first Packet with the specified ID in the DebugPacket list." alt="" coords="5,5,215,47"/>
+<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_graphy_debugger.xhtml#ac685ec11a8d70facfa737dd43b8f1df9" title="Returns the first Packet with the specified ID in the DebugPacket list." alt="" coords="263,5,464,47"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Photon.Pun.UtilityScripts.CullAreaEditor" name="Photon.Pun.UtilityScripts.CullAreaEditor">
+<area shape="rect" id="node1" title=" " alt="" coords="5,185,177,227"/>
+<area shape="rect" id="node2" title=" " alt="" coords="42,89,98,115"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml" title="Represents the cull area used for network culling." alt="" coords="123,81,295,123"/>
+<area shape="rect" id="node4" title=" " alt="" coords="153,5,264,32"/>
+</map>

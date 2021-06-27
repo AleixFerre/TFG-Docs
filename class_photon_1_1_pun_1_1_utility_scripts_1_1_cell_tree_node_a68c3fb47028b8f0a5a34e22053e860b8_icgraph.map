@@ -1,0 +1,7 @@
+<map id="Photon.Pun.UtilityScripts.CellTreeNode.IsPointNearCell" name="Photon.Pun.UtilityScripts.CellTreeNode.IsPointNearCell">
+<area shape="rect" id="node1" title="Checks if the given point is near the cell." alt="" coords="931,29,1123,71"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#af28e9793abfacb2c8729d6399979e371" title="Gathers all cell IDs the player is currently inside or nearby." alt="" coords="695,29,883,71"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#a35fb2db8c9dda9a88e4890e1a8b3bc88" title="Gets a list of all cell IDs the player is currently inside or nearby." alt="" coords="475,29,647,71"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_culling_handler.xhtml#a99d4b1ca81941ebcbf7291c3bc9e72d4" title="Checks if the previously active cells have changed." alt="" coords="225,22,427,78"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_culling_handler.xhtml#a852d51f8f6f2cfd3184cf284594172e8" title="Checks if the player has moved previously and updates the interest groups if necessary." alt="" coords="5,29,177,71"/>
+</map>

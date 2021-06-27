@@ -1,0 +1,4 @@
+<map id="PlayerUIController.UpdateCurrentLevel" name="PlayerUIController.UpdateCurrentLevel">
+<area shape="rect" id="node1" title="Sets the current level and xp to the Image." alt="" coords="5,5,176,47"/>
+<area shape="rect" id="node2" href="$class_u_i_controller.xhtml#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="224,5,388,47"/>
+</map>

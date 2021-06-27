@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.CullArea.CreateChildCells" name="Photon.Pun.UtilityScripts.CullArea.CreateChildCells">
+<area shape="rect" id="node1" title="Creates all child cells." alt="" coords="5,5,177,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#a78317fb3d1cfb3497364fef005176930" title="Adds the given child to the node." alt="" coords="225,5,397,47"/>
+</map>

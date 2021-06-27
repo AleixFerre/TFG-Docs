@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.PunTurnManager.OnRoomPropertiesUpdate" name="Photon.Pun.UtilityScripts.PunTurnManager.OnRoomPropertiesUpdate">
+<area shape="rect" id="node1" title="Called by PhotonNetwork" alt="" coords="5,5,240,61"/>
+<area shape="rect" id="node2" href="$interface_photon_1_1_pun_1_1_utility_scripts_1_1_i_pun_turn_manager_callbacks.xhtml#acd12eabdddc7d9d7fcc28d5699e13a0c" title="Called the turn begins event." alt="" coords="288,5,515,61"/>
+</map>

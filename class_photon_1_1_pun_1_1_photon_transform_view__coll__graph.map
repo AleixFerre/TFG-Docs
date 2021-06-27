@@ -1,0 +1,8 @@
+<map id="Photon.Pun.PhotonTransformView" name="Photon.Pun.PhotonTransformView">
+<area shape="rect" id="node1" title=" " alt="" coords="81,275,301,301"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_mono_behaviour_pun.xhtml" title="This class adds the property photonView, while logging a warning when your game still uses the networ..." alt="" coords="15,199,149,225"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_view.xhtml" title="A PhotonView identifies an object across the network (viewID) and configures how the controlling clie..." alt="" coords="98,109,261,136"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_player.xhtml" title="Summarizes a &quot;player&quot; within a room, identified (in that room) by ID (or &quot;actorNumber&quot;)." alt="" coords="140,5,299,32"/>
+<area shape="rect" id="node6" href="$interface_photon_1_1_pun_1_1_i_pun_observable.xhtml" title="Defines the OnPhotonSerializeView method to make it easy to implement correctly for observable script..." alt="" coords="173,199,285,225"/>
+</map>

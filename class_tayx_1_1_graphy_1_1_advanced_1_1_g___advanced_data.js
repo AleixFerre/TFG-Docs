@@ -1,8 +1,28 @@
 var class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data =
 [
-    [ "RefreshParameters", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.html#ab2e2d1708795b0341799db4b7135da5d", null ],
-    [ "RestorePreviousState", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.html#aa66be7c203f90b432ea5a23aac02ec65", null ],
-    [ "SetPosition", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.html#a0e5e65da50bc546e002b4a3eb04bb32a", null ],
-    [ "SetState", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.html#ac91888d741e22b8802e3d38323e6e0cd", null ],
-    [ "UpdateParameters", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.html#ae4e2e7a4ec9be72ea53970601637f8fd", null ]
+    [ "Init", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a2092a4aebd0008fddf83bd40c9bd7712", null ],
+    [ "OnEnable", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a27dc840460b80ace5f3610035e41d69b", null ],
+    [ "RefreshParameters", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#ab2e2d1708795b0341799db4b7135da5d", null ],
+    [ "RestorePreviousState", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#aa66be7c203f90b432ea5a23aac02ec65", null ],
+    [ "SetPosition", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a0e5e65da50bc546e002b4a3eb04bb32a", null ],
+    [ "SetState", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#ac91888d741e22b8802e3d38323e6e0cd", null ],
+    [ "Update", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a591f9becfd2aa0d184b08f901951a426", null ],
+    [ "UpdateParameters", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#ae4e2e7a4ec9be72ea53970601637f8fd", null ],
+    [ "m_backgroundImages", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a261cbe6ab0c25344b87f4d0947b9f55d", null ],
+    [ "m_currentModuleState", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a3627caec6cb2d7fed01439a6e9688095", null ],
+    [ "m_deltaTime", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#abeb6bc5ebef901575398c8032645fea7", null ],
+    [ "m_gameWindowResolutionText", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a1e21030a360594c5df6ae95f7f4070ad", null ],
+    [ "m_graphicsDeviceNameText", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a766b7ea3be22b737da02eaa004d9caeb", null ],
+    [ "m_graphicsDeviceVersionText", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a446e7ab38b2ab888f669ccfaeda90bad", null ],
+    [ "m_graphicsMemorySizeText", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#ad1100fa41beee1e0cdcad0ee6963c585", null ],
+    [ "m_graphyManager", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a2b7d804260fd715e800de91b5d158239", null ],
+    [ "m_operatingSystemText", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a1706ed419f49475b62b9c6439c3e6e3e", null ],
+    [ "m_previousModuleState", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a9b2bb8f7f621a5c59ec6827dbcee4836", null ],
+    [ "m_processorTypeText", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#ae314af39dcceec3be48b9accced9b604", null ],
+    [ "m_rectTransform", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#aa4690a0b3147f409cda4fa50c03d5cc3", null ],
+    [ "m_sb", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#ab896f4a40782147c68dccf32146f845f", null ],
+    [ "m_screenResolutionText", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#abe64c46ca7071844d9a067c75382f6e9", null ],
+    [ "m_systemMemoryText", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#ada6f576ce56e3228ce33c07a5f4cf729", null ],
+    [ "m_updateRate", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#aebc729c0c825173baaa0d499976e4097", null ],
+    [ "m_windowStrings", "class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a6f97b65fd10d49b6199269e816a435b0", null ]
 ];

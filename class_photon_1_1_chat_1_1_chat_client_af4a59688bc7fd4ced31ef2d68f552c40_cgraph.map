@@ -1,0 +1,9 @@
+<map id="Photon.Chat.ChatClient.OnStatusChanged" name="Photon.Chat.ChatClient.OnStatusChanged">
+<area shape="rect" id="node1" title=" " alt="" coords="5,123,184,164"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a021fb122f4ed3a4dccaa6d5583a85c22" title=" " alt="" coords="232,5,467,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_chat_1_1_chat_peer.xhtml#afc6fce926fbdd0512c2940c1a914f4e7" title="Connects to NameServer." alt="" coords="527,101,731,127"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#aa8b24c8d99ef4691becf5e7d7e2bf0b8" title=" " alt="" coords="244,123,455,164"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a9eac49b1efa140099bd95f95df3cc8c2" title="Disconnects from the Chat Server by sending a &quot;disconnect command&quot;, which prevents a timeout server&#45;s..." alt="" coords="236,189,463,215"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a2ca62421358371f177157f7340713e91" title=" " alt="" coords="258,240,441,281"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_chat_1_1_chat_peer.xhtml#ab0b363cadd9e032f5572e8b59f398ec8" title="Authenticates on NameServer." alt="" coords="515,240,744,281"/>
+</map>

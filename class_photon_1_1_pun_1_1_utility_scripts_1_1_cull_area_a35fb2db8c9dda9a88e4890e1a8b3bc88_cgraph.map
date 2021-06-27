@@ -1,0 +1,6 @@
+<map id="Photon.Pun.UtilityScripts.CullArea.GetActiveCells" name="Photon.Pun.UtilityScripts.CullArea.GetActiveCells">
+<area shape="rect" id="node1" title="Gets a list of all cell IDs the player is currently inside or nearby." alt="" coords="5,39,177,80"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#af28e9793abfacb2c8729d6399979e371" title="Gathers all cell IDs the player is currently inside or nearby." alt="" coords="225,39,413,80"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#a2c550fbbf2ed973dc8c2f093721b2ccd" title="Checks if the given point is inside the cell." alt="" coords="461,5,660,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#a68c3fb47028b8f0a5a34e22053e860b8" title="Checks if the given point is near the cell." alt="" coords="465,71,657,112"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Tayx.Graphy.Audio.G_AudioGraph.UpdateParameters" name="Tayx.Graphy.Audio.G_AudioGraph.UpdateParameters">
+<area shape="rect" id="node1" title=" " alt="" coords="5,137,215,179"/>
+<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_graph.xhtml#a8402c6f4decc0ed051e2a3afd42c4cc8" title="Creates the points for the graph/s." alt="" coords="273,104,449,145"/>
+<area shape="rect" id="node7" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#a531ef44ced25f9686183cc7c46ca3920" title="This is done to avoid a design problem that arrays in shaders have, and should be called before initi..." alt="" coords="263,169,460,211"/>
+<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#ac039f519ec84d521e44bf8f9b90ff7e8" title="Updates the material linked with this shader graph with the values in the float[] array." alt="" coords="508,5,705,47"/>
+<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#a67831882b060d17c9d7a754546ef2e6b" title="Updates the average parameter in the material." alt="" coords="508,71,705,112"/>
+<area shape="rect" id="node5" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#ac4ec72181f804fc7e8516292bd3a5995" title="Updates the colors in the material." alt="" coords="508,136,705,177"/>
+<area shape="rect" id="node6" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#af57c3227f9ad5e7a55f17532749cbf18" title="Updates the thresholds in the material." alt="" coords="508,201,705,243"/>
+</map>

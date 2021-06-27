@@ -1,6 +1,6 @@
 var modules =
 [
-    [ "Public API", "group__public_api.html", "group__public_api" ],
-    [ "Optional Gui Elements", "group__optional_gui.html", "group__optional_gui" ],
-    [ "Callbacks", "group__callbacks.html", "group__callbacks" ]
+    [ "Public API", "group__public_api.xhtml", "group__public_api" ],
+    [ "Optional Gui Elements", "group__optional_gui.xhtml", "group__optional_gui" ],
+    [ "Callbacks", "group__callbacks.xhtml", "group__callbacks" ]
 ];

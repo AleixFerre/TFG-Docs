@@ -1,0 +1,7 @@
+<map id="Photon.Pun.Demo.WebRpcImplementationExample.OnEnable" name="Photon.Pun.Demo.WebRpcImplementationExample.OnEnable">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,276,112"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ab6df1ed60be8a3f494683b8faa28ee4a" title="Registers an object for callbacks for the implemented callback&#45;interfaces." alt="" coords="324,71,511,112"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a7eccc149073296a316965f2ce96d08d3" title="Registers an object for callbacks for the implemented callback&#45;interfaces." alt="" coords="566,5,773,47"/>
+<area shape="rect" id="node4" href="$interface_photon_1_1_pun_1_1_i_pun_ownership_callbacks.xhtml#a20d83cdb1516ef38cf1506181b067477" title="Called when another player requests ownership of a PhotonView." alt="" coords="565,71,774,112"/>
+<area shape="rect" id="node5" href="$interface_photon_1_1_pun_1_1_i_pun_ownership_callbacks.xhtml#ac538522c1aba77f1cc6475ca05787b0e" title="Called when ownership of a PhotonView is transfered to another player." alt="" coords="559,136,780,177"/>
+</map>

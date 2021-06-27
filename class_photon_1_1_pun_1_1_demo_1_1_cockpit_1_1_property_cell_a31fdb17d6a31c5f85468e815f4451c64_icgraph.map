@@ -1,0 +1,12 @@
+<map id="Photon.Pun.Demo.Cockpit.PropertyCell.UpdateUIPing" name="Photon.Pun.Demo.Cockpit.PropertyCell.UpdateUIPing">
+<area shape="rect" id="node1" title=" " alt="" coords="1465,53,1645,94"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_property_cell.xhtml#a931845bc2e9c633224558d2abd8b3a6f" title=" " alt="" coords="1237,53,1417,94"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_property_cell.xhtml#a08df30821595f55e1e081a0cd0299c99" title=" " alt="" coords="1009,53,1189,94"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_details_controller.xhtml#abae22d4d627b12989c84e6bda1543ec4" title=" " alt="" coords="731,53,961,94"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_details_controller.xhtml#ae963804d4c31673d9acd34feb0bf1938" title=" " alt="" coords="469,5,681,61"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_details_controller.xhtml#a776c1d2fe05ed563cfe017dd89070a46" title=" " alt="" coords="468,85,683,141"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a9dd2f362c48c02ed49c82785d5cc35ad" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="236,59,417,101"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_list_view.xhtml#a1ddf537ecc953a44a76d5ffee69f87ab" title=" " alt="" coords="233,125,420,166"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a96d91c8a4398280fb582bd516bf147f6" title=" " alt="" coords="5,59,185,101"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_list_cell.xhtml#ac603eaad9dca22ba6650861035c067f4" title=" " alt="" coords="5,125,185,166"/>
+</map>

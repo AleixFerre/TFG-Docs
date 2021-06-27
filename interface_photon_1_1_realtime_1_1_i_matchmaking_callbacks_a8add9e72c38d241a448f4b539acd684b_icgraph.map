@@ -1,0 +1,24 @@
+<map id="Photon.Realtime.IMatchmakingCallbacks.OnJoinedRoom" name="Photon.Realtime.IMatchmakingCallbacks.OnJoinedRoom">
+<area shape="rect" id="node1" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="1113,597,1316,638"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_match_making_callbacks_container.xhtml#a5f91efa8551b2be7524bb4c6fb6da57a" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="839,597,1065,638"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a82287a4a3bbfd5125fc858ae3805481c" title="Internally used helper&#45;method to setup an offline room, the numbers for actor and master&#45;client and t..." alt="" coords="584,466,771,507"/>
+<area shape="rect" id="node18" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#af70aa958d1dbc82306594c23e4027403" title="Called internally, when a game was joined or created on the game server successfully." alt="" coords="564,597,791,638"/>
+<area shape="rect" id="node20" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a67588b3c7738622008b4156adf5be714" title="Uses the photonEvent&#39;s provided by the server to advance the internal state and call ops as needed." alt="" coords="574,662,781,703"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a755417a54b55bdb92361dc74b4a09953" title="Creates a new room." alt="" coords="319,237,506,278"/>
+<area shape="rect" id="node12" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a1a8502c779302e9b39db304e4f533feb" title="Joins a specific room by name and creates it on demand." alt="" coords="319,401,506,442"/>
+<area shape="rect" id="node13" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a875d4e8ae4a362db598eac33b5fb5313" title="Joins a random room that matches the filter." alt="" coords="319,466,506,507"/>
+<area shape="rect" id="node14" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ae4640a50e5a883807370aaa4a4d6102d" title="Joins a room by name." alt="" coords="319,531,506,573"/>
+<area shape="rect" id="node5" href="$class_main_menu.xhtml#ad1ecd6c8eea2c5f5531906486e1f0040" title=" " alt="" coords="54,5,213,32"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#af748530e9da9ad5a1d411191b5930df9" title=" " alt="" coords="43,57,223,98"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#add3669bfe4f0772f5a98655b4be816d6" title=" " alt="" coords="9,123,258,179"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_states_gui.xhtml#a414fd2160f0bd79c9a6826cb31f8006a" title=" " alt="" coords="47,203,219,245"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a7a3bee5bbe6b6089b3356fddcc01843b" title="Called when a previous OpJoinRandom call failed on the server." alt="" coords="11,269,256,310"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_launcher.xhtml#a89c3b0ab473f7be7c1240230a8a70ec7" title="Called when a JoinRandom() call failed." alt="" coords="32,334,235,375"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_connect_and_join_random.xhtml#ad46a9fab53a0b38efbb4f5963bc902fe" title="Called when a previous OpJoinRandom call failed on the server." alt="" coords="5,400,261,456"/>
+<area shape="rect" id="node15" href="$class_main_menu.xhtml#a677f2954b9aea6a374b84799a683537f" title=" " alt="" coords="62,480,205,507"/>
+<area shape="rect" id="node16" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#ae9bd6f6fe9ea586ea81e0d8e6deaa126" title=" " alt="" coords="43,531,223,573"/>
+<area shape="rect" id="node17" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_room_list_entry.xhtml#a5c5fad3c1d62ed0ff0e293c5cfe28e0d" title=" " alt="" coords="38,597,229,638"/>
+<area shape="rect" id="node19" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aae79523656b407a63d1112528093d953" title="Uses the OperationResponses provided by the server to advance the internal state and call ops as need..." alt="" coords="309,597,516,638"/>
+<area shape="rect" id="node21" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a9445d7b33be290e7a668284bad051e79" title="Sends fully customizable events in a room." alt="" coords="319,662,506,703"/>
+<area shape="rect" id="node22" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_turn_manager.xhtml#af340724c75d6fed806a4c144ca4f0fc0" title="Call to send an action." alt="" coords="41,662,225,703"/>
+</map>

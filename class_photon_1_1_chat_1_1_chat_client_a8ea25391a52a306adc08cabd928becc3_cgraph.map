@@ -1,0 +1,5 @@
+<map id="Photon.Chat.ChatClient.HandleChatMessagesEvent" name="Photon.Chat.ChatClient.HandleChatMessagesEvent">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_channel.xhtml#a5eb947e8dd58ddd106034d534c1f649c" title="Used internally to add messages to this channel." alt="" coords="256,13,455,39"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_chat_1_1_chat_channel.xhtml#a3fb69bcd88bf1af054f514bdfaf1f413" title="Reduces the number of locally cached messages in this channel to the MessageLimit (if set)." alt="" coords="503,5,679,47"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="DoxygenWindow" name="DoxygenWindow">
+<area shape="rect" id="node1" title=" " alt="" coords="128,95,247,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node3" href="$class_doxygen_config.xhtml" title=" " alt="" coords="133,5,242,32"/>
+<area shape="rect" id="node4" href="$class_doxy_thread_safe_output.xhtml" title="This class encapsulates the data output by Doxygen so it can be shared with Unity in a thread share w..." alt="" coords="267,5,423,32"/>
+</map>

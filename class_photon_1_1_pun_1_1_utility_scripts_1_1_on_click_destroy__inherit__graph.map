@@ -1,0 +1,6 @@
+<map id="Photon.Pun.UtilityScripts.OnClickDestroy" name="Photon.Pun.UtilityScripts.OnClickDestroy">
+<area shape="rect" id="node1" title="Destroys the networked GameObject either by PhotonNetwork.Destroy or by sending an RPC which calls Ob..." alt="" coords="66,155,238,196"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_mono_behaviour_pun.xhtml" title="This class adds the property photonView, while logging a warning when your game still uses the networ..." alt="" coords="5,80,139,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="17,5,127,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="163,80,301,107"/>
+</map>

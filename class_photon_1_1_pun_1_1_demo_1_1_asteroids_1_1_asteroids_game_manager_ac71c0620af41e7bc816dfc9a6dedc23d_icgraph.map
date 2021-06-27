@@ -1,0 +1,6 @@
+<map id="Photon.Pun.Demo.Asteroids.AsteroidsGameManager.EndOfGame" name="Photon.Pun.Demo.Asteroids.AsteroidsGameManager.EndOfGame">
+<area shape="rect" id="node1" title=" " alt="" coords="655,43,892,84"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#ab47d7a0a40116f303458cf43e46cce76" title=" " alt="" coords="332,43,607,84"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#a51c6422b2fd3516fe972799fc6809238" title="Called when a remote player left the room or became inactive." alt="" coords="7,5,282,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#a5b76c7dc1dc5a3aac652a3c887810ccb" title="Called when custom player&#45;properties are changed." alt="" coords="5,71,284,127"/>
+</map>

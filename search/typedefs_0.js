@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['authenticationvalues_5020',['AuthenticationValues',['../_chat_gui_8cs.html#a2507e30a30e7795f768f9883242b3f85',1,'ChatGui.cs']]]
+  ['hashtable_1084',['Hashtable',['../_lobby_8cs.xhtml#afa613ef589c02dbd94acc273b62cdcfd',1,'Lobby.cs']]]
 ];

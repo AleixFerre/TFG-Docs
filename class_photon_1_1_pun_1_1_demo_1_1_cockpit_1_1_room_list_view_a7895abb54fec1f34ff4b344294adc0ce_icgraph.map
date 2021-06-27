@@ -1,0 +1,8 @@
+<map id="Photon.Pun.Demo.Cockpit.RoomListView.ResetList" name="Photon.Pun.Demo.Cockpit.RoomListView.ResetList">
+<area shape="rect" id="node1" title=" " alt="" coords="239,136,419,177"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#af748530e9da9ad5a1d411191b5930df9" title=" " alt="" coords="8,5,188,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_room_list_view.xhtml#a4bccf37529af15f6c4c6094e2452382e" title=" " alt="" coords="5,71,191,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#ae9bd6f6fe9ea586ea81e0d8e6deaa126" title=" " alt="" coords="8,136,188,177"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_room_list_view.xhtml#a0db08e8bff82030bbb52824415905b71" title=" " alt="" coords="8,201,188,243"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a245a728ee90daab566c2e04a36f84034" title="Called after leaving a lobby." alt="" coords="8,267,188,308"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Photon.Pun.PhotonMessageInfo" name="Photon.Pun.PhotonMessageInfo">
+<area shape="rect" id="node1" title="Container class for info about a particular message, RPC or update." alt="" coords="5,199,213,225"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_player.xhtml" title="Summarizes a &quot;player&quot; within a room, identified (in that room) by ID (or &quot;actorNumber&quot;)." alt="" coords="9,5,167,32"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_view.xhtml" title="A PhotonView identifies an object across the network (viewID) and configures how the controlling clie..." alt="" coords="157,109,320,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="191,5,302,32"/>
+</map>

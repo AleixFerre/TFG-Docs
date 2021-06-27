@@ -1,20 +1,7 @@
 var searchData=
 [
-  ['raiseeventoptions_3025',['RaiseEventOptions',['../class_photon_1_1_realtime_1_1_raise_event_options.html',1,'Photon::Realtime']]],
-  ['rampasset_3026',['RampAsset',['../class_ramp_asset.html',1,'']]],
-  ['rampasseteditor_3027',['RampAssetEditor',['../class_ramp_asset_editor.html',1,'']]],
-  ['randomlightintensity_3028',['RandomLightIntensity',['../class_random_light_intensity.html',1,'']]],
-  ['rangedattackfollow_3029',['RangedAttackFollow',['../class_ranged_attack_follow.html',1,'']]],
-  ['region_3030',['Region',['../class_photon_1_1_realtime_1_1_region.html',1,'Photon::Realtime']]],
-  ['regionhandler_3031',['RegionHandler',['../class_photon_1_1_realtime_1_1_region_handler.html',1,'Photon::Realtime']]],
-  ['regionlistcell_3032',['RegionListCell',['../class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_region_list_cell.html',1,'Photon::Pun::Demo::Cockpit']]],
-  ['regionlistview_3033',['RegionListView',['../class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_region_list_view.html',1,'Photon::Pun::Demo::Cockpit']]],
-  ['regionpinger_3034',['RegionPinger',['../class_photon_1_1_realtime_1_1_region_pinger.html',1,'Photon::Realtime']]],
-  ['room_3035',['Room',['../class_photon_1_1_realtime_1_1_room.html',1,'Photon::Realtime']]],
-  ['roominfo_3036',['RoomInfo',['../class_photon_1_1_realtime_1_1_room_info.html',1,'Photon::Realtime']]],
-  ['roomlistcell_3037',['RoomListCell',['../class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_room_list_cell.html',1,'Photon::Pun::Demo::Cockpit']]],
-  ['roomlistentry_3038',['RoomListEntry',['../class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_room_list_entry.html',1,'Photon::Pun::Demo::Asteroids']]],
-  ['roomlistview_3039',['RoomListView',['../class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_room_list_view.html',1,'Photon::Pun::Demo::Cockpit']]],
-  ['roomoptions_3040',['RoomOptions',['../class_photon_1_1_realtime_1_1_room_options.html',1,'Photon::Realtime']]],
-  ['rotategameobject_3041',['RotateGameObject',['../class_rotate_game_object.html',1,'']]]
+  ['rampasset_601',['RampAsset',['../class_ramp_asset.xhtml',1,'']]],
+  ['randomlightintensity_602',['RandomLightIntensity',['../class_random_light_intensity.xhtml',1,'']]],
+  ['rangedattackfollow_603',['RangedAttackFollow',['../class_ranged_attack_follow.xhtml',1,'']]],
+  ['rotategameobject_604',['RotateGameObject',['../class_rotate_game_object.xhtml',1,'']]]
 ];

@@ -1,0 +1,7 @@
+<map id="Photon.Pun.PhotonNetwork.OnSerializeWrite" name="Photon.Pun.PhotonNetwork.OnSerializeWrite">
+<area shape="rect" id="node1" title=" " alt="" coords="5,68,192,109"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a0fd9f4f2f459c10a93146f8e5fe9a7f5" title=" " alt="" coords="533,5,720,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a771194ac2f8b92e4e8930626d1e9e6f2" title=" " alt="" coords="269,35,456,76"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#adf067be77d2034b07fd696d97110a57a" title="Add another piece of data to send it when IsWriting is true." alt="" coords="272,100,453,141"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a38873b661dfb43e70000b0c17396c119" title=" " alt="" coords="240,166,485,193"/>
+</map>

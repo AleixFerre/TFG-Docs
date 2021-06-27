@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.PhotonTeamExtensions.SwitchTeam" name="Photon.Pun.UtilityScripts.PhotonTeamExtensions.SwitchTeam">
+<area shape="rect" id="node1" title="Switch the player&#39;s team using a team code." alt="" coords="5,5,240,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a29ee09cb37349dd79f2d97cf2ca30ed8" title="Find a PhotonTeam using a team code." alt="" coords="288,5,561,47"/>
+</map>

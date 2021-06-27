@@ -1,0 +1,5 @@
+<map id="Photon.Pun.PhotonTransformViewPositionControl.GetExtrapolatedPositionOffset" name="Photon.Pun.PhotonTransformViewPositionControl.GetExtrapolatedPositionOffset">
+<area shape="rect" id="node1" title="Calculates an estimated position based on the last synchronized position, the time when the last posi..." alt="" coords="5,43,241,99"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_transform_view_position_control.xhtml#a45649a7179a566662570df7a89b50922" title=" " alt="" coords="289,5,528,61"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ac8651f3c6c9b6527030eff1c15d2b796" title="The current roundtrip time to the photon server." alt="" coords="315,86,502,127"/>
+</map>

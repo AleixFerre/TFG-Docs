@@ -1,0 +1,8 @@
+<map id="Photon.Pun.UtilityScripts.PunTurnManager.OnEvent" name="Photon.Pun.UtilityScripts.PunTurnManager.OnEvent">
+<area shape="rect" id="node1" title="Called by PhotonNetwork.OnEventCall registration" alt="" coords="5,116,179,157"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_turn_manager.xhtml#afaecec4343f2e625048fe57118d1df0f" title=" " alt="" coords="227,116,448,157"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_room.xhtml#ab41f8e8ab3cf7c212007684a9410e4b0" title="Tries to find the player with given actorNumber (a.k.a." alt="" coords="539,5,721,47"/>
+<area shape="rect" id="node4" href="$interface_photon_1_1_pun_1_1_utility_scripts_1_1_i_pun_turn_manager_callbacks.xhtml#a1bd8368f6f5129842bc27e74e99f9d2e" title="When a player finishes a turn (includes the action/move of that player)" alt="" coords="511,71,749,127"/>
+<area shape="rect" id="node5" href="$interface_photon_1_1_pun_1_1_utility_scripts_1_1_i_pun_turn_manager_callbacks.xhtml#a96bca2882eff28c51f299f5178dadecb" title="Called when a player moved (but did not finish the turn)" alt="" coords="496,152,764,193"/>
+<area shape="rect" id="node6" href="$interface_photon_1_1_pun_1_1_utility_scripts_1_1_i_pun_turn_manager_callbacks.xhtml#a2aa4132b7ef4b81892af1028a5eb00c9" title="Called when a turn is completed (finished by all players)" alt="" coords="517,218,743,274"/>
+</map>

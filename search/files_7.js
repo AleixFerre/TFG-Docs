@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['healeffect_2ecs_3281',['HealEffect.cs',['../_heal_effect_8cs.html',1,'']]],
-  ['healrelativeeffect_2ecs_3282',['HealRelativeEffect.cs',['../_heal_relative_effect_8cs.html',1,'']]]
+  ['instanteffect_2ecs_646',['InstantEffect.cs',['../_instant_effect_8cs.xhtml',1,'']]],
+  ['inventory_2ecs_647',['Inventory.cs',['../_inventory_8cs.xhtml',1,'']]]
 ];

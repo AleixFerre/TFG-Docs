@@ -1,5 +1,26 @@
 var searchData=
 [
-  ['qualitydropdown_4749',['qualityDropdown',['../class_options_menu.html#a2056f92534245f59f8d7fc9b457a9057',1,'OptionsMenu']]],
-  ['queuestate_4750',['QueueState',['../class_photon_1_1_realtime_1_1_event_code.html#a9b8166cb4d273ef3a65ee2641e663780',1,'Photon::Realtime::EventCode']]]
+  ['rangedinstancepivot_1017',['rangedInstancePivot',['../class_basic_attack.xhtml#a929ee961ee7531f97bfb0ce8ef66f6b6',1,'BasicAttack.rangedInstancePivot()'],['../class_model_sync.xhtml#a062441b491d3358d07a86bb32f9379a8',1,'ModelSync.rangedInstancePivot()']]],
+  ['rangedinstanceposition_1018',['rangedInstancePosition',['../class_character.xhtml#a12e64502986f50567f93acf20ac177f8',1,'Character']]],
+  ['rangeindicator_1019',['rangeIndicator',['../class_basic_attack.xhtml#a0a0a1e5ef394ded85a211f26e79a8f1b',1,'BasicAttack']]],
+  ['rangeindicatorkey_1020',['rangeIndicatorKey',['../class_basic_attack.xhtml#ad4f2054c08430722abfa22e3be25cce4',1,'BasicAttack']]],
+  ['ready_1021',['ready',['../class_ability_cooldown.xhtml#ac2449cfbab136b46eb67b08dfcec98ac',1,'AbilityCooldown']]],
+  ['readybutton_1022',['readyButton',['../class_lobby.xhtml#ae317efc7e00d7d1fa0b9bf46636e00d9',1,'Lobby']]],
+  ['redspawn_1023',['redSpawn',['../class_game_controller.xhtml#a84a9bfa0bd792c3db18f53b9b4bc3c29',1,'GameController']]],
+  ['relation_1024',['relation',['../class_heal_relative_effect.xhtml#a8dbe8a9695e1c668db1c415e5ddfbfdb',1,'HealRelativeEffect']]],
+  ['resolutions_1025',['resolutions',['../class_options_menu.xhtml#a85f19d97724bc22c7008001e445faa49',1,'OptionsMenu']]],
+  ['resolutionsdropdown_1026',['resolutionsDropdown',['../class_options_menu.xhtml#a4e5d99285f8c66a6d3958e8233d69d41',1,'OptionsMenu']]],
+  ['roll_1027',['roll',['../class_unity_template_projects_1_1_simple_camera_controller_1_1_camera_state.xhtml#ae7073194630af743c8d7d1342390b56c',1,'UnityTemplateProjects::SimpleCameraController::CameraState']]],
+  ['roomnameinput_1028',['roomNameInput',['../class_main_menu.xhtml#a5ef7df21259cae68173d2f9644d8cec0',1,'MainMenu']]],
+  ['roomnamejoininput_1029',['roomNameJoinInput',['../class_main_menu.xhtml#acc4481f125d110814102d5679c9df2fc',1,'MainMenu']]],
+  ['rot_5fspeed_5fx_1030',['rot_speed_x',['../class_rotate_game_object.xhtml#a6cdd15e3c12d02be8f3fd34c6ed65671',1,'RotateGameObject']]],
+  ['rot_5fspeed_5fy_1031',['rot_speed_y',['../class_rotate_game_object.xhtml#a0b028853fdefa4e3a800cd1616887268',1,'RotateGameObject']]],
+  ['rot_5fspeed_5fz_1032',['rot_speed_z',['../class_rotate_game_object.xhtml#a200fa46965cccb9226180081d5967758',1,'RotateGameObject']]],
+  ['rotationlerptime_1033',['rotationLerpTime',['../class_unity_template_projects_1_1_simple_camera_controller.xhtml#a4b8acc62cd20ada031234bdc9c612126',1,'UnityTemplateProjects::SimpleCameraController']]],
+  ['rotlerpvel_1034',['rotLerpVel',['../class_camera_shake.xhtml#af57d6dfae40a67f92b1afedb956e8e1a',1,'CameraShake']]],
+  ['rotmagnitude_1035',['rotMagnitude',['../class_camera_shake.xhtml#a068497c59380a150270bb83c5a972090',1,'CameraShake']]],
+  ['rotrandomvector_1036',['rotRandomVector',['../class_camera_shake.xhtml#ae4ae5bc3979486eb36c70bd148d0838a',1,'CameraShake']]],
+  ['rotrefreshrate_1037',['rotRefreshRate',['../class_camera_shake.xhtml#a34cb32745e30520d6defdb8c3950f9df',1,'CameraShake']]],
+  ['runmultiplicator_1038',['runMultiplicator',['../class_player_controller.xhtml#afcfa3c3a4ccb6417b5ffb1cda26b3032',1,'PlayerController']]],
+  ['runspeed_1039',['runSpeed',['../class_simple_character_motor.xhtml#a7547a8af22af7ebf5a2a24ebec060656',1,'SimpleCharacterMotor']]]
 ];

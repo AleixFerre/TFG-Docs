@@ -1,0 +1,5 @@
+<map id="Photon.Pun.Demo.WebRpcImplementationExample" name="Photon.Pun.Demo.WebRpcImplementationExample">
+<area shape="rect" id="node1" title="This class is a sample of how to implement WebRPCs calling &amp; callbacks." alt="" coords="5,80,276,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="15,5,125,32"/>
+<area shape="rect" id="node3" href="$interface_photon_1_1_realtime_1_1_i_web_rpc_callback.xhtml" title="Interface for &quot;WebRpc&quot; callbacks for the Realtime Api." alt="" coords="150,5,275,32"/>
+</map>

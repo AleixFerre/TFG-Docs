@@ -1,0 +1,8 @@
+<map id="Photon.Chat.ChatClient.Connect" name="Photon.Chat.ChatClient.Connect">
+<area shape="rect" id="node1" title="Connects this client to the Photon Chat Cloud service, which will also authenticate the user (and set..." alt="" coords="891,46,1101,73"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#ae8f7f17505875382395e1cc898c6ca61" title="Connects this client to the Photon Chat Cloud service, which will also authenticate the user (and set..." alt="" coords="632,5,843,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a55a715b3029d0f17c1eb537960c7aa5b" title=" " alt="" coords="632,71,843,112"/>
+<area shape="rect" id="node4" href="$class_chat_gui.xhtml#a38aee16a08666994a992c08d1791ab28" title=" " alt="" coords="463,78,584,105"/>
+<area shape="rect" id="node5" href="$class_name_pick_gui.xhtml#a80522a94260e00e26aead18a527b0677" title=" " alt="" coords="253,78,415,105"/>
+<area shape="rect" id="node6" href="$class_name_pick_gui.xhtml#ace759e332a6b2356baf247ed7bba5fc9" title=" " alt="" coords="5,78,205,105"/>
+</map>

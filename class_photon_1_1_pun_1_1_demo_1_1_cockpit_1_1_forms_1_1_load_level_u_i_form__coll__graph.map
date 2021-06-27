@@ -1,0 +1,6 @@
+<map id="Photon.Pun.Demo.Cockpit.Forms.LoadLevelUIForm" name="Photon.Pun.Demo.Cockpit.Forms.LoadLevelUIForm">
+<area shape="rect" id="node1" title="Level Loading UI Form." alt="" coords="5,185,185,227"/>
+<area shape="rect" id="node2" title=" " alt="" coords="19,89,129,115"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_forms_1_1_load_level_u_i_form_1_1_on_submit_event.xhtml" title=" " alt="" coords="154,81,410,123"/>
+<area shape="rect" id="node4" title=" " alt="" coords="212,5,352,32"/>
+</map>

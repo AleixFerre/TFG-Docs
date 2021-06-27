@@ -1,0 +1,5 @@
+<map id="Photon.Pun.Demo.Cockpit.PunCockpit.SwitchtoMinimalPanel" name="Photon.Pun.Demo.Cockpit.PunCockpit.SwitchtoMinimalPanel">
+<area shape="rect" id="node1" title=" " alt="" coords="276,39,497,80"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit_embed.xhtml#a8cf5e78545f28950ac88f560e9c9d077" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="5,5,228,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a96d91c8a4398280fb582bd516bf147f6" title=" " alt="" coords="27,71,207,112"/>
+</map>

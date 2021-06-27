@@ -1,0 +1,4 @@
+<map id="Photon.Pun.Demo.Procedural.WorldGenerator.ConfirmAndUpdateProperties" name="Photon.Pun.Demo.Procedural.WorldGenerator.ConfirmAndUpdateProperties">
+<area shape="rect" id="node1" title="Whenever the &#39;Confirm&#39; button on the Control Panel is clicked by the MasterClient,..." alt="" coords="5,5,231,61"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_room.xhtml#aff6e067d041db92e4fbde6a3277926ad" title="Updates and synchronizes this Room&#39;s Custom Properties." alt="" coords="279,13,459,54"/>
+</map>

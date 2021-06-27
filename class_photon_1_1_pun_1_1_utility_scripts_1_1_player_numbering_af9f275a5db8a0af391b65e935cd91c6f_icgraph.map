@@ -1,0 +1,8 @@
+<map id="Photon.Pun.UtilityScripts.PlayerNumbering.RefreshData" name="Photon.Pun.UtilityScripts.PlayerNumbering.RefreshData">
+<area shape="rect" id="node1" title="Internal call Refresh the cached data and call the OnPlayerNumberingChanged delegate." alt="" coords="312,136,508,177"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering.xhtml#ae25d6ff2347ae12165e74d1cce51c9cc" title=" " alt="" coords="49,5,221,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering.xhtml#ac84048f9fb79beff91691b508d710e08" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="28,71,241,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering.xhtml#a9b468a341a818b2ca1569736f9bb4d2b" title="Called when a remote player entered the room." alt="" coords="5,136,264,177"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering.xhtml#a45a86a80db4baa6b28aad22f5ac84331" title="Called when a remote player left the room or became inactive." alt="" coords="17,201,252,243"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering.xhtml#a8c3bde3cd802be96ebc4e98d56e23807" title="Called when custom player&#45;properties are changed." alt="" coords="15,267,254,323"/>
+</map>

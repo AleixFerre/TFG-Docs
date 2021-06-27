@@ -1,0 +1,4 @@
+<map id="Photon.Realtime.Player.Get" name="Photon.Realtime.Player.Get">
+<area shape="rect" id="node1" title="Get a Player by ActorNumber (Player.ID)." alt="" coords="5,13,189,39"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_room.xhtml#ab41f8e8ab3cf7c212007684a9410e4b0" title="Tries to find the player with given actorNumber (a.k.a." alt="" coords="237,5,419,47"/>
+</map>

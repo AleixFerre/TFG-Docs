@@ -1,0 +1,7 @@
+<map id="Photon.Realtime.SupportLogger.LogBasics" name="Photon.Realtime.SupportLogger.LogBasics">
+<area shape="rect" id="node1" title="Debug logs basic information (AppId, AppVersion, PeerID, Server address, Region) about the attached P..." alt="" coords="5,71,216,112"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_support_logger.xhtml#aa9fd97374270d9c14b0fd96d56d56fc0" title=" " alt="" coords="264,5,475,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7f48b5f0c44ef0c67ef32f147ff87246" title="Creates a Peer with specified connection protocol." alt="" coords="266,71,473,112"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_support_logger_1_1_debug.xhtml#a4a72d377bb638dbbbf986e3ce6141585" title=" " alt="" coords="264,136,475,177"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#affaff7e1fdffe86b25156ffac5e738c9" title=" " alt="" coords="523,71,729,112"/>
+</map>

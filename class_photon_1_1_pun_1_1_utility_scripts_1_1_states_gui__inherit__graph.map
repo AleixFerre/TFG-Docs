@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.StatesGui" name="Photon.Pun.UtilityScripts.StatesGui">
+<area shape="rect" id="node1" title="Output detailed information about Pun Current states, using the old Unity UI framework." alt="" coords="5,80,177,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="36,5,147,32"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Photon.Realtime.ConnectionCallbacksContainer.OnDisconnected" name="Photon.Realtime.ConnectionCallbacksContainer.OnDisconnected">
+<area shape="rect" id="node1" title="Called after disconnecting from the Photon server." alt="" coords="1224,136,1459,177"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#affac531c1eb7a4d77326135150f19b7e" title="Uses the connection&#39;s statusCodes to advance the internal state and call operations as needed." alt="" coords="969,136,1176,177"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a1da1c658340e7ecf28575b720104b122" title="Makes this client disconnect from the photon server, a process that leaves any room and calls OnDisco..." alt="" coords="735,136,921,177"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_hub_1_1_to_demo_hub_button.xhtml#a83cf2b61cc387ebc9fc311480833e857" title=" " alt="" coords="464,5,671,47"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a1cc72ee5a728acc04e81d411d88d6179" title=" " alt="" coords="477,71,657,112"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_editor.xhtml#a8ff69bf37b897f6afb973016c09fa65e" title=" " alt="" coords="481,136,654,177"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_states_gui.xhtml#a414fd2160f0bd79c9a6826cb31f8006a" title=" " alt="" coords="481,201,653,243"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#aab2bcc420ff0aadcf299d2704bccd5dd" title="Called when the local user/client left a room, so the game&#39;s logic can clean up it&#39;s internal state." alt="" coords="448,267,687,308"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_photon_editor.xhtml#af1f1cae280c6374bd45f8863ad1f30f8" title=" " alt="" coords="227,136,400,177"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_photon_editor.xhtml#a6f2a81525fca83b7245f023595015253" title=" " alt="" coords="5,136,179,177"/>
+</map>

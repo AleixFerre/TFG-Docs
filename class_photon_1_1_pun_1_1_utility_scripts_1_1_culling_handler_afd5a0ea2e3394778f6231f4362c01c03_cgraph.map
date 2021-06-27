@@ -1,0 +1,5 @@
+<map id="Photon.Pun.UtilityScripts.CullingHandler.UpdateInterestGroups" name="Photon.Pun.UtilityScripts.CullingHandler.UpdateInterestGroups">
+<area shape="rect" id="node1" title="Unsubscribes from old and subscribes to new interest groups." alt="" coords="5,5,240,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aa941f29879694fd0a54f1ae58f8e394a" title="Enable/disable receiving events from a given Interest Group." alt="" coords="288,5,475,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a7de619407fd7ff3a1156e7ddc8c9d21c" title="Helper function which is called inside this class to erify if certain functions can be used (e...." alt="" coords="523,5,709,47"/>
+</map>

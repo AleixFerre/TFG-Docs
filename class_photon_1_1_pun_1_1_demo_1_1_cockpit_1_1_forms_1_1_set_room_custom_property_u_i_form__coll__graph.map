@@ -1,0 +1,6 @@
+<map id="Photon.Pun.Demo.Cockpit.Forms.SetRoomCustomPropertyUIForm" name="Photon.Pun.Demo.Cockpit.Forms.SetRoomCustomPropertyUIForm">
+<area shape="rect" id="node1" title="Room custom properties UI Form." alt="" coords="563,30,816,71"/>
+<area shape="rect" id="node2" title=" " alt="" coords="268,5,379,32"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_forms_1_1_set_room_custom_property_u_i_form_1_1_on_submit_event.xhtml" title=" " alt="" coords="195,56,452,112"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,71,145,97"/>
+</map>

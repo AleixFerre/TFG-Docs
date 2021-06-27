@@ -1,0 +1,4 @@
+<map id="Photon.Realtime.ConnectionCallbacksContainer.OnCustomAuthenticationFailed" name="Photon.Realtime.ConnectionCallbacksContainer.OnCustomAuthenticationFailed">
+<area shape="rect" id="node1" title="Called when the custom authentication failed." alt="" coords="5,5,288,61"/>
+<area shape="rect" id="node2" href="$interface_photon_1_1_realtime_1_1_i_connection_callbacks.xhtml#a669ed841654618813e551e11d7686225" title="Called when the custom authentication failed." alt="" coords="336,5,564,61"/>
+</map>

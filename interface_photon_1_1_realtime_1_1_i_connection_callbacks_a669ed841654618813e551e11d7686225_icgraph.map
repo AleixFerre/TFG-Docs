@@ -1,0 +1,5 @@
+<map id="Photon.Realtime.IConnectionCallbacks.OnCustomAuthenticationFailed" name="Photon.Realtime.IConnectionCallbacks.OnCustomAuthenticationFailed">
+<area shape="rect" id="node1" title="Called when the custom authentication failed." alt="" coords="591,5,819,61"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_connection_callbacks_container.xhtml#aabeb387f571d935c92476a947515205a" title="Called when the custom authentication failed." alt="" coords="260,5,543,61"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aae79523656b407a63d1112528093d953" title="Uses the OperationResponses provided by the server to advance the internal state and call ops as need..." alt="" coords="5,13,212,54"/>
+</map>

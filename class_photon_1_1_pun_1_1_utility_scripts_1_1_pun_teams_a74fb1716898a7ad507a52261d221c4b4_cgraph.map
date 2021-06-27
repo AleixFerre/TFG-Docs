@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.PunTeams.OnPlayerLeftRoom" name="Photon.Pun.UtilityScripts.PunTeams.OnPlayerLeftRoom">
+<area shape="rect" id="node1" title="Called when a remote player left the room or became inactive." alt="" coords="5,5,203,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_teams.xhtml#abb91c7051336cad347092a267d2fe94a" title=" " alt="" coords="251,5,423,47"/>
+</map>

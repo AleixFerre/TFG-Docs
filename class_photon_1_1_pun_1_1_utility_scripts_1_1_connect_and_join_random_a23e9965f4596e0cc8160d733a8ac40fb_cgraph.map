@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.ConnectAndJoinRandom.ConnectNow" name="Photon.Pun.UtilityScripts.ConnectAndJoinRandom.ConnectNow">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,247,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a3eaa67a8c2af70028949403df6b60ca2" title="Connect to Photon as configured in the PhotonServerSettings file." alt="" coords="295,5,481,47"/>
+</map>

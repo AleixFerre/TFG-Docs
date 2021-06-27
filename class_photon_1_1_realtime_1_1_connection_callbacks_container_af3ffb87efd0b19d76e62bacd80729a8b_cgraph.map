@@ -1,0 +1,4 @@
+<map id="Photon.Realtime.ConnectionCallbacksContainer.OnRegionListReceived" name="Photon.Realtime.ConnectionCallbacksContainer.OnRegionListReceived">
+<area shape="rect" id="node1" title="Called when the Name Server provided a list of regions for your title." alt="" coords="5,5,221,61"/>
+<area shape="rect" id="node2" href="$interface_photon_1_1_realtime_1_1_i_connection_callbacks.xhtml#a69f1c715fb64aff2dda2d18832ff45d2" title="Called when the Name Server provided a list of regions for your title." alt="" coords="269,13,483,54"/>
+</map>

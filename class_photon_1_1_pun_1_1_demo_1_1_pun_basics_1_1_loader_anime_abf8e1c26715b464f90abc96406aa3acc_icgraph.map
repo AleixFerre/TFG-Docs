@@ -1,0 +1,4 @@
+<map id="Photon.Pun.Demo.PunBasics.LoaderAnime.StartLoaderAnimation" name="Photon.Pun.Demo.PunBasics.LoaderAnime.StartLoaderAnimation">
+<area shape="rect" id="node1" title="Starts the loader animation." alt="" coords="252,5,479,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_launcher.xhtml#a9987845cf431035c32f04ba72a694049" title="Start the connection process." alt="" coords="5,5,204,47"/>
+</map>

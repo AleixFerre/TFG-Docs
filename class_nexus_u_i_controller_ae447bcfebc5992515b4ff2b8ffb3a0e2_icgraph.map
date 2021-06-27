@@ -1,0 +1,4 @@
+<map id="NexusUIController.UpdateCurrentHP" name="NexusUIController.UpdateCurrentHP">
+<area shape="rect" id="node1" title="Updates the current HP of the entity." alt="" coords="248,5,419,47"/>
+<area shape="rect" id="node2" href="$class_nexus_stats.xhtml#ae804a5fa576e7252285f85ff03aa0615" title=" " alt="" coords="5,13,200,39"/>
+</map>

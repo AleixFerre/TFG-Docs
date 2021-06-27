@@ -1,0 +1,6 @@
+<map id="Photon.Pun.Demo.Asteroids.Spaceship" name="Photon.Pun.Demo.Asteroids.Spaceship">
+<area shape="rect" id="node1" title=" " alt="" coords="5,199,196,240"/>
+<area shape="rect" id="node2" title=" " alt="" coords="24,5,135,32"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_view.xhtml" title="A PhotonView identifies an object across the network (viewID) and configures how the controlling clie..." alt="" coords="117,109,279,136"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_player.xhtml" title="Summarizes a &quot;player&quot; within a room, identified (in that room) by ID (or &quot;actorNumber&quot;)." alt="" coords="159,5,317,32"/>
+</map>

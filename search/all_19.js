@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['yisupaxis_2715',['YIsUpAxis',['../class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.html#a37168edae9912f5efc521652aee2a115',1,'Photon::Pun::UtilityScripts::CullArea']]]
+  ['y_545',['y',['../class_unity_template_projects_1_1_simple_camera_controller_1_1_camera_state.xhtml#a728b15cf7abd9dd7fb17963135f68515',1,'UnityTemplateProjects::SimpleCameraController::CameraState']]],
+  ['yaw_546',['yaw',['../class_unity_template_projects_1_1_simple_camera_controller_1_1_camera_state.xhtml#a2794207906e3cb613907f7193600f4ad',1,'UnityTemplateProjects::SimpleCameraController::CameraState']]]
 ];

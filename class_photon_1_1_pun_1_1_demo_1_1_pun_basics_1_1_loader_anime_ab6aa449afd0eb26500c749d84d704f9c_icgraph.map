@@ -1,0 +1,4 @@
+<map id="Photon.Pun.Demo.PunBasics.LoaderAnime.StopLoaderAnimation" name="Photon.Pun.Demo.PunBasics.LoaderAnime.StopLoaderAnimation">
+<area shape="rect" id="node1" title="Stops the loader animation." alt="" coords="252,5,479,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_launcher.xhtml#a906f4daa6bfaac94666a809a7a2adb65" title="Called after disconnecting from the Photon server." alt="" coords="5,5,204,47"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Photon.Pun.Demo.Procedural.Cluster.DecreaseBlockHeight" name="Photon.Pun.Demo.Procedural.Cluster.DecreaseBlockHeight">
+<area shape="rect" id="node1" title="Decreases a Block&#39;s height locally before applying the modification to the Custom Room Properties." alt="" coords="543,5,741,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_world_generator.xhtml#aa7d152cdf5dfeaa58b4576b55ed13330" title="Decreases the height of a certain Block from a certain Cluster." alt="" coords="252,5,495,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_procedural_controller.xhtml#a39e9707cde56cc6f6dd9f06e6c09dcf2" title="Use horizontal and vertical axes (by default WASD or the arrow keys) for moving for&#45;,..." alt="" coords="5,5,204,47"/>
+</map>

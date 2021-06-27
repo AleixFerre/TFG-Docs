@@ -1,0 +1,7 @@
+<map id="ChatGui.OnConnected" name="ChatGui.OnConnected">
+<area shape="rect" id="node1" title="Client is connected now." alt="" coords="5,111,157,138"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a03179eafc39116476b13ebd68ae43b58" title="Adds friends to a list on the Chat Server which will send you status updates for those." alt="" coords="223,5,408,47"/>
+<area shape="rect" id="node3" href="$class_chat_gui.xhtml#ae697466c22a4da8dbe7f279616691fd4" title=" " alt="" coords="231,71,400,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a4082838ff7355c23a7d92b02e8405efc" title="Sets the user&#39;s status (pre&#45;defined or custom) and an optional message." alt="" coords="224,136,407,177"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#abe55a18070d332c5cad63a884d6a1242" title="Sends operation to subscribe to a list of channels by name." alt="" coords="205,202,425,229"/>
+</map>

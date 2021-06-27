@@ -1,0 +1,13 @@
+<map id="Photon.Pun.PhotonAnimatorView.OnPhotonSerializeView" name="Photon.Pun.PhotonAnimatorView.OnPhotonSerializeView">
+<area shape="rect" id="node1" title="Called by PUN several times per second, so that your script can write and read synchronization data f..." alt="" coords="5,240,196,281"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_stream_queue.xhtml#a576b08634a4833827b019071ddfefe09" title="Deserializes the specified stream." alt="" coords="263,5,481,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml#ac314c73fb9019a95360650e317c748e0" title=" " alt="" coords="274,152,470,193"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#a7e69f29f517f8ed3148d8dccef982ea6" title="Read next piece of data from the stream without advancing the &quot;current&quot; item." alt="" coords="548,181,729,223"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml#adfc95da44c01ffefe279fc3b1c7f57ad" title=" " alt="" coords="267,71,477,127"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_photon_stream_queue.xhtml#a065ec40dbb214e468ede584377910e66" title="Resets the PhotonStreamQueue." alt="" coords="263,269,481,311"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_photon_stream_queue.xhtml#aa894acf4883faf5806f75f4d757022a4" title="Serializes the specified stream." alt="" coords="263,335,481,376"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml#a65ab6baae9a0ef142fdc89f82d38c9f0" title=" " alt="" coords="279,400,465,441"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml#a06600cec906856d913823f07fb1fc62a" title=" " alt="" coords="244,465,500,507"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#a50038b09fdec1b4d1072c9f8b5a231dc" title="Read next piece of data from the stream when IsReading is true." alt="" coords="548,79,729,120"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#adf067be77d2034b07fd696d97110a57a" title="Add another piece of data to send it when IsWriting is true." alt="" coords="548,400,729,441"/>
+</map>

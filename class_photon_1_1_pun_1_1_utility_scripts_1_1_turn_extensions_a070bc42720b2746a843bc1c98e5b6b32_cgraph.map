@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.TurnExtensions.SetTurn" name="Photon.Pun.UtilityScripts.TurnExtensions.SetTurn">
+<area shape="rect" id="node1" title="Sets the turn." alt="" coords="5,5,177,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_room.xhtml#aff6e067d041db92e4fbde6a3277926ad" title="Updates and synchronizes this Room&#39;s Custom Properties." alt="" coords="225,5,405,47"/>
+</map>

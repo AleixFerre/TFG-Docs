@@ -1,0 +1,15 @@
+<map id="Tayx.Graphy.Audio.G_AudioMonitor.FindAudioListener" name="Tayx.Graphy.Audio.G_AudioMonitor.FindAudioListener">
+<area shape="rect" id="node1" title="Tries to find an audio listener in the main camera." alt="" coords="1033,71,1247,112"/>
+<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_monitor.xhtml#a112506b8e4cc5fc5064c82f6d24bab38" title=" " alt="" coords="774,5,979,47"/>
+<area shape="rect" id="node6" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_monitor.xhtml#afedadf097e445d30a94af6f6ec04022e" title=" " alt="" coords="801,71,952,112"/>
+<area shape="rect" id="node7" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_monitor.xhtml#ab99d3ec55c039eb4c3cdfe46a094bccd" title=" " alt="" coords="768,136,985,177"/>
+<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_monitor.xhtml#a8d9259b6a4c57a705b96e88084a53cb8" title=" " alt="" coords="533,71,680,112"/>
+<area shape="rect" id="node5" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_monitor.xhtml#ab722358d69866480499185d7f9187860" title=" " alt="" coords="521,5,692,47"/>
+<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_monitor.xhtml#a9dc424cd8beff6e161959e760e723377" title=" " alt="" coords="273,71,421,112"/>
+<area shape="rect" id="node8" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_manager.xhtml#a8598c9db6ed411d7301e0c02991ec263" title=" " alt="" coords="493,136,720,177"/>
+<area shape="rect" id="node11" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_manager.xhtml#a4895aeafae6b57dea7bcf4b876098400" title=" " alt="" coords="495,201,719,243"/>
+<area shape="rect" id="node9" href="$class_tayx_1_1_graphy_1_1_graphy_manager.xhtml#acee2ed06f19bb2ca4dd2c08cd6ea6663" title=" " alt="" coords="249,136,445,177"/>
+<area shape="rect" id="node10" href="$class_tayx_1_1_graphy_1_1_graphy_manager.xhtml#a348506f37eebf68d2530f2c57845459e" title=" " alt="" coords="5,136,201,177"/>
+<area shape="rect" id="node12" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_manager.xhtml#a91f18a0a306a2fe70d61c62180010ca8" title=" " alt="" coords="274,201,421,243"/>
+<area shape="rect" id="node13" href="$class_tayx_1_1_graphy_1_1_graphy_manager.xhtml#a09cf85e2115057a8a96471d52b9c4cd2" title=" " alt="" coords="249,267,445,308"/>
+</map>

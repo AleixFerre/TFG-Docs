@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.CullingHandler.HaveActiveCellsChanged" name="Photon.Pun.UtilityScripts.CullingHandler.HaveActiveCellsChanged">
+<area shape="rect" id="node1" title="Checks if the previously active cells have changed." alt="" coords="225,5,427,61"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_culling_handler.xhtml#a852d51f8f6f2cfd3184cf284594172e8" title="Checks if the player has moved previously and updates the interest groups if necessary." alt="" coords="5,13,177,54"/>
+</map>

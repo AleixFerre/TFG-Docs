@@ -1,0 +1,7 @@
+<map id="AbilityAffectedStats" name="AbilityAffectedStats">
+<area shape="rect" id="node1" title="Base class Stats of the entity who is affected by Abilities." alt="" coords="14,275,150,301"/>
+<area shape="rect" id="node2" href="$class_stats.xhtml" title="Base class Stats of the entity." alt="" coords="55,199,109,225"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_view.xhtml" title="A PhotonView identifies an object across the network (viewID) and configures how the controlling clie..." alt="" coords="98,109,261,136"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_player.xhtml" title="Summarizes a &quot;player&quot; within a room, identified (in that room) by ID (or &quot;actorNumber&quot;)." alt="" coords="140,5,299,32"/>
+</map>

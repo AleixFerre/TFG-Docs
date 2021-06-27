@@ -1,0 +1,4 @@
+<map id="Photon.Pun.PhotonNetwork.SetInterestGroups" name="Photon.Pun.PhotonNetwork.SetInterestGroups">
+<area shape="rect" id="node1" title="Enable/disable receiving events from a given Interest Group." alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a7de619407fd7ff3a1156e7ddc8c9d21c" title="Helper function which is called inside this class to erify if certain functions can be used (e...." alt="" coords="240,5,427,47"/>
+</map>

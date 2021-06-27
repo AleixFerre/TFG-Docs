@@ -1,0 +1,4 @@
+<map id="Photon.Pun.PhotonNetwork.ConnectToMaster" name="Photon.Pun.PhotonNetwork.ConnectToMaster">
+<area shape="rect" id="node1" title="Connect to a Photon Master Server by address, port, appID." alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ae031208b657a2e01d80ddf4b02d0d23f" title=" " alt="" coords="5,5,192,47"/>
+</map>

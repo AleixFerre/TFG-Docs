@@ -1,42 +1,42 @@
 var dir_11b9241dc3cfd311f9c75e57b7b49abf =
 [
-    [ "AppSettings.cs", "_app_settings_8cs.html", [
-      [ "AppSettings", "class_photon_1_1_realtime_1_1_app_settings.html", "class_photon_1_1_realtime_1_1_app_settings" ]
+    [ "AppSettings.cs", "_app_settings_8cs.xhtml", [
+      [ "AppSettings", "class_photon_1_1_realtime_1_1_app_settings.xhtml", "class_photon_1_1_realtime_1_1_app_settings" ]
     ] ],
-    [ "ConnectionHandler.cs", "_connection_handler_8cs.html", "_connection_handler_8cs" ],
-    [ "CustomTypesUnity.cs", "_custom_types_unity_8cs.html", null ],
-    [ "Extensions.cs", "_extensions_8cs.html", [
-      [ "Extensions", "class_photon_1_1_realtime_1_1_extensions.html", "class_photon_1_1_realtime_1_1_extensions" ]
+    [ "ConnectionHandler.cs", "_connection_handler_8cs.xhtml", "_connection_handler_8cs" ],
+    [ "CustomTypesUnity.cs", "_custom_types_unity_8cs.xhtml", null ],
+    [ "Extensions.cs", "_extensions_8cs.xhtml", [
+      [ "Extensions", "class_photon_1_1_realtime_1_1_extensions.xhtml", "class_photon_1_1_realtime_1_1_extensions" ]
     ] ],
-    [ "FriendInfo.cs", "_friend_info_8cs.html", [
-      [ "FriendInfo", "class_photon_1_1_realtime_1_1_friend_info.html", "class_photon_1_1_realtime_1_1_friend_info" ]
+    [ "FriendInfo.cs", "_friend_info_8cs.xhtml", [
+      [ "FriendInfo", "class_photon_1_1_realtime_1_1_friend_info.xhtml", "class_photon_1_1_realtime_1_1_friend_info" ]
     ] ],
-    [ "LoadBalancingClient.cs", "_load_balancing_client_8cs.html", "_load_balancing_client_8cs" ],
-    [ "LoadbalancingPeer.cs", "_loadbalancing_peer_8cs.html", "_loadbalancing_peer_8cs" ],
-    [ "PhotonPing.cs", "_photon_ping_8cs.html", [
-      [ "PhotonPing", "class_photon_1_1_realtime_1_1_photon_ping.html", "class_photon_1_1_realtime_1_1_photon_ping" ],
-      [ "PingMono", "class_photon_1_1_realtime_1_1_ping_mono.html", "class_photon_1_1_realtime_1_1_ping_mono" ]
+    [ "LoadBalancingClient.cs", "_load_balancing_client_8cs.xhtml", "_load_balancing_client_8cs" ],
+    [ "LoadbalancingPeer.cs", "_loadbalancing_peer_8cs.xhtml", "_loadbalancing_peer_8cs" ],
+    [ "PhotonPing.cs", "_photon_ping_8cs.xhtml", [
+      [ "PhotonPing", "class_photon_1_1_realtime_1_1_photon_ping.xhtml", "class_photon_1_1_realtime_1_1_photon_ping" ],
+      [ "PingMono", "class_photon_1_1_realtime_1_1_ping_mono.xhtml", "class_photon_1_1_realtime_1_1_ping_mono" ]
     ] ],
-    [ "PhotonPingClasses.cs", "_photon_ping_classes_8cs.html", null ],
-    [ "Player.cs", "_player_8cs.html", [
-      [ "Player", "class_photon_1_1_realtime_1_1_player.html", "class_photon_1_1_realtime_1_1_player" ]
+    [ "PhotonPingClasses.cs", "_photon_ping_classes_8cs.xhtml", null ],
+    [ "Player.cs", "_player_8cs.xhtml", [
+      [ "Player", "class_photon_1_1_realtime_1_1_player.xhtml", "class_photon_1_1_realtime_1_1_player" ]
     ] ],
-    [ "Region.cs", "_region_8cs.html", [
-      [ "Region", "class_photon_1_1_realtime_1_1_region.html", "class_photon_1_1_realtime_1_1_region" ]
+    [ "Region.cs", "_region_8cs.xhtml", [
+      [ "Region", "class_photon_1_1_realtime_1_1_region.xhtml", "class_photon_1_1_realtime_1_1_region" ]
     ] ],
-    [ "RegionHandler.cs", "_region_handler_8cs.html", [
-      [ "RegionHandler", "class_photon_1_1_realtime_1_1_region_handler.html", "class_photon_1_1_realtime_1_1_region_handler" ],
-      [ "RegionPinger", "class_photon_1_1_realtime_1_1_region_pinger.html", "class_photon_1_1_realtime_1_1_region_pinger" ]
+    [ "RegionHandler.cs", "_region_handler_8cs.xhtml", [
+      [ "RegionHandler", "class_photon_1_1_realtime_1_1_region_handler.xhtml", "class_photon_1_1_realtime_1_1_region_handler" ],
+      [ "RegionPinger", "class_photon_1_1_realtime_1_1_region_pinger.xhtml", "class_photon_1_1_realtime_1_1_region_pinger" ]
     ] ],
-    [ "Room.cs", "_room_8cs.html", [
-      [ "Room", "class_photon_1_1_realtime_1_1_room.html", "class_photon_1_1_realtime_1_1_room" ]
+    [ "Room.cs", "_room_8cs.xhtml", [
+      [ "Room", "class_photon_1_1_realtime_1_1_room.xhtml", "class_photon_1_1_realtime_1_1_room" ]
     ] ],
-    [ "RoomInfo.cs", "_room_info_8cs.html", [
-      [ "RoomInfo", "class_photon_1_1_realtime_1_1_room_info.html", "class_photon_1_1_realtime_1_1_room_info" ]
+    [ "RoomInfo.cs", "_room_info_8cs.xhtml", [
+      [ "RoomInfo", "class_photon_1_1_realtime_1_1_room_info.xhtml", "class_photon_1_1_realtime_1_1_room_info" ]
     ] ],
-    [ "SupportLogger.cs", "_support_logger_8cs.html", "_support_logger_8cs" ],
-    [ "WebRpc.cs", "_web_rpc_8cs.html", [
-      [ "WebRpcResponse", "class_photon_1_1_realtime_1_1_web_rpc_response.html", "class_photon_1_1_realtime_1_1_web_rpc_response" ],
-      [ "WebFlags", "class_photon_1_1_realtime_1_1_web_flags.html", "class_photon_1_1_realtime_1_1_web_flags" ]
+    [ "SupportLogger.cs", "_support_logger_8cs.xhtml", "_support_logger_8cs" ],
+    [ "WebRpc.cs", "_web_rpc_8cs.xhtml", [
+      [ "WebRpcResponse", "class_photon_1_1_realtime_1_1_web_rpc_response.xhtml", "class_photon_1_1_realtime_1_1_web_rpc_response" ],
+      [ "WebFlags", "class_photon_1_1_realtime_1_1_web_flags.xhtml", "class_photon_1_1_realtime_1_1_web_flags" ]
     ] ]
 ];

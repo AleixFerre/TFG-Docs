@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['authmodeoption_5027',['AuthModeOption',['../namespace_photon_1_1_realtime.html#abddee7522874d75d666874c4129b3613',1,'Photon::Realtime']]]
+  ['estatlobby_1085',['EstatLobby',['../class_lobby.xhtml#aae1e92550db31d8491bc697f28635d22',1,'Lobby']]]
 ];

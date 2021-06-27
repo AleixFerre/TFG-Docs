@@ -1,0 +1,5 @@
+<map id="Photon.Realtime.TypedLobbyInfo" name="Photon.Realtime.TypedLobbyInfo">
+<area shape="rect" id="node1" title="Info for a lobby on the server." alt="" coords="5,171,217,197"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_typed_lobby.xhtml" title="Refers to a specific lobby on the server." alt="" coords="65,95,157,121"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_typed_lobby.xhtml" title="Refers to a specific lobby on the server." alt="" coords="15,5,207,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Photon.Pun.PhotonNetwork.JoinLobby" name="Photon.Pun.PhotonNetwork.JoinLobby">
+<area shape="rect" id="node1" title="On MasterServer this joins the default lobby which list rooms currently in use." alt="" coords="285,43,472,84"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#ada5a8656661cf77fa36e18357aef5da3" title=" " alt="" coords="31,5,211,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a201fa289b5db33619feb8488f33e662c" title=" " alt="" coords="5,71,237,127"/>
+</map>

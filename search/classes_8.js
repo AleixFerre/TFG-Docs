@@ -1,31 +1,4 @@
 var searchData=
 [
-  ['ichatclientlistener_2876',['IChatClientListener',['../interface_photon_1_1_chat_1_1_i_chat_client_listener.html',1,'Photon::Chat']]],
-  ['iconnectioncallbacks_2877',['IConnectionCallbacks',['../interface_photon_1_1_realtime_1_1_i_connection_callbacks.html',1,'Photon::Realtime']]],
-  ['ierrorinfocallback_2878',['IErrorInfoCallback',['../interface_photon_1_1_realtime_1_1_i_error_info_callback.html',1,'Photon::Realtime']]],
-  ['ignoreuiraycastwheninactive_2879',['IgnoreUiRaycastWhenInactive',['../class_ignore_ui_raycast_when_inactive.html',1,'']]],
-  ['iinroomcallbacks_2880',['IInRoomCallbacks',['../interface_photon_1_1_realtime_1_1_i_in_room_callbacks.html',1,'Photon::Realtime']]],
-  ['ilobbycallbacks_2881',['ILobbyCallbacks',['../interface_photon_1_1_realtime_1_1_i_lobby_callbacks.html',1,'Photon::Realtime']]],
-  ['imatchmakingcallbacks_2882',['IMatchmakingCallbacks',['../interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.html',1,'Photon::Realtime']]],
-  ['imodifiablestate_2883',['IModifiableState',['../interface_tayx_1_1_graphy_1_1_u_i_1_1_i_modifiable_state.html',1,'Tayx::Graphy::UI']]],
-  ['imovable_2884',['IMovable',['../interface_tayx_1_1_graphy_1_1_u_i_1_1_i_movable.html',1,'Tayx::Graphy::UI']]],
-  ['infospanelplaceholder_2885',['InfosPanelPlaceholder',['../class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_infos_panel_placeholder.html',1,'Photon::Pun::Demo::Cockpit']]],
-  ['ingamecontrolpanel_2886',['IngameControlPanel',['../class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_ingame_control_panel.html',1,'Photon::Pun::Demo::Procedural']]],
-  ['instanteffect_2887',['InstantEffect',['../class_instant_effect.html',1,'']]],
-  ['instantiateparameters_2888',['InstantiateParameters',['../struct_photon_1_1_pun_1_1_instantiate_parameters.html',1,'Photon::Pun']]],
-  ['intinputfield_2889',['IntInputField',['../class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_int_input_field.html',1,'Photon::Pun::Demo::Cockpit']]],
-  ['inventory_2890',['Inventory',['../class_inventory.html',1,'']]],
-  ['ioneventcallback_2891',['IOnEventCallback',['../interface_photon_1_1_realtime_1_1_i_on_event_callback.html',1,'Photon::Realtime']]],
-  ['ionphotonviewcontrollerchange_2892',['IOnPhotonViewControllerChange',['../interface_photon_1_1_pun_1_1_i_on_photon_view_controller_change.html',1,'Photon::Pun']]],
-  ['ionphotonviewownerchange_2893',['IOnPhotonViewOwnerChange',['../interface_photon_1_1_pun_1_1_i_on_photon_view_owner_change.html',1,'Photon::Pun']]],
-  ['ionphotonviewprenetdestroy_2894',['IOnPhotonViewPreNetDestroy',['../interface_photon_1_1_pun_1_1_i_on_photon_view_pre_net_destroy.html',1,'Photon::Pun']]],
-  ['iphotonviewcallback_2895',['IPhotonViewCallback',['../interface_photon_1_1_pun_1_1_i_photon_view_callback.html',1,'Photon::Pun']]],
-  ['ipuninstantiatemagiccallback_2896',['IPunInstantiateMagicCallback',['../interface_photon_1_1_pun_1_1_i_pun_instantiate_magic_callback.html',1,'Photon::Pun']]],
-  ['ipunobservable_2897',['IPunObservable',['../interface_photon_1_1_pun_1_1_i_pun_observable.html',1,'Photon::Pun']]],
-  ['ipunownershipcallbacks_2898',['IPunOwnershipCallbacks',['../interface_photon_1_1_pun_1_1_i_pun_ownership_callbacks.html',1,'Photon::Pun']]],
-  ['ipunprefabpool_2899',['IPunPrefabPool',['../interface_photon_1_1_pun_1_1_i_pun_prefab_pool.html',1,'Photon::Pun']]],
-  ['ipunturnmanagercallbacks_2900',['IPunTurnManagerCallbacks',['../interface_photon_1_1_pun_1_1_utility_scripts_1_1_i_pun_turn_manager_callbacks.html',1,'Photon::Pun::UtilityScripts']]],
-  ['isconnectedandreadyproperty_2901',['IsConnectedAndReadyProperty',['../class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_is_connected_and_ready_property.html',1,'Photon::Pun::Demo::Cockpit']]],
-  ['isconnectedproperty_2902',['IsConnectedProperty',['../class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_is_connected_property.html',1,'Photon::Pun::Demo::Cockpit']]],
-  ['iwebrpccallback_2903',['IWebRpcCallback',['../interface_photon_1_1_realtime_1_1_i_web_rpc_callback.html',1,'Photon::Realtime']]]
+  ['keyvaluepair_581',['KeyValuePair',['../struct_generic_dictionary_1_1_key_value_pair.xhtml',1,'GenericDictionary']]]
 ];

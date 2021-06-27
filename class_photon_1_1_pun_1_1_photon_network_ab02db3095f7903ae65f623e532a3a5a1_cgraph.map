@@ -1,0 +1,9 @@
+<map id="Photon.Pun.PhotonNetwork.NetworkInstantiate" name="Photon.Pun.PhotonNetwork.NetworkInstantiate">
+<area shape="rect" id="node1" title=" " alt="" coords="5,97,192,139"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ac9f5c2c968dc23f337092fedff586132" title="Allocates a viewID for the current/local player." alt="" coords="261,7,448,48"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_player.xhtml#af5a7ae0f4573b2611cfa0f6babae2fdf" title="If players are equal (by GetHasCode, which returns this.ID)." alt="" coords="253,75,456,102"/>
+<area shape="rect" id="node6" href="$interface_photon_1_1_pun_1_1_i_pun_prefab_pool.xhtml#a870a5155ad093e64f224a774cb1959d9" title="Called to get an instance of a prefab." alt="" coords="261,127,448,168"/>
+<area shape="rect" id="node7" href="$interface_photon_1_1_pun_1_1_i_pun_instantiate_magic_callback.xhtml#add0c411a3867390cae669f407596ac52" title=" " alt="" coords="240,192,469,233"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#ae0793a8e08fd1b0954b4b391c6b6137b" title=" " alt="" coords="519,5,700,47"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_player.xhtml#a0914a0d737a4f64aa310eaa94e8f5a6e" title="Accompanies Equals, using the ID (actorNumber) as HashCode to return." alt="" coords="517,71,701,112"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,96,57"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_peer.xhtml" title="Provides basic operations of the Photon Chat server." alt="" coords="185,5,337,32"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml" title="A LoadBalancingPeer provides the operations and enum definitions needed to use the LoadBalancing serv..." alt="" coords="144,56,379,83"/>
+</map>

@@ -1,23 +1,4 @@
 var searchData=
 [
-  ['waitingforplayerstxt_4998',['waitingForPlayersTxt',['../class_lobby.html#a0c5d34e133ca0c85c6b9196e9ae7274b',1,'Lobby']]],
-  ['walkspeed_4999',['walkSpeed',['../class_simple_character_motor.html#aee5d62caf7db00be894879d4b88d2068',1,'SimpleCharacterMotor']]],
-  ['warningphotondisconnect_5000',['WarningPhotonDisconnect',['../class_photon_1_1_pun_1_1_pun_wizard_text.html#a7ec1c2d34045fc9caa300a628bb13491',1,'Photon::Pun::PunWizardText']]],
-  ['warningtext_5001',['WarningText',['../class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_slot_racer_splash_screen.html#a0353c66da4f1861f1ee54b3996bbc5f6',1,'Photon::Pun::Demo::SlotRacer::SlotRacerSplashScreen']]],
-  ['waypoints_5002',['waypoints',['../class_paths.html#a203c050abb6eb2072e7bfcb2e19bcf8c',1,'Paths']]],
-  ['webflags_5003',['WebFlags',['../class_photon_1_1_chat_1_1_chat_parameter_code.html#a60df1897c09e159b7756c754dd9b59ed',1,'Photon::Chat::ChatParameterCode']]],
-  ['webhookflags_5004',['WebhookFlags',['../class_photon_1_1_realtime_1_1_web_flags.html#a06084eb7f658beb23312f9307fe1eab9',1,'Photon::Realtime::WebFlags']]],
-  ['webrpc_5005',['WebRpc',['../class_photon_1_1_realtime_1_1_operation_code.html#ab392fd56d0a743a9fa9966ef30126ff4',1,'Photon::Realtime::OperationCode']]],
-  ['webrpcparameters_5006',['WebRpcParameters',['../class_photon_1_1_realtime_1_1_parameter_code.html#af1169567c48b6f8486adbdd2be61fce2',1,'Photon::Realtime::ParameterCode']]],
-  ['webrpcreturncode_5007',['WebRpcReturnCode',['../class_photon_1_1_realtime_1_1_parameter_code.html#a154e39482902cac8153452da9cf97691',1,'Photon::Realtime::ParameterCode']]],
-  ['webrpcreturnmessage_5008',['WebRpcReturnMessage',['../class_photon_1_1_realtime_1_1_parameter_code.html#a36198ffadcf1d23e8c2b1c250cea9b48',1,'Photon::Realtime::ParameterCode']]],
-  ['windowid_5009',['WindowId',['../class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_lag_simulation_gui.html#ac58270d7e034a82237b707ccb084a87f',1,'Photon.Pun.UtilityScripts.PhotonLagSimulationGui.WindowId()'],['../class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_stats_gui.html#ae62163fecb6968f7e1ab02f8f61f4911',1,'Photon.Pun.UtilityScripts.PhotonStatsGui.WindowId()']]],
-  ['windowrect_5010',['WindowRect',['../class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_lag_simulation_gui.html#a7fc1c5ed4459def5671d9876cf77bfde',1,'Photon::Pun::UtilityScripts::PhotonLagSimulationGui']]],
-  ['windowtitle_5011',['WindowTitle',['../class_photon_1_1_pun_1_1_pun_wizard_text.html#aa0bcdd3f4bc8716574ca906ea9142efd',1,'Photon::Pun::PunWizardText']]],
-  ['windowtype_5012',['WindowType',['../class_photon_1_1_pun_1_1_photon_editor.html#a1068078b3aac4caf6cb27a2db6c05412',1,'Photon::Pun::PhotonEditor']]],
-  ['winnertext_5013',['winnerText',['../class_post_game_menu.html#a4e3fcd2b709ccc25a027b6fef5dcadc3',1,'PostGameMenu']]],
-  ['wizardmainwindowinfo_5014',['WizardMainWindowInfo',['../class_photon_1_1_pun_1_1_pun_wizard_text.html#ae93e5bd95688df379bb7be584d184ec2',1,'Photon::Pun::PunWizardText']]],
-  ['worldmaterials_5015',['WorldMaterials',['../class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_world_generator.html#a42d168bd552992d7ed7269564b9987f5',1,'Photon::Pun::Demo::Procedural::WorldGenerator']]],
-  ['worldsizepropertieskey_5016',['WorldSizePropertiesKey',['../class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_world_generator.html#a02b5929c2aaa1712e9cc5301afb8fbb8',1,'Photon::Pun::Demo::Procedural::WorldGenerator']]],
-  ['worldtypepropertieskey_5017',['WorldTypePropertiesKey',['../class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_world_generator.html#a7c3fa05c3e39ecffd472c373115a2d93',1,'Photon::Pun::Demo::Procedural::WorldGenerator']]]
+  ['x_1078',['x',['../class_unity_template_projects_1_1_simple_camera_controller_1_1_camera_state.xhtml#a246e8efe39d219ef3191ed0c6271630c',1,'UnityTemplateProjects::SimpleCameraController::CameraState']]]
 ];

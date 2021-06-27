@@ -1,0 +1,10 @@
+<map id="Photon.Realtime.LoadBalancingClient.ReconnectToMaster" name="Photon.Realtime.LoadBalancingClient.ReconnectToMaster">
+<area shape="rect" id="node1" title="Can be used to reconnect to the master server after a disconnect." alt="" coords="5,100,212,141"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a84e280b4685509d7fa65bedebb0828a2" title=" " alt="" coords="260,71,467,112"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a69dd43d4c7211b5b83cd54d0ebcf79e7" title="Debug output of low level api (and this client)." alt="" coords="1048,68,1255,109"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#ad1d932ea902a1b1df7769e9a852077c6" title="Starts the &quot;process&quot; to connect to a Master Server, using MasterServerAddress and AppId properties." alt="" coords="515,71,721,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a29aacea6df375e301f67cb40ea90849e" title=" " alt="" coords="775,5,994,47"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a43a3b987e52c0e028ce1d5803b7b9507" title=" " alt="" coords="769,71,1000,112"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7f48b5f0c44ef0c67ef32f147ff87246" title="Creates a Peer with specified connection protocol." alt="" coords="1303,39,1509,80"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#affaff7e1fdffe86b25156ffac5e738c9" title=" " alt="" coords="1557,39,1764,80"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.PunTeams.OnJoinedRoom" name="Photon.Pun.UtilityScripts.PunTeams.OnJoinedRoom">
+<area shape="rect" id="node1" title="Needed to update the team lists when joining a room." alt="" coords="5,5,181,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_teams.xhtml#abb91c7051336cad347092a267d2fe94a" title=" " alt="" coords="229,5,401,47"/>
+</map>

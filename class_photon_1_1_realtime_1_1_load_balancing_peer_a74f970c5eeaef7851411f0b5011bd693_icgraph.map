@@ -1,0 +1,19 @@
+<map id="Photon.Realtime.LoadBalancingPeer.OpLeaveRoom" name="Photon.Realtime.LoadBalancingPeer.OpLeaveRoom">
+<area shape="rect" id="node1" title="Leaves a room with option to come back later or &quot;for good&quot;." alt="" coords="1437,201,1644,243"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a14ea6cb3695cfca235d6f67298f33570" title="Leaves the current room, optionally telling the server that the user is just becoming inactive." alt="" coords="1183,201,1389,243"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a6efe3af5ec21c4ed14b1d4d95eef965f" title="Leave the current room and return to the Master Server where you can join or create rooms (see remark..." alt="" coords="948,201,1135,243"/>
+<area shape="rect" id="node4" href="$class_connection_manager.xhtml#a9b5c535dd81e861835cfddf10b2fd19a" title=" " alt="" coords="674,5,881,47"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#ac71c0620af41e7bc816dfc9a6dedc23d" title=" " alt="" coords="659,71,896,112"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_game_manager.xhtml#a2d0ee61af76fcaf16dd3cb013950b44d" title=" " alt="" coords="678,136,877,177"/>
+<area shape="rect" id="node12" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a84ff24af9cae180e264018c2b201104b" title=" " alt="" coords="687,201,867,243"/>
+<area shape="rect" id="node13" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a13bebb81d3e182db408b4fb694afcd1f" title=" " alt="" coords="684,267,871,308"/>
+<area shape="rect" id="node16" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_states_gui.xhtml#a414fd2160f0bd79c9a6826cb31f8006a" title=" " alt="" coords="691,332,863,373"/>
+<area shape="rect" id="node17" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#adf008f0e19d844625d1a668bece46739" title=" " alt="" coords="655,398,900,454"/>
+<area shape="rect" id="node5" href="$class_connection_manager.xhtml#acb44adcca94dd19f39d038c282a4dae4" title=" " alt="" coords="366,5,573,47"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#ab47d7a0a40116f303458cf43e46cce76" title=" " alt="" coords="332,71,607,112"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#a51c6422b2fd3516fe972799fc6809238" title="Called when a remote player left the room or became inactive." alt="" coords="7,35,282,76"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#a5b76c7dc1dc5a3aac652a3c887810ccb" title="Called when custom player&#45;properties are changed." alt="" coords="5,101,284,157"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_player_manager.xhtml#abe0628018b575fc2208679a09876f68f" title="MonoBehaviour method called on GameObject by Unity on every frame." alt="" coords="370,136,569,177"/>
+<area shape="rect" id="node14" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a29461361da66594fce3a7394493f8fce" title=" " alt="" coords="376,267,563,308"/>
+<area shape="rect" id="node15" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a1b66941ee2aba40b56df1578da9015da" title="Static constructor used for basic setup." alt="" coords="51,267,238,308"/>
+</map>

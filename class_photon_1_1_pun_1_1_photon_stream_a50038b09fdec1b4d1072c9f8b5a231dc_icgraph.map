@@ -1,0 +1,18 @@
+<map id="Photon.Pun.PhotonStream.ReceiveNext" name="Photon.Pun.PhotonStream.ReceiveNext">
+<area shape="rect" id="node1" title="Read next piece of data from the stream when IsReading is true." alt="" coords="957,381,1139,423"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_stream_queue.xhtml#a576b08634a4833827b019071ddfefe09" title="Deserializes the specified stream." alt="" coords="652,5,871,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_transform_view_position_control.xhtml#aac20104d2e19337d24f61849ebcdbdd9" title=" " alt="" coords="645,217,878,259"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml#ac314c73fb9019a95360650e317c748e0" title=" " alt="" coords="663,71,859,112"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml#adfc95da44c01ffefe279fc3b1c7f57ad" title=" " alt="" coords="656,137,867,193"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_photon_rigidbody2_d_view.xhtml#a11031cb31ea443bdc8989e2ff7023692" title="Called by PUN several times per second, so that your script can write and read synchronization data f..." alt="" coords="662,283,861,324"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_photon_rigidbody_view.xhtml#a0676988dbf6a5c775d25f5740d3a7e1c" title="Called by PUN several times per second, so that your script can write and read synchronization data f..." alt="" coords="665,348,857,389"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_pun_1_1_photon_transform_view.xhtml#aeb0652d898cc4b1a924780c42c4b3e5b" title="Called by PUN several times per second, so that your script can write and read synchronization data f..." alt="" coords="665,413,857,455"/>
+<area shape="rect" id="node12" href="$class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_player_control.xhtml#ac79da425f86c95a324e56dc4a6c10cf1" title="this is where data is sent and received for this Component from the PUN Network." alt="" coords="641,479,881,520"/>
+<area shape="rect" id="node13" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_player_manager.xhtml#a4aa05c45a41de33bf4a79cf2f5445f35" title="Called by PUN several times per second, so that your script can write and read synchronization data f..." alt="" coords="637,544,886,585"/>
+<area shape="rect" id="node14" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_smooth_sync_movement.xhtml#a692549109328ae155fda15b9a399c427" title="Called by PUN several times per second, so that your script can write and read synchronization data f..." alt="" coords="613,609,909,651"/>
+<area shape="rect" id="node15" href="$class_photon_1_1_pun_1_1_photon_transform_view_rotation_control.xhtml#a8eec6613797ed8d43f98dde34c016221" title=" " alt="" coords="287,653,565,695"/>
+<area shape="rect" id="node16" href="$class_photon_1_1_pun_1_1_photon_transform_view_scale_control.xhtml#a76355e21d2aa0005fdf8e0ab130e16c1" title=" " alt="" coords="294,719,558,760"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml#a35a3d7a2cff101c804c6e71ea0df1a32" title="Called by PUN several times per second, so that your script can write and read synchronization data f..." alt="" coords="331,71,521,112"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_transform_view_position_control.xhtml#a2cdc231368e9d46379e9b6658ef03557" title=" " alt="" coords="287,403,565,444"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_transform_view_classic.xhtml#ad5e79fe9deea5e71a8608e366896bfad" title="Called by PUN several times per second, so that your script can write and read synchronization data f..." alt="" coords="5,653,239,695"/>
+</map>

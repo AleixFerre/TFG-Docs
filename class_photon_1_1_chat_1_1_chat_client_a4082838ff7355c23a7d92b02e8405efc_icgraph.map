@@ -1,0 +1,10 @@
+<map id="Photon.Chat.ChatClient.SetOnlineStatus" name="Photon.Chat.ChatClient.SetOnlineStatus">
+<area shape="rect" id="node1" title="Sets the user&#39;s status (pre&#45;defined or custom) and an optional message." alt="" coords="483,89,665,131"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a427aacde5ff51e6593888ffd12827cb3" title=" " alt="" coords="232,5,435,47"/>
+<area shape="rect" id="node4" href="$class_chat_gui.xhtml#a05ac6bff242c371c67f9f07e9966aba3" title="Client is connected now." alt="" coords="257,71,409,98"/>
+<area shape="rect" id="node5" href="$class_chat_gui.xhtml#a68f45c78a96103fbc13469b6c0603295" title=" " alt="" coords="242,122,425,149"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a0d5755dc7972e0a68cf51863ff2d6ed1" title="Sets the user&#39;s status without changing your status&#45;message." alt="" coords="242,173,425,215"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a6fa6375e40c2b85a51b3d989cb46cc4b" title=" " alt="" coords="5,5,184,47"/>
+<area shape="rect" id="node6" href="$class_chat_gui.xhtml#a4d4a6ffcf4f6191edf14ce7274c91717" title=" " alt="" coords="20,97,169,123"/>
+<area shape="rect" id="node7" href="$class_chat_gui.xhtml#adcb3927d375b06b5525f47cd6a4ee727" title=" " alt="" coords="19,147,170,174"/>
+</map>

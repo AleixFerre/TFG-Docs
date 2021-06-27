@@ -1,0 +1,4 @@
+<map id="Photon.Realtime.RaiseEventOptions" name="Photon.Realtime.RaiseEventOptions">
+<area shape="rect" id="node1" title="Aggregates several less&#45;often used options for operation RaiseEvent. See field descriptions for usage..." alt="" coords="5,95,192,136"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_web_flags.xhtml" title="Optional flags to be used in Photon client SDKs with Op RaiseEvent and Op SetProperties." alt="" coords="8,5,189,32"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Photon.Realtime.SupportLogger.OnConnected" name="Photon.Realtime.SupportLogger.OnConnected">
+<area shape="rect" id="node1" title="Called to signal that the &quot;low level connection&quot; got established but before the client can call opera..." alt="" coords="5,129,216,171"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_support_logger.xhtml#aa9fd97374270d9c14b0fd96d56d56fc0" title=" " alt="" coords="523,177,733,219"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_support_logger_1_1_debug.xhtml#a4aca16e5f5b089d5db20b5ad4474cce0" title=" " alt="" coords="523,71,733,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_support_logger.xhtml#a7a9320afb45b2c3227b7da96e956521d" title="Debug logs basic information (AppId, AppVersion, PeerID, Server address, Region) about the attached P..." alt="" coords="264,240,475,281"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_realtime_1_1_support_logger.xhtml#a0c1931e22e62cde2d06f34ea920ee5a1" title=" " alt="" coords="264,5,475,47"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_realtime_1_1_support_logger.xhtml#aa6c6835ffde143fba76cb289e3c7c6f9" title=" " alt="" coords="264,71,475,112"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7f48b5f0c44ef0c67ef32f147ff87246" title="Creates a Peer with specified connection protocol." alt="" coords="525,243,731,284"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_realtime_1_1_support_logger_1_1_debug.xhtml#a4a72d377bb638dbbbf986e3ce6141585" title=" " alt="" coords="523,308,733,349"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#affaff7e1fdffe86b25156ffac5e738c9" title=" " alt="" coords="781,243,988,284"/>
+</map>

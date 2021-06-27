@@ -1,0 +1,4 @@
+<map id="Photon.Pun.Demo.Cockpit.PunCockpit.JoinLobby" name="Photon.Pun.Demo.Cockpit.PunCockpit.JoinLobby">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,185,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a27acbd663f3836dc3b5036f0854d05cd" title="On MasterServer this joins the default lobby which list rooms currently in use." alt="" coords="233,5,420,47"/>
+</map>

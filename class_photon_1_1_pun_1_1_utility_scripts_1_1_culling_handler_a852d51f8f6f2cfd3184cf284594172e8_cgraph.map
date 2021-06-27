@@ -1,0 +1,11 @@
+<map id="Photon.Pun.UtilityScripts.CullingHandler.Update" name="Photon.Pun.UtilityScripts.CullingHandler.Update">
+<area shape="rect" id="node1" title="Checks if the player has moved previously and updates the interest groups if necessary." alt="" coords="5,75,177,116"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_culling_handler.xhtml#a99d4b1ca81941ebcbf7291c3bc9e72d4" title="Checks if the previously active cells have changed." alt="" coords="242,30,443,86"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_culling_handler.xhtml#afd5a0ea2e3394778f6231f4362c01c03" title="Unsubscribes from old and subscribes to new interest groups." alt="" coords="225,111,460,152"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#a35fb2db8c9dda9a88e4890e1a8b3bc88" title="Gets a list of all cell IDs the player is currently inside or nearby." alt="" coords="515,37,687,79"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#af28e9793abfacb2c8729d6399979e371" title="Gathers all cell IDs the player is currently inside or nearby." alt="" coords="743,37,931,79"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#a2c550fbbf2ed973dc8c2f093721b2ccd" title="Checks if the given point is inside the cell." alt="" coords="979,5,1177,47"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#a68c3fb47028b8f0a5a34e22053e860b8" title="Checks if the given point is near the cell." alt="" coords="982,71,1174,112"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aa941f29879694fd0a54f1ae58f8e394a" title="Enable/disable receiving events from a given Interest Group." alt="" coords="508,111,695,152"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a7de619407fd7ff3a1156e7ddc8c9d21c" title="Helper function which is called inside this class to erify if certain functions can be used (e...." alt="" coords="743,111,930,152"/>
+</map>

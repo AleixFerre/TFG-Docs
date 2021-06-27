@@ -1,19 +1,11 @@
 var searchData=
 [
-  ['basefilestring_4181',['BaseFileString',['../class_doxygen_window.html#a7a4acfac0a07a2a05f183e4f0bc53b62',1,'DoxygenWindow']]],
-  ['basicattack_4182',['basicAttack',['../class_player_controller.html#a8b2e727aac56648f6e72253949f5bde5',1,'PlayerController']]],
-  ['bestregionsummaryfromstorage_4183',['BestRegionSummaryFromStorage',['../class_photon_1_1_realtime_1_1_app_settings.html#a0df3f1f36236ca7568945bac32defd97',1,'Photon::Realtime::AppSettings']]],
-  ['bgscale_4184',['bgScale',['../class_press_any_key.html#ae86970f72ef8b6e6e2d42b0cea8a35e0',1,'PressAnyKey']]],
-  ['bgtransform_4185',['bgTransform',['../class_arrow_animation.html#a11ad55c8c8202eb50b0af176abdbafb8',1,'ArrowAnimation']]],
-  ['blockedabilities_4186',['blockedAbilities',['../class_ability.html#a699e612ce050adef1c2538e6a76fd8f4',1,'Ability']]],
-  ['blockedability_4187',['blockedAbility',['../class_ability_cooldown.html#a3bbedb3445e2f744a5728320ab3e7319',1,'AbilityCooldown']]],
-  ['bluespawn_4188',['blueSpawn',['../class_game_controller.html#a262b46e661b13ccf4ec012a4b35c6b2f',1,'GameController']]],
-  ['bool_4189',['bool',['../class_rotate_game_object.html#ad9f45707b54876d262b3ba2e26ab5313',1,'RotateGameObject']]],
-  ['boost_4190',['boost',['../class_unity_template_projects_1_1_simple_camera_controller.html#a10837e7d6130729fa1a3aacf83e40f99',1,'UnityTemplateProjects::SimpleCameraController']]],
-  ['broadcast_4191',['Broadcast',['../class_photon_1_1_chat_1_1_chat_parameter_code.html#a8cb650cb7cf125865210b56943b4ec57',1,'Photon.Chat.ChatParameterCode.Broadcast()'],['../class_photon_1_1_realtime_1_1_parameter_code.html#aa7b921640a85306516c1911957b73037',1,'Photon.Realtime.ParameterCode.Broadcast()']]],
-  ['builtinpropertiespanel_4192',['BuiltInPropertiesPanel',['../class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_details_controller.html#a98137b202a2e5c12bf1e040d7755cb3a',1,'Photon::Pun::Demo::Cockpit::PlayerDetailsController']]],
-  ['bulletprefab_4193',['BulletPrefab',['../class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_spaceship.html#a527725b9f7c81335bf49d0c9856ada6c',1,'Photon::Pun::Demo::Asteroids::Spaceship']]],
-  ['button_4194',['Button',['../class_photon_1_1_pun_1_1_utility_scripts_1_1_on_click_destroy.html#adef78d4ae0e5d441c8e1a9152e4f8664',1,'Photon.Pun.UtilityScripts.OnClickDestroy.Button()'],['../class_photon_1_1_pun_1_1_utility_scripts_1_1_on_click_instantiate.html#afc310b23cfd25f6d79b4949bf99b1f3a',1,'Photon.Pun.UtilityScripts.OnClickInstantiate.Button()'],['../class_photon_1_1_pun_1_1_utility_scripts_1_1_on_click_rpc.html#ab63e279b5fbfcbac832efa487571a5b5',1,'Photon.Pun.UtilityScripts.OnClickRpc.Button()']]],
-  ['buttons_4195',['Buttons',['../class_photon_1_1_pun_1_1_utility_scripts_1_1_states_gui.html#adc207397901a3811e6f1f3f98c7cc843',1,'Photon::Pun::UtilityScripts::StatesGui']]],
-  ['buttonson_4196',['buttonsOn',['../class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_stats_gui.html#ae0cbd2ebd940ad795185a49339a06f18',1,'Photon::Pun::UtilityScripts::PhotonStatsGui']]]
+  ['basicattack_865',['basicAttack',['../class_model_player_mediator.xhtml#a24f1f5ecc9229e9acaea0431381c4810',1,'ModelPlayerMediator.basicAttack()'],['../class_player_controller.xhtml#a8b2e727aac56648f6e72253949f5bde5',1,'PlayerController.basicAttack()']]],
+  ['bgscale_866',['bgScale',['../class_press_any_key.xhtml#ae86970f72ef8b6e6e2d42b0cea8a35e0',1,'PressAnyKey']]],
+  ['bgtransform_867',['bgTransform',['../class_arrow_animation.xhtml#a11ad55c8c8202eb50b0af176abdbafb8',1,'ArrowAnimation']]],
+  ['blockedabilities_868',['blockedAbilities',['../class_ability.xhtml#a699e612ce050adef1c2538e6a76fd8f4',1,'Ability']]],
+  ['blockedability_869',['blockedAbility',['../class_ability_cooldown.xhtml#a3bbedb3445e2f744a5728320ab3e7319',1,'AbilityCooldown']]],
+  ['bluespawn_870',['blueSpawn',['../class_game_controller.xhtml#a262b46e661b13ccf4ec012a4b35c6b2f',1,'GameController']]],
+  ['bool_871',['bool',['../class_rotate_game_object.xhtml#ad9f45707b54876d262b3ba2e26ab5313',1,'RotateGameObject']]],
+  ['boost_872',['boost',['../class_unity_template_projects_1_1_simple_camera_controller.xhtml#a10837e7d6130729fa1a3aacf83e40f99',1,'UnityTemplateProjects::SimpleCameraController']]]
 ];

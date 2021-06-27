@@ -1,0 +1,5 @@
+<map id="Photon.Pun.Demo.Cockpit.PunCockpit.OnDropdownConnectAs_CB" name="Photon.Pun.Demo.Cockpit.PunCockpit.OnDropdownConnectAs_CB">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,261,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a77fa31e42993a5935420aa1a71e5e37c" title=" " alt="" coords="309,5,489,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a3eaa67a8c2af70028949403df6b60ca2" title="Connect to Photon as configured in the PhotonServerSettings file." alt="" coords="537,5,724,47"/>
+</map>

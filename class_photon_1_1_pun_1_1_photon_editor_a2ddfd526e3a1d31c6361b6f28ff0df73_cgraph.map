@@ -1,0 +1,7 @@
+<map id="Photon.Pun.PhotonEditor.OnProjectChanged" name="Photon.Pun.PhotonEditor.OnProjectChanged">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,179,112"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_pun_scene_settings.xhtml#ae608d6f93a6c16df6b3a76b689e6ce4d" title=" " alt="" coords="227,5,433,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_editor.xhtml#ae12c66548a6dcbd0e1633c824cc64a67" title=" " alt="" coords="243,71,417,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_editor.xhtml#a641429377591448262ecd32a3e1cc2e2" title="Creates an Editor window, showing the cloud&#45;registration wizard for Photon (entry point to setup PUN)..." alt="" coords="243,136,417,177"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_editor.xhtml#af5392967445d7a3fac22f7ea39a5d812" title=" " alt="" coords="481,136,655,177"/>
+</map>

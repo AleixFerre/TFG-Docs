@@ -1,20 +1,8 @@
 var searchData=
 [
-  ['haschat_4409',['HasChat',['../class_photon_1_1_pun_1_1_photon_editor_utils.html#a62eedb52115ddca3b07cefcc00266b38',1,'Photon::Pun::PhotonEditorUtils']]],
-  ['hascheckedproducts_4410',['HasCheckedProducts',['../class_photon_1_1_pun_1_1_photon_editor_utils.html#a6b43242a4846ef5d28caedd4a3eff364',1,'Photon::Pun::PhotonEditorUtils']]],
-  ['haspun_4411',['HasPun',['../class_photon_1_1_pun_1_1_photon_editor_utils.html#a3efcfb7f14ed50cc4f92b01b5841d980',1,'Photon::Pun::PhotonEditorUtils']]],
-  ['hasvoice_4412',['HasVoice',['../class_photon_1_1_pun_1_1_photon_editor_utils.html#a4154a31da84227a708b9013afe09e669',1,'Photon::Pun::PhotonEditorUtils']]],
-  ['health_4413',['Health',['../class_friend_item.html#a7b09306622b2196ebe6919bed116535c',1,'FriendItem.Health()'],['../class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_player_manager.html#a0b2c9a7e2fe49ceb8cbac80e20da56c0',1,'Photon.Pun.Demo.PunBasics.PlayerManager.Health()']]],
-  ['healthstatsvisible_4414',['healthStatsVisible',['../class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_stats_gui.html#a0a0e412ef27f8ec9b0b189339b2dd670',1,'Photon::Pun::UtilityScripts::PhotonStatsGui']]],
-  ['historylength_4415',['HistoryLength',['../class_photon_1_1_chat_1_1_chat_parameter_code.html#a6b76139a3303feb491403143af03404a',1,'Photon::Chat::ChatParameterCode']]],
-  ['historylengthtofetch_4416',['HistoryLengthToFetch',['../class_chat_gui.html#a5f33d058657263e9bd60f06e815a8077',1,'ChatGui']]],
-  ['hovercolor_4417',['HoverColor',['../class_photon_1_1_chat_1_1_utility_scripts_1_1_text_button_transition.html#aaa8148a5cde6bcd6cfdf59cf2bfddbd7',1,'Photon.Chat.UtilityScripts.TextButtonTransition.HoverColor()'],['../class_photon_1_1_pun_1_1_utility_scripts_1_1_text_button_transition.html#ac7d01f77f0e4c020bd66e36fb5edc314',1,'Photon.Pun.UtilityScripts.TextButtonTransition.HoverColor()']]],
-  ['hoveroffcolor_4418',['HoverOffColor',['../class_photon_1_1_chat_1_1_utility_scripts_1_1_text_toggle_is_on_transition.html#a8fe70c4196fb5a96229d6bc897b876fb',1,'Photon.Chat.UtilityScripts.TextToggleIsOnTransition.HoverOffColor()'],['../class_photon_1_1_pun_1_1_utility_scripts_1_1_graphic_toggle_is_on_transition.html#a3b2078c9f91de53bb594ed8fad0ad3ef',1,'Photon.Pun.UtilityScripts.GraphicToggleIsOnTransition.HoverOffColor()'],['../class_photon_1_1_pun_1_1_utility_scripts_1_1_text_toggle_is_on_transition.html#a5df2aee4ce4150e8aa84b443842550ce',1,'Photon.Pun.UtilityScripts.TextToggleIsOnTransition.HoverOffColor()']]],
-  ['hoveroncolor_4419',['HoverOnColor',['../class_photon_1_1_chat_1_1_utility_scripts_1_1_text_toggle_is_on_transition.html#aaef3a1909dc16e2f536b3ae7af399e58',1,'Photon.Chat.UtilityScripts.TextToggleIsOnTransition.HoverOnColor()'],['../class_photon_1_1_pun_1_1_utility_scripts_1_1_graphic_toggle_is_on_transition.html#af920da5e094d89de4c37622b99233111',1,'Photon.Pun.UtilityScripts.GraphicToggleIsOnTransition.HoverOnColor()'],['../class_photon_1_1_pun_1_1_utility_scripts_1_1_text_toggle_is_on_transition.html#a0ad76117eec46ea9f94188dd7aa68379',1,'Photon.Pun.UtilityScripts.TextToggleIsOnTransition.HoverOnColor()']]],
-  ['hp_4420',['HP',['../class_stats.html#ab661897854a3917b933c5176a4a3bcc5',1,'Stats']]],
-  ['hpbarsimage_4421',['hpBarsImage',['../class_player_u_i_controller.html#a6130e698d3cc53fb8c6a76c5bb038aa3',1,'PlayerUIController']]],
-  ['hpimage_4422',['hpImage',['../class_u_i_controller.html#af0a2d6ad18543ed300df78f615559a30',1,'UIController']]],
-  ['hpimagesmooth_4423',['hpImageSmooth',['../class_u_i_controller.html#a6083eb4888f332848e2a0fa1c7a8908e',1,'UIController']]],
-  ['httpforwardconst_4424',['HttpForwardConst',['../class_photon_1_1_realtime_1_1_web_flags.html#a946d92c7d7dd3eb8bc69454e1f7e0b65',1,'Photon::Realtime::WebFlags']]],
-  ['httplimitreached_4425',['HttpLimitReached',['../class_photon_1_1_realtime_1_1_error_code.html#adcba5bcd508c8dc1f443cff93cd591a7',1,'Photon::Realtime::ErrorCode']]]
+  ['hp_935',['HP',['../class_stats.xhtml#ab661897854a3917b933c5176a4a3bcc5',1,'Stats']]],
+  ['hp_5famount_5ffor_5fbar_936',['HP_AMOUNT_FOR_BAR',['../class_player_u_i_controller.xhtml#ae4bc4a333f69810c51538103f730ece3',1,'PlayerUIController']]],
+  ['hpbarsimage_937',['hpBarsImage',['../class_player_u_i_controller.xhtml#a6130e698d3cc53fb8c6a76c5bb038aa3',1,'PlayerUIController']]],
+  ['hpimage_938',['hpImage',['../class_u_i_controller.xhtml#af0a2d6ad18543ed300df78f615559a30',1,'UIController']]],
+  ['hpimagesmooth_939',['hpImageSmooth',['../class_u_i_controller.xhtml#a6083eb4888f332848e2a0fa1c7a8908e',1,'UIController']]]
 ];

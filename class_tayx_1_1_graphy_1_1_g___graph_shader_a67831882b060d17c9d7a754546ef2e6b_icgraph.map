@@ -1,0 +1,22 @@
+<map id="Tayx.Graphy.G_GraphShader.UpdateAverage" name="Tayx.Graphy.G_GraphShader.UpdateAverage">
+<area shape="rect" id="node1" title="Updates the average parameter in the material." alt="" coords="1331,271,1528,312"/>
+<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_graph.xhtml#a8402c6f4decc0ed051e2a3afd42c4cc8" title="Creates the points for the graph/s." alt="" coords="1087,173,1263,215"/>
+<area shape="rect" id="node12" href="$class_tayx_1_1_graphy_1_1_ram_1_1_g___ram_graph.xhtml#a9b4664e5086ead30d31ef074a746a167" title="Creates the points for the graph/s." alt="" coords="1068,271,1283,312"/>
+<area shape="rect" id="node19" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_graph.xhtml#a02d3c97832d2dc91b4824f2c4a91eb3c" title="Updates the graph/s." alt="" coords="1073,336,1277,377"/>
+<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_graph.xhtml#a6522e25a1da553924df60f3405495d78" title=" " alt="" coords="808,108,1017,149"/>
+<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_graph.xhtml#a9e594b4aef515e4aa82c3ac3625388df" title=" " alt="" coords="569,8,715,49"/>
+<area shape="rect" id="node6" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_manager.xhtml#a8598c9db6ed411d7301e0c02991ec263" title=" " alt="" coords="529,205,755,247"/>
+<area shape="rect" id="node9" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_manager.xhtml#a4895aeafae6b57dea7bcf4b876098400" title=" " alt="" coords="530,75,754,116"/>
+<area shape="rect" id="node5" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_graph.xhtml#a6a2473b476a688843f6e1a45798444a9" title=" " alt="" coords="285,5,443,47"/>
+<area shape="rect" id="node7" href="$class_tayx_1_1_graphy_1_1_graphy_manager.xhtml#acee2ed06f19bb2ca4dd2c08cd6ea6663" title=" " alt="" coords="266,267,462,308"/>
+<area shape="rect" id="node8" href="$class_tayx_1_1_graphy_1_1_graphy_manager.xhtml#a348506f37eebf68d2530f2c57845459e" title=" " alt="" coords="5,267,201,308"/>
+<area shape="rect" id="node10" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_manager.xhtml#a91f18a0a306a2fe70d61c62180010ca8" title=" " alt="" coords="291,71,437,112"/>
+<area shape="rect" id="node11" href="$class_tayx_1_1_graphy_1_1_graphy_manager.xhtml#a09cf85e2115057a8a96471d52b9c4cd2" title=" " alt="" coords="266,136,462,177"/>
+<area shape="rect" id="node13" href="$class_tayx_1_1_graphy_1_1_ram_1_1_g___ram_graph.xhtml#a664d3277ea728c0f7750211346ca3908" title=" " alt="" coords="805,271,1020,312"/>
+<area shape="rect" id="node14" href="$class_tayx_1_1_graphy_1_1_ram_1_1_g___ram_graph.xhtml#ac673e22836461feb3db6830ff707fade" title=" " alt="" coords="527,337,757,363"/>
+<area shape="rect" id="node16" href="$class_tayx_1_1_graphy_1_1_ram_1_1_g___ram_manager.xhtml#a42f32f1355b815fb810b661fe4b90fdc" title=" " alt="" coords="527,271,757,312"/>
+<area shape="rect" id="node17" href="$class_tayx_1_1_graphy_1_1_ram_1_1_g___ram_manager.xhtml#a1acb2bac295238dc6b3e4c2b3198568d" title=" " alt="" coords="527,140,757,181"/>
+<area shape="rect" id="node15" href="$class_tayx_1_1_graphy_1_1_ram_1_1_g___ram_graph.xhtml#a62afe786dae27b77fd7ed6c6bc093edc" title=" " alt="" coords="257,332,471,373"/>
+<area shape="rect" id="node18" href="$class_tayx_1_1_graphy_1_1_ram_1_1_g___ram_manager.xhtml#a0a23747eec60fe4e3793e4debb97b242" title=" " alt="" coords="249,201,479,243"/>
+<area shape="rect" id="node20" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_graph.xhtml#aabca7614c518dc27f3294c28894a3357" title=" " alt="" coords="811,336,1015,377"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Photon.Pun.UtilityScripts.PhotonTeamsManager.ClearTeams" name="Photon.Pun.UtilityScripts.PhotonTeamsManager.ClearTeams">
+<area shape="rect" id="node1" title=" " alt="" coords="945,71,1171,112"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a311774c5d2c168e3cc60c746652a7f03" title=" " alt="" coords="671,5,887,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a6c34533853dfda23b00fd8b521c3fdc6" title="Called when the local user/client left a room, so the game&#39;s logic can clean up it&#39;s internal state." alt="" coords="665,71,893,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#acd2e9899c27858f55a06b3fc17380add" title=" " alt="" coords="661,136,897,177"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#add3fdcd4fbfb72ad03d0c9d9694b22aa" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="347,5,591,47"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a1ab50d369d6ddf86605848ce39e99f87" title="Called when a remote player entered the room." alt="" coords="324,71,613,112"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a555d6e4dd3e070ec789acfb88c900b37" title="Called when a remote player left the room or became inactive." alt="" coords="336,136,601,177"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a53f7a32863458bde96c5ee5b9cd7b2c5" title="Called when custom player&#45;properties are changed." alt="" coords="334,202,603,258"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#afc02f4b968a63873ae8818eff794a083" title="Gets all team mates of a player." alt="" coords="337,282,600,338"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_team_extensions.xhtml#a170286cbb9ae2d63bf025df0e6d22489" title="Try to get the team mates." alt="" coords="5,289,276,331"/>
+</map>

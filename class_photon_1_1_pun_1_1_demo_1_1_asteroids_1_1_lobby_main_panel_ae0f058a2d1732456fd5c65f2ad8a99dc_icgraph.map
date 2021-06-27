@@ -1,0 +1,11 @@
+<map id="Photon.Pun.Demo.Asteroids.LobbyMainPanel.SetActivePanel" name="Photon.Pun.Demo.Asteroids.LobbyMainPanel.SetActivePanel">
+<area shape="rect" id="node1" title=" " alt="" coords="308,239,519,280"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#afb8a816635252a1a8a2def147909b48c" title=" " alt="" coords="7,5,258,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a0852b7d5add2425af3810b1ea48c53af" title="Called when the client is connected to the Master Server and ready for matchmaking and other tasks." alt="" coords="5,71,260,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a635795b36f2f0317c53365e19d4babdd" title="Called when the server couldn&#39;t create a room (OpCreateRoom failed)." alt="" coords="9,136,256,177"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a7868b90be5cff299b2c03476c896cdbb" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="27,201,238,243"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a70ee2a21ec4e0a068a34922787a2346f" title=" " alt="" coords="11,267,255,323"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a744e5d5b934f818e33191964a666bcfc" title="Called when a previous OpJoinRoom call failed on the server." alt="" coords="17,348,248,389"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a688b225bcf8c6127ff4b4b602d2e7513" title="Called when the local user/client left a room, so the game&#39;s logic can clean up it&#39;s internal state." alt="" coords="35,413,230,455"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a201fa289b5db33619feb8488f33e662c" title=" " alt="" coords="17,479,249,535"/>
+</map>
