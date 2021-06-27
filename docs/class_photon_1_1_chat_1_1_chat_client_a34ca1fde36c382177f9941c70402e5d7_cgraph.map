@@ -1,0 +1,4 @@
+<map id="Photon.Chat.ChatClient.Subscribe" name="Photon.Chat.ChatClient.Subscribe">
+<area shape="rect" id="node1" title="Sends operation to subscribe client to channels, optionally fetching a number of messages from the ca..." alt="" coords="5,13,225,39"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a0413525517b1e67ed1818f262fe92a5e" title=" " alt="" coords="273,5,465,47"/>
+</map>

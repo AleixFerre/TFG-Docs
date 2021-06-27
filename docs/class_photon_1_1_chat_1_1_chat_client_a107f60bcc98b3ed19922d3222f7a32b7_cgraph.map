@@ -1,0 +1,4 @@
+<map id="Photon.Chat.ChatClient.Unsubscribe" name="Photon.Chat.ChatClient.Unsubscribe">
+<area shape="rect" id="node1" title="Unsubscribes from a list of channels, which stops getting messages from those." alt="" coords="5,13,240,39"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a0413525517b1e67ed1818f262fe92a5e" title=" " alt="" coords="288,5,480,47"/>
+</map>

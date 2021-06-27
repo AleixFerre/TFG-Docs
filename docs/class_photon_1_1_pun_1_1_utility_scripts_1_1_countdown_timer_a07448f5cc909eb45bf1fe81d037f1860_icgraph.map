@@ -1,0 +1,8 @@
+<map id="Photon.Pun.UtilityScripts.CountdownTimer.TryGetStartTime" name="Photon.Pun.UtilityScripts.CountdownTimer.TryGetStartTime">
+<area shape="rect" id="node1" title=" " alt="" coords="579,128,796,169"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml#ad78abfcbe67a0c90086f131c2dff2060" title=" " alt="" coords="345,69,517,111"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#a5b76c7dc1dc5a3aac652a3c887810ccb" title="Called when custom player&#45;properties are changed." alt="" coords="5,161,284,217"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml#a402d0ea749a694f65303b1bc82c376a1" title=" " alt="" coords="332,187,531,228"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml#a17a7b394eb415ff8bc64a90bf0259044" title=" " alt="" coords="55,5,234,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml#a8385606100f683b1b27f24e2cc6caedd" title="Called when a room&#39;s custom properties changed." alt="" coords="29,71,261,127"/>
+</map>

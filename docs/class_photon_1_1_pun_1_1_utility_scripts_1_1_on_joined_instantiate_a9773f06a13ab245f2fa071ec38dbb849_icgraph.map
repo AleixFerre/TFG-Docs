@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.OnJoinedInstantiate.SpawnObjects" name="Photon.Pun.UtilityScripts.OnJoinedInstantiate.SpawnObjects">
+<area shape="rect" id="node1" title=" " alt="" coords="281,5,505,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_on_joined_instantiate.xhtml#a107f60bb378b3d63f76cf333319f749d" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="5,5,233,47"/>
+</map>

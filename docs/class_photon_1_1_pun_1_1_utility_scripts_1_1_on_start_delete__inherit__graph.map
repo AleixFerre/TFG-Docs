@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.OnStartDelete" name="Photon.Pun.UtilityScripts.OnStartDelete">
+<area shape="rect" id="node1" title="This component will destroy the GameObject it is attached to (in Start())." alt="" coords="5,80,177,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="36,5,147,32"/>
+</map>

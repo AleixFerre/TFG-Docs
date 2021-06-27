@@ -1,0 +1,5 @@
+<map id="Photon.Pun.Demo.Cockpit.PunCockpit.Update" name="Photon.Pun.Demo.Cockpit.PunCockpit.Update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,185,80"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_region_list_view.xhtml#a686656689a30acf391f1f6a7cd89318d" title=" " alt="" coords="233,5,468,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a6a74a4fbc220c6afd759cc5b5bdaf31d" title="This method dispatches all available incoming commands and then sends this client&#39;s outgoing commands..." alt="" coords="247,71,454,112"/>
+</map>

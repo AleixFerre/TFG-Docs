@@ -1,0 +1,25 @@
+var class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline =
+[
+    [ "AddCurve", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#a6fd38285f4e828f299c22c045b32429f", null ],
+    [ "Awake", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#a83161158e8810e718087fd61916e98a0", null ],
+    [ "ComputeLengths", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#ac563b5947b103ffc039b5143a4c574ff", null ],
+    [ "EnforceMode", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#a0bde4c9556d81c9fad24badb65749797", null ],
+    [ "GetControlPoint", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#a82b7b22d343a6ab62d76d9562c59beaf", null ],
+    [ "GetControlPointMode", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#a3b7d3dbe4bb98d09407bba590bffb9dd", null ],
+    [ "GetDirection", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#ab35c04ba6acf62df7603be053f4f7d22", null ],
+    [ "GetPoint", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#a781ddf5344420bfeb2f5bf8413fcaa54", null ],
+    [ "GetPositionAtDistance", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#a882790bce850708c85428578c2eb1c2c", null ],
+    [ "GetVelocity", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#a710a65cb21a8c0c861e78073c1cd2972", null ],
+    [ "Reset", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#ac70cb013d16d5bf194f4d48c91f01fd0", null ],
+    [ "SetControlPoint", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#aa32483d6a9ccf491be4d29fafa2b1d1d", null ],
+    [ "SetControlPointMode", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#aad3dac668441bdea39be3d56d0990b57", null ],
+    [ "lengths", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#afbf96aed7090e8278a4fbc1d9815a3ad", null ],
+    [ "lengthsTime", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#a89e03a8e7597dcc4ab44af508c9787b1", null ],
+    [ "loop", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#ad09ac19ad5f03aefb9b49be62d6aca4a", null ],
+    [ "modes", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#abbd5b27223fb06692767d12c38f20c3c", null ],
+    [ "points", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#a86d50d85e39e080dded9a5336fefc260", null ],
+    [ "TotalLength", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#ada3e95177981740ee2256110a4bcb96d", null ],
+    [ "ControlPointCount", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#acfd3abeb1020e4c3f04d274d88d8fb7a", null ],
+    [ "CurveCount", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#aa70f2eeddf5169433ac9c299a18bac2b", null ],
+    [ "Loop", "class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml#a7293fb1a280fb743d588fbe3242463cd", null ]
+];

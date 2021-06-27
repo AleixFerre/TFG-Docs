@@ -1,0 +1,3 @@
+<map id="Photon.Realtime.WebFlags" name="Photon.Realtime.WebFlags">
+<area shape="rect" id="node1" title="Optional flags to be used in Photon client SDKs with Op RaiseEvent and Op SetProperties." alt="" coords="5,5,187,32"/>
+</map>

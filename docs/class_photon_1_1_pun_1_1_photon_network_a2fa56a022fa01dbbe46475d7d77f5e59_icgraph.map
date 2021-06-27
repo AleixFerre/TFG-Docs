@@ -1,0 +1,4 @@
+<map id="Photon.Pun.PhotonNetwork.LeaveLobby" name="Photon.Pun.PhotonNetwork.LeaveLobby">
+<area shape="rect" id="node1" title="Leave a lobby to stop getting updates about available rooms." alt="" coords="304,5,491,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#afb8a816635252a1a8a2def147909b48c" title=" " alt="" coords="5,5,256,47"/>
+</map>

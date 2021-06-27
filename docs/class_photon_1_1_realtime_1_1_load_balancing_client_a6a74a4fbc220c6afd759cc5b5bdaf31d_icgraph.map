@@ -1,0 +1,5 @@
+<map id="Photon.Realtime.LoadBalancingClient.Service" name="Photon.Realtime.LoadBalancingClient.Service">
+<area shape="rect" id="node1" title="This method dispatches all available incoming commands and then sends this client&#39;s outgoing commands..." alt="" coords="261,39,468,80"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_demo_1_1_connect_and_join_random_lb.xhtml#a83e6fbba4e52ae1459f938027752f6cf" title=" " alt="" coords="5,5,213,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#aabc6c535bbb5d1c4bd17d177bf56d971" title=" " alt="" coords="19,71,199,112"/>
+</map>

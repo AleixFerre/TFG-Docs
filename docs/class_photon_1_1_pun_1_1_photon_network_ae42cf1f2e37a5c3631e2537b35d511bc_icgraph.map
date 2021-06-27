@@ -1,0 +1,4 @@
+<map id="Photon.Pun.PhotonNetwork.ReconnectAndRejoin" name="Photon.Pun.PhotonNetwork.ReconnectAndRejoin">
+<area shape="rect" id="node1" title="When the client lost connection during gameplay, this method attempts to reconnect and rejoin the roo..." alt="" coords="268,5,455,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a441719b8ef5cb4f4426a1277498d58ac" title=" " alt="" coords="5,5,220,47"/>
+</map>

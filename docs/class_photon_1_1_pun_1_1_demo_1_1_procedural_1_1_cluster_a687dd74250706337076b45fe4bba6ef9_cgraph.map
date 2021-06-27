@@ -1,0 +1,4 @@
+<map id="Photon.Pun.Demo.Procedural.Cluster.UpdateRoomProperties" name="Photon.Pun.Demo.Procedural.Cluster.UpdateRoomProperties">
+<area shape="rect" id="node1" title="Gets called in order to update the Custom Room Properties with the modification made by the local cli..." alt="" coords="5,5,207,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_room.xhtml#aff6e067d041db92e4fbde6a3277926ad" title="Updates and synchronizes this Room&#39;s Custom Properties." alt="" coords="255,5,435,47"/>
+</map>

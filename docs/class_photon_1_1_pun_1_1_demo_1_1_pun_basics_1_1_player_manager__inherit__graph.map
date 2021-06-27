@@ -1,0 +1,13 @@
+<map id="Photon.Pun.Demo.PunBasics.PlayerManager" name="Photon.Pun.Demo.PunBasics.PlayerManager">
+<area shape="rect" id="node1" title="Player manager." alt="" coords="611,175,809,217"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_mono_behaviour_pun_callbacks.xhtml" title="This class provides a .photonView and all callbacks/events that PUN can call." alt="" coords="372,157,563,184"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_mono_behaviour_pun.xhtml" title="This class adds the property photonView, while logging a warning when your game still uses the networ..." alt="" coords="177,5,311,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node5" href="$interface_photon_1_1_realtime_1_1_i_connection_callbacks.xhtml" title="Collection of &quot;organizational&quot; callbacks for the Realtime Api to cover: Connection and Regions." alt="" coords="171,56,317,83"/>
+<area shape="rect" id="node6" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml" title="Collection of &quot;organizational&quot; callbacks for the Realtime Api to cover Matchmaking." alt="" coords="164,107,324,133"/>
+<area shape="rect" id="node7" href="$interface_photon_1_1_realtime_1_1_i_in_room_callbacks.xhtml" title="Collection of &quot;in room&quot; callbacks for the Realtime Api to cover: Players entering or leaving,..." alt="" coords="181,157,307,184"/>
+<area shape="rect" id="node8" href="$interface_photon_1_1_realtime_1_1_i_lobby_callbacks.xhtml" title="Collection of &quot;organizational&quot; callbacks for the Realtime Api to cover the Lobby." alt="" coords="185,208,303,235"/>
+<area shape="rect" id="node9" href="$interface_photon_1_1_realtime_1_1_i_web_rpc_callback.xhtml" title="Interface for &quot;WebRpc&quot; callbacks for the Realtime Api." alt="" coords="181,259,307,285"/>
+<area shape="rect" id="node10" href="$interface_photon_1_1_realtime_1_1_i_error_info_callback.xhtml" title="Interface for EventCode.ErrorInfo event callback for the Realtime Api." alt="" coords="183,309,305,336"/>
+<area shape="rect" id="node11" href="$interface_photon_1_1_pun_1_1_i_pun_observable.xhtml" title="Defines the OnPhotonSerializeView method to make it easy to implement correctly for observable script..." alt="" coords="411,208,523,235"/>
+</map>

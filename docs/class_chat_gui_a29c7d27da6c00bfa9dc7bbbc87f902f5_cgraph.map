@@ -1,0 +1,7 @@
+<map id="ChatGui.OnPrivateMessage" name="ChatGui.OnPrivateMessage">
+<area shape="rect" id="node1" title="Notifies client about private message" alt="" coords="5,42,188,69"/>
+<area shape="rect" id="node2" href="$class_chat_gui.xhtml#a8047d5465698d5c09dbcfff3c3a568a4" title=" " alt="" coords="236,5,416,47"/>
+<area shape="rect" id="node3" href="$class_chat_gui.xhtml#aa83d13b8a9345313627a401e3ec5a938" title=" " alt="" coords="250,71,402,98"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_chat_1_1_chat_channel.xhtml#a9ff674eb16730b6b99234d887616feee" title="Provides a string&#45;representation of all messages in this channel." alt="" coords="466,31,642,72"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a5dd578fb1b7cbbebcbe28a95187bb85e" title="Simplified access to either private or public channels by name." alt="" coords="464,96,644,137"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Photon.Realtime.LoadBalancingClient.CallbackRoomEnterFailed" name="Photon.Realtime.LoadBalancingClient.CallbackRoomEnterFailed">
+<area shape="rect" id="node1" title=" " alt="" coords="260,5,469,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aae79523656b407a63d1112528093d953" title="Uses the OperationResponses provided by the server to advance the internal state and call ops as need..." alt="" coords="5,5,212,47"/>
+</map>

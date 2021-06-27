@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.ConnectAndJoinRandom.OnConnectedToMaster" name="Photon.Pun.UtilityScripts.ConnectAndJoinRandom.OnConnectedToMaster">
+<area shape="rect" id="node1" title="Called when the client is connected to the Master Server and ready for matchmaking and other tasks." alt="" coords="5,5,252,61"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aff48055ef5c0ffb25fad9c8a8e04f50f" title="Joins a random room that matches the filter." alt="" coords="300,13,487,54"/>
+</map>

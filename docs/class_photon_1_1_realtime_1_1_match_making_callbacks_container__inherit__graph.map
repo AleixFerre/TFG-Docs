@@ -1,0 +1,5 @@
+<map id="Photon.Realtime.MatchMakingCallbacksContainer" name="Photon.Realtime.MatchMakingCallbacksContainer">
+<area shape="rect" id="node1" title="Container type for callbacks defined by IMatchmakingCallbacks." alt="" coords="111,80,311,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,211,32"/>
+<area shape="rect" id="node3" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml" title="Collection of &quot;organizational&quot; callbacks for the Realtime Api to cover Matchmaking." alt="" coords="235,5,395,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Photon.Pun.UtilityScripts.MoveByKeys" name="Photon.Pun.UtilityScripts.MoveByKeys">
+<area shape="rect" id="node1" title="Very basic component to move a GameObject by WASD and Space." alt="" coords="26,275,198,316"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_mono_behaviour_pun.xhtml" title="This class adds the property photonView, while logging a warning when your game still uses the networ..." alt="" coords="5,199,219,225"/>
+<area shape="rect" id="node3" title=" " alt="" coords="35,5,146,32"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_view.xhtml" title="A PhotonView identifies an object across the network (viewID) and configures how the controlling clie..." alt="" coords="128,109,291,136"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_player.xhtml" title="Summarizes a &quot;player&quot; within a room, identified (in that room) by ID (or &quot;actorNumber&quot;)." alt="" coords="170,5,329,32"/>
+</map>

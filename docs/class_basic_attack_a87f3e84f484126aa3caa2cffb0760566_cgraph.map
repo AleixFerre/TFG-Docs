@@ -1,0 +1,4 @@
+<map id="BasicAttack.ResetStateAbilityRPC" name="BasicAttack.ResetStateAbilityRPC">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,231,39"/>
+<area shape="rect" id="node2" href="$class_player_controller.xhtml#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="279,5,445,47"/>
+</map>

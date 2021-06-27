@@ -1,0 +1,7 @@
+<map id="Tayx.Graphy.Fps.G_FpsGraph.UpdateParameters" name="Tayx.Graphy.Fps.G_FpsGraph.UpdateParameters">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,209,112"/>
+<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_graph.xhtml#ac85a9f98faa49d17ab7bac84c18785b1" title="Creates the points for the graph/s." alt="" coords="257,37,461,79"/>
+<area shape="rect" id="node5" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#a531ef44ced25f9686183cc7c46ca3920" title="This is done to avoid a design problem that arrays in shaders have, and should be called before initi..." alt="" coords="261,103,458,144"/>
+<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#ac039f519ec84d521e44bf8f9b90ff7e8" title="Updates the material linked with this shader graph with the values in the float[] array." alt="" coords="509,5,707,47"/>
+<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#ac4ec72181f804fc7e8516292bd3a5995" title="Updates the colors in the material." alt="" coords="509,71,707,112"/>
+</map>

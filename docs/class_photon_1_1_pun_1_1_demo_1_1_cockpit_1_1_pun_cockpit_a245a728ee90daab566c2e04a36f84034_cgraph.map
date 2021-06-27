@@ -1,0 +1,4 @@
+<map id="Photon.Pun.Demo.Cockpit.PunCockpit.OnLeftLobby" name="Photon.Pun.Demo.Cockpit.PunCockpit.OnLeftLobby">
+<area shape="rect" id="node1" title="Called after leaving a lobby." alt="" coords="5,5,185,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_room_list_view.xhtml#a7895abb54fec1f34ff4b344294adc0ce" title=" " alt="" coords="233,5,413,47"/>
+</map>

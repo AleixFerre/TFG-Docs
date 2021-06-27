@@ -1,0 +1,6 @@
+<map id="Photon.Pun.UtilityScripts.IPunTurnManagerCallbacks.OnTurnCompleted" name="Photon.Pun.UtilityScripts.IPunTurnManagerCallbacks.OnTurnCompleted">
+<area shape="rect" id="node1" title="Called when a turn is completed (finished by all players)" alt="" coords="507,31,733,87"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_turn_manager.xhtml#afaecec4343f2e625048fe57118d1df0f" title=" " alt="" coords="237,39,459,80"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_turn_manager.xhtml#a424cfc42821109e8b15b2c6fd6f6d67f" title="Called by PhotonNetwork.OnEventCall registration" alt="" coords="11,5,184,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_turn_manager.xhtml#af340724c75d6fed806a4c144ca4f0fc0" title="Call to send an action." alt="" coords="5,71,189,112"/>
+</map>

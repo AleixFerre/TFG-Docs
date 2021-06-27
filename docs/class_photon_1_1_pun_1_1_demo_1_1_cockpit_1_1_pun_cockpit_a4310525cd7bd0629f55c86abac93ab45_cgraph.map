@@ -1,0 +1,7 @@
+<map id="Photon.Pun.Demo.Cockpit.PunCockpit.OnJoinRoomFailed" name="Photon.Pun.Demo.Cockpit.PunCockpit.OnJoinRoomFailed">
+<area shape="rect" id="node1" title="Called when a previous OpJoinRoom call failed on the server." alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#af4b1a8a87b39134b946ae85128e9d5e1" title="Rejoins a room by roomName (using the userID internally to return)." alt="" coords="256,5,443,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#afde54809fa49258427c1c31a34264fd6" title="Rejoins a room by roomName (using the userID internally to return)." alt="" coords="491,5,697,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a1dc6be1075f64edd0b746f2e61c114f5" title="Joins a room by name or creates new room if room with given name not exists." alt="" coords="745,5,952,47"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7ba1675f94fad7ace3f931c73179b117" title="Used by OpJoinRoom and by OpCreateRoom alike." alt="" coords="1000,5,1231,47"/>
+</map>

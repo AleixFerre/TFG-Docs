@@ -1,0 +1,46 @@
+<map id="Photon.Pun.PhotonNetwork.StaticReset" name="Photon.Pun.PhotonNetwork.StaticReset">
+<area shape="rect" id="node1" title=" " alt="" coords="5,332,192,373"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a53e4c4a09f7f95db628f4e8541893538" title=" " alt="" coords="240,136,427,177"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a13bebb81d3e182db408b4fb694afcd1f" title=" " alt="" coords="240,332,427,373"/>
+<area shape="rect" id="node28" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a7efb23346fd80d365c5d9824b9a12be7" title=" " alt="" coords="240,680,427,721"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a15bb10f6b718365d0420cbd865c898b6" title="Called when &quot;this client&quot; left a room to clean up." alt="" coords="487,5,673,47"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ad2885fef5a61d3561a740f3abf3ab69a" title="Network&#45;Destroy all GameObjects, PhotonViews and their RPCs in the room." alt="" coords="487,71,673,112"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aee9bc16543629db01f0879339c1fcc8e" title="Network&#45;Destroy all GameObjects, PhotonViews and their RPCs of targetPlayer." alt="" coords="487,136,673,177"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a5a0dc3a5cdb4df9d0704a9bd67145cae" title=" " alt="" coords="769,583,956,624"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_realtime_1_1_room.xhtml#ab41f8e8ab3cf7c212007684a9410e4b0" title="Tries to find the player with given actorNumber (a.k.a." alt="" coords="489,267,671,308"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a6efe3af5ec21c4ed14b1d4d95eef965f" title="Leave the current room and return to the Master Server where you can join or create rooms (see remark..." alt="" coords="487,332,673,373"/>
+<area shape="rect" id="node20" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ab20d21ae87fdbe5db26810e506089158" title=" " alt="" coords="487,397,673,439"/>
+<area shape="rect" id="node21" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a571353d12eeae7121c7e0f16e2cfef54" title="Reads updates created by OnSerializeWrite" alt="" coords="487,463,673,504"/>
+<area shape="rect" id="node25" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a8217ba09f31882ca060f3a58c2663347" title="Resets the PhotonView &quot;lastOnSerializeDataSent&quot; so that &quot;OnReliable&quot; synched PhotonViews send a compl..." alt="" coords="481,528,679,569"/>
+<area shape="rect" id="node26" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a7940dec04ac90d0f9d740cf76f8ac83a" title="Set the owner of an object manually." alt="" coords="487,201,673,243"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_realtime_1_1_match_making_callbacks_container.xhtml#aa8f13b83943e6a562e9817807cee4836" title="Called when the local user/client left a room, so the game&#39;s logic can clean up it&#39;s internal state." alt="" coords="757,335,968,376"/>
+<area shape="rect" id="node12" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a14ea6cb3695cfca235d6f67298f33570" title="Leaves the current room, optionally telling the server that the user is just becoming inactive." alt="" coords="759,269,966,311"/>
+<area shape="rect" id="node11" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml#acedd813313ad6724f3935801481d8e8f" title="Called when the local user/client left a room, so the game&#39;s logic can clean up it&#39;s internal state." alt="" coords="1044,356,1247,397"/>
+<area shape="rect" id="node13" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aa12ff3efc3aa91e5ceca9b3a40f7bd79" title=" " alt="" coords="1311,316,1517,357"/>
+<area shape="rect" id="node19" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a74f970c5eeaef7851411f0b5011bd693" title="Leaves a room with option to come back later or &quot;for good&quot;." alt="" coords="1042,239,1249,280"/>
+<area shape="rect" id="node14" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#ae052ab450db16efdd31985d56f76f0ab" title=" " alt="" coords="1577,338,1796,394"/>
+<area shape="rect" id="node15" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aa01a53cac6918dab3ecb99669b276f01" title=" " alt="" coords="1578,272,1795,313"/>
+<area shape="rect" id="node16" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a69dd43d4c7211b5b83cd54d0ebcf79e7" title="Debug output of low level api (and this client)." alt="" coords="1583,541,1790,583"/>
+<area shape="rect" id="node17" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7f48b5f0c44ef0c67ef32f147ff87246" title="Creates a Peer with specified connection protocol." alt="" coords="1844,541,2051,583"/>
+<area shape="rect" id="node18" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#affaff7e1fdffe86b25156ffac5e738c9" title=" " alt="" coords="2099,541,2305,583"/>
+<area shape="rect" id="node22" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#acec5e46f1fc8338268877e28922ea3cb" title=" " alt="" coords="769,400,956,441"/>
+<area shape="rect" id="node23" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a200fb944340ef810ba73dfbb35715b6f" title=" " alt="" coords="733,466,992,493"/>
+<area shape="rect" id="node24" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#a7e7a18a9875e484473c73e9ee0c5f195" title=" " alt="" coords="772,517,953,559"/>
+<area shape="rect" id="node27" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#ad456b07b59018b51bce819958b9e006f" title="Apply any queued add/remove of interfaces from the callback lists." alt="" coords="759,201,967,243"/>
+<area shape="rect" id="node29" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a4a000a2af73ae86a78f9dd502e4a3f45" title=" " alt="" coords="487,680,673,721"/>
+<area shape="rect" id="node38" href="$class_photon_1_1_realtime_1_1_region_handler.xhtml#a667ee30920336dcb56113bdab8795887" title=" " alt="" coords="475,815,685,856"/>
+<area shape="rect" id="node30" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a8db8b6caf7819906b58b59fb0e31f63c" title="Connects you to a specific region&#39;s Master Server, using the Name Server to find the IP." alt="" coords="759,648,966,689"/>
+<area shape="rect" id="node35" href="$class_photon_1_1_realtime_1_1_region_handler.xhtml#a97f08f933d32962c2a16dbdb7cb1c06a" title=" " alt="" coords="757,713,968,755"/>
+<area shape="rect" id="node31" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a41ac38b72df503d0c9997b0ab1b78801" title=" " alt="" coords="1042,440,1249,481"/>
+<area shape="rect" id="node33" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a29aacea6df375e301f67cb40ea90849e" title=" " alt="" coords="1305,665,1523,707"/>
+<area shape="rect" id="node34" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a43a3b987e52c0e028ce1d5803b7b9507" title=" " alt="" coords="1299,600,1529,641"/>
+<area shape="rect" id="node32" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a4ed3ae23ffbc88d5b449997e5af8d9af" title="Sends this app&#39;s appId and appVersion to identify this application server side." alt="" coords="1311,381,1517,423"/>
+<area shape="rect" id="node36" href="$class_photon_1_1_realtime_1_1_region_pinger.xhtml#a16bf6f061f2d7ab1f4abb1c333181a00" title=" " alt="" coords="1044,775,1247,816"/>
+<area shape="rect" id="node37" href="$class_photon_1_1_realtime_1_1_region.xhtml#a49f64467199a12862efe6602ac88086a" title=" " alt="" coords="1055,709,1235,751"/>
+<area shape="rect" id="node39" href="$class_photon_1_1_realtime_1_1_region_handler.xhtml#aac3e49daea63ad06fa4e38498efbff08" title=" " alt="" coords="757,785,968,827"/>
+<area shape="rect" id="node40" href="$class_photon_1_1_realtime_1_1_region_handler.xhtml#a8ae051b93b79d6e40d0f7978ce3551e6" title=" " alt="" coords="1040,840,1251,881"/>
+<area shape="rect" id="node42" href="$class_photon_1_1_realtime_1_1_region_pinger.xhtml#abfd13a0dae129c3ae367c3ff2578fb0b" title="Starts the ping routine for the assigned region." alt="" coords="1313,899,1515,940"/>
+<area shape="rect" id="node41" href="$class_photon_1_1_realtime_1_1_region_handler.xhtml#a313396589f975623ea7acacf19d12de5" title=" " alt="" coords="1309,833,1519,875"/>
+<area shape="rect" id="node43" href="$class_photon_1_1_realtime_1_1_region_pinger.xhtml#ab9fbb3965c6b45422afdba264cc91ff9" title="Selects the best fitting ping implementation or uses the one set in RegionHandler...." alt="" coords="1585,931,1788,972"/>
+<area shape="rect" id="node44" href="$class_photon_1_1_realtime_1_1_region_pinger.xhtml#a6c5cbc3b74e3415708c89a788c930cf0" title="Attempts to resolve a hostname into an IP string or returns empty string if that fails." alt="" coords="1585,865,1788,907"/>
+</map>

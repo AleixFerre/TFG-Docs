@@ -1,0 +1,6 @@
+<map id="ConnectToServer.RetryConnection" name="ConnectToServer.RetryConnection">
+<area shape="rect" id="node1" title=" " alt="" coords="5,42,225,69"/>
+<area shape="rect" id="node2" href="$class_connect_to_server.xhtml#af54d350629abc28677d474dda9fbd6a0" title=" " alt="" coords="273,35,493,76"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a3eaa67a8c2af70028949403df6b60ca2" title="Connect to Photon as configured in the PhotonServerSettings file." alt="" coords="541,5,728,47"/>
+<area shape="rect" id="node4" href="$class_connect_to_server.xhtml#a2ca5fc3ab94cacd35c3cc2b641e1b463" title=" " alt="" coords="543,71,727,98"/>
+</map>

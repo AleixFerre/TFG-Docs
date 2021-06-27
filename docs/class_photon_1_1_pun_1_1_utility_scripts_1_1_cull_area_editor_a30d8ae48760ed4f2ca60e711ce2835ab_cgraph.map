@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.CullAreaEditor.OnInspectorGUIEditMode" name="Photon.Pun.UtilityScripts.CullAreaEditor.OnInspectorGUIEditMode">
+<area shape="rect" id="node1" title="Represents the inspector GUI when edit mode is active." alt="" coords="5,5,261,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area_editor.xhtml#a43906bb61fccfd3c2b656756e3d59e99" title="Aligns the editor view with the created grid." alt="" coords="309,5,509,47"/>
+</map>

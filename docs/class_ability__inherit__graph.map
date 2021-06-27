@@ -1,0 +1,8 @@
+<map id="Ability" name="Ability">
+<area shape="rect" id="node1" title=" " alt="" coords="235,80,294,107"/>
+<area shape="rect" id="node3" href="$class_ability___dash.xhtml" title=" " alt="" coords="5,155,100,181"/>
+<area shape="rect" id="node4" href="$class_ability___instanciable.xhtml" title=" " alt="" coords="124,155,259,181"/>
+<area shape="rect" id="node5" href="$class_ability___passive.xhtml" title=" " alt="" coords="283,155,393,181"/>
+<area shape="rect" id="node6" href="$class_ability___player_relative.xhtml" title=" " alt="" coords="418,155,565,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="205,5,324,32"/>
+</map>

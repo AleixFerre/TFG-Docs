@@ -1,0 +1,4 @@
+<map id="Photon.Pun.PhotonNetwork.GetCustomRoomList" name="Photon.Pun.PhotonNetwork.GetCustomRoomList">
+<area shape="rect" id="node1" title="Fetches a custom list of games from the server, matching a (non&#45;empty) SQL&#45;like filter." alt="" coords="239,5,425,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_room_list_view.xhtml#a4bccf37529af15f6c4c6094e2452382e" title=" " alt="" coords="5,5,191,47"/>
+</map>

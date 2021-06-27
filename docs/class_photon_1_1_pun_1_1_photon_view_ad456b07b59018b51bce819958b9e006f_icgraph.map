@@ -1,0 +1,10 @@
+<map id="Photon.Pun.PhotonView.UpdateCallbackLists" name="Photon.Pun.PhotonView.UpdateCallbackLists">
+<area shape="rect" id="node1" title="Apply any queued add/remove of interfaces from the callback lists." alt="" coords="944,71,1152,112"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a9fb0b235240d6febbfdebf7ad0ca8d62" title=" " alt="" coords="711,5,895,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#ada0aef56b13596bdef77c86fd1e91924" title=" " alt="" coords="709,71,896,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a7940dec04ac90d0f9d740cf76f8ac83a" title="Set the owner of an object manually." alt="" coords="709,136,896,177"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#af875d9527ce0aff17d798b7030e7ee98" title="Destroys all Instantiates and RPCs locally and (if not localOnly) sends EvDestroy(player) and clears ..." alt="" coords="475,103,661,144"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a13bebb81d3e182db408b4fb694afcd1f" title=" " alt="" coords="475,168,661,209"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a29461361da66594fce3a7394493f8fce" title=" " alt="" coords="240,168,427,209"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a1b66941ee2aba40b56df1578da9015da" title="Static constructor used for basic setup." alt="" coords="5,168,192,209"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Photon.Pun.Demo.PunBasics.Launcher.LogFeedback" name="Photon.Pun.Demo.PunBasics.Launcher.LogFeedback">
+<area shape="rect" id="node1" title="Logs the feedback in the UI view for the player, as opposed to inside the Unity Editor for the develo..." alt="" coords="265,136,464,177"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_launcher.xhtml#a9987845cf431035c32f04ba72a694049" title="Start the connection process." alt="" coords="12,5,211,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_launcher.xhtml#ad9b0efed47682256e661353d17bcd468" title="Called after the connection to the master is established and authenticated" alt="" coords="5,71,217,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_launcher.xhtml#a906f4daa6bfaac94666a809a7a2adb65" title="Called after disconnecting from the Photon server." alt="" coords="12,136,211,177"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_launcher.xhtml#a965c45b6db5489160bac4fe898fff214" title="Called when entering a room (by creating or joining it)." alt="" coords="12,201,211,243"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_launcher.xhtml#a89c3b0ab473f7be7c1240230a8a70ec7" title="Called when a JoinRandom() call failed." alt="" coords="10,267,213,308"/>
+</map>

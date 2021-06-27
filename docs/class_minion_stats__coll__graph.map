@@ -1,0 +1,10 @@
+<map id="MinionStats" name="MinionStats">
+<area shape="rect" id="node1" title=" " alt="" coords="155,376,246,403"/>
+<area shape="rect" id="node2" href="$class_ability_affected_stats.xhtml" title="Base class Stats of the entity who is affected by Abilities." alt="" coords="133,300,269,327"/>
+<area shape="rect" id="node3" href="$class_stats.xhtml" title="Base class Stats of the entity." alt="" coords="174,199,227,225"/>
+<area shape="rect" id="node4" title=" " alt="" coords="188,5,299,32"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_view.xhtml" title="A PhotonView identifies an object across the network (viewID) and configures how the controlling clie..." alt="" coords="23,109,186,136"/>
+<area shape="rect" id="node8" href="$class_u_i_controller.xhtml" title=" " alt="" coords="268,109,357,136"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_realtime_1_1_player.xhtml" title="Summarizes a &quot;player&quot; within a room, identified (in that room) by ID (or &quot;actorNumber&quot;)." alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node7" href="$class_minion_u_i_controller.xhtml" title=" " alt="" coords="252,249,379,276"/>
+</map>

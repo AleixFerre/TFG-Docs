@@ -1,0 +1,6 @@
+<map id="Photon.Pun.UtilityScripts.CullArea.CreateCellHierarchy" name="Photon.Pun.UtilityScripts.CullArea.CreateCellHierarchy">
+<area shape="rect" id="node1" title="Creates the cell hierarchy." alt="" coords="5,39,196,80"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#a0da90078e604b267e09a8bc28e47aa2a" title="Creates all child cells." alt="" coords="251,5,423,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#aeeef8bea2e057899005bf0b0f58e86c1" title="Checks if the cell count is allowed." alt="" coords="244,71,431,112"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#a78317fb3d1cfb3497364fef005176930" title="Adds the given child to the node." alt="" coords="479,5,651,47"/>
+</map>

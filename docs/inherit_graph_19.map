@@ -1,0 +1,5 @@
+<map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,144,61"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml" title="Central class of the Photon Chat API to connect, handle channels and messages." alt="" coords="216,5,375,32"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml" title="This class implements the Photon LoadBalancing workflow by using a LoadBalancingPeer." alt="" coords="192,57,399,98"/>
+</map>

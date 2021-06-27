@@ -1,0 +1,5 @@
+<map id="PlayerStats.HealRPC" name="PlayerStats.HealRPC">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,152,39"/>
+<area shape="rect" id="node2" href="$class_player_u_i_controller.xhtml#aca577b724c1f3f2ed54ad1165a7842c2" title="Sets the current HP value to the Image." alt="" coords="200,5,371,47"/>
+<area shape="rect" id="node3" href="$class_u_i_controller.xhtml#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="419,5,583,47"/>
+</map>

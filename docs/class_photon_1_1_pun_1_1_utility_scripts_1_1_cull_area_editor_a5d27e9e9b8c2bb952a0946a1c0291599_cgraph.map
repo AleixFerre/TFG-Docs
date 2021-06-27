@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.CullAreaEditor.OnSceneGUI" name="Photon.Pun.UtilityScripts.CullAreaEditor.OnSceneGUI">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,191,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area_editor.xhtml#a43906bb61fccfd3c2b656756e3d59e99" title="Aligns the editor view with the created grid." alt="" coords="239,5,439,47"/>
+</map>

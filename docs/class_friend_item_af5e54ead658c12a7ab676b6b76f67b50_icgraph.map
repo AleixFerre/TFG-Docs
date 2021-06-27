@@ -1,0 +1,4 @@
+<map id="FriendItem.OnFriendStatusUpdate" name="FriendItem.OnFriendStatusUpdate">
+<area shape="rect" id="node1" title=" " alt="" coords="223,5,401,47"/>
+<area shape="rect" id="node2" href="$class_chat_gui.xhtml#a1e6db179545008e592068f0e241617c4" title="New status of another user (you get updates for users set in your friends list)." alt="" coords="5,13,175,39"/>
+</map>

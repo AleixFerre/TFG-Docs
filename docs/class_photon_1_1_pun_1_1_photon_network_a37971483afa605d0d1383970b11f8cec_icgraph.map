@@ -1,0 +1,5 @@
+<map id="Photon.Pun.PhotonNetwork.ConnectToRegion" name="Photon.Pun.PhotonNetwork.ConnectToRegion">
+<area shape="rect" id="node1" title="Connects to the Photon Cloud region of choice." alt="" coords="248,39,435,80"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a5c90be793ca1f7501275a194cd9671ab" title=" " alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ae031208b657a2e01d80ddf4b02d0d23f" title=" " alt="" coords="9,71,196,112"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Photon.Pun.UtilityScripts.PhotonTeamsManager.TryGetTeamByName" name="Photon.Pun.UtilityScripts.PhotonTeamsManager.TryGetTeamByName">
+<area shape="rect" id="node1" title="Find a PhotonTeam using a team name." alt="" coords="351,104,628,145"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a3b7cb10c67902cae1e0bafc316b3c9e0" title="Gets the number of players in a team by team name." alt="" coords="5,5,303,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_team_extensions.xhtml#a7b73cd8b29259be9e2c278883bdadd61" title="Join a team using team name." alt="" coords="45,71,263,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_team_extensions.xhtml#aefe90ce50c35eec6a7cd570f5ecf4038" title="Switch the player&#39;s team using a team name." alt="" coords="37,136,271,177"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a034a38ff06d064e798bde72b40cd1d1d" title="Gets all players joined to a team using a team name." alt="" coords="13,201,295,243"/>
+</map>

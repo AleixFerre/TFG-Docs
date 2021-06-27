@@ -1,0 +1,10 @@
+<map id="Photon.Pun.Demo.SlotRacer.PlayerControl" name="Photon.Pun.Demo.SlotRacer.PlayerControl">
+<area shape="rect" id="node1" title="Player control." alt="" coords="122,317,315,359"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_mono_behaviour_pun.xhtml" title="This class adds the property photonView, while logging a warning when your game still uses the networ..." alt="" coords="5,221,139,247"/>
+<area shape="rect" id="node3" title=" " alt="" coords="198,5,309,32"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_view.xhtml" title="A PhotonView identifies an object across the network (viewID) and configures how the controlling clie..." alt="" coords="5,117,168,143"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_spline_walker.xhtml" title=" " alt="" coords="299,213,493,255"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_utils_1_1_bezier_spline.xhtml" title=" " alt="" coords="298,109,491,151"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_player.xhtml" title="Summarizes a &quot;player&quot; within a room, identified (in that room) by ID (or &quot;actorNumber&quot;)." alt="" coords="7,5,166,32"/>
+<area shape="rect" id="node6" href="$interface_photon_1_1_pun_1_1_i_pun_observable.xhtml" title="Defines the OnPhotonSerializeView method to make it easy to implement correctly for observable script..." alt="" coords="163,221,275,247"/>
+</map>

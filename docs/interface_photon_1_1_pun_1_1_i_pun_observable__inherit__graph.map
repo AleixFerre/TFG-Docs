@@ -1,0 +1,12 @@
+<map id="Photon.Pun.IPunObservable" name="Photon.Pun.IPunObservable">
+<area shape="rect" id="node1" title="Defines the OnPhotonSerializeView method to make it easy to implement correctly for observable script..." alt="" coords="5,254,189,281"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_player_manager.xhtml" title="Player manager." alt="" coords="248,5,447,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_player_control.xhtml" title="Player control." alt="" coords="251,71,444,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml" title="This class helps you to synchronize Mecanim animations Simply add the component to your GameObject an..." alt="" coords="240,137,455,163"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_rigidbody2_d_view.xhtml" title=" " alt="" coords="248,188,447,229"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_rigidbody_view.xhtml" title=" " alt="" coords="237,254,457,281"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_photon_transform_view.xhtml" title=" " alt="" coords="237,305,457,331"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_photon_transform_view_classic.xhtml" title="This class helps you to synchronize position, rotation and scale of a GameObject." alt="" coords="251,356,443,397"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_culling_handler.xhtml" title="Handles the network culling." alt="" coords="261,421,433,463"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_smooth_sync_movement.xhtml" title="Smoothed out movement for network gameobjects" alt="" coords="261,487,433,528"/>
+</map>

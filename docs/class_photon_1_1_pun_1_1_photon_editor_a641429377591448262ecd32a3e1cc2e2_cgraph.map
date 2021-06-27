@@ -1,0 +1,4 @@
+<map id="Photon.Pun.PhotonEditor.ShowRegistrationWizard" name="Photon.Pun.PhotonEditor.ShowRegistrationWizard">
+<area shape="rect" id="node1" title="Creates an Editor window, showing the cloud&#45;registration wizard for Photon (entry point to setup PUN)..." alt="" coords="5,5,179,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_editor.xhtml#af5392967445d7a3fac22f7ea39a5d812" title=" " alt="" coords="227,5,400,47"/>
+</map>

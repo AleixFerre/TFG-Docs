@@ -1,0 +1,5 @@
+<map id="Tayx.Graphy.GraphyDebugger.GetFirstDebugPacketWithId" name="Tayx.Graphy.GraphyDebugger.GetFirstDebugPacketWithId">
+<area shape="rect" id="node1" title="Returns the first Packet with the specified ID in the DebugPacket list." alt="" coords="304,39,505,80"/>
+<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_graphy_debugger.xhtml#a67ac3413b22c7dffadfb404b2fb300f5" title="Add an Action callback to the first Packet with the specified ID in the DebugPacket list." alt="" coords="5,5,256,47"/>
+<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_graphy_debugger.xhtml#ae769f3e4aa77266c4bb116540b967e03" title="Removes the first Packet with the specified ID in the DebugPacket list." alt="" coords="26,71,235,112"/>
+</map>

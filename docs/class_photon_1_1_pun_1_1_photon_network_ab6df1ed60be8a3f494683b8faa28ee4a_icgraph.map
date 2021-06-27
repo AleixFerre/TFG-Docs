@@ -1,0 +1,8 @@
+<map id="Photon.Pun.PhotonNetwork.AddCallbackTarget" name="Photon.Pun.PhotonNetwork.AddCallbackTarget">
+<area shape="rect" id="node1" title="Registers an object for callbacks for the implemented callback&#45;interfaces." alt="" coords="324,136,511,177"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_handler.xhtml#ab4dd266cc56b759031c2afa60e020628" title=" " alt="" coords="49,5,232,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_mono_behaviour_pun_callbacks.xhtml#a6391723a301547ab13db94c69e0cd3a0" title=" " alt="" coords="49,71,232,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_web_rpc_implementation_example.xhtml#af589684d1b590a1bc29d873868e47270" title=" " alt="" coords="5,136,276,177"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#aef8895845e09762a552881a3facb8d2d" title=" " alt="" coords="34,201,247,243"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_on_joined_instantiate.xhtml#a4c1c1153a7dff9dd895bceaeacdee816" title=" " alt="" coords="42,267,239,308"/>
+</map>

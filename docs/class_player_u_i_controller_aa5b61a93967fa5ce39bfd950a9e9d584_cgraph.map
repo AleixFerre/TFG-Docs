@@ -1,0 +1,5 @@
+<map id="PlayerUIController.InitializeValues" name="PlayerUIController.InitializeValues">
+<area shape="rect" id="node1" title="Initializes all the values into the Image and Text." alt="" coords="5,5,183,47"/>
+<area shape="rect" id="node2" href="$class_player_u_i_controller.xhtml#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="231,5,401,47"/>
+<area shape="rect" id="node3" href="$class_u_i_controller.xhtml#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="449,5,613,47"/>
+</map>

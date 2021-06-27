@@ -1,0 +1,9 @@
+<map id="Photon.Pun.UtilityScripts.CullArea.OnDrawGizmos" name="Photon.Pun.UtilityScripts.CullArea.OnDrawGizmos">
+<area shape="rect" id="node1" title="Creates the cell hierarchy in editor and draws the cell view." alt="" coords="5,116,177,157"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#a9453956f1208691e82f190e98a76e153" title="Creates the cell hierarchy." alt="" coords="225,71,416,112"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#a39719f351b01496458ca7003efd75d60" title="Draws the cells." alt="" coords="235,148,407,189"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#a0da90078e604b267e09a8bc28e47aa2a" title="Creates all child cells." alt="" coords="471,5,643,47"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#aeeef8bea2e057899005bf0b0f58e86c1" title="Checks if the cell count is allowed." alt="" coords="464,71,651,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#a78317fb3d1cfb3497364fef005176930" title="Adds the given child to the node." alt="" coords="699,5,871,47"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#a29ff0e593ea6718d04a9427fd5ef42bc" title="Draws the cell in the editor." alt="" coords="471,160,643,201"/>
+</map>

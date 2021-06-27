@@ -1,0 +1,4 @@
+<map id="ChatGui.Update" name="ChatGui.Update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#aa08129ee3ee957c825e0a91a61e97993" title="Must be called regularly to keep connection between client and server alive and to process incoming m..." alt="" coords="168,5,372,32"/>
+</map>

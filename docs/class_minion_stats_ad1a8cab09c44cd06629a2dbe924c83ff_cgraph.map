@@ -1,0 +1,6 @@
+<map id="MinionStats.DealDamageRPC" name="MinionStats.DealDamageRPC">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,201,61"/>
+<area shape="rect" id="node2" href="$class_minion_stats.xhtml#a5366cb256edc6dc42f01c2907ee14e7a" title="Function that implements what is done when this entity dies." alt="" coords="278,5,393,32"/>
+<area shape="rect" id="node3" href="$class_minion_u_i_controller.xhtml#a9042cfa3430e60cf37cf0e0797692742" title="Updates the current HP of the entity." alt="" coords="249,57,421,98"/>
+<area shape="rect" id="node4" href="$class_u_i_controller.xhtml#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="469,57,633,98"/>
+</map>

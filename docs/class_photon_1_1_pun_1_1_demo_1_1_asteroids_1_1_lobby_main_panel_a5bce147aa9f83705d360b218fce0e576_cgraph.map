@@ -1,0 +1,4 @@
+<map id="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnLeftLobby" name="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnLeftLobby">
+<area shape="rect" id="node1" title="Called after leaving a lobby." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a56622ef157b0666202eaa151c98c4083" title=" " alt="" coords="248,5,483,47"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Photon.Pun.PhotonTransformViewRotationControl.OnPhotonSerializeView" name="Photon.Pun.PhotonTransformViewRotationControl.OnPhotonSerializeView">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,284,80"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#a50038b09fdec1b4d1072c9f8b5a231dc" title="Read next piece of data from the stream when IsReading is true." alt="" coords="332,5,513,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#adf067be77d2034b07fd696d97110a57a" title="Add another piece of data to send it when IsWriting is true." alt="" coords="332,71,513,112"/>
+</map>

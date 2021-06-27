@@ -1,0 +1,8 @@
+<map id="Photon.Pun.UtilityScripts.CullingHandler" name="Photon.Pun.UtilityScripts.CullingHandler">
+<area shape="rect" id="node1" title="Handles the network culling." alt="" coords="541,81,713,123"/>
+<area shape="rect" id="node2" title=" " alt="" coords="29,71,140,98"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_view.xhtml" title="A PhotonView identifies an object across the network (viewID) and configures how the controlling clie..." alt="" coords="274,122,437,149"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml" title="Represents the cull area used for network culling." alt="" coords="269,5,441,47"/>
+<area shape="rect" id="node3" href="$interface_photon_1_1_pun_1_1_i_pun_observable.xhtml" title="Defines the OnPhotonSerializeView method to make it easy to implement correctly for observable script..." alt="" coords="299,173,411,199"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_player.xhtml" title="Summarizes a &quot;player&quot; within a room, identified (in that room) by ID (or &quot;actorNumber&quot;)." alt="" coords="5,154,164,181"/>
+</map>

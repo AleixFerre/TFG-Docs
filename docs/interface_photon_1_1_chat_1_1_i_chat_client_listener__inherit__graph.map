@@ -1,0 +1,4 @@
+<map id="Photon.Chat.IChatClientListener" name="Photon.Chat.IChatClientListener">
+<area shape="rect" id="node1" title="Callback interface for Chat client side." alt="" coords="5,5,212,32"/>
+<area shape="rect" id="node2" href="$class_chat_gui.xhtml" title="This simple Chat UI demonstrate basics usages of the Chat Api" alt="" coords="74,80,143,107"/>
+</map>

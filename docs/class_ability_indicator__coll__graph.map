@@ -1,0 +1,20 @@
+<map id="AbilityIndicator" name="AbilityIndicator">
+<area shape="rect" id="node1" title=" " alt="" coords="464,287,571,313"/>
+<area shape="rect" id="node6" href="$class_ability_cooldown.xhtml" title=" " alt="" coords="420,388,535,415"/>
+<area shape="rect" id="node2" title=" " alt="" coords="389,81,499,108"/>
+<area shape="rect" id="node7" href="$class_player_controller.xhtml" title="Player Controller is the main class that handles all the movement of the Player." alt="" coords="576,659,691,685"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_photon_view.xhtml" title="A PhotonView identifies an object across the network (viewID) and configures how the controlling clie..." alt="" coords="873,185,1036,212"/>
+<area shape="rect" id="node13" href="$class_stats.xhtml" title="Base class Stats of the entity." alt="" coords="809,287,863,313"/>
+<area shape="rect" id="node15" href="$class_u_i_controller.xhtml" title=" " alt="" coords="266,185,355,212"/>
+<area shape="rect" id="node16" href="$class_inventory.xhtml" title=" " alt="" coords="74,236,147,263"/>
+<area shape="rect" id="node17" href="$class_basic_attack.xhtml" title=" " alt="" coords="719,569,812,596"/>
+<area shape="rect" id="node3" href="$class_ability.xhtml" title=" " alt="" coords="783,185,841,212"/>
+<area shape="rect" id="node10" href="$class_character.xhtml" title=" " alt="" coords="967,337,1046,364"/>
+<area shape="rect" id="node4" title=" " alt="" coords="785,5,903,32"/>
+<area shape="rect" id="node5" href="$class_effect.xhtml" title=" " alt="" coords="817,81,871,108"/>
+<area shape="rect" id="node11" href="$class_player_stats.xhtml" title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut..." alt="" coords="284,479,375,505"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_realtime_1_1_player.xhtml" title="Summarizes a &quot;player&quot; within a room, identified (in that room) by ID (or &quot;actorNumber&quot;)." alt="" coords="895,81,1054,108"/>
+<area shape="rect" id="node12" href="$class_ability_affected_stats.xhtml" title="Base class Stats of the entity who is affected by Abilities." alt="" coords="569,388,705,415"/>
+<area shape="rect" id="node14" href="$class_player_u_i_controller.xhtml" title="UI Controller for the Player Stats" alt="" coords="119,337,246,364"/>
+<area shape="rect" id="node18" title=" " alt="" coords="254,287,301,313"/>
+</map>

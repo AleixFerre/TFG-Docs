@@ -1,0 +1,4 @@
+<map id="Photon.Chat.ChatClient.sendPrivateMessage" name="Photon.Chat.ChatClient.sendPrivateMessage">
+<area shape="rect" id="node1" title=" " alt="" coords="245,5,436,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#af667c9375be0cfdd9d626c24f1bb4deb" title="Sends a private message to a single target user." alt="" coords="5,5,197,47"/>
+</map>

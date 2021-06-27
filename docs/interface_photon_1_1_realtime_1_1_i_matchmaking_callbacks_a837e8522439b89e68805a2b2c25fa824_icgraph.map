@@ -1,0 +1,6 @@
+<map id="Photon.Realtime.IMatchmakingCallbacks.OnJoinRandomFailed" name="Photon.Realtime.IMatchmakingCallbacks.OnJoinRandomFailed">
+<area shape="rect" id="node1" title="Called when a previous OpJoinRandom call failed on the server." alt="" coords="792,13,999,54"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_match_making_callbacks_container.xhtml#a0a77d7207c77bf84e3ca6619d5520bd5" title="Called when a previous OpJoinRandom call failed on the server." alt="" coords="517,5,744,61"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a018c1c5f09441c718fb81caa83fc0c1b" title=" " alt="" coords="260,13,469,54"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aae79523656b407a63d1112528093d953" title="Uses the OperationResponses provided by the server to advance the internal state and call ops as need..." alt="" coords="5,13,212,54"/>
+</map>

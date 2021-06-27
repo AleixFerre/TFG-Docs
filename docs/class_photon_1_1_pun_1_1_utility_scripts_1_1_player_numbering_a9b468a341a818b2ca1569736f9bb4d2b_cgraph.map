@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.PlayerNumbering.OnPlayerEnteredRoom" name="Photon.Pun.UtilityScripts.PlayerNumbering.OnPlayerEnteredRoom">
+<area shape="rect" id="node1" title="Called when a remote player entered the room." alt="" coords="5,5,264,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering.xhtml#af9f275a5db8a0af391b65e935cd91c6f" title="Internal call Refresh the cached data and call the OnPlayerNumberingChanged delegate." alt="" coords="312,5,508,47"/>
+</map>

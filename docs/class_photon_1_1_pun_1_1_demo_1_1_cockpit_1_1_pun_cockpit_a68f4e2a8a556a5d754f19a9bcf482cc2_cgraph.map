@@ -1,0 +1,11 @@
+<map id="Photon.Pun.Demo.Cockpit.PunCockpit.PingRegions" name="Photon.Pun.Demo.Cockpit.PunCockpit.PingRegions">
+<area shape="rect" id="node1" title="in progress, not fully working" alt="" coords="5,71,185,112"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a7eccc149073296a316965f2ce96d08d3" title="Registers an object for callbacks for the implemented callback&#45;interfaces." alt="" coords="233,5,440,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a43756ee75b2346cb002f89aee86ff94d" title="Connects to the NameServer for Photon Cloud, where a region and server list can be obtained." alt="" coords="233,71,440,112"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a62ba6fed548e8bc0fc985cdfafa4eb1f" title=" " alt="" coords="241,136,433,177"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a29aacea6df375e301f67cb40ea90849e" title=" " alt="" coords="494,104,713,145"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a43a3b987e52c0e028ce1d5803b7b9507" title=" " alt="" coords="488,39,719,80"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a69dd43d4c7211b5b83cd54d0ebcf79e7" title="Debug output of low level api (and this client)." alt="" coords="767,45,973,87"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7f48b5f0c44ef0c67ef32f147ff87246" title="Creates a Peer with specified connection protocol." alt="" coords="1021,75,1228,116"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#affaff7e1fdffe86b25156ffac5e738c9" title=" " alt="" coords="1276,75,1483,116"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Photon.Realtime.Demo.ConnectAndJoinRandomLb.OnConnectedToMaster" name="Photon.Realtime.Demo.ConnectAndJoinRandomLb.OnConnectedToMaster">
+<area shape="rect" id="node1" title="Called when the client is connected to the Master Server and ready for matchmaking and other tasks." alt="" coords="5,119,272,161"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#ad00ac5adf15d214a91a2762a99f07cf6" title="Joins a random room that matches the filter." alt="" coords="320,119,527,161"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aa12ff3efc3aa91e5ceca9b3a40f7bd79" title=" " alt="" coords="575,86,781,127"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#aa0b9a197c11005dcc87e07e885239d9b" title="Operation to join a random, available room." alt="" coords="575,151,781,193"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#ae052ab450db16efdd31985d56f76f0ab" title=" " alt="" coords="829,5,1048,61"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aa01a53cac6918dab3ecb99669b276f01" title=" " alt="" coords="830,86,1047,127"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a69dd43d4c7211b5b83cd54d0ebcf79e7" title="Debug output of low level api (and this client)." alt="" coords="835,151,1042,193"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7f48b5f0c44ef0c67ef32f147ff87246" title="Creates a Peer with specified connection protocol." alt="" coords="1096,151,1303,193"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#affaff7e1fdffe86b25156ffac5e738c9" title=" " alt="" coords="1351,151,1557,193"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="Photon.Pun.PhotonNetwork.ConnectToRegion" name="Photon.Pun.PhotonNetwork.ConnectToRegion">
+<area shape="rect" id="node1" title="Connects to the Photon Cloud region of choice." alt="" coords="5,371,192,413"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a8db8b6caf7819906b58b59fb0e31f63c" title="Connects you to a specific region&#39;s Master Server, using the Name Server to find the IP." alt="" coords="240,338,447,379"/>
+<area shape="rect" id="node13" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a7d0aea55ba716d8c854758dfc0d90655" title="Applies default log settings if they are not set up programmatically." alt="" coords="250,403,437,445"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a41ac38b72df503d0c9997b0ab1b78801" title=" " alt="" coords="507,195,713,237"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a69dd43d4c7211b5b83cd54d0ebcf79e7" title="Debug output of low level api (and this client)." alt="" coords="1046,313,1253,354"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a29aacea6df375e301f67cb40ea90849e" title=" " alt="" coords="773,371,992,413"/>
+<area shape="rect" id="node12" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a43a3b987e52c0e028ce1d5803b7b9507" title=" " alt="" coords="495,426,725,467"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aa12ff3efc3aa91e5ceca9b3a40f7bd79" title=" " alt="" coords="779,86,986,127"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7f48b5f0c44ef0c67ef32f147ff87246" title="Creates a Peer with specified connection protocol." alt="" coords="1307,313,1513,354"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a4ed3ae23ffbc88d5b449997e5af8d9af" title="Sends this app&#39;s appId and appVersion to identify this application server side." alt="" coords="779,254,986,295"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#ae052ab450db16efdd31985d56f76f0ab" title=" " alt="" coords="1040,5,1259,61"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aa01a53cac6918dab3ecb99669b276f01" title=" " alt="" coords="1041,86,1258,127"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#affaff7e1fdffe86b25156ffac5e738c9" title=" " alt="" coords="1561,313,1768,354"/>
+</map>

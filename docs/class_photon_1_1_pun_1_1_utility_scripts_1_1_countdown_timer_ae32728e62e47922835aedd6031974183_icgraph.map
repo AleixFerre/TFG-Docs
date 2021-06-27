@@ -1,0 +1,7 @@
+<map id="Photon.Pun.UtilityScripts.CountdownTimer.OnTimerEnds" name="Photon.Pun.UtilityScripts.CountdownTimer.OnTimerEnds">
+<area shape="rect" id="node1" title=" " alt="" coords="505,76,707,117"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml#ad78abfcbe67a0c90086f131c2dff2060" title=" " alt="" coords="285,43,457,84"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml#a420f95549ce05dd84581c58bd4fe8ee7" title=" " alt="" coords="285,108,457,149"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml#a17a7b394eb415ff8bc64a90bf0259044" title=" " alt="" coords="32,5,211,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml#a8385606100f683b1b27f24e2cc6caedd" title="Called when a room&#39;s custom properties changed." alt="" coords="5,71,237,127"/>
+</map>

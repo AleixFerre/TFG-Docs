@@ -1,0 +1,11 @@
+<map id="Photon.Pun.PhotonNetwork.RaiseEventInternal" name="Photon.Pun.PhotonNetwork.RaiseEventInternal">
+<area shape="rect" id="node1" title="Sends PUN&#45;specific events to the server, unless in offlineMode." alt="" coords="5,119,192,161"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a620e340e8f78a51871d94d5868ffdb4c" title="Send an event with custom code/type and any content to the other players in the same room." alt="" coords="240,119,447,161"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aa12ff3efc3aa91e5ceca9b3a40f7bd79" title=" " alt="" coords="495,86,701,127"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#af6d68f09d3f683f8d709c3aa4dfe03cc" title="Send an event with custom code/type and any content to the other players in the same room." alt="" coords="495,151,701,193"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#ae052ab450db16efdd31985d56f76f0ab" title=" " alt="" coords="749,5,968,61"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aa01a53cac6918dab3ecb99669b276f01" title=" " alt="" coords="750,86,967,127"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a69dd43d4c7211b5b83cd54d0ebcf79e7" title="Debug output of low level api (and this client)." alt="" coords="755,151,962,193"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7f48b5f0c44ef0c67ef32f147ff87246" title="Creates a Peer with specified connection protocol." alt="" coords="1016,151,1223,193"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#affaff7e1fdffe86b25156ffac5e738c9" title=" " alt="" coords="1271,151,1477,193"/>
+</map>

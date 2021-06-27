@@ -1,0 +1,11 @@
+<map id="Photon.Pun.PhotonHandler.OnEnable" name="Photon.Pun.PhotonHandler.OnEnable">
+<area shape="rect" id="node1" title=" " alt="" coords="5,137,188,179"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ab6df1ed60be8a3f494683b8faa28ee4a" title="Registers an object for callbacks for the implemented callback&#45;interfaces." alt="" coords="262,88,449,129"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_realtime_1_1_connection_handler.xhtml#ad814fc7b6a0761684e69ef3a24a11dce" title=" " alt="" coords="236,169,475,211"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a7eccc149073296a316965f2ce96d08d3" title="Registers an object for callbacks for the implemented callback&#45;interfaces." alt="" coords="530,5,737,47"/>
+<area shape="rect" id="node4" href="$interface_photon_1_1_pun_1_1_i_pun_ownership_callbacks.xhtml#a20d83cdb1516ef38cf1506181b067477" title="Called when another player requests ownership of a PhotonView." alt="" coords="529,71,738,112"/>
+<area shape="rect" id="node5" href="$interface_photon_1_1_pun_1_1_i_pun_ownership_callbacks.xhtml#ac538522c1aba77f1cc6475ca05787b0e" title="Called when ownership of a PhotonView is transfered to another player." alt="" coords="523,136,744,177"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_realtime_1_1_connection_handler.xhtml#a780f42f9b50ecf72fba4ec2313679497" title="A thread which runs independent from the Update() calls. Keeps connections online while loading or in..." alt="" coords="529,201,738,243"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7f48b5f0c44ef0c67ef32f147ff87246" title="Creates a Peer with specified connection protocol." alt="" coords="792,201,999,243"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#affaff7e1fdffe86b25156ffac5e738c9" title=" " alt="" coords="1047,201,1253,243"/>
+</map>

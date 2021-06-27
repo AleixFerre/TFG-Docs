@@ -1,0 +1,5 @@
+<map id="Photon.Chat.ChatClient.HandleAuthResponse" name="Photon.Chat.ChatClient.HandleAuthResponse">
+<area shape="rect" id="node1" title=" " alt="" coords="5,27,208,69"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a9eac49b1efa140099bd95f95df3cc8c2" title="Disconnects from the Chat Server by sending a &quot;disconnect command&quot;, which prevents a timeout server&#45;s..." alt="" coords="256,5,483,32"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a4082838ff7355c23a7d92b02e8405efc" title="Sets the user&#39;s status (pre&#45;defined or custom) and an optional message." alt="" coords="278,57,461,98"/>
+</map>

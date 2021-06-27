@@ -1,0 +1,4 @@
+<map id="Photon.Pun.PhotonNetwork.CloseConnection" name="Photon.Pun.PhotonNetwork.CloseConnection">
+<area shape="rect" id="node1" title="Request a client to disconnect (KICK)." alt="" coords="237,13,424,54"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_details_controller.xhtml#ae0c9e88c9d23a998d4e70ac063696fbb" title=" " alt="" coords="5,5,189,61"/>
+</map>

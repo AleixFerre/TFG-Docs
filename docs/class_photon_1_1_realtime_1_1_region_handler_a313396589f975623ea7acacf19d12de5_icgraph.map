@@ -1,0 +1,12 @@
+<map id="Photon.Realtime.RegionHandler.OnRegionDone" name="Photon.Realtime.RegionHandler.OnRegionDone">
+<area shape="rect" id="node1" title=" " alt="" coords="1563,104,1773,145"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_region_handler.xhtml#a8ae051b93b79d6e40d0f7978ce3551e6" title=" " alt="" coords="1304,104,1515,145"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_region_handler.xhtml#aac3e49daea63ad06fa4e38498efbff08" title=" " alt="" coords="1045,75,1256,116"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_region_handler.xhtml#a667ee30920336dcb56113bdab8795887" title=" " alt="" coords="787,104,997,145"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a7efb23346fd80d365c5d9824b9a12be7" title=" " alt="" coords="513,5,700,47"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aae79523656b407a63d1112528093d953" title="Uses the OperationResponses provided by the server to advance the internal state and call ops as need..." alt="" coords="503,71,710,112"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_realtime_1_1_demo_1_1_connect_and_join_random_lb.xhtml#a0ae9b9b10119366621182ef8554d102c" title="Called when the Name Server provided a list of regions for your title." alt="" coords="475,136,739,177"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a46626762434dcbdaaad8658d520e6e1f" title="Called when the Name Server provided a list of regions for your title." alt="" coords="495,201,718,243"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a29461361da66594fce3a7394493f8fce" title=" " alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a1b66941ee2aba40b56df1578da9015da" title="Static constructor used for basic setup." alt="" coords="5,5,192,47"/>
+</map>

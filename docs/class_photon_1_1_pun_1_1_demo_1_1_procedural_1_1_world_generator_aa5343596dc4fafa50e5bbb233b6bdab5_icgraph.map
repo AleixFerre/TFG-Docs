@@ -1,0 +1,4 @@
+<map id="Photon.Pun.Demo.Procedural.WorldGenerator.ConfirmAndUpdateProperties" name="Photon.Pun.Demo.Procedural.WorldGenerator.ConfirmAndUpdateProperties">
+<area shape="rect" id="node1" title="Whenever the &#39;Confirm&#39; button on the Control Panel is clicked by the MasterClient,..." alt="" coords="252,5,477,61"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_ingame_control_panel.xhtml#a9aecef91ecfa0d4d6c3c9747562af14d" title="When the object gets created, all necessary references are set up." alt="" coords="5,13,204,54"/>
+</map>

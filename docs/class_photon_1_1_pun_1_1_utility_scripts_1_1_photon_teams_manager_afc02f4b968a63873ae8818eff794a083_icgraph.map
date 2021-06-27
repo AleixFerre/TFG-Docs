@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.PhotonTeamsManager.TryGetTeamMatesOfPlayer" name="Photon.Pun.UtilityScripts.PhotonTeamsManager.TryGetTeamMatesOfPlayer">
+<area shape="rect" id="node1" title="Gets all team mates of a player." alt="" coords="324,5,587,61"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_team_extensions.xhtml#a170286cbb9ae2d63bf025df0e6d22489" title="Try to get the team mates." alt="" coords="5,13,276,54"/>
+</map>

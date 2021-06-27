@@ -1,0 +1,9 @@
+<map id="Ability_Lis1.OnTriggerEnter" name="Ability_Lis1.OnTriggerEnter">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,185,108"/>
+<area shape="rect" id="node2" href="$class_ability_base.xhtml#a2def910c9621754a4e91d49ab5455af4" title="Returns the calculated damage." alt="" coords="233,5,428,32"/>
+<area shape="rect" id="node3" href="$class_stats.xhtml#aa9240dd20efde8e97dc0a1917e432db7" title=" " alt="" coords="265,56,396,83"/>
+<area shape="rect" id="node4" href="$class_ability_base.xhtml#add0b200b1767eda2024849eb72821340" title="Funció generica que retorna null si no és un objectiu valid o el component concret de Stats de l&#39;obje..." alt="" coords="259,107,403,133"/>
+<area shape="rect" id="node5" href="$class_effect_manager.xhtml#a921aed9a2553637cdd387d3075150709" title=" " alt="" coords="240,157,421,184"/>
+<area shape="rect" id="node6" href="$class_effect.xhtml#ae421c8b51f4b5f859b03ea719d384e8f" title=" " alt="" coords="489,132,595,159"/>
+<area shape="rect" id="node7" href="$class_effect.xhtml#a928c504cba23842da98461acb52eb7e0" title=" " alt="" coords="476,183,608,209"/>
+</map>

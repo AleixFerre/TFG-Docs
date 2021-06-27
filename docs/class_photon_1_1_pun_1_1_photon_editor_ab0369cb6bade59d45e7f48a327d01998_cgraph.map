@@ -1,0 +1,6 @@
+<map id="Photon.Pun.PhotonEditor.RegisterWithEmailSuccessCallback" name="Photon.Pun.PhotonEditor.RegisterWithEmailSuccessCallback">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,236,112"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_editor.xhtml#ac35d650dc27236224e5f8b35394d143a" title=" " alt="" coords="289,5,462,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_editor.xhtml#ae12c66548a6dcbd0e1633c824cc64a67" title=" " alt="" coords="289,71,462,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_server_settings.xhtml#a76a0d8344cc3fcc39e47bd1550a27fdb" title="Sets appid and region code in the AppSettings. Used in Editor." alt="" coords="284,136,467,177"/>
+</map>

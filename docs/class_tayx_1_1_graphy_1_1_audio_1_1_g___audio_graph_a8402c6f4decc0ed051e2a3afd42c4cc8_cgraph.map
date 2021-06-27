@@ -1,0 +1,7 @@
+<map id="Tayx.Graphy.Audio.G_AudioGraph.CreatePoints" name="Tayx.Graphy.Audio.G_AudioGraph.CreatePoints">
+<area shape="rect" id="node1" title="Creates the points for the graph/s." alt="" coords="5,104,181,145"/>
+<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#ac039f519ec84d521e44bf8f9b90ff7e8" title="Updates the material linked with this shader graph with the values in the float[] array." alt="" coords="229,5,427,47"/>
+<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#a67831882b060d17c9d7a754546ef2e6b" title="Updates the average parameter in the material." alt="" coords="229,71,427,112"/>
+<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#ac4ec72181f804fc7e8516292bd3a5995" title="Updates the colors in the material." alt="" coords="229,136,427,177"/>
+<area shape="rect" id="node5" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#af57c3227f9ad5e7a55f17532749cbf18" title="Updates the thresholds in the material." alt="" coords="229,201,427,243"/>
+</map>

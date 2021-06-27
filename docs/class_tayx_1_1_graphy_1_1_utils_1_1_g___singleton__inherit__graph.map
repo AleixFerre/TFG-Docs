@@ -1,0 +1,4 @@
+<map id="Tayx.Graphy.Utils.G_Singleton&lt; T &gt;" name="Tayx.Graphy.Utils.G_Singleton&lt; T &gt;">
+<area shape="rect" id="node1" title="Be aware this will not prevent a non singleton constructor such as T myT = new T(); To prevent that,..." alt="" coords="5,80,145,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="20,5,131,32"/>
+</map>

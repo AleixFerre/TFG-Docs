@@ -1,0 +1,3 @@
+<map id="Photon.Pun.PhotonAnimatorView.OnPhotonSerializeView" name="Photon.Pun.PhotonAnimatorView.OnPhotonSerializeView">
+<area shape="rect" id="node1" title="Called by PUN several times per second, so that your script can write and read synchronization data f..." alt="" coords="5,29,196,71"/>
+</map>

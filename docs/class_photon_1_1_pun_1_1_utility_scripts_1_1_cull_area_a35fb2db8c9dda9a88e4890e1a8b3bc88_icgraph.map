@@ -1,0 +1,5 @@
+<map id="Photon.Pun.UtilityScripts.CullArea.GetActiveCells" name="Photon.Pun.UtilityScripts.CullArea.GetActiveCells">
+<area shape="rect" id="node1" title="Gets a list of all cell IDs the player is currently inside or nearby." alt="" coords="475,13,647,54"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_culling_handler.xhtml#a99d4b1ca81941ebcbf7291c3bc9e72d4" title="Checks if the previously active cells have changed." alt="" coords="225,5,427,61"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_culling_handler.xhtml#a852d51f8f6f2cfd3184cf284594172e8" title="Checks if the player has moved previously and updates the interest groups if necessary." alt="" coords="5,13,177,54"/>
+</map>

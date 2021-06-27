@@ -1,0 +1,6 @@
+<map id="Photon.Pun.Demo.Cockpit.DocLinkButton" name="Photon.Pun.Demo.Cockpit.DocLinkButton">
+<area shape="rect" id="node1" title="Open an Url on Pointer Click." alt="" coords="120,109,300,151"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,13,116,39"/>
+<area shape="rect" id="node3" title=" " alt="" coords="141,13,279,39"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_shared_1_1_doc_links.xhtml" title="Document links." alt="" coords="303,5,503,47"/>
+</map>

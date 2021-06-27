@@ -1,0 +1,6 @@
+<map id="Photon.Pun.Demo.Cockpit.Forms.CreateRoomUiForm" name="Photon.Pun.Demo.Cockpit.Forms.CreateRoomUiForm">
+<area shape="rect" id="node1" title="Create room user interface form." alt="" coords="35,215,215,256"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,118,116,145"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_forms_1_1_create_room_ui_form_1_1_on_submit_event.xhtml" title=" " alt="" coords="140,111,411,152"/>
+<area shape="rect" id="node4" title=" " alt="" coords="209,5,342,61"/>
+</map>

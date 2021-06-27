@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.PhotonTeamsManager.GetTeamMembersCount" name="Photon.Pun.UtilityScripts.PhotonTeamsManager.GetTeamMembersCount">
+<area shape="rect" id="node1" title="Gets the number of players in a team by team code." alt="" coords="351,5,648,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a3b7cb10c67902cae1e0bafc316b3c9e0" title="Gets the number of players in a team by team name." alt="" coords="5,5,303,47"/>
+</map>

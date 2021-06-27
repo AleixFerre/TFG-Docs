@@ -1,0 +1,4 @@
+<map id="Photon.Realtime.LoadBalancingPeer.OpJoinRandomOrCreateRoom" name="Photon.Realtime.LoadBalancingPeer.OpJoinRandomOrCreateRoom">
+<area shape="rect" id="node1" title="Only used on the Master Server." alt="" coords="287,5,513,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a80955004ad4049b8a08400e634618f1a" title="Attempts to join a room that matches the specified filter and creates a room if none found." alt="" coords="5,5,239,47"/>
+</map>

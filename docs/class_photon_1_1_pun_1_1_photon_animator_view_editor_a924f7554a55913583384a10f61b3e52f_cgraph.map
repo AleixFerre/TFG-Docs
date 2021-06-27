@@ -1,0 +1,13 @@
+<map id="Photon.Pun.PhotonAnimatorViewEditor.DrawWeightInspector" name="Photon.Pun.PhotonAnimatorViewEditor.DrawWeightInspector">
+<area shape="rect" id="node1" title=" " alt="" coords="5,187,216,229"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_g_u_i.xhtml#a87da9217fb6ddb91e92dc0783926a78a" title=" " alt="" coords="264,5,511,32"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_g_u_i.xhtml#a6a8ae9617d7f5cf9e66ba4800be05a99" title=" " alt="" coords="279,57,495,98"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml#a81350b0c99454a448b2a17d04f9f6378" title="Check if a specific layer is configured to be synchronize" alt="" coords="264,122,511,163"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_photon_g_u_i.xhtml#a7ded261b0c784a08516c568e888e4ee4" title=" " alt="" coords="292,187,483,229"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_photon_animator_view_editor.xhtml#af1b69dbe2c1ebab6457ae72f0d0ed053" title=" " alt="" coords="294,253,481,294"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml#a8531360e1890493a838da8b201287446" title="Gets the type how the layer is synchronized" alt="" coords="284,318,491,359"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml#a6f93b82c434f89707278248d29af9d4f" title="Sets the how a layer should be synchronized" alt="" coords="294,383,481,425"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_g_u_i.xhtml#a5a6c798ce508cee8502c24185ead7adc" title=" " alt="" coords="559,5,821,32"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_g_u_i.xhtml#a6912940cad6ff071fa4697a617cc1096" title=" " alt="" coords="574,57,806,98"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_g_u_i.xhtml#ad47afe0a55f521dffdf89c792e2dfe31" title=" " alt="" coords="869,57,1101,98"/>
+</map>

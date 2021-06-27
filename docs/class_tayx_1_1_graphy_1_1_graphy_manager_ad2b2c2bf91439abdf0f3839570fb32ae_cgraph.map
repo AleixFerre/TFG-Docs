@@ -1,0 +1,11 @@
+<map id="Tayx.Graphy.GraphyManager.ToggleModes" name="Tayx.Graphy.GraphyManager.ToggleModes">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,201,145"/>
+<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_graphy_manager.xhtml#ac2c39047257c8b8785f075d82003b39b" title=" " alt="" coords="249,104,445,145"/>
+<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#ac91888d741e22b8802e3d38323e6e0cd" title="Set the module state." alt="" coords="523,5,693,47"/>
+<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_manager.xhtml#adc6cbaec95f86a1f896a089a03bf8ef9" title="Set the module state." alt="" coords="525,71,691,112"/>
+<area shape="rect" id="node6" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_manager.xhtml#af91e873d1642e9d13ce648a65fc87949" title="Set the module state." alt="" coords="499,136,717,177"/>
+<area shape="rect" id="node8" href="$class_tayx_1_1_graphy_1_1_ram_1_1_g___ram_manager.xhtml#a00af4a150c20f8d373fb6df080b1e3e1" title="Set the module state." alt="" coords="493,201,723,243"/>
+<area shape="rect" id="node5" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_manager.xhtml#a67d33c59a742691d9a9c3c6843bbc131" title=" " alt="" coords="782,71,989,112"/>
+<area shape="rect" id="node7" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_manager.xhtml#ab34052fcec562720da46d628a11c35b6" title=" " alt="" coords="776,136,995,177"/>
+<area shape="rect" id="node9" href="$class_tayx_1_1_graphy_1_1_ram_1_1_g___ram_manager.xhtml#a773c87f61c2bce8bef6c324cda1b30f4" title=" " alt="" coords="771,201,1000,243"/>
+</map>

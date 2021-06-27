@@ -1,0 +1,4 @@
+<map id="Photon.Realtime.MatchMakingCallbacksContainer.OnJoinedRoom" name="Photon.Realtime.MatchMakingCallbacksContainer.OnJoinedRoom">
+<area shape="rect" id="node1" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="5,5,232,47"/>
+<area shape="rect" id="node2" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml#a8add9e72c38d241a448f4b539acd684b" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="280,5,483,47"/>
+</map>

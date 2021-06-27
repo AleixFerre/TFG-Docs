@@ -1,0 +1,5 @@
+<map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,95,32"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_photon_ping.xhtml" title="Abstract implementation of PhotonPing, ase for pinging servers to find the &quot;Best Region&quot;." alt="" coords="143,5,332,32"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_ping_mono.xhtml" title="Uses C# Socket class from System.Net.Sockets (as Unity usually does)." alt="" coords="380,5,560,32"/>
+</map>

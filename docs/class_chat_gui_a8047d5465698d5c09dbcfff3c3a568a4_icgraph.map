@@ -1,0 +1,5 @@
+<map id="ChatGui.InstantiateChannelButton" name="ChatGui.InstantiateChannelButton">
+<area shape="rect" id="node1" title=" " alt="" coords="236,23,416,65"/>
+<area shape="rect" id="node2" href="$class_chat_gui.xhtml#a29c7d27da6c00bfa9dc7bbbc87f902f5" title="Notifies client about private message" alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node3" href="$class_chat_gui.xhtml#ae90fc3a9b4e7fd23e3e5295b122e0bff" title="Result of Subscribe operation." alt="" coords="19,56,174,83"/>
+</map>

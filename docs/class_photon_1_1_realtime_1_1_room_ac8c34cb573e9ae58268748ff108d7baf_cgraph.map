@@ -1,0 +1,7 @@
+<map id="Photon.Realtime.Room.ClearExpectedUsers" name="Photon.Realtime.Room.ClearExpectedUsers">
+<area shape="rect" id="node1" title="Attempts to remove all current expected users from the server&#39;s Slot Reservation list." alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_room.xhtml#ad2c87953a6e523e71cf658e98fd32512" title="Attempts to update the expected users from the server&#39;s Slot Reservation list." alt="" coords="244,5,424,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a69dd43d4c7211b5b83cd54d0ebcf79e7" title="Debug output of low level api (and this client)." alt="" coords="472,5,679,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7f48b5f0c44ef0c67ef32f147ff87246" title="Creates a Peer with specified connection protocol." alt="" coords="727,5,933,47"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#affaff7e1fdffe86b25156ffac5e738c9" title=" " alt="" coords="981,5,1188,47"/>
+</map>

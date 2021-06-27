@@ -1,0 +1,5 @@
+<map id="Photon.Pun.UtilityScripts.CullingHandler" name="Photon.Pun.UtilityScripts.CullingHandler">
+<area shape="rect" id="node1" title="Handles the network culling." alt="" coords="43,80,215,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node3" href="$interface_photon_1_1_pun_1_1_i_pun_observable.xhtml" title="Defines the OnPhotonSerializeView method to make it easy to implement correctly for observable script..." alt="" coords="141,5,253,32"/>
+</map>

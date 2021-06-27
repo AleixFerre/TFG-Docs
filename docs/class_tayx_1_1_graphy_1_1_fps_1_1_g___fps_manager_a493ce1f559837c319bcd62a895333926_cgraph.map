@@ -1,0 +1,13 @@
+<map id="Tayx.Graphy.Fps.G_FpsManager.Start" name="Tayx.Graphy.Fps.G_FpsManager.Start">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,224,145"/>
+<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_manager.xhtml#ac39d6d1210b18ccd3efbee72c464b19a" title=" " alt="" coords="272,104,491,145"/>
+<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_manager.xhtml#af91e873d1642e9d13ce648a65fc87949" title="Set the module state." alt="" coords="539,5,757,47"/>
+<area shape="rect" id="node5" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_graph.xhtml#a3e2ae8087be00c2a8bcfcda9d1c3c50c" title=" " alt="" coords="546,71,750,112"/>
+<area shape="rect" id="node10" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#a5d6eaeff0dd71849ecf40e4ba5cbae47" title=" " alt="" coords="542,136,754,177"/>
+<area shape="rect" id="node11" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_text.xhtml#a8e67396a0b2427f771edb5ccaabe3581" title=" " alt="" coords="551,201,745,243"/>
+<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_manager.xhtml#ab34052fcec562720da46d628a11c35b6" title=" " alt="" coords="805,5,1024,47"/>
+<area shape="rect" id="node6" href="$class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_graph.xhtml#ac85a9f98faa49d17ab7bac84c18785b1" title="Creates the points for the graph/s." alt="" coords="813,71,1017,112"/>
+<area shape="rect" id="node9" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#a531ef44ced25f9686183cc7c46ca3920" title="This is done to avoid a design problem that arrays in shaders have, and should be called before initi..." alt="" coords="816,136,1013,177"/>
+<area shape="rect" id="node7" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#ac039f519ec84d521e44bf8f9b90ff7e8" title="Updates the material linked with this shader graph with the values in the float[] array." alt="" coords="1072,39,1269,80"/>
+<area shape="rect" id="node8" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#ac4ec72181f804fc7e8516292bd3a5995" title="Updates the colors in the material." alt="" coords="1072,104,1269,145"/>
+</map>

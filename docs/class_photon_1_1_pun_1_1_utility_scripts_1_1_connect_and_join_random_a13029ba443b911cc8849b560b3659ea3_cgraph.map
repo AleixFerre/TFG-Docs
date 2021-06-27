@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.ConnectAndJoinRandom.OnJoinedLobby" name="Photon.Pun.UtilityScripts.ConnectAndJoinRandom.OnJoinedLobby">
+<area shape="rect" id="node1" title="Called on entering a lobby on the Master Server." alt="" coords="5,5,263,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aff48055ef5c0ffb25fad9c8a8e04f50f" title="Joins a random room that matches the filter." alt="" coords="311,5,497,47"/>
+</map>

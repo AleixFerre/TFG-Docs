@@ -1,0 +1,5 @@
+<map id="Photon.Realtime.LoadBalancingClient.OpRejoinRoom" name="Photon.Realtime.LoadBalancingClient.OpRejoinRoom">
+<area shape="rect" id="node1" title="Rejoins a room by roomName (using the userID internally to return)." alt="" coords="491,5,697,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#af4b1a8a87b39134b946ae85128e9d5e1" title="Rejoins a room by roomName (using the userID internally to return)." alt="" coords="256,5,443,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a4310525cd7bd0629f55c86abac93ab45" title="Called when a previous OpJoinRoom call failed on the server." alt="" coords="5,5,208,47"/>
+</map>

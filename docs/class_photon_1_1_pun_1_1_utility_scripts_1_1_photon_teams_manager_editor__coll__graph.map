@@ -1,0 +1,8 @@
+<map id="Photon.Pun.UtilityScripts.PhotonTeamsManagerEditor" name="Photon.Pun.UtilityScripts.PhotonTeamsManagerEditor">
+<area shape="rect" id="node1" title=" " alt="" coords="10,185,197,227"/>
+<area shape="rect" id="node2" title=" " alt="" coords="54,89,110,115"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml" title="Implements teams in a room/game with help of player properties." alt="" coords="135,81,307,123"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node5" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml" title="Collection of &quot;organizational&quot; callbacks for the Realtime Api to cover Matchmaking." alt="" coords="141,5,301,32"/>
+<area shape="rect" id="node6" href="$interface_photon_1_1_realtime_1_1_i_in_room_callbacks.xhtml" title="Collection of &quot;in room&quot; callbacks for the Realtime Api to cover: Players entering or leaving,..." alt="" coords="325,5,452,32"/>
+</map>

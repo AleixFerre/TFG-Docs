@@ -1,0 +1,5 @@
+<map id="Photon.Realtime.IConnectionCallbacks.OnConnectedToMaster" name="Photon.Realtime.IConnectionCallbacks.OnConnectedToMaster">
+<area shape="rect" id="node1" title="Called when the client is connected to the Master Server and ready for matchmaking and other tasks." alt="" coords="525,13,741,54"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_connection_callbacks_container.xhtml#aa3d0fe1dc58e94a899b5a2d885e3bbc6" title="Called when the client is connected to the Master Server and ready for matchmaking and other tasks." alt="" coords="260,5,477,61"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aae79523656b407a63d1112528093d953" title="Uses the OperationResponses provided by the server to advance the internal state and call ops as need..." alt="" coords="5,13,212,54"/>
+</map>

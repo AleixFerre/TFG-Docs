@@ -1,0 +1,26 @@
+<map id="Photon.Pun.PhotonNetwork.OnEvent" name="Photon.Pun.PhotonNetwork.OnEvent">
+<area shape="rect" id="node1" title=" " alt="" coords="5,260,192,301"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ad2885fef5a61d3561a740f3abf3ab69a" title="Network&#45;Destroy all GameObjects, PhotonViews and their RPCs in the room." alt="" coords="246,5,433,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aee9bc16543629db01f0879339c1fcc8e" title="Network&#45;Destroy all GameObjects, PhotonViews and their RPCs of targetPlayer." alt="" coords="246,71,433,112"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a5a0dc3a5cdb4df9d0704a9bd67145cae" title=" " alt="" coords="523,260,709,301"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_realtime_1_1_room.xhtml#ab41f8e8ab3cf7c212007684a9410e4b0" title="Tries to find the player with given actorNumber (a.k.a." alt="" coords="249,201,430,243"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a6efe3af5ec21c4ed14b1d4d95eef965f" title="Leave the current room and return to the Master Server where you can join or create rooms (see remark..." alt="" coords="246,136,433,177"/>
+<area shape="rect" id="node17" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ab20d21ae87fdbe5db26810e506089158" title=" " alt="" coords="246,319,433,360"/>
+<area shape="rect" id="node18" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a571353d12eeae7121c7e0f16e2cfef54" title="Reads updates created by OnSerializeWrite" alt="" coords="246,384,433,425"/>
+<area shape="rect" id="node22" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a8217ba09f31882ca060f3a58c2663347" title="Resets the PhotonView &quot;lastOnSerializeDataSent&quot; so that &quot;OnReliable&quot; synched PhotonViews send a compl..." alt="" coords="240,449,439,491"/>
+<area shape="rect" id="node23" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a7940dec04ac90d0f9d740cf76f8ac83a" title="Set the owner of an object manually." alt="" coords="246,515,433,556"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_realtime_1_1_match_making_callbacks_container.xhtml#aa8f13b83943e6a562e9817807cee4836" title="Called when the local user/client left a room, so the game&#39;s logic can clean up it&#39;s internal state." alt="" coords="511,165,721,207"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a14ea6cb3695cfca235d6f67298f33570" title="Leaves the current room, optionally telling the server that the user is just becoming inactive." alt="" coords="513,100,719,141"/>
+<area shape="rect" id="node8" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml#acedd813313ad6724f3935801481d8e8f" title="Called when the local user/client left a room, so the game&#39;s logic can clean up it&#39;s internal state." alt="" coords="795,165,998,207"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aa12ff3efc3aa91e5ceca9b3a40f7bd79" title=" " alt="" coords="793,100,1000,141"/>
+<area shape="rect" id="node16" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a74f970c5eeaef7851411f0b5011bd693" title="Leaves a room with option to come back later or &quot;for good&quot;." alt="" coords="793,35,1000,76"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#ae052ab450db16efdd31985d56f76f0ab" title=" " alt="" coords="1048,19,1267,75"/>
+<area shape="rect" id="node12" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aa01a53cac6918dab3ecb99669b276f01" title=" " alt="" coords="1049,100,1266,141"/>
+<area shape="rect" id="node13" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a69dd43d4c7211b5b83cd54d0ebcf79e7" title="Debug output of low level api (and this client)." alt="" coords="1054,165,1261,207"/>
+<area shape="rect" id="node14" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7f48b5f0c44ef0c67ef32f147ff87246" title="Creates a Peer with specified connection protocol." alt="" coords="1315,165,1521,207"/>
+<area shape="rect" id="node15" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#affaff7e1fdffe86b25156ffac5e738c9" title=" " alt="" coords="1569,165,1776,207"/>
+<area shape="rect" id="node19" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#acec5e46f1fc8338268877e28922ea3cb" title=" " alt="" coords="523,391,709,432"/>
+<area shape="rect" id="node20" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a200fb944340ef810ba73dfbb35715b6f" title=" " alt="" coords="487,457,745,483"/>
+<area shape="rect" id="node21" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#a7e7a18a9875e484473c73e9ee0c5f195" title=" " alt="" coords="525,325,707,367"/>
+<area shape="rect" id="node24" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#ad456b07b59018b51bce819958b9e006f" title="Apply any queued add/remove of interfaces from the callback lists." alt="" coords="512,515,720,556"/>
+</map>

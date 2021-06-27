@@ -1,0 +1,8 @@
+<map id="Photon.Realtime.LoadBalancingClient.ReadoutProperties" name="Photon.Realtime.LoadBalancingClient.ReadoutProperties">
+<area shape="rect" id="node1" title="Privately used to read&#45;out properties coming from the server in events and operation responses (which..." alt="" coords="767,39,973,80"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#af70aa958d1dbc82306594c23e4027403" title="Called internally, when a game was joined or created on the game server successfully." alt="" coords="492,5,719,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a67588b3c7738622008b4156adf5be714" title="Uses the photonEvent&#39;s provided by the server to advance the internal state and call ops as needed." alt="" coords="502,71,709,112"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aae79523656b407a63d1112528093d953" title="Uses the OperationResponses provided by the server to advance the internal state and call ops as need..." alt="" coords="237,5,444,47"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a9445d7b33be290e7a668284bad051e79" title="Sends fully customizable events in a room." alt="" coords="247,71,434,112"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_turn_manager.xhtml#af340724c75d6fed806a4c144ca4f0fc0" title="Call to send an action." alt="" coords="5,71,189,112"/>
+</map>

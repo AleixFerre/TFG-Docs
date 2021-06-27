@@ -1,0 +1,5 @@
+<map id="Ability_Dash.TriggerAbility" name="Ability_Dash.TriggerAbility">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,180,39"/>
+<area shape="rect" id="node2" href="$class_player_stats.xhtml#a33b723f51a189f34d473f1e98ac57aa0" title=" " alt="" coords="228,13,352,39"/>
+<area shape="rect" id="node3" href="$class_player_controller.xhtml#aea62bf4b6e3dc57f3545a64d5d21cd4a" title="Initialize a Dash Animation and start to move towards there." alt="" coords="400,5,568,47"/>
+</map>

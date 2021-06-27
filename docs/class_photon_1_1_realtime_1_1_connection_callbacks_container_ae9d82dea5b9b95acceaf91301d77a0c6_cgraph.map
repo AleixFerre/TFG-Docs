@@ -1,0 +1,4 @@
+<map id="Photon.Realtime.ConnectionCallbacksContainer.OnCustomAuthenticationResponse" name="Photon.Realtime.ConnectionCallbacksContainer.OnCustomAuthenticationResponse">
+<area shape="rect" id="node1" title="Called when your Custom Authentication service responds with additional data." alt="" coords="5,5,288,61"/>
+<area shape="rect" id="node2" href="$interface_photon_1_1_realtime_1_1_i_connection_callbacks.xhtml#a2a7051e8442a636549eb73705168250c" title="Called when your Custom Authentication service responds with additional data." alt="" coords="336,5,564,61"/>
+</map>

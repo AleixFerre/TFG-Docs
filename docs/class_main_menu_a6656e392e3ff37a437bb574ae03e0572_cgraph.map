@@ -1,0 +1,4 @@
+<map id="MainMenu.OnJoinedRoom" name="MainMenu.OnJoinedRoom">
+<area shape="rect" id="node1" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="5,13,180,39"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a9aa7d7a2389b180e95c81921076ac056" title="This method wraps loading a level asynchronously and pausing network messages during the process." alt="" coords="228,5,415,47"/>
+</map>

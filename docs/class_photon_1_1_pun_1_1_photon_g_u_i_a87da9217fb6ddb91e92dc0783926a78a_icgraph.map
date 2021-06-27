@@ -1,0 +1,14 @@
+<map id="Photon.Pun.PhotonGUI.ContainerBody" name="Photon.Pun.PhotonGUI.ContainerBody">
+<area shape="rect" id="node1" title=" " alt="" coords="663,271,909,298"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_animator_view_editor.xhtml#ac104c8f09b123df1bad32101be45ece4" title=" " alt="" coords="360,5,591,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_transform_view_classic_editor.xhtml#a5842c82125aae647ea8612030ac4444d" title=" " alt="" coords="359,137,591,193"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_transform_view_classic_editor.xhtml#ac86d530120098e99ea03867c7fb27de9" title=" " alt="" coords="359,217,591,273"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_photon_transform_view_classic_editor.xhtml#ae3c22fd93640eb43de544c03e064766a" title=" " alt="" coords="359,297,591,353"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager_editor.xhtml#aee70d90ca9516afa33dfd387fd83ccdd" title=" " alt="" coords="336,377,615,419"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_photon_animator_view_editor.xhtml#a924f7554a55913583384a10f61b3e52f" title=" " alt="" coords="370,71,581,112"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_pun_1_1_photon_rigidbody2_d_view_editor.xhtml#a4783947892755227f7d432438066c6e6" title=" " alt="" coords="376,443,575,484"/>
+<area shape="rect" id="node12" href="$class_photon_1_1_pun_1_1_photon_rigidbody_view_editor.xhtml#a3915f110d372990778510dd1bfbfed11" title=" " alt="" coords="379,508,571,549"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_animator_view_editor.xhtml#aad6c249b63a243cefe9cddb67450ba9f" title=" " alt="" coords="53,39,240,80"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_transform_view_classic_editor.xhtml#a3c39c395b6e04811cb3a897cf02a5923" title=" " alt="" coords="35,224,258,265"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager_editor.xhtml#a642ccd577e2f3bc9b54852cefabe12d5" title=" " alt="" coords="5,377,288,419"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="PlayerController.SetDashPosition" name="PlayerController.SetDashPosition">
+<area shape="rect" id="node1" title="Initialize a Dash Animation and start to move towards there." alt="" coords="400,5,568,47"/>
+<area shape="rect" id="node2" href="$class_player_stats.xhtml#a33b723f51a189f34d473f1e98ac57aa0" title=" " alt="" coords="228,13,352,39"/>
+<area shape="rect" id="node3" href="$class_ability___dash.xhtml#a5c3910aaf85b86254560096d82a6c6bd" title=" " alt="" coords="5,13,180,39"/>
+</map>

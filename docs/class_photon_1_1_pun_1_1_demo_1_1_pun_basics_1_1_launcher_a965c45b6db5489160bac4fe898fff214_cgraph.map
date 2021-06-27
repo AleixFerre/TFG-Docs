@@ -1,0 +1,5 @@
+<map id="Photon.Pun.Demo.PunBasics.Launcher.OnJoinedRoom" name="Photon.Pun.Demo.PunBasics.Launcher.OnJoinedRoom">
+<area shape="rect" id="node1" title="Called when entering a room (by creating or joining it)." alt="" coords="5,39,204,80"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a9aa7d7a2389b180e95c81921076ac056" title="This method wraps loading a level asynchronously and pausing network messages during the process." alt="" coords="258,5,445,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_launcher.xhtml#a0e5ec271a4e9f2e820fe7e8a803bfff4" title="Logs the feedback in the UI view for the player, as opposed to inside the Unity Editor for the develo..." alt="" coords="252,71,451,112"/>
+</map>

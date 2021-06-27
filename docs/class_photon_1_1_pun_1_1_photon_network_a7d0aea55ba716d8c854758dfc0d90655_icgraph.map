@@ -1,0 +1,9 @@
+<map id="Photon.Pun.PhotonNetwork.SetupLogging" name="Photon.Pun.PhotonNetwork.SetupLogging">
+<area shape="rect" id="node1" title="Applies default log settings if they are not set up programmatically." alt="" coords="503,101,689,142"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ad3c8b7c177d986ceea13dbfb858a4a79" title="Connect to the Photon Cloud region with the lowest ping (on platforms that support Unity&#39;s Ping)." alt="" coords="268,13,455,54"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ae031208b657a2e01d80ddf4b02d0d23f" title=" " alt="" coords="19,107,206,149"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aec6b6dd3b56678c58175e5d2a4cb5661" title="Connect to a Photon Master Server by address, port, appID." alt="" coords="268,130,455,171"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a37971483afa605d0d1383970b11f8cec" title="Connects to the Photon Cloud region of choice." alt="" coords="268,195,455,237"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#aa1e25a33ff6d9e679ebb0f1738c5f7fd" title=" " alt="" coords="5,5,220,61"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a5c90be793ca1f7501275a194cd9671ab" title=" " alt="" coords="15,195,210,237"/>
+</map>

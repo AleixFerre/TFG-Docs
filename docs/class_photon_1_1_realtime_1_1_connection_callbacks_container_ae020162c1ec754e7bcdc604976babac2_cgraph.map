@@ -1,0 +1,4 @@
+<map id="Photon.Realtime.ConnectionCallbacksContainer.OnConnected" name="Photon.Realtime.ConnectionCallbacksContainer.OnConnected">
+<area shape="rect" id="node1" title="Called to signal that the &quot;low level connection&quot; got established but before the client can call opera..." alt="" coords="5,5,223,47"/>
+<area shape="rect" id="node2" href="$interface_photon_1_1_realtime_1_1_i_connection_callbacks.xhtml#a2e3c773af453748eaaf877585d3d8e1d" title="Called to signal that the &quot;low level connection&quot; got established but before the client can call opera..." alt="" coords="271,5,461,47"/>
+</map>

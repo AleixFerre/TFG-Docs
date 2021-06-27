@@ -1,0 +1,5 @@
+<map id="Photon.Pun.UtilityScripts.OnJoinedInstantiate" name="Photon.Pun.UtilityScripts.OnJoinedInstantiate">
+<area shape="rect" id="node1" title="This component will instantiate a network GameObject when a room is joined" alt="" coords="55,80,227,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node3" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml" title="Collection of &quot;organizational&quot; callbacks for the Realtime Api to cover Matchmaking." alt="" coords="141,5,301,32"/>
+</map>

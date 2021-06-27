@@ -1,0 +1,7 @@
+<map id="Photon.Pun.Demo.Procedural.Cluster.SetBlockHeightRemote" name="Photon.Pun.Demo.Procedural.Cluster.SetBlockHeightRemote">
+<area shape="rect" id="node1" title="Gets called when a remote client has modified a certain Block within this Cluster." alt="" coords="819,46,1021,87"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_world_generator.xhtml#a4762f5d051a38e570149d85f77bb7969" title="Generates a new world based on the settings made either by the MasterClient on the Ingame Control Pan..." alt="" coords="559,13,763,54"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_cluster.xhtml#afe6f559c16cde694dcf173ff951a0871" title="Gets called whenever the Custom Room Properties are updated." alt="" coords="552,78,771,119"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_world_generator.xhtml#a36e9013dc5f780a62cb2f968a9174436" title="Called whenever a client receives a Custom Room Properties update containing all necessary informatio..." alt="" coords="305,13,504,54"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_ingame_control_panel.xhtml#a890762417042c4f6a8d93f483fdccff6" title="Gets called whenever the Custom Room Properties are updated." alt="" coords="5,5,257,61"/>
+</map>

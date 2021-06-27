@@ -1,0 +1,4 @@
+<map id="Photon.Realtime.Demo.ConnectAndJoinRandomLb.OnRegionPingCompleted" name="Photon.Realtime.Demo.ConnectAndJoinRandomLb.OnRegionPingCompleted">
+<area shape="rect" id="node1" title="A callback of the RegionHandler, provided in OnRegionListReceived." alt="" coords="317,5,596,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_demo_1_1_connect_and_join_random_lb.xhtml#a0ae9b9b10119366621182ef8554d102c" title="Called when the Name Server provided a list of regions for your title." alt="" coords="5,5,269,47"/>
+</map>

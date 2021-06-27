@@ -1,0 +1,4 @@
+<map id="Photon.Realtime.Player.GetNext" name="Photon.Realtime.Player.GetNext">
+<area shape="rect" id="node1" title="Gets this Player&#39;s next Player, as sorted by ActorNumber (Player.ID)." alt="" coords="5,13,216,39"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_player.xhtml#af48b6a3ca70efacd6ff7df6dcc3739c5" title="Gets a Player&#39;s next Player, as sorted by ActorNumber (Player.ID)." alt="" coords="264,5,448,47"/>
+</map>

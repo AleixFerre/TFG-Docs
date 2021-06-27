@@ -1,0 +1,6 @@
+<map id="RangedAttackFollow.Update" name="RangedAttackFollow.Update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,192,61"/>
+<area shape="rect" id="node2" href="$class_player_stats.xhtml#a647f9b1d02b99a9f35a69f10e9982208" title=" " alt="" coords="249,5,417,32"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ada7d7b9bdb306863c66b260dde7c544e" title="Network&#45;Destroy the GameObject associated with the PhotonView, unless the PhotonView is static or not..." alt="" coords="240,57,427,98"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a92bc79e36a53f2137e4b45e5162bdd7b" title="Call a RPC method of this GameObject on remote clients of this room (or on all, including this client..." alt="" coords="475,5,669,32"/>
+</map>

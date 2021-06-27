@@ -1,0 +1,6 @@
+<map id="Photon.Realtime.ConnectionHandler.RealtimeFallbackThread" name="Photon.Realtime.ConnectionHandler.RealtimeFallbackThread">
+<area shape="rect" id="node1" title="A thread which runs independent from the Update() calls. Keeps connections online while loading or in..." alt="" coords="548,39,757,80"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_connection_handler.xhtml#ad814fc7b6a0761684e69ef3a24a11dce" title=" " alt="" coords="261,39,500,80"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_handler.xhtml#ab4dd266cc56b759031c2afa60e020628" title=" " alt="" coords="18,5,201,47"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_demo_1_1_connect_and_join_random_lb.xhtml#a8bb8b49446440e7bab6b36d5342f52f8" title=" " alt="" coords="5,71,213,112"/>
+</map>

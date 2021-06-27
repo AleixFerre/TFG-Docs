@@ -1,0 +1,35 @@
+<map id="Photon.Pun.Demo.Cockpit.PunCockpit.Start" name="Photon.Pun.Demo.Cockpit.PunCockpit.Start">
+<area shape="rect" id="node1" title=" " alt="" coords="5,411,185,453"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a322ad513352aed28e2d4b66e5b7605b2" title="Called when the client is connected to the Master Server and ready for matchmaking and other tasks." alt="" coords="245,150,472,191"/>
+<area shape="rect" id="node17" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a8a84aefe02e52f4abfacc83f0b7e21bc" title="Called on entering a lobby on the Master Server." alt="" coords="267,215,450,257"/>
+<area shape="rect" id="node18" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a9dd2f362c48c02ed49c82785d5cc35ad" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="268,281,449,322"/>
+<area shape="rect" id="node28" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_bool_input_field.xhtml#ac257fcfc0490ec32223c3311fcc63641" title=" " alt="" coords="269,346,449,387"/>
+<area shape="rect" id="node29" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_int_input_field.xhtml#a357a0c6533be1b18f80390fe5b55a11d" title=" " alt="" coords="269,411,449,453"/>
+<area shape="rect" id="node30" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_string_input_field.xhtml#aade23666cb734b42fb7b7e1f7300290c" title=" " alt="" coords="269,477,449,518"/>
+<area shape="rect" id="node31" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#aeb01bc367e3f4e12a3d8f7446d44b68e" title=" " alt="" coords="246,542,471,583"/>
+<area shape="rect" id="node32" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a9fb0ef9b7cccca07bc04fa5b9c339b4c" title=" " alt="" coords="248,607,469,649"/>
+<area shape="rect" id="node33" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a800e9d66678ec8f47b4f4211eff90ac1" title=" " alt="" coords="233,673,484,714"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#adfb141a92ec187041fa91caf9959c7df" title=" " alt="" coords="532,182,753,223"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_room_list_view.xhtml#a03363ae3ca1d0ff519a876516dc98982" title=" " alt="" coords="801,117,1052,158"/>
+<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_friend_list_view.xhtml#aa8196984d03a944e9dc367dbd8bddb1f" title=" " alt="" coords="823,182,1030,223"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_friend_list_view.xhtml#a8016fdd83893b643c8ed12885ba1a073" title=" " alt="" coords="1100,150,1280,191"/>
+<area shape="rect" id="node16" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_friend_list_view.xhtml#a1ac4a26d41c8c147cc635a8fba96af7b" title=" " alt="" coords="1100,215,1280,257"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ac3ef7244ebae82c562a55b93895046f7" title="Requests the rooms and online status for a list of friends and saves the result in PhotonNetwork...." alt="" coords="1328,150,1515,191"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a6c6f4af01b0f593aba272d66772c6edf" title="Request the rooms and online status for a list of friends." alt="" coords="1563,150,1769,191"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aa12ff3efc3aa91e5ceca9b3a40f7bd79" title=" " alt="" coords="1817,89,2024,130"/>
+<area shape="rect" id="node12" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a69dd43d4c7211b5b83cd54d0ebcf79e7" title="Debug output of low level api (and this client)." alt="" coords="2078,151,2285,193"/>
+<area shape="rect" id="node15" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a2b9aebfa506dd7a930d1f0b6d71ba26e" title="Request the rooms and online status for a list of friends (each client must set a unique username via..." alt="" coords="1817,209,2024,250"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#ae052ab450db16efdd31985d56f76f0ab" title=" " alt="" coords="2072,5,2291,61"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aa01a53cac6918dab3ecb99669b276f01" title=" " alt="" coords="2073,86,2290,127"/>
+<area shape="rect" id="node13" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7f48b5f0c44ef0c67ef32f147ff87246" title="Creates a Peer with specified connection protocol." alt="" coords="2339,151,2545,193"/>
+<area shape="rect" id="node14" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#affaff7e1fdffe86b25156ffac5e738c9" title=" " alt="" coords="2593,151,2800,193"/>
+<area shape="rect" id="node19" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_list_view.xhtml#a9162bf1ba43e0a5f2f3af71048d00d35" title=" " alt="" coords="553,281,733,322"/>
+<area shape="rect" id="node20" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_details_controller.xhtml#a776c1d2fe05ed563cfe017dd89070a46" title=" " alt="" coords="535,347,750,403"/>
+<area shape="rect" id="node21" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_details_controller.xhtml#abae22d4d627b12989c84e6bda1543ec4" title=" " alt="" coords="811,281,1042,322"/>
+<area shape="rect" id="node25" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_details_controller.xhtml#a7f7ce880e8abd641554e67f86e56caa5" title=" " alt="" coords="829,347,1024,403"/>
+<area shape="rect" id="node26" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_details_controller.xhtml#a2129f42f02c12000d9f2764184dccb3b" title=" " alt="" coords="819,427,1034,469"/>
+<area shape="rect" id="node27" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_details_controller.xhtml#aed690ef755a9aea053c7644e04a30972" title=" " alt="" coords="820,493,1033,534"/>
+<area shape="rect" id="node22" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_property_cell.xhtml#a08df30821595f55e1e081a0cd0299c99" title=" " alt="" coords="1100,281,1280,322"/>
+<area shape="rect" id="node23" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_property_cell.xhtml#a931845bc2e9c633224558d2abd8b3a6f" title=" " alt="" coords="1331,281,1511,322"/>
+<area shape="rect" id="node24" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_property_cell.xhtml#a31fdb17d6a31c5f85468e815f4451c64" title=" " alt="" coords="1576,281,1756,322"/>
+</map>

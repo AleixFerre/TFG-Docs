@@ -1,0 +1,31 @@
+<map id="Photon.Realtime.IInRoomCallbacks" name="Photon.Realtime.IInRoomCallbacks">
+<area shape="rect" id="node1" title="Collection of &quot;in room&quot; callbacks for the Realtime Api to cover: Players entering or leaving,..." alt="" coords="5,791,232,817"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_mono_behaviour_pun_callbacks.xhtml" title="This class provides a .photonView and all callbacks/events that PUN can call." alt="" coords="300,666,483,707"/>
+<area shape="rect" id="node26" href="$class_photon_1_1_pun_1_1_photon_handler.xhtml" title="Internal MonoBehaviour that allows Photon to run an Update loop." alt="" coords="302,732,481,759"/>
+<area shape="rect" id="node27" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml" title="Implements teams in a room/game with help of player properties." alt="" coords="305,783,477,825"/>
+<area shape="rect" id="node28" title=" " alt="" coords="280,849,503,890"/>
+<area shape="rect" id="node29" href="$class_photon_1_1_realtime_1_1_support_logger.xhtml" title="Helper class to debug log basic information about Photon client and vital traffic statistics." alt="" coords="288,915,495,941"/>
+<area shape="rect" id="node3" href="$class_connect_to_server.xhtml" title=" " alt="" coords="590,5,710,32"/>
+<area shape="rect" id="node4" href="$class_disconnection_checker.xhtml" title=" " alt="" coords="574,56,726,83"/>
+<area shape="rect" id="node5" href="$class_lobby.xhtml" title=" " alt="" coords="621,107,679,133"/>
+<area shape="rect" id="node6" href="$class_main_menu.xhtml" title=" " alt="" coords="609,157,691,184"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml" title=" " alt="" coords="555,209,745,250"/>
+<area shape="rect" id="node8" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml" title=" " alt="" coords="555,274,745,315"/>
+<area shape="rect" id="node9" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_player_overview_panel.xhtml" title=" " alt="" coords="555,339,745,381"/>
+<area shape="rect" id="node10" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_friend_list_view.xhtml" title="Friend list UI view." alt="" coords="560,405,740,446"/>
+<area shape="rect" id="node11" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_details_controller.xhtml" title="Controller for the Playerdetails UI view" alt="" coords="560,470,740,511"/>
+<area shape="rect" id="node12" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_list_view.xhtml" title="Player list UI View." alt="" coords="560,535,740,577"/>
+<area shape="rect" id="node13" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml" title="UI based work in progress to test out api and act as foundation when dealing with room,..." alt="" coords="560,601,740,642"/>
+<area shape="rect" id="node14" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit_embed.xhtml" title="Use this in scenes you want to leave Control for connection and pun related commands to Cockpit." alt="" coords="560,666,740,707"/>
+<area shape="rect" id="node15" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_room_list_view.xhtml" title="Room list UI View." alt="" coords="560,731,740,773"/>
+<area shape="rect" id="node16" href="$class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_cluster.xhtml" title="The Cluster component has references to all Blocks that are part of this Cluster." alt="" coords="551,797,749,838"/>
+<area shape="rect" id="node17" href="$class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_ingame_control_panel.xhtml" title="The Ingame Control Panel basically controls the WorldGenerator." alt="" coords="551,862,749,903"/>
+<area shape="rect" id="node18" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_game_manager.xhtml" title="Game manager." alt="" coords="551,927,749,969"/>
+<area shape="rect" id="node19" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_launcher.xhtml" title="Launch manager." alt="" coords="551,993,749,1034"/>
+<area shape="rect" id="node20" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_player_manager.xhtml" title="Player manager." alt="" coords="551,1058,749,1099"/>
+<area shape="rect" id="node21" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_connect_and_join_random.xhtml" title="Simple component to call ConnectUsingSettings and to get into a PUN room easily." alt="" coords="564,1123,736,1165"/>
+<area shape="rect" id="node22" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml" title="This is a basic, network&#45;synced CountdownTimer based on properties." alt="" coords="564,1189,736,1230"/>
+<area shape="rect" id="node23" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering.xhtml" title="Implements consistent numbering in a room/game with help of room properties." alt="" coords="564,1254,736,1295"/>
+<area shape="rect" id="node24" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_teams.xhtml" title="Implements teams in a room/game with help of player properties." alt="" coords="564,1319,736,1361"/>
+<area shape="rect" id="node25" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_turn_manager.xhtml" title="Pun turnBased Game manager." alt="" coords="564,1385,736,1426"/>
+</map>

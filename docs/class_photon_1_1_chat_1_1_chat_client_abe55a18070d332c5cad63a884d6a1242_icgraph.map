@@ -1,0 +1,7 @@
+<map id="Photon.Chat.ChatClient.Subscribe" name="Photon.Chat.ChatClient.Subscribe">
+<area shape="rect" id="node1" title="Sends operation to subscribe to a list of channels by name." alt="" coords="435,31,655,57"/>
+<area shape="rect" id="node2" href="$class_chat_gui.xhtml#a05ac6bff242c371c67f9f07e9966aba3" title="Client is connected now." alt="" coords="219,5,371,32"/>
+<area shape="rect" id="node3" href="$class_chat_gui.xhtml#a68f45c78a96103fbc13469b6c0603295" title=" " alt="" coords="204,56,387,83"/>
+<area shape="rect" id="node4" href="$class_chat_gui.xhtml#a4d4a6ffcf4f6191edf14ce7274c91717" title=" " alt="" coords="6,31,155,57"/>
+<area shape="rect" id="node5" href="$class_chat_gui.xhtml#adcb3927d375b06b5525f47cd6a4ee727" title=" " alt="" coords="5,81,156,108"/>
+</map>

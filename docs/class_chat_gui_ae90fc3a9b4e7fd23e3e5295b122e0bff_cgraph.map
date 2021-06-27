@@ -1,0 +1,9 @@
+<map id="ChatGui.OnSubscribed" name="ChatGui.OnSubscribed">
+<area shape="rect" id="node1" title="Result of Subscribe operation." alt="" coords="5,78,160,105"/>
+<area shape="rect" id="node2" href="$class_chat_gui.xhtml#a8047d5465698d5c09dbcfff3c3a568a4" title=" " alt="" coords="221,5,401,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#afefc5d6f79d10d6d755669d14eee9c12" title="Sends a message to a public channel which this client subscribed to." alt="" coords="208,71,413,112"/>
+<area shape="rect" id="node5" href="$class_chat_gui.xhtml#aa83d13b8a9345313627a401e3ec5a938" title=" " alt="" coords="235,139,387,166"/>
+<area shape="rect" id="node4" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#abd054e64db59e580d97a817f99310e99" title=" " alt="" coords="461,67,664,108"/>
+<area shape="rect" id="node6" href="$class_photon_1_1_chat_1_1_chat_channel.xhtml#a9ff674eb16730b6b99234d887616feee" title="Provides a string&#45;representation of all messages in this channel." alt="" coords="475,132,651,173"/>
+<area shape="rect" id="node7" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a5dd578fb1b7cbbebcbe28a95187bb85e" title="Simplified access to either private or public channels by name." alt="" coords="473,197,653,239"/>
+</map>

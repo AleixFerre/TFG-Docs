@@ -1,0 +1,5 @@
+<map id="Photon.Pun.PhotonStream.PeekNext" name="Photon.Pun.PhotonStream.PeekNext">
+<area shape="rect" id="node1" title="Read next piece of data from the stream without advancing the &quot;current&quot; item." alt="" coords="488,35,669,76"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml#ac314c73fb9019a95360650e317c748e0" title=" " alt="" coords="244,5,440,47"/>
+<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_animator_view.xhtml#a35a3d7a2cff101c804c6e71ea0df1a32" title="Called by PUN several times per second, so that your script can write and read synchronization data f..." alt="" coords="5,35,196,76"/>
+</map>

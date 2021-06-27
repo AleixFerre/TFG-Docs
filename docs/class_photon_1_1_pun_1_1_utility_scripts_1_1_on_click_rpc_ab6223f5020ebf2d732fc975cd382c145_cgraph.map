@@ -1,0 +1,4 @@
+<map id="Photon.Pun.UtilityScripts.OnClickRpc.OnPointerClick" name="Photon.Pun.UtilityScripts.OnClickRpc.OnPointerClick">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a92bc79e36a53f2137e4b45e5162bdd7b" title="Call a RPC method of this GameObject on remote clients of this room (or on all, including this client..." alt="" coords="236,13,431,39"/>
+</map>

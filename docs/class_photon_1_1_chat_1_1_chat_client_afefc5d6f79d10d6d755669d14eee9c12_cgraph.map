@@ -1,0 +1,4 @@
+<map id="Photon.Chat.ChatClient.PublishMessage" name="Photon.Chat.ChatClient.PublishMessage">
+<area shape="rect" id="node1" title="Sends a message to a public channel which this client subscribed to." alt="" coords="5,5,211,47"/>
+<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#abd054e64db59e580d97a817f99310e99" title=" " alt="" coords="259,5,461,47"/>
+</map>

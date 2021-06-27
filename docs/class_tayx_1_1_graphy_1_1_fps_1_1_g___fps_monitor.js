@@ -1,0 +1,28 @@
+var class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor =
+[
+    [ "Awake", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#a1dbf1f88b4093f7bb2a71deac868540a", null ],
+    [ "Init", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#ae4705f74cf395f730c2520aa6fb91b67", null ],
+    [ "ResizeSamplesBuffer", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#ae7668814512dbf58533ff652053f3b31", null ],
+    [ "ToBufferIndex", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#aa469ec82054aecec24219183416f652b", null ],
+    [ "Update", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#ac467f2ff24e7d9793a670379e054b995", null ],
+    [ "UpdateParameters", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#a5d6eaeff0dd71849ecf40e4ba5cbae47", null ],
+    [ "m_averageFpsSamples", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#aeb8a69c6ed3865772c5fff44eb14d315", null ],
+    [ "m_averageSamples", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#adf7457f5205cc4a55650e87f4d23619f", null ],
+    [ "m_avgFps", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#ab007faca09547e5b0a4a88223f08be11", null ],
+    [ "m_avgFpsSamplesCapacity", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#afbb630457c9c6932822876cbac81f4f8", null ],
+    [ "m_avgFpsSamplesCount", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#a2402cb990aa92c3202687b266ffe06f7", null ],
+    [ "m_avgFpsSamplesOffset", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#a642e6ac25dfc01554549e775a3de6ab5", null ],
+    [ "m_currentFps", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#a145b1cc20ade1d3d1c52276106f2cb12", null ],
+    [ "m_graphyManager", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#af948735a4ec666150cd3ebe0821af9a0", null ],
+    [ "m_indexMask", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#ab69cb3fbe7fd884b50050895fa714b49", null ],
+    [ "m_maxFps", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#ae8e210a3237bd41a9da11616efc8c889", null ],
+    [ "m_minFps", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#ab678376b8cdc2cd58769989b8b2fc81d", null ],
+    [ "m_timeToResetMaxFpsPassed", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#a90b1ac204bbdd670db61031d93806f19", null ],
+    [ "m_timeToResetMinFpsPassed", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#aeee729f55b29a0146d46696b6543483e", null ],
+    [ "m_timeToResetMinMaxFps", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#a5313bb2444dbaca80d03d40ce54e54c9", null ],
+    [ "unscaledDeltaTime", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#aa739e1540c92ba1f4afe5b8273e1e168", null ],
+    [ "AverageFPS", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#a847893794226d0f51356c7adf33343b7", null ],
+    [ "CurrentFPS", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#a8f1a05727532197a4483c19d4234442a", null ],
+    [ "MaxFPS", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#a077e66aff05cfcd77f1405db957020bc", null ],
+    [ "MinFPS", "class_tayx_1_1_graphy_1_1_fps_1_1_g___fps_monitor.xhtml#ab2897d5953517e72ecf87edddf6d0566", null ]
+];
