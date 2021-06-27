@@ -58,10 +58,14 @@ var hierarchy =
     [ "PostGameData", "class_post_game_data.xhtml", null ],
     [ "ScriptableObject", null, [
       [ "Ability", "class_ability.xhtml", [
-        [ "Ability_Dash", "class_ability___dash.xhtml", null ],
-        [ "Ability_Instanciable", "class_ability___instanciable.xhtml", null ],
-        [ "Ability_Passive", "class_ability___passive.xhtml", null ],
-        [ "Ability_PlayerRelative", "class_ability___player_relative.xhtml", null ]
+        [ "IndicatedAbility", "class_indicated_ability.xhtml", [
+          [ "Ability_Dash", "class_ability___dash.xhtml", null ],
+          [ "Ability_Instanciable", "class_ability___instanciable.xhtml", null ],
+          [ "Ability_PlayerRelative", "class_ability___player_relative.xhtml", null ]
+        ] ],
+        [ "NonIndicatedAbility", "class_non_indicated_ability.xhtml", [
+          [ "Ability_StatsChanger", "class_ability___stats_changer.xhtml", null ]
+        ] ]
       ] ],
       [ "Character", "class_character.xhtml", null ],
       [ "Effect", "class_effect.xhtml", [

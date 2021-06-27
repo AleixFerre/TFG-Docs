@@ -1,9 +1,7 @@
 var dir_22ad7e7452722a68395badabb134d579 =
 [
+    [ "Base", "dir_2863194c9ba8869c3920e30063c1edf2.xhtml", "dir_2863194c9ba8869c3920e30063c1edf2" ],
     [ "Types", "dir_a3d5ddb8a483d5ce2256c2c36b6bfc3a.xhtml", "dir_a3d5ddb8a483d5ce2256c2c36b6bfc3a" ],
-    [ "Ability.cs", "_ability_8cs.xhtml", [
-      [ "Ability", "class_ability.xhtml", "class_ability" ]
-    ] ],
     [ "AbilityCooldown.cs", "_ability_cooldown_8cs.xhtml", [
       [ "AbilityCooldown", "class_ability_cooldown.xhtml", "class_ability_cooldown" ]
     ] ],

@@ -1,7 +1,7 @@
 <map id="Effect" name="Effect">
 <area shape="rect" id="node1" title=" " alt="" coords="205,80,260,107"/>
-<area shape="rect" id="node3" href="$class_instant_effect.xhtml" title=" " alt="" coords="127,155,221,181"/>
-<area shape="rect" id="node6" href="$class_timed_effect.xhtml" title=" " alt="" coords="261,155,351,181"/>
+<area shape="rect" id="node3" href="$class_instant_effect.xhtml" title="InstantEffect és un encapsulador per tots els Effect que s&#39;executen de forma instantània." alt="" coords="127,155,221,181"/>
+<area shape="rect" id="node6" href="$class_timed_effect.xhtml" title="TimedEffect és un encapsulador per tots els Effect que NO s&#39;executen de forma instantània." alt="" coords="261,155,351,181"/>
 <area shape="rect" id="node2" title=" " alt="" coords="173,5,292,32"/>
 <area shape="rect" id="node4" href="$class_heal_effect.xhtml" title=" " alt="" coords="5,229,87,256"/>
 <area shape="rect" id="node5" href="$class_heal_relative_effect.xhtml" title=" " alt="" coords="111,229,237,256"/>

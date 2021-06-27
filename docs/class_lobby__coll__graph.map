@@ -1,8 +1,8 @@
 <map id="Lobby" name="Lobby">
-<area shape="rect" id="node1" title=" " alt="" coords="93,349,151,376"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,260,196,287"/>
-<area shape="rect" id="node3" href="$class_character.xhtml" title=" " alt="" coords="220,260,299,287"/>
+<area shape="rect" id="node1" title=" " alt="" coords="93,364,151,391"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,275,196,301"/>
+<area shape="rect" id="node3" href="$class_character.xhtml" title=" " alt="" coords="220,275,299,301"/>
 <area shape="rect" id="node4" title=" " alt="" coords="224,5,343,32"/>
-<area shape="rect" id="node5" href="$class_ability.xhtml" title=" " alt="" coords="270,171,329,197"/>
+<area shape="rect" id="node5" href="$class_ability.xhtml" title=" " alt="" coords="270,185,329,212"/>
 <area shape="rect" id="node6" href="$class_effect.xhtml" title=" " alt="" coords="321,81,376,108"/>
 </map>

@@ -51,8 +51,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_d_upgrade_effect_8cs.xhtml",
-"class_basic_attack.xhtml#a6241042f8affb143a9c710c05fd1706c",
-"class_player_controller.xhtml#a4e7678b9f3a9cd56474a5649e4b39591"
+"class_basic_attack.xhtml#af9e86a74f1f6c5789ec8bdb1ce3daf64",
+"class_player_controller.xhtml#acc582f6feb1993addf21cb535fc0fd75"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

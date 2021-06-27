@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_timed_effect.xhtml" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="class_timed_effect.xhtml" target="_top" xlink:title="TimedEffect és un encapsulador per tots els Effect que NO s&#39;executen de forma instantània.">
 <polygon fill="white" stroke="black" points="11.5,-56.5 11.5,-75.5 79.5,-75.5 79.5,-56.5 11.5,-56.5"/>
 <text text-anchor="middle" x="45.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">TimedEffect</text>
 </a>

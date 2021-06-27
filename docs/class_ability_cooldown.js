@@ -24,7 +24,7 @@ var class_ability_cooldown =
     [ "darkMask", "class_ability_cooldown.xhtml#a54dd77c9e98f3064df7904a9a81c8dd1", null ],
     [ "fillImage", "class_ability_cooldown.xhtml#a236c55a2015aff75de35b889f6dce6f6", null ],
     [ "index", "class_ability_cooldown.xhtml#ae0a0a41b45ffca0bbcf736fd531de36e", null ],
-    [ "isPassive", "class_ability_cooldown.xhtml#a0501acfc10bd2fecece57e20f252ac12", null ],
+    [ "isIndicated", "class_ability_cooldown.xhtml#aa50e6213480492690d755fbf27961c89", null ],
     [ "nextReadyTime", "class_ability_cooldown.xhtml#a6c07b75ab3f35a102c0e11a80d148d25", null ],
     [ "playerController", "class_ability_cooldown.xhtml#a6c27aa11d9c57ac45906e3a4bc2df09d", null ],
     [ "playerStats", "class_ability_cooldown.xhtml#ada36a8ccb6108d11b2d5127ba78867af", null ],

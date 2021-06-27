@@ -67,7 +67,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_ability_indicator.xhtml#a4bf84483d8c8507ea690e7c814d8431a" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="class_ability_indicator.xhtml#a334fb70612241c8c1067bb596a4e2a26" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-47 0,-66 135,-66 135,-47 0,-47"/>
 <text text-anchor="middle" x="67.5" y="-54" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityIndicator.SetIndicator</text>
 </a>

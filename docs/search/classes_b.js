@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['nexusstats_505',['NexusStats',['../class_nexus_stats.xhtml',1,'']]],
-  ['nexusuicontroller_506',['NexusUIController',['../class_nexus_u_i_controller.xhtml',1,'']]]
+  ['nexusstats_507',['NexusStats',['../class_nexus_stats.xhtml',1,'']]],
+  ['nexusuicontroller_508',['NexusUIController',['../class_nexus_u_i_controller.xhtml',1,'']]],
+  ['nonindicatedability_509',['NonIndicatedAbility',['../class_non_indicated_ability.xhtml',1,'']]]
 ];
