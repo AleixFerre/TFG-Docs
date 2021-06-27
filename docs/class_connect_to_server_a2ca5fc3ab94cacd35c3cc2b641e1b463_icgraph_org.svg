@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_connect_to_server.xhtml#a9df07244dc7dd2662e6b333ed3d7dab0" target="_top" xlink:title="Called when the client receives an event from the server indicating that an error happened there.">
+<g id="a_node2"><a xlink:href="class_connect_to_server.xhtml#a9df07244dc7dd2662e6b333ed3d7dab0" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="362.5,-50 362.5,-69 504.5,-69 504.5,-50 362.5,-50"/>
 <text text-anchor="middle" x="433.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">ConnectToServer.OnErrorInfo</text>
 </a>

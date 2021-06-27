@@ -1,5 +1,4 @@
 <map id="HealEffect.Activate" name="HealEffect.Activate">
 <area shape="rect" id="node1" title=" " alt="" coords="5,5,136,32"/>
 <area shape="rect" id="node2" href="$class_player_stats.xhtml#a95d085936404a6d0100b3780ec88edb4" title=" " alt="" coords="184,5,304,32"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a92bc79e36a53f2137e4b45e5162bdd7b" title="Call a RPC method of this GameObject on remote clients of this room (or on all, including this client..." alt="" coords="352,5,547,32"/>
 </map>

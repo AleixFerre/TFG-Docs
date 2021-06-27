@@ -1,5 +1,4 @@
 <map id="BasicAttack.StartBasicAttack" name="BasicAttack.StartBasicAttack">
-<area shape="rect" id="node1" title=" " alt="" coords="5,35,201,61"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a92bc79e36a53f2137e4b45e5162bdd7b" title="Call a RPC method of this GameObject on remote clients of this room (or on all, including this client..." alt="" coords="249,5,444,32"/>
-<area shape="rect" id="node3" href="$class_player_controller.xhtml#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="263,57,430,98"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,201,39"/>
+<area shape="rect" id="node2" href="$class_player_controller.xhtml#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="249,5,416,47"/>
 </map>

@@ -1,6 +1,5 @@
 <map id="BasicAttack.CastRay" name="BasicAttack.CastRay">
-<area shape="rect" id="node1" title=" " alt="" coords="5,35,152,61"/>
-<area shape="rect" id="node2" href="$class_basic_attack.xhtml#a6700fa1b84e430381504535f20c2e3d8" title=" " alt="" coords="200,35,396,61"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a92bc79e36a53f2137e4b45e5162bdd7b" title="Call a RPC method of this GameObject on remote clients of this room (or on all, including this client..." alt="" coords="444,5,639,32"/>
-<area shape="rect" id="node4" href="$class_player_controller.xhtml#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="458,57,625,98"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,152,39"/>
+<area shape="rect" id="node2" href="$class_basic_attack.xhtml#a6700fa1b84e430381504535f20c2e3d8" title=" " alt="" coords="200,13,396,39"/>
+<area shape="rect" id="node3" href="$class_player_controller.xhtml#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="444,5,611,47"/>
 </map>

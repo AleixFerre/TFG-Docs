@@ -1,9 +1,8 @@
 <map id="Ability_Lis4.Initialize" name="Ability_Lis4.Initialize">
-<area shape="rect" id="node1" title=" " alt="" coords="5,111,145,137"/>
-<area shape="rect" id="node2" href="$class_ability___lis4.xhtml#abf66fa4ed9cc553dc8ab52d7bbd12406" title=" " alt="" coords="193,69,399,96"/>
-<area shape="rect" id="node6" href="$class_ability___lis4.xhtml#a49fb47c797c6d390a9ace1a12b54a994" title=" " alt="" coords="213,133,379,174"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,85,145,112"/>
+<area shape="rect" id="node2" href="$class_ability___lis4.xhtml#abf66fa4ed9cc553dc8ab52d7bbd12406" title=" " alt="" coords="193,56,399,83"/>
+<area shape="rect" id="node6" href="$class_ability___lis4.xhtml#a49fb47c797c6d390a9ace1a12b54a994" title=" " alt="" coords="213,107,379,149"/>
 <area shape="rect" id="node3" href="$class_ability_base.xhtml#a2def910c9621754a4e91d49ab5455af4" title="Returns the calculated damage." alt="" coords="447,5,641,32"/>
 <area shape="rect" id="node4" href="$class_stats.xhtml#aa9240dd20efde8e97dc0a1917e432db7" title=" " alt="" coords="479,56,609,83"/>
 <area shape="rect" id="node5" href="$class_ability.xhtml#a548a250c44f3c230ac82ad28a6c78720" title=" " alt="" coords="477,107,611,133"/>
-<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ada7d7b9bdb306863c66b260dde7c544e" title="Network&#45;Destroy the GameObject associated with the PhotonView, unless the PhotonView is static or not..." alt="" coords="451,158,637,199"/>
 </map>

@@ -1,5 +1,4 @@
 <map id="PlayerStats.Die" name="PlayerStats.Die">
 <area shape="rect" id="node1" title="Function that implements what is done when this entity dies." alt="" coords="5,5,119,32"/>
 <area shape="rect" id="node2" href="$class_player_stats.xhtml#a95d085936404a6d0100b3780ec88edb4" title=" " alt="" coords="167,5,287,32"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a92bc79e36a53f2137e4b45e5162bdd7b" title="Call a RPC method of this GameObject on remote clients of this room (or on all, including this client..." alt="" coords="335,5,529,32"/>
 </map>

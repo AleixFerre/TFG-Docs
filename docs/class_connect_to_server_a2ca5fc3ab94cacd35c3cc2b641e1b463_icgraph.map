@@ -1,6 +1,6 @@
 <map id="ConnectToServer.ShowError" name="ConnectToServer.ShowError">
 <area shape="rect" id="node1" title=" " alt="" coords="741,35,925,61"/>
-<area shape="rect" id="node2" href="$class_connect_to_server.xhtml#a9df07244dc7dd2662e6b333ed3d7dab0" title="Called when the client receives an event from the server indicating that an error happened there." alt="" coords="489,5,678,32"/>
+<area shape="rect" id="node2" href="$class_connect_to_server.xhtml#a9df07244dc7dd2662e6b333ed3d7dab0" title=" " alt="" coords="489,5,678,32"/>
 <area shape="rect" id="node3" href="$class_connect_to_server.xhtml#af54d350629abc28677d474dda9fbd6a0" title=" " alt="" coords="473,57,693,98"/>
 <area shape="rect" id="node4" href="$class_connect_to_server.xhtml#a23793971a306b7523ca6dc028f4746ca" title=" " alt="" coords="205,64,425,91"/>
 <area shape="rect" id="node5" href="$class_connect_to_server.xhtml#a586c4eaddbfb5ab8e5bfe771057651ea" title=" " alt="" coords="5,64,157,91"/>
