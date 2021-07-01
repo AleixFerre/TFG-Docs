@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['team_921',['Team',['../_team_8cs.xhtml#a9c13bb5b1d69698f9b47900990eaa598',1,'Team.cs']]]
+  ['statistic_923',['Statistic',['../class_upgrade_effect.xhtml#a30967eb7a9eaada5527263385ccb936b',1,'UpgradeEffect']]]
 ];

@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingPeer.OpJoinRandomOrCreateRoom" name="Photon.Realtime.LoadBalancingPeer.OpJoinRandomOrCreateRoom">
-<area shape="rect" id="node1" title="Only used on the Master Server." alt="" coords="5,5,232,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7ba1675f94fad7ace3f931c73179b117" title="Used by OpJoinRoom and by OpCreateRoom alike." alt="" coords="280,5,511,47"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="Photon.Pun.PhotonHandler.Dispatch" name="Photon.Pun.PhotonHandler.Dispatch">
-<area shape="rect" id="node1" title="Dispatches incoming network messages for PUN." alt="" coords="236,39,419,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_handler.xhtml#a94de76e1aba7602887361768002a4d84" title="Called in intervals by UnityEngine. Affected by Time.timeScale." alt="" coords="5,5,188,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_handler.xhtml#a3b61062176934651d52a761a3deb517f" title="Called in intervals by UnityEngine, after running the normal game code and physics." alt="" coords="5,71,188,112"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Photon.Pun.Demo.Cockpit.RegionListCell" name="Photon.Pun.Demo.Cockpit.RegionListCell">
-<area shape="rect" id="node1" title="Region list cell." alt="" coords="129,124,309,165"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_region_list_view.xhtml" title="Region list UI View." alt="" coords="23,228,203,269"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,116,32"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_region.xhtml" title=" " alt="" coords="141,5,303,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="328,5,375,32"/>
-</map>

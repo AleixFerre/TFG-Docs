@@ -1,4 +1,0 @@
-<map id="Photon.Pun.PhotonHandler.LateUpdate" name="Photon.Pun.PhotonHandler.LateUpdate">
-<area shape="rect" id="node1" title="Called in intervals by UnityEngine, after running the normal game code and physics." alt="" coords="5,5,188,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_handler.xhtml#a1126c69ff84bedfc82289db999e029d1" title="Dispatches incoming network messages for PUN." alt="" coords="236,5,419,47"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="Tayx.Graphy.GraphyDebugger.AddCallbackToAllDebugPacketWithId" name="Tayx.Graphy.GraphyDebugger.AddCallbackToAllDebugPacketWithId">
-<area shape="rect" id="node1" title="Add an Action callback to all the Packets with the specified ID in the DebugPacket list." alt="" coords="5,5,244,47"/>
-<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_graphy_debugger.xhtml#ac0ef7ff49e62d1f88947db9592c4943a" title="Returns a list with all the Packets with the specified ID in the DebugPacket list." alt="" coords="292,5,493,47"/>
-</map>

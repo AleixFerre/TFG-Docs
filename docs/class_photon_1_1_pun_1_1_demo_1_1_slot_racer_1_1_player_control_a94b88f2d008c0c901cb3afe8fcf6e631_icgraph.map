@@ -1,4 +1,0 @@
-<map id="Photon.Pun.Demo.SlotRacer.PlayerControl.SetupCarOnTrack" name="Photon.Pun.Demo.SlotRacer.PlayerControl.SetupCarOnTrack">
-<area shape="rect" id="node1" title="Setups the car on track." alt="" coords="247,5,453,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_slot_racer_1_1_player_control.xhtml#add80ac3b880529fae9dac2ce1bf5a477" title="Start this instance as a coroutine Waits for a Playernumber to be assigned and only then setup the ca..." alt="" coords="5,5,199,47"/>
-</map>

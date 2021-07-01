@@ -1,6 +1,0 @@
-<map id="Photon.Pun.Demo.Cockpit.BoolInputField" name="Photon.Pun.Demo.Cockpit.BoolInputField">
-<area shape="rect" id="node1" title="Boolean UI UI Toggle input." alt="" coords="25,185,205,227"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,89,116,115"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_bool_input_field_1_1_on_submit_event.xhtml" title=" " alt="" coords="140,81,339,123"/>
-<area shape="rect" id="node4" title=" " alt="" coords="173,5,305,32"/>
-</map>

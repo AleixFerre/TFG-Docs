@@ -1,7 +1,0 @@
-<map id="Tayx.Graphy.Audio.G_AudioMonitor.Awake" name="Tayx.Graphy.Audio.G_AudioMonitor.Awake">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,153,80"/>
-<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_monitor.xhtml#a8d9259b6a4c57a705b96e88084a53cb8" title=" " alt="" coords="201,39,348,80"/>
-<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_monitor.xhtml#a112506b8e4cc5fc5064c82f6d24bab38" title=" " alt="" coords="402,5,607,47"/>
-<area shape="rect" id="node5" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_monitor.xhtml#ab99d3ec55c039eb4c3cdfe46a094bccd" title=" " alt="" coords="396,71,613,112"/>
-<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_monitor.xhtml#a3ecfbab2cd037e4c289d57969854292f" title="Tries to find an audio listener in the main camera." alt="" coords="661,39,875,80"/>
-</map>

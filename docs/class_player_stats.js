@@ -13,7 +13,7 @@ var class_player_stats =
     [ "SpendMana", "class_player_stats.xhtml#aac8ad79b07db35d0a9873217c992d787", null ],
     [ "SpendManaRPC", "class_player_stats.xhtml#adb29a13d34d6e2880a34d67340b8b74a", null ],
     [ "abilityCooldowns", "class_player_stats.xhtml#ace37c35b02d21bd2623adb8005a9787d", null ],
-    [ "abilityDamage", "class_player_stats.xhtml#ad256e34cdabd4f6913c15962602fce44", null ],
+    [ "abilityPower", "class_player_stats.xhtml#a70b5ffe7d79456b531218bcfc0e40f1c", null ],
     [ "anim", "class_player_stats.xhtml#a82d350f613f09f44f221cdac433ee74d", null ],
     [ "coroutine", "class_player_stats.xhtml#acbd6bd09e969f6a7ed285ae62a51d2d7", null ],
     [ "inventory", "class_player_stats.xhtml#a13688e05f1cd83724ffa8ae871e3a907", null ],

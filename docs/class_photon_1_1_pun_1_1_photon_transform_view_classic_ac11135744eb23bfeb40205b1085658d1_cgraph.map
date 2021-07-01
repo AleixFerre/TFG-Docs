@@ -1,8 +1,0 @@
-<map id="Photon.Pun.PhotonTransformViewClassic.UpdatePosition" name="Photon.Pun.PhotonTransformViewClassic.UpdatePosition">
-<area shape="rect" id="node1" title=" " alt="" coords="5,78,197,119"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_transform_view_position_control.xhtml#affb1dff75603955575c3ff5ab7ca7f33" title="Calculates the new position based on the values setup in the inspector" alt="" coords="245,78,476,119"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_transform_view_position_control.xhtml#a07e089a361c55d579f22438213797c95" title="Calculates an estimated position based on the last synchronized position, the time when the last posi..." alt="" coords="524,71,760,127"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_transform_view_position_control.xhtml#a45649a7179a566662570df7a89b50922" title=" " alt="" coords="808,5,1047,61"/>
-<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_transform_view_position_control.xhtml#a405f84b3bf8aac0ca7121ba0f4508e67" title="Gets the last position that was received through the network" alt="" coords="537,151,747,207"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ac8651f3c6c9b6527030eff1c15d2b796" title="The current roundtrip time to the photon server." alt="" coords="834,86,1021,127"/>
-</map>

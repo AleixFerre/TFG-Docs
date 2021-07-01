@@ -1,6 +1,0 @@
-<map id="Tayx.Graphy.Audio.G_AudioGraph.UpdateGraph" name="Tayx.Graphy.Audio.G_AudioGraph.UpdateGraph">
-<area shape="rect" id="node1" title="Updates the graph/s." alt="" coords="5,71,183,112"/>
-<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_monitor.xhtml#af4d65f23129bf2ba080baba2a63c7f3e" title="Normalizes a value in decibels between 0&#45;1." alt="" coords="234,5,425,47"/>
-<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_audio_1_1_g___audio_monitor.xhtml#af2e6e9d30917c150005798b20bf6fd9e" title="Converts spectrum values to decibels using logarithms." alt="" coords="256,71,403,112"/>
-<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_g___graph_shader.xhtml#a2a5905cd3809406d645ef762f86d9280" title="Updates the points in the graph with the set array of values." alt="" coords="231,136,428,177"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingPeer.OpJoinRoom" name="Photon.Realtime.LoadBalancingPeer.OpJoinRoom">
-<area shape="rect" id="node1" title="Joins a room by name or creates new room if room with given name not exists." alt="" coords="5,5,212,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7ba1675f94fad7ace3f931c73179b117" title="Used by OpJoinRoom and by OpCreateRoom alike." alt="" coords="260,5,491,47"/>
-</map>

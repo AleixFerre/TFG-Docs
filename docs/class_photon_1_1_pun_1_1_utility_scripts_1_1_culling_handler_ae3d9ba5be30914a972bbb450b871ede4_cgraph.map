@@ -1,5 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.CullingHandler.Start" name="Photon.Pun.UtilityScripts.CullingHandler.Start">
-<area shape="rect" id="node1" title="Initializes the right interest group or prepares the permanent change of the interest Group of the Ph..." alt="" coords="5,5,177,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aa941f29879694fd0a54f1ae58f8e394a" title="Enable/disable receiving events from a given Interest Group." alt="" coords="225,5,412,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a7de619407fd7ff3a1156e7ddc8c9d21c" title="Helper function which is called inside this class to erify if certain functions can be used (e...." alt="" coords="460,5,647,47"/>
-</map>

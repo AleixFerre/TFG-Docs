@@ -1,5 +1,0 @@
-<map id="Photon.Chat.ChatClient.TryGetPrivateChannelByUser" name="Photon.Chat.ChatClient.TryGetPrivateChannelByUser">
-<area shape="rect" id="node1" title="Simplified access to private channels by target user." alt="" coords="5,39,185,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#ab1feb7b68f1125ecd4a5c1994767a8ce" title="Get you the (locally used) channel name for the chat between this client and another user." alt="" coords="233,5,419,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a5dd578fb1b7cbbebcbe28a95187bb85e" title="Simplified access to either private or public channels by name." alt="" coords="236,71,416,112"/>
-</map>

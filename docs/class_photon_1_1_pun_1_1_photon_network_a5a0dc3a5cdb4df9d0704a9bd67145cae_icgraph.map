@@ -1,8 +1,0 @@
-<map id="Photon.Pun.PhotonNetwork.GetPhotonView" name="Photon.Pun.PhotonNetwork.GetPhotonView">
-<area shape="rect" id="node1" title=" " alt="" coords="949,49,1136,90"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a5cc014c89059912581ce8727427711ef" title="Finds the PhotonView Component with a viewID in the scene" alt="" coords="709,5,901,32"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a13bebb81d3e182db408b4fb694afcd1f" title=" " alt="" coords="475,78,661,119"/>
-<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a571353d12eeae7121c7e0f16e2cfef54" title="Reads updates created by OnSerializeWrite" alt="" coords="712,107,899,149"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a29461361da66594fce3a7394493f8fce" title=" " alt="" coords="240,78,427,119"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a1b66941ee2aba40b56df1578da9015da" title="Static constructor used for basic setup." alt="" coords="5,78,192,119"/>
-</map>

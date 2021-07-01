@@ -1,5 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingClient.OpLeaveLobby" name="Photon.Realtime.LoadBalancingClient.OpLeaveLobby">
-<area shape="rect" id="node1" title="Opposite of joining a lobby." alt="" coords="539,5,745,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a2fa56a022fa01dbbe46475d7d77f5e59" title="Leave a lobby to stop getting updates about available rooms." alt="" coords="304,5,491,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#afb8a816635252a1a8a2def147909b48c" title=" " alt="" coords="5,5,256,47"/>
-</map>

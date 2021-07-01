@@ -1,4 +1,0 @@
-<map id="Photon.Pun.Demo.Cockpit.PunCockpit.JoinRandomRoom" name="Photon.Pun.Demo.Cockpit.PunCockpit.JoinRandomRoom">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,204,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aff48055ef5c0ffb25fad9c8a8e04f50f" title="Joins a random room that matches the filter." alt="" coords="252,5,439,47"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.MatchMakingCallbacksContainer.OnCreatedRoom" name="Photon.Realtime.MatchMakingCallbacksContainer.OnCreatedRoom">
-<area shape="rect" id="node1" title="Called when this client created a room and entered it." alt="" coords="5,5,240,47"/>
-<area shape="rect" id="node2" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml#a3d084f0aa95b2e8f48514695af73b31d" title="Called when this client created a room and entered it." alt="" coords="288,5,491,47"/>
-</map>

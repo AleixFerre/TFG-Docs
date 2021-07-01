@@ -1,7 +1,0 @@
-<map id="Photon.Realtime.RegionPinger" name="Photon.Realtime.RegionPinger">
-<area shape="rect" id="node1" title=" " alt="" coords="22,184,221,211"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_region.xhtml" title=" " alt="" coords="5,95,168,121"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_photon_ping.xhtml" title="Abstract implementation of PhotonPing, ase for pinging servers to find the &quot;Best Region&quot;." alt="" coords="192,95,381,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="191,5,281,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="305,5,372,32"/>
-</map>

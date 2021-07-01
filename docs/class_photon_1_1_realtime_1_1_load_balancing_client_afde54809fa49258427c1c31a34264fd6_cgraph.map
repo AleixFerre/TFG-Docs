@@ -1,5 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingClient.OpRejoinRoom" name="Photon.Realtime.LoadBalancingClient.OpRejoinRoom">
-<area shape="rect" id="node1" title="Rejoins a room by roomName (using the userID internally to return)." alt="" coords="5,5,212,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a1dc6be1075f64edd0b746f2e61c114f5" title="Joins a room by name or creates new room if room with given name not exists." alt="" coords="260,5,467,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_load_balancing_peer.xhtml#a7ba1675f94fad7ace3f931c73179b117" title="Used by OpJoinRoom and by OpCreateRoom alike." alt="" coords="515,5,745,47"/>
-</map>

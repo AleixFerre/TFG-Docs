@@ -1,9 +1,0 @@
-<map id="Photon.Pun.PhotonRigidbody2DViewEditor" name="Photon.Pun.PhotonRigidbody2DViewEditor">
-<area shape="rect" id="node1" title=" " alt="" coords="5,364,204,405"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_mono_behaviour_pun_editor.xhtml" title=" " alt="" coords="21,288,188,315"/>
-<area shape="rect" id="node3" title=" " alt="" coords="27,199,83,225"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_mono_behaviour_pun.xhtml" title="This class adds the property photonView, while logging a warning when your game still uses the networ..." alt="" coords="107,199,313,225"/>
-<area shape="rect" id="node5" title=" " alt="" coords="113,5,224,32"/>
-<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_photon_view.xhtml" title="A PhotonView identifies an object across the network (viewID) and configures how the controlling clie..." alt="" coords="206,109,369,136"/>
-<area shape="rect" id="node7" href="$class_photon_1_1_realtime_1_1_player.xhtml" title="Summarizes a &quot;player&quot; within a room, identified (in that room) by ID (or &quot;actorNumber&quot;)." alt="" coords="248,5,407,32"/>
-</map>

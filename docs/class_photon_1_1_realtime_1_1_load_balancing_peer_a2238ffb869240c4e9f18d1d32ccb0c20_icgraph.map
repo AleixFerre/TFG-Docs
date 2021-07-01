@@ -1,5 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingPeer.OpChangeGroups" name="Photon.Realtime.LoadBalancingPeer.OpChangeGroups">
-<area shape="rect" id="node1" title="Operation to handle this client&#39;s interest groups (for events in room)." alt="" coords="495,5,701,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#a41c63e80c17b1f434f27d49ecdcb5fd2" title="Operation to handle this client&#39;s interest groups (for events in room)." alt="" coords="240,5,447,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ae25c8c7c59cc3a949c87f65e7fb17137" title="Enable/disable receiving on given Interest Groups (applied to PhotonViews)." alt="" coords="5,5,192,47"/>
-</map>

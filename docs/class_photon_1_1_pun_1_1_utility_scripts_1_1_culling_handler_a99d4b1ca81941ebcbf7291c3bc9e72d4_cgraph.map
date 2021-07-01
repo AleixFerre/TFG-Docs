@@ -1,7 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.CullingHandler.HaveActiveCellsChanged" name="Photon.Pun.UtilityScripts.CullingHandler.HaveActiveCellsChanged">
-<area shape="rect" id="node1" title="Checks if the previously active cells have changed." alt="" coords="5,31,207,87"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#a35fb2db8c9dda9a88e4890e1a8b3bc88" title="Gets a list of all cell IDs the player is currently inside or nearby." alt="" coords="255,39,427,80"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#af28e9793abfacb2c8729d6399979e371" title="Gathers all cell IDs the player is currently inside or nearby." alt="" coords="475,39,663,80"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#a2c550fbbf2ed973dc8c2f093721b2ccd" title="Checks if the given point is inside the cell." alt="" coords="711,5,909,47"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#a68c3fb47028b8f0a5a34e22053e860b8" title="Checks if the given point is near the cell." alt="" coords="714,71,906,112"/>
-</map>

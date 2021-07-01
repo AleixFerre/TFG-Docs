@@ -1,4 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.PlayerNumbering.OnPlayerPropertiesUpdate" name="Photon.Pun.UtilityScripts.PlayerNumbering.OnPlayerPropertiesUpdate">
-<area shape="rect" id="node1" title="Called when custom player&#45;properties are changed." alt="" coords="5,5,244,61"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering.xhtml#af9f275a5db8a0af391b65e935cd91c6f" title="Internal call Refresh the cached data and call the OnPlayerNumberingChanged delegate." alt="" coords="292,13,488,54"/>
-</map>

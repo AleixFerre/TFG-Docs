@@ -1,6 +1,0 @@
-<map id="Photon.Pun.Demo.Cockpit.PlayerListView.ResetList" name="Photon.Pun.Demo.Cockpit.PlayerListView.ResetList">
-<area shape="rect" id="node1" title=" " alt="" coords="463,39,643,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a84ff24af9cae180e264018c2b201104b" title=" " alt="" coords="234,5,414,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a9dd2f362c48c02ed49c82785d5cc35ad" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="233,71,415,112"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a96d91c8a4398280fb582bd516bf147f6" title=" " alt="" coords="5,71,185,112"/>
-</map>

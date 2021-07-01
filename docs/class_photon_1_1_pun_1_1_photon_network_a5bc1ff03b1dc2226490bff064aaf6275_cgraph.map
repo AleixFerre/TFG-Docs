@@ -1,5 +1,0 @@
-<map id="Photon.Pun.PhotonNetwork.DestroyPlayerObjects" name="Photon.Pun.PhotonNetwork.DestroyPlayerObjects">
-<area shape="rect" id="node1" title="Network&#45;Destroy all GameObjects, PhotonViews and their RPCs of this player (by ID)." alt="" coords="5,39,192,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aee9bc16543629db01f0879339c1fcc8e" title="Network&#45;Destroy all GameObjects, PhotonViews and their RPCs of targetPlayer." alt="" coords="240,5,427,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a7de619407fd7ff3a1156e7ddc8c9d21c" title="Helper function which is called inside this class to erify if certain functions can be used (e...." alt="" coords="240,71,427,112"/>
-</map>

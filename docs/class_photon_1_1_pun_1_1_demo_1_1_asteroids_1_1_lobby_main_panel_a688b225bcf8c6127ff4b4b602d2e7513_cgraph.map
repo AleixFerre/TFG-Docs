@@ -1,4 +1,0 @@
-<map id="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnLeftRoom" name="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnLeftRoom">
-<area shape="rect" id="node1" title="Called when the local user/client left a room, so the game&#39;s logic can clean up it&#39;s internal state." alt="" coords="5,5,200,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#ae0f058a2d1732456fd5c65f2ad8a99dc" title=" " alt="" coords="248,5,459,47"/>
-</map>

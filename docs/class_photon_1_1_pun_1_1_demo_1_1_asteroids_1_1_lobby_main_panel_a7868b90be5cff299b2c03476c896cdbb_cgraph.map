@@ -1,6 +1,0 @@
-<map id="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnJoinedRoom" name="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnJoinedRoom">
-<area shape="rect" id="node1" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="5,71,216,112"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a37014084416a23f5b45cae191c148ed0" title=" " alt="" coords="264,5,504,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#ae0f058a2d1732456fd5c65f2ad8a99dc" title=" " alt="" coords="279,71,489,112"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_realtime_1_1_player.xhtml#a73de822cb4ab788e9dce94795566a656" title="Updates and synchronizes this Player&#39;s Custom Properties." alt="" coords="293,136,475,177"/>
-</map>

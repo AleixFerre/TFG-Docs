@@ -1,6 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.CullAreaEditor.AlignEditorView" name="Photon.Pun.UtilityScripts.CullAreaEditor.AlignEditorView">
-<area shape="rect" id="node1" title="Aligns the editor view with the created grid." alt="" coords="559,39,759,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area_editor.xhtml#a30d8ae48760ed4f2ca60e711ce2835ab" title="Represents the inspector GUI when edit mode is active." alt="" coords="255,5,511,47"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area_editor.xhtml#a5d27e9e9b8c2bb952a0946a1c0291599" title=" " alt="" coords="290,71,475,112"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area_editor.xhtml#a77a6232416c00562ae921f1851ef1a56" title=" " alt="" coords="5,5,207,47"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Photon.Pun.PhotonNetwork.OnSerializeRead" name="Photon.Pun.PhotonNetwork.OnSerializeRead">
-<area shape="rect" id="node1" title="Reads updates created by OnSerializeWrite" alt="" coords="5,93,192,135"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#acec5e46f1fc8338268877e28922ea3cb" title=" " alt="" coords="276,5,463,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#a200fb944340ef810ba73dfbb35715b6f" title=" " alt="" coords="240,71,499,98"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a5a0dc3a5cdb4df9d0704a9bd67145cae" title=" " alt="" coords="276,123,463,164"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#a7e7a18a9875e484473c73e9ee0c5f195" title=" " alt="" coords="279,188,460,229"/>
-</map>

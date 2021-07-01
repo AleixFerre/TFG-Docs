@@ -1,8 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.PhotonTeamsManager.TryGetTeamByCode" name="Photon.Pun.UtilityScripts.PhotonTeamsManager.TryGetTeamByCode">
-<area shape="rect" id="node1" title="Find a PhotonTeam using a team code." alt="" coords="696,104,969,145"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_team_extensions.xhtml#aceb0f3bb687016ec111ec3fd99e568fd" title="Gets the team the player is currently joined to." alt="" coords="370,5,629,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a6a641528ca028cb8673f80efea15701d" title="Gets the number of players in a team by team code." alt="" coords="351,71,648,112"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_team_extensions.xhtml#a6177e7483d97a75bfcba87ae7dd021f6" title="Join a team using team code." alt="" coords="390,136,609,177"/>
-<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_team_extensions.xhtml#a156104113f829466e70e0ea63130a278" title="Switch the player&#39;s team using a team code." alt="" coords="382,201,617,243"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a3b7cb10c67902cae1e0bafc316b3c9e0" title="Gets the number of players in a team by team name." alt="" coords="5,71,303,112"/>
-</map>

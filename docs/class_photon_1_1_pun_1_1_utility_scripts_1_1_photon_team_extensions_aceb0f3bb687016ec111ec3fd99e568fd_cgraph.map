@@ -1,4 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.PhotonTeamExtensions.GetPhotonTeam" name="Photon.Pun.UtilityScripts.PhotonTeamExtensions.GetPhotonTeam">
-<area shape="rect" id="node1" title="Gets the team the player is currently joined to." alt="" coords="5,5,264,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a29ee09cb37349dd79f2d97cf2ca30ed8" title="Find a PhotonTeam using a team code." alt="" coords="312,5,585,47"/>
-</map>

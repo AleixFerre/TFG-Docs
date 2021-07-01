@@ -1,5 +1,0 @@
-<map id="Photon.Pun.Demo.Cockpit.CurrentRoomPlayerTtlProperty" name="Photon.Pun.Demo.Cockpit.CurrentRoomPlayerTtlProperty">
-<area shape="rect" id="node1" title="PhotonNetwork.CurrentRoom.PlayerTtl UI property." alt="" coords="5,155,204,196"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_property_listener_base.xhtml" title="Property listener base." alt="" coords="31,80,178,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="49,5,160,32"/>
-</map>

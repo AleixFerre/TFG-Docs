@@ -1,4 +1,0 @@
-<map id="Photon.Pun.PhotonNetwork.OnClientStateChanged" name="Photon.Pun.PhotonNetwork.OnClientStateChanged">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,192,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a15bb10f6b718365d0420cbd865c898b6" title="Called when &quot;this client&quot; left a room to clean up." alt="" coords="240,5,427,47"/>
-</map>

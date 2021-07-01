@@ -1,6 +1,0 @@
-<map id="Photon.Pun.Demo.Asteroids.AsteroidsGameManager.OnMasterClientSwitched" name="Photon.Pun.Demo.Asteroids.AsteroidsGameManager.OnMasterClientSwitched">
-<area shape="rect" id="node1" title="Called after switching to a new MasterClient when the current one leaves." alt="" coords="5,5,261,61"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_asteroids_game_manager.xhtml#afe9f216cfb605421f3bca02acc622c38" title=" " alt="" coords="309,13,563,54"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a7e68c3cae2b1b2b7495b545b246192c2" title=" " alt="" coords="611,13,797,54"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ab20d21ae87fdbe5db26810e506089158" title=" " alt="" coords="845,13,1032,54"/>
-</map>

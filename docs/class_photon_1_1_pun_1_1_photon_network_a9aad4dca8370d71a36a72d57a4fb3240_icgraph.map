@@ -1,6 +1,0 @@
-<map id="Photon.Pun.PhotonNetwork.OpCleanRpcBuffer" name="Photon.Pun.PhotonNetwork.OpCleanRpcBuffer">
-<area shape="rect" id="node1" title="Cleans server RPCs for PhotonView (without any further checks)." alt="" coords="475,39,661,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#acf94c5d71fe4fc49213ff466d5613dce" title=" " alt="" coords="240,39,427,80"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a157da0bb230e0ea5b209a462d81b115f" title="Remove all buffered RPCs from server that were sent via targetPhotonView." alt="" coords="5,5,192,47"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aae076cc19e6b371c3e0dd5caf651cee3" title="Remove all buffered RPCs from server that were sent in the targetGroup, if this is the Master Client ..." alt="" coords="5,71,192,112"/>
-</map>

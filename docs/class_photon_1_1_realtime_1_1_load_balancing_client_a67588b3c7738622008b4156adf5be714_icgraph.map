@@ -1,5 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingClient.OnEvent" name="Photon.Realtime.LoadBalancingClient.OnEvent">
-<area shape="rect" id="node1" title="Uses the photonEvent&#39;s provided by the server to advance the internal state and call ops as needed." alt="" coords="472,5,679,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a9445d7b33be290e7a668284bad051e79" title="Sends fully customizable events in a room." alt="" coords="237,5,424,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_turn_manager.xhtml#af340724c75d6fed806a4c144ca4f0fc0" title="Call to send an action." alt="" coords="5,5,189,47"/>
-</map>
