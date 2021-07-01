@@ -1,6 +1,0 @@
-<map id="Photon.Pun.Demo.Cockpit.DocLinkButton.OnPointerClick" name="Photon.Pun.Demo.Cockpit.DocLinkButton.OnPointerClick">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,204,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_shared_1_1_doc_links.xhtml#ae5621ccf1560fc14c3807f4f29f293ea" title="Gets a documentation link given a reference" alt="" coords="252,39,452,80"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_shared_1_1_doc_links.xhtml#ae8fdf31ec4ea1b25b6e5e87e9e78c17d" title="Gets the API link given a reference" alt="" coords="500,5,700,47"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_shared_1_1_doc_links.xhtml#a836b8604a14c6c2b0cbf2388773c35c9" title="Gets the Doc link given a reference" alt="" coords="500,71,700,112"/>
-</map>

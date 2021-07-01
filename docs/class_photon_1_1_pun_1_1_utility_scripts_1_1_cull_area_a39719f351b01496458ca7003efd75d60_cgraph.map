@@ -1,4 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.CullArea.DrawCells" name="Photon.Pun.UtilityScripts.CullArea.DrawCells">
-<area shape="rect" id="node1" title="Draws the cells." alt="" coords="5,29,177,71"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cell_tree_node.xhtml#a29ff0e593ea6718d04a9427fd5ef42bc" title="Draws the cell in the editor." alt="" coords="225,29,397,71"/>
-</map>

@@ -91,8 +91,12 @@ $(document).ready(function(){initNavTree('class_player_stats.xhtml',''); initRes
 <p>Aquesta és la llista complerta dels membres de <a class="el" href="class_player_stats.xhtml">PlayerStats</a>, incloent tots els membres heretats.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="class_player_stats.xhtml#ace37c35b02d21bd2623adb8005a9787d">abilityCooldowns</a></td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_player_stats.xhtml#ad256e34cdabd4f6913c15962602fce44">abilityDamage</a></td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_player_stats.xhtml#a70b5ffe7d79456b531218bcfc0e40f1c">abilityPower</a></td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_player_stats.xhtml#a82d350f613f09f44f221cdac433ee74d">anim</a></td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_player_stats.xhtml#a8373a803f4c48c3fbfa06474b7f5fb06">ApplyStatistic</a>(Statistic statistic, int amount, bool revert)</td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_player_stats.xhtml#a3ab0bfed7b2d08ac8ff3f61baafd96e2">attackDamage</a></td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_player_stats.xhtml#adccff6c078f973d3f1b502037e81f33b">attackRange</a></td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_player_stats.xhtml#ab627fd14db469942fd167a478c4b9532">attackSpeed</a></td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_player_stats.xhtml#af942d9a5150c2d4c47800335ec062ee1">BlockAbilityFor</a>(float seconds, int index)</td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_player_stats.xhtml#a4df625156bb2ae99262e81b28346ccb4">BlockAbilityForSeconds</a>(float seconds, int index)</td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_player_stats.xhtml#acbd6bd09e969f6a7ed285ae62a51d2d7">coroutine</a></td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
@@ -114,15 +118,16 @@ $(document).ready(function(){initNavTree('class_player_stats.xhtml',''); initRes
   <tr><td class="entry"><a class="el" href="class_player_stats.xhtml#a116861de7bf437de31f9815105c338a1">playerController</a></td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_player_stats.xhtml#aac8ad79b07db35d0a9873217c992d787">SpendMana</a>(int amount)</td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_player_stats.xhtml#adb29a13d34d6e2880a34d67340b8b74a">SpendManaRPC</a>(int amount)</td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_stats.xhtml#a1b9e3df188c9f4a679aa20f3922bcb2a">team</a></td><td class="entry"><a class="el" href="class_stats.xhtml">Stats</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_player_stats.xhtml#a6ff9ff5103109911bfeab9a759883092">uiControl</a></td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_stats.xhtml#aef879deb07564f768be5355c15cfa558">view</a></td><td class="entry"><a class="el" href="class_stats.xhtml">Stats</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_stats.xhtml#ad3a09460d2ce9e8b4666a4cf33e4dd73">statistic</a></td><td class="entry"><a class="el" href="class_stats.xhtml">Stats</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_stats.xhtml#a1b9e3df188c9f4a679aa20f3922bcb2a">team</a></td><td class="entry"><a class="el" href="class_stats.xhtml">Stats</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_player_stats.xhtml#a6ff9ff5103109911bfeab9a759883092">uiControl</a></td><td class="entry"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_stats.xhtml#aef879deb07564f768be5355c15cfa558">view</a></td><td class="entry"><a class="el" href="class_stats.xhtml">Stats</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generat a Dg Jun 27 2021 14:43:42 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generat a Dj Jul 1 2021 09:14:13 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

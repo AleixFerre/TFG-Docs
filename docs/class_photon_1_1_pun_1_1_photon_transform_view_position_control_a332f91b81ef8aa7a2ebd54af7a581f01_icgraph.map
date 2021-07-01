@@ -1,5 +1,0 @@
-<map id="Photon.Pun.PhotonTransformViewPositionControl.SerializeData" name="Photon.Pun.PhotonTransformViewPositionControl.SerializeData">
-<area shape="rect" id="node1" title=" " alt="" coords="613,5,832,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_transform_view_position_control.xhtml#a2cdc231368e9d46379e9b6658ef03557" title=" " alt="" coords="287,5,565,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_transform_view_classic.xhtml#ad5e79fe9deea5e71a8608e366896bfad" title="Called by PUN several times per second, so that your script can write and read synchronization data f..." alt="" coords="5,5,239,47"/>
-</map>

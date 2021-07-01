@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.Player.Equals" name="Photon.Realtime.Player.Equals">
-<area shape="rect" id="node1" title="If players are equal (by GetHasCode, which returns this.ID)." alt="" coords="5,13,208,39"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_player.xhtml#a0914a0d737a4f64aa310eaa94e8f5a6e" title="Accompanies Equals, using the ID (actorNumber) as HashCode to return." alt="" coords="256,5,440,47"/>
-</map>

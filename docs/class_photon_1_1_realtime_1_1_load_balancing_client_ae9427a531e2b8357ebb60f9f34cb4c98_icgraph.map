@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingClient.OnDisconnectMessageReceived" name="Photon.Realtime.LoadBalancingClient.OnDisconnectMessageReceived">
-<area shape="rect" id="node1" title=" " alt="" coords="260,5,507,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_load_balancing_client.xhtml#aea7d054f4dbe156e066244906a9feaa6" title="Creates a LoadBalancingClient with UDP protocol or the one specified." alt="" coords="5,5,212,47"/>
-</map>

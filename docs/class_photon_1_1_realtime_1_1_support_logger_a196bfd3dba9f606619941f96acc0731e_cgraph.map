@@ -1,5 +1,0 @@
-<map id="Photon.Realtime.SupportLogger.OnCustomAuthenticationResponse" name="Photon.Realtime.SupportLogger.OnCustomAuthenticationResponse">
-<area shape="rect" id="node1" title="Called when your Custom Authentication service responds with additional data." alt="" coords="5,39,231,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_support_logger.xhtml#aa9fd97374270d9c14b0fd96d56d56fc0" title=" " alt="" coords="279,5,489,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_support_logger_1_1_debug.xhtml#a4aca16e5f5b089d5db20b5ad4474cce0" title=" " alt="" coords="279,71,489,112"/>
-</map>

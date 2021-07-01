@@ -1,8 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.CountdownTimer.OnEnable" name="Photon.Pun.UtilityScripts.CountdownTimer.OnEnable">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,184,145"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml#ad78abfcbe67a0c90086f131c2dff2060" title=" " alt="" coords="232,104,404,145"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml#ae32728e62e47922835aedd6031974183" title=" " alt="" coords="460,5,661,47"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml#a3bb640f93a29e42c3ac5b92cccd1491a" title=" " alt="" coords="460,71,661,112"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml#a5299606ca6b3019a5aeff8ad338303d1" title=" " alt="" coords="455,136,666,177"/>
-<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_countdown_timer.xhtml#a07448f5cc909eb45bf1fe81d037f1860" title=" " alt="" coords="452,201,669,243"/>
-</map>

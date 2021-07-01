@@ -1,6 +1,0 @@
-<map id="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnRoomListUpdate" name="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnRoomListUpdate">
-<area shape="rect" id="node1" title="Called for any update of the room&#45;listing while in a lobby (InLobby) on the Master Server." alt="" coords="5,71,240,112"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a56622ef157b0666202eaa151c98c4083" title=" " alt="" coords="302,5,537,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a52a0b44b1f741bf34779bcae36224622" title=" " alt="" coords="288,71,551,112"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#ad908602dfcb823849ef13ef93bf783e9" title=" " alt="" coords="296,136,543,177"/>
-</map>

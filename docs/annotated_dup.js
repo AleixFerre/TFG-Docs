@@ -11,7 +11,6 @@ var annotated_dup =
     [ "AbilityBase", "class_ability_base.xhtml", "class_ability_base" ],
     [ "AbilityCooldown", "class_ability_cooldown.xhtml", "class_ability_cooldown" ],
     [ "AbilityIndicator", "class_ability_indicator.xhtml", "class_ability_indicator" ],
-    [ "ADUpgradeEffect", "class_a_d_upgrade_effect.xhtml", "class_a_d_upgrade_effect" ],
     [ "ArrowAnimation", "class_arrow_animation.xhtml", "class_arrow_animation" ],
     [ "BackgroundScaling", "class_background_scaling.xhtml", "class_background_scaling" ],
     [ "BasicAttack", "class_basic_attack.xhtml", "class_basic_attack" ],
@@ -56,5 +55,6 @@ var annotated_dup =
     [ "Singleton", "class_singleton.xhtml", "class_singleton" ],
     [ "Stats", "class_stats.xhtml", "class_stats" ],
     [ "TimedEffect", "class_timed_effect.xhtml", "class_timed_effect" ],
-    [ "UIController", "class_u_i_controller.xhtml", "class_u_i_controller" ]
+    [ "UIController", "class_u_i_controller.xhtml", "class_u_i_controller" ],
+    [ "UpgradeEffect", "class_upgrade_effect.xhtml", "class_upgrade_effect" ]
 ];

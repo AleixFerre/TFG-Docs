@@ -13,5 +13,5 @@
 <area shape="rect" id="node14" href="$class_timed_effect.xhtml" title="TimedEffect és un encapsulador per tots els Effect que NO s&#39;executen de forma instantània." alt="" coords="320,309,411,336"/>
 <area shape="rect" id="node12" href="$class_heal_effect.xhtml" title=" " alt="" coords="513,208,594,235"/>
 <area shape="rect" id="node13" href="$class_heal_relative_effect.xhtml" title=" " alt="" coords="490,259,617,285"/>
-<area shape="rect" id="node15" href="$class_a_d_upgrade_effect.xhtml" title=" " alt="" coords="493,309,614,336"/>
+<area shape="rect" id="node15" href="$class_upgrade_effect.xhtml" title=" " alt="" coords="502,309,605,336"/>
 </map>

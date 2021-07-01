@@ -1,5 +1,0 @@
-<map id="Photon.Realtime.Room.SetMasterClient" name="Photon.Realtime.Room.SetMasterClient">
-<area shape="rect" id="node1" title="Asks the server to assign another player as Master Client of your current room." alt="" coords="483,13,663,54"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a79ead2d883073a16d4ae87d973499960" title="Asks the server to assign another player as Master Client of your current room." alt="" coords="248,13,435,54"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_details_controller.xhtml#aa0a852df9dadccac0b6c2891cd839a39" title=" " alt="" coords="5,5,200,61"/>
-</map>

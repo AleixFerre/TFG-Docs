@@ -1,4 +1,0 @@
-<map id="Photon.Pun.Demo.Procedural.Cluster.OnRoomPropertiesUpdate" name="Photon.Pun.Demo.Procedural.Cluster.OnRoomPropertiesUpdate">
-<area shape="rect" id="node1" title="Gets called whenever the Custom Room Properties are updated." alt="" coords="5,5,224,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_procedural_1_1_cluster.xhtml#a8479a55313448580061516fb51d5bccc" title="Gets called when a remote client has modified a certain Block within this Cluster." alt="" coords="272,5,475,47"/>
-</map>

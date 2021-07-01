@@ -1,4 +1,0 @@
-<map id="Photon.Pun.PhotonNetwork.SetPlayerCustomProperties" name="Photon.Pun.PhotonNetwork.SetPlayerCustomProperties">
-<area shape="rect" id="node1" title="Sets this (local) player&#39;s properties and synchronizes them to the other players (don&#39;t modify them d..." alt="" coords="5,5,192,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_player.xhtml#a73de822cb4ab788e9dce94795566a656" title="Updates and synchronizes this Player&#39;s Custom Properties." alt="" coords="240,5,423,47"/>
-</map>

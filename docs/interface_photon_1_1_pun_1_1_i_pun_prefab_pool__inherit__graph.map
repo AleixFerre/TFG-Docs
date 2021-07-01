@@ -1,4 +1,0 @@
-<map id="Photon.Pun.IPunPrefabPool" name="Photon.Pun.IPunPrefabPool">
-<area shape="rect" id="node1" title="Defines an interface for object pooling, used in PhotonNetwork.Instantiate and PhotonNetwork...." alt="" coords="5,5,188,32"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_default_pool.xhtml" title="The default implementation of a PrefabPool for PUN, which actually Instantiates and Destroys GameObje..." alt="" coords="17,80,177,107"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="Photon.Pun.Demo.PunBasics.Launcher.OnConnectedToMaster" name="Photon.Pun.Demo.PunBasics.Launcher.OnConnectedToMaster">
-<area shape="rect" id="node1" title="Called after the connection to the master is established and authenticated" alt="" coords="5,39,217,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#aff48055ef5c0ffb25fad9c8a8e04f50f" title="Joins a random room that matches the filter." alt="" coords="271,5,458,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_pun_basics_1_1_launcher.xhtml#a0e5ec271a4e9f2e820fe7e8a803bfff4" title="Logs the feedback in the UI view for the player, as opposed to inside the Unity Editor for the develo..." alt="" coords="265,71,464,112"/>
-</map>

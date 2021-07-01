@@ -6,6 +6,7 @@ var dir_a3707b6e14a70c47334d1470d38037c9 =
     [ "Singleton.cs", "_singleton_8cs.xhtml", [
       [ "Singleton", "class_singleton.xhtml", "class_singleton" ]
     ] ],
+    [ "Statistic.cs", "_statistic_8cs.xhtml", "_statistic_8cs" ],
     [ "Stats.cs", "_stats_8cs.xhtml", [
       [ "Stats", "class_stats.xhtml", "class_stats" ]
     ] ],

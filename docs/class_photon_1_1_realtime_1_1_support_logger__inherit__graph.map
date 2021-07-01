@@ -1,7 +1,0 @@
-<map id="Photon.Realtime.SupportLogger" name="Photon.Realtime.SupportLogger">
-<area shape="rect" id="node1" title="Helper class to debug log basic information about Photon client and vital traffic statistics." alt="" coords="221,80,427,107"/>
-<area shape="rect" id="node2" href="$interface_photon_1_1_realtime_1_1_i_connection_callbacks.xhtml" title="Collection of &quot;organizational&quot; callbacks for the Realtime Api to cover: Connection and Regions." alt="" coords="5,5,152,32"/>
-<area shape="rect" id="node3" href="$interface_photon_1_1_realtime_1_1_i_in_room_callbacks.xhtml" title="Collection of &quot;in room&quot; callbacks for the Realtime Api to cover: Players entering or leaving,..." alt="" coords="177,5,303,32"/>
-<area shape="rect" id="node4" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml" title="Collection of &quot;organizational&quot; callbacks for the Realtime Api to cover Matchmaking." alt="" coords="328,5,488,32"/>
-<area shape="rect" id="node5" href="$interface_photon_1_1_realtime_1_1_i_lobby_callbacks.xhtml" title="Collection of &quot;organizational&quot; callbacks for the Realtime Api to cover the Lobby." alt="" coords="512,5,629,32"/>
-</map>

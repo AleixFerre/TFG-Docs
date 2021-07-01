@@ -1,5 +1,0 @@
-<map id="Photon.Pun.PhotonAnimatorView.DeserializeDataDiscretly" name="Photon.Pun.PhotonAnimatorView.DeserializeDataDiscretly">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,201,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#a7e69f29f517f8ed3148d8dccef982ea6" title="Read next piece of data from the stream without advancing the &quot;current&quot; item." alt="" coords="249,5,431,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#a50038b09fdec1b4d1072c9f8b5a231dc" title="Read next piece of data from the stream when IsReading is true." alt="" coords="249,71,431,112"/>
-</map>

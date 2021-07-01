@@ -1,8 +1,0 @@
-<map id="Photon.Pun.PhotonNetwork.RemoveCallbackTarget" name="Photon.Pun.PhotonNetwork.RemoveCallbackTarget">
-<area shape="rect" id="node1" title="Removes the target object from callbacks for its implemented callback&#45;interfaces." alt="" coords="324,136,511,177"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_handler.xhtml#af42508b4b926c2de0ebe35cdc14a12fb" title=" " alt="" coords="49,5,232,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_mono_behaviour_pun_callbacks.xhtml#a289eb37839d81395d4f69bdfb7e36b70" title=" " alt="" coords="49,71,232,112"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_web_rpc_implementation_example.xhtml#a3ff18241eed5fcc668b73143b0d9b0eb" title=" " alt="" coords="5,136,276,177"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_photon_teams_manager.xhtml#a311774c5d2c168e3cc60c746652a7f03" title=" " alt="" coords="33,201,249,243"/>
-<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_on_joined_instantiate.xhtml#a6fe229065c24ad5c6861fe56d5ee4a5e" title=" " alt="" coords="41,267,241,308"/>
-</map>

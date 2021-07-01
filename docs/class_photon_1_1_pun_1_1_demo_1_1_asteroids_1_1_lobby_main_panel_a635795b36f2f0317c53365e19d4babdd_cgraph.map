@@ -1,4 +1,0 @@
-<map id="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnCreateRoomFailed" name="Photon.Pun.Demo.Asteroids.LobbyMainPanel.OnCreateRoomFailed">
-<area shape="rect" id="node1" title="Called when the server couldn&#39;t create a room (OpCreateRoom failed)." alt="" coords="5,5,252,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#ae0f058a2d1732456fd5c65f2ad8a99dc" title=" " alt="" coords="300,5,511,47"/>
-</map>

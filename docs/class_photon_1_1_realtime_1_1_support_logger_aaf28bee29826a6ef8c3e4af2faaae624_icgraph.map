@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.SupportLogger.LogStats" name="Photon.Realtime.SupportLogger.LogStats">
-<area shape="rect" id="node1" title="Debug logs vital traffic statistics about the attached Photon Client." alt="" coords="264,5,475,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_support_logger.xhtml#a551d8697ebc19a65b3b605e60425f65a" title="Called after disconnecting from the Photon server." alt="" coords="5,5,216,47"/>
-</map>

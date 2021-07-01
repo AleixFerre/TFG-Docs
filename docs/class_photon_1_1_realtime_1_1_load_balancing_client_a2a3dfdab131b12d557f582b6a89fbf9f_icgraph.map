@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.LoadBalancingClient.OpJoinOrCreateRoom" name="Photon.Realtime.LoadBalancingClient.OpJoinOrCreateRoom">
-<area shape="rect" id="node1" title="Joins a specific room by name and creates it on demand." alt="" coords="240,5,447,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#a1a8502c779302e9b39db304e4f533feb" title="Joins a specific room by name and creates it on demand." alt="" coords="5,5,192,47"/>
-</map>

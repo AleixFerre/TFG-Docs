@@ -1,9 +1,0 @@
-<map id="Tayx.Graphy.GraphyDebugger.Update" name="Tayx.Graphy.GraphyDebugger.Update">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,207,112"/>
-<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_graphy_debugger.xhtml#ac8fcf29d989dae663b9ad7256b8d6096" title="Checks all the Debug Packets to see if they have to be executed." alt="" coords="255,71,456,112"/>
-<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_graphy_debugger.xhtml#aeab01bc7a2a6c73d5752f6e2692b84ee" title="Returns true if a condition is met." alt="" coords="514,5,715,47"/>
-<area shape="rect" id="node5" href="$class_tayx_1_1_graphy_1_1_graphy_debugger.xhtml#a182e41b273186d37407f10a8ce9bf380" title="Executes the operations in the DebugPacket specified." alt="" coords="504,71,725,112"/>
-<area shape="rect" id="node7" href="$class_tayx_1_1_graphy_1_1_graphy_debugger_1_1_debug_packet.xhtml#a01885d992550969a4a546d70723ab3e3" title=" " alt="" coords="514,136,715,177"/>
-<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_graphy_debugger.xhtml#ad4eeb77e665a31ab7640e57ae004ba4f" title="Obtains the requested value from the specified variable." alt="" coords="773,5,1025,47"/>
-<area shape="rect" id="node6" href="$class_tayx_1_1_graphy_1_1_graphy_debugger_1_1_debug_packet.xhtml#a8419b4077144b42af41f88b22dfc7760" title=" " alt="" coords="799,71,1000,112"/>
-</map>

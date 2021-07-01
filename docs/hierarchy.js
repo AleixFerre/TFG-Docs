@@ -74,7 +74,7 @@ var hierarchy =
           [ "HealRelativeEffect", "class_heal_relative_effect.xhtml", null ]
         ] ],
         [ "TimedEffect", "class_timed_effect.xhtml", [
-          [ "ADUpgradeEffect", "class_a_d_upgrade_effect.xhtml", null ]
+          [ "UpgradeEffect", "class_upgrade_effect.xhtml", null ]
         ] ]
       ] ]
     ] ],

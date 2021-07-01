@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.SupportLogger.StartTrackValues" name="Photon.Realtime.SupportLogger.StartTrackValues">
-<area shape="rect" id="node1" title=" " alt="" coords="264,5,475,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_support_logger.xhtml#a673804e39d4122a0cb852d145918e0e9" title="Called to signal that the &quot;low level connection&quot; got established but before the client can call opera..." alt="" coords="5,5,216,47"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="Photon.Pun.Demo.Asteroids.LobbyMainPanel.UpdateRoomListView" name="Photon.Pun.Demo.Asteroids.LobbyMainPanel.UpdateRoomListView">
-<area shape="rect" id="node1" title=" " alt="" coords="288,5,535,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#aeb47fc169bcd9096b776cf09d8c7c313" title="Called for any update of the room&#45;listing while in a lobby (InLobby) on the Master Server." alt="" coords="5,5,240,47"/>
-</map>

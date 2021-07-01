@@ -100,7 +100,8 @@ $(document).ready(function(){initNavTree('class_player_controller.xhtml',''); in
 <div class="dynheader">
 Diagrama d'Herència per a PlayerController:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller__inherit__graph.svg" width="126" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller__inherit__graph.svg" width="126" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.xhtml">llegenda</a>]</span></center></div>
 <div class="dynheader">
 Diagrama de col·laboració per a PlayerController:</div>
@@ -188,17 +189,17 @@ Atributs Privats</h2></td></tr>
 <tr class="separator:a1e9ae670774405c75a2ba59ba47c1b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a998214b50850c0eee0c749b7b94bd9f8"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.xhtml#a998214b50850c0eee0c749b7b94bd9f8">goToPosition</a></td></tr>
 <tr class="separator:a998214b50850c0eee0c749b7b94bd9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95e3cecfe6b89bf57a29a1df53d58f4e"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.xhtml#a95e3cecfe6b89bf57a29a1df53d58f4e">NULLPOS</a> = Vector3.one * -1</td></tr>
-<tr class="separator:a95e3cecfe6b89bf57a29a1df53d58f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3281a8bfb44fcbe5191aaa2b2d736a4d"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.xhtml#a3281a8bfb44fcbe5191aaa2b2d736a4d">initAutoMovePos</a></td></tr>
 <tr class="separator:a3281a8bfb44fcbe5191aaa2b2d736a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e7678b9f3a9cd56474a5649e4b39591"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.xhtml#a4e7678b9f3a9cd56474a5649e4b39591">autoMovePercent</a> = 0</td></tr>
 <tr class="separator:a4e7678b9f3a9cd56474a5649e4b39591"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d7d8b317686d53eb0c98d91cd1dee1f"><td class="memItemLeft" align="right" valign="top">readonly Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.xhtml#a7d7d8b317686d53eb0c98d91cd1dee1f">NULL_POS</a> = Vector3.one * -1</td></tr>
+<tr class="separator:a7d7d8b317686d53eb0c98d91cd1dee1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Atributs Privats Estàtics</h2></td></tr>
-<tr class="memitem:a28e5c62dc8fc65f982a8d4f8f091bc78"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.xhtml#a28e5c62dc8fc65f982a8d4f8f091bc78">lerpT</a> = 10f</td></tr>
-<tr class="separator:a28e5c62dc8fc65f982a8d4f8f091bc78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d788bff9987de6517490e562cc130ff"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.xhtml#a5d788bff9987de6517490e562cc130ff">LERP_T</a> = 10f</td></tr>
+<tr class="separator:a5d788bff9987de6517490e562cc130ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
 <div class="textblock"><p>Player Controller is the main class that handles all the movement of the Player. </p>
@@ -232,7 +233,8 @@ Atributs Privats Estàtics</h2></td></tr>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_a53e932ee02c4c2cc18c7219d40e93cad_icgraph.svg" width="435" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_a53e932ee02c4c2cc18c7219d40e93cad_icgraph.svg" width="435" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -268,12 +270,14 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_controller_a75e94e4fd555e57e55ab4b7e54024dcf_cgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_controller_a75e94e4fd555e57e55ab4b7e54024dcf_cgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_a75e94e4fd555e57e55ab4b7e54024dcf_icgraph.svg" width="551" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_a75e94e4fd555e57e55ab4b7e54024dcf_icgraph.svg" width="551" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -306,7 +310,8 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_a567a5267fea43c150b1711d76377ed43_icgraph.svg" width="380" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_a567a5267fea43c150b1711d76377ed43_icgraph.svg" width="380" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -366,7 +371,8 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_aea62bf4b6e3dc57f3545a64d5d21cd4a_icgraph.svg" width="574" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_aea62bf4b6e3dc57f3545a64d5d21cd4a_icgraph.svg" width="574" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -391,7 +397,8 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_controller_a36323c07b7cd9e0ccab9c8016611827c_icgraph.svg" width="100%" height="512"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_controller_a36323c07b7cd9e0ccab9c8016611827c_icgraph.svg" width="100%" height="512"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -436,7 +443,8 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_a6be7bc2319b024c6bf66f1b1c96f7ba5_icgraph.svg" width="562" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_a6be7bc2319b024c6bf66f1b1c96f7ba5_icgraph.svg" width="562" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -468,7 +476,8 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_a3c79ef842d2c37a7516b8c033413e7b0_icgraph.svg" width="428" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_a3c79ef842d2c37a7516b8c033413e7b0_icgraph.svg" width="428" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -523,7 +532,8 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_ae8bc83dffb99867a04be016473ed2c43_cgraph.svg" width="435" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_controller_ae8bc83dffb99867a04be016473ed2c43_cgraph.svg" width="435" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -777,8 +787,8 @@ Gràfic de crides d'aquesta funció:</div>
 
 </div>
 </div>
-<a id="a28e5c62dc8fc65f982a8d4f8f091bc78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28e5c62dc8fc65f982a8d4f8f091bc78">&#9670;&nbsp;</a></span>lerpT</h2>
+<a id="a5d788bff9987de6517490e562cc130ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d788bff9987de6517490e562cc130ff">&#9670;&nbsp;</a></span>LERP_T</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -787,7 +797,7 @@ Gràfic de crides d'aquesta funció:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const float PlayerController.lerpT = 10f</td>
+          <td class="memname">const float PlayerController.LERP_T = 10f</td>
         </tr>
       </table>
   </td>
@@ -857,8 +867,8 @@ Gràfic de crides d'aquesta funció:</div>
 
 </div>
 </div>
-<a id="a95e3cecfe6b89bf57a29a1df53d58f4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95e3cecfe6b89bf57a29a1df53d58f4e">&#9670;&nbsp;</a></span>NULLPOS</h2>
+<a id="a7d7d8b317686d53eb0c98d91cd1dee1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d7d8b317686d53eb0c98d91cd1dee1f">&#9670;&nbsp;</a></span>NULL_POS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -867,7 +877,7 @@ Gràfic de crides d'aquesta funció:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Vector3 PlayerController.NULLPOS = Vector3.one * -1</td>
+          <td class="memname">readonly Vector3 PlayerController.NULL_POS = Vector3.one * -1</td>
         </tr>
       </table>
   </td>
@@ -980,7 +990,7 @@ Gràfic de crides d'aquesta funció:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_player_controller.xhtml">PlayerController</a></li>
-    <li class="footer">Generat a Dg Jun 27 2021 14:43:42 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generat a Dj Jul 1 2021 09:14:13 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

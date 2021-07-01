@@ -1,4 +1,0 @@
-<map id="Photon.Realtime.MatchMakingCallbacksContainer.OnLeftRoom" name="Photon.Realtime.MatchMakingCallbacksContainer.OnLeftRoom">
-<area shape="rect" id="node1" title="Called when the local user/client left a room, so the game&#39;s logic can clean up it&#39;s internal state." alt="" coords="5,5,216,47"/>
-<area shape="rect" id="node2" href="$interface_photon_1_1_realtime_1_1_i_matchmaking_callbacks.xhtml#acedd813313ad6724f3935801481d8e8f" title="Called when the local user/client left a room, so the game&#39;s logic can clean up it&#39;s internal state." alt="" coords="264,5,467,47"/>
-</map>

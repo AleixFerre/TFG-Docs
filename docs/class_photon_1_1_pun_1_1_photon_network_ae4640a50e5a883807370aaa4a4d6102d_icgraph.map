@@ -1,6 +1,0 @@
-<map id="Photon.Pun.PhotonNetwork.JoinRoom" name="Photon.Pun.PhotonNetwork.JoinRoom">
-<area shape="rect" id="node1" title="Joins a room by name." alt="" coords="244,57,431,98"/>
-<area shape="rect" id="node2" href="$class_main_menu.xhtml#a677f2954b9aea6a374b84799a683537f" title=" " alt="" coords="29,5,172,32"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#ae9bd6f6fe9ea586ea81e0d8e6deaa126" title=" " alt="" coords="11,57,191,98"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_room_list_entry.xhtml#a5c5fad3c1d62ed0ff0e293c5cfe28e0d" title=" " alt="" coords="5,122,196,163"/>
-</map>

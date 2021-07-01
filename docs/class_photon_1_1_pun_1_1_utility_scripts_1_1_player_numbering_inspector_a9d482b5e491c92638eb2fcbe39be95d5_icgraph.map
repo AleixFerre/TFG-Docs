@@ -1,6 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.PlayerNumberingInspector.RefreshData" name="Photon.Pun.UtilityScripts.PlayerNumberingInspector.RefreshData">
-<area shape="rect" id="node1" title="force repaint fo the inspector, else we would not see the new data in the inspector." alt="" coords="324,71,573,112"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering_inspector.xhtml#a131c8b71a5cef231bbb8aa11df5d8308" title=" " alt="" coords="21,5,260,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering_inspector.xhtml#ae6e1ed9d1223698efabf1ff97b0f16b1" title=" " alt="" coords="23,71,258,112"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_player_numbering_inspector.xhtml#a8e650f5122f44fa3665d48e4046a823f" title=" " alt="" coords="5,136,276,177"/>
-</map>

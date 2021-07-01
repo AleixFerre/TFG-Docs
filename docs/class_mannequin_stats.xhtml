@@ -94,7 +94,8 @@ $(document).ready(function(){initNavTree('class_mannequin_stats.xhtml',''); init
 <div class="dynheader">
 Diagrama d'Herència per a MannequinStats:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_mannequin_stats__inherit__graph.svg" width="147" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_mannequin_stats__inherit__graph.svg" width="147" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.xhtml">llegenda</a>]</span></center></div>
 <div class="dynheader">
 Diagrama de col·laboració per a MannequinStats:</div>
@@ -119,6 +120,8 @@ Mètodes públics</h2></td></tr>
 <tr class="separator:aac8ad79b07db35d0a9873217c992d787 inherit pub_methods_class_player_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33b723f51a189f34d473f1e98ac57aa0 inherit pub_methods_class_player_stats"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#a33b723f51a189f34d473f1e98ac57aa0">Dash</a> (float distance, float time, Vector3 lookAt)</td></tr>
 <tr class="separator:a33b723f51a189f34d473f1e98ac57aa0 inherit pub_methods_class_player_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8373a803f4c48c3fbfa06474b7f5fb06 inherit pub_methods_class_player_stats"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#a8373a803f4c48c3fbfa06474b7f5fb06">ApplyStatistic</a> (<a class="el" href="_statistic_8cs.xhtml#a0431437d0436f6eeedbf36cb3c80dbd4">Statistic</a> <a class="el" href="class_stats.xhtml#ad3a09460d2ce9e8b4666a4cf33e4dd73">statistic</a>, int amount, bool revert)</td></tr>
+<tr class="separator:a8373a803f4c48c3fbfa06474b7f5fb06 inherit pub_methods_class_player_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af942d9a5150c2d4c47800335ec062ee1 inherit pub_methods_class_player_stats"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#af942d9a5150c2d4c47800335ec062ee1">BlockAbilityFor</a> (float seconds, int index)</td></tr>
 <tr class="separator:af942d9a5150c2d4c47800335ec062ee1 inherit pub_methods_class_player_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -151,11 +154,17 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ab8848e2454233b252ffd2594ddfb12b3 inherit pub_attribs_class_player_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae099712c00670682d91194fff33086bd inherit pub_attribs_class_player_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#ae099712c00670682d91194fff33086bd">maxMP</a></td></tr>
 <tr class="separator:ae099712c00670682d91194fff33086bd inherit pub_attribs_class_player_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad256e34cdabd4f6913c15962602fce44 inherit pub_attribs_class_player_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#ad256e34cdabd4f6913c15962602fce44">abilityDamage</a></td></tr>
-<tr class="separator:ad256e34cdabd4f6913c15962602fce44 inherit pub_attribs_class_player_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70b5ffe7d79456b531218bcfc0e40f1c inherit pub_attribs_class_player_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#a70b5ffe7d79456b531218bcfc0e40f1c">abilityPower</a></td></tr>
+<tr class="separator:a70b5ffe7d79456b531218bcfc0e40f1c inherit pub_attribs_class_player_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d2fcf1cf1e7a18760658fb673fb97b3 inherit pub_attribs_class_player_stats"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#a4d2fcf1cf1e7a18760658fb673fb97b3">movementSpeed</a></td></tr>
 <tr class="separator:a4d2fcf1cf1e7a18760658fb673fb97b3 inherit pub_attribs_class_player_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab0bfed7b2d08ac8ff3f61baafd96e2 inherit pub_attribs_class_player_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#a3ab0bfed7b2d08ac8ff3f61baafd96e2">attackDamage</a></td></tr>
+<tr class="separator:a3ab0bfed7b2d08ac8ff3f61baafd96e2 inherit pub_attribs_class_player_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adccff6c078f973d3f1b502037e81f33b inherit pub_attribs_class_player_stats"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#adccff6c078f973d3f1b502037e81f33b">attackRange</a></td></tr>
+<tr class="separator:adccff6c078f973d3f1b502037e81f33b inherit pub_attribs_class_player_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_stats"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_stats')"><img src="closed.png" alt="-"/>&#160;Atributs Públics inherited from <a class="el" href="class_stats.xhtml">Stats</a></td></tr>
+<tr class="memitem:ad3a09460d2ce9e8b4666a4cf33e4dd73 inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_statistic_8cs.xhtml#a0431437d0436f6eeedbf36cb3c80dbd4">Statistic</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.xhtml#ad3a09460d2ce9e8b4666a4cf33e4dd73">statistic</a></td></tr>
+<tr class="separator:ad3a09460d2ce9e8b4666a4cf33e4dd73 inherit pub_attribs_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab661897854a3917b933c5176a4a3bcc5 inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.xhtml#ab661897854a3917b933c5176a4a3bcc5">HP</a></td></tr>
 <tr class="separator:ab661897854a3917b933c5176a4a3bcc5 inherit pub_attribs_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b9e3df188c9f4a679aa20f3922bcb2a inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_team_8cs.xhtml#a9c13bb5b1d69698f9b47900990eaa598">Team</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.xhtml#a1b9e3df188c9f4a679aa20f3922bcb2a">team</a></td></tr>
@@ -201,7 +210,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_mannequin_stats_a8bd8eed182eccafe2a9f3a2764e82dc3_cgraph.svg" width="318" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_mannequin_stats_a8bd8eed182eccafe2a9f3a2764e82dc3_cgraph.svg" width="318" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -246,12 +256,14 @@ Gràfic de crides d'aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_mannequin_stats_a37606eeeec31415945d8e152af0f7e15_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_mannequin_stats_a37606eeeec31415945d8e152af0f7e15_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_mannequin_stats_a37606eeeec31415945d8e152af0f7e15_icgraph.svg" width="343" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_mannequin_stats_a37606eeeec31415945d8e152af0f7e15_icgraph.svg" width="343" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -265,7 +277,7 @@ Gràfic de crides a aquesta funció:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_mannequin_stats.xhtml">MannequinStats</a></li>
-    <li class="footer">Generat a Dg Jun 27 2021 14:43:40 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generat a Dj Jul 1 2021 09:14:12 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -127,7 +127,7 @@ var sectionId = 'dynsection-4';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_basic_attack.xhtml#ab963315952d22c15b5fe7d39eae30ba5" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="class_basic_attack.xhtml#ac85eb061d597f5879d31fb8e7a0316d5" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="461,-114.5 461,-133.5 569,-133.5 569,-114.5 461,-114.5"/>
 <text text-anchor="middle" x="515" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.Initialize</text>
 </a>

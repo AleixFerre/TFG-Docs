@@ -1,5 +1,0 @@
-<map id="Photon.Realtime.RegionPinger.Start" name="Photon.Realtime.RegionPinger.Start">
-<area shape="rect" id="node1" title="Starts the ping routine for the assigned region." alt="" coords="5,39,208,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_region_pinger.xhtml#ab9fbb3965c6b45422afdba264cc91ff9" title="Selects the best fitting ping implementation or uses the one set in RegionHandler...." alt="" coords="256,5,459,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_realtime_1_1_region_pinger.xhtml#a6c5cbc3b74e3415708c89a788c930cf0" title="Attempts to resolve a hostname into an IP string or returns empty string if that fails." alt="" coords="256,71,459,112"/>
-</map>

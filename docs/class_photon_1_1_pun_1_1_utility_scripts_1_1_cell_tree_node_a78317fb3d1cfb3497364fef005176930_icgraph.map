@@ -1,7 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.CellTreeNode.AddChild" name="Photon.Pun.UtilityScripts.CellTreeNode.AddChild">
-<area shape="rect" id="node1" title="Adds the given child to the node." alt="" coords="684,39,856,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#a0da90078e604b267e09a8bc28e47aa2a" title="Creates all child cells." alt="" coords="464,39,636,80"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#a9453956f1208691e82f190e98a76e153" title="Creates the cell hierarchy." alt="" coords="225,39,416,80"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#a86d01595b69b319548a4d52df49ff6e1" title="Creates the cell hierarchy at runtime." alt="" coords="5,5,177,47"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_cull_area.xhtml#ae6cf4cd517e6710fd0d6c8278f8584eb" title="Creates the cell hierarchy in editor and draws the cell view." alt="" coords="5,71,177,112"/>
-</map>

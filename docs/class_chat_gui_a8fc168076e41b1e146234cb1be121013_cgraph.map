@@ -1,4 +1,0 @@
-<map id="ChatGui.OnDestroy" name="ChatGui.OnDestroy">
-<area shape="rect" id="node1" title="To avoid that the Editor becomes unresponsive, disconnect all Photon connections in OnDestroy." alt="" coords="5,5,140,32"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_chat_1_1_chat_client.xhtml#a9eac49b1efa140099bd95f95df3cc8c2" title="Disconnects from the Chat Server by sending a &quot;disconnect command&quot;, which prevents a timeout server&#45;s..." alt="" coords="188,5,415,32"/>
-</map>

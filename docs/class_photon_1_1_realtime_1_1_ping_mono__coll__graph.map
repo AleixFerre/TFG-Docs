@@ -1,6 +1,0 @@
-<map id="Photon.Realtime.PingMono" name="Photon.Realtime.PingMono">
-<area shape="rect" id="node1" title="Uses C# Socket class from System.Net.Sockets (as Unity usually does)." alt="" coords="11,171,191,197"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_photon_ping.xhtml" title="Abstract implementation of PhotonPing, ase for pinging servers to find the &quot;Best Region&quot;." alt="" coords="56,95,145,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,5,95,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="119,5,186,32"/>
-</map>

@@ -1,7 +1,7 @@
 var class_character =
 [
     [ "abilities", "class_character.xhtml#a769ed01fce5a168a90ff7afe79388543", null ],
-    [ "abilityDamage", "class_character.xhtml#a4dcfedd2fad44ed27cc429bacc29e5ee", null ],
+    [ "abilityPower", "class_character.xhtml#a4467aa3252002d18534a1f5fc5c14e06", null ],
     [ "attackDamage", "class_character.xhtml#a28ea66eae7b703562116b1890c3eaee8", null ],
     [ "attackRange", "class_character.xhtml#ac97af5d3bc566393b6afdb80fc30071b", null ],
     [ "attackSpeed", "class_character.xhtml#a333bb479c37d4def86230708fc8eb1a8", null ],

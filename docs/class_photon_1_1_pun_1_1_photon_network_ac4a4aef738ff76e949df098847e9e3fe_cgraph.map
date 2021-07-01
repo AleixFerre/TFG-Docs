@@ -1,5 +1,0 @@
-<map id="Photon.Pun.PhotonNetwork.AllocateViewID" name="Photon.Pun.PhotonNetwork.AllocateViewID">
-<area shape="rect" id="node1" title="Allocates a viewID for the current/local player or the room." alt="" coords="5,5,192,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_network.xhtml#ac9f5c2c968dc23f337092fedff586132" title="Allocates a viewID for the current/local player." alt="" coords="240,5,427,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_view.xhtml#ae0793a8e08fd1b0954b4b391c6b6137b" title=" " alt="" coords="475,5,656,47"/>
-</map>

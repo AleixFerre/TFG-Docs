@@ -1,9 +1,0 @@
-<map id="Photon.Pun.Demo.Asteroids.LobbyMainPanel.CheckPlayersReady" name="Photon.Pun.Demo.Asteroids.LobbyMainPanel.CheckPlayersReady">
-<area shape="rect" id="node1" title=" " alt="" coords="319,185,559,226"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a962c43c0ab92ab8d52011a3a79fa0e32" title=" " alt="" coords="13,5,263,61"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a7868b90be5cff299b2c03476c896cdbb" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="33,86,243,127"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#ab5567b22d1b41fc35c6c821085102934" title="Called after switching to a new MasterClient when the current one leaves." alt="" coords="5,151,271,193"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#ab17d09a4e7c7cee8f2c18a83bff20a03" title="Called when a remote player entered the room." alt="" coords="11,217,265,258"/>
-<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#a451633702327b9226dc7fbf01b5e4e4c" title="Called when a remote player left the room or became inactive." alt="" coords="23,282,253,323"/>
-<area shape="rect" id="node7" href="$class_photon_1_1_pun_1_1_demo_1_1_asteroids_1_1_lobby_main_panel.xhtml#ae0a20628fce898b7ffb7af13c9a51189" title="Called when custom player&#45;properties are changed." alt="" coords="21,348,255,404"/>
-</map>

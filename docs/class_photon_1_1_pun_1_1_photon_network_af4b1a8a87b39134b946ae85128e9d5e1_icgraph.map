@@ -1,4 +1,0 @@
-<map id="Photon.Pun.PhotonNetwork.RejoinRoom" name="Photon.Pun.PhotonNetwork.RejoinRoom">
-<area shape="rect" id="node1" title="Rejoins a room by roomName (using the userID internally to return)." alt="" coords="256,5,443,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a4310525cd7bd0629f55c86abac93ab45" title="Called when a previous OpJoinRoom call failed on the server." alt="" coords="5,5,208,47"/>
-</map>

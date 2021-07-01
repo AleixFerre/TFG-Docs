@@ -1,4 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.PhotonTeamExtensions.SwitchTeam" name="Photon.Pun.UtilityScripts.PhotonTeamExtensions.SwitchTeam">
-<area shape="rect" id="node1" title="Switch that player&#39;s team to the one you assign." alt="" coords="5,5,240,47"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_realtime_1_1_player.xhtml#a73de822cb4ab788e9dce94795566a656" title="Updates and synchronizes this Player&#39;s Custom Properties." alt="" coords="288,5,471,47"/>
-</map>

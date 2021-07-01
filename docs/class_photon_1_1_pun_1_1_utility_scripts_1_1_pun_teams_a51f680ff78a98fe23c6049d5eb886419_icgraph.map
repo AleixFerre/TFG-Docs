@@ -1,5 +1,0 @@
-<map id="Photon.Pun.UtilityScripts.PunTeams.Start" name="Photon.Pun.UtilityScripts.PunTeams.Start">
-<area shape="rect" id="node1" title=" " alt="" coords="225,39,397,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_teams.xhtml#a8a283ea90723c97e26f8b5edc44b522d" title=" " alt="" coords="5,5,177,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_utility_scripts_1_1_pun_teams.xhtml#aef9233bbd297cbcbc7b897cb10f7eb26" title="Called when the local user/client left a room, so the game&#39;s logic can clean up it&#39;s internal state." alt="" coords="5,71,177,112"/>
-</map>

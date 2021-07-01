@@ -1,9 +1,0 @@
-<map id="Tayx.Graphy.Advanced.G_AdvancedData.Init" name="Tayx.Graphy.Advanced.G_AdvancedData.Init">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,176,145"/>
-<area shape="rect" id="node2" href="$class_tayx_1_1_graphy_1_1_utils_1_1_num_string_1_1_g___float_string.xhtml#a8f7451fa123e8927d12e8a42859d2201" title="Initialize the buffers." alt="" coords="239,71,433,112"/>
-<area shape="rect" id="node5" href="$class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#ae4e2e7a4ec9be72ea53970601637f8fd" title=" " alt="" coords="224,136,448,177"/>
-<area shape="rect" id="node3" href="$class_tayx_1_1_graphy_1_1_utils_1_1_num_string_1_1_g___float_string.xhtml#aae63bb4b63ce7ce354b44284589736bf" title=" " alt="" coords="496,5,691,47"/>
-<area shape="rect" id="node4" href="$class_tayx_1_1_graphy_1_1_utils_1_1_num_string_1_1_g___float_string.xhtml#aef001938a44d55d6a087b209ef8d2de0" title=" " alt="" coords="496,71,691,112"/>
-<area shape="rect" id="node6" href="$class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#a0e5e65da50bc546e002b4a3eb04bb32a" title="Sets the position of the module." alt="" coords="502,136,685,177"/>
-<area shape="rect" id="node7" href="$class_tayx_1_1_graphy_1_1_advanced_1_1_g___advanced_data.xhtml#ac91888d741e22b8802e3d38323e6e0cd" title="Set the module state." alt="" coords="508,201,679,243"/>
-</map>

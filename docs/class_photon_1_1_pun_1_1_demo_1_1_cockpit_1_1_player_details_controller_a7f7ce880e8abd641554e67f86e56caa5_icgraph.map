@@ -1,8 +1,0 @@
-<map id="Photon.Pun.Demo.Cockpit.PlayerDetailsController.GetAllPlayerBuiltIntProperties" name="Photon.Pun.Demo.Cockpit.PlayerDetailsController.GetAllPlayerBuiltIntProperties">
-<area shape="rect" id="node1" title=" " alt="" coords="731,31,925,87"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_details_controller.xhtml#a776c1d2fe05ed563cfe017dd89070a46" title=" " alt="" coords="468,31,683,87"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a9dd2f362c48c02ed49c82785d5cc35ad" title="Called when the LoadBalancingClient entered a room, no matter if this client created it or simply joi..." alt="" coords="236,5,417,47"/>
-<area shape="rect" id="node5" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_list_view.xhtml#a1ddf537ecc953a44a76d5ffee69f87ab" title=" " alt="" coords="233,71,420,112"/>
-<area shape="rect" id="node4" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_pun_cockpit.xhtml#a96d91c8a4398280fb582bd516bf147f6" title=" " alt="" coords="5,5,185,47"/>
-<area shape="rect" id="node6" href="$class_photon_1_1_pun_1_1_demo_1_1_cockpit_1_1_player_list_cell.xhtml#ac603eaad9dca22ba6650861035c067f4" title=" " alt="" coords="5,71,185,112"/>
-</map>

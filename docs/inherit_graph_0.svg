@@ -216,16 +216,16 @@
 <!-- Node61 -->
 <g id="node15" class="node">
 <title>Node61</title>
-<g id="a_node15"><a xlink:href="class_a_d_upgrade_effect.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="365.5,-0.5 365.5,-19.5 456.5,-19.5 456.5,-0.5 365.5,-0.5"/>
-<text text-anchor="middle" x="411" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ADUpgradeEffect</text>
+<g id="a_node15"><a xlink:href="class_upgrade_effect.xhtml" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="372.5,-0.5 372.5,-19.5 449.5,-19.5 449.5,-0.5 372.5,-0.5"/>
+<text text-anchor="middle" x="411" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">UpgradeEffect</text>
 </a>
 </g>
 </g>
 <!-- Node60&#45;&gt;Node61 -->
 <g id="edge14" class="edge">
 <title>Node60&#45;&gt;Node61</title>
-<path fill="none" stroke="midnightblue" d="M314.57,-10C330.76,-10 349.14,-10 365.41,-10"/>
+<path fill="none" stroke="midnightblue" d="M314.54,-10C333.07,-10 354.48,-10 372.32,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="314.29,-6.5 304.29,-10 314.29,-13.5 314.29,-6.5"/>
 </g>
 </g>

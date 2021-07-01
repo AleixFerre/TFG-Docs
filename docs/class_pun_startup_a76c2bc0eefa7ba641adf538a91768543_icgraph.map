@@ -1,6 +1,0 @@
-<map id="PunStartup.FindAssetPath" name="PunStartup.FindAssetPath">
-<area shape="rect" id="node1" title="Finds the asset path base on its name or search query: https://docs.unity3d.com/ScriptReference/Asset..." alt="" coords="653,5,831,32"/>
-<area shape="rect" id="node2" href="$class_pun_startup.xhtml#aeb6f03ee929aaee7306973dbe8c87027" title=" " alt="" coords="407,5,605,32"/>
-<area shape="rect" id="node3" href="$class_pun_startup.xhtml#a0e8ad86daded478ee21810ed830e2e9e" title=" " alt="" coords="209,5,359,32"/>
-<area shape="rect" id="node4" href="$class_pun_startup.xhtml#a482e3ecfb47d34529b459bd7b8c3b004" title=" " alt="" coords="5,5,161,32"/>
-</map>

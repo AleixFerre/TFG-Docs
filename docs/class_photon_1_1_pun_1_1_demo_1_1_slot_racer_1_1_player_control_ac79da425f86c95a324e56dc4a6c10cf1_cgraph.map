@@ -1,5 +1,0 @@
-<map id="Photon.Pun.Demo.SlotRacer.PlayerControl.OnPhotonSerializeView" name="Photon.Pun.Demo.SlotRacer.PlayerControl.OnPhotonSerializeView">
-<area shape="rect" id="node1" title="this is where data is sent and received for this Component from the PUN Network." alt="" coords="5,39,245,80"/>
-<area shape="rect" id="node2" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#a50038b09fdec1b4d1072c9f8b5a231dc" title="Read next piece of data from the stream when IsReading is true." alt="" coords="293,5,475,47"/>
-<area shape="rect" id="node3" href="$class_photon_1_1_pun_1_1_photon_stream.xhtml#adf067be77d2034b07fd696d97110a57a" title="Add another piece of data to send it when IsWriting is true." alt="" coords="293,71,475,112"/>
-</map>
