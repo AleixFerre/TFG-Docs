@@ -4,7 +4,7 @@
 <area shape="rect" id="node3" href="$class_player_controller.xhtml#a75e94e4fd555e57e55ab4b7e54024dcf" title="Initialize the PlayerController." alt="" coords="395,56,560,83"/>
 <area shape="rect" id="node13" href="$class_model_player_mediator.xhtml#abb544efe7192b8e934f60f770d5ac334" title=" " alt="" coords="380,107,575,133"/>
 <area shape="rect" id="node14" href="$class_player_controller.xhtml#a6be7bc2319b024c6bf66f1b1c96f7ba5" title="Player Model will call this function to parent and sync itself to this GameObject" alt="" coords="389,157,565,184"/>
-<area shape="rect" id="node4" href="$class_basic_attack.xhtml#ab963315952d22c15b5fe7d39eae30ba5" title=" " alt="" coords="633,5,777,32"/>
+<area shape="rect" id="node4" href="$class_basic_attack.xhtml#ac85eb061d597f5879d31fb8e7a0316d5" title=" " alt="" coords="633,5,777,32"/>
 <area shape="rect" id="node5" href="$class_player_stats.xhtml#a5e274804959d13db76f140e8efcf9411" title="Initialize the actual Stats of the Player." alt="" coords="635,56,776,83"/>
 <area shape="rect" id="node10" href="$class_ability_cooldown.xhtml#aa01c150ac26f1694a1e174e152510094" title=" " alt="" coords="623,107,788,133"/>
 <area shape="rect" id="node6" href="$class_player_u_i_controller.xhtml#ab6ed746dec17fdf763bc4ec1d713db7f" title="Initializes all the values and colors for this Player." alt="" coords="844,56,1019,83"/>

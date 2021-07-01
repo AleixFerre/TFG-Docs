@@ -1,5 +1,6 @@
 var class_player_stats =
 [
+    [ "ApplyStatistic", "class_player_stats.xhtml#a8373a803f4c48c3fbfa06474b7f5fb06", null ],
     [ "BlockAbilityFor", "class_player_stats.xhtml#af942d9a5150c2d4c47800335ec062ee1", null ],
     [ "BlockAbilityForSeconds", "class_player_stats.xhtml#a4df625156bb2ae99262e81b28346ccb4", null ],
     [ "Dash", "class_player_stats.xhtml#a33b723f51a189f34d473f1e98ac57aa0", null ],
@@ -15,6 +16,9 @@ var class_player_stats =
     [ "abilityCooldowns", "class_player_stats.xhtml#ace37c35b02d21bd2623adb8005a9787d", null ],
     [ "abilityPower", "class_player_stats.xhtml#a70b5ffe7d79456b531218bcfc0e40f1c", null ],
     [ "anim", "class_player_stats.xhtml#a82d350f613f09f44f221cdac433ee74d", null ],
+    [ "attackDamage", "class_player_stats.xhtml#a3ab0bfed7b2d08ac8ff3f61baafd96e2", null ],
+    [ "attackRange", "class_player_stats.xhtml#adccff6c078f973d3f1b502037e81f33b", null ],
+    [ "attackSpeed", "class_player_stats.xhtml#ab627fd14db469942fd167a478c4b9532", null ],
     [ "coroutine", "class_player_stats.xhtml#acbd6bd09e969f6a7ed285ae62a51d2d7", null ],
     [ "inventory", "class_player_stats.xhtml#a13688e05f1cd83724ffa8ae871e3a907", null ],
     [ "lastHitted", "class_player_stats.xhtml#adeabda75f79c106375fa9f0079e2bbd4", null ],

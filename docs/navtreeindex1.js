@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"class_camera_shake.xhtml":[0,0,15],
 "class_camera_shake.xhtml#a04be8c54ee5dc191ff695e887841a412":[0,0,15,0],
 "class_camera_shake.xhtml#a062515cc67412ebcb803b4be1cede73d":[0,0,15,2],
 "class_camera_shake.xhtml#a068497c59380a150270bb83c5a972090":[0,0,15,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "class_player_controller.xhtml#acc582f6feb1993addf21cb535fc0fd75":[0,0,41,24],
 "class_player_controller.xhtml#acf3996d145bf39d0a4c5421230dedf68":[0,0,41,31],
 "class_player_controller.xhtml#ae1117d9c4da3193181cddad2c814e467":[0,0,41,9],
-"class_player_controller.xhtml#ae8bc83dffb99867a04be016473ed2c43":[0,0,41,10],
-"class_player_controller.xhtml#aea62bf4b6e3dc57f3545a64d5d21cd4a":[0,0,41,4]
+"class_player_controller.xhtml#ae8bc83dffb99867a04be016473ed2c43":[0,0,41,10]
 };

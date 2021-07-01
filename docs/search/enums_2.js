@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['statistic_923',['Statistic',['../class_upgrade_effect.xhtml#a30967eb7a9eaada5527263385ccb936b',1,'UpgradeEffect']]]
+  ['statistic_936',['Statistic',['../_statistic_8cs.xhtml#a0431437d0436f6eeedbf36cb3c80dbd4',1,'Statistic.cs']]]
 ];
