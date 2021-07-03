@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['instance_950',['Instance',['../class_singleton.xhtml#a54103e8475b2a352ee759d5732307534',1,'Singleton']]],
-  ['isreadonly_951',['IsReadOnly',['../class_generic_dictionary.xhtml#aa3fd065828bdb39d64be67280a056d96',1,'GenericDictionary']]]
+  ['instance_922',['Instance',['../class_singleton.xhtml#a54103e8475b2a352ee759d5732307534',1,'Singleton']]],
+  ['isreadonly_923',['IsReadOnly',['../class_generic_dictionary.xhtml#aa3fd065828bdb39d64be67280a056d96',1,'GenericDictionary']]]
 ];

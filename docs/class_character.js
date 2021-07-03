@@ -11,6 +11,7 @@ var class_character =
     [ "lobbyPrefab", "class_character.xhtml#a5c6dd9ae6fb12d61d152984a90a9dd25", null ],
     [ "prefab", "class_character.xhtml#aee663336fca28117de2c96cd3313f1c0", null ],
     [ "rangedInstancePosition", "class_character.xhtml#a12e64502986f50567f93acf20ac177f8", null ],
+    [ "runMultiplicator", "class_character.xhtml#a5cb9904c7ee4001b65229dc72526ce8a", null ],
     [ "sprite", "class_character.xhtml#acc30e9a6e60dd6d7a89e72d148239165", null ],
     [ "startingHP", "class_character.xhtml#a6890eecea4baa6a8c4391a08243f4f4f", null ],
     [ "startingMovementSpeed", "class_character.xhtml#a232b7a3ff8c640d0e01a4c71c6b9161c", null ],

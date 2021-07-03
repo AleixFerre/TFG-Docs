@@ -26,5 +26,6 @@ var class_player_stats =
     [ "movementSpeed", "class_player_stats.xhtml#a4d2fcf1cf1e7a18760658fb673fb97b3", null ],
     [ "MP", "class_player_stats.xhtml#ab8848e2454233b252ffd2594ddfb12b3", null ],
     [ "playerController", "class_player_stats.xhtml#a116861de7bf437de31f9815105c338a1", null ],
+    [ "runMultiplicator", "class_player_stats.xhtml#a1e1118ab57721134a9b65b0e688bad19", null ],
     [ "uiControl", "class_player_stats.xhtml#a6ff9ff5103109911bfeab9a759883092", null ]
 ];

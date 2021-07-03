@@ -19,7 +19,6 @@ var class_player_controller =
     [ "autoMoveTime", "class_player_controller.xhtml#a1e9ae670774405c75a2ba59ba47c1b18", null ],
     [ "basicAttack", "class_player_controller.xhtml#a8b2e727aac56648f6e72253949f5bde5", null ],
     [ "character", "class_player_controller.xhtml#a8d3b5f66d918af809d5df3e857613427", null ],
-    [ "characters", "class_player_controller.xhtml#a5e25ec77676966a5ed0442d18254446c", null ],
     [ "fixedVector", "class_player_controller.xhtml#af05d536dcdd38b9dfbeffa97c8ed3a66", null ],
     [ "goToPosition", "class_player_controller.xhtml#a998214b50850c0eee0c749b7b94bd9f8", null ],
     [ "initAutoMovePos", "class_player_controller.xhtml#a3281a8bfb44fcbe5191aaa2b2d736a4d", null ],
@@ -30,7 +29,6 @@ var class_player_controller =
     [ "NULL_POS", "class_player_controller.xhtml#a7d7d8b317686d53eb0c98d91cd1dee1f", null ],
     [ "playerCamera", "class_player_controller.xhtml#aa01cfbc61e45f5fe875d7c503347ee49", null ],
     [ "playerGO", "class_player_controller.xhtml#a6f9fd90b11467d2fb8f92c0b61600393", null ],
-    [ "runMultiplicator", "class_player_controller.xhtml#afcfa3c3a4ccb6417b5ffb1cda26b3032", null ],
     [ "stats", "class_player_controller.xhtml#acf3996d145bf39d0a4c5421230dedf68", null ],
     [ "vel", "class_player_controller.xhtml#af1264cbfe5a8bbabca7bbcf910b6ec0d", null ],
     [ "view", "class_player_controller.xhtml#a0ccf041bfab8bfda2f0831fb88cc63d4", null ]

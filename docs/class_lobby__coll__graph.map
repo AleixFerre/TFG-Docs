@@ -1,8 +1,10 @@
 <map id="Lobby" name="Lobby">
-<area shape="rect" id="node1" title=" " alt="" coords="93,364,151,391"/>
+<area shape="rect" id="node1" title=" " alt="" coords="240,364,297,391"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,275,196,301"/>
-<area shape="rect" id="node3" href="$class_character.xhtml" title=" " alt="" coords="220,275,299,301"/>
-<area shape="rect" id="node4" title=" " alt="" coords="224,5,343,32"/>
-<area shape="rect" id="node5" href="$class_ability.xhtml" title=" " alt="" coords="270,185,329,212"/>
-<area shape="rect" id="node6" href="$class_effect.xhtml" title=" " alt="" coords="321,81,376,108"/>
+<area shape="rect" id="node3" href="$class_ability_display.xhtml" title=" " alt="" coords="221,275,322,301"/>
+<area shape="rect" id="node4" title=" " alt="" coords="216,185,327,212"/>
+<area shape="rect" id="node5" href="$class_character.xhtml" title=" " alt="" coords="348,275,427,301"/>
+<area shape="rect" id="node6" title=" " alt="" coords="367,5,485,32"/>
+<area shape="rect" id="node7" href="$class_ability.xhtml" title=" " alt="" coords="413,185,471,212"/>
+<area shape="rect" id="node8" href="$class_effect.xhtml" title=" " alt="" coords="464,81,519,108"/>
 </map>
