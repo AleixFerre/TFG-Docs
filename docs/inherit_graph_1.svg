@@ -21,7 +21,7 @@
 <!-- Node0 -->
 <g id="node2" class="node">
 <title>Node0</title>
-<g id="a_node2"><a xlink:href="class_ability_base.xhtml" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="class_ability_base.xhtml" target="_top" xlink:title="Base class for all the Ability_Instanciable prefab scripts.">
 <polygon fill="white" stroke="black" points="140,-950.5 140,-969.5 206,-969.5 206,-950.5 140,-950.5"/>
 <text text-anchor="middle" x="173" y="-957.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityBase</text>
 </a>

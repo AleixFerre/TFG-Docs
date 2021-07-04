@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_effect.xhtml" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="class_effect.xhtml" target="_top" xlink:title="Abstract base info container class for an Effect.">
 <polygon fill="white" stroke="black" points="27,-112.5 27,-131.5 68,-131.5 68,-112.5 27,-112.5"/>
 <text text-anchor="middle" x="47.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Effect</text>
 </a>

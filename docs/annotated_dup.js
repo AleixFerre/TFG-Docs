@@ -52,8 +52,8 @@ var annotated_dup =
     [ "SettingsData", "class_settings_data.xhtml", null ],
     [ "ShowPing", "class_show_ping.xhtml", "class_show_ping" ],
     [ "Singleton", "class_singleton.xhtml", "class_singleton" ],
+    [ "StatisticChangeEffect", "class_statistic_change_effect.xhtml", "class_statistic_change_effect" ],
     [ "Stats", "class_stats.xhtml", "class_stats" ],
     [ "TimedEffect", "class_timed_effect.xhtml", "class_timed_effect" ],
-    [ "UIController", "class_u_i_controller.xhtml", "class_u_i_controller" ],
-    [ "UpgradeEffect", "class_upgrade_effect.xhtml", "class_upgrade_effect" ]
+    [ "UIController", "class_u_i_controller.xhtml", "class_u_i_controller" ]
 ];

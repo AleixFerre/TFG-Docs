@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['none_915',['None',['../class_basic_attack.xhtml#a79124cc3f973d837b2f08509038bdb03a6adf97f83acf6453d4a6a4b1070f3754',1,'BasicAttack']]]
+  ['ms_929',['MS',['../_statistic_8cs.xhtml#abe3cf4bc0c06db6025684d805e6c2022a7a663caea1b722a63dc2868158ed584d',1,'Statistic.cs']]]
 ];

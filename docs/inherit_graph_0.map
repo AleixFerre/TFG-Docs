@@ -2,9 +2,9 @@
 <area shape="rect" id="node1" title=" " alt="" coords="5,208,124,235"/>
 <area shape="rect" id="node2" href="$class_ability.xhtml" title=" " alt="" coords="182,157,241,184"/>
 <area shape="rect" id="node9" href="$class_character.xhtml" title=" " alt="" coords="172,208,251,235"/>
-<area shape="rect" id="node10" href="$class_effect.xhtml" title=" " alt="" coords="184,259,239,285"/>
+<area shape="rect" id="node10" href="$class_effect.xhtml" title="Abstract base info container class for an Effect." alt="" coords="184,259,239,285"/>
 <area shape="rect" id="node3" href="$class_indicated_ability.xhtml" title="Encapsulador de les Ability que han de mostrar l&#39;indicador" alt="" coords="310,81,421,108"/>
-<area shape="rect" id="node7" href="$class_non_indicated_ability.xhtml" title=" " alt="" coords="299,157,432,184"/>
+<area shape="rect" id="node7" href="$class_non_indicated_ability.xhtml" title="Encapsulador de les Ability que NO han de mostrar cap indicador." alt="" coords="299,157,432,184"/>
 <area shape="rect" id="node4" href="$class_ability___dash.xhtml" title=" " alt="" coords="506,5,601,32"/>
 <area shape="rect" id="node5" href="$class_ability___instanciable.xhtml" title=" " alt="" coords="486,56,621,83"/>
 <area shape="rect" id="node6" href="$class_ability___player_relative.xhtml" title=" " alt="" coords="480,107,627,133"/>
@@ -13,5 +13,5 @@
 <area shape="rect" id="node14" href="$class_timed_effect.xhtml" title="TimedEffect és un encapsulador per tots els Effect que NO s&#39;executen de forma instantània." alt="" coords="320,309,411,336"/>
 <area shape="rect" id="node12" href="$class_heal_effect.xhtml" title=" " alt="" coords="513,208,594,235"/>
 <area shape="rect" id="node13" href="$class_heal_relative_effect.xhtml" title=" " alt="" coords="490,259,617,285"/>
-<area shape="rect" id="node15" href="$class_upgrade_effect.xhtml" title=" " alt="" coords="502,309,605,336"/>
+<area shape="rect" id="node15" href="$class_statistic_change_effect.xhtml" title=" " alt="" coords="480,309,627,336"/>
 </map>

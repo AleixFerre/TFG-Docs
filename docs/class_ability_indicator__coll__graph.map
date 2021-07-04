@@ -1,18 +1,18 @@
 <map id="AbilityIndicator" name="AbilityIndicator">
-<area shape="rect" id="node1" title=" " alt="" coords="689,364,796,391"/>
-<area shape="rect" id="node3" href="$class_ability_cooldown.xhtml" title=" " alt="" coords="597,465,712,492"/>
-<area shape="rect" id="node2" title=" " alt="" coords="374,275,485,301"/>
-<area shape="rect" id="node4" href="$class_player_controller.xhtml" title="Player Controller is the main class that handles all the movement of the Player." alt="" coords="399,733,513,760"/>
-<area shape="rect" id="node11" href="$class_stats.xhtml" title="Base class Stats of the entity." alt="" coords="287,364,340,391"/>
-<area shape="rect" id="node13" href="$class_u_i_controller.xhtml" title=" " alt="" coords="126,364,215,391"/>
-<area shape="rect" id="node14" href="$class_inventory.xhtml" title=" " alt="" coords="393,415,466,441"/>
-<area shape="rect" id="node15" href="$class_basic_attack.xhtml" title=" " alt="" coords="161,644,255,671"/>
-<area shape="rect" id="node9" href="$class_player_stats.xhtml" title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut..." alt="" coords="293,555,384,581"/>
-<area shape="rect" id="node5" href="$class_character.xhtml" title=" " alt="" coords="842,275,921,301"/>
-<area shape="rect" id="node6" title=" " alt="" coords="719,5,838,32"/>
-<area shape="rect" id="node7" href="$class_ability.xhtml" title=" " alt="" coords="715,185,773,212"/>
-<area shape="rect" id="node8" href="$class_effect.xhtml" title=" " alt="" coords="751,81,806,108"/>
-<area shape="rect" id="node16" href="$class_indicated_ability.xhtml" title="Encapsulador de les Ability que han de mostrar l&#39;indicador" alt="" coords="689,275,799,301"/>
-<area shape="rect" id="node10" href="$class_ability_affected_stats.xhtml" title="Base class Stats of the entity who is affected by Abilities." alt="" coords="245,465,381,492"/>
-<area shape="rect" id="node12" href="$class_player_u_i_controller.xhtml" title="UI Controller for the Player Stats" alt="" coords="43,465,170,492"/>
+<area shape="rect" id="node1" title=" " alt="" coords="615,349,721,376"/>
+<area shape="rect" id="node3" href="$class_ability_cooldown.xhtml" title=" " alt="" coords="563,451,677,477"/>
+<area shape="rect" id="node2" title=" " alt="" coords="303,260,414,287"/>
+<area shape="rect" id="node4" href="$class_player_controller.xhtml" title="Player Controller is the main class that handles all the movement of the Player." alt="" coords="453,719,568,745"/>
+<area shape="rect" id="node11" href="$class_stats.xhtml" title="Base class Stats of the entity." alt="" coords="185,349,239,376"/>
+<area shape="rect" id="node13" href="$class_u_i_controller.xhtml" title=" " alt="" coords="314,349,403,376"/>
+<area shape="rect" id="node14" href="$class_inventory.xhtml" title=" " alt="" coords="405,400,478,427"/>
+<area shape="rect" id="node15" href="$class_basic_attack.xhtml" title=" " alt="" coords="212,629,305,656"/>
+<area shape="rect" id="node9" href="$class_player_stats.xhtml" title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut..." alt="" coords="396,540,487,567"/>
+<area shape="rect" id="node5" href="$class_character.xhtml" title=" " alt="" coords="855,260,934,287"/>
+<area shape="rect" id="node6" title=" " alt="" coords="639,5,758,32"/>
+<area shape="rect" id="node7" href="$class_ability.xhtml" title=" " alt="" coords="597,171,656,197"/>
+<area shape="rect" id="node8" href="$class_effect.xhtml" title="Abstract base info container class for an Effect." alt="" coords="671,81,726,108"/>
+<area shape="rect" id="node16" href="$class_indicated_ability.xhtml" title="Encapsulador de les Ability que han de mostrar l&#39;indicador" alt="" coords="614,260,725,287"/>
+<area shape="rect" id="node10" href="$class_ability_affected_stats.xhtml" title="Base class Stats of the entity who is affected by Abilities." alt="" coords="144,451,280,477"/>
+<area shape="rect" id="node12" href="$class_player_u_i_controller.xhtml" title="UI Controller for the Player Stats" alt="" coords="305,451,431,477"/>
 </map>

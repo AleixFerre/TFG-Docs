@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_effect_manager.xhtml#a921aed9a2553637cdd387d3075150709" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="class_effect_manager.xhtml#a921aed9a2553637cdd387d3075150709" target="_top" xlink:title="Starts an Effect to the entity who has this EffectManager.">
 <polygon fill="white" stroke="black" points="179,-104 179,-123 315,-123 315,-104 179,-104"/>
 <text text-anchor="middle" x="247" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00">EffectManager.TriggerEffect</text>
 </a>

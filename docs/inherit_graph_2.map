@@ -2,6 +2,6 @@
 <area shape="rect" id="node1" title=" " alt="" coords="5,81,196,108"/>
 <area shape="rect" id="node2" href="$class_connect_to_server.xhtml" title=" " alt="" coords="260,5,380,32"/>
 <area shape="rect" id="node3" href="$class_disconnection_checker.xhtml" title=" " alt="" coords="244,56,396,83"/>
-<area shape="rect" id="node4" href="$class_lobby.xhtml" title=" " alt="" coords="291,107,349,133"/>
+<area shape="rect" id="node4" href="$class_lobby.xhtml" title="Controls all the lobby state and sends all the character pick information." alt="" coords="291,107,349,133"/>
 <area shape="rect" id="node5" href="$class_main_menu.xhtml" title=" " alt="" coords="279,157,361,184"/>
 </map>

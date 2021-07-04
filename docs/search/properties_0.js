@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['count_921',['Count',['../class_generic_dictionary.xhtml#a26ee931c47c12e0f13ee6bbb27264fe8',1,'GenericDictionary']]]
+  ['count_937',['Count',['../class_generic_dictionary.xhtml#a26ee931c47c12e0f13ee6bbb27264fe8',1,'GenericDictionary']]]
 ];

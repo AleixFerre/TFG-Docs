@@ -15,6 +15,5 @@ var class_ability =
     [ "aManaCost", "class_ability.xhtml#a665777df800b6e9ea0c797a8a35a1380", null ],
     [ "aName", "class_ability.xhtml#ae0b1d21d3766fffaf98775a90e2a6647", null ],
     [ "aSprite", "class_ability.xhtml#a7e93228cdf295f2171456fad50f21e71", null ],
-    [ "aToAuthorEffects", "class_ability.xhtml#ad775154e4f675c7cd4ff96ac7981bc51", null ],
-    [ "aToEnemyEffects", "class_ability.xhtml#a963332e7470b3f54268e10c3d5a50155", null ]
+    [ "aToAuthorEffects", "class_ability.xhtml#ad775154e4f675c7cd4ff96ac7981bc51", null ]
 ];

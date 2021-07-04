@@ -1,6 +1,7 @@
 var class_player_stats =
 [
-    [ "ApplyStatistic", "class_player_stats.xhtml#a8373a803f4c48c3fbfa06474b7f5fb06", null ],
+    [ "ApplyStatistic", "class_player_stats.xhtml#a0d9b7f06aadb3b770e53236e05437d31", null ],
+    [ "ApplyStatistic", "class_player_stats.xhtml#a458a138dd67acf0dc36b82c559a2ee40", null ],
     [ "BlockAbilityFor", "class_player_stats.xhtml#af942d9a5150c2d4c47800335ec062ee1", null ],
     [ "BlockAbilityForSeconds", "class_player_stats.xhtml#a4df625156bb2ae99262e81b28346ccb4", null ],
     [ "Dash", "class_player_stats.xhtml#a33b723f51a189f34d473f1e98ac57aa0", null ],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['statistic_908',['Statistic',['../_statistic_8cs.xhtml#a0431437d0436f6eeedbf36cb3c80dbd4',1,'Statistic.cs']]]
+  ['intstatistic_919',['IntStatistic',['../_statistic_8cs.xhtml#ab362e551ad848252fd64a6e5dc98e92b',1,'Statistic.cs']]]
 ];

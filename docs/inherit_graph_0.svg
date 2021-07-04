@@ -51,7 +51,7 @@
 <!-- Node55 -->
 <g id="node10" class="node">
 <title>Node55</title>
-<g id="a_node10"><a xlink:href="class_effect.xhtml" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="class_effect.xhtml" target="_top" xlink:title="Abstract base info container class for an Effect.">
 <polygon fill="white" stroke="black" points="134,-38.5 134,-57.5 175,-57.5 175,-38.5 134,-38.5"/>
 <text text-anchor="middle" x="154.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Effect</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Node5 -->
 <g id="node7" class="node">
 <title>Node5</title>
-<g id="a_node7"><a xlink:href="class_non_indicated_ability.xhtml" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="class_non_indicated_ability.xhtml" target="_top" xlink:title="Encapsulador de les Ability que NO han de mostrar cap indicador.">
 <polygon fill="white" stroke="black" points="220,-114.5 220,-133.5 320,-133.5 320,-114.5 220,-114.5"/>
 <text text-anchor="middle" x="270" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">NonIndicatedAbility</text>
 </a>
@@ -216,16 +216,16 @@
 <!-- Node60 -->
 <g id="node15" class="node">
 <title>Node60</title>
-<g id="a_node15"><a xlink:href="class_upgrade_effect.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="372.5,-0.5 372.5,-19.5 449.5,-19.5 449.5,-0.5 372.5,-0.5"/>
-<text text-anchor="middle" x="411" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">UpgradeEffect</text>
+<g id="a_node15"><a xlink:href="class_statistic_change_effect.xhtml" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="356,-0.5 356,-19.5 466,-19.5 466,-0.5 356,-0.5"/>
+<text text-anchor="middle" x="411" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">StatisticChangeEffect</text>
 </a>
 </g>
 </g>
 <!-- Node59&#45;&gt;Node60 -->
 <g id="edge14" class="edge">
 <title>Node59&#45;&gt;Node60</title>
-<path fill="none" stroke="midnightblue" d="M314.54,-10C333.07,-10 354.48,-10 372.32,-10"/>
+<path fill="none" stroke="midnightblue" d="M314.45,-10C327.55,-10 342.1,-10 355.81,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="314.29,-6.5 304.29,-10 314.29,-13.5 314.29,-6.5"/>
 </g>
 </g>

@@ -1,6 +1,6 @@
 <map id="Ability_StatsChanger.TriggerAbility" name="Ability_StatsChanger.TriggerAbility">
 <area shape="rect" id="node1" title=" " alt="" coords="5,23,192,65"/>
-<area shape="rect" id="node2" href="$class_effect_manager.xhtml#a921aed9a2553637cdd387d3075150709" title=" " alt="" coords="240,31,421,57"/>
+<area shape="rect" id="node2" href="$class_effect_manager.xhtml#a921aed9a2553637cdd387d3075150709" title="Starts an Effect to the entity who has this EffectManager." alt="" coords="240,31,421,57"/>
 <area shape="rect" id="node3" href="$class_effect.xhtml#ae421c8b51f4b5f859b03ea719d384e8f" title=" " alt="" coords="483,5,588,32"/>
 <area shape="rect" id="node4" href="$class_effect.xhtml#a928c504cba23842da98461acb52eb7e0" title=" " alt="" coords="469,56,601,83"/>
 </map>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX1 =
 {
+"class_basic_attack.xhtml#ad88d6d1dc8cdc8dd2b7a3043e0cc0d5a":[0,0,14,7],
+"class_basic_attack.xhtml#ad8c0baca6db1fe663aebf592bcc6c2f2":[0,0,14,4],
+"class_basic_attack.xhtml#ad9cf8d169bdb1eb0f33c4f68550c080c":[0,0,14,25],
+"class_basic_attack.xhtml#ada65724b874d22062e35c86de7860d00":[0,0,14,14],
 "class_basic_attack.xhtml#af9e86a74f1f6c5789ec8bdb1ce3daf64":[0,0,14,15],
 "class_basic_attack.xhtml#afc75dc51c537b13100e169990d38f0c1":[0,0,14,26],
 "class_billboard.xhtml":[0,0,15],
@@ -94,6 +98,7 @@ var NAVTREEINDEX1 =
 "class_indicated_ability.xhtml#a3b2748b1e5eb34a403c89960b764f81b":[0,0,26,0],
 "class_indicated_ability.xhtml#a3fb67f5735854b93b92405d1c202072b":[0,0,26,1],
 "class_indicated_ability.xhtml#a3fc147e17f3af8fb029cf4806e666605":[0,0,26,2],
+"class_indicated_ability.xhtml#af2ca45ce07dbc3433cb8bfa016c2b0ea":[0,0,26,4],
 "class_instant_effect.xhtml":[0,0,27],
 "class_instant_effect.xhtml#a07e60429c030406f1a8892ad76b63f45":[0,0,27,0],
 "class_inventory.xhtml":[0,0,28],
@@ -244,10 +249,5 @@ var NAVTREEINDEX1 =
 "class_player_controller.xhtml#acf3996d145bf39d0a4c5421230dedf68":[0,0,41,29],
 "class_player_controller.xhtml#ae1117d9c4da3193181cddad2c814e467":[0,0,41,9],
 "class_player_controller.xhtml#ae8bc83dffb99867a04be016473ed2c43":[0,0,41,10],
-"class_player_controller.xhtml#aea62bf4b6e3dc57f3545a64d5d21cd4a":[0,0,41,4],
-"class_player_controller.xhtml#af05d536dcdd38b9dfbeffa97c8ed3a66":[0,0,41,19],
-"class_player_controller.xhtml#af1264cbfe5a8bbabca7bbcf910b6ec0d":[0,0,41,30],
-"class_player_stats.xhtml":[0,0,42],
-"class_player_stats.xhtml#a07cb6a60391d769fea03f1bc3b6927c6":[0,0,42,9],
-"class_player_stats.xhtml#a116861de7bf437de31f9815105c338a1":[0,0,42,25]
+"class_player_controller.xhtml#aea62bf4b6e3dc57f3545a64d5d21cd4a":[0,0,41,4]
 };

@@ -6,7 +6,7 @@ var dir_1aca8791c9bbecc3dccc7aeb5ad1c57e =
     [ "HealRelativeEffect.cs", "_heal_relative_effect_8cs.xhtml", [
       [ "HealRelativeEffect", "class_heal_relative_effect.xhtml", "class_heal_relative_effect" ]
     ] ],
-    [ "UpgradeEffect.cs", "_upgrade_effect_8cs.xhtml", [
-      [ "UpgradeEffect", "class_upgrade_effect.xhtml", "class_upgrade_effect" ]
+    [ "StatisticChangeEffect.cs", "_statistic_change_effect_8cs.xhtml", [
+      [ "StatisticChangeEffect", "class_statistic_change_effect.xhtml", "class_statistic_change_effect" ]
     ] ]
 ];

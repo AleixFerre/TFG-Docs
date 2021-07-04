@@ -51,7 +51,7 @@
 <!-- Node43 -->
 <g id="node4" class="node">
 <title>Node43</title>
-<g id="a_node4"><a xlink:href="class_lobby.xhtml" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="class_lobby.xhtml" target="_top" xlink:title="Controls all the lobby state and sends all the character pick information.">
 <polygon fill="white" stroke="black" points="214.5,-38.5 214.5,-57.5 257.5,-57.5 257.5,-38.5 214.5,-38.5"/>
 <text text-anchor="middle" x="236" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Lobby</text>
 </a>

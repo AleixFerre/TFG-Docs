@@ -1,6 +1,6 @@
 <map id="TimedEffect" name="TimedEffect">
-<area shape="rect" id="node1" title="TimedEffect és un encapsulador per tots els Effect que NO s&#39;executen de forma instantània." alt="" coords="19,155,110,181"/>
-<area shape="rect" id="node4" href="$class_upgrade_effect.xhtml" title=" " alt="" coords="13,229,116,256"/>
-<area shape="rect" id="node2" href="$class_effect.xhtml" title=" " alt="" coords="37,80,92,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node1" title="TimedEffect és un encapsulador per tots els Effect que NO s&#39;executen de forma instantània." alt="" coords="33,155,124,181"/>
+<area shape="rect" id="node4" href="$class_statistic_change_effect.xhtml" title=" " alt="" coords="5,229,152,256"/>
+<area shape="rect" id="node2" href="$class_effect.xhtml" title="Abstract base info container class for an Effect." alt="" coords="51,80,106,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="19,5,138,32"/>
 </map>

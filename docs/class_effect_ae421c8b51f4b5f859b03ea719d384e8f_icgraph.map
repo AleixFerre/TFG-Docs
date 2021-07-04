@@ -1,6 +1,6 @@
 <map id="Effect.Activate" name="Effect.Activate">
 <area shape="rect" id="node1" title=" " alt="" coords="473,115,579,141"/>
-<area shape="rect" id="node2" href="$class_effect_manager.xhtml#a921aed9a2553637cdd387d3075150709" title=" " alt="" coords="244,115,425,141"/>
+<area shape="rect" id="node2" href="$class_effect_manager.xhtml#a921aed9a2553637cdd387d3075150709" title="Starts an Effect to the entity who has this EffectManager." alt="" coords="244,115,425,141"/>
 <area shape="rect" id="node3" href="$class_ability___lis1.xhtml#afd1d7924ca79144a0e19a84705b7590e" title=" " alt="" coords="11,5,191,32"/>
 <area shape="rect" id="node4" href="$class_ability___lis4.xhtml#a4497c50ddbd3f508448a76a1eafdd203" title=" " alt="" coords="11,56,191,83"/>
 <area shape="rect" id="node5" href="$class_ability___instanciable.xhtml#acd9b521d5e3e7b9d8b9e6d46c5e43f3e" title=" " alt="" coords="12,107,189,149"/>

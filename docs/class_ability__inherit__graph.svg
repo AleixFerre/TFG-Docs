@@ -36,7 +36,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_non_indicated_ability.xhtml" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="class_non_indicated_ability.xhtml" target="_top" xlink:title="Encapsulador de les Ability que NO han de mostrar cap indicador.">
 <polygon fill="white" stroke="black" points="300.5,-56.5 300.5,-75.5 400.5,-75.5 400.5,-56.5 300.5,-56.5"/>
 <text text-anchor="middle" x="350.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">NonIndicatedAbility</text>
 </a>

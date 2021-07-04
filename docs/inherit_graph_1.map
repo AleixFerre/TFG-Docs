@@ -1,6 +1,6 @@
 <map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
 <area shape="rect" id="node1" title=" " alt="" coords="5,613,116,640"/>
-<area shape="rect" id="node2" href="$class_ability_base.xhtml" title=" " alt="" coords="192,31,280,57"/>
+<area shape="rect" id="node2" href="$class_ability_base.xhtml" title="Base class for all the Ability_Instanciable prefab scripts." alt="" coords="192,31,280,57"/>
 <area shape="rect" id="node5" href="$class_ability_cooldown.xhtml" title=" " alt="" coords="179,81,293,108"/>
 <area shape="rect" id="node6" href="$class_ability_display.xhtml" title=" " alt="" coords="185,132,287,159"/>
 <area shape="rect" id="node7" href="$class_ability_indicator.xhtml" title=" " alt="" coords="183,183,289,209"/>
