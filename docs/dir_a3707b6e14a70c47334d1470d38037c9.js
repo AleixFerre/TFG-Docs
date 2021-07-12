@@ -3,6 +3,9 @@ var dir_a3707b6e14a70c47334d1470d38037c9 =
     [ "AbilityAffectedStats.cs", "_ability_affected_stats_8cs.xhtml", [
       [ "AbilityAffectedStats", "class_ability_affected_stats.xhtml", null ]
     ] ],
+    [ "Drop.cs", "_drop_8cs.xhtml", [
+      [ "Drop", "class_drop.xhtml", "class_drop" ]
+    ] ],
     [ "Singleton.cs", "_singleton_8cs.xhtml", [
       [ "Singleton", "class_singleton.xhtml", "class_singleton" ]
     ] ],

@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_ability.xhtml" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="class_ability.xhtml" target="_top" xlink:title="Base abstract class for an Ability.">
 <polygon fill="white" stroke="black" points="33,-112.5 33,-131.5 77,-131.5 77,-112.5 33,-112.5"/>
 <text text-anchor="middle" x="55" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability</text>
 </a>

@@ -6,5 +6,6 @@ var class_ability_base =
     [ "ability", "class_ability_base.xhtml#ac6afeb0d3794cff4b8faa4712b809a33", null ],
     [ "abilityCollider", "class_ability_base.xhtml#a1a2c506044424e38997901d7bdadd78d", null ],
     [ "stats", "class_ability_base.xhtml#a05fe611c6aaede49ae80211d91b1ff82", null ],
-    [ "toEnemyEffects", "class_ability_base.xhtml#a7127c1b928bad15a7bc17f90e963779b", null ]
+    [ "toEnemyEffects", "class_ability_base.xhtml#a7127c1b928bad15a7bc17f90e963779b", null ],
+    [ "view", "class_ability_base.xhtml#a18cc52199b0ef819cc1a1241889e65a9", null ]
 ];

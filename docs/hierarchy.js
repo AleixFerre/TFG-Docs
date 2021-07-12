@@ -1,5 +1,7 @@
 var hierarchy =
 [
+    [ "GenericDictionary< FloatStatistic, float >", "class_generic_dictionary.xhtml", null ],
+    [ "GenericDictionary< IntStatistic, int >", "class_generic_dictionary.xhtml", null ],
     [ "IDictionary", null, [
       [ "GenericDictionary< TKey, TValue >", "class_generic_dictionary.xhtml", null ]
     ] ],
@@ -20,8 +22,14 @@ var hierarchy =
       [ "BasicAttack", "class_basic_attack.xhtml", null ],
       [ "Billboard", "class_billboard.xhtml", null ],
       [ "ConnectionManager", "class_connection_manager.xhtml", null ],
+      [ "Drop", "class_drop.xhtml", [
+        [ "Coin", "class_coin.xhtml", null ],
+        [ "Diamond", "class_diamond.xhtml", null ],
+        [ "Heart", "class_heart.xhtml", null ]
+      ] ],
       [ "EffectManager", "class_effect_manager.xhtml", null ],
       [ "Inventory", "class_inventory.xhtml", null ],
+      [ "LoadingCanvas", "class_loading_canvas.xhtml", null ],
       [ "Mannequin", "class_mannequin.xhtml", null ],
       [ "ModelPlayerMediator", "class_model_player_mediator.xhtml", null ],
       [ "ModelSync", "class_model_sync.xhtml", null ],
@@ -75,7 +83,8 @@ var hierarchy =
         [ "TimedEffect", "class_timed_effect.xhtml", [
           [ "StatisticChangeEffect", "class_statistic_change_effect.xhtml", null ]
         ] ]
-      ] ]
+      ] ],
+      [ "Item", "class_item.xhtml", null ]
     ] ],
     [ "SettingsData", "class_settings_data.xhtml", null ],
     [ "Singleton< GameController >", "class_singleton.xhtml", [

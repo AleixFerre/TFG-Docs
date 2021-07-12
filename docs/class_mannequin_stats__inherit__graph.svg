@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_ability_affected_stats.xhtml" target="_top" xlink:title="Base class Stats of the entity who is affected by Abilities.">
+<g id="a_node3"><a xlink:href="class_ability_affected_stats.xhtml" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-112.5 0,-131.5 102,-131.5 102,-112.5 0,-112.5"/>
 <text text-anchor="middle" x="51" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityAffectedStats</text>
 </a>

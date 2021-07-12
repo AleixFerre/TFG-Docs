@@ -104,7 +104,7 @@ Diagrama d'Herència per a GameController:</div>
 <div class="dynheader">
 Diagrama de col·laboració per a GameController:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_game_controller__coll__graph.svg" width="576" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_game_controller__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.xhtml">llegenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -138,6 +138,8 @@ Atributs Públics</h2></td></tr>
 Mètodes Privats</h2></td></tr>
 <tr class="memitem:a97788a7aa0f09c8d748781683e5f045b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.xhtml#a97788a7aa0f09c8d748781683e5f045b">Start</a> ()</td></tr>
 <tr class="separator:a97788a7aa0f09c8d748781683e5f045b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53dd14ae7871deb35e9a7e877a370278"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.xhtml#a53dd14ae7871deb35e9a7e877a370278">ReadyRPC</a> ()</td></tr>
+<tr class="separator:a53dd14ae7871deb35e9a7e877a370278"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Atributs Privats</h2></td></tr>
@@ -147,6 +149,12 @@ Atributs Privats</h2></td></tr>
 <tr class="separator:a045756a191baa7e90ca55768cf2279f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8ea71e14ecfce079f8e01fe785c45fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character.xhtml">Character</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.xhtml#ae8ea71e14ecfce079f8e01fe785c45fd">characters</a></td></tr>
 <tr class="separator:ae8ea71e14ecfce079f8e01fe785c45fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70c89460d73e18bc491eaaa99f41b3c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_loading_canvas.xhtml">LoadingCanvas</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.xhtml#a70c89460d73e18bc491eaaa99f41b3c4">loadingCanvas</a></td></tr>
+<tr class="separator:a70c89460d73e18bc491eaaa99f41b3c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db056edd4ce25aa04feee11214cf911"><td class="memItemLeft" align="right" valign="top">PhotonView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.xhtml#a2db056edd4ce25aa04feee11214cf911">view</a></td></tr>
+<tr class="separator:a2db056edd4ce25aa04feee11214cf911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fbcde76fdaac310854ce370b452e78e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.xhtml#a3fbcde76fdaac310854ce370b452e78e">readyCount</a> = 0</td></tr>
+<tr class="separator:a3fbcde76fdaac310854ce370b452e78e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -275,6 +283,31 @@ Gràfic de crides d'aquesta funció:</div>
 
 </div>
 </div>
+<a id="a53dd14ae7871deb35e9a7e877a370278"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53dd14ae7871deb35e9a7e877a370278">&#9670;&nbsp;</a></span>ReadyRPC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameController.ReadyRPC </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a97788a7aa0f09c8d748781683e5f045b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97788a7aa0f09c8d748781683e5f045b">&#9670;&nbsp;</a></span>Start()</h2>
 
@@ -359,6 +392,28 @@ Gràfic de crides d'aquesta funció:</div>
 
 </div>
 </div>
+<a id="a70c89460d73e18bc491eaaa99f41b3c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70c89460d73e18bc491eaaa99f41b3c4">&#9670;&nbsp;</a></span>loadingCanvas</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_loading_canvas.xhtml">LoadingCanvas</a> GameController.loadingCanvas</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af6eeca3f92392f4947f6ac65ded3f480"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6eeca3f92392f4947f6ac65ded3f480">&#9670;&nbsp;</a></span>mapElementsUis</h2>
 
@@ -409,6 +464,28 @@ Gràfic de crides d'aquesta funció:</div>
 
 </div>
 </div>
+<a id="a3fbcde76fdaac310854ce370b452e78e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fbcde76fdaac310854ce370b452e78e">&#9670;&nbsp;</a></span>readyCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameController.readyCount = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a84a9bfa0bd792c3db18f53b9b4bc3c29"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a84a9bfa0bd792c3db18f53b9b4bc3c29">&#9670;&nbsp;</a></span>redSpawn</h2>
 
@@ -423,6 +500,28 @@ Gràfic de crides d'aquesta funció:</div>
 
 </div>
 </div>
+<a id="a2db056edd4ce25aa04feee11214cf911"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2db056edd4ce25aa04feee11214cf911">&#9670;&nbsp;</a></span>view</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhotonView GameController.view</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
 <li>F:/Unity Projects/Treball de Fi de Grau/Assets/Scripts/Game/<a class="el" href="_game_controller_8cs.xhtml">GameController.cs</a></li>
 </ul>
@@ -432,7 +531,7 @@ Gràfic de crides d'aquesta funció:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_game_controller.xhtml">GameController</a></li>
-    <li class="footer">Generat a Dg Jul 4 2021 08:20:40 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generat a Dl Jul 12 2021 23:58:37 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

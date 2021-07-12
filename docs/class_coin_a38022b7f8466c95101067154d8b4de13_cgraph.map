@@ -1,0 +1,5 @@
+<map id="Coin.OnTriggerEnter" name="Coin.OnTriggerEnter">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$class_inventory.xhtml#a154fe342bac27ad9f38a79da5c770d39" title=" " alt="" coords="192,5,319,32"/>
+<area shape="rect" id="node3" href="$class_inventory.xhtml#ae56202c0e352ca286b9ed6e42603f10b" title=" " alt="" coords="367,5,529,32"/>
+</map>

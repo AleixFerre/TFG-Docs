@@ -1,19 +1,22 @@
 <map id="ModelPlayerMediator" name="ModelPlayerMediator">
-<area shape="rect" id="node1" title=" " alt="" coords="355,373,499,400"/>
-<area shape="rect" id="node2" title=" " alt="" coords="371,81,482,108"/>
-<area shape="rect" id="node3" href="$class_basic_attack.xhtml" title=" " alt="" coords="504,272,597,299"/>
-<area shape="rect" id="node4" href="$class_player_controller.xhtml" title="Player Controller is the main class that handles all the movement of the Player." alt="" coords="620,373,735,400"/>
-<area shape="rect" id="node5" href="$class_ability_cooldown.xhtml" title=" " alt="" coords="684,552,799,579"/>
-<area shape="rect" id="node9" href="$class_ability_indicator.xhtml" title=" " alt="" coords="688,641,795,668"/>
-<area shape="rect" id="node13" href="$class_stats.xhtml" title="Base class Stats of the entity." alt="" coords="447,171,500,197"/>
-<area shape="rect" id="node15" href="$class_u_i_controller.xhtml" title=" " alt="" coords="253,171,342,197"/>
-<area shape="rect" id="node16" href="$class_inventory.xhtml" title=" " alt="" coords="87,221,161,248"/>
-<area shape="rect" id="node11" href="$class_player_stats.xhtml" title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut..." alt="" coords="407,463,497,489"/>
-<area shape="rect" id="node6" href="$class_ability.xhtml" title=" " alt="" coords="955,171,1013,197"/>
-<area shape="rect" id="node10" href="$class_indicated_ability.xhtml" title="Encapsulador de les Ability que han de mostrar l&#39;indicador" alt="" coords="1053,272,1163,299"/>
-<area shape="rect" id="node17" href="$class_character.xhtml" title=" " alt="" coords="811,272,890,299"/>
-<area shape="rect" id="node7" title=" " alt="" coords="878,5,997,32"/>
-<area shape="rect" id="node8" href="$class_effect.xhtml" title="Abstract base info container class for an Effect." alt="" coords="975,81,1030,108"/>
-<area shape="rect" id="node12" href="$class_ability_affected_stats.xhtml" title="Base class Stats of the entity who is affected by Abilities." alt="" coords="253,323,389,349"/>
-<area shape="rect" id="node14" href="$class_player_u_i_controller.xhtml" title="UI Controller for the Player Stats" alt="" coords="119,323,246,349"/>
+<area shape="rect" id="node1" title=" " alt="" coords="391,389,535,416"/>
+<area shape="rect" id="node2" title=" " alt="" coords="394,109,505,136"/>
+<area shape="rect" id="node3" href="$class_basic_attack.xhtml" title=" " alt="" coords="621,288,715,315"/>
+<area shape="rect" id="node4" href="$class_player_controller.xhtml" title="Player Controller is the main class that handles all the movement of the Player." alt="" coords="568,389,683,416"/>
+<area shape="rect" id="node5" href="$class_ability_cooldown.xhtml" title=" " alt="" coords="645,568,760,595"/>
+<area shape="rect" id="node9" href="$class_ability_indicator.xhtml" title=" " alt="" coords="649,657,756,684"/>
+<area shape="rect" id="node13" href="$class_stats.xhtml" title="Base class Stats of the entity." alt="" coords="461,199,515,225"/>
+<area shape="rect" id="node15" href="$class_u_i_controller.xhtml" title=" " alt="" coords="225,199,314,225"/>
+<area shape="rect" id="node16" href="$class_inventory.xhtml" title=" " alt="" coords="115,568,189,595"/>
+<area shape="rect" id="node11" href="$class_player_stats.xhtml" title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut..." alt="" coords="360,479,451,505"/>
+<area shape="rect" id="node6" href="$class_ability.xhtml" title="Base abstract class for an Ability." alt="" coords="923,199,981,225"/>
+<area shape="rect" id="node10" href="$class_indicated_ability.xhtml" title="Encapsulador de les Ability que han de mostrar l&#39;indicador" alt="" coords="1009,288,1119,315"/>
+<area shape="rect" id="node20" href="$class_character.xhtml" title=" " alt="" coords="845,288,923,315"/>
+<area shape="rect" id="node7" title=" " alt="" coords="823,13,942,39"/>
+<area shape="rect" id="node8" href="$class_effect.xhtml" title="Abstract base info container class for an Effect." alt="" coords="946,109,1001,136"/>
+<area shape="rect" id="node17" href="$class_item.xhtml" title="Base class for an Item" alt="" coords="171,109,218,136"/>
+<area shape="rect" id="node12" href="$class_ability_affected_stats.xhtml" title=" " alt="" coords="268,339,404,365"/>
+<area shape="rect" id="node14" href="$class_player_u_i_controller.xhtml" title="UI Controller for the Player Stats" alt="" coords="134,339,261,365"/>
+<area shape="rect" id="node18" href="$class_generic_dictionary.xhtml" title=" " alt="" coords="47,5,180,47"/>
+<area shape="rect" id="node19" href="$class_generic_dictionary.xhtml" title=" " alt="" coords="204,5,351,47"/>
 </map>

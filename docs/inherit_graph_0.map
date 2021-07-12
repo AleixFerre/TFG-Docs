@@ -1,8 +1,9 @@
 <map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
-<area shape="rect" id="node1" title=" " alt="" coords="5,208,124,235"/>
-<area shape="rect" id="node2" href="$class_ability.xhtml" title=" " alt="" coords="182,157,241,184"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,233,124,260"/>
+<area shape="rect" id="node2" href="$class_ability.xhtml" title="Base abstract class for an Ability." alt="" coords="182,157,241,184"/>
 <area shape="rect" id="node9" href="$class_character.xhtml" title=" " alt="" coords="172,208,251,235"/>
 <area shape="rect" id="node10" href="$class_effect.xhtml" title="Abstract base info container class for an Effect." alt="" coords="184,259,239,285"/>
+<area shape="rect" id="node16" href="$class_item.xhtml" title="Base class for an Item" alt="" coords="188,309,235,336"/>
 <area shape="rect" id="node3" href="$class_indicated_ability.xhtml" title="Encapsulador de les Ability que han de mostrar l&#39;indicador" alt="" coords="310,81,421,108"/>
 <area shape="rect" id="node7" href="$class_non_indicated_ability.xhtml" title="Encapsulador de les Ability que NO han de mostrar cap indicador." alt="" coords="299,157,432,184"/>
 <area shape="rect" id="node4" href="$class_ability___dash.xhtml" title=" " alt="" coords="506,5,601,32"/>

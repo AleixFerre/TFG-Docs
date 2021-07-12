@@ -3,8 +3,17 @@ var dir_b7496194a4578d98d0695316e294b4c8 =
     [ "Base", "dir_a3707b6e14a70c47334d1470d38037c9.xhtml", "dir_a3707b6e14a70c47334d1470d38037c9" ],
     [ "Minion", "dir_88a426e54272566848ad4c1f16de8ad1.xhtml", "dir_88a426e54272566848ad4c1f16de8ad1" ],
     [ "Nexus", "dir_bd5069f52274bfe6f42c3cbf7432c759.xhtml", "dir_bd5069f52274bfe6f42c3cbf7432c759" ],
+    [ "Coin.cs", "_coin_8cs.xhtml", [
+      [ "Coin", "class_coin.xhtml", "class_coin" ]
+    ] ],
+    [ "Diamond.cs", "_diamond_8cs.xhtml", [
+      [ "Diamond", "class_diamond.xhtml", "class_diamond" ]
+    ] ],
     [ "GameController.cs", "_game_controller_8cs.xhtml", [
       [ "GameController", "class_game_controller.xhtml", "class_game_controller" ]
+    ] ],
+    [ "Heart.cs", "_heart_8cs.xhtml", [
+      [ "Heart", "class_heart.xhtml", "class_heart" ]
     ] ],
     [ "Mannequin.cs", "_mannequin_8cs.xhtml", [
       [ "Mannequin", "class_mannequin.xhtml", "class_mannequin" ]

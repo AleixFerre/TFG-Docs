@@ -1,6 +1,6 @@
 <map id="MinionStats" name="MinionStats">
 <area shape="rect" id="node1" title=" " alt="" coords="105,247,196,273"/>
-<area shape="rect" id="node2" href="$class_ability_affected_stats.xhtml" title="Base class Stats of the entity who is affected by Abilities." alt="" coords="5,157,141,184"/>
+<area shape="rect" id="node2" href="$class_ability_affected_stats.xhtml" title=" " alt="" coords="5,157,141,184"/>
 <area shape="rect" id="node3" href="$class_stats.xhtml" title="Base class Stats of the entity." alt="" coords="91,81,144,108"/>
 <area shape="rect" id="node4" title=" " alt="" coords="109,5,219,32"/>
 <area shape="rect" id="node6" href="$class_u_i_controller.xhtml" title=" " alt="" coords="177,81,266,108"/>

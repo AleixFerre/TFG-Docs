@@ -1,8 +1,7 @@
 <map id="PlayerStats.Heal" name="PlayerStats.Heal">
-<area shape="rect" id="node1" title=" " alt="" coords="472,81,592,108"/>
-<area shape="rect" id="node2" href="$class_heal_effect.xhtml#a1fd5ade7d7cc3f788c73a7452fb795a7" title=" " alt="" coords="271,5,401,32"/>
-<area shape="rect" id="node3" href="$class_heal_relative_effect.xhtml#ad97460dd2df0392b50c0110b2ad66866" title=" " alt="" coords="248,56,424,83"/>
-<area shape="rect" id="node4" href="$class_mannequin_stats.xhtml#a8bd8eed182eccafe2a9f3a2764e82dc3" title="Function that implements what is done when this entity dies." alt="" coords="267,107,405,133"/>
-<area shape="rect" id="node5" href="$class_player_stats.xhtml#a5caca2bd8f676341a2b269aea8a0f1ff" title="Function that implements what is done when this entity dies." alt="" coords="279,157,393,184"/>
-<area shape="rect" id="node6" href="$class_player_stats.xhtml#a6542a649dfb0cccc9fe329c83024e3ed" title=" " alt="" coords="5,157,200,184"/>
+<area shape="rect" id="node1" title=" " alt="" coords="229,81,349,108"/>
+<area shape="rect" id="node2" href="$class_heal_effect.xhtml#a1fd5ade7d7cc3f788c73a7452fb795a7" title=" " alt="" coords="28,5,159,32"/>
+<area shape="rect" id="node3" href="$class_heal_relative_effect.xhtml#ad97460dd2df0392b50c0110b2ad66866" title=" " alt="" coords="5,56,181,83"/>
+<area shape="rect" id="node4" href="$class_mannequin_stats.xhtml#a8bd8eed182eccafe2a9f3a2764e82dc3" title="Function that implements what is done when this entity dies." alt="" coords="24,107,163,133"/>
+<area shape="rect" id="node5" href="$class_heart.xhtml#a0fe409e888708ccf6fa062c07feca68c" title=" " alt="" coords="21,157,165,184"/>
 </map>

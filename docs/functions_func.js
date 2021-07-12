@@ -13,9 +13,11 @@ var functions_func =
     [ "k", "functions_func_k.xhtml", null ],
     [ "l", "functions_func_l.xhtml", null ],
     [ "m", "functions_func_m.xhtml", null ],
+    [ "n", "functions_func_n.xhtml", null ],
     [ "o", "functions_func_o.xhtml", null ],
     [ "r", "functions_func_r.xhtml", null ],
     [ "s", "functions_func_s.xhtml", null ],
     [ "t", "functions_func_t.xhtml", null ],
-    [ "u", "functions_func_u.xhtml", null ]
+    [ "u", "functions_func_u.xhtml", null ],
+    [ "w", "functions_func_w.xhtml", null ]
 ];

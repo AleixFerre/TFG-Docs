@@ -1,5 +1,5 @@
 <map id="Ability" name="Ability">
-<area shape="rect" id="node1" title=" " alt="" coords="318,80,377,107"/>
+<area shape="rect" id="node1" title="Base abstract class for an Ability." alt="" coords="318,80,377,107"/>
 <area shape="rect" id="node3" href="$class_indicated_ability.xhtml" title="Encapsulador de les Ability que han de mostrar l&#39;indicador" alt="" coords="219,155,329,181"/>
 <area shape="rect" id="node7" href="$class_non_indicated_ability.xhtml" title="Encapsulador de les Ability que NO han de mostrar cap indicador." alt="" coords="406,155,539,181"/>
 <area shape="rect" id="node2" title=" " alt="" coords="288,5,407,32"/>

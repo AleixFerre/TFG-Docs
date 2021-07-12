@@ -1,0 +1,7 @@
+<map id="Drop" name="Drop">
+<area shape="rect" id="node1" title=" " alt="" coords="90,80,139,107"/>
+<area shape="rect" id="node3" href="$class_coin.xhtml" title=" " alt="" coords="5,155,53,181"/>
+<area shape="rect" id="node4" href="$class_diamond.xhtml" title=" " alt="" coords="78,155,151,181"/>
+<area shape="rect" id="node5" href="$class_heart.xhtml" title=" " alt="" coords="176,155,229,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="59,5,170,32"/>
+</map>

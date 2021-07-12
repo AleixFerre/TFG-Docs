@@ -98,7 +98,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_ability.xhtml" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="class_ability.xhtml" target="_top" xlink:title="Base abstract class for an Ability.">
 <polygon fill="white" stroke="black" points="305.5,-134.5 305.5,-153.5 349.5,-153.5 349.5,-134.5 305.5,-134.5"/>
 <text text-anchor="middle" x="327.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability</text>
 </a>

@@ -1,4 +1,4 @@
 <map id="PressAnyKey" name="PressAnyKey">
-<area shape="rect" id="node1" title=" " alt="" coords="9,80,112,107"/>
+<area shape="rect" id="node1" title="Detects when the player pressed any key and connects to the server accordingly." alt="" coords="9,80,112,107"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,5,116,32"/>
 </map>

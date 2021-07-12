@@ -8,6 +8,7 @@ var class_character =
     [ "cDescription", "class_character.xhtml#a9142928af68a13afb61caa75d527953e", null ],
     [ "cName", "class_character.xhtml#aaf0d87db5c7b3dea8c8830dac5bab557", null ],
     [ "index", "class_character.xhtml#abba3015859162f8542beb3895471404c", null ],
+    [ "loadingSprite", "class_character.xhtml#ad51fb5b8ea5a243810c4d6dfccdb5996", null ],
     [ "lobbyPrefab", "class_character.xhtml#a5c6dd9ae6fb12d61d152984a90a9dd25", null ],
     [ "prefab", "class_character.xhtml#aee663336fca28117de2c96cd3313f1c0", null ],
     [ "rangedInstancePosition", "class_character.xhtml#a12e64502986f50567f93acf20ac177f8", null ],

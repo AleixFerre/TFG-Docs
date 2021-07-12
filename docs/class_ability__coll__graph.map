@@ -1,5 +1,5 @@
 <map id="Ability" name="Ability">
-<area shape="rect" id="node1" title=" " alt="" coords="41,171,99,197"/>
+<area shape="rect" id="node1" title="Base abstract class for an Ability." alt="" coords="41,171,99,197"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,5,124,32"/>
 <area shape="rect" id="node3" href="$class_effect.xhtml" title="Abstract base info container class for an Effect." alt="" coords="87,81,141,108"/>
 </map>

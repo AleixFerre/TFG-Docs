@@ -1,6 +1,6 @@
 <map id="Ability_Dash" name="Ability_Dash">
 <area shape="rect" id="node1" title=" " alt="" coords="17,229,112,256"/>
 <area shape="rect" id="node2" href="$class_indicated_ability.xhtml" title="Encapsulador de les Ability que han de mostrar l&#39;indicador" alt="" coords="9,155,120,181"/>
-<area shape="rect" id="node3" href="$class_ability.xhtml" title=" " alt="" coords="35,80,94,107"/>
+<area shape="rect" id="node3" href="$class_ability.xhtml" title="Base abstract class for an Ability." alt="" coords="35,80,94,107"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,5,124,32"/>
 </map>

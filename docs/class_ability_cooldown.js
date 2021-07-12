@@ -8,6 +8,7 @@ var class_ability_cooldown =
     [ "HaveEnoughMana", "class_ability_cooldown.xhtml#a9f4046c2417cda8738a77106358ce040", null ],
     [ "HideIndicator", "class_ability_cooldown.xhtml#af8f6b0ae57a0c25c6027f9269a2a9410", null ],
     [ "Initialize", "class_ability_cooldown.xhtml#aa01c150ac26f1694a1e174e152510094", null ],
+    [ "NoMana", "class_ability_cooldown.xhtml#aca97417bd3c318ff056c719c93d8d274", null ],
     [ "OnFinishAbility", "class_ability_cooldown.xhtml#abe17348393bdde47c5aef87b5311593c", null ],
     [ "ShowAbilityBlocked", "class_ability_cooldown.xhtml#a15cd69b317b3a4833e7e66a35ef6e523", null ],
     [ "ShowIndicator", "class_ability_cooldown.xhtml#a5dfde2821833d8817ac2f1b33c65a473", null ],

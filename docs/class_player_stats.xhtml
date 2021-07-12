@@ -120,6 +120,8 @@ Mètodes públics</h2></td></tr>
 <tr class="separator:a647f9b1d02b99a9f35a69f10e9982208"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac8ad79b07db35d0a9873217c992d787"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#aac8ad79b07db35d0a9873217c992d787">SpendMana</a> (int amount)</td></tr>
 <tr class="separator:aac8ad79b07db35d0a9873217c992d787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d05b6ec32ee2a10f700a57ac7342340"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#a8d05b6ec32ee2a10f700a57ac7342340">RegenMana</a> (int amount)</td></tr>
+<tr class="separator:a8d05b6ec32ee2a10f700a57ac7342340"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33b723f51a189f34d473f1e98ac57aa0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#a33b723f51a189f34d473f1e98ac57aa0">Dash</a> (float distance, float time, Vector3 lookAt)</td></tr>
 <tr class="separator:a33b723f51a189f34d473f1e98ac57aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a458a138dd67acf0dc36b82c559a2ee40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#a458a138dd67acf0dc36b82c559a2ee40">ApplyStatistic</a> (<a class="el" href="_statistic_8cs.xhtml#ab362e551ad848252fd64a6e5dc98e92b">IntStatistic</a> statistic, int amount)</td></tr>
@@ -168,6 +170,8 @@ Mètodes Protegits</h2></td></tr>
 <tr class="separator:a5caca2bd8f676341a2b269aea8a0f1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb29a13d34d6e2880a34d67340b8b74a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#adb29a13d34d6e2880a34d67340b8b74a">SpendManaRPC</a> (int amount)</td></tr>
 <tr class="separator:adb29a13d34d6e2880a34d67340b8b74a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0348bfd846a1fb5122239414e9ec558b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#a0348bfd846a1fb5122239414e9ec558b">RegenManaRPC</a> (int amount)</td></tr>
+<tr class="separator:a0348bfd846a1fb5122239414e9ec558b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Atributs Protegits</h2></td></tr>
@@ -183,6 +187,8 @@ Atributs Protegits</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Mètodes Privats</h2></td></tr>
+<tr class="memitem:a27fb46ca044608f34db45eb95ac16b4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#a27fb46ca044608f34db45eb95ac16b4c">Respawn</a> ()</td></tr>
+<tr class="separator:a27fb46ca044608f34db45eb95ac16b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4df625156bb2ae99262e81b28346ccb4"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#a4df625156bb2ae99262e81b28346ccb4">BlockAbilityForSeconds</a> (float seconds, int index)</td></tr>
 <tr class="separator:a4df625156bb2ae99262e81b28346ccb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12436c563a621825a095f0fcbee67e74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ability_cooldown.xhtml">AbilityCooldown</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.xhtml#a12436c563a621825a095f0fcbee67e74">GetAbilityCooldown</a> (int index)</td></tr>
@@ -426,11 +432,6 @@ Gràfic de crides a aquesta funció:</div>
 <p>Specify the amount of damage and the <a class="el" href="class_inventory.xhtml">Inventory</a> that will go the Gold amount if last hitted.</p>
 
 <p>Implementa <a class="el" href="class_stats.xhtml#aa9240dd20efde8e97dc0a1917e432db7">Stats</a>.</p>
-<div class="dynheader">
-Gràfic de crides a aquesta funció:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a647f9b1d02b99a9f35a69f10e9982208_icgraph.svg" width="414" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
@@ -470,7 +471,7 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a6542a649dfb0cccc9fe329c83024e3ed_cgraph.svg" width="636" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_stats_a6542a649dfb0cccc9fe329c83024e3ed_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -504,7 +505,7 @@ Gràfic de crides d'aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a5caca2bd8f676341a2b269aea8a0f1ff_cgraph.svg" width="292" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_stats_a5caca2bd8f676341a2b269aea8a0f1ff_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
@@ -563,7 +564,8 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a95d085936404a6d0100b3780ec88edb4_icgraph.svg" width="598" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a95d085936404a6d0100b3780ec88edb4_icgraph.svg" width="355" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -595,6 +597,11 @@ Gràfic de crides a aquesta funció:</div>
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a07cb6a60391d769fea03f1bc3b6927c6_cgraph.svg" width="588" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_stats_a07cb6a60391d769fea03f1bc3b6927c6_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -647,6 +654,97 @@ Gràfic de crides d'aquesta funció:</div>
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_stats_a5e274804959d13db76f140e8efcf9411_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8d05b6ec32ee2a10f700a57ac7342340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d05b6ec32ee2a10f700a57ac7342340">&#9670;&nbsp;</a></span>RegenMana()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerStats.RegenMana </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>amount</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a8d05b6ec32ee2a10f700a57ac7342340_icgraph.svg" width="386" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a0348bfd846a1fb5122239414e9ec558b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0348bfd846a1fb5122239414e9ec558b">&#9670;&nbsp;</a></span>RegenManaRPC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerStats.RegenManaRPC </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>amount</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a0348bfd846a1fb5122239414e9ec558b_cgraph.svg" width="632" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a27fb46ca044608f34db45eb95ac16b4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27fb46ca044608f34db45eb95ac16b4c">&#9670;&nbsp;</a></span>Respawn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerStats.Respawn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_stats_a27fb46ca044608f34db45eb95ac16b4c_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a27fb46ca044608f34db45eb95ac16b4c_icgraph.svg" width="562" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -965,7 +1063,7 @@ Gràfic de crides d'aquesta funció:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_player_stats.xhtml">PlayerStats</a></li>
-    <li class="footer">Generat a Dg Jul 4 2021 08:20:44 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generat a Dl Jul 12 2021 23:58:44 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

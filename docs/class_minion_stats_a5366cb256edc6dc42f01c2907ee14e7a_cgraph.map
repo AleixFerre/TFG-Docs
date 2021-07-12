@@ -1,0 +1,4 @@
+<map id="MinionStats.Die" name="MinionStats.Die">
+<area shape="rect" id="node1" title="Function that implements what is done when this entity dies." alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" href="$class_coin.xhtml#a6753fba05cc52b25199ea9e2bcff0de7" title="This method initializes the coin." alt="" coords="168,5,267,32"/>
+</map>
