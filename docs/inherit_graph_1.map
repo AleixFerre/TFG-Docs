@@ -25,18 +25,22 @@
 <area shape="rect" id="node29" href="$class_show_ping.xhtml" title=" " alt="" coords="196,1145,276,1172"/>
 <area shape="rect" id="node30" href="$class_singleton.xhtml" title="Singleton Base class." alt="" coords="183,1196,289,1223"/>
 <area shape="rect" id="node31" href="$class_stats.xhtml" title="Base class Stats of the entity." alt="" coords="209,1247,263,1273"/>
-<area shape="rect" id="node37" href="$class_u_i_controller.xhtml" title=" " alt="" coords="191,1323,281,1349"/>
-<area shape="rect" id="node3" href="$class_ability___lis1.xhtml" title=" " alt="" coords="379,5,469,32"/>
-<area shape="rect" id="node4" href="$class_ability___lis4.xhtml" title=" " alt="" coords="379,56,469,83"/>
-<area shape="rect" id="node14" href="$class_coin.xhtml" title=" " alt="" coords="400,436,448,463"/>
-<area shape="rect" id="node15" href="$class_diamond.xhtml" title=" " alt="" coords="387,487,461,513"/>
-<area shape="rect" id="node16" href="$class_heart.xhtml" title=" " alt="" coords="397,537,451,564"/>
-<area shape="rect" id="node32" href="$class_ability_affected_stats.xhtml" title=" " alt="" coords="356,1196,492,1223"/>
-<area shape="rect" id="node36" href="$class_nexus_stats.xhtml" title=" " alt="" coords="379,1247,469,1273"/>
-<area shape="rect" id="node33" href="$class_minion_stats.xhtml" title=" " alt="" coords="540,1171,631,1197"/>
-<area shape="rect" id="node34" href="$class_player_stats.xhtml" title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut..." alt="" coords="540,1221,631,1248"/>
-<area shape="rect" id="node35" href="$class_mannequin_stats.xhtml" title=" " alt="" coords="679,1221,795,1248"/>
-<area shape="rect" id="node38" href="$class_minion_u_i_controller.xhtml" title=" " alt="" coords="361,1297,487,1324"/>
-<area shape="rect" id="node39" href="$class_nexus_u_i_controller.xhtml" title=" " alt="" coords="361,1348,487,1375"/>
-<area shape="rect" id="node40" href="$class_player_u_i_controller.xhtml" title="UI Controller for the Player Stats" alt="" coords="361,1399,487,1425"/>
+<area shape="rect" id="node39" href="$class_u_i_controller.xhtml" title=" " alt="" coords="191,1323,281,1349"/>
+<area shape="rect" id="node3" href="$class_ability___lis1.xhtml" title=" " alt="" coords="383,5,472,32"/>
+<area shape="rect" id="node4" href="$class_ability___lis4.xhtml" title=" " alt="" coords="383,56,472,83"/>
+<area shape="rect" id="node14" href="$class_coin.xhtml" title=" " alt="" coords="403,436,451,463"/>
+<area shape="rect" id="node15" href="$class_diamond.xhtml" title=" " alt="" coords="391,487,464,513"/>
+<area shape="rect" id="node16" href="$class_heart.xhtml" title=" " alt="" coords="401,537,454,564"/>
+<area shape="rect" id="node32" href="$class_ability_affected_stats.xhtml" title=" " alt="" coords="359,1196,495,1223"/>
+<area shape="rect" id="node36" href="$class_structure_stats.xhtml" title=" " alt="" coords="374,1247,481,1273"/>
+<area shape="rect" id="node33" href="$class_minion_stats.xhtml" title=" " alt="" coords="565,1145,655,1172"/>
+<area shape="rect" id="node34" href="$class_player_stats.xhtml" title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut..." alt="" coords="565,1196,655,1223"/>
+<area shape="rect" id="node35" href="$class_mannequin_stats.xhtml" title=" " alt="" coords="721,1196,837,1223"/>
+<area shape="rect" id="node37" href="$class_nexus_stats.xhtml" title=" " alt="" coords="565,1247,655,1273"/>
+<area shape="rect" id="node38" href="$class_turret_stats.xhtml" title=" " alt="" coords="567,1297,653,1324"/>
+<area shape="rect" id="node40" href="$class_minion_u_i_controller.xhtml" title=" " alt="" coords="364,1297,491,1324"/>
+<area shape="rect" id="node41" href="$class_player_u_i_controller.xhtml" title="UI Controller for the Player Stats" alt="" coords="364,1348,491,1375"/>
+<area shape="rect" id="node42" href="$class_structure_u_i_controller.xhtml" title=" " alt="" coords="356,1399,499,1425"/>
+<area shape="rect" id="node43" href="$class_nexus_u_i_controller.xhtml" title=" " alt="" coords="547,1373,673,1400"/>
+<area shape="rect" id="node44" href="$class_turret_u_i_controller.xhtml" title=" " alt="" coords="549,1424,671,1451"/>
 </map>

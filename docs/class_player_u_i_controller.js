@@ -1,6 +1,7 @@
 var class_player_u_i_controller =
 [
     [ "Initalize", "class_player_u_i_controller.xhtml#ab6ed746dec17fdf763bc4ec1d713db7f", null ],
+    [ "InitializeColors", "class_player_u_i_controller.xhtml#a4ded39e7d1585b167b8efaf088a3fe0a", null ],
     [ "InitializeValues", "class_player_u_i_controller.xhtml#aa5b61a93967fa5ce39bfd950a9e9d584", null ],
     [ "Update", "class_player_u_i_controller.xhtml#a2b991a5655ece50dd9fd3606af67d6cf", null ],
     [ "UpdateCurrentHP", "class_player_u_i_controller.xhtml#aca577b724c1f3f2ed54ad1165a7842c2", null ],

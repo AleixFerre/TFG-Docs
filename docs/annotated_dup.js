@@ -44,7 +44,7 @@ var annotated_dup =
     [ "ModelPlayerMediator", "class_model_player_mediator.xhtml", "class_model_player_mediator" ],
     [ "ModelSync", "class_model_sync.xhtml", "class_model_sync" ],
     [ "NexusStats", "class_nexus_stats.xhtml", "class_nexus_stats" ],
-    [ "NexusUIController", "class_nexus_u_i_controller.xhtml", "class_nexus_u_i_controller" ],
+    [ "NexusUIController", "class_nexus_u_i_controller.xhtml", null ],
     [ "NonIndicatedAbility", "class_non_indicated_ability.xhtml", null ],
     [ "OptionsMenu", "class_options_menu.xhtml", "class_options_menu" ],
     [ "PlayerController", "class_player_controller.xhtml", "class_player_controller" ],
@@ -60,6 +60,10 @@ var annotated_dup =
     [ "Singleton", "class_singleton.xhtml", "class_singleton" ],
     [ "StatisticChangeEffect", "class_statistic_change_effect.xhtml", "class_statistic_change_effect" ],
     [ "Stats", "class_stats.xhtml", "class_stats" ],
+    [ "StructureStats", "class_structure_stats.xhtml", "class_structure_stats" ],
+    [ "StructureUIController", "class_structure_u_i_controller.xhtml", "class_structure_u_i_controller" ],
     [ "TimedEffect", "class_timed_effect.xhtml", "class_timed_effect" ],
+    [ "TurretStats", "class_turret_stats.xhtml", "class_turret_stats" ],
+    [ "TurretUIController", "class_turret_u_i_controller.xhtml", "class_turret_u_i_controller" ],
     [ "UIController", "class_u_i_controller.xhtml", "class_u_i_controller" ]
 ];

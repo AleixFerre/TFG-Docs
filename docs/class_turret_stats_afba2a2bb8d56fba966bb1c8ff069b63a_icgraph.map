@@ -1,0 +1,4 @@
+<map id="TurretStats.Die" name="TurretStats.Die">
+<area shape="rect" id="node1" title="Function that implements what is done when this entity dies." alt="" coords="244,5,353,32"/>
+<area shape="rect" id="node2" href="$class_turret_stats.xhtml#abe52ad65a694702d44428b7a15447a39" title=" " alt="" coords="5,5,196,32"/>
+</map>

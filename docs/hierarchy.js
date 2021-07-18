@@ -48,12 +48,18 @@ var hierarchy =
             [ "MannequinStats", "class_mannequin_stats.xhtml", null ]
           ] ]
         ] ],
-        [ "NexusStats", "class_nexus_stats.xhtml", null ]
+        [ "StructureStats", "class_structure_stats.xhtml", [
+          [ "NexusStats", "class_nexus_stats.xhtml", null ],
+          [ "TurretStats", "class_turret_stats.xhtml", null ]
+        ] ]
       ] ],
       [ "UIController", "class_u_i_controller.xhtml", [
         [ "MinionUIController", "class_minion_u_i_controller.xhtml", null ],
-        [ "NexusUIController", "class_nexus_u_i_controller.xhtml", null ],
-        [ "PlayerUIController", "class_player_u_i_controller.xhtml", null ]
+        [ "PlayerUIController", "class_player_u_i_controller.xhtml", null ],
+        [ "StructureUIController", "class_structure_u_i_controller.xhtml", [
+          [ "NexusUIController", "class_nexus_u_i_controller.xhtml", null ],
+          [ "TurretUIController", "class_turret_u_i_controller.xhtml", null ]
+        ] ]
       ] ]
     ] ],
     [ "MonoBehaviourPunCallbacks", null, [
