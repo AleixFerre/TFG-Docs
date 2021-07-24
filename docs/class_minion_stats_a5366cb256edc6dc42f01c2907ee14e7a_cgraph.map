@@ -1,5 +1,5 @@
 <map id="MinionStats.Die" name="MinionStats.Die">
 <area shape="rect" id="node1" title="Function that implements what is done when this entity dies." alt="" coords="5,31,120,57"/>
 <area shape="rect" id="node2" href="$class_game_controller.html#a3284abf9985021d4e4936f90d858a7dd" title=" " alt="" coords="168,5,343,32"/>
-<area shape="rect" id="node3" href="$class_game_controller.html#a7e7ba340d852830acb4d6f1f172c248c" title="Get the current time in seconds from the game" alt="" coords="173,56,338,83"/>
+<area shape="rect" id="node3" href="$class_game_controller.html#a7e7ba340d852830acb4d6f1f172c248c" title="Get the current time in seconds from the start of the game" alt="" coords="173,56,338,83"/>
 </map>

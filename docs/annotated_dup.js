@@ -58,6 +58,7 @@ var annotated_dup =
     [ "PressAnyKey", "class_press_any_key.html", "class_press_any_key" ],
     [ "ProfilePanel", "class_profile_panel.html", "class_profile_panel" ],
     [ "RangedAttackFollow", "class_ranged_attack_follow.html", "class_ranged_attack_follow" ],
+    [ "RespawnCanvas", "class_respawn_canvas.html", "class_respawn_canvas" ],
     [ "SettingsData", "class_settings_data.html", null ],
     [ "ShowPing", "class_show_ping.html", "class_show_ping" ],
     [ "Singleton", "class_singleton.html", "class_singleton" ],
@@ -66,6 +67,8 @@ var annotated_dup =
     [ "StructureStats", "class_structure_stats.html", "class_structure_stats" ],
     [ "StructureUIController", "class_structure_u_i_controller.html", "class_structure_u_i_controller" ],
     [ "TimedEffect", "class_timed_effect.html", "class_timed_effect" ],
+    [ "TurretIndicator", "class_turret_indicator.html", "class_turret_indicator" ],
+    [ "TurretShooter", "class_turret_shooter.html", "class_turret_shooter" ],
     [ "TurretStats", "class_turret_stats.html", "class_turret_stats" ],
     [ "TurretUIController", "class_turret_u_i_controller.html", "class_turret_u_i_controller" ],
     [ "UIController", "class_u_i_controller.html", "class_u_i_controller" ]

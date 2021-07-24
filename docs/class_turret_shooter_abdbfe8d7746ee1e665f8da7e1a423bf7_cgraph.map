@@ -1,0 +1,4 @@
+<map id="TurretShooter.Shoot" name="TurretShooter.Shoot">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$class_ranged_attack_follow.html#a4552d59821a468e45dbcb0dd3d30db48" title=" " alt="" coords="192,5,393,32"/>
+</map>

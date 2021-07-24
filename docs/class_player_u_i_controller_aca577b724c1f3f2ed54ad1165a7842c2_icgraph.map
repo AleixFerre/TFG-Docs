@@ -1,9 +1,8 @@
 <map id="PlayerUIController.UpdateCurrentHP" name="PlayerUIController.UpdateCurrentHP">
-<area shape="rect" id="node1" title="Sets the current HP value to the Image." alt="" coords="799,23,969,65"/>
-<area shape="rect" id="node2" href="$class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed" title=" " alt="" coords="5,5,200,32"/>
-<area shape="rect" id="node3" href="$class_player_stats.html#a07cb6a60391d769fea03f1bc3b6927c6" title=" " alt="" coords="604,31,751,57"/>
-<area shape="rect" id="node6" href="$class_player_stats.html#a75c908d1b8c5eb0b414db7ab99ceab9e" title="Called whenever the player levels up." alt="" coords="608,81,747,108"/>
-<area shape="rect" id="node4" href="$class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" title=" " alt="" coords="409,31,556,57"/>
-<area shape="rect" id="node5" href="$class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff" title="Function that implements what is done when this entity dies." alt="" coords="248,31,361,57"/>
-<area shape="rect" id="node7" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="416,81,549,108"/>
+<area shape="rect" id="node1" title="Sets the current HP value to the Image." alt="" coords="443,49,613,90"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed" title=" " alt="" coords="200,5,395,32"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#a07cb6a60391d769fea03f1bc3b6927c6" title=" " alt="" coords="224,56,371,83"/>
+<area shape="rect" id="node5" href="$class_player_stats.html#a75c908d1b8c5eb0b414db7ab99ceab9e" title="Called whenever the player levels up." alt="" coords="228,107,367,133"/>
+<area shape="rect" id="node4" href="$class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" title=" " alt="" coords="5,56,152,83"/>
+<area shape="rect" id="node6" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="12,107,145,133"/>
 </map>

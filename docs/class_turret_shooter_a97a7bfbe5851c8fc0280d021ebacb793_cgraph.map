@@ -1,0 +1,5 @@
+<map id="TurretShooter.Update" name="TurretShooter.Update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,151,32"/>
+<area shape="rect" id="node2" href="$class_turret_shooter.html#abdbfe8d7746ee1e665f8da7e1a423bf7" title=" " alt="" coords="199,5,337,32"/>
+<area shape="rect" id="node3" href="$class_ranged_attack_follow.html#a4552d59821a468e45dbcb0dd3d30db48" title=" " alt="" coords="385,5,587,32"/>
+</map>

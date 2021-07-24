@@ -40,6 +40,7 @@ var hierarchy =
       [ "PressAnyKey", "class_press_any_key.html", null ],
       [ "ProfilePanel", "class_profile_panel.html", null ],
       [ "RangedAttackFollow", "class_ranged_attack_follow.html", null ],
+      [ "RespawnCanvas", "class_respawn_canvas.html", null ],
       [ "ShowPing", "class_show_ping.html", null ],
       [ "Singleton< T >", "class_singleton.html", null ],
       [ "Stats", "class_stats.html", [
@@ -54,6 +55,8 @@ var hierarchy =
           [ "TurretStats", "class_turret_stats.html", null ]
         ] ]
       ] ],
+      [ "TurretIndicator", "class_turret_indicator.html", null ],
+      [ "TurretShooter", "class_turret_shooter.html", null ],
       [ "UIController", "class_u_i_controller.html", [
         [ "MinionUIController", "class_minion_u_i_controller.html", null ],
         [ "PlayerUIController", "class_player_u_i_controller.html", null ],

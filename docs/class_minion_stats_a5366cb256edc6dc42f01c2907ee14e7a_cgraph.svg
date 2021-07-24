@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_game_controller.html#a7e7ba340d852830acb4d6f1f172c248c" target="_top" xlink:title="Get the current time in seconds from the game">
+<g id="a_node3"><a xlink:href="class_game_controller.html#a7e7ba340d852830acb4d6f1f172c248c" target="_top" xlink:title="Get the current time in seconds from the start of the game">
 <polygon fill="none" stroke="black" points="125.5,-0.5 125.5,-19.5 249.5,-19.5 249.5,-0.5 125.5,-0.5"/>
 <text text-anchor="middle" x="187.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameController.GetTime</text>
 </a>

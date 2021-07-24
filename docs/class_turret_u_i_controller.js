@@ -1,5 +1,6 @@
 var class_turret_u_i_controller =
 [
     [ "InitializeColors", "class_turret_u_i_controller.html#a33612c1e7e2da071dd41cc5ac4ad01be", null ],
-    [ "bannersRenderer", "class_turret_u_i_controller.html#a70e84c5eb145a8c33595434b0569e3f9", null ]
+    [ "bannersRenderer", "class_turret_u_i_controller.html#a70e84c5eb145a8c33595434b0569e3f9", null ],
+    [ "indicator", "class_turret_u_i_controller.html#a7c01c726a79b80cdaa24ffe70f937808", null ]
 ];

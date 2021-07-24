@@ -31,6 +31,7 @@ var class_player_stats =
     [ "coroutine", "class_player_stats.html#acbd6bd09e969f6a7ed285ae62a51d2d7", null ],
     [ "HPRegen", "class_player_stats.html#af3fa83eba983ec726f765bea588dada9", null ],
     [ "inventory", "class_player_stats.html#a13688e05f1cd83724ffa8ae871e3a907", null ],
+    [ "isDead", "class_player_stats.html#aa5901d03258d9cba73b2b966670e4ec7", null ],
     [ "lastHitted", "class_player_stats.html#adeabda75f79c106375fa9f0079e2bbd4", null ],
     [ "lastRegenTime", "class_player_stats.html#a7402c6f256fa7864bbb8b1f4a1a5c461", null ],
     [ "levelUpHPAdd", "class_player_stats.html#ae82b8bc3a6831407b519753ebcf2cce1", null ],
