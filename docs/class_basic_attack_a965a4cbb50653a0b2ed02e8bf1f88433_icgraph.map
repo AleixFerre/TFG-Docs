@@ -1,5 +1,5 @@
 <map id="BasicAttack.ResetState" name="BasicAttack.ResetState">
 <area shape="rect" id="node1" title=" " alt="" coords="236,42,399,69"/>
-<area shape="rect" id="node2" href="$class_model_player_mediator.xhtml#a67b1c82b4127b7d14e66c628fce73fb2" title=" " alt="" coords="5,5,188,47"/>
-<area shape="rect" id="node3" href="$class_basic_attack.xhtml#abfcbbc50cfd92e9ca75bd41a5ad17990" title=" " alt="" coords="27,71,166,98"/>
+<area shape="rect" id="node2" href="$class_model_player_mediator.html#a67b1c82b4127b7d14e66c628fce73fb2" title=" " alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node3" href="$class_basic_attack.html#abfcbbc50cfd92e9ca75bd41a5ad17990" title=" " alt="" coords="27,71,166,98"/>
 </map>

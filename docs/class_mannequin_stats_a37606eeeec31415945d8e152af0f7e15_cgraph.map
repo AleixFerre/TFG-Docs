@@ -1,7 +1,8 @@
 <map id="MannequinStats.Initialize" name="MannequinStats.Initialize">
-<area shape="rect" id="node1" title=" " alt="" coords="5,13,172,39"/>
-<area shape="rect" id="node2" href="$class_player_u_i_controller.xhtml#ab6ed746dec17fdf763bc4ec1d713db7f" title="Initializes all the values and colors for this Player." alt="" coords="220,13,395,39"/>
-<area shape="rect" id="node3" href="$class_player_u_i_controller.xhtml#aa5b61a93967fa5ce39bfd950a9e9d584" title="Initializes all the values into the Image and Text." alt="" coords="443,5,620,47"/>
-<area shape="rect" id="node4" href="$class_player_u_i_controller.xhtml#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="668,5,839,47"/>
-<area shape="rect" id="node5" href="$class_u_i_controller.xhtml#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="887,5,1051,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,172,73"/>
+<area shape="rect" id="node2" href="$class_player_u_i_controller.html#ab6ed746dec17fdf763bc4ec1d713db7f" title="Initializes all the values and colors for this Player." alt="" coords="220,46,395,73"/>
+<area shape="rect" id="node3" href="$class_player_u_i_controller.html#aa5b61a93967fa5ce39bfd950a9e9d584" title="Initializes all the values into the Image and Text." alt="" coords="443,39,620,80"/>
+<area shape="rect" id="node4" href="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" title="Sets the current level and xp to the Image." alt="" coords="668,5,839,47"/>
+<area shape="rect" id="node6" href="$class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="668,71,839,112"/>
+<area shape="rect" id="node5" href="$class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="887,39,1051,80"/>
 </map>

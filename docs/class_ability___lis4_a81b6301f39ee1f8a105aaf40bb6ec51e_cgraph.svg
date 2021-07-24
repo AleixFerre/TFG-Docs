@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 485.00 115.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 111.5)">
 <title>Ability_Lis4.Initialize</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-111.5 481,-111.5 481,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_ability___lis4.xhtml#abf66fa4ed9cc553dc8ab52d7bbd12406" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="141,-50 141,-69 295,-69 295,-50 141,-50"/>
+<g id="a_node2"><a xlink:href="class_ability___lis4.html#abf66fa4ed9cc553dc8ab52d7bbd12406" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="141,-50 141,-69 295,-69 295,-50 141,-50"/>
 <text text-anchor="middle" x="218" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_Lis4.DealDamageInTime</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_ability___lis4.xhtml#a49fb47c797c6d390a9ace1a12b54a994" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="156,-0.5 156,-30.5 280,-30.5 280,-0.5 156,-0.5"/>
+<g id="a_node6"><a xlink:href="class_ability___lis4.html#a49fb47c797c6d390a9ace1a12b54a994" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="156,-0.5 156,-30.5 280,-30.5 280,-0.5 156,-0.5"/>
 <text text-anchor="start" x="164" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_Lis4.DestroyWith</text>
 <text text-anchor="middle" x="218" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Delay</text>
 </a>
@@ -52,8 +51,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_ability_base.xhtml#a2def910c9621754a4e91d49ab5455af4" target="_top" xlink:title="Returns the calculated damage.">
-<polygon fill="white" stroke="black" points="331,-88 331,-107 477,-107 477,-88 331,-88"/>
+<g id="a_node3"><a xlink:href="class_ability_base.html#a2def910c9621754a4e91d49ab5455af4" target="_top" xlink:title="Returns the calculated damage.">
+<polygon fill="none" stroke="black" points="331,-88 331,-107 477,-107 477,-88 331,-88"/>
 <text text-anchor="middle" x="404" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityBase.CalculateDamage</text>
 </a>
 </g>
@@ -67,8 +66,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_stats.xhtml#aa9240dd20efde8e97dc0a1917e432db7" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="355,-50 355,-69 453,-69 453,-50 355,-50"/>
+<g id="a_node4"><a xlink:href="class_stats.html#aa9240dd20efde8e97dc0a1917e432db7" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="355,-50 355,-69 453,-69 453,-50 355,-50"/>
 <text text-anchor="middle" x="404" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">Stats.DealDamage</text>
 </a>
 </g>
@@ -82,8 +81,8 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_ability.xhtml#a548a250c44f3c230ac82ad28a6c78720" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="353.5,-12 353.5,-31 454.5,-31 454.5,-12 353.5,-12"/>
+<g id="a_node5"><a xlink:href="class_ability.html#a548a250c44f3c230ac82ad28a6c78720" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="353.5,-12 353.5,-31 454.5,-31 454.5,-12 353.5,-12"/>
 <text text-anchor="middle" x="404" y="-19" font-family="Helvetica,sans-Serif" font-size="10.00">Ability.GetTickTime</text>
 </a>
 </g>

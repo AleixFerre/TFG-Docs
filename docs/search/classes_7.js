@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['indicatedability_571',['IndicatedAbility',['../class_indicated_ability.xhtml',1,'']]],
-  ['instanteffect_572',['InstantEffect',['../class_instant_effect.xhtml',1,'']]],
-  ['inventory_573',['Inventory',['../class_inventory.xhtml',1,'']]],
-  ['item_574',['Item',['../class_item.xhtml',1,'']]]
+  ['indicatedability_598',['IndicatedAbility',['../class_indicated_ability.html',1,'']]],
+  ['instanteffect_599',['InstantEffect',['../class_instant_effect.html',1,'']]],
+  ['inventory_600',['Inventory',['../class_inventory.html',1,'']]],
+  ['item_601',['Item',['../class_item.html',1,'']]],
+  ['itemgroup_602',['ItemGroup',['../class_item_group.html',1,'']]]
 ];

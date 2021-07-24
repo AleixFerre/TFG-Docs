@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 471.00 85.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 81)">
 <title>Ability_PlayerRelative.TriggerAbility</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-81 467,-81 467,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,8 +21,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_ability___player_relative.xhtml#a7d92a8ec1e6591b4052b232a02a34cd3" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="179,-57.5 179,-76.5 328,-76.5 328,-57.5 179,-57.5"/>
+<g id="a_node2"><a xlink:href="class_ability___player_relative.html#a7d92a8ec1e6591b4052b232a02a34cd3" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="179,-57.5 179,-76.5 328,-76.5 328,-57.5 179,-57.5"/>
 <text text-anchor="middle" x="253.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_PlayerRelative.Initialize</text>
 </a>
 </g>
@@ -37,8 +36,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_effect_manager.xhtml#a921aed9a2553637cdd387d3075150709" target="_top" xlink:title="Starts an Effect to the entity who has this EffectManager.">
-<polygon fill="white" stroke="black" points="185.5,-19.5 185.5,-38.5 321.5,-38.5 321.5,-19.5 185.5,-19.5"/>
+<g id="a_node3"><a xlink:href="class_effect_manager.html#a921aed9a2553637cdd387d3075150709" target="_top" xlink:title="Starts an Effect to the entity who has this EffectManager.">
+<polygon fill="none" stroke="black" points="185.5,-19.5 185.5,-38.5 321.5,-38.5 321.5,-19.5 185.5,-19.5"/>
 <text text-anchor="middle" x="253.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">EffectManager.TriggerEffect</text>
 </a>
 </g>
@@ -52,8 +51,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_effect.xhtml#ae421c8b51f4b5f859b03ea719d384e8f" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="374,-38.5 374,-57.5 453,-57.5 453,-38.5 374,-38.5"/>
+<g id="a_node4"><a xlink:href="class_effect.html#ae421c8b51f4b5f859b03ea719d384e8f" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="374,-38.5 374,-57.5 453,-57.5 453,-38.5 374,-38.5"/>
 <text text-anchor="middle" x="413.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Effect.Activate</text>
 </a>
 </g>
@@ -67,8 +66,8 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_effect.xhtml#a928c504cba23842da98461acb52eb7e0" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="364,-0.5 364,-19.5 463,-19.5 463,-0.5 364,-0.5"/>
+<g id="a_node5"><a xlink:href="class_effect.html#a928c504cba23842da98461acb52eb7e0" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="364,-0.5 364,-19.5 463,-19.5 463,-0.5 364,-0.5"/>
 <text text-anchor="middle" x="413.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Effect.GetCorrutine</text>
 </a>
 </g>

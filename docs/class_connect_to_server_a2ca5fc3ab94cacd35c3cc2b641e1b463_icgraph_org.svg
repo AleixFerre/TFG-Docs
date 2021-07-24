@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 698.00 77.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 73.5)">
 <title>ConnectToServer.ShowError</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-73.5 694,-73.5 694,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_connect_to_server.xhtml#a9df07244dc7dd2662e6b333ed3d7dab0" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="362.5,-50 362.5,-69 504.5,-69 504.5,-50 362.5,-50"/>
+<g id="a_node2"><a xlink:href="class_connect_to_server.html#a9df07244dc7dd2662e6b333ed3d7dab0" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="362.5,-50 362.5,-69 504.5,-69 504.5,-50 362.5,-50"/>
 <text text-anchor="middle" x="433.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">ConnectToServer.OnErrorInfo</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_connect_to_server.xhtml#af54d350629abc28677d474dda9fbd6a0" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="351,-0.5 351,-30.5 516,-30.5 516,-0.5 351,-0.5"/>
+<g id="a_node3"><a xlink:href="class_connect_to_server.html#af54d350629abc28677d474dda9fbd6a0" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="351,-0.5 351,-30.5 516,-30.5 516,-0.5 351,-0.5"/>
 <text text-anchor="start" x="359" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConnectToServer.RetryConnection</text>
 <text text-anchor="middle" x="433.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Corrutine</text>
 </a>
@@ -52,8 +51,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_connect_to_server.xhtml#a23793971a306b7523ca6dc028f4746ca" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="150,-6 150,-25 315,-25 315,-6 150,-6"/>
+<g id="a_node4"><a xlink:href="class_connect_to_server.html#a23793971a306b7523ca6dc028f4746ca" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="150,-6 150,-25 315,-25 315,-6 150,-6"/>
 <text text-anchor="middle" x="232.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">ConnectToServer.RetryConnection</text>
 </a>
 </g>
@@ -67,8 +66,8 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_connect_to_server.xhtml#a586c4eaddbfb5ab8e5bfe771057651ea" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-6 0,-25 114,-25 114,-6 0,-6"/>
+<g id="a_node5"><a xlink:href="class_connect_to_server.html#a586c4eaddbfb5ab8e5bfe771057651ea" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-6 0,-25 114,-25 114,-6 0,-6"/>
 <text text-anchor="middle" x="57" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">ConnectToServer.Start</text>
 </a>
 </g>

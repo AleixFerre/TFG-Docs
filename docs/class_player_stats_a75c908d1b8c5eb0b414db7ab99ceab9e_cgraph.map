@@ -1,0 +1,7 @@
+<map id="PlayerStats.LevelUp" name="PlayerStats.LevelUp">
+<area shape="rect" id="node1" title="Called whenever the player levels up." alt="" coords="5,64,144,91"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#aab2157e21bb713cc5d12a4b50e176ae6" title=" " alt="" coords="192,5,367,32"/>
+<area shape="rect" id="node3" href="$class_player_u_i_controller.html#aca577b724c1f3f2ed54ad1165a7842c2" title="Sets the current HP value to the Image." alt="" coords="194,57,365,98"/>
+<area shape="rect" id="node5" href="$class_player_u_i_controller.html#ac7bf7455ce00b144f6a1678e524819b2" title="Sets the current MP value to the Image." alt="" coords="194,122,365,163"/>
+<area shape="rect" id="node4" href="$class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="415,90,579,131"/>
+</map>

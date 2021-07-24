@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['joinroom_741',['JoinRoom',['../class_main_menu.xhtml#a677f2954b9aea6a374b84799a683537f',1,'MainMenu']]]
+  ['joinroom_775',['JoinRoom',['../class_main_menu.html#a677f2954b9aea6a374b84799a683537f',1,'MainMenu']]]
 ];

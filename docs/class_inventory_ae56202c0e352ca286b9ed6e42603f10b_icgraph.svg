@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 401.00 66.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62)">
 <title>Inventory.UpdateGoldTxt</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-62 397,-62 397,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_inventory.xhtml#a154fe342bac27ad9f38a79da5c770d39" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="140,-38.5 140,-57.5 235,-57.5 235,-38.5 140,-38.5"/>
+<g id="a_node2"><a xlink:href="class_inventory.html#a154fe342bac27ad9f38a79da5c770d39" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="140,-38.5 140,-57.5 235,-57.5 235,-38.5 140,-38.5"/>
 <text text-anchor="middle" x="187.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Inventory.AddGold</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_inventory.xhtml#aa5a9d430aff1ecd12a75901608d337ea" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="148,-0.5 148,-19.5 227,-19.5 227,-0.5 148,-0.5"/>
+<g id="a_node4"><a xlink:href="class_inventory.html#aa5a9d430aff1ecd12a75901608d337ea" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="148,-0.5 148,-19.5 227,-19.5 227,-0.5 148,-0.5"/>
 <text text-anchor="middle" x="187.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Inventory.Start</text>
 </a>
 </g>
@@ -51,8 +50,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_coin.xhtml#a38022b7f8466c95101067154d8b4de13" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-38.5 0,-57.5 104,-57.5 104,-38.5 0,-38.5"/>
+<g id="a_node3"><a xlink:href="class_coin.html#a38022b7f8466c95101067154d8b4de13" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-38.5 0,-57.5 104,-57.5 104,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="52" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Coin.OnTriggerEnter</text>
 </a>
 </g>

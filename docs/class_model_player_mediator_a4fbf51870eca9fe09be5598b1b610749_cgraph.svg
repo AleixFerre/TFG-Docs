@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 487.00 39.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 35)">
 <title>ModelPlayerMediator.DamageBasicAttack</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-35 483,-35 483,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,8 +21,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_basic_attack.xhtml#ab41a7fd3006e5a8a3d2d8399d41e630f" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="183,-6 183,-25 345,-25 345,-6 183,-6"/>
+<g id="a_node2"><a xlink:href="class_basic_attack.html#ab41a7fd3006e5a8a3d2d8399d41e630f" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="183,-6 183,-25 345,-25 345,-6 183,-6"/>
 <text text-anchor="middle" x="264" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.DamageBasicAttack</text>
 </a>
 </g>
@@ -37,8 +36,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_stats.xhtml#aa9240dd20efde8e97dc0a1917e432db7" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="381,-6 381,-25 479,-25 479,-6 381,-6"/>
+<g id="a_node3"><a xlink:href="class_stats.html#aa9240dd20efde8e97dc0a1917e432db7" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="381,-6 381,-25 479,-25 479,-6 381,-6"/>
 <text text-anchor="middle" x="430" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Stats.DealDamage</text>
 </a>
 </g>

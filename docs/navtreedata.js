@@ -24,25 +24,25 @@
 */
 var NAVTREE =
 [
-  [ "Treball de Fi de Grau", "index.xhtml", [
-    [ "Classes", "annotated.xhtml", [
-      [ "Llista de Classes", "annotated.xhtml", "annotated_dup" ],
-      [ "Índex de Classes", "classes.xhtml", null ],
-      [ "Jerarquia de Classes", "hierarchy.xhtml", "hierarchy" ],
-      [ "Membres de Classes", "functions.xhtml", [
-        [ "Tot", "functions.xhtml", "functions_dup" ],
-        [ "Funcions", "functions_func.xhtml", "functions_func" ],
-        [ "Variables", "functions_vars.xhtml", "functions_vars" ],
-        [ "Enumeracions", "functions_enum.xhtml", null ],
-        [ "Propietats", "functions_prop.xhtml", null ]
+  [ "Treball de Fi de Grau", "index.html", [
+    [ "Classes", "annotated.html", [
+      [ "Llista de Classes", "annotated.html", "annotated_dup" ],
+      [ "Índex de Classes", "classes.html", null ],
+      [ "Jerarquia de Classes", "hierarchy.html", "hierarchy" ],
+      [ "Membres de Classes", "functions.html", [
+        [ "Tot", "functions.html", "functions_dup" ],
+        [ "Funcions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", "functions_vars" ],
+        [ "Enumeracions", "functions_enum.html", null ],
+        [ "Propietats", "functions_prop.html", null ]
       ] ]
     ] ],
-    [ "Fitxers", "files.xhtml", [
-      [ "Llista dels Fitxers", "files.xhtml", "files_dup" ],
-      [ "Membres de Fitxers", "globals.xhtml", [
-        [ "Tot", "globals.xhtml", null ],
-        [ "Definicions de Tipus", "globals_type.xhtml", null ],
-        [ "Enumeracions", "globals_enum.xhtml", null ]
+    [ "Fitxers", "files.html", [
+      [ "Llista dels Fitxers", "files.html", "files_dup" ],
+      [ "Membres de Fitxers", "globals.html", [
+        [ "Tot", "globals.html", null ],
+        [ "Definicions de Tipus", "globals_type.html", null ],
+        [ "Enumeracions", "globals_enum.html", null ]
       ] ]
     ] ]
   ] ]
@@ -50,10 +50,10 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_ability_8cs.xhtml",
-"class_basic_attack.xhtml#a5394434301a72cbbf51a33c60ddecab8",
-"class_model_sync.xhtml#a5f716d0c4e544e36e54227b1bb01b7c8",
-"functions_func_m.xhtml"
+"_ability_8cs.html",
+"class_basic_attack.html#a2d659a122aa88695941b91418743511c",
+"class_minion_stats.html#ad0402a797a44cee16a1d415a30ed939d",
+"dir_a7c99f18c62c95b0e0a0f0775a768d71.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

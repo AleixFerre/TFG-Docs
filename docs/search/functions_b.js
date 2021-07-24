@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['lateupdate_743',['LateUpdate',['../class_billboard.xhtml#ac815b1bed569fe03a8b1831e52e025d9',1,'Billboard']]],
-  ['losegame_744',['LoseGame',['../class_connection_manager.xhtml#a48037c56ec201424f5836fad4bfdaa11',1,'ConnectionManager']]]
+  ['lateupdate_777',['LateUpdate',['../class_billboard.html#ac815b1bed569fe03a8b1831e52e025d9',1,'Billboard']]],
+  ['levelup_778',['LevelUp',['../class_player_stats.html#a75c908d1b8c5eb0b414db7ab99ceab9e',1,'PlayerStats']]],
+  ['losegame_779',['LoseGame',['../class_connection_manager.html#a48037c56ec201424f5836fad4bfdaa11',1,'ConnectionManager']]]
 ];

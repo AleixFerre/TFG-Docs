@@ -1,10 +1,10 @@
 <map id="Ability" name="Ability">
 <area shape="rect" id="node1" title="Base abstract class for an Ability." alt="" coords="318,80,377,107"/>
-<area shape="rect" id="node3" href="$class_indicated_ability.xhtml" title="Encapsulador de les Ability que han de mostrar l&#39;indicador" alt="" coords="219,155,329,181"/>
-<area shape="rect" id="node7" href="$class_non_indicated_ability.xhtml" title="Encapsulador de les Ability que NO han de mostrar cap indicador." alt="" coords="406,155,539,181"/>
+<area shape="rect" id="node3" href="$class_indicated_ability.html" title="Encapsulador de les Ability que han de mostrar l&#39;indicador" alt="" coords="219,155,329,181"/>
+<area shape="rect" id="node7" href="$class_non_indicated_ability.html" title="Encapsulador de les Ability que NO han de mostrar cap indicador." alt="" coords="406,155,539,181"/>
 <area shape="rect" id="node2" title=" " alt="" coords="288,5,407,32"/>
-<area shape="rect" id="node4" href="$class_ability___dash.xhtml" title=" " alt="" coords="5,229,100,256"/>
-<area shape="rect" id="node5" href="$class_ability___instanciable.xhtml" title=" " alt="" coords="124,229,259,256"/>
-<area shape="rect" id="node6" href="$class_ability___player_relative.xhtml" title=" " alt="" coords="283,229,430,256"/>
-<area shape="rect" id="node8" href="$class_ability___stats_changer.xhtml" title=" " alt="" coords="454,229,598,256"/>
+<area shape="rect" id="node4" href="$class_ability___dash.html" title=" " alt="" coords="5,229,100,256"/>
+<area shape="rect" id="node5" href="$class_ability___instanciable.html" title=" " alt="" coords="124,229,259,256"/>
+<area shape="rect" id="node6" href="$class_ability___player_relative.html" title=" " alt="" coords="283,229,430,256"/>
+<area shape="rect" id="node8" href="$class_ability___stats_changer.html" title=" " alt="" coords="454,229,598,256"/>
 </map>

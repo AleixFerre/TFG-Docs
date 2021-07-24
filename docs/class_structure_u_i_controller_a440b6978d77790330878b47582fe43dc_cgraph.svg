@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 307.00 39.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 35)">
 <title>StructureUIController.UpdateCurrentHP</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-35 303,-35 303,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,8 +21,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_u_i_controller.xhtml#a7d7833a7840917741dbc8c4a83dbe918" target="_top" xlink:title="Calculates the actual normalized fill amount for the image.">
-<polygon fill="white" stroke="black" points="176,-0.5 176,-30.5 299,-30.5 299,-0.5 176,-0.5"/>
+<g id="a_node2"><a xlink:href="class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" target="_top" xlink:title="Calculates the actual normalized fill amount for the image.">
+<polygon fill="none" stroke="black" points="176,-0.5 176,-30.5 299,-30.5 299,-0.5 176,-0.5"/>
 <text text-anchor="start" x="184" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">UIController.CalculateFill</text>
 <text text-anchor="middle" x="237.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Amount</text>
 </a>

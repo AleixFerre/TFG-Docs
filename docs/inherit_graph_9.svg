@@ -8,12 +8,11 @@
  viewBox="0.00 0.00 271.00 28.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24)">
 <title>Jerarquia Gràfica de la Classe</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-24 267,-24 267,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="class_singleton.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 143,-19.5 143,-0.5 0,-0.5"/>
+<g id="a_node1"><a xlink:href="class_singleton.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 143,-19.5 143,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="71.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Singleton&lt; GameController &gt;</text>
 </a>
 </g>
@@ -21,8 +20,8 @@
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="class_game_controller.xhtml" target="_top" xlink:title="The UNIQUE Game Controller in the Scene.">
-<polygon fill="white" stroke="black" points="179,-0.5 179,-19.5 263,-19.5 263,-0.5 179,-0.5"/>
+<g id="a_node2"><a xlink:href="class_game_controller.html" target="_top" xlink:title="The UNIQUE Game Controller in the Scene.">
+<polygon fill="none" stroke="black" points="179,-0.5 179,-19.5 263,-19.5 263,-0.5 179,-0.5"/>
 <text text-anchor="middle" x="221" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameController</text>
 </a>
 </g>

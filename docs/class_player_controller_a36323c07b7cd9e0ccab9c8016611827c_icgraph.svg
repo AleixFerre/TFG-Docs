@@ -54,7 +54,6 @@ var sectionId = 'dynsection-7';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>PlayerController.SetLookAtTarget</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-208.19 1044,-208.19 1044,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -68,8 +67,8 @@ var sectionId = 'dynsection-7';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_ability_cooldown.xhtml#a24d10146f84157eecd34133535f98c0b" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="171,-156.5 171,-175.5 328,-175.5 328,-156.5 171,-156.5"/>
+<g id="a_node2"><a xlink:href="class_ability_cooldown.html#a24d10146f84157eecd34133535f98c0b" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="171,-156.5 171,-175.5 328,-175.5 328,-156.5 171,-156.5"/>
 <text text-anchor="middle" x="249.5" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.ButtonTriggered</text>
 </a>
 </g>
@@ -83,8 +82,8 @@ var sectionId = 'dynsection-7';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_ability_cooldown.xhtml#abe17348393bdde47c5aef87b5311593c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="730.5,-124 730.5,-154 858.5,-154 858.5,-124 730.5,-124"/>
+<g id="a_node5"><a xlink:href="class_ability_cooldown.html#abe17348393bdde47c5aef87b5311593c" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="730.5,-124 730.5,-154 858.5,-154 858.5,-124 730.5,-124"/>
 <text text-anchor="start" x="738.5" y="-142" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.OnFinish</text>
 <text text-anchor="middle" x="794.5" y="-131" font-family="Helvetica,sans-Serif" font-size="10.00">Ability</text>
 </a>
@@ -99,8 +98,8 @@ var sectionId = 'dynsection-7';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="class_basic_attack.xhtml#a965a4cbb50653a0b2ed02e8bf1f88433" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="733.5,-82.5 733.5,-101.5 855.5,-101.5 855.5,-82.5 733.5,-82.5"/>
+<g id="a_node8"><a xlink:href="class_basic_attack.html#a965a4cbb50653a0b2ed02e8bf1f88433" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="733.5,-82.5 733.5,-101.5 855.5,-101.5 855.5,-82.5 733.5,-82.5"/>
 <text text-anchor="middle" x="794.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.ResetState</text>
 </a>
 </g>
@@ -114,8 +113,8 @@ var sectionId = 'dynsection-7';
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="class_basic_attack.xhtml#a87f3e84f484126aa3caa2cffb0760566" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="710,-44.5 710,-63.5 879,-63.5 879,-44.5 710,-44.5"/>
+<g id="a_node11"><a xlink:href="class_basic_attack.html#a87f3e84f484126aa3caa2cffb0760566" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="710,-44.5 710,-63.5 879,-63.5 879,-44.5 710,-44.5"/>
 <text text-anchor="middle" x="794.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.ResetStateAbilityRPC</text>
 </a>
 </g>
@@ -129,8 +128,8 @@ var sectionId = 'dynsection-7';
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="class_basic_attack.xhtml#a6700fa1b84e430381504535f20c2e3d8" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="721,-3.5 721,-22.5 868,-22.5 868,-3.5 721,-3.5"/>
+<g id="a_node12"><a xlink:href="class_basic_attack.html#a6700fa1b84e430381504535f20c2e3d8" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="721,-3.5 721,-22.5 868,-22.5 868,-3.5 721,-3.5"/>
 <text text-anchor="middle" x="794.5" y="-10.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.StartBasicAttack</text>
 </a>
 </g>
@@ -144,8 +143,8 @@ var sectionId = 'dynsection-7';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_ability_indicator.xhtml#a334fb70612241c8c1067bb596a4e2a26" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-175.5 0,-194.5 135,-194.5 135,-175.5 0,-175.5"/>
+<g id="a_node3"><a xlink:href="class_ability_indicator.html#a334fb70612241c8c1067bb596a4e2a26" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-175.5 0,-194.5 135,-194.5 135,-175.5 0,-175.5"/>
 <text text-anchor="middle" x="67.5" y="-182.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityIndicator.SetIndicator</text>
 </a>
 </g>
@@ -159,8 +158,8 @@ var sectionId = 'dynsection-7';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_ability_cooldown.xhtml#a0a1223f783a3c342413172a5797fa597" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="8,-137.5 8,-156.5 127,-156.5 127,-137.5 8,-137.5"/>
+<g id="a_node4"><a xlink:href="class_ability_cooldown.html#a0a1223f783a3c342413172a5797fa597" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="8,-137.5 8,-156.5 127,-156.5 127,-137.5 8,-137.5"/>
 <text text-anchor="middle" x="67.5" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.Update</text>
 </a>
 </g>
@@ -174,8 +173,8 @@ var sectionId = 'dynsection-7';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_player_stats.xhtml#a4df625156bb2ae99262e81b28346ccb4" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="544.5,-126 544.5,-156 666.5,-156 666.5,-126 544.5,-126"/>
+<g id="a_node6"><a xlink:href="class_player_stats.html#a4df625156bb2ae99262e81b28346ccb4" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="544.5,-126 544.5,-156 666.5,-156 666.5,-126 544.5,-126"/>
 <text text-anchor="start" x="552.5" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.BlockAbility</text>
 <text text-anchor="middle" x="605.5" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">ForSeconds</text>
 </a>
@@ -190,8 +189,8 @@ var sectionId = 'dynsection-7';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_player_stats.xhtml#af942d9a5150c2d4c47800335ec062ee1" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="364,-134.5 364,-153.5 501,-153.5 501,-134.5 364,-134.5"/>
+<g id="a_node7"><a xlink:href="class_player_stats.html#af942d9a5150c2d4c47800335ec062ee1" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="364,-134.5 364,-153.5 501,-153.5 501,-134.5 364,-134.5"/>
 <text text-anchor="middle" x="432.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.BlockAbilityFor</text>
 </a>
 </g>
@@ -211,8 +210,8 @@ var sectionId = 'dynsection-7';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="class_model_player_mediator.xhtml#a67b1c82b4127b7d14e66c628fce73fb2" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="537,-77 537,-107 674,-107 674,-77 537,-77"/>
+<g id="a_node9"><a xlink:href="class_model_player_mediator.html#a67b1c82b4127b7d14e66c628fce73fb2" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="537,-77 537,-107 674,-107 674,-77 537,-77"/>
 <text text-anchor="start" x="545" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">ModelPlayerMediator.Reset</text>
 <text text-anchor="middle" x="605.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack</text>
 </a>
@@ -227,8 +226,8 @@ var sectionId = 'dynsection-7';
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="class_basic_attack.xhtml#abfcbbc50cfd92e9ca75bd41a5ad17990" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="380.5,-19.5 380.5,-38.5 484.5,-38.5 484.5,-19.5 380.5,-19.5"/>
+<g id="a_node10"><a xlink:href="class_basic_attack.html#abfcbbc50cfd92e9ca75bd41a5ad17990" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="380.5,-19.5 380.5,-38.5 484.5,-38.5 484.5,-19.5 380.5,-19.5"/>
 <text text-anchor="middle" x="432.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.Update</text>
 </a>
 </g>
@@ -242,8 +241,8 @@ var sectionId = 'dynsection-7';
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="class_basic_attack.xhtml#a5d09a3ef54dfac2ab6130195c188492e" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="550.5,-0.5 550.5,-19.5 660.5,-19.5 660.5,-0.5 550.5,-0.5"/>
+<g id="a_node13"><a xlink:href="class_basic_attack.html#a5d09a3ef54dfac2ab6130195c188492e" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="550.5,-0.5 550.5,-19.5 660.5,-19.5 660.5,-0.5 550.5,-0.5"/>
 <text text-anchor="middle" x="605.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.CastRay</text>
 </a>
 </g>

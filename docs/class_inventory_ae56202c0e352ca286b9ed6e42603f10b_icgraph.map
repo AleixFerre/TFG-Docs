@@ -1,6 +1,6 @@
 <map id="Inventory.UpdateGoldTxt" name="Inventory.UpdateGoldTxt">
 <area shape="rect" id="node1" title=" " alt="" coords="367,31,529,57"/>
-<area shape="rect" id="node2" href="$class_inventory.xhtml#a154fe342bac27ad9f38a79da5c770d39" title=" " alt="" coords="192,5,319,32"/>
-<area shape="rect" id="node4" href="$class_inventory.xhtml#aa5a9d430aff1ecd12a75901608d337ea" title=" " alt="" coords="203,56,308,83"/>
-<area shape="rect" id="node3" href="$class_coin.xhtml#a38022b7f8466c95101067154d8b4de13" title=" " alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$class_inventory.html#a154fe342bac27ad9f38a79da5c770d39" title=" " alt="" coords="192,5,319,32"/>
+<area shape="rect" id="node4" href="$class_inventory.html#aa5a9d430aff1ecd12a75901608d337ea" title=" " alt="" coords="203,56,308,83"/>
+<area shape="rect" id="node3" href="$class_coin.html#a38022b7f8466c95101067154d8b4de13" title=" " alt="" coords="5,5,144,32"/>
 </map>

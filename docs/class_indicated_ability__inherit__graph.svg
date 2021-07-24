@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 326.50 196.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 192)">
 <title>IndicatedAbility</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-192 322.5,-192 322.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_ability___dash.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 71,-19.5 71,-0.5 0,-0.5"/>
+<g id="a_node4"><a xlink:href="class_ability___dash.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 71,-19.5 71,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="35.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_Dash</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_ability___instanciable.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="89,-0.5 89,-19.5 190,-19.5 190,-0.5 89,-0.5"/>
+<g id="a_node5"><a xlink:href="class_ability___instanciable.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="89,-0.5 89,-19.5 190,-19.5 190,-0.5 89,-0.5"/>
 <text text-anchor="middle" x="139.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_Instanciable</text>
 </a>
 </g>
@@ -51,8 +50,8 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_ability___player_relative.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="208.5,-0.5 208.5,-19.5 318.5,-19.5 318.5,-0.5 208.5,-0.5"/>
+<g id="a_node6"><a xlink:href="class_ability___player_relative.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="208.5,-0.5 208.5,-19.5 318.5,-19.5 318.5,-0.5 208.5,-0.5"/>
 <text text-anchor="middle" x="263.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_PlayerRelative</text>
 </a>
 </g>
@@ -66,8 +65,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_ability.xhtml" target="_top" xlink:title="Base abstract class for an Ability.">
-<polygon fill="white" stroke="black" points="117.5,-112.5 117.5,-131.5 161.5,-131.5 161.5,-112.5 117.5,-112.5"/>
+<g id="a_node2"><a xlink:href="class_ability.html" target="_top" xlink:title="Base abstract class for an Ability.">
+<polygon fill="none" stroke="black" points="117.5,-112.5 117.5,-131.5 161.5,-131.5 161.5,-112.5 117.5,-112.5"/>
 <text text-anchor="middle" x="139.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability</text>
 </a>
 </g>
@@ -82,7 +81,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="95,-168.5 95,-187.5 184,-187.5 184,-168.5 95,-168.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="95,-168.5 95,-187.5 184,-187.5 184,-168.5 95,-168.5"/>
 <text text-anchor="middle" x="139.5" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">ScriptableObject</text>
 </a>
 </g>

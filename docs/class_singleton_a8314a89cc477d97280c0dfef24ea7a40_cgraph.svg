@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 262.00 28.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24)">
 <title>Singleton.OnValidate</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-24 258,-24 258,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_singleton.xhtml#a4ef60de7a4b29ef5498bd070d5ca6463" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="144,-0.5 144,-19.5 254,-19.5 254,-0.5 144,-0.5"/>
+<g id="a_node2"><a xlink:href="class_singleton.html#a4ef60de7a4b29ef5498bd070d5ca6463" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="144,-0.5 144,-19.5 254,-19.5 254,-0.5 144,-0.5"/>
 <text text-anchor="middle" x="199" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Singleton.DestroySelf</text>
 </a>
 </g>

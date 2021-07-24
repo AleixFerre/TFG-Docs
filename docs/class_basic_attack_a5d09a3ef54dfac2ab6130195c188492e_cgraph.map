@@ -1,5 +1,5 @@
 <map id="BasicAttack.CastRay" name="BasicAttack.CastRay">
 <area shape="rect" id="node1" title=" " alt="" coords="5,13,152,39"/>
-<area shape="rect" id="node2" href="$class_basic_attack.xhtml#a6700fa1b84e430381504535f20c2e3d8" title=" " alt="" coords="200,13,396,39"/>
-<area shape="rect" id="node3" href="$class_player_controller.xhtml#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="444,5,611,47"/>
+<area shape="rect" id="node2" href="$class_basic_attack.html#a6700fa1b84e430381504535f20c2e3d8" title=" " alt="" coords="200,13,396,39"/>
+<area shape="rect" id="node3" href="$class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="444,5,611,47"/>
 </map>

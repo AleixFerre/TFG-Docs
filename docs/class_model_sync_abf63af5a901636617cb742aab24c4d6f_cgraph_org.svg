@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 1266.00 142.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 138)">
 <title>ModelSync.Update</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-138 1262,-138 1262,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_model_sync.xhtml#ab8359f73ae31a7f926c80ebcd7e9444a" target="_top" xlink:title="This starts all the initialization chain for the player.">
-<polygon fill="white" stroke="black" points="135,-38.5 135,-57.5 245,-57.5 245,-38.5 135,-38.5"/>
+<g id="a_node2"><a xlink:href="class_model_sync.html#ab8359f73ae31a7f926c80ebcd7e9444a" target="_top" xlink:title="This starts all the initialization chain for the player.">
+<polygon fill="none" stroke="black" points="135,-38.5 135,-57.5 245,-57.5 245,-38.5 135,-38.5"/>
 <text text-anchor="middle" x="190" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">ModelSync.DoEnable</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_player_controller.xhtml#a75e94e4fd555e57e55ab4b7e54024dcf" target="_top" xlink:title="Initialize the PlayerController.">
-<polygon fill="white" stroke="black" points="292,-76.5 292,-95.5 416,-95.5 416,-76.5 292,-76.5"/>
+<g id="a_node3"><a xlink:href="class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf" target="_top" xlink:title="Initialize the PlayerController.">
+<polygon fill="none" stroke="black" points="292,-76.5 292,-95.5 416,-95.5 416,-76.5 292,-76.5"/>
 <text text-anchor="middle" x="354" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerController.Initialize</text>
 </a>
 </g>
@@ -48,41 +47,41 @@
 <path fill="none" stroke="midnightblue" d="M231.88,-57.59C253.35,-62.63 279.86,-68.84 302.6,-74.18"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="301.88,-77.6 312.41,-76.48 303.48,-70.79 301.88,-77.6"/>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node">
-<title>Node13</title>
-<g id="a_node13"><a xlink:href="class_model_player_mediator.xhtml#abb544efe7192b8e934f60f770d5ac334" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="281,-38.5 281,-57.5 427,-57.5 427,-38.5 281,-38.5"/>
+<!-- Node14 -->
+<g id="node14" class="node">
+<title>Node14</title>
+<g id="a_node14"><a xlink:href="class_model_player_mediator.html#abb544efe7192b8e934f60f770d5ac334" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="281,-38.5 281,-57.5 427,-57.5 427,-38.5 281,-38.5"/>
 <text text-anchor="middle" x="354" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">ModelPlayerMediator.Initialize</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node13 -->
-<g id="edge12" class="edge">
-<title>Node2&#45;&gt;Node13</title>
+<!-- Node2&#45;&gt;Node14 -->
+<g id="edge14" class="edge">
+<title>Node2&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M245.39,-48C253.59,-48 262.19,-48 270.81,-48"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="270.91,-51.5 280.91,-48 270.91,-44.5 270.91,-51.5"/>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node">
-<title>Node14</title>
-<g id="a_node14"><a xlink:href="class_player_controller.xhtml#a6be7bc2319b024c6bf66f1b1c96f7ba5" target="_top" xlink:title="Player Model will call this function to parent and sync itself to this GameObject">
-<polygon fill="white" stroke="black" points="288,-0.5 288,-19.5 420,-19.5 420,-0.5 288,-0.5"/>
+<!-- Node15 -->
+<g id="node15" class="node">
+<title>Node15</title>
+<g id="a_node15"><a xlink:href="class_player_controller.html#a6be7bc2319b024c6bf66f1b1c96f7ba5" target="_top" xlink:title="Player Model will call this function to parent and sync itself to this GameObject">
+<polygon fill="none" stroke="black" points="288,-0.5 288,-19.5 420,-19.5 420,-0.5 288,-0.5"/>
 <text text-anchor="middle" x="354" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerController.SetParent</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node14 -->
-<g id="edge13" class="edge">
-<title>Node2&#45;&gt;Node14</title>
+<!-- Node2&#45;&gt;Node15 -->
+<g id="edge15" class="edge">
+<title>Node2&#45;&gt;Node15</title>
 <path fill="none" stroke="midnightblue" d="M231.88,-38.41C253.35,-33.37 279.86,-27.16 302.6,-21.82"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="303.48,-25.21 312.41,-19.52 301.88,-18.4 303.48,-25.21"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_basic_attack.xhtml#ac85eb061d597f5879d31fb8e7a0316d5" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="471,-114.5 471,-133.5 579,-133.5 579,-114.5 471,-114.5"/>
+<g id="a_node4"><a xlink:href="class_basic_attack.html#ac85eb061d597f5879d31fb8e7a0316d5" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="471,-114.5 471,-133.5 579,-133.5 579,-114.5 471,-114.5"/>
 <text text-anchor="middle" x="525" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.Initialize</text>
 </a>
 </g>
@@ -96,8 +95,8 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_player_stats.xhtml#a5e274804959d13db76f140e8efcf9411" target="_top" xlink:title="Initialize the actual Stats of the Player.">
-<polygon fill="white" stroke="black" points="472,-76.5 472,-95.5 578,-95.5 578,-76.5 472,-76.5"/>
+<g id="a_node5"><a xlink:href="class_player_stats.html#a5e274804959d13db76f140e8efcf9411" target="_top" xlink:title="Initialize the actual Stats of the Player.">
+<polygon fill="none" stroke="black" points="472,-76.5 472,-95.5 578,-95.5 578,-76.5 472,-76.5"/>
 <text text-anchor="middle" x="525" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.Initialize</text>
 </a>
 </g>
@@ -108,26 +107,26 @@
 <path fill="none" stroke="midnightblue" d="M416.01,-86C430.84,-86 446.71,-86 461.6,-86"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="461.73,-89.5 471.73,-86 461.73,-82.5 461.73,-89.5"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node">
-<title>Node10</title>
-<g id="a_node10"><a xlink:href="class_ability_cooldown.xhtml#aa01c150ac26f1694a1e174e152510094" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="463,-38.5 463,-57.5 587,-57.5 587,-38.5 463,-38.5"/>
+<!-- Node11 -->
+<g id="node11" class="node">
+<title>Node11</title>
+<g id="a_node11"><a xlink:href="class_ability_cooldown.html#aa01c150ac26f1694a1e174e152510094" target="_top" xlink:title="Initializes the current AbilityCooldown.">
+<polygon fill="none" stroke="black" points="463,-38.5 463,-57.5 587,-57.5 587,-38.5 463,-38.5"/>
 <text text-anchor="middle" x="525" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.Initialize</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node10 -->
-<g id="edge9" class="edge">
-<title>Node3&#45;&gt;Node10</title>
+<!-- Node3&#45;&gt;Node11 -->
+<g id="edge11" class="edge">
+<title>Node3&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M397.65,-76.41C420.15,-71.35 447.95,-65.1 471.74,-59.75"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="472.67,-63.13 481.66,-57.52 471.14,-56.3 472.67,-63.13"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_player_u_i_controller.xhtml#ab6ed746dec17fdf763bc4ec1d713db7f" target="_top" xlink:title="Initializes all the values and colors for this Player.">
-<polygon fill="white" stroke="black" points="629,-76.5 629,-95.5 760,-95.5 760,-76.5 629,-76.5"/>
+<g id="a_node6"><a xlink:href="class_player_u_i_controller.html#ab6ed746dec17fdf763bc4ec1d713db7f" target="_top" xlink:title="Initializes all the values and colors for this Player.">
+<polygon fill="none" stroke="black" points="629,-76.5 629,-95.5 760,-95.5 760,-76.5 629,-76.5"/>
 <text text-anchor="middle" x="694.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerUIController.Initalize</text>
 </a>
 </g>
@@ -141,8 +140,8 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_player_u_i_controller.xhtml#aa5b61a93967fa5ce39bfd950a9e9d584" target="_top" xlink:title="Initializes all the values into the Image and Text.">
-<polygon fill="white" stroke="black" points="802,-71 802,-101 935,-101 935,-71 802,-71"/>
+<g id="a_node7"><a xlink:href="class_player_u_i_controller.html#aa5b61a93967fa5ce39bfd950a9e9d584" target="_top" xlink:title="Initializes all the values into the Image and Text.">
+<polygon fill="none" stroke="black" points="802,-71 802,-101 935,-101 935,-71 802,-71"/>
 <text text-anchor="start" x="810" y="-89" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerUIController.Initialize</text>
 <text text-anchor="middle" x="868.5" y="-78" font-family="Helvetica,sans-Serif" font-size="10.00">Values</text>
 </a>
@@ -157,24 +156,40 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="class_player_u_i_controller.xhtml#aacc9f1b78d9e1adab16f8fc2ec246dfb" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="971,-71 971,-101 1099,-101 1099,-71 971,-71"/>
-<text text-anchor="start" x="979" y="-89" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerUIController.Update</text>
-<text text-anchor="middle" x="1035" y="-78" font-family="Helvetica,sans-Serif" font-size="10.00">MaxHP</text>
+<g id="a_node8"><a xlink:href="class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" target="_top" xlink:title="Sets the current level and xp to the Image.">
+<polygon fill="none" stroke="black" points="971,-96 971,-126 1099,-126 1099,-96 971,-96"/>
+<text text-anchor="start" x="979" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerUIController.Update</text>
+<text text-anchor="middle" x="1035" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">CurrentLevel</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M935.46,-86C943.79,-86 952.34,-86 960.77,-86"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="960.96,-89.5 970.96,-86 960.96,-82.5 960.96,-89.5"/>
+<path fill="none" stroke="midnightblue" d="M935.46,-96.02C943.88,-97.3 952.53,-98.62 961.05,-99.91"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="960.55,-103.38 970.96,-101.42 961.6,-96.46 960.55,-103.38"/>
+</g>
+<!-- Node10 -->
+<g id="node10" class="node">
+<title>Node10</title>
+<g id="a_node10"><a xlink:href="class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="971,-47 971,-77 1099,-77 1099,-47 971,-47"/>
+<text text-anchor="start" x="979" y="-65" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerUIController.Update</text>
+<text text-anchor="middle" x="1035" y="-54" font-family="Helvetica,sans-Serif" font-size="10.00">MaxHP</text>
+</a>
+</g>
+</g>
+<!-- Node7&#45;&gt;Node10 -->
+<g id="edge9" class="edge">
+<title>Node7&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M935.46,-76.38C943.88,-75.15 952.53,-73.89 961.05,-72.64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="961.57,-76.1 970.96,-71.2 960.56,-69.18 961.57,-76.1"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="class_u_i_controller.xhtml#a7d7833a7840917741dbc8c4a83dbe918" target="_top" xlink:title="Calculates the actual normalized fill amount for the image.">
-<polygon fill="white" stroke="black" points="1135,-71 1135,-101 1258,-101 1258,-71 1135,-71"/>
+<g id="a_node9"><a xlink:href="class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" target="_top" xlink:title="Calculates the actual normalized fill amount for the image.">
+<polygon fill="none" stroke="black" points="1135,-71 1135,-101 1258,-101 1258,-71 1135,-71"/>
 <text text-anchor="start" x="1143" y="-89" font-family="Helvetica,sans-Serif" font-size="10.00">UIController.CalculateFill</text>
 <text text-anchor="middle" x="1196.5" y="-78" font-family="Helvetica,sans-Serif" font-size="10.00">Amount</text>
 </a>
@@ -183,36 +198,42 @@
 <!-- Node8&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M1099.04,-86C1107.4,-86 1116.01,-86 1124.49,-86"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1124.74,-89.5 1134.74,-86 1124.74,-82.5 1124.74,-89.5"/>
+<path fill="none" stroke="midnightblue" d="M1099.04,-101.12C1107.49,-99.8 1116.2,-98.43 1124.77,-97.09"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1125.4,-100.53 1134.74,-95.52 1124.32,-93.61 1125.4,-100.53"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node">
-<title>Node11</title>
-<g id="a_node11"><a xlink:href="class_ability_cooldown.xhtml#a2142f4ae1a75b2e88bd33d8553680a33" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="623,-38.5 623,-57.5 766,-57.5 766,-38.5 623,-38.5"/>
-<text text-anchor="middle" x="694.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.AbilityReady</text>
-</a>
-</g>
-</g>
-<!-- Node10&#45;&gt;Node11 -->
+<!-- Node10&#45;&gt;Node9 -->
 <g id="edge10" class="edge">
-<title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M587.42,-48C595.58,-48 604.05,-48 612.49,-48"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="612.73,-51.5 622.73,-48 612.73,-44.5 612.73,-51.5"/>
+<title>Node10&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M1099.04,-71.49C1107.49,-72.76 1116.2,-74.07 1124.77,-75.36"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1124.33,-78.83 1134.74,-76.86 1125.37,-71.91 1124.33,-78.83"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="class_ability.xhtml#a680fce4c2981c462afc82d28fe3958ef" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="653.5,-0.5 653.5,-19.5 735.5,-19.5 735.5,-0.5 653.5,-0.5"/>
+<g id="a_node12"><a xlink:href="class_ability_cooldown.html#a2142f4ae1a75b2e88bd33d8553680a33" target="_top" xlink:title="This function is called whenever this ability is ready and you have enough mana.">
+<polygon fill="none" stroke="black" points="623,-38.5 623,-57.5 766,-57.5 766,-38.5 623,-38.5"/>
+<text text-anchor="middle" x="694.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.AbilityReady</text>
+</a>
+</g>
+</g>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge12" class="edge">
+<title>Node11&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M587.42,-48C595.58,-48 604.05,-48 612.49,-48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="612.73,-51.5 622.73,-48 612.73,-44.5 612.73,-51.5"/>
+</g>
+<!-- Node13 -->
+<g id="node13" class="node">
+<title>Node13</title>
+<g id="a_node13"><a xlink:href="class_ability.html#a680fce4c2981c462afc82d28fe3958ef" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="653.5,-0.5 653.5,-19.5 735.5,-19.5 735.5,-0.5 653.5,-0.5"/>
 <text text-anchor="middle" x="694.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability.Initialize</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node12 -->
-<g id="edge11" class="edge">
-<title>Node10&#45;&gt;Node12</title>
+<!-- Node11&#45;&gt;Node13 -->
+<g id="edge13" class="edge">
+<title>Node11&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M568.27,-38.41C591.08,-33.24 619.38,-26.81 643.31,-21.39"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="644.29,-24.75 653.27,-19.13 642.74,-17.93 644.29,-24.75"/>
 </g>

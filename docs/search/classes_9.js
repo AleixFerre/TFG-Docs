@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['loadingcanvas_576',['LoadingCanvas',['../class_loading_canvas.xhtml',1,'']]],
-  ['lobby_577',['Lobby',['../class_lobby.xhtml',1,'']]]
+  ['loadingcanvas_604',['LoadingCanvas',['../class_loading_canvas.html',1,'']]],
+  ['lobby_605',['Lobby',['../class_lobby.html',1,'']]]
 ];

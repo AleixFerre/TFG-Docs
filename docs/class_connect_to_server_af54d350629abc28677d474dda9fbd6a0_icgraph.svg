@@ -54,7 +54,6 @@ var sectionId = 'dynsection-6';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>ConnectToServer.RetryConnectionCorrutine</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-35 520,-35 520,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -68,8 +67,8 @@ var sectionId = 'dynsection-6';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_connect_to_server.xhtml#a23793971a306b7523ca6dc028f4746ca" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="150,-6 150,-25 315,-25 315,-6 150,-6"/>
+<g id="a_node2"><a xlink:href="class_connect_to_server.html#a23793971a306b7523ca6dc028f4746ca" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="150,-6 150,-25 315,-25 315,-6 150,-6"/>
 <text text-anchor="middle" x="232.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">ConnectToServer.RetryConnection</text>
 </a>
 </g>
@@ -83,8 +82,8 @@ var sectionId = 'dynsection-6';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_connect_to_server.xhtml#a586c4eaddbfb5ab8e5bfe771057651ea" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-6 0,-25 114,-25 114,-6 0,-6"/>
+<g id="a_node3"><a xlink:href="class_connect_to_server.html#a586c4eaddbfb5ab8e5bfe771057651ea" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-6 0,-25 114,-25 114,-6 0,-6"/>
 <text text-anchor="middle" x="57" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">ConnectToServer.Start</text>
 </a>
 </g>

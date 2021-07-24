@@ -54,7 +54,6 @@ var sectionId = 'dynsection-2';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>AbilityIndicator.GetDirection</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-62 505,-62 505,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -67,8 +66,8 @@ var sectionId = 'dynsection-2';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_ability_cooldown.xhtml#a24d10146f84157eecd34133535f98c0b" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="171,-19.5 171,-38.5 328,-38.5 328,-19.5 171,-19.5"/>
+<g id="a_node2"><a xlink:href="class_ability_cooldown.html#a24d10146f84157eecd34133535f98c0b" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="171,-19.5 171,-38.5 328,-38.5 328,-19.5 171,-19.5"/>
 <text text-anchor="middle" x="249.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.ButtonTriggered</text>
 </a>
 </g>
@@ -82,8 +81,8 @@ var sectionId = 'dynsection-2';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_ability_indicator.xhtml#a334fb70612241c8c1067bb596a4e2a26" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-38.5 0,-57.5 135,-57.5 135,-38.5 0,-38.5"/>
+<g id="a_node3"><a xlink:href="class_ability_indicator.html#a334fb70612241c8c1067bb596a4e2a26" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-38.5 0,-57.5 135,-57.5 135,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="67.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityIndicator.SetIndicator</text>
 </a>
 </g>
@@ -97,8 +96,8 @@ var sectionId = 'dynsection-2';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_ability_cooldown.xhtml#a0a1223f783a3c342413172a5797fa597" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="8,-0.5 8,-19.5 127,-19.5 127,-0.5 8,-0.5"/>
+<g id="a_node4"><a xlink:href="class_ability_cooldown.html#a0a1223f783a3c342413172a5797fa597" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="8,-0.5 8,-19.5 127,-19.5 127,-0.5 8,-0.5"/>
 <text text-anchor="middle" x="67.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.Update</text>
 </a>
 </g>

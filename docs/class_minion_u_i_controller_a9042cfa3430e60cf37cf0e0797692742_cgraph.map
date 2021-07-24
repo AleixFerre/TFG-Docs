@@ -1,4 +1,4 @@
 <map id="MinionUIController.UpdateCurrentHP" name="MinionUIController.UpdateCurrentHP">
 <area shape="rect" id="node1" title="Updates the current HP of the entity." alt="" coords="5,5,177,47"/>
-<area shape="rect" id="node2" href="$class_u_i_controller.xhtml#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="225,5,389,47"/>
+<area shape="rect" id="node2" href="$class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="225,5,389,47"/>
 </map>

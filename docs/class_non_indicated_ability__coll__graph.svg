@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 155.00 209.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 205)">
 <title>NonIndicatedAbility</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-205 151,-205 151,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_ability.xhtml" target="_top" xlink:title="Base abstract class for an Ability.">
-<polygon fill="white" stroke="black" points="28,-57.5 28,-76.5 72,-76.5 72,-57.5 28,-57.5"/>
+<g id="a_node2"><a xlink:href="class_ability.html" target="_top" xlink:title="Base abstract class for an Ability.">
+<polygon fill="none" stroke="black" points="28,-57.5 28,-76.5 72,-76.5 72,-57.5 28,-57.5"/>
 <text text-anchor="middle" x="50" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability</text>
 </a>
 </g>
@@ -37,7 +36,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="1.5,-181.5 1.5,-200.5 90.5,-200.5 90.5,-181.5 1.5,-181.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="1.5,-181.5 1.5,-200.5 90.5,-200.5 90.5,-181.5 1.5,-181.5"/>
 <text text-anchor="middle" x="46" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00">ScriptableObject</text>
 </a>
 </g>
@@ -51,8 +50,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_effect.xhtml" target="_top" xlink:title="Abstract base info container class for an Effect.">
-<polygon fill="white" stroke="black" points="62.5,-124.5 62.5,-143.5 103.5,-143.5 103.5,-124.5 62.5,-124.5"/>
+<g id="a_node4"><a xlink:href="class_effect.html" target="_top" xlink:title="Abstract base info container class for an Effect.">
+<polygon fill="none" stroke="black" points="62.5,-124.5 62.5,-143.5 103.5,-143.5 103.5,-124.5 62.5,-124.5"/>
 <text text-anchor="middle" x="83" y="-131.5" font-family="Helvetica,sans-Serif" font-size="10.00">Effect</text>
 </a>
 </g>

@@ -54,7 +54,6 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>PlayerController</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-504 1021.5,-504 1021.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -67,8 +66,8 @@ var sectionId = 'dynsection-1';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_ability_cooldown.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="367.5,-134.5 367.5,-153.5 453.5,-153.5 453.5,-134.5 367.5,-134.5"/>
+<g id="a_node3"><a xlink:href="class_ability_cooldown.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="367.5,-134.5 367.5,-153.5 453.5,-153.5 453.5,-134.5 367.5,-134.5"/>
 <text text-anchor="middle" x="410.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown</text>
 </a>
 </g>
@@ -83,8 +82,8 @@ var sectionId = 'dynsection-1';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="class_player_stats.xhtml" target="_top" xlink:title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut...">
-<polygon fill="white" stroke="black" points="584.5,-67.5 584.5,-86.5 652.5,-86.5 652.5,-67.5 584.5,-67.5"/>
+<g id="a_node9"><a xlink:href="class_player_stats.html" target="_top" xlink:title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut...">
+<polygon fill="none" stroke="black" points="584.5,-67.5 584.5,-86.5 652.5,-86.5 652.5,-67.5 584.5,-67.5"/>
 <text text-anchor="middle" x="618.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats</text>
 </a>
 </g>
@@ -99,8 +98,8 @@ var sectionId = 'dynsection-1';
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="class_basic_attack.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="325.5,-0.5 325.5,-19.5 395.5,-19.5 395.5,-0.5 325.5,-0.5"/>
+<g id="a_node19"><a xlink:href="class_basic_attack.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="325.5,-0.5 325.5,-19.5 395.5,-19.5 395.5,-0.5 325.5,-0.5"/>
 <text text-anchor="middle" x="360.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack</text>
 </a>
 </g>
@@ -116,7 +115,7 @@ var sectionId = 'dynsection-1';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="602,-268.5 602,-287.5 685,-287.5 685,-268.5 602,-268.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="602,-268.5 602,-287.5 685,-287.5 685,-268.5 602,-268.5"/>
 <text text-anchor="middle" x="643.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">MonoBehaviour</text>
 </a>
 </g>
@@ -136,8 +135,8 @@ var sectionId = 'dynsection-1';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_ability_indicator.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="31.5,-67.5 31.5,-86.5 111.5,-86.5 111.5,-67.5 31.5,-67.5"/>
+<g id="a_node7"><a xlink:href="class_ability_indicator.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="31.5,-67.5 31.5,-86.5 111.5,-86.5 111.5,-67.5 31.5,-67.5"/>
 <text text-anchor="middle" x="71.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityIndicator</text>
 </a>
 </g>
@@ -151,8 +150,8 @@ var sectionId = 'dynsection-1';
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="class_stats.xhtml" target="_top" xlink:title="Base class Stats of the entity.">
-<polygon fill="white" stroke="black" points="671.5,-201.5 671.5,-220.5 711.5,-220.5 711.5,-201.5 671.5,-201.5"/>
+<g id="a_node11"><a xlink:href="class_stats.html" target="_top" xlink:title="Base class Stats of the entity.">
+<polygon fill="none" stroke="black" points="671.5,-201.5 671.5,-220.5 711.5,-220.5 711.5,-201.5 671.5,-201.5"/>
 <text text-anchor="middle" x="691.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">Stats</text>
 </a>
 </g>
@@ -166,8 +165,8 @@ var sectionId = 'dynsection-1';
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="class_u_i_controller.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="759,-201.5 759,-220.5 826,-220.5 826,-201.5 759,-201.5"/>
+<g id="a_node13"><a xlink:href="class_u_i_controller.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="759,-201.5 759,-220.5 826,-220.5 826,-201.5 759,-201.5"/>
 <text text-anchor="middle" x="792.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">UIController</text>
 </a>
 </g>
@@ -181,8 +180,8 @@ var sectionId = 'dynsection-1';
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="class_inventory.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="863,-0.5 863,-19.5 918,-19.5 918,-0.5 863,-0.5"/>
+<g id="a_node14"><a xlink:href="class_inventory.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="863,-0.5 863,-19.5 918,-19.5 918,-0.5 863,-0.5"/>
 <text text-anchor="middle" x="890.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Inventory</text>
 </a>
 </g>
@@ -223,8 +222,8 @@ var sectionId = 'dynsection-1';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_ability.xhtml" target="_top" xlink:title="Base abstract class for an Ability.">
-<polygon fill="white" stroke="black" points="131.5,-335.5 131.5,-354.5 175.5,-354.5 175.5,-335.5 131.5,-335.5"/>
+<g id="a_node4"><a xlink:href="class_ability.html" target="_top" xlink:title="Base abstract class for an Ability.">
+<polygon fill="none" stroke="black" points="131.5,-335.5 131.5,-354.5 175.5,-354.5 175.5,-335.5 131.5,-335.5"/>
 <text text-anchor="middle" x="153.5" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability</text>
 </a>
 </g>
@@ -239,8 +238,8 @@ var sectionId = 'dynsection-1';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="class_indicated_ability.xhtml" target="_top" xlink:title="Encapsulador de les Ability que han de mostrar l&#39;indicador">
-<polygon fill="white" stroke="black" points="0,-268.5 0,-287.5 83,-287.5 83,-268.5 0,-268.5"/>
+<g id="a_node8"><a xlink:href="class_indicated_ability.html" target="_top" xlink:title="Encapsulador de les Ability que han de mostrar l&#39;indicador">
+<polygon fill="none" stroke="black" points="0,-268.5 0,-287.5 83,-287.5 83,-268.5 0,-268.5"/>
 <text text-anchor="middle" x="41.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">IndicatedAbility</text>
 </a>
 </g>
@@ -254,8 +253,8 @@ var sectionId = 'dynsection-1';
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="class_character.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="144,-268.5 144,-287.5 203,-287.5 203,-268.5 144,-268.5"/>
+<g id="a_node18"><a xlink:href="class_character.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="144,-268.5 144,-287.5 203,-287.5 203,-268.5 144,-268.5"/>
 <text text-anchor="middle" x="173.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">Character</text>
 </a>
 </g>
@@ -271,7 +270,7 @@ var sectionId = 'dynsection-1';
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="142,-475 142,-494 231,-494 231,-475 142,-475"/>
+<polygon fill="none" stroke="#bfbfbf" points="142,-475 142,-494 231,-494 231,-475 142,-475"/>
 <text text-anchor="middle" x="186.5" y="-482" font-family="Helvetica,sans-Serif" font-size="10.00">ScriptableObject</text>
 </a>
 </g>
@@ -285,8 +284,8 @@ var sectionId = 'dynsection-1';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_effect.xhtml" target="_top" xlink:title="Abstract base info container class for an Effect.">
-<polygon fill="white" stroke="black" points="54,-402.5 54,-421.5 95,-421.5 95,-402.5 54,-402.5"/>
+<g id="a_node6"><a xlink:href="class_effect.html" target="_top" xlink:title="Abstract base info container class for an Effect.">
+<polygon fill="none" stroke="black" points="54,-402.5 54,-421.5 95,-421.5 95,-402.5 54,-402.5"/>
 <text text-anchor="middle" x="74.5" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">Effect</text>
 </a>
 </g>
@@ -300,8 +299,8 @@ var sectionId = 'dynsection-1';
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="class_item.xhtml" target="_top" xlink:title="Base class for an Item">
-<polygon fill="white" stroke="black" points="684,-402.5 684,-421.5 719,-421.5 719,-402.5 684,-402.5"/>
+<g id="a_node15"><a xlink:href="class_item.html" target="_top" xlink:title="Base class for an Item">
+<polygon fill="none" stroke="black" points="684,-402.5 684,-421.5 719,-421.5 719,-402.5 684,-402.5"/>
 <text text-anchor="middle" x="701.5" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item</text>
 </a>
 </g>
@@ -377,8 +376,8 @@ var sectionId = 'dynsection-1';
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="class_ability_affected_stats.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="699.5,-134.5 699.5,-153.5 801.5,-153.5 801.5,-134.5 699.5,-134.5"/>
+<g id="a_node10"><a xlink:href="class_ability_affected_stats.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="699.5,-134.5 699.5,-153.5 801.5,-153.5 801.5,-134.5 699.5,-134.5"/>
 <text text-anchor="middle" x="750.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityAffectedStats</text>
 </a>
 </g>
@@ -405,8 +404,8 @@ var sectionId = 'dynsection-1';
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="class_player_u_i_controller.xhtml" target="_top" xlink:title="UI Controller for the Player Stats">
-<polygon fill="white" stroke="black" points="820,-134.5 820,-153.5 915,-153.5 915,-134.5 820,-134.5"/>
+<g id="a_node12"><a xlink:href="class_player_u_i_controller.html" target="_top" xlink:title="UI Controller for the Player Stats">
+<polygon fill="none" stroke="black" points="820,-134.5 820,-153.5 915,-153.5 915,-134.5 820,-134.5"/>
 <text text-anchor="middle" x="867.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerUIController</text>
 </a>
 </g>
@@ -441,8 +440,8 @@ var sectionId = 'dynsection-1';
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="class_generic_dictionary.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="590.5,-469.5 590.5,-499.5 690.5,-499.5 690.5,-469.5 590.5,-469.5"/>
+<g id="a_node16"><a xlink:href="class_generic_dictionary.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="590.5,-469.5 590.5,-499.5 690.5,-499.5 690.5,-469.5 590.5,-469.5"/>
 <text text-anchor="start" x="598.5" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">GenericDictionary&lt;</text>
 <text text-anchor="middle" x="640.5" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00"> IntStatistic, int &gt;</text>
 </a>
@@ -458,8 +457,8 @@ var sectionId = 'dynsection-1';
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="class_generic_dictionary.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="708.5,-469.5 708.5,-499.5 818.5,-499.5 818.5,-469.5 708.5,-469.5"/>
+<g id="a_node17"><a xlink:href="class_generic_dictionary.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="708.5,-469.5 708.5,-499.5 818.5,-499.5 818.5,-469.5 708.5,-469.5"/>
 <text text-anchor="start" x="716.5" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">GenericDictionary&lt;</text>
 <text text-anchor="middle" x="763.5" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00"> FloatStatistic, float &gt;</text>
 </a>

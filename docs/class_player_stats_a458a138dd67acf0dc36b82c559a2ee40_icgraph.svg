@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 313.00 39.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 35)">
 <title>PlayerStats.ApplyStatistic</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-35 309,-35 309,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_statistic_change_effect.xhtml#ab480352a1ba2c255559e433dbd7a6f8e" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 138,-30.5 138,-0.5 0,-0.5"/>
+<g id="a_node2"><a xlink:href="class_statistic_change_effect.html#ab480352a1ba2c255559e433dbd7a6f8e" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-0.5 0,-30.5 138,-30.5 138,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">StatisticChangeEffect.Apply</text>
 <text text-anchor="middle" x="69" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TimedEffect</text>
 </a>

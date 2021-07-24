@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['character_555',['Character',['../class_character.xhtml',1,'']]],
-  ['coin_556',['Coin',['../class_coin.xhtml',1,'']]],
-  ['connectionmanager_557',['ConnectionManager',['../class_connection_manager.xhtml',1,'']]],
-  ['connecttoserver_558',['ConnectToServer',['../class_connect_to_server.xhtml',1,'']]]
+  ['character_580',['Character',['../class_character.html',1,'']]],
+  ['charactergroup_581',['CharacterGroup',['../class_character_group.html',1,'']]],
+  ['coin_582',['Coin',['../class_coin.html',1,'']]],
+  ['connectionmanager_583',['ConnectionManager',['../class_connection_manager.html',1,'']]],
+  ['connecttoserver_584',['ConnectToServer',['../class_connect_to_server.html',1,'']]]
 ];

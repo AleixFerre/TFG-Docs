@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 441.00 39.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 35)">
 <title>PlayerStats.HealRPC</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-35 437,-35 437,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_player_u_i_controller.xhtml#aca577b724c1f3f2ed54ad1165a7842c2" target="_top" xlink:title="Sets the current HP value to the Image.">
-<polygon fill="white" stroke="black" points="146,-0.5 146,-30.5 274,-30.5 274,-0.5 146,-0.5"/>
+<g id="a_node2"><a xlink:href="class_player_u_i_controller.html#aca577b724c1f3f2ed54ad1165a7842c2" target="_top" xlink:title="Sets the current HP value to the Image.">
+<polygon fill="none" stroke="black" points="146,-0.5 146,-30.5 274,-30.5 274,-0.5 146,-0.5"/>
 <text text-anchor="start" x="154" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerUIController.Update</text>
 <text text-anchor="middle" x="210" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">CurrentHP</text>
 </a>
@@ -37,8 +36,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_u_i_controller.xhtml#a7d7833a7840917741dbc8c4a83dbe918" target="_top" xlink:title="Calculates the actual normalized fill amount for the image.">
-<polygon fill="white" stroke="black" points="310,-0.5 310,-30.5 433,-30.5 433,-0.5 310,-0.5"/>
+<g id="a_node3"><a xlink:href="class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" target="_top" xlink:title="Calculates the actual normalized fill amount for the image.">
+<polygon fill="none" stroke="black" points="310,-0.5 310,-30.5 433,-30.5 433,-0.5 310,-0.5"/>
 <text text-anchor="start" x="318" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">UIController.CalculateFill</text>
 <text text-anchor="middle" x="371.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Amount</text>
 </a>

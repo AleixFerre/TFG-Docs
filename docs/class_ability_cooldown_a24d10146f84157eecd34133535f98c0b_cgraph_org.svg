@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 878.00 306.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 302)">
 <title>AbilityCooldown.ButtonTriggered</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-302 874,-302 874,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_player_stats.xhtml#af942d9a5150c2d4c47800335ec062ee1" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="208,-234.5 208,-253.5 345,-253.5 345,-234.5 208,-234.5"/>
+<g id="a_node2"><a xlink:href="class_player_stats.html#af942d9a5150c2d4c47800335ec062ee1" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="208,-234.5 208,-253.5 345,-253.5 345,-234.5 208,-234.5"/>
 <text text-anchor="middle" x="276.5" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.BlockAbilityFor</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_player_controller.xhtml#a36323c07b7cd9e0ccab9c8016611827c" target="_top" xlink:title="The player will look at the position of this Transform.">
-<polygon fill="white" stroke="black" points="745,-207 745,-237 870,-237 870,-207 745,-207"/>
+<g id="a_node6"><a xlink:href="class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c" target="_top" xlink:title="The player will look at the position of this Transform.">
+<polygon fill="none" stroke="black" points="745,-207 745,-237 870,-237 870,-207 745,-207"/>
 <text text-anchor="start" x="753" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerController.SetLook</text>
 <text text-anchor="middle" x="807.5" y="-214" font-family="Helvetica,sans-Serif" font-size="10.00">AtTarget</text>
 </a>
@@ -52,8 +51,8 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_ability_indicator.xhtml#aaf1aa8f26591497f20fc44435964f990" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="208,-152.5 208,-171.5 345,-171.5 345,-152.5 208,-152.5"/>
+<g id="a_node7"><a xlink:href="class_ability_indicator.html#aaf1aa8f26591497f20fc44435964f990" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="208,-152.5 208,-171.5 345,-171.5 345,-152.5 208,-152.5"/>
 <text text-anchor="middle" x="276.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityIndicator.GetDirection</text>
 </a>
 </g>
@@ -67,8 +66,8 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="class_ability_cooldown.xhtml#a9f4046c2417cda8738a77106358ce040" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="193,-114.5 193,-133.5 360,-133.5 360,-114.5 193,-114.5"/>
+<g id="a_node8"><a xlink:href="class_ability_cooldown.html#a9f4046c2417cda8738a77106358ce040" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="193,-114.5 193,-133.5 360,-133.5 360,-114.5 193,-114.5"/>
 <text text-anchor="middle" x="276.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.HaveEnoughMana</text>
 </a>
 </g>
@@ -82,8 +81,8 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="class_basic_attack.xhtml#ad88d6d1dc8cdc8dd2b7a3043e0cc0d5a" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="202,-76.5 202,-95.5 351,-95.5 351,-76.5 202,-76.5"/>
+<g id="a_node9"><a xlink:href="class_basic_attack.html#ad88d6d1dc8cdc8dd2b7a3043e0cc0d5a" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="202,-76.5 202,-95.5 351,-95.5 351,-76.5 202,-76.5"/>
 <text text-anchor="middle" x="276.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.ResetStateAbility</text>
 </a>
 </g>
@@ -97,8 +96,8 @@
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="class_player_stats.xhtml#aac8ad79b07db35d0a9873217c992d787" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="215.5,-38.5 215.5,-57.5 337.5,-57.5 337.5,-38.5 215.5,-38.5"/>
+<g id="a_node10"><a xlink:href="class_player_stats.html#aac8ad79b07db35d0a9873217c992d787" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="215.5,-38.5 215.5,-57.5 337.5,-57.5 337.5,-38.5 215.5,-38.5"/>
 <text text-anchor="middle" x="276.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.SpendMana</text>
 </a>
 </g>
@@ -112,8 +111,8 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="class_ability.xhtml#a393933c729063962332677c3ddd5d4e1" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="225,-0.5 225,-19.5 328,-19.5 328,-0.5 225,-0.5"/>
+<g id="a_node11"><a xlink:href="class_ability.html#a393933c729063962332677c3ddd5d4e1" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="225,-0.5 225,-19.5 328,-19.5 328,-0.5 225,-0.5"/>
 <text text-anchor="middle" x="276.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability.TriggerAbility</text>
 </a>
 </g>
@@ -127,8 +126,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_player_stats.xhtml#a4df625156bb2ae99262e81b28346ccb4" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="396,-229 396,-259 518,-259 518,-229 396,-229"/>
+<g id="a_node3"><a xlink:href="class_player_stats.html#a4df625156bb2ae99262e81b28346ccb4" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="396,-229 396,-259 518,-259 518,-229 396,-229"/>
 <text text-anchor="start" x="404" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.BlockAbility</text>
 <text text-anchor="middle" x="457" y="-236" font-family="Helvetica,sans-Serif" font-size="10.00">ForSeconds</text>
 </a>
@@ -143,8 +142,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_player_stats.xhtml#a12436c563a621825a095f0fcbee67e74" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="554,-278.5 554,-297.5 709,-297.5 709,-278.5 554,-278.5"/>
+<g id="a_node4"><a xlink:href="class_player_stats.html#a12436c563a621825a095f0fcbee67e74" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="554,-278.5 554,-297.5 709,-297.5 709,-278.5 554,-278.5"/>
 <text text-anchor="middle" x="631.5" y="-285.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.GetAbilityCooldown</text>
 </a>
 </g>
@@ -164,8 +163,8 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_ability_cooldown.xhtml#abe17348393bdde47c5aef87b5311593c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="567.5,-229 567.5,-259 695.5,-259 695.5,-229 567.5,-229"/>
+<g id="a_node5"><a xlink:href="class_ability_cooldown.html#abe17348393bdde47c5aef87b5311593c" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="567.5,-229 567.5,-259 695.5,-259 695.5,-229 567.5,-229"/>
 <text text-anchor="start" x="575.5" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.OnFinish</text>
 <text text-anchor="middle" x="631.5" y="-236" font-family="Helvetica,sans-Serif" font-size="10.00">Ability</text>
 </a>

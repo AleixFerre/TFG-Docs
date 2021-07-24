@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 181.50 285.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 281)">
 <title>TurretStats</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-281 177.5,-281 177.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_structure_stats.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-105.5 0,-124.5 80,-124.5 80,-105.5 0,-105.5"/>
+<g id="a_node2"><a xlink:href="class_structure_stats.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-105.5 0,-124.5 80,-124.5 80,-105.5 0,-105.5"/>
 <text text-anchor="middle" x="40" y="-112.5" font-family="Helvetica,sans-Serif" font-size="10.00">StructureStats</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_stats.xhtml" target="_top" xlink:title="Base class Stats of the entity.">
-<polygon fill="white" stroke="black" points="23,-200.5 23,-219.5 63,-219.5 63,-200.5 23,-200.5"/>
+<g id="a_node3"><a xlink:href="class_stats.html" target="_top" xlink:title="Base class Stats of the entity.">
+<polygon fill="none" stroke="black" points="23,-200.5 23,-219.5 63,-219.5 63,-200.5 23,-200.5"/>
 <text text-anchor="middle" x="43" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00">Stats</text>
 </a>
 </g>
@@ -52,7 +51,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="36.5,-257.5 36.5,-276.5 119.5,-276.5 119.5,-257.5 36.5,-257.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="36.5,-257.5 36.5,-276.5 119.5,-276.5 119.5,-257.5 36.5,-257.5"/>
 <text text-anchor="middle" x="78" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">MonoBehaviour</text>
 </a>
 </g>
@@ -66,8 +65,8 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_u_i_controller.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="83.5,-200.5 83.5,-219.5 150.5,-219.5 150.5,-200.5 83.5,-200.5"/>
+<g id="a_node7"><a xlink:href="class_u_i_controller.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="83.5,-200.5 83.5,-219.5 150.5,-219.5 150.5,-200.5 83.5,-200.5"/>
 <text text-anchor="middle" x="117" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00">UIController</text>
 </a>
 </g>
@@ -81,8 +80,8 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_turret_u_i_controller.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="73,-67.5 73,-86.5 165,-86.5 165,-67.5 73,-67.5"/>
+<g id="a_node5"><a xlink:href="class_turret_u_i_controller.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="73,-67.5 73,-86.5 165,-86.5 165,-67.5 73,-67.5"/>
 <text text-anchor="middle" x="119" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">TurretUIController</text>
 </a>
 </g>
@@ -97,8 +96,8 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_structure_u_i_controller.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="66.5,-143.5 66.5,-162.5 173.5,-162.5 173.5,-143.5 66.5,-143.5"/>
+<g id="a_node6"><a xlink:href="class_structure_u_i_controller.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="66.5,-143.5 66.5,-162.5 173.5,-162.5 173.5,-143.5 66.5,-143.5"/>
 <text text-anchor="middle" x="120" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">StructureUIController</text>
 </a>
 </g>

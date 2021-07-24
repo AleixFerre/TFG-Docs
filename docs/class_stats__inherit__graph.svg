@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 342.50 252.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 248)">
 <title>Stats</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-248 338.5,-248 338.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_ability_affected_stats.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="63,-112.5 63,-131.5 165,-131.5 165,-112.5 63,-112.5"/>
+<g id="a_node3"><a xlink:href="class_ability_affected_stats.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="63,-112.5 63,-131.5 165,-131.5 165,-112.5 63,-112.5"/>
 <text text-anchor="middle" x="114" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityAffectedStats</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_structure_stats.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="183,-112.5 183,-131.5 263,-131.5 263,-112.5 183,-112.5"/>
+<g id="a_node7"><a xlink:href="class_structure_stats.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="183,-112.5 183,-131.5 263,-131.5 263,-112.5 183,-112.5"/>
 <text text-anchor="middle" x="223" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">StructureStats</text>
 </a>
 </g>
@@ -52,7 +51,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="126.5,-224.5 126.5,-243.5 209.5,-243.5 209.5,-224.5 126.5,-224.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="126.5,-224.5 126.5,-243.5 209.5,-243.5 209.5,-224.5 126.5,-224.5"/>
 <text text-anchor="middle" x="168" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">MonoBehaviour</text>
 </a>
 </g>
@@ -66,8 +65,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_minion_stats.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-56.5 0,-75.5 68,-75.5 68,-56.5 0,-56.5"/>
+<g id="a_node4"><a xlink:href="class_minion_stats.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-56.5 0,-75.5 68,-75.5 68,-56.5 0,-56.5"/>
 <text text-anchor="middle" x="34" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">MinionStats</text>
 </a>
 </g>
@@ -81,8 +80,8 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_player_stats.xhtml" target="_top" xlink:title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut...">
-<polygon fill="white" stroke="black" points="86,-56.5 86,-75.5 154,-75.5 154,-56.5 86,-56.5"/>
+<g id="a_node5"><a xlink:href="class_player_stats.html" target="_top" xlink:title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut...">
+<polygon fill="none" stroke="black" points="86,-56.5 86,-75.5 154,-75.5 154,-56.5 86,-56.5"/>
 <text text-anchor="middle" x="120" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats</text>
 </a>
 </g>
@@ -96,8 +95,8 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_mannequin_stats.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="76.5,-0.5 76.5,-19.5 163.5,-19.5 163.5,-0.5 76.5,-0.5"/>
+<g id="a_node6"><a xlink:href="class_mannequin_stats.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="76.5,-0.5 76.5,-19.5 163.5,-19.5 163.5,-0.5 76.5,-0.5"/>
 <text text-anchor="middle" x="120" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MannequinStats</text>
 </a>
 </g>
@@ -111,8 +110,8 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="class_nexus_stats.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="183,-56.5 183,-75.5 251,-75.5 251,-56.5 183,-56.5"/>
+<g id="a_node8"><a xlink:href="class_nexus_stats.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="183,-56.5 183,-75.5 251,-75.5 251,-56.5 183,-56.5"/>
 <text text-anchor="middle" x="217" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">NexusStats</text>
 </a>
 </g>
@@ -126,8 +125,8 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="class_turret_stats.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="269.5,-56.5 269.5,-75.5 334.5,-75.5 334.5,-56.5 269.5,-56.5"/>
+<g id="a_node9"><a xlink:href="class_turret_stats.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="269.5,-56.5 269.5,-75.5 334.5,-75.5 334.5,-56.5 269.5,-56.5"/>
 <text text-anchor="middle" x="302" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">TurretStats</text>
 </a>
 </g>

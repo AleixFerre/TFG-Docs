@@ -1,4 +1,4 @@
 <map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
-<area shape="rect" id="node1" href="$class_singleton.xhtml" title=" " alt="" coords="5,5,196,32"/>
-<area shape="rect" id="node2" href="$class_game_controller.xhtml" title="The UNIQUE Game Controller in the Scene." alt="" coords="244,5,356,32"/>
+<area shape="rect" id="node1" href="$class_singleton.html" title=" " alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node2" href="$class_game_controller.html" title="The UNIQUE Game Controller in the Scene." alt="" coords="244,5,356,32"/>
 </map>

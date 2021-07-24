@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 602.00 66.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62)">
 <title>BasicAttack.Update</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-62 598,-62 598,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_basic_attack.xhtml#a5d09a3ef54dfac2ab6130195c188492e" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="140,-38.5 140,-57.5 250,-57.5 250,-38.5 140,-38.5"/>
+<g id="a_node2"><a xlink:href="class_basic_attack.html#a5d09a3ef54dfac2ab6130195c188492e" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="140,-38.5 140,-57.5 250,-57.5 250,-38.5 140,-38.5"/>
 <text text-anchor="middle" x="195" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.CastRay</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_basic_attack.xhtml#a965a4cbb50653a0b2ed02e8bf1f88433" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="298.5,-0.5 298.5,-19.5 420.5,-19.5 420.5,-0.5 298.5,-0.5"/>
+<g id="a_node5"><a xlink:href="class_basic_attack.html#a965a4cbb50653a0b2ed02e8bf1f88433" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="298.5,-0.5 298.5,-19.5 420.5,-19.5 420.5,-0.5 298.5,-0.5"/>
 <text text-anchor="middle" x="359.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.ResetState</text>
 </a>
 </g>
@@ -51,8 +50,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_basic_attack.xhtml#a6700fa1b84e430381504535f20c2e3d8" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="286,-38.5 286,-57.5 433,-57.5 433,-38.5 286,-38.5"/>
+<g id="a_node3"><a xlink:href="class_basic_attack.html#a6700fa1b84e430381504535f20c2e3d8" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="286,-38.5 286,-57.5 433,-57.5 433,-38.5 286,-38.5"/>
 <text text-anchor="middle" x="359.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.StartBasicAttack</text>
 </a>
 </g>
@@ -66,8 +65,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_player_controller.xhtml#a36323c07b7cd9e0ccab9c8016611827c" target="_top" xlink:title="The player will look at the position of this Transform.">
-<polygon fill="white" stroke="black" points="469,-14 469,-44 594,-44 594,-14 469,-14"/>
+<g id="a_node4"><a xlink:href="class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c" target="_top" xlink:title="The player will look at the position of this Transform.">
+<polygon fill="none" stroke="black" points="469,-14 469,-44 594,-44 594,-14 469,-14"/>
 <text text-anchor="start" x="477" y="-32" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerController.SetLook</text>
 <text text-anchor="middle" x="531.5" y="-21" font-family="Helvetica,sans-Serif" font-size="10.00">AtTarget</text>
 </a>

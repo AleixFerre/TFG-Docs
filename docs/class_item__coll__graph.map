@@ -1,6 +1,6 @@
 <map id="Item" name="Item">
 <area shape="rect" id="node1" title="Base class for an Item" alt="" coords="277,64,324,91"/>
 <area shape="rect" id="node2" title=" " alt="" coords="19,5,138,32"/>
-<area shape="rect" id="node3" href="$class_generic_dictionary.xhtml" title=" " alt="" coords="12,57,145,98"/>
-<area shape="rect" id="node4" href="$class_generic_dictionary.xhtml" title=" " alt="" coords="5,122,152,163"/>
+<area shape="rect" id="node3" href="$class_generic_dictionary.html" title=" " alt="" coords="12,57,145,98"/>
+<area shape="rect" id="node4" href="$class_generic_dictionary.html" title=" " alt="" coords="5,122,152,163"/>
 </map>

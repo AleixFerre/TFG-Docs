@@ -1,4 +1,4 @@
 <map id="BasicAttack.ResetState" name="BasicAttack.ResetState">
 <area shape="rect" id="node1" title=" " alt="" coords="5,13,168,39"/>
-<area shape="rect" id="node2" href="$class_player_controller.xhtml#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="216,5,383,47"/>
+<area shape="rect" id="node2" href="$class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="216,5,383,47"/>
 </map>

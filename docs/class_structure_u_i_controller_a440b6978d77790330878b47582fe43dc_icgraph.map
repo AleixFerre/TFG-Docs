@@ -1,5 +1,5 @@
 <map id="StructureUIController.UpdateCurrentHP" name="StructureUIController.UpdateCurrentHP">
 <area shape="rect" id="node1" title="Updates the current HP of the entity." alt="" coords="248,23,435,65"/>
-<area shape="rect" id="node2" href="$class_nexus_stats.xhtml#ae804a5fa576e7252285f85ff03aa0615" title=" " alt="" coords="5,5,200,32"/>
-<area shape="rect" id="node3" href="$class_turret_stats.xhtml#abe52ad65a694702d44428b7a15447a39" title=" " alt="" coords="7,56,198,83"/>
+<area shape="rect" id="node2" href="$class_nexus_stats.html#ae804a5fa576e7252285f85ff03aa0615" title=" " alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node3" href="$class_turret_stats.html#a503110135edcf63f735168caec63debd" title=" " alt="" coords="7,56,198,83"/>
 </map>

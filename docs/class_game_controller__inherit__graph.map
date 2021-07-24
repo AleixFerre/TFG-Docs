@@ -1,4 +1,4 @@
 <map id="GameController" name="GameController">
 <area shape="rect" id="node1" title="The UNIQUE Game Controller in the Scene." alt="" coords="45,80,157,107"/>
-<area shape="rect" id="node2" href="$class_singleton.xhtml" title=" " alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node2" href="$class_singleton.html" title=" " alt="" coords="5,5,196,32"/>
 </map>

@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 438.00 213.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 209.5)">
 <title>Effect.Activate</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-209.5 434,-209.5 434,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_effect_manager.xhtml#a921aed9a2553637cdd387d3075150709" target="_top" xlink:title="Starts an Effect to the entity who has this EffectManager.">
-<polygon fill="white" stroke="black" points="179,-104 179,-123 315,-123 315,-104 179,-104"/>
+<g id="a_node2"><a xlink:href="class_effect_manager.html#a921aed9a2553637cdd387d3075150709" target="_top" xlink:title="Starts an Effect to the entity who has this EffectManager.">
+<polygon fill="none" stroke="black" points="179,-104 179,-123 315,-123 315,-104 179,-104"/>
 <text text-anchor="middle" x="247" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00">EffectManager.TriggerEffect</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_ability___lis1.xhtml#afd1d7924ca79144a0e19a84705b7590e" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="4,-186 4,-205 139,-205 139,-186 4,-186"/>
+<g id="a_node3"><a xlink:href="class_ability___lis1.html#afd1d7924ca79144a0e19a84705b7590e" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="4,-186 4,-205 139,-205 139,-186 4,-186"/>
 <text text-anchor="middle" x="71.5" y="-193" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_Lis1.OnTriggerEnter</text>
 </a>
 </g>
@@ -51,8 +50,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_ability___lis4.xhtml#a4497c50ddbd3f508448a76a1eafdd203" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="4,-148 4,-167 139,-167 139,-148 4,-148"/>
+<g id="a_node4"><a xlink:href="class_ability___lis4.html#a4497c50ddbd3f508448a76a1eafdd203" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="4,-148 4,-167 139,-167 139,-148 4,-148"/>
 <text text-anchor="middle" x="71.5" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_Lis4.OnTriggerEnter</text>
 </a>
 </g>
@@ -66,8 +65,8 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_ability___instanciable.xhtml#acd9b521d5e3e7b9d8b9e6d46c5e43f3e" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="5,-98.5 5,-128.5 138,-128.5 138,-98.5 5,-98.5"/>
+<g id="a_node5"><a xlink:href="class_ability___instanciable.html#acd9b521d5e3e7b9d8b9e6d46c5e43f3e" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="5,-98.5 5,-128.5 138,-128.5 138,-98.5 5,-98.5"/>
 <text text-anchor="start" x="13" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_Instanciable.Trigger</text>
 <text text-anchor="middle" x="71.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability</text>
 </a>
@@ -82,8 +81,8 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_ability___player_relative.xhtml#a74129ed38e185f90a00ec9924a3ecdbb" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-49.5 0,-79.5 143,-79.5 143,-49.5 0,-49.5"/>
+<g id="a_node6"><a xlink:href="class_ability___player_relative.html#a74129ed38e185f90a00ec9924a3ecdbb" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-49.5 0,-79.5 143,-79.5 143,-49.5 0,-49.5"/>
 <text text-anchor="start" x="8" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_PlayerRelative.Trigger</text>
 <text text-anchor="middle" x="71.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability</text>
 </a>
@@ -98,8 +97,8 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_ability___stats_changer.xhtml#a113c18fb5be1fa153ec28d131d1b2c93" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1.5,-0.5 1.5,-30.5 141.5,-30.5 141.5,-0.5 1.5,-0.5"/>
+<g id="a_node7"><a xlink:href="class_ability___stats_changer.html#a113c18fb5be1fa153ec28d131d1b2c93" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="1.5,-0.5 1.5,-30.5 141.5,-30.5 141.5,-0.5 1.5,-0.5"/>
 <text text-anchor="start" x="9.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_StatsChanger.Trigger</text>
 <text text-anchor="middle" x="71.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability</text>
 </a>

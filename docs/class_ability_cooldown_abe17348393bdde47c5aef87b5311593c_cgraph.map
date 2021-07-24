@@ -1,4 +1,4 @@
 <map id="AbilityCooldown.OnFinishAbility" name="AbilityCooldown.OnFinishAbility">
 <area shape="rect" id="node1" title=" " alt="" coords="5,5,176,47"/>
-<area shape="rect" id="node2" href="$class_player_controller.xhtml#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="224,5,391,47"/>
+<area shape="rect" id="node2" href="$class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="224,5,391,47"/>
 </map>

@@ -1,18 +1,20 @@
 <map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
-<area shape="rect" id="node1" title=" " alt="" coords="5,233,124,260"/>
-<area shape="rect" id="node2" href="$class_ability.xhtml" title="Base abstract class for an Ability." alt="" coords="182,157,241,184"/>
-<area shape="rect" id="node9" href="$class_character.xhtml" title=" " alt="" coords="172,208,251,235"/>
-<area shape="rect" id="node10" href="$class_effect.xhtml" title="Abstract base info container class for an Effect." alt="" coords="184,259,239,285"/>
-<area shape="rect" id="node16" href="$class_item.xhtml" title="Base class for an Item" alt="" coords="188,309,235,336"/>
-<area shape="rect" id="node3" href="$class_indicated_ability.xhtml" title="Encapsulador de les Ability que han de mostrar l&#39;indicador" alt="" coords="310,81,421,108"/>
-<area shape="rect" id="node7" href="$class_non_indicated_ability.xhtml" title="Encapsulador de les Ability que NO han de mostrar cap indicador." alt="" coords="299,157,432,184"/>
-<area shape="rect" id="node4" href="$class_ability___dash.xhtml" title=" " alt="" coords="506,5,601,32"/>
-<area shape="rect" id="node5" href="$class_ability___instanciable.xhtml" title=" " alt="" coords="486,56,621,83"/>
-<area shape="rect" id="node6" href="$class_ability___player_relative.xhtml" title=" " alt="" coords="480,107,627,133"/>
-<area shape="rect" id="node8" href="$class_ability___stats_changer.xhtml" title=" " alt="" coords="481,157,625,184"/>
-<area shape="rect" id="node11" href="$class_instant_effect.xhtml" title="InstantEffect és un encapsulador per tots els Effect que s&#39;executen de forma instantània." alt="" coords="318,259,413,285"/>
-<area shape="rect" id="node14" href="$class_timed_effect.xhtml" title="TimedEffect és un encapsulador per tots els Effect que NO s&#39;executen de forma instantània." alt="" coords="320,309,411,336"/>
-<area shape="rect" id="node12" href="$class_heal_effect.xhtml" title=" " alt="" coords="513,208,594,235"/>
-<area shape="rect" id="node13" href="$class_heal_relative_effect.xhtml" title=" " alt="" coords="490,259,617,285"/>
-<area shape="rect" id="node15" href="$class_statistic_change_effect.xhtml" title=" " alt="" coords="480,309,627,336"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,271,124,297"/>
+<area shape="rect" id="node2" href="$class_ability.html" title="Base abstract class for an Ability." alt="" coords="199,144,258,171"/>
+<area shape="rect" id="node9" href="$class_character.html" title=" " alt="" coords="189,195,268,221"/>
+<area shape="rect" id="node10" href="$class_character_group.html" title=" " alt="" coords="172,245,285,272"/>
+<area shape="rect" id="node11" href="$class_effect.html" title="Abstract base info container class for an Effect." alt="" coords="201,296,256,323"/>
+<area shape="rect" id="node17" href="$class_item.html" title="Base class for an Item" alt="" coords="205,347,252,373"/>
+<area shape="rect" id="node18" href="$class_item_group.html" title=" " alt="" coords="187,397,270,424"/>
+<area shape="rect" id="node3" href="$class_indicated_ability.html" title="Encapsulador de les Ability que han de mostrar l&#39;indicador" alt="" coords="345,100,455,127"/>
+<area shape="rect" id="node7" href="$class_non_indicated_ability.html" title="Encapsulador de les Ability que NO han de mostrar cap indicador." alt="" coords="333,151,467,177"/>
+<area shape="rect" id="node4" href="$class_ability___dash.html" title=" " alt="" coords="541,5,635,32"/>
+<area shape="rect" id="node5" href="$class_ability___instanciable.html" title=" " alt="" coords="521,56,655,83"/>
+<area shape="rect" id="node6" href="$class_ability___player_relative.html" title=" " alt="" coords="515,107,661,133"/>
+<area shape="rect" id="node8" href="$class_ability___stats_changer.html" title=" " alt="" coords="516,157,660,184"/>
+<area shape="rect" id="node12" href="$class_instant_effect.html" title="InstantEffect és un encapsulador per tots els Effect que s&#39;executen de forma instantània." alt="" coords="353,271,447,297"/>
+<area shape="rect" id="node15" href="$class_timed_effect.html" title="TimedEffect és un encapsulador per tots els Effect que NO s&#39;executen de forma instantània." alt="" coords="355,321,445,348"/>
+<area shape="rect" id="node13" href="$class_heal_effect.html" title=" " alt="" coords="547,220,629,247"/>
+<area shape="rect" id="node14" href="$class_heal_relative_effect.html" title=" " alt="" coords="525,271,651,297"/>
+<area shape="rect" id="node16" href="$class_statistic_change_effect.html" title=" " alt="" coords="515,321,661,348"/>
 </map>

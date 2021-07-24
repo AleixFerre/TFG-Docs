@@ -48,13 +48,12 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 587;
 var viewHeight = 39;
-var sectionId = 'dynsection-18';
+var sectionId = 'dynsection-24';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>PlayerStats.Respawn</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-35 583,-35 583,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -67,8 +66,8 @@ var sectionId = 'dynsection-18';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_player_stats.xhtml#a07cb6a60391d769fea03f1bc3b6927c6" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="146,-6 146,-25 256,-25 256,-6 146,-6"/>
+<g id="a_node2"><a xlink:href="class_player_stats.html#a07cb6a60391d769fea03f1bc3b6927c6" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="146,-6 146,-25 256,-25 256,-6 146,-6"/>
 <text text-anchor="middle" x="201" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.HealRPC</text>
 </a>
 </g>
@@ -82,8 +81,8 @@ var sectionId = 'dynsection-18';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_player_u_i_controller.xhtml#aca577b724c1f3f2ed54ad1165a7842c2" target="_top" xlink:title="Sets the current HP value to the Image.">
-<polygon fill="white" stroke="black" points="292,-0.5 292,-30.5 420,-30.5 420,-0.5 292,-0.5"/>
+<g id="a_node3"><a xlink:href="class_player_u_i_controller.html#aca577b724c1f3f2ed54ad1165a7842c2" target="_top" xlink:title="Sets the current HP value to the Image.">
+<polygon fill="none" stroke="black" points="292,-0.5 292,-30.5 420,-30.5 420,-0.5 292,-0.5"/>
 <text text-anchor="start" x="300" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerUIController.Update</text>
 <text text-anchor="middle" x="356" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">CurrentHP</text>
 </a>
@@ -98,8 +97,8 @@ var sectionId = 'dynsection-18';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_u_i_controller.xhtml#a7d7833a7840917741dbc8c4a83dbe918" target="_top" xlink:title="Calculates the actual normalized fill amount for the image.">
-<polygon fill="white" stroke="black" points="456,-0.5 456,-30.5 579,-30.5 579,-0.5 456,-0.5"/>
+<g id="a_node4"><a xlink:href="class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" target="_top" xlink:title="Calculates the actual normalized fill amount for the image.">
+<polygon fill="none" stroke="black" points="456,-0.5 456,-30.5 579,-30.5 579,-0.5 456,-0.5"/>
 <text text-anchor="start" x="464" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">UIController.CalculateFill</text>
 <text text-anchor="middle" x="517.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Amount</text>
 </a>

@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 441.00 28.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24)">
 <title>BasicAttack.StartBasicAttack</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-24 437,-24 437,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_basic_attack.xhtml#a5d09a3ef54dfac2ab6130195c188492e" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="140,-0.5 140,-19.5 250,-19.5 250,-0.5 140,-0.5"/>
+<g id="a_node2"><a xlink:href="class_basic_attack.html#a5d09a3ef54dfac2ab6130195c188492e" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="140,-0.5 140,-19.5 250,-19.5 250,-0.5 140,-0.5"/>
 <text text-anchor="middle" x="195" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.CastRay</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_basic_attack.xhtml#abfcbbc50cfd92e9ca75bd41a5ad17990" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 104,-19.5 104,-0.5 0,-0.5"/>
+<g id="a_node3"><a xlink:href="class_basic_attack.html#abfcbbc50cfd92e9ca75bd41a5ad17990" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 104,-19.5 104,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="52" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.Update</text>
 </a>
 </g>

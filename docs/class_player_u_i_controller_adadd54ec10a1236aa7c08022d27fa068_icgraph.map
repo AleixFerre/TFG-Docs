@@ -1,0 +1,13 @@
+<map id="PlayerUIController.UpdateCurrentLevel" name="PlayerUIController.UpdateCurrentLevel">
+<area shape="rect" id="node1" title="Sets the current level and xp to the Image." alt="" coords="1256,27,1427,69"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="1053,5,1186,32"/>
+<area shape="rect" id="node3" href="$class_player_u_i_controller.html#aa5b61a93967fa5ce39bfd950a9e9d584" title="Initializes all the values into the Image and Text." alt="" coords="1031,57,1208,98"/>
+<area shape="rect" id="node4" href="$class_player_u_i_controller.html#ab6ed746dec17fdf763bc4ec1d713db7f" title="Initializes all the values and colors for this Player." alt="" coords="808,64,983,91"/>
+<area shape="rect" id="node5" href="$class_mannequin_stats.html#a37606eeeec31415945d8e152af0f7e15" title=" " alt="" coords="593,39,760,65"/>
+<area shape="rect" id="node7" href="$class_player_stats.html#a5e274804959d13db76f140e8efcf9411" title="Initialize the actual Stats of the Player." alt="" coords="606,89,747,116"/>
+<area shape="rect" id="node6" href="$class_mannequin.html#af638d1036ae3aee689fe03b43cea0df5" title=" " alt="" coords="404,39,521,65"/>
+<area shape="rect" id="node8" href="$class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf" title="Initialize the PlayerController." alt="" coords="380,89,545,116"/>
+<area shape="rect" id="node9" href="$class_model_sync.html#ab8359f73ae31a7f926c80ebcd7e9444a" title="This starts all the initialization chain for the player." alt="" coords="185,89,332,116"/>
+<area shape="rect" id="node10" href="$class_model_sync.html#a47be08ee3bbd2a173514e74da3dd65cb" title=" " alt="" coords="12,64,131,91"/>
+<area shape="rect" id="node11" href="$class_model_sync.html#abf63af5a901636617cb742aab24c4d6f" title=" " alt="" coords="5,115,137,141"/>
+</map>

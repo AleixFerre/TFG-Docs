@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 232.00 28.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24)">
 <title>HealEffect.Activate</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-24 228,-24 228,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_player_stats.xhtml#a95d085936404a6d0100b3780ec88edb4" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="134,-0.5 134,-19.5 224,-19.5 224,-0.5 134,-0.5"/>
+<g id="a_node2"><a xlink:href="class_player_stats.html#a95d085936404a6d0100b3780ec88edb4" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="134,-0.5 134,-19.5 224,-19.5 224,-0.5 134,-0.5"/>
 <text text-anchor="middle" x="179" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.Heal</text>
 </a>
 </g>

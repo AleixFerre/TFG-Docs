@@ -1,8 +1,9 @@
 <map id="LoadingCanvas" name="LoadingCanvas">
-<area shape="rect" id="node1" title=" " alt="" coords="27,349,137,376"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,260,116,287"/>
-<area shape="rect" id="node3" href="$class_character.xhtml" title=" " alt="" coords="140,260,219,287"/>
-<area shape="rect" id="node4" title=" " alt="" coords="144,5,263,32"/>
-<area shape="rect" id="node5" href="$class_ability.xhtml" title="Base abstract class for an Ability." alt="" coords="190,171,249,197"/>
-<area shape="rect" id="node6" href="$class_effect.xhtml" title="Abstract base info container class for an Effect." alt="" coords="241,81,296,108"/>
+<area shape="rect" id="node1" title=" " alt="" coords="27,439,137,465"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,349,116,376"/>
+<area shape="rect" id="node3" href="$class_character_group.html" title=" " alt="" coords="140,349,253,376"/>
+<area shape="rect" id="node4" title=" " alt="" coords="184,5,303,32"/>
+<area shape="rect" id="node5" href="$class_character.html" title=" " alt="" coords="205,260,284,287"/>
+<area shape="rect" id="node6" href="$class_ability.html" title="Base abstract class for an Ability." alt="" coords="255,171,314,197"/>
+<area shape="rect" id="node7" href="$class_effect.html" title="Abstract base info container class for an Effect." alt="" coords="307,81,361,108"/>
 </map>

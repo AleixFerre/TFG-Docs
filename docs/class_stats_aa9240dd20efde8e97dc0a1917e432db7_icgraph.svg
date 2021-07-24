@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 487.00 189.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 185.5)">
 <title>Stats.DealDamage</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-185.5 483,-185.5 483,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_basic_attack.xhtml#ab41a7fd3006e5a8a3d2d8399d41e630f" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="183,-155.5 183,-174.5 345,-174.5 345,-155.5 183,-155.5"/>
+<g id="a_node2"><a xlink:href="class_basic_attack.html#ab41a7fd3006e5a8a3d2d8399d41e630f" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="183,-155.5 183,-174.5 345,-174.5 345,-155.5 183,-155.5"/>
 <text text-anchor="middle" x="264" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack.DamageBasicAttack</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_ability___lis4.xhtml#abf66fa4ed9cc553dc8ab52d7bbd12406" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="187,-114.5 187,-133.5 341,-133.5 341,-114.5 187,-114.5"/>
+<g id="a_node4"><a xlink:href="class_ability___lis4.html#abf66fa4ed9cc553dc8ab52d7bbd12406" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="187,-114.5 187,-133.5 341,-133.5 341,-114.5 187,-114.5"/>
 <text text-anchor="middle" x="264" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_Lis4.DealDamageInTime</text>
 </a>
 </g>
@@ -51,8 +50,8 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_ability___lis1.xhtml#afd1d7924ca79144a0e19a84705b7590e" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="196.5,-76.5 196.5,-95.5 331.5,-95.5 331.5,-76.5 196.5,-76.5"/>
+<g id="a_node6"><a xlink:href="class_ability___lis1.html#afd1d7924ca79144a0e19a84705b7590e" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="196.5,-76.5 196.5,-95.5 331.5,-95.5 331.5,-76.5 196.5,-76.5"/>
 <text text-anchor="middle" x="264" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_Lis1.OnTriggerEnter</text>
 </a>
 </g>
@@ -66,8 +65,8 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_ability___lis4.xhtml#a4497c50ddbd3f508448a76a1eafdd203" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="196.5,-38.5 196.5,-57.5 331.5,-57.5 331.5,-38.5 196.5,-38.5"/>
+<g id="a_node7"><a xlink:href="class_ability___lis4.html#a4497c50ddbd3f508448a76a1eafdd203" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="196.5,-38.5 196.5,-57.5 331.5,-57.5 331.5,-38.5 196.5,-38.5"/>
 <text text-anchor="middle" x="264" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_Lis4.OnTriggerEnter</text>
 </a>
 </g>
@@ -81,8 +80,8 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="class_ranged_attack_follow.xhtml#a3af5fcd78604ae899fb6c46c184987fa" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="194,-0.5 194,-19.5 334,-19.5 334,-0.5 194,-0.5"/>
+<g id="a_node8"><a xlink:href="class_ranged_attack_follow.html#a3af5fcd78604ae899fb6c46c184987fa" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="194,-0.5 194,-19.5 334,-19.5 334,-0.5 194,-0.5"/>
 <text text-anchor="middle" x="264" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">RangedAttackFollow.Update</text>
 </a>
 </g>
@@ -96,8 +95,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_model_player_mediator.xhtml#a4fbf51870eca9fe09be5598b1b610749" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-151 0,-181 147,-181 147,-151 0,-151"/>
+<g id="a_node3"><a xlink:href="class_model_player_mediator.html#a4fbf51870eca9fe09be5598b1b610749" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-151 0,-181 147,-181 147,-151 0,-151"/>
 <text text-anchor="start" x="8" y="-169" font-family="Helvetica,sans-Serif" font-size="10.00">ModelPlayerMediator.Damage</text>
 <text text-anchor="middle" x="73.5" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack</text>
 </a>
@@ -112,8 +111,8 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_ability___lis4.xhtml#a81b6301f39ee1f8a105aaf40bb6ec51e" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="21,-112.5 21,-131.5 126,-131.5 126,-112.5 21,-112.5"/>
+<g id="a_node5"><a xlink:href="class_ability___lis4.html#a81b6301f39ee1f8a105aaf40bb6ec51e" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="21,-112.5 21,-131.5 126,-131.5 126,-112.5 21,-112.5"/>
 <text text-anchor="middle" x="73.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability_Lis4.Initialize</text>
 </a>
 </g>

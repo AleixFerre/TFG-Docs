@@ -1,7 +1,7 @@
 <map id="Ability_PlayerRelative.TriggerAbility" name="Ability_PlayerRelative.TriggerAbility">
 <area shape="rect" id="node1" title=" " alt="" coords="5,23,196,65"/>
-<area shape="rect" id="node2" href="$class_ability___player_relative.xhtml#a7d92a8ec1e6591b4052b232a02a34cd3" title=" " alt="" coords="244,5,443,32"/>
-<area shape="rect" id="node3" href="$class_effect_manager.xhtml#a921aed9a2553637cdd387d3075150709" title="Starts an Effect to the entity who has this EffectManager." alt="" coords="253,56,434,83"/>
-<area shape="rect" id="node4" href="$class_effect.xhtml#ae421c8b51f4b5f859b03ea719d384e8f" title=" " alt="" coords="504,31,609,57"/>
-<area shape="rect" id="node5" href="$class_effect.xhtml#a928c504cba23842da98461acb52eb7e0" title=" " alt="" coords="491,81,623,108"/>
+<area shape="rect" id="node2" href="$class_ability___player_relative.html#a7d92a8ec1e6591b4052b232a02a34cd3" title=" " alt="" coords="244,5,443,32"/>
+<area shape="rect" id="node3" href="$class_effect_manager.html#a921aed9a2553637cdd387d3075150709" title="Starts an Effect to the entity who has this EffectManager." alt="" coords="253,56,434,83"/>
+<area shape="rect" id="node4" href="$class_effect.html#ae421c8b51f4b5f859b03ea719d384e8f" title=" " alt="" coords="504,31,609,57"/>
+<area shape="rect" id="node5" href="$class_effect.html#a928c504cba23842da98461acb52eb7e0" title=" " alt="" coords="491,81,623,108"/>
 </map>

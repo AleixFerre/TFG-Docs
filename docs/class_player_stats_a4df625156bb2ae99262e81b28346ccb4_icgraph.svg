@@ -48,13 +48,12 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 667;
 var viewHeight = 66;
-var sectionId = 'dynsection-6';
+var sectionId = 'dynsection-7';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>PlayerStats.BlockAbilityForSeconds</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-62 663,-62 663,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -68,8 +67,8 @@ var sectionId = 'dynsection-6';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_player_stats.xhtml#af942d9a5150c2d4c47800335ec062ee1" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="364,-19.5 364,-38.5 501,-38.5 501,-19.5 364,-19.5"/>
+<g id="a_node2"><a xlink:href="class_player_stats.html#af942d9a5150c2d4c47800335ec062ee1" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="364,-19.5 364,-38.5 501,-38.5 501,-19.5 364,-19.5"/>
 <text text-anchor="middle" x="432.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.BlockAbilityFor</text>
 </a>
 </g>
@@ -83,8 +82,8 @@ var sectionId = 'dynsection-6';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_ability_cooldown.xhtml#a24d10146f84157eecd34133535f98c0b" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="171,-19.5 171,-38.5 328,-38.5 328,-19.5 171,-19.5"/>
+<g id="a_node3"><a xlink:href="class_ability_cooldown.html#a24d10146f84157eecd34133535f98c0b" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="171,-19.5 171,-38.5 328,-38.5 328,-19.5 171,-19.5"/>
 <text text-anchor="middle" x="249.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.ButtonTriggered</text>
 </a>
 </g>
@@ -98,8 +97,8 @@ var sectionId = 'dynsection-6';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_ability_indicator.xhtml#a334fb70612241c8c1067bb596a4e2a26" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-38.5 0,-57.5 135,-57.5 135,-38.5 0,-38.5"/>
+<g id="a_node4"><a xlink:href="class_ability_indicator.html#a334fb70612241c8c1067bb596a4e2a26" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-38.5 0,-57.5 135,-57.5 135,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="67.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityIndicator.SetIndicator</text>
 </a>
 </g>
@@ -113,8 +112,8 @@ var sectionId = 'dynsection-6';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_ability_cooldown.xhtml#a0a1223f783a3c342413172a5797fa597" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="8,-0.5 8,-19.5 127,-19.5 127,-0.5 8,-0.5"/>
+<g id="a_node5"><a xlink:href="class_ability_cooldown.html#a0a1223f783a3c342413172a5797fa597" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="8,-0.5 8,-19.5 127,-19.5 127,-0.5 8,-0.5"/>
 <text text-anchor="middle" x="67.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.Update</text>
 </a>
 </g>

@@ -48,13 +48,12 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 655;
 var viewHeight = 78;
-var sectionId = 'dynsection-3';
+var sectionId = 'dynsection-4';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>PlayerStats.BlockAbilityFor</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-73.5 651,-73.5 651,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -67,8 +66,8 @@ var sectionId = 'dynsection-3';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_player_stats.xhtml#a4df625156bb2ae99262e81b28346ccb4" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="173,-0.5 173,-30.5 295,-30.5 295,-0.5 173,-0.5"/>
+<g id="a_node2"><a xlink:href="class_player_stats.html#a4df625156bb2ae99262e81b28346ccb4" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="173,-0.5 173,-30.5 295,-30.5 295,-0.5 173,-0.5"/>
 <text text-anchor="start" x="181" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.BlockAbility</text>
 <text text-anchor="middle" x="234" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ForSeconds</text>
 </a>
@@ -83,8 +82,8 @@ var sectionId = 'dynsection-3';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_player_stats.xhtml#a12436c563a621825a095f0fcbee67e74" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="331,-50 331,-69 486,-69 486,-50 331,-50"/>
+<g id="a_node3"><a xlink:href="class_player_stats.html#a12436c563a621825a095f0fcbee67e74" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="331,-50 331,-69 486,-69 486,-50 331,-50"/>
 <text text-anchor="middle" x="408.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.GetAbilityCooldown</text>
 </a>
 </g>
@@ -104,8 +103,8 @@ var sectionId = 'dynsection-3';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_ability_cooldown.xhtml#abe17348393bdde47c5aef87b5311593c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="344.5,-0.5 344.5,-30.5 472.5,-30.5 472.5,-0.5 344.5,-0.5"/>
+<g id="a_node4"><a xlink:href="class_ability_cooldown.html#abe17348393bdde47c5aef87b5311593c" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="344.5,-0.5 344.5,-30.5 472.5,-30.5 472.5,-0.5 344.5,-0.5"/>
 <text text-anchor="start" x="352.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.OnFinish</text>
 <text text-anchor="middle" x="408.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability</text>
 </a>
@@ -120,8 +119,8 @@ var sectionId = 'dynsection-3';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_player_controller.xhtml#a36323c07b7cd9e0ccab9c8016611827c" target="_top" xlink:title="The player will look at the position of this Transform.">
-<polygon fill="white" stroke="black" points="522,-0.5 522,-30.5 647,-30.5 647,-0.5 522,-0.5"/>
+<g id="a_node5"><a xlink:href="class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c" target="_top" xlink:title="The player will look at the position of this Transform.">
+<polygon fill="none" stroke="black" points="522,-0.5 522,-30.5 647,-30.5 647,-0.5 522,-0.5"/>
 <text text-anchor="start" x="530" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerController.SetLook</text>
 <text text-anchor="middle" x="584.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AtTarget</text>
 </a>

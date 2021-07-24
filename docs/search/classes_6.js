@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['healeffect_568',['HealEffect',['../class_heal_effect.xhtml',1,'']]],
-  ['healrelativeeffect_569',['HealRelativeEffect',['../class_heal_relative_effect.xhtml',1,'']]],
-  ['heart_570',['Heart',['../class_heart.xhtml',1,'']]]
+  ['healeffect_595',['HealEffect',['../class_heal_effect.html',1,'']]],
+  ['healrelativeeffect_596',['HealRelativeEffect',['../class_heal_relative_effect.html',1,'']]],
+  ['heart_597',['Heart',['../class_heart.html',1,'']]]
 ];

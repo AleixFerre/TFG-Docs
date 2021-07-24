@@ -1,12 +1,12 @@
 var dir_11fb4d85ac95aacadc7dde5712bd34f1 =
 [
-    [ "Coin.cs", "_coin_8cs.xhtml", [
-      [ "Coin", "class_coin.xhtml", "class_coin" ]
+    [ "Coin.cs", "_coin_8cs.html", [
+      [ "Coin", "class_coin.html", "class_coin" ]
     ] ],
-    [ "Diamond.cs", "_diamond_8cs.xhtml", [
-      [ "Diamond", "class_diamond.xhtml", "class_diamond" ]
+    [ "Diamond.cs", "_diamond_8cs.html", [
+      [ "Diamond", "class_diamond.html", "class_diamond" ]
     ] ],
-    [ "Heart.cs", "_heart_8cs.xhtml", [
-      [ "Heart", "class_heart.xhtml", "class_heart" ]
+    [ "Heart.cs", "_heart_8cs.html", [
+      [ "Heart", "class_heart.html", "class_heart" ]
     ] ]
 ];

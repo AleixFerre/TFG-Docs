@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 994.00 517.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 513)">
 <title>ModelSync</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-513 990,-513 990,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,7 +21,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="217.5,-411.5 217.5,-430.5 300.5,-430.5 300.5,-411.5 217.5,-411.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="217.5,-411.5 217.5,-430.5 300.5,-430.5 300.5,-411.5 217.5,-411.5"/>
 <text text-anchor="middle" x="259" y="-418.5" font-family="Helvetica,sans-Serif" font-size="10.00">MonoBehaviour</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_model_player_mediator.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="187,-201.5 187,-220.5 295,-220.5 295,-201.5 187,-201.5"/>
+<g id="a_node3"><a xlink:href="class_model_player_mediator.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="187,-201.5 187,-220.5 295,-220.5 295,-201.5 187,-201.5"/>
 <text text-anchor="middle" x="241" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">ModelPlayerMediator</text>
 </a>
 </g>
@@ -51,8 +50,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_basic_attack.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="454,-277.5 454,-296.5 524,-296.5 524,-277.5 454,-277.5"/>
+<g id="a_node4"><a xlink:href="class_basic_attack.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="454,-277.5 454,-296.5 524,-296.5 524,-277.5 454,-277.5"/>
 <text text-anchor="middle" x="489" y="-284.5" font-family="Helvetica,sans-Serif" font-size="10.00">BasicAttack</text>
 </a>
 </g>
@@ -66,8 +65,8 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_player_controller.xhtml" target="_top" xlink:title="Player Controller is the main class that handles all the movement of the Player.">
-<polygon fill="white" stroke="black" points="557,-201.5 557,-220.5 643,-220.5 643,-201.5 557,-201.5"/>
+<g id="a_node5"><a xlink:href="class_player_controller.html" target="_top" xlink:title="Player Controller is the main class that handles all the movement of the Player.">
+<polygon fill="none" stroke="black" points="557,-201.5 557,-220.5 643,-220.5 643,-201.5 557,-201.5"/>
 <text text-anchor="middle" x="600" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerController</text>
 </a>
 </g>
@@ -81,8 +80,8 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_ability_cooldown.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="583,-67.5 583,-86.5 669,-86.5 669,-67.5 583,-67.5"/>
+<g id="a_node6"><a xlink:href="class_ability_cooldown.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="583,-67.5 583,-86.5 669,-86.5 669,-67.5 583,-67.5"/>
 <text text-anchor="middle" x="626" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown</text>
 </a>
 </g>
@@ -96,8 +95,8 @@
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="class_ability_indicator.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="586,-0.5 586,-19.5 666,-19.5 666,-0.5 586,-0.5"/>
+<g id="a_node10"><a xlink:href="class_ability_indicator.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="586,-0.5 586,-19.5 666,-19.5 666,-0.5 586,-0.5"/>
 <text text-anchor="middle" x="626" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityIndicator</text>
 </a>
 </g>
@@ -111,8 +110,8 @@
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="class_stats.xhtml" target="_top" xlink:title="Base class Stats of the entity.">
-<polygon fill="white" stroke="black" points="331,-344.5 331,-363.5 371,-363.5 371,-344.5 331,-344.5"/>
+<g id="a_node14"><a xlink:href="class_stats.html" target="_top" xlink:title="Base class Stats of the entity.">
+<polygon fill="none" stroke="black" points="331,-344.5 331,-363.5 371,-363.5 371,-344.5 331,-344.5"/>
 <text text-anchor="middle" x="351" y="-351.5" font-family="Helvetica,sans-Serif" font-size="10.00">Stats</text>
 </a>
 </g>
@@ -126,8 +125,8 @@
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="class_u_i_controller.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="225.5,-344.5 225.5,-363.5 292.5,-363.5 292.5,-344.5 225.5,-344.5"/>
+<g id="a_node16"><a xlink:href="class_u_i_controller.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="225.5,-344.5 225.5,-363.5 292.5,-363.5 292.5,-344.5 225.5,-344.5"/>
 <text text-anchor="middle" x="259" y="-351.5" font-family="Helvetica,sans-Serif" font-size="10.00">UIController</text>
 </a>
 </g>
@@ -141,8 +140,8 @@
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="class_inventory.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="152.5,-67.5 152.5,-86.5 207.5,-86.5 207.5,-67.5 152.5,-67.5"/>
+<g id="a_node17"><a xlink:href="class_inventory.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="152.5,-67.5 152.5,-86.5 207.5,-86.5 207.5,-67.5 152.5,-67.5"/>
 <text text-anchor="middle" x="180" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Inventory</text>
 </a>
 </g>
@@ -191,8 +190,8 @@
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="class_player_stats.xhtml" target="_top" xlink:title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut...">
-<polygon fill="white" stroke="black" points="369,-134.5 369,-153.5 437,-153.5 437,-134.5 369,-134.5"/>
+<g id="a_node12"><a xlink:href="class_player_stats.html" target="_top" xlink:title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut...">
+<polygon fill="none" stroke="black" points="369,-134.5 369,-153.5 437,-153.5 437,-134.5 369,-134.5"/>
 <text text-anchor="middle" x="403" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats</text>
 </a>
 </g>
@@ -228,8 +227,8 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_ability.xhtml" target="_top" xlink:title="Base abstract class for an Ability.">
-<polygon fill="white" stroke="black" points="789,-344.5 789,-363.5 833,-363.5 833,-344.5 789,-344.5"/>
+<g id="a_node7"><a xlink:href="class_ability.html" target="_top" xlink:title="Base abstract class for an Ability.">
+<polygon fill="none" stroke="black" points="789,-344.5 789,-363.5 833,-363.5 833,-344.5 789,-344.5"/>
 <text text-anchor="middle" x="811" y="-351.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ability</text>
 </a>
 </g>
@@ -244,8 +243,8 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="class_indicated_ability.xhtml" target="_top" xlink:title="Encapsulador de les Ability que han de mostrar l&#39;indicador">
-<polygon fill="white" stroke="black" points="862.5,-277.5 862.5,-296.5 945.5,-296.5 945.5,-277.5 862.5,-277.5"/>
+<g id="a_node11"><a xlink:href="class_indicated_ability.html" target="_top" xlink:title="Encapsulador de les Ability que han de mostrar l&#39;indicador">
+<polygon fill="none" stroke="black" points="862.5,-277.5 862.5,-296.5 945.5,-296.5 945.5,-277.5 862.5,-277.5"/>
 <text text-anchor="middle" x="904" y="-284.5" font-family="Helvetica,sans-Serif" font-size="10.00">IndicatedAbility</text>
 </a>
 </g>
@@ -259,8 +258,8 @@
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="class_character.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="693.5,-277.5 693.5,-296.5 752.5,-296.5 752.5,-277.5 693.5,-277.5"/>
+<g id="a_node21"><a xlink:href="class_character.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="693.5,-277.5 693.5,-296.5 752.5,-296.5 752.5,-277.5 693.5,-277.5"/>
 <text text-anchor="middle" x="723" y="-284.5" font-family="Helvetica,sans-Serif" font-size="10.00">Character</text>
 </a>
 </g>
@@ -276,7 +275,7 @@
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="714.5,-484 714.5,-503 803.5,-503 803.5,-484 714.5,-484"/>
+<polygon fill="none" stroke="#bfbfbf" points="714.5,-484 714.5,-503 803.5,-503 803.5,-484 714.5,-484"/>
 <text text-anchor="middle" x="759" y="-491" font-family="Helvetica,sans-Serif" font-size="10.00">ScriptableObject</text>
 </a>
 </g>
@@ -290,8 +289,8 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="class_effect.xhtml" target="_top" xlink:title="Abstract base info container class for an Effect.">
-<polygon fill="white" stroke="black" points="806.5,-411.5 806.5,-430.5 847.5,-430.5 847.5,-411.5 806.5,-411.5"/>
+<g id="a_node9"><a xlink:href="class_effect.html" target="_top" xlink:title="Abstract base info container class for an Effect.">
+<polygon fill="none" stroke="black" points="806.5,-411.5 806.5,-430.5 847.5,-430.5 847.5,-411.5 806.5,-411.5"/>
 <text text-anchor="middle" x="827" y="-418.5" font-family="Helvetica,sans-Serif" font-size="10.00">Effect</text>
 </a>
 </g>
@@ -305,8 +304,8 @@
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="class_item.xhtml" target="_top" xlink:title="Base class for an Item">
-<polygon fill="white" stroke="black" points="93.5,-411.5 93.5,-430.5 128.5,-430.5 128.5,-411.5 93.5,-411.5"/>
+<g id="a_node18"><a xlink:href="class_item.html" target="_top" xlink:title="Base class for an Item">
+<polygon fill="none" stroke="black" points="93.5,-411.5 93.5,-430.5 128.5,-430.5 128.5,-411.5 93.5,-411.5"/>
 <text text-anchor="middle" x="111" y="-418.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item</text>
 </a>
 </g>
@@ -382,8 +381,8 @@
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="class_ability_affected_stats.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="300,-239.5 300,-258.5 402,-258.5 402,-239.5 300,-239.5"/>
+<g id="a_node13"><a xlink:href="class_ability_affected_stats.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="300,-239.5 300,-258.5 402,-258.5 402,-239.5 300,-239.5"/>
 <text text-anchor="middle" x="351" y="-246.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityAffectedStats</text>
 </a>
 </g>
@@ -410,8 +409,8 @@
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="class_player_u_i_controller.xhtml" target="_top" xlink:title="UI Controller for the Player Stats">
-<polygon fill="white" stroke="black" points="199.5,-239.5 199.5,-258.5 294.5,-258.5 294.5,-239.5 199.5,-239.5"/>
+<g id="a_node15"><a xlink:href="class_player_u_i_controller.html" target="_top" xlink:title="UI Controller for the Player Stats">
+<polygon fill="none" stroke="black" points="199.5,-239.5 199.5,-258.5 294.5,-258.5 294.5,-239.5 199.5,-239.5"/>
 <text text-anchor="middle" x="247" y="-246.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerUIController</text>
 </a>
 </g>
@@ -446,8 +445,8 @@
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="class_generic_dictionary.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-478.5 0,-508.5 100,-508.5 100,-478.5 0,-478.5"/>
+<g id="a_node19"><a xlink:href="class_generic_dictionary.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-478.5 0,-508.5 100,-508.5 100,-478.5 0,-478.5"/>
 <text text-anchor="start" x="8" y="-496.5" font-family="Helvetica,sans-Serif" font-size="10.00">GenericDictionary&lt;</text>
 <text text-anchor="middle" x="50" y="-485.5" font-family="Helvetica,sans-Serif" font-size="10.00"> IntStatistic, int &gt;</text>
 </a>
@@ -463,8 +462,8 @@
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="class_generic_dictionary.xhtml" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="118,-478.5 118,-508.5 228,-508.5 228,-478.5 118,-478.5"/>
+<g id="a_node20"><a xlink:href="class_generic_dictionary.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="118,-478.5 118,-508.5 228,-508.5 228,-478.5 118,-478.5"/>
 <text text-anchor="start" x="126" y="-496.5" font-family="Helvetica,sans-Serif" font-size="10.00">GenericDictionary&lt;</text>
 <text text-anchor="middle" x="173" y="-485.5" font-family="Helvetica,sans-Serif" font-size="10.00"> FloatStatistic, float &gt;</text>
 </a>

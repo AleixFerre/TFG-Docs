@@ -54,7 +54,6 @@ var sectionId = 'dynsection-8';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>ConnectToServer.Start</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-35 694,-35 694,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -67,8 +66,8 @@ var sectionId = 'dynsection-8';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_connect_to_server.xhtml#a23793971a306b7523ca6dc028f4746ca" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="150,-6 150,-25 315,-25 315,-6 150,-6"/>
+<g id="a_node2"><a xlink:href="class_connect_to_server.html#a23793971a306b7523ca6dc028f4746ca" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="150,-6 150,-25 315,-25 315,-6 150,-6"/>
 <text text-anchor="middle" x="232.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">ConnectToServer.RetryConnection</text>
 </a>
 </g>
@@ -82,8 +81,8 @@ var sectionId = 'dynsection-8';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_connect_to_server.xhtml#af54d350629abc28677d474dda9fbd6a0" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="351,-0.5 351,-30.5 516,-30.5 516,-0.5 351,-0.5"/>
+<g id="a_node3"><a xlink:href="class_connect_to_server.html#af54d350629abc28677d474dda9fbd6a0" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="351,-0.5 351,-30.5 516,-30.5 516,-0.5 351,-0.5"/>
 <text text-anchor="start" x="359" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConnectToServer.RetryConnection</text>
 <text text-anchor="middle" x="433.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Corrutine</text>
 </a>
@@ -98,8 +97,8 @@ var sectionId = 'dynsection-8';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_connect_to_server.xhtml#a2ca5fc3ab94cacd35c3cc2b641e1b463" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="552,-6 552,-25 690,-25 690,-6 552,-6"/>
+<g id="a_node4"><a xlink:href="class_connect_to_server.html#a2ca5fc3ab94cacd35c3cc2b641e1b463" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="552,-6 552,-25 690,-25 690,-6 552,-6"/>
 <text text-anchor="middle" x="621" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">ConnectToServer.ShowError</text>
 </a>
 </g>

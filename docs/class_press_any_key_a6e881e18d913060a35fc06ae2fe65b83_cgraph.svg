@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 322.00 28.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24)">
 <title>PressAnyKey.Update</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-24 318,-24 318,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_background_scaling.xhtml#a5be1f23dcb3664542419b0f37a451a83" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="146,-0.5 146,-19.5 314,-19.5 314,-0.5 146,-0.5"/>
+<g id="a_node2"><a xlink:href="class_background_scaling.html#a5be1f23dcb3664542419b0f37a451a83" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="146,-0.5 146,-19.5 314,-19.5 314,-0.5 146,-0.5"/>
 <text text-anchor="middle" x="230" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BackgroundScaling.StartAnimation</text>
 </a>
 </g>

@@ -1,7 +1,7 @@
 <map id="AbilityCooldown.Initialize" name="AbilityCooldown.Initialize">
-<area shape="rect" id="node1" title=" " alt="" coords="593,31,759,57"/>
-<area shape="rect" id="node2" href="$class_player_controller.xhtml#a75e94e4fd555e57e55ab4b7e54024dcf" title="Initialize the PlayerController." alt="" coords="380,31,545,57"/>
-<area shape="rect" id="node3" href="$class_model_sync.xhtml#ab8359f73ae31a7f926c80ebcd7e9444a" title="This starts all the initialization chain for the player." alt="" coords="185,31,332,57"/>
-<area shape="rect" id="node4" href="$class_model_sync.xhtml#a47be08ee3bbd2a173514e74da3dd65cb" title=" " alt="" coords="12,5,131,32"/>
-<area shape="rect" id="node5" href="$class_model_sync.xhtml#abf63af5a901636617cb742aab24c4d6f" title=" " alt="" coords="5,56,137,83"/>
+<area shape="rect" id="node1" title="Initializes the current AbilityCooldown." alt="" coords="593,31,759,57"/>
+<area shape="rect" id="node2" href="$class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf" title="Initialize the PlayerController." alt="" coords="380,31,545,57"/>
+<area shape="rect" id="node3" href="$class_model_sync.html#ab8359f73ae31a7f926c80ebcd7e9444a" title="This starts all the initialization chain for the player." alt="" coords="185,31,332,57"/>
+<area shape="rect" id="node4" href="$class_model_sync.html#a47be08ee3bbd2a173514e74da3dd65cb" title=" " alt="" coords="12,5,131,32"/>
+<area shape="rect" id="node5" href="$class_model_sync.html#abf63af5a901636617cb742aab24c4d6f" title=" " alt="" coords="5,56,137,83"/>
 </map>

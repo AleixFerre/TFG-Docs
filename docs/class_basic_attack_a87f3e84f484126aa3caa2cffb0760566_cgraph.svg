@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 338.00 39.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 35)">
 <title>BasicAttack.ResetStateAbilityRPC</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-35 334,-35 334,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_player_controller.xhtml#a36323c07b7cd9e0ccab9c8016611827c" target="_top" xlink:title="The player will look at the position of this Transform.">
-<polygon fill="white" stroke="black" points="205,-0.5 205,-30.5 330,-30.5 330,-0.5 205,-0.5"/>
+<g id="a_node2"><a xlink:href="class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c" target="_top" xlink:title="The player will look at the position of this Transform.">
+<polygon fill="none" stroke="black" points="205,-0.5 205,-30.5 330,-30.5 330,-0.5 205,-0.5"/>
 <text text-anchor="start" x="213" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerController.SetLook</text>
 <text text-anchor="middle" x="267.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AtTarget</text>
 </a>

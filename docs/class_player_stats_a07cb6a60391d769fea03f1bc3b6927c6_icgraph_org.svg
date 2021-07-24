@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 567.00 28.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24)">
 <title>PlayerStats.HealRPC</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-24 563,-24 563,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_player_stats.xhtml#a27fb46ca044608f34db45eb95ac16b4c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="303,-0.5 303,-19.5 413,-19.5 413,-0.5 303,-0.5"/>
+<g id="a_node2"><a xlink:href="class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="303,-0.5 303,-19.5 413,-19.5 413,-0.5 303,-0.5"/>
 <text text-anchor="middle" x="358" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.Respawn</text>
 </a>
 </g>
@@ -36,8 +35,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_player_stats.xhtml#a5caca2bd8f676341a2b269aea8a0f1ff" target="_top" xlink:title="Function that implements what is done when this entity dies.">
-<polygon fill="white" stroke="black" points="182,-0.5 182,-19.5 267,-19.5 267,-0.5 182,-0.5"/>
+<g id="a_node3"><a xlink:href="class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff" target="_top" xlink:title="Function that implements what is done when this entity dies.">
+<polygon fill="none" stroke="black" points="182,-0.5 182,-19.5 267,-19.5 267,-0.5 182,-0.5"/>
 <text text-anchor="middle" x="224.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.Die</text>
 </a>
 </g>
@@ -51,8 +50,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_player_stats.xhtml#a6542a649dfb0cccc9fe329c83024e3ed" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 146,-19.5 146,-0.5 0,-0.5"/>
+<g id="a_node4"><a xlink:href="class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 146,-19.5 146,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="73" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.DealDamageRPC</text>
 </a>
 </g>
