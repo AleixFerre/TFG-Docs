@@ -46,6 +46,7 @@
             <table cellspacing="0" cellpadding="0">
                 <tbody>
                     <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="logo.drawio.svg" /></td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">Treball de Fi de Grau
                                 &#160;<span id="projectnumber">1.0</span>
@@ -105,6 +106,7 @@ $(document).ready(function(){initNavTree('class_turret_shooter.html',''); initRe
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Mètodes públics</a> &#124;
 <a href="#pub-attribs">Atributs Públics</a> &#124;
 <a href="#pri-methods">Mètodes Privats</a> &#124;
 <a href="#pri-attribs">Atributs Privats</a> &#124;
@@ -113,13 +115,24 @@ $(document).ready(function(){initNavTree('class_turret_shooter.html',''); initRe
 <div class="title">Referència de la Classe TurretShooter</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This detects all the nearby attackable entities and shoots them if they are from the enemy team.  
+ <a href="class_turret_shooter.html#details">Més...</a></p>
 <div class="dynheader">
 Diagrama d'Herència per a TurretShooter:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_shooter__inherit__graph.svg" width="122" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_shooter__inherit__graph.svg" width="122" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Mètodes públics</h2></td></tr>
+<tr class="memitem:af4787c8905eb7428580b784b1cb1ffed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_shooter.html#af4787c8905eb7428580b784b1cb1ffed">AttacksLocal</a> ()</td></tr>
+<tr class="memdesc:af4787c8905eb7428580b784b1cb1ffed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the turret is attacking the local player right now.  <a href="class_turret_shooter.html#af4787c8905eb7428580b784b1cb1ffed">Més...</a><br /></td></tr>
+<tr class="separator:af4787c8905eb7428580b784b1cb1ffed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b5b505f7ae60b8770a992a332e3bd7c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_shooter.html#a3b5b505f7ae60b8770a992a332e3bd7c">IsAttacking</a> ()</td></tr>
+<tr class="memdesc:a3b5b505f7ae60b8770a992a332e3bd7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if the turret is currently attacking any entity.  <a href="class_turret_shooter.html#a3b5b505f7ae60b8770a992a332e3bd7c">Més...</a><br /></td></tr>
+<tr class="separator:a3b5b505f7ae60b8770a992a332e3bd7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Atributs Públics</h2></td></tr>
 <tr class="memitem:adcf68a1782681bf1fd85e326e4d3cc9a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_shooter.html#adcf68a1782681bf1fd85e326e4d3cc9a">timeBetweenShots</a> = 1f</td></tr>
@@ -128,6 +141,8 @@ Atributs Públics</h2></td></tr>
 <tr class="separator:ad43599117e1194917500cedc99246b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad2c59c1f28863ded39b867b28c8964a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_turret_stats.html">TurretStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_shooter.html#aad2c59c1f28863ded39b867b28c8964a">stats</a></td></tr>
 <tr class="separator:aad2c59c1f28863ded39b867b28c8964a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93dd5e969f4629acaa71a14cd18a8fe9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_turret_indicator.html">TurretIndicator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_shooter.html#a93dd5e969f4629acaa71a14cd18a8fe9">indicator</a></td></tr>
+<tr class="separator:a93dd5e969f4629acaa71a14cd18a8fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8031c79f8628d0b93e6cf2b8e86509f"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_shooter.html#af8031c79f8628d0b93e6cf2b8e86509f">rangedAttackPivot</a></td></tr>
 <tr class="separator:af8031c79f8628d0b93e6cf2b8e86509f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -137,6 +152,8 @@ Mètodes Privats</h2></td></tr>
 <tr class="separator:a7d72f1d08a08354cb8b54c6aa1235100"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac92c11affc1a61877bda45f9cedf9fe2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_shooter.html#ac92c11affc1a61877bda45f9cedf9fe2">OnTriggerEnter</a> (Collider other)</td></tr>
 <tr class="separator:ac92c11affc1a61877bda45f9cedf9fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2174d2b9dd434ce7682d3f8f63d68cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_shooter.html#ae2174d2b9dd434ce7682d3f8f63d68cd">AttackWithPriority</a> (<a class="el" href="class_stats.html">Stats</a> otherStats)</td></tr>
+<tr class="separator:ae2174d2b9dd434ce7682d3f8f63d68cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91af004b685cacac7466bcebe82eb08d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_shooter.html#a91af004b685cacac7466bcebe82eb08d">OnTriggerExit</a> (Collider other)</td></tr>
 <tr class="separator:a91af004b685cacac7466bcebe82eb08d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97a7bfbe5851c8fc0280d021ebacb793"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_shooter.html#a97a7bfbe5851c8fc0280d021ebacb793">Update</a> ()</td></tr>
@@ -152,8 +169,98 @@ Atributs Privats</h2></td></tr>
 <tr class="separator:a039b5d31b51fb39a1966f3e88ba5a1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9eb98e6f8e8c69e5ed7c77ba137fb20"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_shooter.html#ab9eb98e6f8e8c69e5ed7c77ba137fb20">lastShotTime</a></td></tr>
 <tr class="separator:ab9eb98e6f8e8c69e5ed7c77ba137fb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50ccf7fb59b1d8b746e757b4b8bd6cf8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_shooter.html#a50ccf7fb59b1d8b746e757b4b8bd6cf8">attackingEntityName</a></td></tr>
+<tr class="separator:a50ccf7fb59b1d8b746e757b4b8bd6cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28ccbe2ca9d0e9b53fa0bdef5b3d1ab3"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_shooter.html#a28ccbe2ca9d0e9b53fa0bdef5b3d1ab3">localPlayerName</a></td></tr>
+<tr class="separator:a28ccbe2ca9d0e9b53fa0bdef5b3d1ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p>This detects all the nearby attackable entities and shoots them if they are from the enemy team. </p>
+</div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="af4787c8905eb7428580b784b1cb1ffed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4787c8905eb7428580b784b1cb1ffed">&#9670;&nbsp;</a></span>AttacksLocal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TurretShooter.AttacksLocal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the turret is attacking the local player right now. </p>
+
+</div>
+</div>
+<a id="ae2174d2b9dd434ce7682d3f8f63d68cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2174d2b9dd434ce7682d3f8f63d68cd">&#9670;&nbsp;</a></span>AttackWithPriority()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TurretShooter.AttackWithPriority </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_stats.html">Stats</a>&#160;</td>
+          <td class="paramname"><em>otherStats</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p></p>
+<p>This determines the priority of attack of the turret.</p>
+<p>The turret has to attack first to all minions, then attacks at the first player that entered the trigger. If there's no entities nearby, it rests until a new entities enters the trigger.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">otherStats</td><td>The <a class="el" href="class_stats.html" title="Base class Stats of the entity.">Stats</a> script of the enemy entity.</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_shooter_ae2174d2b9dd434ce7682d3f8f63d68cd_icgraph.svg" width="419" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a3b5b505f7ae60b8770a992a332e3bd7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b5b505f7ae60b8770a992a332e3bd7c">&#9670;&nbsp;</a></span>IsAttacking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TurretShooter.IsAttacking </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns if the turret is currently attacking any entity. </p>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_shooter_a3b5b505f7ae60b8770a992a332e3bd7c_icgraph.svg" width="419" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ac92c11affc1a61877bda45f9cedf9fe2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac92c11affc1a61877bda45f9cedf9fe2">&#9670;&nbsp;</a></span>OnTriggerEnter()</h2>
 
@@ -177,6 +284,11 @@ Atributs Privats</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_turret_shooter_ac92c11affc1a61877bda45f9cedf9fe2_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -235,14 +347,12 @@ Atributs Privats</h2></td></tr>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_shooter_abdbfe8d7746ee1e665f8da7e1a423bf7_cgraph.svg" width="399" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_shooter_abdbfe8d7746ee1e665f8da7e1a423bf7_cgraph.svg" width="399" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_shooter_abdbfe8d7746ee1e665f8da7e1a423bf7_icgraph.svg" width="343" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_shooter_abdbfe8d7746ee1e665f8da7e1a423bf7_icgraph.svg" width="388" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -297,13 +407,34 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_shooter_a97a7bfbe5851c8fc0280d021ebacb793_cgraph.svg" width="592" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_shooter_a97a7bfbe5851c8fc0280d021ebacb793_cgraph.svg" width="592" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a50ccf7fb59b1d8b746e757b4b8bd6cf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50ccf7fb59b1d8b746e757b4b8bd6cf8">&#9670;&nbsp;</a></span>attackingEntityName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string TurretShooter.attackingEntityName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad43599117e1194917500cedc99246b64"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad43599117e1194917500cedc99246b64">&#9670;&nbsp;</a></span>damage</h2>
 
@@ -312,6 +443,20 @@ Gràfic de crides d'aquesta funció:</div>
       <table class="memname">
         <tr>
           <td class="memname">int TurretShooter.damage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a93dd5e969f4629acaa71a14cd18a8fe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93dd5e969f4629acaa71a14cd18a8fe9">&#9670;&nbsp;</a></span>indicator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_turret_indicator.html">TurretIndicator</a> TurretShooter.indicator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -384,6 +529,28 @@ Gràfic de crides d'aquesta funció:</div>
 
 </div>
 </div>
+<a id="a28ccbe2ca9d0e9b53fa0bdef5b3d1ab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28ccbe2ca9d0e9b53fa0bdef5b3d1ab3">&#9670;&nbsp;</a></span>localPlayerName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string TurretShooter.localPlayerName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af8031c79f8628d0b93e6cf2b8e86509f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af8031c79f8628d0b93e6cf2b8e86509f">&#9670;&nbsp;</a></span>rangedAttackPivot</h2>
 
@@ -436,7 +603,7 @@ Gràfic de crides d'aquesta funció:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_turret_shooter.html">TurretShooter</a></li>
-    <li class="footer">Generat a Ds Jul 24 2021 19:58:51 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generat a Dl Jul 26 2021 02:10:35 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 <script type="text/javascript">

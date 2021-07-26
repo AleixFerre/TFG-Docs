@@ -1,5 +1,5 @@
 <map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
-<area shape="rect" id="node1" title=" " alt="" coords="5,765,116,792"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,816,116,843"/>
 <area shape="rect" id="node2" href="$class_ability_base.html" title="Base class for all the Ability_Instanciable prefab scripts." alt="" coords="192,31,280,57"/>
 <area shape="rect" id="node5" href="$class_ability_cooldown.html" title=" " alt="" coords="179,81,293,108"/>
 <area shape="rect" id="node6" href="$class_ability_display.html" title=" " alt="" coords="185,132,287,159"/>
@@ -27,9 +27,11 @@
 <area shape="rect" id="node31" href="$class_show_ping.html" title=" " alt="" coords="196,1247,276,1273"/>
 <area shape="rect" id="node32" href="$class_singleton.html" title="Singleton Base class." alt="" coords="183,1297,289,1324"/>
 <area shape="rect" id="node33" href="$class_stats.html" title="Base class Stats of the entity." alt="" coords="209,1348,263,1375"/>
-<area shape="rect" id="node41" href="$class_turret_indicator.html" title=" " alt="" coords="184,1399,288,1425"/>
-<area shape="rect" id="node42" href="$class_turret_shooter.html" title=" " alt="" coords="186,1449,286,1476"/>
-<area shape="rect" id="node43" href="$class_u_i_controller.html" title=" " alt="" coords="191,1500,281,1527"/>
+<area shape="rect" id="node41" href="$class_stress_receiver.html" title=" " alt="" coords="181,1399,291,1425"/>
+<area shape="rect" id="node42" href="$class_trauma_inducer.html" title=" " alt="" coords="183,1449,289,1476"/>
+<area shape="rect" id="node43" href="$class_turret_indicator.html" title=" " alt="" coords="184,1500,288,1527"/>
+<area shape="rect" id="node44" href="$class_turret_shooter.html" title="This detects all the nearby attackable entities and shoots them if they are from the enemy team." alt="" coords="186,1551,286,1577"/>
+<area shape="rect" id="node45" href="$class_u_i_controller.html" title="Base abstract class for all the entities that have UI and Stats in the game." alt="" coords="191,1601,281,1628"/>
 <area shape="rect" id="node3" href="$class_ability___lis1.html" title=" " alt="" coords="383,5,472,32"/>
 <area shape="rect" id="node4" href="$class_ability___lis4.html" title=" " alt="" coords="383,56,472,83"/>
 <area shape="rect" id="node14" href="$class_coin.html" title=" " alt="" coords="403,436,451,463"/>
@@ -37,14 +39,14 @@
 <area shape="rect" id="node16" href="$class_heart.html" title=" " alt="" coords="401,537,454,564"/>
 <area shape="rect" id="node34" href="$class_ability_affected_stats.html" title=" " alt="" coords="359,1323,495,1349"/>
 <area shape="rect" id="node38" href="$class_structure_stats.html" title=" " alt="" coords="374,1373,481,1400"/>
-<area shape="rect" id="node35" href="$class_minion_stats.html" title=" " alt="" coords="565,1272,655,1299"/>
+<area shape="rect" id="node35" href="$class_minion_stats.html" title="Minion Stats is the main class that controls all the Minion Statistics for every Minion entity within..." alt="" coords="565,1272,655,1299"/>
 <area shape="rect" id="node36" href="$class_player_stats.html" title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut..." alt="" coords="565,1323,655,1349"/>
 <area shape="rect" id="node37" href="$class_mannequin_stats.html" title=" " alt="" coords="721,1323,837,1349"/>
 <area shape="rect" id="node39" href="$class_nexus_stats.html" title=" " alt="" coords="565,1373,655,1400"/>
 <area shape="rect" id="node40" href="$class_turret_stats.html" title=" " alt="" coords="567,1424,653,1451"/>
-<area shape="rect" id="node44" href="$class_minion_u_i_controller.html" title=" " alt="" coords="364,1449,491,1476"/>
-<area shape="rect" id="node45" href="$class_player_u_i_controller.html" title="UI Controller for the Player Stats" alt="" coords="364,1500,491,1527"/>
-<area shape="rect" id="node46" href="$class_structure_u_i_controller.html" title=" " alt="" coords="356,1551,499,1577"/>
-<area shape="rect" id="node47" href="$class_nexus_u_i_controller.html" title=" " alt="" coords="547,1525,673,1552"/>
-<area shape="rect" id="node48" href="$class_turret_u_i_controller.html" title=" " alt="" coords="549,1576,671,1603"/>
+<area shape="rect" id="node46" href="$class_minion_u_i_controller.html" title="UIController for all the Minion entities of the game." alt="" coords="364,1551,491,1577"/>
+<area shape="rect" id="node47" href="$class_player_u_i_controller.html" title="UI Controller for the Player Stats" alt="" coords="364,1601,491,1628"/>
+<area shape="rect" id="node48" href="$class_structure_u_i_controller.html" title=" " alt="" coords="356,1652,499,1679"/>
+<area shape="rect" id="node49" href="$class_nexus_u_i_controller.html" title=" " alt="" coords="547,1627,673,1653"/>
+<area shape="rect" id="node50" href="$class_turret_u_i_controller.html" title=" " alt="" coords="549,1677,671,1704"/>
 </map>

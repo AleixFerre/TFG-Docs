@@ -1,4 +1,4 @@
 <map id="PlayerStats.LevelUp" name="PlayerStats.LevelUp">
-<area shape="rect" id="node1" title="Called whenever the player levels up." alt="" coords="187,5,325,32"/>
-<area shape="rect" id="node2" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="5,5,139,32"/>
+<area shape="rect" id="node1" title="Called whenever the player levels up." alt="" coords="212,5,351,32"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#af74a866a9312c345f3cd03235be2f329" title=" " alt="" coords="5,5,164,32"/>
 </map>

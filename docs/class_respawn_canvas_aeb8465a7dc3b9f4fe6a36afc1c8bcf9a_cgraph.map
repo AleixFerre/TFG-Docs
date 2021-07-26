@@ -1,0 +1,10 @@
+<map id="RespawnCanvas.BuyRespawn" name="RespawnCanvas.BuyRespawn">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,203,98"/>
+<area shape="rect" id="node2" href="$class_respawn_canvas.html#a5936d81c38156d99c5e38554d6bd7100" title="Returns the instant respawn gold cost for a given count." alt="" coords="251,5,445,47"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" title=" " alt="" coords="275,71,421,98"/>
+<area shape="rect" id="node7" href="$class_inventory.html#ac533e00e2603d169f9d4972f853e1447" title=" " alt="" coords="277,122,419,149"/>
+<area shape="rect" id="node4" href="$class_player_stats.html#a07cb6a60391d769fea03f1bc3b6927c6" title=" " alt="" coords="501,71,648,98"/>
+<area shape="rect" id="node5" href="$class_player_u_i_controller.html#aca577b724c1f3f2ed54ad1165a7842c2" title="Sets the current HP value to the Image." alt="" coords="704,64,875,105"/>
+<area shape="rect" id="node6" href="$class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="923,64,1087,105"/>
+<area shape="rect" id="node8" href="$class_inventory.html#ae56202c0e352ca286b9ed6e42603f10b" title=" " alt="" coords="493,122,656,149"/>
+</map>

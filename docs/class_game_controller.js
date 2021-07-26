@@ -1,7 +1,7 @@
 var class_game_controller =
 [
     [ "AddPlayer", "class_game_controller.html#a8c6eb0b550a90d4c6ba6d792d239e63e", null ],
-    [ "DieFor", "class_game_controller.html#a7451be7bbd16322552b4d79b26544287", null ],
+    [ "Die", "class_game_controller.html#afa8670b912fa71b9898b2f917cf9c629", null ],
     [ "FindForUIs", "class_game_controller.html#a3836abaa9296797224c54b9a1b11d0c2", null ],
     [ "FinishGame", "class_game_controller.html#a0d83f0779a2ddcb3fb4bd2494c7497ae", null ],
     [ "GetCharacter", "class_game_controller.html#a99e3e08d9ca9475f4d3a4b7da91eb1f7", null ],

@@ -1,0 +1,5 @@
+<map id="RespawnCanvas.GetRespawnGoldCost" name="RespawnCanvas.GetRespawnGoldCost">
+<area shape="rect" id="node1" title="Returns the instant respawn gold cost for a given count." alt="" coords="251,23,445,65"/>
+<area shape="rect" id="node2" href="$class_respawn_canvas.html#aeb8465a7dc3b9f4fe6a36afc1c8bcf9a" title=" " alt="" coords="5,5,203,32"/>
+<area shape="rect" id="node3" href="$class_respawn_canvas.html#a272c2f78c7bfbeb481fcb4b737fe446c" title=" " alt="" coords="23,56,185,83"/>
+</map>

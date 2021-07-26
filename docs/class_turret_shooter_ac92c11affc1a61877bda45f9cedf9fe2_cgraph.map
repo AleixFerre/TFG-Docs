@@ -1,0 +1,7 @@
+<map id="TurretShooter.OnTriggerEnter" name="TurretShooter.OnTriggerEnter">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,196,98"/>
+<area shape="rect" id="node2" href="$class_turret_shooter.html#ae2174d2b9dd434ce7682d3f8f63d68cd" title=" " alt="" coords="244,5,413,47"/>
+<area shape="rect" id="node3" href="$class_turret_shooter.html#a3b5b505f7ae60b8770a992a332e3bd7c" title="Returns if the turret is currently attacking any entity." alt="" coords="244,71,413,98"/>
+<area shape="rect" id="node4" href="$class_turret_shooter.html#abdbfe8d7746ee1e665f8da7e1a423bf7" title=" " alt="" coords="259,122,398,149"/>
+<area shape="rect" id="node5" href="$class_ranged_attack_follow.html#a4552d59821a468e45dbcb0dd3d30db48" title=" " alt="" coords="461,122,663,149"/>
+</map>

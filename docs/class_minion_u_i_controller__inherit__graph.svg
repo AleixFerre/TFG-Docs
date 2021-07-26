@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="UIController for all the Minion entities of the game.">
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-19.5 95,-19.5 95,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="47.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MinionUIController</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_u_i_controller.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="class_u_i_controller.html" target="_top" xlink:title="Base abstract class for all the entities that have UI and Stats in the game.">
 <polygon fill="none" stroke="black" points="14,-56.5 14,-75.5 81,-75.5 81,-56.5 14,-56.5"/>
 <text text-anchor="middle" x="47.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">UIController</text>
 </a>

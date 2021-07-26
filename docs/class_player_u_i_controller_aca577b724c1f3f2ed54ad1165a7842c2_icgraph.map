@@ -1,8 +1,10 @@
 <map id="PlayerUIController.UpdateCurrentHP" name="PlayerUIController.UpdateCurrentHP">
-<area shape="rect" id="node1" title="Sets the current HP value to the Image." alt="" coords="443,49,613,90"/>
-<area shape="rect" id="node2" href="$class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed" title=" " alt="" coords="200,5,395,32"/>
-<area shape="rect" id="node3" href="$class_player_stats.html#a07cb6a60391d769fea03f1bc3b6927c6" title=" " alt="" coords="224,56,371,83"/>
-<area shape="rect" id="node5" href="$class_player_stats.html#a75c908d1b8c5eb0b414db7ab99ceab9e" title="Called whenever the player levels up." alt="" coords="228,107,367,133"/>
-<area shape="rect" id="node4" href="$class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" title=" " alt="" coords="5,56,152,83"/>
-<area shape="rect" id="node6" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="12,107,145,133"/>
+<area shape="rect" id="node1" title="Sets the current HP value to the Image." alt="" coords="700,49,871,90"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed" title=" " alt="" coords="457,5,652,32"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#a07cb6a60391d769fea03f1bc3b6927c6" title=" " alt="" coords="481,56,628,83"/>
+<area shape="rect" id="node7" href="$class_player_stats.html#a75c908d1b8c5eb0b414db7ab99ceab9e" title="Called whenever the player levels up." alt="" coords="485,107,624,133"/>
+<area shape="rect" id="node4" href="$class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" title=" " alt="" coords="257,56,403,83"/>
+<area shape="rect" id="node5" href="$class_respawn_canvas.html#aeb8465a7dc3b9f4fe6a36afc1c8bcf9a" title=" " alt="" coords="5,31,203,57"/>
+<area shape="rect" id="node6" href="$class_respawn_canvas.html#a272c2f78c7bfbeb481fcb4b737fe446c" title=" " alt="" coords="23,81,185,108"/>
+<area shape="rect" id="node8" href="$class_player_stats.html#af74a866a9312c345f3cd03235be2f329" title=" " alt="" coords="251,107,409,133"/>
 </map>

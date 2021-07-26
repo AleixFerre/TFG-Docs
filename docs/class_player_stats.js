@@ -1,6 +1,7 @@
 var class_player_stats =
 [
     [ "AddXP", "class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c", null ],
+    [ "AddXpRPC", "class_player_stats.html#af74a866a9312c345f3cd03235be2f329", null ],
     [ "ApplyStatistic", "class_player_stats.html#a0d9b7f06aadb3b770e53236e05437d31", null ],
     [ "ApplyStatistic", "class_player_stats.html#a458a138dd67acf0dc36b82c559a2ee40", null ],
     [ "BlockAbilityFor", "class_player_stats.html#af942d9a5150c2d4c47800335ec062ee1", null ],

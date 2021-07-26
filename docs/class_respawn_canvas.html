@@ -46,6 +46,7 @@
             <table cellspacing="0" cellpadding="0">
                 <tbody>
                     <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="logo.drawio.svg" /></td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">Treball de Fi de Grau
                                 &#160;<span id="projectnumber">1.0</span>
@@ -117,14 +118,15 @@ $(document).ready(function(){initNavTree('class_respawn_canvas.html',''); initRe
 <div class="dynheader">
 Diagrama d'Herència per a RespawnCanvas:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_respawn_canvas__inherit__graph.svg" width="128" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_respawn_canvas__inherit__graph.svg" width="128" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
-<tr class="memitem:a6588fcc9c072e07c2cf3fe0f7f0a2bce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#a6588fcc9c072e07c2cf3fe0f7f0a2bce">resetCount</a> (int seconds)</td></tr>
-<tr class="separator:a6588fcc9c072e07c2cf3fe0f7f0a2bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9933ffd44d95c8f31be7c38a55a7b1c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#a9933ffd44d95c8f31be7c38a55a7b1c2">ResetCount</a> (int seconds, <a class="el" href="class_player_stats.html">PlayerStats</a> _stats)</td></tr>
+<tr class="separator:a9933ffd44d95c8f31be7c38a55a7b1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb8465a7dc3b9f4fe6a36afc1c8bcf9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#aeb8465a7dc3b9f4fe6a36afc1c8bcf9a">BuyRespawn</a> ()</td></tr>
+<tr class="separator:aeb8465a7dc3b9f4fe6a36afc1c8bcf9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Atributs Públics</h2></td></tr>
@@ -132,40 +134,122 @@ Atributs Públics</h2></td></tr>
 <tr class="separator:a4cdfca51ec5b211aabe322bc7489d365"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa28555278a325eab65c52a21eb692f3d"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#aa28555278a325eab65c52a21eb692f3d">radialImg</a></td></tr>
 <tr class="separator:aa28555278a325eab65c52a21eb692f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac11d03b5aa0d6405c1225f2b6f9d7f68"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#ac11d03b5aa0d6405c1225f2b6f9d7f68">respawnButton</a></td></tr>
+<tr class="separator:ac11d03b5aa0d6405c1225f2b6f9d7f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Mètodes Privats</h2></td></tr>
 <tr class="memitem:a272c2f78c7bfbeb481fcb4b737fe446c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#a272c2f78c7bfbeb481fcb4b737fe446c">Update</a> ()</td></tr>
 <tr class="separator:a272c2f78c7bfbeb481fcb4b737fe446c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5936d81c38156d99c5e38554d6bd7100"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#a5936d81c38156d99c5e38554d6bd7100">GetRespawnGoldCost</a> ()</td></tr>
+<tr class="memdesc:a5936d81c38156d99c5e38554d6bd7100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the instant respawn gold cost for a given count.  <a href="class_respawn_canvas.html#a5936d81c38156d99c5e38554d6bd7100">Més...</a><br /></td></tr>
+<tr class="separator:a5936d81c38156d99c5e38554d6bd7100"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Atributs Privats</h2></td></tr>
+<tr class="memitem:aa658549595d343e5cfd5e8ac2068dc6a"><td class="memItemLeft" align="right" valign="top">TMP_Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#aa658549595d343e5cfd5e8ac2068dc6a">respawnGoldValueTxt</a></td></tr>
+<tr class="separator:aa658549595d343e5cfd5e8ac2068dc6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5b4b0337d60764036798f28070379a4"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#aa5b4b0337d60764036798f28070379a4">backgroundImg</a></td></tr>
+<tr class="separator:aa5b4b0337d60764036798f28070379a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae31cb35ca13f181d1f85b599d96abf79"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#ae31cb35ca13f181d1f85b599d96abf79">vignetteImg</a></td></tr>
+<tr class="separator:ae31cb35ca13f181d1f85b599d96abf79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add6832266144defacbbd5b7eb0fd283b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#add6832266144defacbbd5b7eb0fd283b">count</a></td></tr>
 <tr class="separator:add6832266144defacbbd5b7eb0fd283b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af323e0db7d3ea9d01e8b744ac4a8a41d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#af323e0db7d3ea9d01e8b744ac4a8a41d">totalSeconds</a></td></tr>
 <tr class="separator:af323e0db7d3ea9d01e8b744ac4a8a41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a454dbef286303a51d62df7f4bba0ae"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#a1a454dbef286303a51d62df7f4bba0ae">bc</a></td></tr>
+<tr class="separator:a1a454dbef286303a51d62df7f4bba0ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad60fadf2177b55a995872d87bf16f1fb"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#ad60fadf2177b55a995872d87bf16f1fb">vc</a></td></tr>
+<tr class="separator:ad60fadf2177b55a995872d87bf16f1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a650e5d20b64107a3c9a8a244ecc53ede"><td class="memItemLeft" align="right" valign="top">Coroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#a650e5d20b64107a3c9a8a244ecc53ede">waitCoroutine</a></td></tr>
+<tr class="separator:a650e5d20b64107a3c9a8a244ecc53ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acafab8f1200c562446fa5626b32d7de7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_player_stats.html">PlayerStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_respawn_canvas.html#acafab8f1200c562446fa5626b32d7de7">stats</a></td></tr>
+<tr class="separator:acafab8f1200c562446fa5626b32d7de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentació de les Funcions Membre</h2>
-<a id="a6588fcc9c072e07c2cf3fe0f7f0a2bce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6588fcc9c072e07c2cf3fe0f7f0a2bce">&#9670;&nbsp;</a></span>resetCount()</h2>
+<a id="aeb8465a7dc3b9f4fe6a36afc1c8bcf9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb8465a7dc3b9f4fe6a36afc1c8bcf9a">&#9670;&nbsp;</a></span>BuyRespawn()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void RespawnCanvas.resetCount </td>
+          <td class="memname">void RespawnCanvas.BuyRespawn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_respawn_canvas_aeb8465a7dc3b9f4fe6a36afc1c8bcf9a_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a5936d81c38156d99c5e38554d6bd7100"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5936d81c38156d99c5e38554d6bd7100">&#9670;&nbsp;</a></span>GetRespawnGoldCost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RespawnCanvas.GetRespawnGoldCost </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the instant respawn gold cost for a given count. </p>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_respawn_canvas_a5936d81c38156d99c5e38554d6bd7100_icgraph.svg" width="451" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9933ffd44d95c8f31be7c38a55a7b1c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9933ffd44d95c8f31be7c38a55a7b1c2">&#9670;&nbsp;</a></span>ResetCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RespawnCanvas.ResetCount </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>seconds</em></td><td>)</td>
+          <td class="paramname"><em>seconds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="class_player_stats.html">PlayerStats</a>&#160;</td>
+          <td class="paramname"><em>_stats</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_respawn_canvas_a6588fcc9c072e07c2cf3fe0f7f0a2bce_icgraph.svg" width="398" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_respawn_canvas_a9933ffd44d95c8f31be7c38a55a7b1c2_icgraph.svg" width="383" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -192,10 +276,59 @@ Gràfic de crides a aquesta funció:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_respawn_canvas_a272c2f78c7bfbeb481fcb4b737fe446c_cgraph.svg" width="100%" height="421"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
 <h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="aa5b4b0337d60764036798f28070379a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5b4b0337d60764036798f28070379a4">&#9670;&nbsp;</a></span>backgroundImg</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image RespawnCanvas.backgroundImg</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a454dbef286303a51d62df7f4bba0ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a454dbef286303a51d62df7f4bba0ae">&#9670;&nbsp;</a></span>bc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color RespawnCanvas.bc</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="add6832266144defacbbd5b7eb0fd283b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add6832266144defacbbd5b7eb0fd283b">&#9670;&nbsp;</a></span>count</h2>
 
@@ -232,6 +365,42 @@ Gràfic de crides a aquesta funció:</div>
 
 </div>
 </div>
+<a id="ac11d03b5aa0d6405c1225f2b6f9d7f68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac11d03b5aa0d6405c1225f2b6f9d7f68">&#9670;&nbsp;</a></span>respawnButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Button RespawnCanvas.respawnButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa658549595d343e5cfd5e8ac2068dc6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa658549595d343e5cfd5e8ac2068dc6a">&#9670;&nbsp;</a></span>respawnGoldValueTxt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_Text RespawnCanvas.respawnGoldValueTxt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4cdfca51ec5b211aabe322bc7489d365"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4cdfca51ec5b211aabe322bc7489d365">&#9670;&nbsp;</a></span>respawningCountTxt</h2>
 
@@ -242,6 +411,28 @@ Gràfic de crides a aquesta funció:</div>
           <td class="memname">TMP_Text RespawnCanvas.respawningCountTxt</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acafab8f1200c562446fa5626b32d7de7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acafab8f1200c562446fa5626b32d7de7">&#9670;&nbsp;</a></span>stats</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_player_stats.html">PlayerStats</a> RespawnCanvas.stats</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -268,6 +459,72 @@ Gràfic de crides a aquesta funció:</div>
 
 </div>
 </div>
+<a id="ad60fadf2177b55a995872d87bf16f1fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad60fadf2177b55a995872d87bf16f1fb">&#9670;&nbsp;</a></span>vc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color RespawnCanvas.vc</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae31cb35ca13f181d1f85b599d96abf79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae31cb35ca13f181d1f85b599d96abf79">&#9670;&nbsp;</a></span>vignetteImg</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image RespawnCanvas.vignetteImg</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a650e5d20b64107a3c9a8a244ecc53ede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a650e5d20b64107a3c9a8a244ecc53ede">&#9670;&nbsp;</a></span>waitCoroutine</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Coroutine RespawnCanvas.waitCoroutine</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
 <li>F:/Unity Projects/Treball de Fi de Grau/Assets/Scripts/Game/Game Control/<a class="el" href="_respawn_canvas_8cs.html">RespawnCanvas.cs</a></li>
 </ul>
@@ -278,7 +535,7 @@ Gràfic de crides a aquesta funció:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_respawn_canvas.html">RespawnCanvas</a></li>
-    <li class="footer">Generat a Ds Jul 24 2021 19:58:50 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generat a Dl Jul 26 2021 02:10:35 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 <script type="text/javascript">

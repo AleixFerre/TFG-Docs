@@ -1,6 +1,12 @@
 <map id="PlayerStats.DealDamageRPC" name="PlayerStats.DealDamageRPC">
-<area shape="rect" id="node1" title=" " alt="" coords="5,35,200,61"/>
-<area shape="rect" id="node2" href="$class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff" title="Function that implements what is done when this entity dies." alt="" coords="277,5,390,32"/>
-<area shape="rect" id="node3" href="$class_player_u_i_controller.html#aca577b724c1f3f2ed54ad1165a7842c2" title="Sets the current HP value to the Image." alt="" coords="248,57,419,98"/>
-<area shape="rect" id="node4" href="$class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="467,57,631,98"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,110,200,137"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff" title="Function that implements what is done when this entity dies." alt="" coords="248,81,361,107"/>
+<area shape="rect" id="node10" href="$class_player_u_i_controller.html#aca577b724c1f3f2ed54ad1165a7842c2" title="Sets the current HP value to the Image." alt="" coords="601,129,771,171"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="413,30,547,57"/>
+<area shape="rect" id="node4" href="$class_player_stats.html#a5e274804959d13db76f140e8efcf9411" title="Initialize the actual Stats of the Player." alt="" coords="409,81,551,107"/>
+<area shape="rect" id="node5" href="$class_player_u_i_controller.html#ab6ed746dec17fdf763bc4ec1d713db7f" title="Initializes all the values and colors for this Player." alt="" coords="599,78,773,105"/>
+<area shape="rect" id="node6" href="$class_player_u_i_controller.html#aa5b61a93967fa5ce39bfd950a9e9d584" title="Initializes all the values into the Image and Text." alt="" coords="821,71,999,112"/>
+<area shape="rect" id="node7" href="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" title="Sets the current level and xp to the Image." alt="" coords="1047,5,1217,47"/>
+<area shape="rect" id="node9" href="$class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="1047,71,1217,112"/>
+<area shape="rect" id="node8" href="$class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="1265,71,1429,112"/>
 </map>

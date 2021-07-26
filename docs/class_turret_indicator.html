@@ -46,6 +46,7 @@
             <table cellspacing="0" cellpadding="0">
                 <tbody>
                     <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="logo.drawio.svg" /></td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">Treball de Fi de Grau
                                 &#160;<span id="projectnumber">1.0</span>
@@ -117,14 +118,16 @@ $(document).ready(function(){initNavTree('class_turret_indicator.html',''); init
 <div class="dynheader">
 Diagrama d'Herència per a TurretIndicator:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_indicator__inherit__graph.svg" width="122" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_indicator__inherit__graph.svg" width="122" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
 <tr class="memitem:a19e8f71242fb5ed02d3ccc6e66b46680"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_indicator.html#a19e8f71242fb5ed02d3ccc6e66b46680">Initialize</a> ()</td></tr>
 <tr class="separator:a19e8f71242fb5ed02d3ccc6e66b46680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac22f0a6302d98f2cbc765c99427ed03f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_indicator.html#ac22f0a6302d98f2cbc765c99427ed03f">OnStateChanged</a> (Color color)</td></tr>
+<tr class="memdesc:ac22f0a6302d98f2cbc765c99427ed03f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function gets calls whenever the Turret changes the intern state.  <a href="class_turret_indicator.html#ac22f0a6302d98f2cbc765c99427ed03f">Més...</a><br /></td></tr>
+<tr class="separator:ac22f0a6302d98f2cbc765c99427ed03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Atributs Públics</h2></td></tr>
@@ -132,11 +135,21 @@ Atributs Públics</h2></td></tr>
 <tr class="separator:a4d05718dd59694d9560ec6cc5e04ac01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ac64f2c744fc5f50b1a5474ddd97e03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_turret_stats.html">TurretStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_indicator.html#a7ac64f2c744fc5f50b1a5474ddd97e03">stats</a></td></tr>
 <tr class="separator:a7ac64f2c744fc5f50b1a5474ddd97e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a918ec289fd9e43e8e67d4205bda8456d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_turret_shooter.html">TurretShooter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_indicator.html#a918ec289fd9e43e8e67d4205bda8456d">shooter</a></td></tr>
+<tr class="separator:a918ec289fd9e43e8e67d4205bda8456d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab41fab23654eaa4290a03a97ffadb3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_indicator.html#aeab41fab23654eaa4290a03a97ffadb3">minDistance</a> = 5f</td></tr>
+<tr class="memdesc:aeab41fab23654eaa4290a03a97ffadb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The distance that the alpha color from the material will reach max value.  <a href="class_turret_indicator.html#aeab41fab23654eaa4290a03a97ffadb3">Més...</a><br /></td></tr>
+<tr class="separator:aeab41fab23654eaa4290a03a97ffadb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a813faf6acdfb4ac35914c54f0459ba56"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_indicator.html#a813faf6acdfb4ac35914c54f0459ba56">maxDistance</a> = 6f</td></tr>
+<tr class="memdesc:a813faf6acdfb4ac35914c54f0459ba56"><td class="mdescLeft">&#160;</td><td class="mdescRight">The distance that the alpha color from the material will reach min value.  <a href="class_turret_indicator.html#a813faf6acdfb4ac35914c54f0459ba56">Més...</a><br /></td></tr>
+<tr class="separator:a813faf6acdfb4ac35914c54f0459ba56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Mètodes Privats</h2></td></tr>
 <tr class="memitem:aaa28d80b0f70bacdde2fd7974603a915"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_indicator.html#aaa28d80b0f70bacdde2fd7974603a915">Update</a> ()</td></tr>
 <tr class="separator:aaa28d80b0f70bacdde2fd7974603a915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3e577cdcecd9843ec3fe2f633f24310"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_indicator.html#ad3e577cdcecd9843ec3fe2f633f24310">OnDrawGizmosSelected</a> ()</td></tr>
+<tr class="separator:ad3e577cdcecd9843ec3fe2f633f24310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Atributs Privats</h2></td></tr>
@@ -144,6 +157,8 @@ Atributs Privats</h2></td></tr>
 <tr class="separator:a41034ee451a9d70f47f8d80263448709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4e0c68450e4115401426243627cb53f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_indicator.html#ac4e0c68450e4115401426243627cb53f">isReady</a> = false</td></tr>
 <tr class="separator:ac4e0c68450e4115401426243627cb53f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cde7b6d81adb9bab35c109387b23b09"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_indicator.html#a8cde7b6d81adb9bab35c109387b23b09">actualColor</a></td></tr>
+<tr class="separator:a8cde7b6d81adb9bab35c109387b23b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentació de les Funcions Membre</h2>
 <a id="a19e8f71242fb5ed02d3ccc6e66b46680"></a>
@@ -163,9 +178,59 @@ Atributs Privats</h2></td></tr>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_indicator_a19e8f71242fb5ed02d3ccc6e66b46680_icgraph.svg" width="387" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_indicator_a19e8f71242fb5ed02d3ccc6e66b46680_icgraph.svg" width="387" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
+<a id="ad3e577cdcecd9843ec3fe2f633f24310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3e577cdcecd9843ec3fe2f633f24310">&#9670;&nbsp;</a></span>OnDrawGizmosSelected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TurretIndicator.OnDrawGizmosSelected </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac22f0a6302d98f2cbc765c99427ed03f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac22f0a6302d98f2cbc765c99427ed03f">&#9670;&nbsp;</a></span>OnStateChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TurretIndicator.OnStateChanged </td>
+          <td>(</td>
+          <td class="paramtype">Color&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function gets calls whenever the Turret changes the intern state. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>The color of the updated state</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -191,6 +256,11 @@ Gràfic de crides a aquesta funció:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_indicator_aaa28d80b0f70bacdde2fd7974603a915_cgraph.svg" width="323" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -205,6 +275,28 @@ Gràfic de crides a aquesta funció:</div>
           <td class="memname">MeshRenderer TurretIndicator._renderer</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8cde7b6d81adb9bab35c109387b23b09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cde7b6d81adb9bab35c109387b23b09">&#9670;&nbsp;</a></span>actualColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color TurretIndicator.actualColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -231,6 +323,38 @@ Gràfic de crides a aquesta funció:</div>
 
 </div>
 </div>
+<a id="a813faf6acdfb4ac35914c54f0459ba56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a813faf6acdfb4ac35914c54f0459ba56">&#9670;&nbsp;</a></span>maxDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TurretIndicator.maxDistance = 6f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The distance that the alpha color from the material will reach min value. </p>
+
+</div>
+</div>
+<a id="aeab41fab23654eaa4290a03a97ffadb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeab41fab23654eaa4290a03a97ffadb3">&#9670;&nbsp;</a></span>minDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TurretIndicator.minDistance = 5f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The distance that the alpha color from the material will reach max value. </p>
+
+</div>
+</div>
 <a id="a41034ee451a9d70f47f8d80263448709"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a41034ee451a9d70f47f8d80263448709">&#9670;&nbsp;</a></span>playerTransform</h2>
 
@@ -249,6 +373,20 @@ Gràfic de crides a aquesta funció:</div>
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a918ec289fd9e43e8e67d4205bda8456d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a918ec289fd9e43e8e67d4205bda8456d">&#9670;&nbsp;</a></span>shooter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_turret_shooter.html">TurretShooter</a> TurretIndicator.shooter</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -277,7 +415,7 @@ Gràfic de crides a aquesta funció:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_turret_indicator.html">TurretIndicator</a></li>
-    <li class="footer">Generat a Ds Jul 24 2021 19:58:51 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generat a Dl Jul 26 2021 02:10:35 per a Treball de Fi de Grau per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 <script type="text/javascript">
