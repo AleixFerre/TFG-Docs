@@ -1,6 +1,0 @@
-<map id="UpgradeEffect" name="UpgradeEffect">
-<area shape="rect" id="node1" title=" " alt="" coords="13,229,116,256"/>
-<area shape="rect" id="node2" href="$class_timed_effect.xhtml" title="TimedEffect és un encapsulador per tots els Effect que NO s&#39;executen de forma instantània." alt="" coords="19,155,110,181"/>
-<area shape="rect" id="node3" href="$class_effect.xhtml" title=" " alt="" coords="37,80,92,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,124,32"/>
-</map>

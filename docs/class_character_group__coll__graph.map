@@ -1,7 +1,0 @@
-<map id="CharacterGroup" name="CharacterGroup">
-<area shape="rect" id="node1" title=" " alt="" coords="5,349,119,376"/>
-<area shape="rect" id="node2" title=" " alt="" coords="57,5,176,32"/>
-<area shape="rect" id="node3" href="$class_character.html" title=" " alt="" coords="79,260,157,287"/>
-<area shape="rect" id="node4" href="$class_ability.html" title="Base abstract class for an Ability." alt="" coords="129,171,187,197"/>
-<area shape="rect" id="node5" href="$class_effect.html" title="Abstract base info container class for an Effect." alt="" coords="180,81,235,108"/>
-</map>

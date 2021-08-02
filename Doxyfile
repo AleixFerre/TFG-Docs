@@ -964,6 +964,7 @@ EXCLUDE_PATTERNS      += */Editor/*
 EXCLUDE_PATTERNS      += */Sprites/*
 EXCLUDE_PATTERNS      += */Prefabs/*
 EXCLUDE_PATTERNS      += */Doxygen/*
+EXCLUDE_PATTERNS      += */External/*
 
 # The EXCLUDE_SYMBOLS tag can be used to specify one or more symbol names
 # (namespaces, classes, functions, etc.) that should be excluded from the

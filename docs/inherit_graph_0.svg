@@ -8,9 +8,9 @@
  viewBox="0.00 0.00 500.00 322.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 318)">
 <title>Jerarquia Gràfica de la Classe</title>
-<!-- Node63 -->
+<!-- Node61 -->
 <g id="node1" class="node">
-<title>Node63</title>
+<title>Node61</title>
 <g id="a_node1"><a xlink:title=" ">
 <polygon fill="none" stroke="#bfbfbf" points="0,-95.5 0,-114.5 89,-114.5 89,-95.5 0,-95.5"/>
 <text text-anchor="middle" x="44.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">ScriptableObject</text>
@@ -26,84 +26,84 @@
 </a>
 </g>
 </g>
-<!-- Node63&#45;&gt;Node0 -->
+<!-- Node61&#45;&gt;Node0 -->
 <g id="edge1" class="edge">
-<title>Node63&#45;&gt;Node0</title>
+<title>Node61&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M60.93,-122.86C76.01,-139.5 100.24,-164.2 125,-181 131.16,-185.18 138.4,-188.85 145.08,-191.83"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="63.19,-120.12 53.93,-114.97 57.95,-124.77 63.19,-120.12"/>
 </g>
-<!-- Node71 -->
+<!-- Node69 -->
 <g id="node9" class="node">
-<title>Node71</title>
+<title>Node69</title>
 <g id="a_node9"><a xlink:href="class_character.html" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="138,-152.5 138,-171.5 197,-171.5 197,-152.5 138,-152.5"/>
 <text text-anchor="middle" x="167.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">Character</text>
 </a>
 </g>
 </g>
-<!-- Node63&#45;&gt;Node71 -->
+<!-- Node61&#45;&gt;Node69 -->
 <g id="edge8" class="edge">
-<title>Node63&#45;&gt;Node71</title>
+<title>Node61&#45;&gt;Node69</title>
 <path fill="none" stroke="midnightblue" d="M74.67,-119.09C89.68,-126.3 108.29,-135.18 125,-143 131.6,-146.09 138.82,-149.41 145.36,-152.4"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="75.92,-115.8 65.39,-114.62 72.88,-122.11 75.92,-115.8"/>
 </g>
-<!-- Node72 -->
+<!-- Node70 -->
 <g id="node10" class="node">
-<title>Node72</title>
+<title>Node70</title>
 <g id="a_node10"><a xlink:href="class_character_group.html" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="125,-114.5 125,-133.5 210,-133.5 210,-114.5 125,-114.5"/>
 <text text-anchor="middle" x="167.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">CharacterGroup</text>
 </a>
 </g>
 </g>
-<!-- Node63&#45;&gt;Node72 -->
+<!-- Node61&#45;&gt;Node70 -->
 <g id="edge9" class="edge">
-<title>Node63&#45;&gt;Node72</title>
+<title>Node61&#45;&gt;Node70</title>
 <path fill="none" stroke="midnightblue" d="M99.18,-113.43C107.8,-114.78 116.62,-116.17 124.9,-117.47"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="99.61,-109.95 89.18,-111.86 98.52,-116.87 99.61,-109.95"/>
 </g>
-<!-- Node73 -->
+<!-- Node71 -->
 <g id="node11" class="node">
-<title>Node73</title>
+<title>Node71</title>
 <g id="a_node11"><a xlink:href="class_effect.html" target="_top" xlink:title="Abstract base info container class for an Effect.">
 <polygon fill="none" stroke="black" points="147,-76.5 147,-95.5 188,-95.5 188,-76.5 147,-76.5"/>
 <text text-anchor="middle" x="167.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Effect</text>
 </a>
 </g>
 </g>
-<!-- Node63&#45;&gt;Node73 -->
+<!-- Node61&#45;&gt;Node71 -->
 <g id="edge10" class="edge">
-<title>Node63&#45;&gt;Node73</title>
+<title>Node61&#45;&gt;Node71</title>
 <path fill="none" stroke="midnightblue" d="M99.08,-96.59C116.11,-93.91 133.87,-91.12 146.89,-89.08"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="98.52,-93.13 89.18,-98.14 99.61,-100.05 98.52,-93.13"/>
 </g>
-<!-- Node79 -->
+<!-- Node77 -->
 <g id="node17" class="node">
-<title>Node79</title>
+<title>Node77</title>
 <g id="a_node17"><a xlink:href="class_item.html" target="_top" xlink:title="Base class for an Item">
 <polygon fill="none" stroke="black" points="150,-38.5 150,-57.5 185,-57.5 185,-38.5 150,-38.5"/>
 <text text-anchor="middle" x="167.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item</text>
 </a>
 </g>
 </g>
-<!-- Node63&#45;&gt;Node79 -->
+<!-- Node61&#45;&gt;Node77 -->
 <g id="edge16" class="edge">
-<title>Node63&#45;&gt;Node79</title>
+<title>Node61&#45;&gt;Node77</title>
 <path fill="none" stroke="midnightblue" d="M74.67,-90.91C89.68,-83.7 108.29,-74.82 125,-67 133.18,-63.17 142.31,-58.99 149.91,-55.52"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="72.88,-87.89 65.39,-95.38 75.92,-94.2 72.88,-87.89"/>
 </g>
-<!-- Node80 -->
+<!-- Node78 -->
 <g id="node18" class="node">
-<title>Node80</title>
+<title>Node78</title>
 <g id="a_node18"><a xlink:href="class_item_group.html" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="136.5,-0.5 136.5,-19.5 198.5,-19.5 198.5,-0.5 136.5,-0.5"/>
 <text text-anchor="middle" x="167.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ItemGroup</text>
 </a>
 </g>
 </g>
-<!-- Node63&#45;&gt;Node80 -->
+<!-- Node61&#45;&gt;Node78 -->
 <g id="edge17" class="edge">
-<title>Node63&#45;&gt;Node80</title>
+<title>Node61&#45;&gt;Node78</title>
 <path fill="none" stroke="midnightblue" d="M60.93,-87.14C76.01,-70.5 100.24,-45.8 125,-29 130.25,-25.44 136.27,-22.25 142.06,-19.55"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="57.95,-85.23 53.93,-95.03 63.19,-89.88 57.95,-85.23"/>
 </g>
@@ -197,78 +197,78 @@
 <path fill="none" stroke="midnightblue" d="M356.2,-192.87C365.01,-192.55 374.04,-192.23 382.71,-191.92"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="355.87,-189.38 346.01,-193.24 356.13,-196.38 355.87,-189.38"/>
 </g>
-<!-- Node74 -->
+<!-- Node72 -->
 <g id="node12" class="node">
-<title>Node74</title>
+<title>Node72</title>
 <g id="a_node12"><a xlink:href="class_instant_effect.html" target="_top" xlink:title="InstantEffect és un encapsulador per tots els Effect que s&#39;executen de forma instantània.">
 <polygon fill="none" stroke="black" points="260.5,-95.5 260.5,-114.5 331.5,-114.5 331.5,-95.5 260.5,-95.5"/>
 <text text-anchor="middle" x="296" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">InstantEffect</text>
 </a>
 </g>
 </g>
-<!-- Node73&#45;&gt;Node74 -->
+<!-- Node71&#45;&gt;Node72 -->
 <g id="edge11" class="edge">
-<title>Node73&#45;&gt;Node74</title>
+<title>Node71&#45;&gt;Node72</title>
 <path fill="none" stroke="midnightblue" d="M198.25,-90.47C216.85,-93.26 240.89,-96.87 260.35,-99.8"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="198.67,-86.99 188.27,-88.97 197.63,-93.92 198.67,-86.99"/>
 </g>
-<!-- Node77 -->
+<!-- Node75 -->
 <g id="node15" class="node">
-<title>Node77</title>
+<title>Node75</title>
 <g id="a_node15"><a xlink:href="class_timed_effect.html" target="_top" xlink:title="TimedEffect és un encapsulador per tots els Effect que NO s&#39;executen de forma instantània.">
 <polygon fill="none" stroke="black" points="262,-57.5 262,-76.5 330,-76.5 330,-57.5 262,-57.5"/>
 <text text-anchor="middle" x="296" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">TimedEffect</text>
 </a>
 </g>
 </g>
-<!-- Node73&#45;&gt;Node77 -->
+<!-- Node71&#45;&gt;Node75 -->
 <g id="edge14" class="edge">
-<title>Node73&#45;&gt;Node77</title>
+<title>Node71&#45;&gt;Node75</title>
 <path fill="none" stroke="midnightblue" d="M198.17,-81.54C217.19,-78.69 241.9,-74.98 261.6,-72.02"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="197.63,-78.08 188.27,-83.03 198.67,-85.01 197.63,-78.08"/>
 </g>
-<!-- Node75 -->
+<!-- Node73 -->
 <g id="node13" class="node">
-<title>Node75</title>
+<title>Node73</title>
 <g id="a_node13"><a xlink:href="class_heal_effect.html" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="406.5,-133.5 406.5,-152.5 467.5,-152.5 467.5,-133.5 406.5,-133.5"/>
 <text text-anchor="middle" x="437" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">HealEffect</text>
 </a>
 </g>
 </g>
-<!-- Node74&#45;&gt;Node75 -->
+<!-- Node72&#45;&gt;Node73 -->
 <g id="edge12" class="edge">
-<title>Node74&#45;&gt;Node75</title>
+<title>Node72&#45;&gt;Node73</title>
 <path fill="none" stroke="midnightblue" d="M341.5,-117.16C362.73,-122.97 387.55,-129.75 406.42,-134.91"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="342.29,-113.75 331.72,-114.49 340.44,-120.5 342.29,-113.75"/>
 </g>
-<!-- Node76 -->
+<!-- Node74 -->
 <g id="node14" class="node">
-<title>Node76</title>
+<title>Node74</title>
 <g id="a_node14"><a xlink:href="class_heal_relative_effect.html" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="389.5,-95.5 389.5,-114.5 484.5,-114.5 484.5,-95.5 389.5,-95.5"/>
 <text text-anchor="middle" x="437" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">HealRelativeEffect</text>
 </a>
 </g>
 </g>
-<!-- Node74&#45;&gt;Node76 -->
+<!-- Node72&#45;&gt;Node74 -->
 <g id="edge13" class="edge">
-<title>Node74&#45;&gt;Node76</title>
+<title>Node72&#45;&gt;Node74</title>
 <path fill="none" stroke="midnightblue" d="M341.91,-105C357.1,-105 374.09,-105 389.41,-105"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="341.72,-101.5 331.72,-105 341.72,-108.5 341.72,-101.5"/>
 </g>
-<!-- Node78 -->
+<!-- Node76 -->
 <g id="node16" class="node">
-<title>Node78</title>
+<title>Node76</title>
 <g id="a_node16"><a xlink:href="class_statistic_change_effect.html" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="382,-57.5 382,-76.5 492,-76.5 492,-57.5 382,-57.5"/>
 <text text-anchor="middle" x="437" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">StatisticChangeEffect</text>
 </a>
 </g>
 </g>
-<!-- Node77&#45;&gt;Node78 -->
+<!-- Node75&#45;&gt;Node76 -->
 <g id="edge15" class="edge">
-<title>Node77&#45;&gt;Node78</title>
+<title>Node75&#45;&gt;Node76</title>
 <path fill="none" stroke="midnightblue" d="M340.45,-67C353.55,-67 368.1,-67 381.81,-67"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="340.29,-63.5 330.29,-67 340.29,-70.5 340.29,-63.5"/>
 </g>

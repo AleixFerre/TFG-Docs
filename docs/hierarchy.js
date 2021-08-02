@@ -55,8 +55,6 @@ var hierarchy =
           [ "TurretStats", "class_turret_stats.html", null ]
         ] ]
       ] ],
-      [ "StressReceiver", "class_stress_receiver.html", null ],
-      [ "TraumaInducer", "class_trauma_inducer.html", null ],
       [ "TurretIndicator", "class_turret_indicator.html", null ],
       [ "TurretShooter", "class_turret_shooter.html", null ],
       [ "UIController", "class_u_i_controller.html", [

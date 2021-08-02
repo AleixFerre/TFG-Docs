@@ -1,7 +1,0 @@
-<map id="ItemGroup" name="ItemGroup">
-<area shape="rect" id="node1" title=" " alt="" coords="75,199,158,225"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,13,124,39"/>
-<area shape="rect" id="node3" href="$class_item.html" title="Base class for an Item" alt="" coords="163,109,209,136"/>
-<area shape="rect" id="node4" href="$class_generic_dictionary.html" title=" " alt="" coords="149,5,282,47"/>
-<area shape="rect" id="node5" href="$class_generic_dictionary.html" title=" " alt="" coords="306,5,453,47"/>
-</map>
