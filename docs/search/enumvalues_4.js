@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['other_1244',['Other',['../_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598a6311ae17c1ee52b36e68aaf4ad066387',1,'Team.cs']]]
+  ['none_1259',['None',['../class_basic_attack.html#a79124cc3f973d837b2f08509038bdb03a6adf97f83acf6453d4a6a4b1070f3754',1,'BasicAttack']]]
 ];

@@ -1,7 +1,11 @@
 <map id="TurretShooter.OnTriggerEnter" name="TurretShooter.OnTriggerEnter">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,196,98"/>
-<area shape="rect" id="node2" href="$class_turret_shooter.html#ae2174d2b9dd434ce7682d3f8f63d68cd" title=" " alt="" coords="244,5,413,47"/>
-<area shape="rect" id="node3" href="$class_turret_shooter.html#a3b5b505f7ae60b8770a992a332e3bd7c" title="Returns if the turret is currently attacking any entity." alt="" coords="244,71,413,98"/>
-<area shape="rect" id="node4" href="$class_turret_shooter.html#abdbfe8d7746ee1e665f8da7e1a423bf7" title=" " alt="" coords="259,122,398,149"/>
-<area shape="rect" id="node5" href="$class_ranged_attack_follow.html#a4552d59821a468e45dbcb0dd3d30db48" title=" " alt="" coords="461,122,663,149"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,196,83"/>
+<area shape="rect" id="node2" href="$class_turret_shooter.html#a94f71f9418731d9f066ea45766fef5ae" title="When an Attackable entity enters the range trigger, it gets added to the corresponding list depending..." alt="" coords="245,5,413,32"/>
+<area shape="rect" id="node3" href="$class_turret_shooter.html#a3b5b505f7ae60b8770a992a332e3bd7c" title="Returns if the turret is currently attacking any entity." alt="" coords="244,56,413,83"/>
+<area shape="rect" id="node4" href="$class_turret_shooter.html#abdbfe8d7746ee1e665f8da7e1a423bf7" title=" " alt="" coords="259,107,398,133"/>
+<area shape="rect" id="node5" href="$class_turret_shooter.html#a8be25a5629564093b66ab8d2b42692cc" title=" " alt="" coords="461,99,631,141"/>
+<area shape="rect" id="node6" href="$class_turret_shooter.html#af4787c8905eb7428580b784b1cb1ffed" title="Returns true if the turret is attacking the local player right now." alt="" coords="692,56,872,83"/>
+<area shape="rect" id="node7" href="$class_turret_indicator.html#af9280d63c24d0703a0d072d1a72d47bb" title="This function gets calls whenever the Turret changes the intern state." alt="" coords="679,107,885,133"/>
+<area shape="rect" id="node9" href="$class_ranged_attack_follow.html#a4552d59821a468e45dbcb0dd3d30db48" title=" " alt="" coords="681,157,883,184"/>
+<area shape="rect" id="node8" href="$class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50" title="Returns the color corresponing to the current State of the indicator" alt="" coords="933,99,1092,141"/>
 </map>

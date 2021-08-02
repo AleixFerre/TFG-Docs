@@ -1,4 +1,5 @@
 <map id="TurretIndicator.Initialize" name="TurretIndicator.Initialize">
-<area shape="rect" id="node1" title=" " alt="" coords="227,13,381,39"/>
-<area shape="rect" id="node2" href="$class_turret_u_i_controller.html#a33612c1e7e2da071dd41cc5ac4ad01be" title=" " alt="" coords="5,5,179,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="425,13,580,39"/>
+<area shape="rect" id="node2" href="$class_turret_shooter.html#a320c5a07618bf6eeed732ca91129c251" title="This method initializes the turret script." alt="" coords="227,13,377,39"/>
+<area shape="rect" id="node3" href="$class_turret_u_i_controller.html#a33612c1e7e2da071dd41cc5ac4ad01be" title=" " alt="" coords="5,5,179,47"/>
 </map>

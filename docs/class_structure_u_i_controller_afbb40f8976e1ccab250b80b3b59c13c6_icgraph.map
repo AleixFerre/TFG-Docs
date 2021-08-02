@@ -1,5 +1,4 @@
 <map id="StructureUIController.GetTeamMaterial" name="StructureUIController.GetTeamMaterial">
-<area shape="rect" id="node1" title=" " alt="" coords="247,39,413,80"/>
+<area shape="rect" id="node1" title=" " alt="" coords="247,5,413,47"/>
 <area shape="rect" id="node2" href="$class_structure_u_i_controller.html#ad491648142deb4740cbe79382a713f33" title=" " alt="" coords="5,5,199,47"/>
-<area shape="rect" id="node3" href="$class_turret_u_i_controller.html#a33612c1e7e2da071dd41cc5ac4ad01be" title=" " alt="" coords="15,71,189,112"/>
 </map>

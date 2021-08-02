@@ -1,0 +1,4 @@
+<map id="TurretShooter.AddEnemy" name="TurretShooter.AddEnemy">
+<area shape="rect" id="node1" title="When an Attackable entity enters the range trigger, it gets added to the corresponding list depending..." alt="" coords="244,5,412,32"/>
+<area shape="rect" id="node2" href="$class_turret_shooter.html#ac92c11affc1a61877bda45f9cedf9fe2" title=" " alt="" coords="5,5,196,32"/>
+</map>
