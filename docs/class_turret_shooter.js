@@ -1,10 +1,9 @@
 var class_turret_shooter =
 [
     [ "AddEnemy", "class_turret_shooter.html#a94f71f9418731d9f066ea45766fef5ae", null ],
-    [ "AttacksLocal", "class_turret_shooter.html#af4787c8905eb7428580b784b1cb1ffed", null ],
     [ "AttackWithPriority", "class_turret_shooter.html#a8be25a5629564093b66ab8d2b42692cc", null ],
+    [ "CheckNewState", "class_turret_shooter.html#afd1f3c49261fa8e1787dc3514b30f178", null ],
     [ "Initialize", "class_turret_shooter.html#a320c5a07618bf6eeed732ca91129c251", null ],
-    [ "IsAttacking", "class_turret_shooter.html#a3b5b505f7ae60b8770a992a332e3bd7c", null ],
     [ "OnTriggerEnter", "class_turret_shooter.html#ac92c11affc1a61877bda45f9cedf9fe2", null ],
     [ "OnTriggerExit", "class_turret_shooter.html#a91af004b685cacac7466bcebe82eb08d", null ],
     [ "Shoot", "class_turret_shooter.html#abdbfe8d7746ee1e665f8da7e1a423bf7", null ],

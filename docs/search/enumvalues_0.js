@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['ability_1217',['Ability',['../class_basic_attack.html#a79124cc3f973d837b2f08509038bdb03a698dcef315bbeccaa57c333577736370',1,'BasicAttack']]],
-  ['ad_1218',['AD',['../_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92bae182ebbc166d73366e7986813a7fc5f1',1,'Statistic.cs']]],
-  ['ap_1219',['AP',['../_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92ba0fd3f8dd5edc33b28db1162e15e8fcbc',1,'Statistic.cs']]],
-  ['ar_1220',['AR',['../_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022a5b61a1b298a0d06efa6933a97e68d763',1,'Statistic.cs']]],
-  ['as_1221',['AS',['../_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022aa2c29192484301fa800100e16e494acf',1,'Statistic.cs']]],
-  ['attackinglocal_1222',['AttackingLocal',['../class_turret_indicator.html#a7d23b7b661ef67266d6cd91729ae9a84adf434079b644dccfb35f699539f71fa1',1,'TurretIndicator']]],
-  ['attackingother_1223',['AttackingOther',['../class_turret_indicator.html#a7d23b7b661ef67266d6cd91729ae9a84a9e8b9164f73c62d6a973c6b1cf29e46f',1,'TurretIndicator']]],
-  ['autoattack_1224',['AutoAttack',['../class_basic_attack.html#a79124cc3f973d837b2f08509038bdb03a4ab9f5061aa771d40b1640cbd5e1caaa',1,'BasicAttack']]]
+  ['ability_1235',['Ability',['../class_basic_attack.html#a79124cc3f973d837b2f08509038bdb03a698dcef315bbeccaa57c333577736370',1,'BasicAttack']]],
+  ['abilitypower_1236',['AbilityPower',['../_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92ba115fccbacfdb86a46d17035b4073ca90',1,'Statistic.cs']]],
+  ['armor_1237',['Armor',['../_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92bac77a8030f463c2c14aebd6452fc9f0a8',1,'Statistic.cs']]],
+  ['attackdamage_1238',['AttackDamage',['../_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92baae967c8aba3177e5f93b13b8d281adb3',1,'Statistic.cs']]],
+  ['attackinglocal_1239',['AttackingLocal',['../class_turret_indicator.html#ab4bc2977541bcb4e5678c2f625c1ae5aadf434079b644dccfb35f699539f71fa1',1,'TurretIndicator']]],
+  ['attackingother_1240',['AttackingOther',['../class_turret_indicator.html#ab4bc2977541bcb4e5678c2f625c1ae5aa9e8b9164f73c62d6a973c6b1cf29e46f',1,'TurretIndicator']]],
+  ['attackrange_1241',['AttackRange',['../_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022ab368d16134fba69bdd208d3d0c7c7c5b',1,'Statistic.cs']]],
+  ['attackspeed_1242',['AttackSpeed',['../_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022aa1039049ad899dd188ddd24169458b48',1,'Statistic.cs']]],
+  ['autoattack_1243',['AutoAttack',['../class_basic_attack.html#a79124cc3f973d837b2f08509038bdb03a4ab9f5061aa771d40b1640cbd5e1caaa',1,'BasicAttack']]]
 ];

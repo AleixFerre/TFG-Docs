@@ -1,8 +1,7 @@
 <map id="TurretShooter.Shoot" name="TurretShooter.Shoot">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,144,83"/>
-<area shape="rect" id="node2" href="$class_turret_shooter.html#a8be25a5629564093b66ab8d2b42692cc" title=" " alt="" coords="192,49,361,90"/>
-<area shape="rect" id="node3" href="$class_turret_shooter.html#af4787c8905eb7428580b784b1cb1ffed" title="Returns true if the turret is attacking the local player right now." alt="" coords="423,5,603,32"/>
-<area shape="rect" id="node4" href="$class_turret_indicator.html#af9280d63c24d0703a0d072d1a72d47bb" title="This function gets calls whenever the Turret changes the intern state." alt="" coords="409,56,616,83"/>
-<area shape="rect" id="node6" href="$class_ranged_attack_follow.html#a4552d59821a468e45dbcb0dd3d30db48" title=" " alt="" coords="412,107,613,133"/>
-<area shape="rect" id="node5" href="$class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50" title="Returns the color corresponing to the current State of the indicator" alt="" coords="664,49,823,90"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,38,144,65"/>
+<area shape="rect" id="node2" href="$class_turret_shooter.html#a8be25a5629564093b66ab8d2b42692cc" title=" " alt="" coords="192,60,361,101"/>
+<area shape="rect" id="node3" href="$class_turret_indicator.html#a18c506cc6d384bb9ca9789b8e27d1684" title="This function gets calls whenever the Turret changes the intern state." alt="" coords="409,13,616,39"/>
+<area shape="rect" id="node5" href="$class_ranged_attack_follow.html#a4552d59821a468e45dbcb0dd3d30db48" title=" " alt="" coords="412,67,613,94"/>
+<area shape="rect" id="node4" href="$class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50" title="Returns the color corresponing to the current TurretState of the indicator" alt="" coords="664,5,823,47"/>
 </map>

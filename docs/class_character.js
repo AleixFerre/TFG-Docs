@@ -2,6 +2,7 @@ var class_character =
 [
     [ "abilities", "class_character.html#a769ed01fce5a168a90ff7afe79388543", null ],
     [ "abilityPower", "class_character.html#a4467aa3252002d18534a1f5fc5c14e06", null ],
+    [ "armor", "class_character.html#a69602bfff24c4e357dae05ab15924f09", null ],
     [ "attackDamage", "class_character.html#a28ea66eae7b703562116b1890c3eaee8", null ],
     [ "attackRange", "class_character.html#ac97af5d3bc566393b6afdb80fc30071b", null ],
     [ "attackSpeed", "class_character.html#a333bb479c37d4def86230708fc8eb1a8", null ],
@@ -14,6 +15,7 @@ var class_character =
     [ "levelUpMPRegenAdd", "class_character.html#a205c5cad305e6b9e05a71b85cfccf317", null ],
     [ "loadingSprite", "class_character.html#ad51fb5b8ea5a243810c4d6dfccdb5996", null ],
     [ "lobbyPrefab", "class_character.html#a5c6dd9ae6fb12d61d152984a90a9dd25", null ],
+    [ "magicResist", "class_character.html#abde42ad1e270150495ae37578dc5c020", null ],
     [ "prefab", "class_character.html#aee663336fca28117de2c96cd3313f1c0", null ],
     [ "runMultiplicator", "class_character.html#a5cb9904c7ee4001b65229dc72526ce8a", null ],
     [ "sprite", "class_character.html#acc30e9a6e60dd6d7a89e72d148239165", null ],

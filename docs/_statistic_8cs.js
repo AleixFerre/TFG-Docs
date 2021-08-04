@@ -1,13 +1,15 @@
 var _statistic_8cs =
 [
     [ "FloatStatistic", "_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022", [
-      [ "AR", "_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022a5b61a1b298a0d06efa6933a97e68d763", null ],
-      [ "AS", "_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022aa2c29192484301fa800100e16e494acf", null ],
-      [ "MS", "_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022a7a663caea1b722a63dc2868158ed584d", null ],
-      [ "RM", "_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022a2622e9b348f05f74e3e4bb9b7d213dc8", null ]
+      [ "AttackRange", "_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022ab368d16134fba69bdd208d3d0c7c7c5b", null ],
+      [ "AttackSpeed", "_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022aa1039049ad899dd188ddd24169458b48", null ],
+      [ "MovementSpeed", "_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022a6ac1a7dc525ac874fef15626633a9c9c", null ],
+      [ "RunningMultiplicator", "_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022aeef00aa514964ec30dd21cab42b17f72", null ]
     ] ],
     [ "IntStatistic", "_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92b", [
-      [ "AD", "_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92bae182ebbc166d73366e7986813a7fc5f1", null ],
-      [ "AP", "_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92ba0fd3f8dd5edc33b28db1162e15e8fcbc", null ]
+      [ "AttackDamage", "_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92baae967c8aba3177e5f93b13b8d281adb3", null ],
+      [ "AbilityPower", "_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92ba115fccbacfdb86a46d17035b4073ca90", null ],
+      [ "Armor", "_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92bac77a8030f463c2c14aebd6452fc9f0a8", null ],
+      [ "MagicResist", "_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92ba8e7f4869c160be729031fc88ef030ec2", null ]
     ] ]
 ];
