@@ -7,7 +7,7 @@ var annotated_dup =
     [ "Ability_Lis4", "class_ability___lis4.html", "class_ability___lis4" ],
     [ "Ability_PlayerRelative", "class_ability___player_relative.html", "class_ability___player_relative" ],
     [ "Ability_StatsChanger", "class_ability___stats_changer.html", "class_ability___stats_changer" ],
-    [ "AbilityAffectedStats", "class_ability_affected_stats.html", "class_ability_affected_stats" ],
+    [ "AbilityAffectedStats", "class_ability_affected_stats.html", null ],
     [ "AbilityBase", "class_ability_base.html", "class_ability_base" ],
     [ "AbilityCooldown", "class_ability_cooldown.html", "class_ability_cooldown" ],
     [ "AbilityDisplay", "class_ability_display.html", "class_ability_display" ],

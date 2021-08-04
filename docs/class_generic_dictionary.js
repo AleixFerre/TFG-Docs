@@ -16,7 +16,6 @@ var class_generic_dictionary =
     [ "TryGetValue", "class_generic_dictionary.html#abcf475aa029c54b4d76528e3f18c959a", null ],
     [ "dict", "class_generic_dictionary.html#a53b9be0eccc39107efb9a14667eafda2", null ],
     [ "indexByKey", "class_generic_dictionary.html#a930e061852836b6997d0975b2271865d", null ],
-    [ "keyCollision", "class_generic_dictionary.html#a13d2eafffb27974d2f85546170e4fa93", null ],
     [ "list", "class_generic_dictionary.html#ac700d9ae6be60a28ef00464f68652790", null ],
     [ "Count", "class_generic_dictionary.html#a26ee931c47c12e0f13ee6bbb27264fe8", null ],
     [ "IsReadOnly", "class_generic_dictionary.html#aa3fd065828bdb39d64be67280a056d96", null ],

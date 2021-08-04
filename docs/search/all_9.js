@@ -36,7 +36,7 @@ var searchData=
   ['inventory_316',['Inventory',['../class_inventory.html',1,'']]],
   ['inventory_317',['inventory',['../class_ranged_attack_follow.html#a615f1a8c20ddb692163f40a9f56e22cb',1,'RangedAttackFollow.inventory()'],['../class_player_stats.html#a13688e05f1cd83724ffa8ae871e3a907',1,'PlayerStats.inventory()']]],
   ['inventory_2ecs_318',['Inventory.cs',['../_inventory_8cs.html',1,'']]],
-  ['isdead_319',['isDead',['../class_ability_affected_stats.html#a7e2a08f6e323fea39d35ffb676747915',1,'AbilityAffectedStats.isDead()'],['../class_player_stats.html#aa5901d03258d9cba73b2b966670e4ec7',1,'PlayerStats.isDead()']]],
+  ['isdead_319',['isDead',['../class_stats.html#acdb9bb504223bfff99551a4fa15978fc',1,'Stats']]],
   ['isidle_320',['isIdle',['../class_turret_indicator.html#a135ea87f05f39602a8f8ffca67b60dcd',1,'TurretIndicator']]],
   ['isindicated_321',['isIndicated',['../class_ability_cooldown.html#aa50e6213480492690d755fbf27961c89',1,'AbilityCooldown']]],
   ['isintamount_322',['isIntAmount',['../class_statistic_change_effect.html#aad43cc0ab538c0d99a40c50ced7fd1e3',1,'StatisticChangeEffect']]],

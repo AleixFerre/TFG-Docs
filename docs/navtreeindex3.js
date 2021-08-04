@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"class_turret_indicator.html#a41034ee451a9d70f47f8d80263448709":[0,0,67,17],
 "class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50":[0,0,67,1],
 "class_turret_indicator.html#a4d05718dd59694d9560ec6cc5e04ac01":[0,0,67,7],
 "class_turret_indicator.html#a4fd3fa8ab931fc6f460f96dd038da782":[0,0,67,11],
@@ -96,8 +95,8 @@ var NAVTREEINDEX3 =
 "dir_f13b41af88cf68434578284aaf699e39.html":[1,0,0,0],
 "dir_f66f4de8698762ca528d41a6831a101d.html":[1,0,0,0,6,1],
 "files.html":[1,0],
-"functions.html":[0,3,0,0],
 "functions.html":[0,3,0],
+"functions.html":[0,3,0,0],
 "functions_a.html":[0,3,0,1],
 "functions_b.html":[0,3,0,2],
 "functions_c.html":[0,3,0,3],
