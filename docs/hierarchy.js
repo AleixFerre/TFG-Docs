@@ -36,6 +36,7 @@ var hierarchy =
       [ "ModelSync", "class_model_sync.html", null ],
       [ "OptionsMenu", "class_options_menu.html", null ],
       [ "PlayerController", "class_player_controller.html", null ],
+      [ "PlayerHUDController", "class_player_h_u_d_controller.html", null ],
       [ "PostGameMenu", "class_post_game_menu.html", null ],
       [ "PressAnyKey", "class_press_any_key.html", null ],
       [ "ProfilePanel", "class_profile_panel.html", null ],
@@ -56,6 +57,7 @@ var hierarchy =
         ] ]
       ] ],
       [ "TurretIndicator", "class_turret_indicator.html", null ],
+      [ "TurretRay", "class_turret_ray.html", null ],
       [ "TurretShooter", "class_turret_shooter.html", null ],
       [ "UIController", "class_u_i_controller.html", [
         [ "MinionUIController", "class_minion_u_i_controller.html", null ],

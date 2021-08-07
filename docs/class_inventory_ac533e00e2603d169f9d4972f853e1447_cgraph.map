@@ -1,4 +1,4 @@
 <map id="Inventory.SpendGold" name="Inventory.SpendGold">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,147,32"/>
-<area shape="rect" id="node2" href="$class_inventory.html#ae56202c0e352ca286b9ed6e42603f10b" title=" " alt="" coords="195,5,357,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,147,39"/>
+<area shape="rect" id="node2" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="195,5,381,47"/>
 </map>

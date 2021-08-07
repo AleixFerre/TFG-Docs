@@ -13,6 +13,9 @@ var dir_c7fafc839a0585736011c21bdabf2a37 =
     [ "PlayerController.cs", "_player_controller_8cs.html", [
       [ "PlayerController", "class_player_controller.html", "class_player_controller" ]
     ] ],
+    [ "PlayerHUDController.cs", "_player_h_u_d_controller_8cs.html", [
+      [ "PlayerHUDController", "class_player_h_u_d_controller.html", "class_player_h_u_d_controller" ]
+    ] ],
     [ "PlayerStats.cs", "_player_stats_8cs.html", [
       [ "PlayerStats", "class_player_stats.html", "class_player_stats" ]
     ] ],

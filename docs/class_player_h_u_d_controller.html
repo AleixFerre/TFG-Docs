@@ -1,0 +1,658 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta property="og:description" content="Docs for the implementation of my MOBA in Unity." />
+    <meta property="og:url" content="https://github.com/AleixFerre/TFG-Docs" />
+    <!-- END opengraph metadata -->
+    <!-- BEGIN twitter metadata -->
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta name="twitter:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta name="twitter:description" content="Docs for the implementation of my MOBA in Unity." />
+    <!-- END twitter metadata -->
+    <title>Treball de Fi de Grau: Referència de la Classe PlayerHUDController</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="logo.drawio.svg" /></td>
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">Treball de Fi de Grau
+                                &#160;<span id="projectnumber">1.0</span>
+                            </div>
+                            <div id="projectbrief">Documentació pel treball de final de grau. Implementació d&#39;una base per un joc de gènere MOBA multijugador en línia.</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Generat per Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_player_h_u_d_controller.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Mètodes públics</a> &#124;
+<a href="#pub-attribs">Atributs Públics</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
+<a href="#pri-attribs">Atributs Privats</a> &#124;
+<a href="class_player_h_u_d_controller-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle">
+<div class="title">Referència de la Classe PlayerHUDController</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Diagrama d'Herència per a PlayerHUDController:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller__inherit__graph.svg" width="152" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Mètodes públics</h2></td></tr>
+<tr class="memitem:a3717d3272b98e6e47c909bdb5af2a99f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a3717d3272b98e6e47c909bdb5af2a99f">Initialize</a> (<a class="el" href="class_character.html">Character</a> _character, PhotonView _view)</td></tr>
+<tr class="separator:a3717d3272b98e6e47c909bdb5af2a99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf30ead91cd36140e32d0ad158fbbae4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#adf30ead91cd36140e32d0ad158fbbae4">InitializeAbilities</a> (<a class="el" href="class_player_stats.html">PlayerStats</a> stats, GameObject indicator)</td></tr>
+<tr class="separator:adf30ead91cd36140e32d0ad158fbbae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2461120d3cfef6e83b38062b1373e04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#ab2461120d3cfef6e83b38062b1373e04">UpdateHP</a> (int HP, int maxHP)</td></tr>
+<tr class="separator:ab2461120d3cfef6e83b38062b1373e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09d27238c0e659b8f98828367c7622ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a09d27238c0e659b8f98828367c7622ba">UpdateMP</a> (int MP, int maxMP)</td></tr>
+<tr class="separator:a09d27238c0e659b8f98828367c7622ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeef77dcdfaf1c9b719e4350c17c88fa5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5">UpdateGoldTxt</a> (int gold)</td></tr>
+<tr class="separator:aeef77dcdfaf1c9b719e4350c17c88fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a654b56cf8a75ded0109d5aac569b2757"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a654b56cf8a75ded0109d5aac569b2757">UpdateLevel</a> (int level, int xp, int maxXP)</td></tr>
+<tr class="separator:a654b56cf8a75ded0109d5aac569b2757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Atributs Públics</h2></td></tr>
+<tr class="memitem:a81d6186343c76be949b05d18eebe54df"><td class="memItemLeft" align="right" valign="top">TMP_Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a81d6186343c76be949b05d18eebe54df">hpTxt</a></td></tr>
+<tr class="separator:a81d6186343c76be949b05d18eebe54df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c904e1b5f2dc37e459b3f9cadddcda"><td class="memItemLeft" align="right" valign="top">TMP_Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a06c904e1b5f2dc37e459b3f9cadddcda">hpRegenTxt</a></td></tr>
+<tr class="separator:a06c904e1b5f2dc37e459b3f9cadddcda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0991525bd906458bda71dacec5cdc870"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a0991525bd906458bda71dacec5cdc870">hpBar</a></td></tr>
+<tr class="separator:a0991525bd906458bda71dacec5cdc870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad758e03016a65337bd8158051699bb9f"><td class="memItemLeft" align="right" valign="top">TMP_Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#ad758e03016a65337bd8158051699bb9f">mpTxt</a></td></tr>
+<tr class="separator:ad758e03016a65337bd8158051699bb9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a214ac2eb290034a1b1dc3f9825ff9758"><td class="memItemLeft" align="right" valign="top">TMP_Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a214ac2eb290034a1b1dc3f9825ff9758">mpRegenTxt</a></td></tr>
+<tr class="separator:a214ac2eb290034a1b1dc3f9825ff9758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f3526a76db9ff97a5e2595b4ebc7c32"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a2f3526a76db9ff97a5e2595b4ebc7c32">mpBar</a></td></tr>
+<tr class="separator:a2f3526a76db9ff97a5e2595b4ebc7c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18fe319d2fc8c25093905ac769fbfe6d"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a18fe319d2fc8c25093905ac769fbfe6d">characterIcon</a></td></tr>
+<tr class="separator:a18fe319d2fc8c25093905ac769fbfe6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeec55c6677ef4fc06780d4c109bbf71"><td class="memItemLeft" align="right" valign="top">TMP_Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#aaeec55c6677ef4fc06780d4c109bbf71">levelTxt</a></td></tr>
+<tr class="separator:aaeec55c6677ef4fc06780d4c109bbf71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dac9c36e2ff3b260fb993bace45f45e"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a0dac9c36e2ff3b260fb993bace45f45e">lvlBar</a></td></tr>
+<tr class="separator:a0dac9c36e2ff3b260fb993bace45f45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a89910fda660fef2f36c4ec918b36f"><td class="memItemLeft" align="right" valign="top">TMP_Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#ad6a89910fda660fef2f36c4ec918b36f">goldTxt</a></td></tr>
+<tr class="separator:ad6a89910fda660fef2f36c4ec918b36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa92e0dd5db21d0b4b27c1c85e2165ea7"><td class="memItemLeft" align="right" valign="top">Image[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#aa92e0dd5db21d0b4b27c1c85e2165ea7">items</a> = new Image[6]</td></tr>
+<tr class="separator:aa92e0dd5db21d0b4b27c1c85e2165ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95b4f2ae1921d0acab974ca6e027a25b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ability_cooldown.html">AbilityCooldown</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a95b4f2ae1921d0acab974ca6e027a25b">abilities</a></td></tr>
+<tr class="separator:a95b4f2ae1921d0acab974ca6e027a25b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:a2431c5a181a2279a51e1ba8a8d11ee90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a2431c5a181a2279a51e1ba8a8d11ee90">OnValidate</a> ()</td></tr>
+<tr class="separator:a2431c5a181a2279a51e1ba8a8d11ee90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributs Privats</h2></td></tr>
+<tr class="memitem:a01cfcb12c2f9d2687c14a8c39d2c67dc"><td class="memItemLeft" align="right" valign="top">PhotonView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a01cfcb12c2f9d2687c14a8c39d2c67dc">view</a></td></tr>
+<tr class="separator:a01cfcb12c2f9d2687c14a8c39d2c67dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f488783c8b22f28641ea7fc45a6b9db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a4f488783c8b22f28641ea7fc45a6b9db">character</a></td></tr>
+<tr class="separator:a4f488783c8b22f28641ea7fc45a6b9db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a3717d3272b98e6e47c909bdb5af2a99f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3717d3272b98e6e47c909bdb5af2a99f">&#9670;&nbsp;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerHUDController.Initialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_character.html">Character</a>&#160;</td>
+          <td class="paramname"><em>_character</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhotonView&#160;</td>
+          <td class="paramname"><em>_view</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_a3717d3272b98e6e47c909bdb5af2a99f_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="adf30ead91cd36140e32d0ad158fbbae4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf30ead91cd36140e32d0ad158fbbae4">&#9670;&nbsp;</a></span>InitializeAbilities()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerHUDController.InitializeAbilities </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_player_stats.html">PlayerStats</a>&#160;</td>
+          <td class="paramname"><em>stats</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>indicator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_adf30ead91cd36140e32d0ad158fbbae4_cgraph.svg" width="655" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_adf30ead91cd36140e32d0ad158fbbae4_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a2431c5a181a2279a51e1ba8a8d11ee90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2431c5a181a2279a51e1ba8a8d11ee90">&#9670;&nbsp;</a></span>OnValidate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerHUDController.OnValidate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeef77dcdfaf1c9b719e4350c17c88fa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeef77dcdfaf1c9b719e4350c17c88fa5">&#9670;&nbsp;</a></span>UpdateGoldTxt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerHUDController.UpdateGoldTxt </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>gold</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_aeef77dcdfaf1c9b719e4350c17c88fa5_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ab2461120d3cfef6e83b38062b1373e04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2461120d3cfef6e83b38062b1373e04">&#9670;&nbsp;</a></span>UpdateHP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerHUDController.UpdateHP </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>HP</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxHP</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_ab2461120d3cfef6e83b38062b1373e04_cgraph.svg" width="431" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_ab2461120d3cfef6e83b38062b1373e04_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a654b56cf8a75ded0109d5aac569b2757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a654b56cf8a75ded0109d5aac569b2757">&#9670;&nbsp;</a></span>UpdateLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerHUDController.UpdateLevel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>xp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxXP</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_a654b56cf8a75ded0109d5aac569b2757_cgraph.svg" width="414" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_a654b56cf8a75ded0109d5aac569b2757_icgraph.svg" width="404" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a09d27238c0e659b8f98828367c7622ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09d27238c0e659b8f98828367c7622ba">&#9670;&nbsp;</a></span>UpdateMP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerHUDController.UpdateMP </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>MP</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxMP</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_a09d27238c0e659b8f98828367c7622ba_cgraph.svg" width="434" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_a09d27238c0e659b8f98828367c7622ba_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a95b4f2ae1921d0acab974ca6e027a25b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95b4f2ae1921d0acab974ca6e027a25b">&#9670;&nbsp;</a></span>abilities</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ability_cooldown.html">AbilityCooldown</a> [] PlayerHUDController.abilities</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f488783c8b22f28641ea7fc45a6b9db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f488783c8b22f28641ea7fc45a6b9db">&#9670;&nbsp;</a></span>character</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_character.html">Character</a> PlayerHUDController.character</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18fe319d2fc8c25093905ac769fbfe6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18fe319d2fc8c25093905ac769fbfe6d">&#9670;&nbsp;</a></span>characterIcon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image PlayerHUDController.characterIcon</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad6a89910fda660fef2f36c4ec918b36f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a89910fda660fef2f36c4ec918b36f">&#9670;&nbsp;</a></span>goldTxt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_Text PlayerHUDController.goldTxt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0991525bd906458bda71dacec5cdc870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0991525bd906458bda71dacec5cdc870">&#9670;&nbsp;</a></span>hpBar</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image PlayerHUDController.hpBar</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a06c904e1b5f2dc37e459b3f9cadddcda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06c904e1b5f2dc37e459b3f9cadddcda">&#9670;&nbsp;</a></span>hpRegenTxt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_Text PlayerHUDController.hpRegenTxt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81d6186343c76be949b05d18eebe54df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81d6186343c76be949b05d18eebe54df">&#9670;&nbsp;</a></span>hpTxt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_Text PlayerHUDController.hpTxt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa92e0dd5db21d0b4b27c1c85e2165ea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa92e0dd5db21d0b4b27c1c85e2165ea7">&#9670;&nbsp;</a></span>items</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image [] PlayerHUDController.items = new Image[6]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaeec55c6677ef4fc06780d4c109bbf71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeec55c6677ef4fc06780d4c109bbf71">&#9670;&nbsp;</a></span>levelTxt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_Text PlayerHUDController.levelTxt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0dac9c36e2ff3b260fb993bace45f45e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dac9c36e2ff3b260fb993bace45f45e">&#9670;&nbsp;</a></span>lvlBar</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image PlayerHUDController.lvlBar</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f3526a76db9ff97a5e2595b4ebc7c32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f3526a76db9ff97a5e2595b4ebc7c32">&#9670;&nbsp;</a></span>mpBar</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image PlayerHUDController.mpBar</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a214ac2eb290034a1b1dc3f9825ff9758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a214ac2eb290034a1b1dc3f9825ff9758">&#9670;&nbsp;</a></span>mpRegenTxt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_Text PlayerHUDController.mpRegenTxt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad758e03016a65337bd8158051699bb9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad758e03016a65337bd8158051699bb9f">&#9670;&nbsp;</a></span>mpTxt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_Text PlayerHUDController.mpTxt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01cfcb12c2f9d2687c14a8c39d2c67dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01cfcb12c2f9d2687c14a8c39d2c67dc">&#9670;&nbsp;</a></span>view</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhotonView PlayerHUDController.view</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>F:/Unity Projects/Treball de Fi de Grau/Assets/Scripts/Player/<a class="el" href="_player_h_u_d_controller_8cs.html">PlayerHUDController.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_player_h_u_d_controller.html">PlayerHUDController</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+    toggleButton.title = "Toggle Light/Dark Mode"
+    document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+  })
+</script>
+</body>
+</html>

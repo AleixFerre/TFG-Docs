@@ -24,7 +24,7 @@ var class_lobby =
     [ "estat", "class_lobby.html#a679a4016ff53b4a2628306e52cf66abc", null ],
     [ "firstPick", "class_lobby.html#a7cbc5809d1d37a0f9ff65d258996e9b0", null ],
     [ "frameImages", "class_lobby.html#a1e40323c2cb14addd035ccbe35734666", null ],
-    [ "loadingCanvas", "class_lobby.html#a6f7ce89f0f00f5856d6023eed65a6580", null ],
+    [ "loadingCanvas", "class_lobby.html#a6e13fa5136579565432ee126b74e4c74", null ],
     [ "playerCountTxt", "class_lobby.html#ae19bf75a3f66b6dcf5ad7791cc4bea82", null ],
     [ "readyButton", "class_lobby.html#ae317efc7e00d7d1fa0b9bf46636e00d9", null ],
     [ "selectCharacterPanel", "class_lobby.html#a51f604d2de17594edf20d7bf96821572", null ],

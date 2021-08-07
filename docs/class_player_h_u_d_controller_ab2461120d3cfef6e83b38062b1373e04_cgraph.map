@@ -1,0 +1,4 @@
+<map id="PlayerHUDController.UpdateHP" name="PlayerHUDController.UpdateHP">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,209,32"/>
+<area shape="rect" id="node2" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="257,5,425,32"/>
+</map>

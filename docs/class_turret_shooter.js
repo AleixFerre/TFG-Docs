@@ -6,6 +6,7 @@ var class_turret_shooter =
     [ "Initialize", "class_turret_shooter.html#a320c5a07618bf6eeed732ca91129c251", null ],
     [ "OnTriggerEnter", "class_turret_shooter.html#ac92c11affc1a61877bda45f9cedf9fe2", null ],
     [ "OnTriggerExit", "class_turret_shooter.html#a91af004b685cacac7466bcebe82eb08d", null ],
+    [ "RemoveEnemy", "class_turret_shooter.html#a992e1233c0d67e55214a9ed37d04dc79", null ],
     [ "Shoot", "class_turret_shooter.html#abdbfe8d7746ee1e665f8da7e1a423bf7", null ],
     [ "Update", "class_turret_shooter.html#a97a7bfbe5851c8fc0280d021ebacb793", null ],
     [ "attackingEntityName", "class_turret_shooter.html#a50ccf7fb59b1d8b746e757b4b8bd6cf8", null ],

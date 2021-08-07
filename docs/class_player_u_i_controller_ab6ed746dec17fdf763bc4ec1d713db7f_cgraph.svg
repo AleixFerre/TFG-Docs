@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 631;
+var viewWidth = 634;
 var viewHeight = 88;
 var sectionId = 'dynsection-1';
 </script>
@@ -114,24 +114,23 @@ var sectionId = 'dynsection-1';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" target="_top" xlink:title="Calculates the actual normalized fill amount for the image.">
-<polygon fill="none" stroke="black" points="500,-24.5 500,-54.5 623,-54.5 623,-24.5 500,-24.5"/>
-<text text-anchor="start" x="508" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">UIController.CalculateFill</text>
-<text text-anchor="middle" x="561.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Amount</text>
+<g id="a_node4"><a xlink:href="class_utils.html#a459472171f68c903c975020cc5b02fee" target="_top" xlink:title="Calculates the actual normalized fill amount for the image.">
+<polygon fill="none" stroke="black" points="500,-30 500,-49 626,-49 626,-30 500,-30"/>
+<text text-anchor="middle" x="563" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">Utils.CalculateFillAmount</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M464.04,-54.62C472.49,-53.3 481.2,-51.93 489.77,-50.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="490.4,-54.03 499.74,-49.02 489.32,-47.11 490.4,-54.03"/>
+<path fill="none" stroke="midnightblue" d="M464.17,-54.69C472.87,-53.34 481.86,-51.94 490.7,-50.57"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="491.25,-54.03 500.59,-49.04 490.18,-47.11 491.25,-54.03"/>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M464.04,-24.99C472.49,-26.26 481.2,-27.57 489.77,-28.86"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="489.33,-32.33 499.74,-30.36 490.37,-25.41 489.33,-32.33"/>
+<path fill="none" stroke="midnightblue" d="M464.17,-24.92C472.59,-26.17 481.28,-27.47 489.84,-28.74"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="489.4,-32.22 499.8,-30.23 490.43,-25.29 489.4,-32.22"/>
 </g>
 </g>
 </svg>

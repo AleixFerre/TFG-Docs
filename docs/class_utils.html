@@ -117,10 +117,172 @@ Mètodes Públics Estàtics</h2></td></tr>
 <tr class="memitem:aea5dd4aeb58f04fe43d39eb3e088eb6a"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utils.html#aea5dd4aeb58f04fe43d39eb3e088eb6a">MapRange</a> (float value, float istart, float istop, float ostart, float ostop)</td></tr>
 <tr class="memdesc:aea5dd4aeb58f04fe43d39eb3e088eb6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function will remap a number in range to another.  <a href="class_utils.html#aea5dd4aeb58f04fe43d39eb3e088eb6a">Més...</a><br /></td></tr>
 <tr class="separator:aea5dd4aeb58f04fe43d39eb3e088eb6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a7568ed069ba83cc8a304dbaadc6b20"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utils.html#a4a7568ed069ba83cc8a304dbaadc6b20">DrawParabola</a> (Vector3 a, Vector3 b, float h)</td></tr>
+<tr class="memdesc:a4a7568ed069ba83cc8a304dbaadc6b20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a Parabola with Gizmos and Handles between point a to b with max height of h  <a href="class_utils.html#a4a7568ed069ba83cc8a304dbaadc6b20">Més...</a><br /></td></tr>
+<tr class="separator:a4a7568ed069ba83cc8a304dbaadc6b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a580583fa87a47fc50a5c2acca2f806b2"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utils.html#a580583fa87a47fc50a5c2acca2f806b2">SampleParabola</a> (Vector3 start, Vector3 end, float height, float t)</td></tr>
+<tr class="memdesc:a580583fa87a47fc50a5c2acca2f806b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get position from a parabola defined by start and end, height, and time  <a href="class_utils.html#a580583fa87a47fc50a5c2acca2f806b2">Més...</a><br /></td></tr>
+<tr class="separator:a580583fa87a47fc50a5c2acca2f806b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a459472171f68c903c975020cc5b02fee"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utils.html#a459472171f68c903c975020cc5b02fee">CalculateFillAmount</a> (int current, int total)</td></tr>
+<tr class="memdesc:a459472171f68c903c975020cc5b02fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the actual normalized fill amount for the image.  <a href="class_utils.html#a459472171f68c903c975020cc5b02fee">Més...</a><br /></td></tr>
+<tr class="separator:a459472171f68c903c975020cc5b02fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9e5182f0bed89c77ffe578768c9c8c2"><td class="memItemLeft" align="right" valign="top">static Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_utils.html#ab9e5182f0bed89c77ffe578768c9c8c2">ColorFromString</a> (string hex)</td></tr>
+<tr class="memdesc:ab9e5182f0bed89c77ffe578768c9c8c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pass a hex string and you get the Color.  <a href="class_utils.html#ab9e5182f0bed89c77ffe578768c9c8c2">Més...</a><br /></td></tr>
+<tr class="separator:ab9e5182f0bed89c77ffe578768c9c8c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
 <div class="textblock"><p><a class="el" href="class_utils.html" title="Utils is a global static class that wraps all the global utilities.">Utils</a> is a global static class that wraps all the global utilities. </p>
 </div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a459472171f68c903c975020cc5b02fee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a459472171f68c903c975020cc5b02fee">&#9670;&nbsp;</a></span>CalculateFillAmount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float Utils.CalculateFillAmount </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>total</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculates the actual normalized fill amount for the image. </p>
+<p>This transforms the actual range into a 0-1f range.</p>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_utils_a459472171f68c903c975020cc5b02fee_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ab9e5182f0bed89c77ffe578768c9c8c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9e5182f0bed89c77ffe578768c9c8c2">&#9670;&nbsp;</a></span>ColorFromString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Color Utils.ColorFromString </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>hex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pass a hex string and you get the Color. </p>
+<p>Adds a "new constructor" to the Class Color.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hex</td><td>The hex representation of the color being a string</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>The parsed Color</dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_utils_ab9e5182f0bed89c77ffe578768c9c8c2_icgraph.svg" width="338" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a4a7568ed069ba83cc8a304dbaadc6b20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a7568ed069ba83cc8a304dbaadc6b20">&#9670;&nbsp;</a></span>DrawParabola()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Utils.DrawParabola </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>h</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draw a Parabola with Gizmos and Handles between point a to b with max height of h </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>Initial point</td></tr>
+    <tr><td class="paramname">b</td><td>Final point</td></tr>
+    <tr><td class="paramname">h</td><td>Maximum height of the parabola</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_utils_a4a7568ed069ba83cc8a304dbaadc6b20_cgraph.svg" width="338" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_utils_a4a7568ed069ba83cc8a304dbaadc6b20_icgraph.svg" width="358" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="aea5dd4aeb58f04fe43d39eb3e088eb6a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea5dd4aeb58f04fe43d39eb3e088eb6a">&#9670;&nbsp;</a></span>MapRange()</h2>
 
@@ -189,6 +351,72 @@ Mètodes Públics Estàtics</h2></td></tr>
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_utils_aea5dd4aeb58f04fe43d39eb3e088eb6a_icgraph.svg" width="323" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a580583fa87a47fc50a5c2acca2f806b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a580583fa87a47fc50a5c2acca2f806b2">&#9670;&nbsp;</a></span>SampleParabola()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector3 Utils.SampleParabola </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get position from a parabola defined by start and end, height, and time </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>The start point of the parabola </td></tr>
+    <tr><td class="paramname">end</td><td>The end point of the parabola </td></tr>
+    <tr><td class="paramname">height</td><td>The height of the parabola at its maximum </td></tr>
+    <tr><td class="paramname">t</td><td>Normalized time (0-&gt;1) </td></tr>
+  </table>
+  </dd>
+</dl>
+<p>S </p>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_utils_a580583fa87a47fc50a5c2acca2f806b2_icgraph.svg" width="552" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

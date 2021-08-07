@@ -1,5 +1,6 @@
 var class_game_controller =
 [
+    [ "AddKill", "class_game_controller.html#a7a0ba825184823ead17a974387541276", null ],
     [ "AddPlayer", "class_game_controller.html#a8c6eb0b550a90d4c6ba6d792d239e63e", null ],
     [ "Die", "class_game_controller.html#afa8670b912fa71b9898b2f917cf9c629", null ],
     [ "FindForUIs", "class_game_controller.html#a3836abaa9296797224c54b9a1b11d0c2", null ],
@@ -11,6 +12,7 @@ var class_game_controller =
     [ "GetTime", "class_game_controller.html#a7e7ba340d852830acb4d6f1f172c248c", null ],
     [ "ReadyRPC", "class_game_controller.html#a53dd14ae7871deb35e9a7e877a370278", null ],
     [ "Start", "class_game_controller.html#a97788a7aa0f09c8d748781683e5f045b", null ],
+    [ "blueKills", "class_game_controller.html#afb455123dbe1e4acd2ced199e451fbe0", null ],
     [ "blueSpawn", "class_game_controller.html#a262b46e661b13ccf4ec012a4b35c6b2f", null ],
     [ "characterGroup", "class_game_controller.html#aa46a4b0717b224499a38246d065b7604", null ],
     [ "charactersUI", "class_game_controller.html#acfe83814fb1f73e18bce4cde7b99b7fc", null ],
@@ -21,7 +23,9 @@ var class_game_controller =
     [ "placeholderCamera", "class_game_controller.html#a32343c01795c3b274ea4d9f6f2b27e88", null ],
     [ "players", "class_game_controller.html#a045756a191baa7e90ca55768cf2279f7", null ],
     [ "readyCount", "class_game_controller.html#a3fbcde76fdaac310854ce370b452e78e", null ],
+    [ "redKills", "class_game_controller.html#aed40fdca01dd073aa0cb18768fe7f403", null ],
     [ "redSpawn", "class_game_controller.html#a84a9bfa0bd792c3db18f53b9b4bc3c29", null ],
     [ "respawnCanvas", "class_game_controller.html#af2ffe32062f08dd1fd09a2e6318ce43b", null ],
+    [ "uIController", "class_game_controller.html#a9faef73d065b7239198e86b6a17bc54a", null ],
     [ "view", "class_game_controller.html#a2db056edd4ce25aa04feee11214cf911", null ]
 ];

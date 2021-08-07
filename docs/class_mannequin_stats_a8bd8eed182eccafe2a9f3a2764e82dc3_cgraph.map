@@ -1,7 +1,7 @@
 <map id="MannequinStats.Die" name="MannequinStats.Die">
-<area shape="rect" id="node1" title="Function that implements what is done when this entity dies." alt="" coords="5,56,144,83"/>
-<area shape="rect" id="node2" href="$class_inventory.html#a154fe342bac27ad9f38a79da5c770d39" title=" " alt="" coords="195,5,322,32"/>
-<area shape="rect" id="node4" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="192,56,325,83"/>
-<area shape="rect" id="node5" href="$class_player_stats.html#a95d085936404a6d0100b3780ec88edb4" title=" " alt="" coords="199,107,319,133"/>
-<area shape="rect" id="node3" href="$class_inventory.html#ae56202c0e352ca286b9ed6e42603f10b" title=" " alt="" coords="373,5,536,32"/>
+<area shape="rect" id="node1" title="Function that implements what is done when this entity dies." alt="" coords="5,63,144,90"/>
+<area shape="rect" id="node2" href="$class_inventory.html#a154fe342bac27ad9f38a79da5c770d39" title=" " alt="" coords="195,13,322,39"/>
+<area shape="rect" id="node4" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="192,63,325,90"/>
+<area shape="rect" id="node5" href="$class_player_stats.html#a95d085936404a6d0100b3780ec88edb4" title=" " alt="" coords="199,114,319,141"/>
+<area shape="rect" id="node3" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="373,5,560,47"/>
 </map>

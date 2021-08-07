@@ -1,13 +1,18 @@
 <map id="PlayerController.Initialize" name="PlayerController.Initialize">
-<area shape="rect" id="node1" title="Initialize the PlayerController." alt="" coords="5,56,171,83"/>
-<area shape="rect" id="node2" href="$class_basic_attack.html#ac85eb061d597f5879d31fb8e7a0316d5" title=" " alt="" coords="229,5,373,32"/>
-<area shape="rect" id="node3" href="$class_player_stats.html#a5e274804959d13db76f140e8efcf9411" title="Initialize the actual Stats of the Player." alt="" coords="231,56,372,83"/>
-<area shape="rect" id="node9" href="$class_ability_cooldown.html#aa01c150ac26f1694a1e174e152510094" title="Initializes the current AbilityCooldown." alt="" coords="219,107,384,133"/>
-<area shape="rect" id="node4" href="$class_player_u_i_controller.html#ab6ed746dec17fdf763bc4ec1d713db7f" title="Initializes all the values and colors for this Player." alt="" coords="440,56,615,83"/>
-<area shape="rect" id="node5" href="$class_player_u_i_controller.html#aa5b61a93967fa5ce39bfd950a9e9d584" title="Initializes all the values into the Image and Text." alt="" coords="671,49,848,90"/>
-<area shape="rect" id="node6" href="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" title="Sets the current level and xp to the Image." alt="" coords="896,15,1067,57"/>
-<area shape="rect" id="node8" href="$class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="896,81,1067,122"/>
-<area shape="rect" id="node7" href="$class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="1115,49,1279,90"/>
-<area shape="rect" id="node10" href="$class_ability_cooldown.html#a2142f4ae1a75b2e88bd33d8553680a33" title="This function is called whenever this ability is ready and you have enough mana." alt="" coords="432,107,623,133"/>
-<area shape="rect" id="node11" href="$class_ability.html#a680fce4c2981c462afc82d28fe3958ef" title=" " alt="" coords="473,157,582,184"/>
+<area shape="rect" id="node1" title="Initialize the PlayerController." alt="" coords="5,74,171,101"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#afcace3e680c4d2f0d8ae4a3d963b0d53" title="Returns the AbilityCooldowns of the abilities" alt="" coords="219,23,380,50"/>
+<area shape="rect" id="node3" href="$class_basic_attack.html#ac85eb061d597f5879d31fb8e7a0316d5" title=" " alt="" coords="227,74,371,101"/>
+<area shape="rect" id="node4" href="$class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240" title="Initialize the actual Stats of the Player." alt="" coords="229,125,370,151"/>
+<area shape="rect" id="node5" href="$class_player_u_i_controller.html#ab6ed746dec17fdf763bc4ec1d713db7f" title="Initializes all the values and colors for this Player." alt="" coords="437,49,611,75"/>
+<area shape="rect" id="node10" href="$class_player_h_u_d_controller.html#a3717d3272b98e6e47c909bdb5af2a99f" title=" " alt="" coords="428,99,620,126"/>
+<area shape="rect" id="node11" href="$class_inventory.html#af5cb79cb50692e3fb6c98df25812dcbc" title=" " alt="" coords="462,150,586,177"/>
+<area shape="rect" id="node13" href="$class_player_h_u_d_controller.html#adf30ead91cd36140e32d0ad158fbbae4" title=" " alt="" coords="428,201,620,243"/>
+<area shape="rect" id="node6" href="$class_player_u_i_controller.html#aa5b61a93967fa5ce39bfd950a9e9d584" title="Initializes all the values into the Image and Text." alt="" coords="673,41,850,83"/>
+<area shape="rect" id="node7" href="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" title="Sets the current level and xp to the Image." alt="" coords="913,5,1083,47"/>
+<area shape="rect" id="node9" href="$class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="913,71,1083,112"/>
+<area shape="rect" id="node8" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="1141,46,1309,73"/>
+<area shape="rect" id="node12" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="668,143,855,184"/>
+<area shape="rect" id="node14" href="$class_ability_cooldown.html#aa01c150ac26f1694a1e174e152510094" title="Initializes the current AbilityCooldown." alt="" coords="679,209,844,235"/>
+<area shape="rect" id="node15" href="$class_ability_cooldown.html#a2142f4ae1a75b2e88bd33d8553680a33" title="This function is called whenever this ability is ready and you have enough mana." alt="" coords="903,165,1093,191"/>
+<area shape="rect" id="node16" href="$class_ability.html#a680fce4c2981c462afc82d28fe3958ef" title=" " alt="" coords="943,215,1053,242"/>
 </map>

@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 916;
+var viewWidth = 919;
 var viewHeight = 88;
 var sectionId = 'dynsection-1';
 </script>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-1';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_mannequin_stats.html#a37606eeeec31415945d8e152af0f7e15" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="class_mannequin_stats.html#a0cecf416149ad28539cb696fad4ae175" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="124,-30 124,-49 249,-49 249,-30 124,-30"/>
 <text text-anchor="middle" x="186.5" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">MannequinStats.Initialize</text>
 </a>
@@ -144,24 +144,23 @@ var sectionId = 'dynsection-1';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" target="_top" xlink:title="Calculates the actual normalized fill amount for the image.">
-<polygon fill="none" stroke="black" points="785,-24.5 785,-54.5 908,-54.5 908,-24.5 785,-24.5"/>
-<text text-anchor="start" x="793" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">UIController.CalculateFill</text>
-<text text-anchor="middle" x="846.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Amount</text>
+<g id="a_node6"><a xlink:href="class_utils.html#a459472171f68c903c975020cc5b02fee" target="_top" xlink:title="Calculates the actual normalized fill amount for the image.">
+<polygon fill="none" stroke="black" points="785,-30 785,-49 911,-49 911,-30 785,-30"/>
+<text text-anchor="middle" x="848" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">Utils.CalculateFillAmount</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M749.04,-54.62C757.49,-53.3 766.2,-51.93 774.77,-50.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="775.4,-54.03 784.74,-49.02 774.32,-47.11 775.4,-54.03"/>
+<path fill="none" stroke="midnightblue" d="M749.17,-54.69C757.87,-53.34 766.86,-51.94 775.7,-50.57"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="776.25,-54.03 785.59,-49.04 775.18,-47.11 776.25,-54.03"/>
 </g>
 <!-- Node7&#45;&gt;Node6 -->
 <g id="edge7" class="edge">
 <title>Node7&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M749.04,-24.99C757.49,-26.26 766.2,-27.57 774.77,-28.86"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="774.33,-32.33 784.74,-30.36 775.37,-25.41 774.33,-32.33"/>
+<path fill="none" stroke="midnightblue" d="M749.17,-24.92C757.59,-26.17 766.28,-27.47 774.84,-28.74"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="774.4,-32.22 784.8,-30.23 775.43,-25.29 774.4,-32.22"/>
 </g>
 </g>
 </svg>

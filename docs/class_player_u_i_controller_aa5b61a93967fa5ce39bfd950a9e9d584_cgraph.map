@@ -2,5 +2,5 @@
 <area shape="rect" id="node1" title="Initializes all the values into the Image and Text." alt="" coords="5,39,183,80"/>
 <area shape="rect" id="node2" href="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" title="Sets the current level and xp to the Image." alt="" coords="231,5,401,47"/>
 <area shape="rect" id="node4" href="$class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="231,71,401,112"/>
-<area shape="rect" id="node3" href="$class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="449,39,613,80"/>
+<area shape="rect" id="node3" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="449,46,617,73"/>
 </map>

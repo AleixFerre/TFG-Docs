@@ -2,5 +2,5 @@
 <area shape="rect" id="node1" title=" " alt="" coords="5,35,200,61"/>
 <area shape="rect" id="node2" href="$class_nexus_stats.html#a3faadcb2bca6d50c1da5e1235900f3f7" title="Function that implements what is done when this entity dies." alt="" coords="285,5,398,32"/>
 <area shape="rect" id="node3" href="$class_structure_u_i_controller.html#a440b6978d77790330878b47582fe43dc" title="Updates the current HP of the entity." alt="" coords="248,57,435,98"/>
-<area shape="rect" id="node4" href="$class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="483,57,647,98"/>
+<area shape="rect" id="node4" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="483,64,651,91"/>
 </map>

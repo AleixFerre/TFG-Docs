@@ -1,6 +1,10 @@
 <map id="PlayerStats.Respawn" name="PlayerStats.Respawn">
-<area shape="rect" id="node1" title=" " alt="" coords="5,13,152,39"/>
-<area shape="rect" id="node2" href="$class_player_stats.html#a07cb6a60391d769fea03f1bc3b6927c6" title=" " alt="" coords="200,13,347,39"/>
-<area shape="rect" id="node3" href="$class_player_u_i_controller.html#aca577b724c1f3f2ed54ad1165a7842c2" title="Sets the current HP value to the Image." alt="" coords="395,5,565,47"/>
-<area shape="rect" id="node4" href="$class_u_i_controller.html#a7d7833a7840917741dbc8c4a83dbe918" title="Calculates the actual normalized fill amount for the image." alt="" coords="613,5,777,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,101,152,127"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#a07cb6a60391d769fea03f1bc3b6927c6" title=" " alt="" coords="222,71,369,98"/>
+<area shape="rect" id="node6" href="$class_player_stats.html#a0348bfd846a1fb5122239414e9ec558b" title=" " alt="" coords="200,130,391,157"/>
+<area shape="rect" id="node3" href="$class_player_u_i_controller.html#aca577b724c1f3f2ed54ad1165a7842c2" title="Sets the current HP value to the Image." alt="" coords="457,5,627,47"/>
+<area shape="rect" id="node5" href="$class_player_h_u_d_controller.html#ab2461120d3cfef6e83b38062b1373e04" title=" " alt="" coords="440,71,644,98"/>
+<area shape="rect" id="node4" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="693,101,861,127"/>
+<area shape="rect" id="node7" href="$class_player_u_i_controller.html#ac7bf7455ce00b144f6a1678e524819b2" title="Sets the current MP value to the Image." alt="" coords="457,123,627,164"/>
+<area shape="rect" id="node8" href="$class_player_h_u_d_controller.html#a09d27238c0e659b8f98828367c7622ba" title=" " alt="" coords="439,189,645,215"/>
 </map>
