@@ -1,11 +1,9 @@
 var class_loading_canvas =
 [
-    [ "Awake", "class_loading_canvas.html#a6dce73a753ea5a34cf01ddea234af4ad", null ],
-    [ "Disable", "class_loading_canvas.html#aa24fddf5731436da92f605352766e5f7", null ],
-    [ "Enable", "class_loading_canvas.html#accf2a3110961a46ec3b59020e3d05e5a", null ],
+    [ "SetPercentage", "class_loading_canvas.html#ad76b9d893ccbb708db33b58f90009500", null ],
     [ "Start", "class_loading_canvas.html#af9913e7adff3016e92bd3509bffb1df6", null ],
     [ "characterGroup", "class_loading_canvas.html#a9ecf09067579f98383b5f3cfe30a3a56", null ],
-    [ "instance", "class_loading_canvas.html#a15a3d091b6831eabedc20c09ccb34268", null ],
+    [ "loadingBar", "class_loading_canvas.html#abcedef5b2e8e27d2c71516be446a689c", null ],
     [ "masterChampTxt", "class_loading_canvas.html#a20aed33dd9ad046049cc3f406baa9166", null ],
     [ "masterImg", "class_loading_canvas.html#ad9a87da2345c97f457005af169a85231", null ],
     [ "masterNickTxt", "class_loading_canvas.html#afcadfeae0f316c33268116ea1bc95612", null ],

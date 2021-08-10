@@ -1,0 +1,4 @@
+<map id="SceneController.LoadSceneAdditive" name="SceneController.LoadSceneAdditive">
+<area shape="rect" id="node1" title="This will add a new scene running concurrently with the current one/s." alt="" coords="195,5,377,47"/>
+<area shape="rect" id="node2" href="$class_async_loader.html#ae5fc7a48d3b7b65a42e55166f9fb489b" title=" " alt="" coords="5,13,147,39"/>
+</map>

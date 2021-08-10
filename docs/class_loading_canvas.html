@@ -106,7 +106,6 @@ $(document).ready(function(){initNavTree('class_loading_canvas.html',''); initRe
 <a href="#pub-attribs">Atributs Públics</a> &#124;
 <a href="#pri-methods">Mètodes Privats</a> &#124;
 <a href="#pri-attribs">Atributs Privats</a> &#124;
-<a href="#pri-static-attribs">Atributs Privats Estàtics</a> &#124;
 <a href="class_loading_canvas-members.html">Llista de tots els membres</a>  </div>
   <div class="headertitle">
 <div class="title">Referència de la Classe LoadingCanvas</div>  </div>
@@ -120,10 +119,8 @@ Diagrama d'Herència per a LoadingCanvas:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
-<tr class="memitem:accf2a3110961a46ec3b59020e3d05e5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_loading_canvas.html#accf2a3110961a46ec3b59020e3d05e5a">Enable</a> ()</td></tr>
-<tr class="separator:accf2a3110961a46ec3b59020e3d05e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa24fddf5731436da92f605352766e5f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_loading_canvas.html#aa24fddf5731436da92f605352766e5f7">Disable</a> ()</td></tr>
-<tr class="separator:aa24fddf5731436da92f605352766e5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad76b9d893ccbb708db33b58f90009500"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_loading_canvas.html#ad76b9d893ccbb708db33b58f90009500">SetPercentage</a> (float percent)</td></tr>
+<tr class="separator:ad76b9d893ccbb708db33b58f90009500"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Atributs Públics</h2></td></tr>
@@ -136,8 +133,6 @@ Atributs Públics</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Mètodes Privats</h2></td></tr>
-<tr class="memitem:a6dce73a753ea5a34cf01ddea234af4ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_loading_canvas.html#a6dce73a753ea5a34cf01ddea234af4ad">Awake</a> ()</td></tr>
-<tr class="separator:a6dce73a753ea5a34cf01ddea234af4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9913e7adff3016e92bd3509bffb1df6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_loading_canvas.html#af9913e7adff3016e92bd3509bffb1df6">Start</a> ()</td></tr>
 <tr class="separator:af9913e7adff3016e92bd3509bffb1df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -151,48 +146,21 @@ Atributs Privats</h2></td></tr>
 <tr class="separator:a58416805dba95028849b9eb8a5e1919e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac51e3738caa10f6a9b1bc034b0dad24f"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_loading_canvas.html#ac51e3738caa10f6a9b1bc034b0dad24f">otherImg</a></td></tr>
 <tr class="separator:ac51e3738caa10f6a9b1bc034b0dad24f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
-Atributs Privats Estàtics</h2></td></tr>
-<tr class="memitem:a15a3d091b6831eabedc20c09ccb34268"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_loading_canvas.html">LoadingCanvas</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_loading_canvas.html#a15a3d091b6831eabedc20c09ccb34268">instance</a></td></tr>
-<tr class="separator:a15a3d091b6831eabedc20c09ccb34268"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcedef5b2e8e27d2c71516be446a689c"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_loading_canvas.html#abcedef5b2e8e27d2c71516be446a689c">loadingBar</a></td></tr>
+<tr class="separator:abcedef5b2e8e27d2c71516be446a689c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentació de les Funcions Membre</h2>
-<a id="a6dce73a753ea5a34cf01ddea234af4ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dce73a753ea5a34cf01ddea234af4ad">&#9670;&nbsp;</a></span>Awake()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LoadingCanvas.Awake </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa24fddf5731436da92f605352766e5f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa24fddf5731436da92f605352766e5f7">&#9670;&nbsp;</a></span>Disable()</h2>
+<a id="ad76b9d893ccbb708db33b58f90009500"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad76b9d893ccbb708db33b58f90009500">&#9670;&nbsp;</a></span>SetPercentage()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void LoadingCanvas.Disable </td>
+          <td class="memname">void LoadingCanvas.SetPercentage </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>percent</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -200,30 +168,7 @@ Atributs Privats Estàtics</h2></td></tr>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_loading_canvas_aa24fddf5731436da92f605352766e5f7_icgraph.svg" width="395" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="accf2a3110961a46ec3b59020e3d05e5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accf2a3110961a46ec3b59020e3d05e5a">&#9670;&nbsp;</a></span>Enable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LoadingCanvas.Enable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gràfic de crides a aquesta funció:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_loading_canvas_accf2a3110961a46ec3b59020e3d05e5a_icgraph.svg" width="419" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_loading_canvas_ad76b9d893ccbb708db33b58f90009500_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -269,8 +214,8 @@ Gràfic de crides a aquesta funció:</div>
 
 </div>
 </div>
-<a id="a15a3d091b6831eabedc20c09ccb34268"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15a3d091b6831eabedc20c09ccb34268">&#9670;&nbsp;</a></span>instance</h2>
+<a id="abcedef5b2e8e27d2c71516be446a689c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcedef5b2e8e27d2c71516be446a689c">&#9670;&nbsp;</a></span>loadingBar</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,12 +224,12 @@ Gràfic de crides a aquesta funció:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_loading_canvas.html">LoadingCanvas</a> LoadingCanvas.instance</td>
+          <td class="memname">Image LoadingCanvas.loadingBar</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

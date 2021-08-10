@@ -2,6 +2,7 @@ var class_connect_to_server =
 [
     [ "ExitGame", "class_connect_to_server.html#af773bc07b29169796a320bcb0f4b8f9c", null ],
     [ "OnConnectedToMaster", "class_connect_to_server.html#a0fcebedba49274c22894b6543836e101", null ],
+    [ "OnDisconnected", "class_connect_to_server.html#a0134630a9f1d52d26322c883ca6e86e5", null ],
     [ "OnErrorInfo", "class_connect_to_server.html#a9df07244dc7dd2662e6b333ed3d7dab0", null ],
     [ "RetryConnection", "class_connect_to_server.html#a23793971a306b7523ca6dc028f4746ca", null ],
     [ "RetryConnectionCorrutine", "class_connect_to_server.html#af54d350629abc28677d474dda9fbd6a0", null ],

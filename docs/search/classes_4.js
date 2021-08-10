@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['effect_691',['Effect',['../class_effect.html',1,'']]],
-  ['effectmanager_692',['EffectManager',['../class_effect_manager.html',1,'']]]
+  ['effect_719',['Effect',['../class_effect.html',1,'']]],
+  ['effectmanager_720',['EffectManager',['../class_effect_manager.html',1,'']]]
 ];

@@ -1,0 +1,7 @@
+<map id="AbilityCooldown.HaveEnoughMana" name="AbilityCooldown.HaveEnoughMana">
+<area shape="rect" id="node1" title="Returns true if you have enough mana to cast this ability" alt="" coords="491,56,713,83"/>
+<area shape="rect" id="node2" href="$class_ability_cooldown.html#a24d10146f84157eecd34133535f98c0b" title=" " alt="" coords="233,5,443,32"/>
+<area shape="rect" id="node4" href="$class_ability_cooldown.html#a0a1223f783a3c342413172a5797fa597" title=" " alt="" coords="16,56,175,83"/>
+<area shape="rect" id="node5" href="$class_ability_cooldown.html#a4766d65414fd56b9d80cf569b1118cb4" title="This function is called whenever this ability is in cooldown." alt="" coords="250,107,426,133"/>
+<area shape="rect" id="node3" href="$class_ability_indicator.html#a334fb70612241c8c1067bb596a4e2a26" title=" " alt="" coords="5,5,185,32"/>
+</map>

@@ -1,5 +1,8 @@
 var dir_a267d2572372dac9a602da4ae2ef93cb =
 [
+    [ "AttackRangeIndicator.cs", "_attack_range_indicator_8cs.html", [
+      [ "AttackRangeIndicator", "class_attack_range_indicator.html", "class_attack_range_indicator" ]
+    ] ],
     [ "BasicAttack.cs", "_basic_attack_8cs.html", [
       [ "BasicAttack", "class_basic_attack.html", "class_basic_attack" ]
     ] ],

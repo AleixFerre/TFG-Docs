@@ -1,0 +1,4 @@
+<map id="ConnectionManager.DisconnectAndLoad" name="ConnectionManager.DisconnectAndLoad">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node2" href="$class_scene_controller.html#ae792f53918da43a6af930ecf9cea0079" title="This will load the scene in the background." alt="" coords="260,13,443,39"/>
+</map>

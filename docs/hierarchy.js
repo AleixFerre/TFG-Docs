@@ -18,6 +18,8 @@ var hierarchy =
       [ "AbilityDisplay", "class_ability_display.html", null ],
       [ "AbilityIndicator", "class_ability_indicator.html", null ],
       [ "ArrowAnimation", "class_arrow_animation.html", null ],
+      [ "AsyncLoader", "class_async_loader.html", null ],
+      [ "AttackRangeIndicator", "class_attack_range_indicator.html", null ],
       [ "BackgroundScaling", "class_background_scaling.html", null ],
       [ "BasicAttack", "class_basic_attack.html", null ],
       [ "Billboard", "class_billboard.html", null ],
@@ -35,6 +37,7 @@ var hierarchy =
       [ "ModelPlayerMediator", "class_model_player_mediator.html", null ],
       [ "ModelSync", "class_model_sync.html", null ],
       [ "OptionsMenu", "class_options_menu.html", null ],
+      [ "PauseMenu", "class_pause_menu.html", null ],
       [ "PlayerController", "class_player_controller.html", null ],
       [ "PlayerHUDController", "class_player_h_u_d_controller.html", null ],
       [ "PostGameMenu", "class_post_game_menu.html", null ],
@@ -103,6 +106,9 @@ var hierarchy =
     [ "SettingsData", "class_settings_data.html", null ],
     [ "Singleton< GameController >", "class_singleton.html", [
       [ "GameController", "class_game_controller.html", null ]
+    ] ],
+    [ "Singleton< SceneController >", "class_singleton.html", [
+      [ "SceneController", "class_scene_controller.html", null ]
     ] ],
     [ "Utils", "class_utils.html", null ]
 ];

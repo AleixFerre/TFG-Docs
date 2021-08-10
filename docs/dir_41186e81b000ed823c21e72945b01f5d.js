@@ -11,6 +11,9 @@ var dir_41186e81b000ed823c21e72945b01f5d =
     [ "OptionsMenu.cs", "_options_menu_8cs.html", [
       [ "OptionsMenu", "class_options_menu.html", "class_options_menu" ]
     ] ],
+    [ "PauseMenu.cs", "_pause_menu_8cs.html", [
+      [ "PauseMenu", "class_pause_menu.html", "class_pause_menu" ]
+    ] ],
     [ "PostGameMenu.cs", "_post_game_menu_8cs.html", [
       [ "PostGameMenu", "class_post_game_menu.html", "class_post_game_menu" ]
     ] ],

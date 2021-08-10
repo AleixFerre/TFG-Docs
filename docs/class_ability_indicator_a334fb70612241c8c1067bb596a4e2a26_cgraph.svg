@@ -127,7 +127,7 @@ var sectionId = 'dynsection-2';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="class_ability_cooldown.html#a9f4046c2417cda8738a77106358ce040" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="class_ability_cooldown.html#a5ca1d60dfd6c2023676de0fe049bcb91" target="_top" xlink:title="Returns true if you have enough mana to cast this ability">
 <polygon fill="none" stroke="black" points="364,-114.5 364,-133.5 531,-133.5 531,-114.5 364,-114.5"/>
 <text text-anchor="middle" x="447.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityCooldown.HaveEnoughMana</text>
 </a>

@@ -2,6 +2,7 @@ var class_stats =
 [
     [ "DealDamage", "class_stats.html#addb9e052562b5e3fcab17ee2c1fa60f9", null ],
     [ "Die", "class_stats.html#a7d78d923fe19940fd45a276035a009c8", null ],
+    [ "GetRange", "class_stats.html#aad08d308b784a74c8a009ba48c0a237f", null ],
     [ "HP", "class_stats.html#ab661897854a3917b933c5176a4a3bcc5", null ],
     [ "isDead", "class_stats.html#acdb9bb504223bfff99551a4fa15978fc", null ],
     [ "maxHP", "class_stats.html#a1d40ac4607ee9cafae05e9118d8a6bf7", null ],
