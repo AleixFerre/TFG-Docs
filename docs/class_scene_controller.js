@@ -1,5 +1,6 @@
 var class_scene_controller =
 [
+    [ "IsCurrent", "class_scene_controller.html#a77dee618091b3c4f068634df40883cbe", null ],
     [ "LoadGame", "class_scene_controller.html#ab4c9c8564748875f4eb983c861783716", null ],
     [ "LoadScene", "class_scene_controller.html#ae792f53918da43a6af930ecf9cea0079", null ],
     [ "LoadSceneAdditive", "class_scene_controller.html#a3e711cd47fd14c42177b860f2bc05717", null ],

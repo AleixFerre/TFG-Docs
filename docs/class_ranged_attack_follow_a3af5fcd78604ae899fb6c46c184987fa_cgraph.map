@@ -1,5 +1,4 @@
 <map id="RangedAttackFollow.Update" name="RangedAttackFollow.Update">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,192,57"/>
-<area shape="rect" id="node2" href="$class_stats.html#addb9e052562b5e3fcab17ee2c1fa60f9" title="Specify the amount of damage and the Inventory that the amount of Gold will go in if it is hit for th..." alt="" coords="273,5,404,32"/>
-<area shape="rect" id="node3" href="$class_ranged_attack_follow.html#afc51e9ddff39919e2007ff2477206a44" title=" " alt="" coords="240,56,437,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,192,32"/>
+<area shape="rect" id="node2" href="$class_stats.html#addb9e052562b5e3fcab17ee2c1fa60f9" title="Specify the amount of damage and the Inventory that the amount of Gold will go in if it is hit for th..." alt="" coords="240,5,371,32"/>
 </map>

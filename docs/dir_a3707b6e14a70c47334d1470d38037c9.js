@@ -1,10 +1,10 @@
 var dir_a3707b6e14a70c47334d1470d38037c9 =
 [
-    [ "AbilityAffectedStats.cs", "_ability_affected_stats_8cs.html", [
-      [ "AbilityAffectedStats", "class_ability_affected_stats.html", null ]
-    ] ],
     [ "Drop.cs", "_drop_8cs.html", [
       [ "Drop", "class_drop.html", "class_drop" ]
+    ] ],
+    [ "MovableStats.cs", "_movable_stats_8cs.html", [
+      [ "MovableStats", "class_movable_stats.html", "class_movable_stats" ]
     ] ],
     [ "Singleton.cs", "_singleton_8cs.html", [
       [ "Singleton", "class_singleton.html", "class_singleton" ]
@@ -13,6 +13,7 @@ var dir_a3707b6e14a70c47334d1470d38037c9 =
     [ "Stats.cs", "_stats_8cs.html", [
       [ "Stats", "class_stats.html", "class_stats" ]
     ] ],
+    [ "Status.cs", "_status_8cs.html", "_status_8cs" ],
     [ "StructureStats.cs", "_structure_stats_8cs.html", [
       [ "StructureStats", "class_structure_stats.html", "class_structure_stats" ]
     ] ],

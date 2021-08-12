@@ -1,5 +1,7 @@
 <map id="GameController.GetPlayer" name="GameController.GetPlayer">
-<area shape="rect" id="node1" title=" " alt="" coords="412,5,587,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="412,31,587,57"/>
 <area shape="rect" id="node2" href="$class_minion_stats.html#a5366cb256edc6dc42f01c2907ee14e7a" title="Function that implements what is done when this entity dies." alt="" coords="249,5,364,32"/>
+<area shape="rect" id="node4" href="$class_turret_stats.html#afba2a2bb8d56fba966bb1c8ff069b63a" title="Function that implements what is done when this entity dies." alt="" coords="252,56,361,83"/>
 <area shape="rect" id="node3" href="$class_minion_stats.html#ad1a8cab09c44cd06629a2dbe924c83ff" title=" " alt="" coords="5,5,201,32"/>
+<area shape="rect" id="node5" href="$class_turret_stats.html#a503110135edcf63f735168caec63debd" title=" " alt="" coords="8,56,199,83"/>
 </map>

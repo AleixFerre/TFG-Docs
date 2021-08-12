@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" target="_top" xlink:title="This is triggered when the player respawns.">
 <polygon fill="none" stroke="black" points="184,-19.5 184,-38.5 294,-38.5 294,-19.5 184,-19.5"/>
 <text text-anchor="middle" x="239" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.Respawn</text>
 </a>

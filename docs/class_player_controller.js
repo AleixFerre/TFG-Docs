@@ -3,6 +3,7 @@ var class_player_controller =
     [ "HandleMovement", "class_player_controller.html#a53e932ee02c4c2cc18c7219d40e93cad", null ],
     [ "Initialize", "class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf", null ],
     [ "MoveTo", "class_player_controller.html#a567a5267fea43c150b1711d76377ed43", null ],
+    [ "ResetAllStates", "class_player_controller.html#a8c6621b8c9485a47a092fd156404c45d", null ],
     [ "SetDashPosition", "class_player_controller.html#aea62bf4b6e3dc57f3545a64d5d21cd4a", null ],
     [ "SetLookAtTarget", "class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c", null ],
     [ "SetLookAtTarget", "class_player_controller.html#a63709ae1de3232234e1f2caa6aa487ce", null ],

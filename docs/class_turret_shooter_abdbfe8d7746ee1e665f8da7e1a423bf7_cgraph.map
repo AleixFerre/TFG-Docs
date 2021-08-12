@@ -2,6 +2,6 @@
 <area shape="rect" id="node1" title=" " alt="" coords="5,38,144,65"/>
 <area shape="rect" id="node2" href="$class_turret_shooter.html#a8be25a5629564093b66ab8d2b42692cc" title=" " alt="" coords="192,60,361,101"/>
 <area shape="rect" id="node3" href="$class_turret_indicator.html#a18c506cc6d384bb9ca9789b8e27d1684" title="This function gets calls whenever the Turret changes the intern state." alt="" coords="409,13,616,39"/>
-<area shape="rect" id="node5" href="$class_ranged_attack_follow.html#a4552d59821a468e45dbcb0dd3d30db48" title=" " alt="" coords="412,67,613,94"/>
+<area shape="rect" id="node5" href="$class_ranged_attack_follow.html#ab3769cf75d3db66abcd5cb2174a8dd57" title=" " alt="" coords="412,67,613,94"/>
 <area shape="rect" id="node4" href="$class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50" title="Returns the color corresponing to the current TurretState of the indicator" alt="" coords="664,5,823,47"/>
 </map>

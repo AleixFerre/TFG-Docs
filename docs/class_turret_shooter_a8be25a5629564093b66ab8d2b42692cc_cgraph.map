@@ -1,6 +1,6 @@
 <map id="TurretShooter.AttackWithPriority" name="TurretShooter.AttackWithPriority">
 <area shape="rect" id="node1" title=" " alt="" coords="5,31,175,72"/>
 <area shape="rect" id="node2" href="$class_turret_indicator.html#a18c506cc6d384bb9ca9789b8e27d1684" title="This function gets calls whenever the Turret changes the intern state." alt="" coords="223,13,429,39"/>
-<area shape="rect" id="node4" href="$class_ranged_attack_follow.html#a4552d59821a468e45dbcb0dd3d30db48" title=" " alt="" coords="225,63,427,90"/>
+<area shape="rect" id="node4" href="$class_ranged_attack_follow.html#ab3769cf75d3db66abcd5cb2174a8dd57" title=" " alt="" coords="225,63,427,90"/>
 <area shape="rect" id="node3" href="$class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50" title="Returns the color corresponing to the current TurretState of the indicator" alt="" coords="477,5,636,47"/>
 </map>

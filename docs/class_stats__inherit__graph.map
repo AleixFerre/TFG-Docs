@@ -1,11 +1,11 @@
 <map id="Stats" name="Stats">
-<area shape="rect" id="node1" title="Base class Stats of the entity." alt="" coords="203,80,256,107"/>
-<area shape="rect" id="node3" href="$class_ability_affected_stats.html" title=" " alt="" coords="89,155,225,181"/>
-<area shape="rect" id="node7" href="$class_structure_stats.html" title=" " alt="" coords="249,155,356,181"/>
-<area shape="rect" id="node2" title=" " alt="" coords="174,5,285,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="199,80,252,107"/>
+<area shape="rect" id="node3" href="$class_movable_stats.html" title=" " alt="" coords="111,155,211,181"/>
+<area shape="rect" id="node7" href="$class_structure_stats.html" title=" " alt="" coords="236,155,343,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="170,5,281,32"/>
 <area shape="rect" id="node4" href="$class_minion_stats.html" title="Minion Stats is the main class that controls all the Minion Statistics for every Minion entity within..." alt="" coords="5,229,96,256"/>
 <area shape="rect" id="node5" href="$class_player_stats.html" title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut..." alt="" coords="120,229,211,256"/>
 <area shape="rect" id="node6" href="$class_mannequin_stats.html" title=" " alt="" coords="107,304,223,331"/>
-<area shape="rect" id="node8" href="$class_nexus_stats.html" title=" " alt="" coords="249,229,340,256"/>
-<area shape="rect" id="node9" href="$class_turret_stats.html" title=" " alt="" coords="365,229,451,256"/>
+<area shape="rect" id="node8" href="$class_nexus_stats.html" title=" " alt="" coords="241,229,332,256"/>
+<area shape="rect" id="node9" href="$class_turret_stats.html" title=" " alt="" coords="357,229,443,256"/>
 </map>

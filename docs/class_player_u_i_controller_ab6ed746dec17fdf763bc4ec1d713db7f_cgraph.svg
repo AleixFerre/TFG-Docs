@@ -46,9 +46,9 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 634;
+var viewWidth = 650;
 var viewHeight = 88;
-var sectionId = 'dynsection-1';
+var sectionId = 'dynsection-2';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
@@ -115,22 +115,37 @@ var sectionId = 'dynsection-1';
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_utils.html#a459472171f68c903c975020cc5b02fee" target="_top" xlink:title="Calculates the actual normalized fill amount for the image.">
-<polygon fill="none" stroke="black" points="500,-30 500,-49 626,-49 626,-30 500,-30"/>
-<text text-anchor="middle" x="563" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">Utils.CalculateFillAmount</text>
+<polygon fill="none" stroke="black" points="508,-49 508,-68 634,-68 634,-49 508,-49"/>
+<text text-anchor="middle" x="571" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00">Utils.CalculateFillAmount</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M464.17,-54.69C472.87,-53.34 481.86,-51.94 490.7,-50.57"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="491.25,-54.03 500.59,-49.04 490.18,-47.11 491.25,-54.03"/>
+<path fill="none" stroke="midnightblue" d="M464.41,-62.25C475.31,-61.86 486.71,-61.46 497.82,-61.06"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="498.05,-64.56 507.92,-60.7 497.8,-57.56 498.05,-64.56"/>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M464.17,-24.92C472.59,-26.17 481.28,-27.47 489.84,-28.74"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="489.4,-32.22 499.8,-30.23 490.43,-25.29 489.4,-32.22"/>
+<path fill="none" stroke="midnightblue" d="M460.11,-30.54C480.62,-35.76 503.32,-41.53 522.75,-46.48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="522.02,-49.9 532.58,-48.98 523.75,-43.12 522.02,-49.9"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="class_player_u_i_controller.html#aaa62b1e4dc1ee6689adbc72b8dcb73d3" target="_top" xlink:title="When you heal HP, we will reset the lerped bar">
+<polygon fill="none" stroke="black" points="500,-6 500,-25 642,-25 642,-6 500,-6"/>
+<text text-anchor="middle" x="571" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerUIController.ResetLerp</text>
+</a>
+</g>
+</g>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge6" class="edge">
+<title>Node5&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M464.41,-15.5C472.76,-15.5 481.4,-15.5 489.98,-15.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="490,-19 500,-15.5 490,-12 490,-19"/>
 </g>
 </g>
 </svg>

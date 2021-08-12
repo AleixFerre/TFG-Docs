@@ -1,0 +1,6 @@
+<map id="AbilityBase.GetStats" name="AbilityBase.GetStats">
+<area shape="rect" id="node1" title="Funció generica que retorna null si no és un objectiu valid o el component concret de Stats de l&#39;obje..." alt="" coords="233,56,377,83"/>
+<area shape="rect" id="node2" href="$class_ability___lis1.html#afd1d7924ca79144a0e19a84705b7590e" title=" " alt="" coords="5,5,185,32"/>
+<area shape="rect" id="node3" href="$class_ability___lis4.html#a4497c50ddbd3f508448a76a1eafdd203" title=" " alt="" coords="5,56,185,83"/>
+<area shape="rect" id="node4" href="$class_ability___lis4.html#af8adb18b50c5fc887b48765ff50e5075" title=" " alt="" coords="9,107,181,133"/>
+</map>

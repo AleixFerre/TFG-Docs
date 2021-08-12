@@ -110,11 +110,8 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>idleColor
 : <a class="el" href="class_turret_indicator.html#a4fd3fa8ab931fc6f460f96dd038da782">TurretIndicator</a>
 </li>
-<li>iEffectsFloat
-: <a class="el" href="class_item.html#a77cc9eb8ea461f4dfef81dd48f246bbb">Item</a>
-</li>
-<li>iEffectsInt
-: <a class="el" href="class_item.html#a53152d0c860210a76131c2bf336d9686">Item</a>
+<li>iEffects
+: <a class="el" href="class_item.html#a9cfcd2950bcb6255b325e0800e03cda6">Item</a>
 </li>
 <li>iGoldCost
 : <a class="el" href="class_item.html#a5116db206195100929b366e87ca37099">Item</a>
@@ -122,11 +119,14 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>image
 : <a class="el" href="class_ability_display.html#abec3d59959cd040e046d2e175891be67">AbilityDisplay</a>
 </li>
+<li>images
+: <a class="el" href="class_effect_h_u_d_controller.html#a3ecaaf26dc7d8795c6a9795ad7907bb8">EffectHUDController</a>
+</li>
 <li>imgTransform
 : <a class="el" href="class_background_scaling.html#ab2ada3bb126137a919e876bc35de4a05">BackgroundScaling</a>
 </li>
 <li>inAbilityEntities
-: <a class="el" href="class_ability___lis4.html#ae8ff233063c05cb2c269f057d1ece0d4">Ability_Lis4</a>
+: <a class="el" href="class_ability___lis4.html#a844625a067f9f940db619a04606c6bca">Ability_Lis4</a>
 </li>
 <li>iName
 : <a class="el" href="class_item.html#af3ed7afe0efc14467d32ed6eb07f6755">Item</a>
@@ -153,8 +153,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 : <a class="el" href="class_player_controller.html#a3281a8bfb44fcbe5191aaa2b2d736a4d">PlayerController</a>
 </li>
 <li>initHP
-: <a class="el" href="class_nexus_stats.html#a6335334c08f035cb6f7e65895980a264">NexusStats</a>
-, <a class="el" href="class_turret_stats.html#a57e2d3ea456b896de5e03c02cecdfbec">TurretStats</a>
+: <a class="el" href="class_structure_stats.html#a030ab2c7d2c9445069e285ecbba2235f">StructureStats</a>
 </li>
 <li>Initialize()
 : <a class="el" href="class_ability.html#a680fce4c2981c462afc82d28fe3958ef">Ability</a>
@@ -168,6 +167,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 , <a class="el" href="class_ability_cooldown.html#aa01c150ac26f1694a1e174e152510094">AbilityCooldown</a>
 , <a class="el" href="class_basic_attack.html#ac85eb061d597f5879d31fb8e7a0316d5">BasicAttack</a>
 , <a class="el" href="class_drop.html#a33968823c046a2f4785adc39e3f04b09">Drop</a>
+, <a class="el" href="class_effect_manager.html#a5b9a498227bc61493b5246eb1303fc6e">EffectManager</a>
 , <a class="el" href="class_inventory.html#af5cb79cb50692e3fb6c98df25812dcbc">Inventory</a>
 , <a class="el" href="class_mannequin_stats.html#a0cecf416149ad28539cb696fad4ae175">MannequinStats</a>
 , <a class="el" href="class_model_player_mediator.html#abb544efe7192b8e934f60f770d5ac334">ModelPlayerMediator</a>
@@ -207,11 +207,11 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>inRangePlayers
 : <a class="el" href="class_turret_shooter.html#a039b5d31b51fb39a1966f3e88ba5a1f8">TurretShooter</a>
 </li>
-<li>Instance
-: <a class="el" href="class_singleton.html#a54103e8475b2a352ee759d5732307534">Singleton&lt; T &gt;</a>
-</li>
 <li>instance
 : <a class="el" href="class_singleton.html#ac160511cdbe3795f209bfdd1874dcacd">Singleton&lt; T &gt;</a>
+</li>
+<li>Instance
+: <a class="el" href="class_singleton.html#a54103e8475b2a352ee759d5732307534">Singleton&lt; T &gt;</a>
 </li>
 <li>InstantiateRangedAttack()
 : <a class="el" href="class_basic_attack.html#ad8c0baca6db1fe663aebf592bcc6c2f2">BasicAttack</a>
@@ -220,6 +220,9 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>inventory
 : <a class="el" href="class_player_stats.html#a13688e05f1cd83724ffa8ae871e3a907">PlayerStats</a>
 , <a class="el" href="class_ranged_attack_follow.html#a615f1a8c20ddb692163f40a9f56e22cb">RangedAttackFollow</a>
+</li>
+<li>IsCurrent()
+: <a class="el" href="class_scene_controller.html#a77dee618091b3c4f068634df40883cbe">SceneController</a>
 </li>
 <li>isDead
 : <a class="el" href="class_stats.html#acdb9bb504223bfff99551a4fa15978fc">Stats</a>
@@ -234,7 +237,11 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 : <a class="el" href="class_player_stats.html#ab3af90aeca2c49cac5ec15500ba15d8a">PlayerStats</a>
 </li>
 <li>isIntAmount
-: <a class="el" href="class_statistic_change_effect.html#aad43cc0ab538c0d99a40c50ced7fd1e3">StatisticChangeEffect</a>
+: <a class="el" href="class_item_statistic_effect.html#affd36768d63af595aaf7207cf2f4472a">ItemStatisticEffect</a>
+, <a class="el" href="class_statistic_change_effect.html#aad43cc0ab538c0d99a40c50ced7fd1e3">StatisticChangeEffect</a>
+</li>
+<li>isLaser
+: <a class="el" href="class_turret_shooter.html#a3094011d6c3b2c31017b6b289fedece8">TurretShooter</a>
 </li>
 <li>isLoaded
 : <a class="el" href="class_async_loader.html#a6ba373db329686e854f8a75c9212a7c5">AsyncLoader</a>

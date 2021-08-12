@@ -1,0 +1,4 @@
+<map id="GameController.AddTurret" name="GameController.AddTurret">
+<area shape="rect" id="node1" title="One of the players killed a turret." alt="" coords="5,5,177,32"/>
+<area shape="rect" id="node2" href="$class_game_u_i_controller.html#aa73e805593cadfb7fe0f352258a3bf3c" title=" " alt="" coords="225,5,435,32"/>
+</map>

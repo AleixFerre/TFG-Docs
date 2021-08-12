@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_player_stats.html#a07cb6a60391d769fea03f1bc3b6927c6" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="class_player_stats.html#ae2c6a9d91ac8ff99b7f0dc32079f1931" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="357,-38.5 357,-57.5 467,-57.5 467,-38.5 357,-38.5"/>
 <text text-anchor="middle" x="412" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.HealRPC</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" target="_top" xlink:title="This is triggered when the player respawns.">
 <polygon fill="none" stroke="black" points="188.5,-38.5 188.5,-57.5 298.5,-57.5 298.5,-38.5 188.5,-38.5"/>
 <text text-anchor="middle" x="243.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.Respawn</text>
 </a>

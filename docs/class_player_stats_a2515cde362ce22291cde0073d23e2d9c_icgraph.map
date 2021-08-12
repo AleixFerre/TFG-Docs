@@ -1,6 +1,10 @@
 <map id="PlayerStats.AddXP" name="PlayerStats.AddXP">
-<area shape="rect" id="node1" title="Add some XP amount." alt="" coords="435,31,568,57"/>
-<area shape="rect" id="node2" href="$class_mannequin_stats.html#a8bd8eed182eccafe2a9f3a2764e82dc3" title="Function that implements what is done when this entity dies." alt="" coords="248,5,387,32"/>
-<area shape="rect" id="node3" href="$class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff" title="Function that implements what is done when this entity dies." alt="" coords="261,56,374,83"/>
-<area shape="rect" id="node4" href="$class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed" title=" " alt="" coords="5,56,200,83"/>
+<area shape="rect" id="node1" title="Add some XP amount." alt="" coords="436,81,569,108"/>
+<area shape="rect" id="node2" href="$class_mannequin_stats.html#a8bd8eed182eccafe2a9f3a2764e82dc3" title="Function that implements what is done when this entity dies." alt="" coords="249,5,388,32"/>
+<area shape="rect" id="node3" href="$class_minion_stats.html#a5366cb256edc6dc42f01c2907ee14e7a" title="Function that implements what is done when this entity dies." alt="" coords="261,56,376,83"/>
+<area shape="rect" id="node5" href="$class_turret_stats.html#afba2a2bb8d56fba966bb1c8ff069b63a" title="Function that implements what is done when this entity dies." alt="" coords="264,107,373,133"/>
+<area shape="rect" id="node7" href="$class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff" title="Function that implements what is done when this entity dies." alt="" coords="262,157,375,184"/>
+<area shape="rect" id="node4" href="$class_minion_stats.html#ad1a8cab09c44cd06629a2dbe924c83ff" title=" " alt="" coords="5,56,201,83"/>
+<area shape="rect" id="node6" href="$class_turret_stats.html#a503110135edcf63f735168caec63debd" title=" " alt="" coords="8,107,199,133"/>
+<area shape="rect" id="node8" href="$class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed" title=" " alt="" coords="6,157,201,184"/>
 </map>

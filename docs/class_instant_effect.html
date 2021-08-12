@@ -114,28 +114,22 @@ $(document).ready(function(){initNavTree('class_instant_effect.html',''); initRe
 <div class="dynheader">
 Diagrama d'Herència per a InstantEffect:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_instant_effect__inherit__graph.svg" width="243" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_instant_effect__inherit__graph.svg" width="396" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
-<tr class="memitem:a07e60429c030406f1a8892ad76b63f45"><td class="memItemLeft" align="right" valign="top">override IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_instant_effect.html#a07e60429c030406f1a8892ad76b63f45">GetCorrutine</a> (<a class="el" href="class_player_stats.html">PlayerStats</a> stats)</td></tr>
-<tr class="separator:a07e60429c030406f1a8892ad76b63f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed6b908b0ffe3229c4d539b3b7305120"><td class="memItemLeft" align="right" valign="top">override sealed IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_instant_effect.html#aed6b908b0ffe3229c4d539b3b7305120">GetCorrutine</a> (<a class="el" href="class_movable_stats.html">MovableStats</a> stats, <a class="el" href="class_effect_manager.html">EffectManager</a> manager=null)</td></tr>
+<tr class="separator:aed6b908b0ffe3229c4d539b3b7305120"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_effect"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_effect')"><img src="closed.png" alt="-"/>&#160;Mètodes públics inherited from <a class="el" href="class_effect.html">Effect</a></td></tr>
-<tr class="memitem:ae421c8b51f4b5f859b03ea719d384e8f inherit pub_methods_class_effect"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect.html#ae421c8b51f4b5f859b03ea719d384e8f">Activate</a> (<a class="el" href="class_player_stats.html">PlayerStats</a> stats)</td></tr>
-<tr class="separator:ae421c8b51f4b5f859b03ea719d384e8f inherit pub_methods_class_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_attribs_class_effect"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_effect')"><img src="closed.png" alt="-"/>&#160;Atributs Públics inherited from <a class="el" href="class_effect.html">Effect</a></td></tr>
-<tr class="memitem:af97c60deac4677fe1aec13cd9567bb5b inherit pub_attribs_class_effect"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect.html#af97c60deac4677fe1aec13cd9567bb5b">eName</a> = &quot;New <a class="el" href="class_effect.html">Effect</a>&quot;</td></tr>
-<tr class="separator:af97c60deac4677fe1aec13cd9567bb5b inherit pub_attribs_class_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad48818ca38f71bb7d5e844bd220ffce0 inherit pub_methods_class_effect"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect.html#ad48818ca38f71bb7d5e844bd220ffce0">Activate</a> (<a class="el" href="class_movable_stats.html">MovableStats</a> stats)</td></tr>
+<tr class="separator:ad48818ca38f71bb7d5e844bd220ffce0 inherit pub_methods_class_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
 <div class="textblock"><p><a class="el" href="class_instant_effect.html" title="InstantEffect és un encapsulador per tots els Effect que s&#39;executen de forma instantània.">InstantEffect</a> és un encapsulador per tots els <a class="el" href="class_effect.html" title="Abstract base info container class for an Effect.">Effect</a> que s'executen de forma instantània. </p>
 </div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
-<a id="a07e60429c030406f1a8892ad76b63f45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07e60429c030406f1a8892ad76b63f45">&#9670;&nbsp;</a></span>GetCorrutine()</h2>
+<a id="aed6b908b0ffe3229c4d539b3b7305120"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed6b908b0ffe3229c4d539b3b7305120">&#9670;&nbsp;</a></span>GetCorrutine()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144,11 +138,21 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override IEnumerator InstantEffect.GetCorrutine </td>
+          <td class="memname">override sealed IEnumerator InstantEffect.GetCorrutine </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_player_stats.html">PlayerStats</a>&#160;</td>
-          <td class="paramname"><em>stats</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_movable_stats.html">MovableStats</a>&#160;</td>
+          <td class="paramname"><em>stats</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="class_effect_manager.html">EffectManager</a>&#160;</td>
+          <td class="paramname"><em>manager</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -158,12 +162,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implementa <a class="el" href="class_effect.html#a928c504cba23842da98461acb52eb7e0">Effect</a>.</p>
+<p>Implementa <a class="el" href="class_effect.html#a280600ca7907b4f73d355e6a62a7040c">Effect</a>.</p>
 
 </div>
 </div>
 <hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
-<li>F:/Unity Projects/Treball de Fi de Grau/Assets/Scripts/Effects/<a class="el" href="_instant_effect_8cs.html">InstantEffect.cs</a></li>
+<li>F:/Unity Projects/Treball de Fi de Grau/Assets/Scripts/Effects/Types/Instant/<a class="el" href="_instant_effect_8cs.html">InstantEffect.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -35,7 +35,7 @@
 <!-- Node62 -->
 <g id="node3" class="node">
 <title>Node62</title>
-<g id="a_node3"><a xlink:href="class_disconnection_checker.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="class_disconnection_checker.html" target="_top" xlink:title="This class manages when the player disconnects from the game, intentionally or unexpectedly.">
 <polygon fill="none" stroke="black" points="179,-76.5 179,-95.5 293,-95.5 293,-76.5 179,-76.5"/>
 <text text-anchor="middle" x="236" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">DisconnectionChecker</text>
 </a>

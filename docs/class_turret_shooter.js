@@ -14,6 +14,7 @@ var class_turret_shooter =
     [ "indicator", "class_turret_shooter.html#a93dd5e969f4629acaa71a14cd18a8fe9", null ],
     [ "inRangeMinions", "class_turret_shooter.html#a74e5273ac7daa60eec982c03da0a171e", null ],
     [ "inRangePlayers", "class_turret_shooter.html#a039b5d31b51fb39a1966f3e88ba5a1f8", null ],
+    [ "isLaser", "class_turret_shooter.html#a3094011d6c3b2c31017b6b289fedece8", null ],
     [ "lastShotTime", "class_turret_shooter.html#ab9eb98e6f8e8c69e5ed7c77ba137fb20", null ],
     [ "localPlayerName", "class_turret_shooter.html#a28ccbe2ca9d0e9b53fa0bdef5b3d1ab3", null ],
     [ "rangedAttackPivot", "class_turret_shooter.html#af8031c79f8628d0b93e6cf2b8e86509f", null ],

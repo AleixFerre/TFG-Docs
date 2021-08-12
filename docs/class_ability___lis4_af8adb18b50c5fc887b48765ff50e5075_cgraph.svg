@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_ability_base.html#add0b200b1767eda2024849eb72821340" target="_top" xlink:title="Funció generica que retorna null si no és un objectiu valid o el component concret de Stats de l&#39;obje...">
+<g id="a_node2"><a xlink:href="class_ability_base.html#a1efb376f3d64023249da5dd6c5346aac" target="_top" xlink:title="Funció generica que retorna null si no és un objectiu valid o el component concret de Stats de l&#39;obje...">
 <polygon fill="none" stroke="black" points="165,-0.5 165,-19.5 273,-19.5 273,-0.5 165,-0.5"/>
 <text text-anchor="middle" x="219" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbilityBase.GetStats</text>
 </a>

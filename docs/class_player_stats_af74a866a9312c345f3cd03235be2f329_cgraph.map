@@ -2,9 +2,10 @@
 <area shape="rect" id="node1" title=" " alt="" coords="5,107,164,133"/>
 <area shape="rect" id="node2" href="$class_player_stats.html#aab2157e21bb713cc5d12a4b50e176ae6" title=" " alt="" coords="447,5,621,32"/>
 <area shape="rect" id="node3" href="$class_player_stats.html#a75c908d1b8c5eb0b414db7ab99ceab9e" title="Called whenever the player levels up." alt="" coords="236,71,375,97"/>
-<area shape="rect" id="node7" href="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" title="Sets the current level and xp to the Image." alt="" coords="220,129,391,170"/>
-<area shape="rect" id="node8" href="$class_player_h_u_d_controller.html#a654b56cf8a75ded0109d5aac569b2757" title=" " alt="" coords="212,206,399,247"/>
+<area shape="rect" id="node8" href="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" title="Sets the current level and xp to the Image." alt="" coords="220,129,391,170"/>
+<area shape="rect" id="node9" href="$class_player_h_u_d_controller.html#a654b56cf8a75ded0109d5aac569b2757" title=" " alt="" coords="212,206,399,247"/>
 <area shape="rect" id="node4" href="$class_player_u_i_controller.html#aca577b724c1f3f2ed54ad1165a7842c2" title="Sets the current HP value to the Image." alt="" coords="449,57,619,98"/>
-<area shape="rect" id="node6" href="$class_player_u_i_controller.html#ac7bf7455ce00b144f6a1678e524819b2" title="Sets the current MP value to the Image." alt="" coords="449,122,619,163"/>
-<area shape="rect" id="node5" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="669,159,837,185"/>
+<area shape="rect" id="node7" href="$class_player_u_i_controller.html#ac7bf7455ce00b144f6a1678e524819b2" title="Sets the current MP value to the Image." alt="" coords="449,122,619,163"/>
+<area shape="rect" id="node5" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="680,159,848,185"/>
+<area shape="rect" id="node6" href="$class_player_u_i_controller.html#aaa62b1e4dc1ee6689adbc72b8dcb73d3" title="When you heal HP, we will reset the lerped bar" alt="" coords="669,64,859,91"/>
 </map>

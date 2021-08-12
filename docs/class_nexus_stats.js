@@ -4,6 +4,5 @@ var class_nexus_stats =
     [ "DealDamageRPC", "class_nexus_stats.html#ae804a5fa576e7252285f85ff03aa0615", null ],
     [ "Die", "class_nexus_stats.html#a3faadcb2bca6d50c1da5e1235900f3f7", null ],
     [ "Start", "class_nexus_stats.html#a2f625990da73631c1b2218f6ad2787cf", null ],
-    [ "initHP", "class_nexus_stats.html#a6335334c08f035cb6f7e65895980a264", null ],
     [ "uiControl", "class_nexus_stats.html#ac696006b252c90f67e32727575b49572", null ]
 ];

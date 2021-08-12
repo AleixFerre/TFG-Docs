@@ -1,8 +1,5 @@
 var dir_b0c0fcdd74fbb19563daf708171500c3 =
 [
-    [ "AsyncLoader.cs", "_async_loader_8cs.html", [
-      [ "AsyncLoader", "class_async_loader.html", "class_async_loader" ]
-    ] ],
     [ "GameController.cs", "_game_controller_8cs.html", [
       [ "GameController", "class_game_controller.html", "class_game_controller" ]
     ] ],

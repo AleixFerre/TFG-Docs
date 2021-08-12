@@ -103,12 +103,16 @@ $(document).ready(function(){initNavTree('class_effect_manager.html',''); initRe
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Mètodes públics</a> &#124;
-<a href="#pub-attribs">Atributs Públics</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
+<a href="#pri-attribs">Atributs Privats</a> &#124;
 <a href="class_effect_manager-members.html">Llista de tots els membres</a>  </div>
   <div class="headertitle">
 <div class="title">Referència de la Classe EffectManager</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p> 
+ <a href="class_effect_manager.html#details">Més...</a></p>
 <div class="dynheader">
 Diagrama d'Herència per a EffectManager:</div>
 <div class="dyncontent">
@@ -117,16 +121,126 @@ Diagrama d'Herència per a EffectManager:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
+<tr class="memitem:a5b9a498227bc61493b5246eb1303fc6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect_manager.html#a5b9a498227bc61493b5246eb1303fc6e">Initialize</a> (<a class="el" href="class_effect_h_u_d_controller.html">EffectHUDController</a> _hudController)</td></tr>
+<tr class="memdesc:a5b9a498227bc61493b5246eb1303fc6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method initializes the <a class="el" href="class_effect_manager.html">EffectManager</a> with the proper HUD Controller to start showing the effects.  <a href="class_effect_manager.html#a5b9a498227bc61493b5246eb1303fc6e">Més...</a><br /></td></tr>
+<tr class="separator:a5b9a498227bc61493b5246eb1303fc6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a921aed9a2553637cdd387d3075150709"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect_manager.html#a921aed9a2553637cdd387d3075150709">TriggerEffect</a> (<a class="el" href="class_effect.html">Effect</a> effect)</td></tr>
 <tr class="memdesc:a921aed9a2553637cdd387d3075150709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts an <a class="el" href="class_effect.html" title="Abstract base info container class for an Effect.">Effect</a> to the entity who has this <a class="el" href="class_effect_manager.html">EffectManager</a>.  <a href="class_effect_manager.html#a921aed9a2553637cdd387d3075150709">Més...</a><br /></td></tr>
 <tr class="separator:a921aed9a2553637cdd387d3075150709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabe536a972389473af36e685412eecd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect_manager.html#aabe536a972389473af36e685412eecd1">OnFinishEffect</a> (<a class="el" href="class_timed_effect.html">TimedEffect</a> effect)</td></tr>
+<tr class="memdesc:aabe536a972389473af36e685412eecd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function needs to be called whenever a <a class="el" href="class_timed_effect.html" title="TimedEffect és un encapsulador per tots els Effect que NO s&#39;executen de forma instantània.">TimedEffect</a> finishes  <a href="class_effect_manager.html#aabe536a972389473af36e685412eecd1">Més...</a><br /></td></tr>
+<tr class="separator:aabe536a972389473af36e685412eecd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Atributs Públics</h2></td></tr>
-<tr class="memitem:aef513a97160dabf649ba8f24ae03091d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_player_stats.html">PlayerStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect_manager.html#aef513a97160dabf649ba8f24ae03091d">stats</a></td></tr>
-<tr class="separator:aef513a97160dabf649ba8f24ae03091d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:a4673275aa1dd0da21c0648fd9f653cd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect_manager.html#a4673275aa1dd0da21c0648fd9f653cd4">Start</a> ()</td></tr>
+<tr class="separator:a4673275aa1dd0da21c0648fd9f653cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributs Privats</h2></td></tr>
+<tr class="memitem:aeea62b1fb20aaac149d21960d4683aa6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_movable_stats.html">MovableStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect_manager.html#aeea62b1fb20aaac149d21960d4683aa6">stats</a></td></tr>
+<tr class="separator:aeea62b1fb20aaac149d21960d4683aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacaa149f0b45cbfb64ee33c1d47e87f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_effect_h_u_d_controller.html">EffectHUDController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect_manager.html#aacaa149f0b45cbfb64ee33c1d47e87f3">hUDController</a></td></tr>
+<tr class="separator:aacaa149f0b45cbfb64ee33c1d47e87f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81739c2db7eac52b291cdb9723899535"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_timed_effect.html">TimedEffect</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect_manager.html#a81739c2db7eac52b291cdb9723899535">currentEffects</a> = new List&lt;<a class="el" href="class_timed_effect.html">TimedEffect</a>&gt;()</td></tr>
+<tr class="separator:a81739c2db7eac52b291cdb9723899535"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p>This script manages that affect the Player and calls it properly.</p>
+<p>If the <a class="el" href="class_effect.html" title="Abstract base info container class for an Effect.">Effect</a> is timed, it mantains the corroutine. Also maintains the HUD.</p>
+</div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a5b9a498227bc61493b5246eb1303fc6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b9a498227bc61493b5246eb1303fc6e">&#9670;&nbsp;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectManager.Initialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_effect_h_u_d_controller.html">EffectHUDController</a>&#160;</td>
+          <td class="paramname"><em>_hudController</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method initializes the <a class="el" href="class_effect_manager.html">EffectManager</a> with the proper HUD Controller to start showing the effects. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_hudController</td><td>The <a class="el" href="class_effect.html" title="Abstract base info container class for an Effect.">Effect</a> HUD Controller</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_effect_manager_a5b9a498227bc61493b5246eb1303fc6e_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aabe536a972389473af36e685412eecd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabe536a972389473af36e685412eecd1">&#9670;&nbsp;</a></span>OnFinishEffect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectManager.OnFinishEffect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_timed_effect.html">TimedEffect</a>&#160;</td>
+          <td class="paramname"><em>effect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function needs to be called whenever a <a class="el" href="class_timed_effect.html" title="TimedEffect és un encapsulador per tots els Effect que NO s&#39;executen de forma instantània.">TimedEffect</a> finishes </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">effect</td><td>The effect that just finished</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_effect_manager_aabe536a972389473af36e685412eecd1_cgraph.svg" width="436" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_effect_manager_aabe536a972389473af36e685412eecd1_icgraph.svg" width="438" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a4673275aa1dd0da21c0648fd9f653cd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4673275aa1dd0da21c0648fd9f653cd4">&#9670;&nbsp;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectManager.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a921aed9a2553637cdd387d3075150709"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a921aed9a2553637cdd387d3075150709">&#9670;&nbsp;</a></span>TriggerEffect()</h2>
 
@@ -147,7 +261,7 @@ Atributs Públics</h2></td></tr>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_effect_manager_a921aed9a2553637cdd387d3075150709_cgraph.svg" width="372" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_effect_manager_a921aed9a2553637cdd387d3075150709_cgraph.svg" width="423" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
@@ -158,16 +272,68 @@ Gràfic de crides a aquesta funció:</div>
 </div>
 </div>
 <h2 class="groupheader">Documentació de les Dades Membre</h2>
-<a id="aef513a97160dabf649ba8f24ae03091d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef513a97160dabf649ba8f24ae03091d">&#9670;&nbsp;</a></span>stats</h2>
+<a id="a81739c2db7eac52b291cdb9723899535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81739c2db7eac52b291cdb9723899535">&#9670;&nbsp;</a></span>currentEffects</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_player_stats.html">PlayerStats</a> EffectManager.stats</td>
+          <td class="memname">List&lt;<a class="el" href="class_timed_effect.html">TimedEffect</a>&gt; EffectManager.currentEffects = new List&lt;<a class="el" href="class_timed_effect.html">TimedEffect</a>&gt;()</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aacaa149f0b45cbfb64ee33c1d47e87f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacaa149f0b45cbfb64ee33c1d47e87f3">&#9670;&nbsp;</a></span>hUDController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_effect_h_u_d_controller.html">EffectHUDController</a> EffectManager.hUDController</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeea62b1fb20aaac149d21960d4683aa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeea62b1fb20aaac149d21960d4683aa6">&#9670;&nbsp;</a></span>stats</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_movable_stats.html">MovableStats</a> EffectManager.stats</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

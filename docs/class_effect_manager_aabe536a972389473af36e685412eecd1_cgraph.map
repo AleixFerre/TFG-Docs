@@ -1,0 +1,4 @@
+<map id="EffectManager.OnFinishEffect" name="EffectManager.OnFinishEffect">
+<area shape="rect" id="node1" title="This function needs to be called whenever a TimedEffect finishes" alt="" coords="5,13,200,39"/>
+<area shape="rect" id="node2" href="$class_effect_h_u_d_controller.html#a5d2dd46778d538fb1474624fd083818b" title=" " alt="" coords="248,5,431,47"/>
+</map>

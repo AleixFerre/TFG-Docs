@@ -1,0 +1,6 @@
+<map id="ItemStatisticEffect" name="ItemStatisticEffect">
+<area shape="rect" id="node1" title=" " alt="" coords="5,229,133,256"/>
+<area shape="rect" id="node2" href="$class_instant_effect.html" title="InstantEffect és un encapsulador per tots els Effect que s&#39;executen de forma instantània." alt="" coords="22,155,117,181"/>
+<area shape="rect" id="node3" href="$class_effect.html" title="Abstract base info container class for an Effect." alt="" coords="42,80,97,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="10,5,129,32"/>
+</map>

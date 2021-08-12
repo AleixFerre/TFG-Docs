@@ -1,0 +1,5 @@
+<map id="PlayerStats.DestroyCurrentAbilities" name="PlayerStats.DestroyCurrentAbilities">
+<area shape="rect" id="node1" title="We trigger this function when the player dies in order to destroy all the current player abilities ne..." alt="" coords="409,5,591,47"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff" title="Function that implements what is done when this entity dies." alt="" coords="248,13,361,39"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed" title=" " alt="" coords="5,13,200,39"/>
+</map>

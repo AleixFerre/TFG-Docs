@@ -48,7 +48,7 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 766;
 var viewHeight = 80;
-var sectionId = 'dynsection-12';
+var sectionId = 'dynsection-13';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
@@ -118,7 +118,7 @@ var sectionId = 'dynsection-12';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_ranged_attack_follow.html#a4552d59821a468e45dbcb0dd3d30db48" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="class_ranged_attack_follow.html#ab3769cf75d3db66abcd5cb2174a8dd57" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="450,-6 450,-25 601,-25 601,-6 450,-6"/>
 <text text-anchor="middle" x="525.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">RangedAttackFollow.SetTarget</text>
 </a>

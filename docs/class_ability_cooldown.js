@@ -19,6 +19,7 @@ var class_ability_cooldown =
     [ "abilityIndicatorGO", "class_ability_cooldown.html#a07ad09ec9eab9ba26843e886a0054b8b", null ],
     [ "blockedAbility", "class_ability_cooldown.html#a3bbedb3445e2f744a5728320ab3e7319", null ],
     [ "cancelAbilityCode", "class_ability_cooldown.html#a4c544be4a5f988d0bf7be32651f97c40", null ],
+    [ "coolDownBGImage", "class_ability_cooldown.html#a87b69fead394954d406485f786af1902", null ],
     [ "coolDownFillImage", "class_ability_cooldown.html#ae620d95923588160fe6d384605d3b8d0", null ],
     [ "coolDownTextDisplay", "class_ability_cooldown.html#ac49303da1ad7de4bbf7283e1ab42fcfb", null ],
     [ "coolDownTimeLeft", "class_ability_cooldown.html#ac3a2163a90dfe3e7b17b6c6ab9535fab", null ],

@@ -36,7 +36,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_ranged_attack_follow.html#a4552d59821a468e45dbcb0dd3d30db48" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="class_ranged_attack_follow.html#ab3769cf75d3db66abcd5cb2174a8dd57" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="165,-0.5 165,-19.5 316,-19.5 316,-0.5 165,-0.5"/>
 <text text-anchor="middle" x="240.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">RangedAttackFollow.SetTarget</text>
 </a>

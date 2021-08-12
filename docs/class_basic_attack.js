@@ -29,6 +29,7 @@ var class_basic_attack =
     [ "rangeIndicator", "class_basic_attack.html#a254588b90819f038546125767a0f6847", null ],
     [ "state", "class_basic_attack.html#a0dc3fb479e6e8bde3585051f9a4e5cf6", null ],
     [ "stats", "class_basic_attack.html#ad9cf8d169bdb1eb0f33c4f68550c080c", null ],
+    [ "targetIndicator", "class_basic_attack.html#a9e4a5bf8451103c3e9cba97eb926ca97", null ],
     [ "view", "class_basic_attack.html#afc75dc51c537b13100e169990d38f0c1", null ],
     [ "wantToAttackAgain", "class_basic_attack.html#a08dced1824f9715339429db154fd767e", null ]
 ];

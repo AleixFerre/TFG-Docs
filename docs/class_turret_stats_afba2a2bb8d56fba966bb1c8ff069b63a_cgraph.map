@@ -1,0 +1,7 @@
+<map id="TurretStats.Die" name="TurretStats.Die">
+<area shape="rect" id="node1" title="Function that implements what is done when this entity dies." alt="" coords="5,56,115,83"/>
+<area shape="rect" id="node2" href="$class_game_controller.html#a3c12aa66ebe2fd74624cff72301a5903" title="One of the players killed a turret." alt="" coords="164,5,336,32"/>
+<area shape="rect" id="node4" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="183,56,317,83"/>
+<area shape="rect" id="node5" href="$class_game_controller.html#a3284abf9985021d4e4936f90d858a7dd" title=" " alt="" coords="163,107,337,133"/>
+<area shape="rect" id="node3" href="$class_game_u_i_controller.html#aa73e805593cadfb7fe0f352258a3bf3c" title=" " alt="" coords="385,5,595,32"/>
+</map>

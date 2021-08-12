@@ -1,21 +1,23 @@
 <map id="ModelSync.DoEnable" name="ModelSync.DoEnable">
-<area shape="rect" id="node1" title="This starts all the initialization chain for the player." alt="" coords="5,125,152,151"/>
-<area shape="rect" id="node2" href="$class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf" title="Initialize the PlayerController." alt="" coords="215,74,380,101"/>
-<area shape="rect" id="node18" href="$class_model_player_mediator.html#abb544efe7192b8e934f60f770d5ac334" title=" " alt="" coords="200,125,395,151"/>
-<area shape="rect" id="node19" href="$class_player_controller.html#a6be7bc2319b024c6bf66f1b1c96f7ba5" title="Player Model will call this function to parent and sync itself to this GameObject" alt="" coords="209,175,385,202"/>
-<area shape="rect" id="node3" href="$class_player_stats.html#afcace3e680c4d2f0d8ae4a3d963b0d53" title="Returns the AbilityCooldowns of the abilities" alt="" coords="443,23,604,50"/>
-<area shape="rect" id="node4" href="$class_basic_attack.html#ac85eb061d597f5879d31fb8e7a0316d5" title=" " alt="" coords="451,74,595,101"/>
-<area shape="rect" id="node5" href="$class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240" title="Initialize the actual Stats of the Player." alt="" coords="453,125,594,151"/>
-<area shape="rect" id="node6" href="$class_player_u_i_controller.html#ab6ed746dec17fdf763bc4ec1d713db7f" title="Initializes all the values and colors for this Player." alt="" coords="661,49,835,75"/>
-<area shape="rect" id="node11" href="$class_player_h_u_d_controller.html#a3717d3272b98e6e47c909bdb5af2a99f" title=" " alt="" coords="652,99,844,126"/>
-<area shape="rect" id="node12" href="$class_inventory.html#af5cb79cb50692e3fb6c98df25812dcbc" title=" " alt="" coords="686,150,810,177"/>
-<area shape="rect" id="node14" href="$class_player_h_u_d_controller.html#adf30ead91cd36140e32d0ad158fbbae4" title=" " alt="" coords="652,201,844,243"/>
-<area shape="rect" id="node7" href="$class_player_u_i_controller.html#aa5b61a93967fa5ce39bfd950a9e9d584" title="Initializes all the values into the Image and Text." alt="" coords="897,41,1074,83"/>
+<area shape="rect" id="node1" title="This starts all the initialization chain for the player." alt="" coords="5,146,152,173"/>
+<area shape="rect" id="node2" href="$class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf" title="Initialize the PlayerController." alt="" coords="215,95,380,122"/>
+<area shape="rect" id="node20" href="$class_model_player_mediator.html#abb544efe7192b8e934f60f770d5ac334" title=" " alt="" coords="200,146,395,173"/>
+<area shape="rect" id="node21" href="$class_player_controller.html#a6be7bc2319b024c6bf66f1b1c96f7ba5" title="Player Model will call this function to parent and sync itself to this GameObject" alt="" coords="209,197,385,223"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#afcace3e680c4d2f0d8ae4a3d963b0d53" title="Returns the AbilityCooldowns of the abilities" alt="" coords="443,45,604,71"/>
+<area shape="rect" id="node4" href="$class_basic_attack.html#ac85eb061d597f5879d31fb8e7a0316d5" title=" " alt="" coords="451,95,595,122"/>
+<area shape="rect" id="node5" href="$class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240" title="Initialize the actual Stats of the Player." alt="" coords="453,146,594,173"/>
+<area shape="rect" id="node6" href="$class_player_u_i_controller.html#ab6ed746dec17fdf763bc4ec1d713db7f" title="Initializes all the values and colors for this Player." alt="" coords="661,45,835,71"/>
+<area shape="rect" id="node12" href="$class_player_h_u_d_controller.html#a3717d3272b98e6e47c909bdb5af2a99f" title=" " alt="" coords="652,95,844,122"/>
+<area shape="rect" id="node13" href="$class_effect_manager.html#a5b9a498227bc61493b5246eb1303fc6e" title="This method initializes the EffectManager with the proper HUD Controller to start showing the effects..." alt="" coords="670,146,826,173"/>
+<area shape="rect" id="node14" href="$class_inventory.html#af5cb79cb50692e3fb6c98df25812dcbc" title=" " alt="" coords="686,197,810,223"/>
+<area shape="rect" id="node16" href="$class_player_h_u_d_controller.html#adf30ead91cd36140e32d0ad158fbbae4" title=" " alt="" coords="652,248,844,289"/>
+<area shape="rect" id="node7" href="$class_player_u_i_controller.html#aa5b61a93967fa5ce39bfd950a9e9d584" title="Initializes all the values into the Image and Text." alt="" coords="897,37,1074,79"/>
 <area shape="rect" id="node8" href="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" title="Sets the current level and xp to the Image." alt="" coords="1137,5,1307,47"/>
 <area shape="rect" id="node10" href="$class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="1137,71,1307,112"/>
-<area shape="rect" id="node9" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="1365,46,1533,73"/>
-<area shape="rect" id="node13" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="892,143,1079,184"/>
-<area shape="rect" id="node15" href="$class_ability_cooldown.html#aa01c150ac26f1694a1e174e152510094" title="Initializes the current AbilityCooldown." alt="" coords="903,209,1068,235"/>
-<area shape="rect" id="node16" href="$class_ability_cooldown.html#a2142f4ae1a75b2e88bd33d8553680a33" title="This function is called whenever this ability is ready and you have enough mana." alt="" coords="1127,165,1317,191"/>
-<area shape="rect" id="node17" href="$class_ability.html#a680fce4c2981c462afc82d28fe3958ef" title=" " alt="" coords="1167,215,1277,242"/>
+<area shape="rect" id="node9" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="1376,21,1544,47"/>
+<area shape="rect" id="node11" href="$class_player_u_i_controller.html#aaa62b1e4dc1ee6689adbc72b8dcb73d3" title="When you heal HP, we will reset the lerped bar" alt="" coords="1365,78,1555,105"/>
+<area shape="rect" id="node15" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="892,189,1079,231"/>
+<area shape="rect" id="node17" href="$class_ability_cooldown.html#aa01c150ac26f1694a1e174e152510094" title="Initializes the current AbilityCooldown." alt="" coords="903,255,1068,282"/>
+<area shape="rect" id="node18" href="$class_ability_cooldown.html#a2142f4ae1a75b2e88bd33d8553680a33" title="This function is called whenever this ability is ready and you have enough mana." alt="" coords="1127,230,1317,257"/>
+<area shape="rect" id="node19" href="$class_ability.html#a680fce4c2981c462afc82d28fe3958ef" title=" " alt="" coords="1167,281,1277,307"/>
 </map>

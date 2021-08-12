@@ -1,0 +1,6 @@
+<map id="GameUIController.UpdateTurrets" name="GameUIController.UpdateTurrets">
+<area shape="rect" id="node1" title=" " alt="" coords="621,5,831,32"/>
+<area shape="rect" id="node2" href="$class_game_controller.html#a3c12aa66ebe2fd74624cff72301a5903" title="One of the players killed a turret." alt="" coords="401,5,573,32"/>
+<area shape="rect" id="node3" href="$class_turret_stats.html#afba2a2bb8d56fba966bb1c8ff069b63a" title="Function that implements what is done when this entity dies." alt="" coords="244,5,353,32"/>
+<area shape="rect" id="node4" href="$class_turret_stats.html#a503110135edcf63f735168caec63debd" title=" " alt="" coords="5,5,196,32"/>
+</map>

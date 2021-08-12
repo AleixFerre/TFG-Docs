@@ -4,7 +4,7 @@ var class_ability___instanciable =
     [ "GetTickDamage", "class_ability___instanciable.html#ac77f7f621b52668df8af1cbbffa11c52", null ],
     [ "GetTickTime", "class_ability___instanciable.html#a74749c307241b6a6cbfa140f5b569252", null ],
     [ "Initialize", "class_ability___instanciable.html#a1961e1d7df052be5c467203bb9415560", null ],
-    [ "TriggerAbility", "class_ability___instanciable.html#acd9b521d5e3e7b9d8b9e6d46c5e43f3e", null ],
+    [ "TriggerAbility", "class_ability___instanciable.html#a2874cb997047ff431148d036aa06e163", null ],
     [ "aDamage", "class_ability___instanciable.html#afd7af91989810017d6a033ca411d5ca9", null ],
     [ "character", "class_ability___instanciable.html#acb7c9be561d34470a76f9cc350c974b4", null ],
     [ "effectManager", "class_ability___instanciable.html#aa786683a276513102b85c1ec0814f3f4", null ],

@@ -1,5 +1,5 @@
 <map id="PlayerStats.Update" name="PlayerStats.Update">
 <area shape="rect" id="node1" title=" " alt="" coords="5,31,140,57"/>
-<area shape="rect" id="node2" href="$class_player_stats.html#a95d085936404a6d0100b3780ec88edb4" title=" " alt="" coords="209,5,329,32"/>
+<area shape="rect" id="node2" href="$class_movable_stats.html#a8db5075f6cb3977efdc5c92f2fb927f5" title=" " alt="" coords="204,5,335,32"/>
 <area shape="rect" id="node3" href="$class_player_stats.html#a8d05b6ec32ee2a10f700a57ac7342340" title=" " alt="" coords="188,56,351,83"/>
 </map>

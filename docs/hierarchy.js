@@ -1,7 +1,5 @@
 var hierarchy =
 [
-    [ "GenericDictionary< FloatStatistic, float >", "class_generic_dictionary.html", null ],
-    [ "GenericDictionary< IntStatistic, int >", "class_generic_dictionary.html", null ],
     [ "IDictionary", null, [
       [ "GenericDictionary< TKey, TValue >", "class_generic_dictionary.html", null ]
     ] ],
@@ -29,6 +27,7 @@ var hierarchy =
         [ "Diamond", "class_diamond.html", null ],
         [ "Heart", "class_heart.html", null ]
       ] ],
+      [ "EffectHUDController", "class_effect_h_u_d_controller.html", null ],
       [ "EffectManager", "class_effect_manager.html", null ],
       [ "GameUIController", "class_game_u_i_controller.html", null ],
       [ "Inventory", "class_inventory.html", null ],
@@ -48,7 +47,7 @@ var hierarchy =
       [ "ShowPing", "class_show_ping.html", null ],
       [ "Singleton< T >", "class_singleton.html", null ],
       [ "Stats", "class_stats.html", [
-        [ "AbilityAffectedStats", "class_ability_affected_stats.html", [
+        [ "MovableStats", "class_movable_stats.html", [
           [ "MinionStats", "class_minion_stats.html", null ],
           [ "PlayerStats", "class_player_stats.html", [
             [ "MannequinStats", "class_mannequin_stats.html", null ]
@@ -59,6 +58,7 @@ var hierarchy =
           [ "TurretStats", "class_turret_stats.html", null ]
         ] ]
       ] ],
+      [ "TargetAttackIndicator", "class_target_attack_indicator.html", null ],
       [ "TurretIndicator", "class_turret_indicator.html", null ],
       [ "TurretRay", "class_turret_ray.html", null ],
       [ "TurretShooter", "class_turret_shooter.html", null ],
@@ -94,7 +94,8 @@ var hierarchy =
       [ "Effect", "class_effect.html", [
         [ "InstantEffect", "class_instant_effect.html", [
           [ "HealEffect", "class_heal_effect.html", null ],
-          [ "HealRelativeEffect", "class_heal_relative_effect.html", null ]
+          [ "HealRelativeEffect", "class_heal_relative_effect.html", null ],
+          [ "ItemStatisticEffect", "class_item_statistic_effect.html", null ]
         ] ],
         [ "TimedEffect", "class_timed_effect.html", [
           [ "StatisticChangeEffect", "class_statistic_change_effect.html", null ]
@@ -110,5 +111,6 @@ var hierarchy =
     [ "Singleton< SceneController >", "class_singleton.html", [
       [ "SceneController", "class_scene_controller.html", null ]
     ] ],
+    [ "StatusExtension", "class_status_extension.html", null ],
     [ "Utils", "class_utils.html", null ]
 ];

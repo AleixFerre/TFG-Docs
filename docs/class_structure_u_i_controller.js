@@ -3,6 +3,7 @@ var class_structure_u_i_controller =
     [ "GetTeamMaterial", "class_structure_u_i_controller.html#afbb40f8976e1ccab250b80b3b59c13c6", null ],
     [ "Initalize", "class_structure_u_i_controller.html#a9bf15672ebeb298eb1e16456c42d6a71", null ],
     [ "InitializeColors", "class_structure_u_i_controller.html#ad491648142deb4740cbe79382a713f33", null ],
+    [ "PreInitializeColors", "class_structure_u_i_controller.html#a908b4e1272b87043c5ba601517f0c1d9", null ],
     [ "Update", "class_structure_u_i_controller.html#a4e6533dba10507eaa8e1a7d29261ce28", null ],
     [ "UpdateCurrentHP", "class_structure_u_i_controller.html#a440b6978d77790330878b47582fe43dc", null ],
     [ "blueMat", "class_structure_u_i_controller.html#a7edd9bb41883a12108dd76e781808379", null ],

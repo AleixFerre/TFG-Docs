@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('class_player_u_i_controller.html','');
 </div><!--header-->
 <div class="contents">
 
-<p>UI Controller for the Player <a class="el" href="class_stats.html" title="Base class Stats of the entity.">Stats</a>  
+<p>UI Controller for the Player <a class="el" href="class_stats.html">Stats</a>  
  <a href="class_player_u_i_controller.html#details">Més...</a></p>
 <div class="dynheader">
 Diagrama d'Herència per a PlayerUIController:</div>
@@ -145,8 +145,6 @@ Atributs Públics</h2></td></tr>
 <tr class="separator:a6130e698d3cc53fb8c6a76c5bb038aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37b3a81306ef3ba8c3a6f13053c8e287"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_u_i_controller.html#a37b3a81306ef3ba8c3a6f13053c8e287">mpImage</a></td></tr>
 <tr class="separator:a37b3a81306ef3ba8c3a6f13053c8e287"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9db75afac871870496e6580abcd9e3dc"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_u_i_controller.html#a9db75afac871870496e6580abcd9e3dc">mpImageSmooth</a></td></tr>
-<tr class="separator:a9db75afac871870496e6580abcd9e3dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b5a4a500dd58f860aac581820173c7b"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_u_i_controller.html#a9b5a4a500dd58f860aac581820173c7b">xpImage</a></td></tr>
 <tr class="separator:a9b5a4a500dd58f860aac581820173c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7f4a20f0db17b541c3f30ecadfe8d3a"><td class="memItemLeft" align="right" valign="top">TMP_Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_u_i_controller.html#af7f4a20f0db17b541c3f30ecadfe8d3a">levelTxt</a></td></tr>
@@ -166,6 +164,9 @@ Mètodes Privats</h2></td></tr>
 <tr class="separator:aa5b61a93967fa5ce39bfd950a9e9d584"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b991a5655ece50dd9fd3606af67d6cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_u_i_controller.html#a2b991a5655ece50dd9fd3606af67d6cf">Update</a> ()</td></tr>
 <tr class="separator:a2b991a5655ece50dd9fd3606af67d6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa62b1e4dc1ee6689adbc72b8dcb73d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_u_i_controller.html#aaa62b1e4dc1ee6689adbc72b8dcb73d3">ResetLerp</a> ()</td></tr>
+<tr class="memdesc:aaa62b1e4dc1ee6689adbc72b8dcb73d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">When you heal HP, we will reset the lerped bar  <a href="class_player_u_i_controller.html#aaa62b1e4dc1ee6689adbc72b8dcb73d3">Més...</a><br /></td></tr>
+<tr class="separator:aaa62b1e4dc1ee6689adbc72b8dcb73d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Atributs Privats Estàtics</h2></td></tr>
@@ -177,11 +178,11 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_class_u_i_controller"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_u_i_controller')"><img src="closed.png" alt="-"/>&#160;Atributs Protegits inherited from <a class="el" href="class_u_i_controller.html">UIController</a></td></tr>
 <tr class="memitem:af82bbe8d4b6ca730eacd6af9ffaa50eb inherit pro_attribs_class_u_i_controller"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#af82bbe8d4b6ca730eacd6af9ffaa50eb">team</a></td></tr>
 <tr class="separator:af82bbe8d4b6ca730eacd6af9ffaa50eb inherit pro_attribs_class_u_i_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b9da2a4ca2adcc7cc74dc4ad22ce65 inherit pro_attribs_class_u_i_controller"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a43b9da2a4ca2adcc7cc74dc4ad22ce65">myColor</a></td></tr>
+<tr class="memitem:a43b9da2a4ca2adcc7cc74dc4ad22ce65 inherit pro_attribs_class_u_i_controller"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a43b9da2a4ca2adcc7cc74dc4ad22ce65">myColor</a> = Color.clear</td></tr>
 <tr class="separator:a43b9da2a4ca2adcc7cc74dc4ad22ce65 inherit pro_attribs_class_u_i_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
-<div class="textblock"><p>UI Controller for the Player <a class="el" href="class_stats.html" title="Base class Stats of the entity.">Stats</a> </p>
+<div class="textblock"><p>UI Controller for the Player <a class="el" href="class_stats.html">Stats</a> </p>
 </div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
 <a id="ab6ed746dec17fdf763bc4ec1d713db7f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab6ed746dec17fdf763bc4ec1d713db7f">&#9670;&nbsp;</a></span>Initalize()</h2>
@@ -315,12 +316,44 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_u_i_controller_aa5b61a93967fa5ce39bfd950a9e9d584_cgraph.svg" width="623" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_u_i_controller_aa5b61a93967fa5ce39bfd950a9e9d584_cgraph.svg" width="644" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_u_i_controller_aa5b61a93967fa5ce39bfd950a9e9d584_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aaa62b1e4dc1ee6689adbc72b8dcb73d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa62b1e4dc1ee6689adbc72b8dcb73d3">&#9670;&nbsp;</a></span>ResetLerp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerUIController.ResetLerp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>When you heal HP, we will reset the lerped bar </p>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_u_i_controller_aaa62b1e4dc1ee6689adbc72b8dcb73d3_icgraph.svg" width="100%" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -390,7 +423,7 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_u_i_controller_aca577b724c1f3f2ed54ad1165a7842c2_cgraph.svg" width="398" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_u_i_controller_aca577b724c1f3f2ed54ad1165a7842c2_cgraph.svg" width="419" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
@@ -518,7 +551,7 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_u_i_controller_aacc9f1b78d9e1adab16f8fc2ec246dfb_cgraph.svg" width="398" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_u_i_controller_aacc9f1b78d9e1adab16f8fc2ec246dfb_cgraph.svg" width="419" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
@@ -587,20 +620,6 @@ Gràfic de crides a aquesta funció:</div>
       <table class="memname">
         <tr>
           <td class="memname">Image PlayerUIController.mpImage</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9db75afac871870496e6580abcd9e3dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9db75afac871870496e6580abcd9e3dc">&#9670;&nbsp;</a></span>mpImageSmooth</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Image PlayerUIController.mpImageSmooth</td>
         </tr>
       </table>
 </div><div class="memdoc">

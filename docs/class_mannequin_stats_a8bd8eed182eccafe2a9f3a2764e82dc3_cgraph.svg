@@ -50,9 +50,9 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_player_stats.html#a95d085936404a6d0100b3780ec88edb4" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="145,-0.5 145,-19.5 235,-19.5 235,-0.5 145,-0.5"/>
-<text text-anchor="middle" x="190" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.Heal</text>
+<g id="a_node5"><a xlink:href="class_movable_stats.html#a8db5075f6cb3977efdc5c92f2fb927f5" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="141,-0.5 141,-19.5 239,-19.5 239,-0.5 141,-0.5"/>
+<text text-anchor="middle" x="190" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MovableStats.Heal</text>
 </a>
 </g>
 </g>

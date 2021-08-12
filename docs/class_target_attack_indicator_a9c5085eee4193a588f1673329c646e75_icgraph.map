@@ -1,0 +1,5 @@
+<map id="TargetAttackIndicator.SetTarget" name="TargetAttackIndicator.SetTarget">
+<area shape="rect" id="node1" title="Sets the current target to the indicator" alt="" coords="276,23,445,65"/>
+<area shape="rect" id="node2" href="$class_basic_attack.html#ace5923cbff178c07c4583cf0d611f2f2" title=" " alt="" coords="22,5,211,32"/>
+<area shape="rect" id="node3" href="$class_basic_attack.html#a03148795ea9c5a156263877844e35edc" title=" " alt="" coords="5,56,228,83"/>
+</map>

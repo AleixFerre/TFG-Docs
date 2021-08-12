@@ -104,6 +104,7 @@ $(document).ready(function(){initNavTree('class_ability.html',''); initResizable
   <div class="summary">
 <a href="#pub-methods">Mètodes públics</a> &#124;
 <a href="#pub-attribs">Atributs Públics</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
 <a href="class_ability-members.html">Llista de tots els membres</a>  </div>
   <div class="headertitle">
 <div class="title">Referència de la Classe Ability<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -122,8 +123,8 @@ Diagrama d'Herència per a Ability:</div>
 Mètodes públics</h2></td></tr>
 <tr class="memitem:a680fce4c2981c462afc82d28fe3958ef"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability.html#a680fce4c2981c462afc82d28fe3958ef">Initialize</a> (GameObject player, PhotonView _view, <a class="el" href="class_character.html">Character</a> _character, int _index)</td></tr>
 <tr class="separator:a680fce4c2981c462afc82d28fe3958ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a393933c729063962332677c3ddd5d4e1"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability.html#a393933c729063962332677c3ddd5d4e1">TriggerAbility</a> (Vector3 lookAt)</td></tr>
-<tr class="separator:a393933c729063962332677c3ddd5d4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a4e6e5db015832f91de48b68658ec69"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability.html#a7a4e6e5db015832f91de48b68658ec69">TriggerAbility</a> (Vector3 lookAt, string author)</td></tr>
+<tr class="separator:a7a4e6e5db015832f91de48b68658ec69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a004d2ead9a2f144fe5a181fceed114a5"><td class="memItemLeft" align="right" valign="top">abstract int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability.html#a004d2ead9a2f144fe5a181fceed114a5">GetDamage</a> ()</td></tr>
 <tr class="separator:a004d2ead9a2f144fe5a181fceed114a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c1233ee3cfecfed5c899ed29d0ec4b9"><td class="memItemLeft" align="right" valign="top">abstract int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability.html#a0c1233ee3cfecfed5c899ed29d0ec4b9">GetTickDamage</a> ()</td></tr>
@@ -155,6 +156,11 @@ Atributs Públics</h2></td></tr>
 <tr class="separator:a7e93228cdf295f2171456fad50f21e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad775154e4f675c7cd4ff96ac7981bc51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_effect.html">Effect</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability.html#ad775154e4f675c7cd4ff96ac7981bc51">aToAuthorEffects</a></td></tr>
 <tr class="separator:ad775154e4f675c7cd4ff96ac7981bc51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:a70a6248dfeb87e1ef227a2dd3d4f41bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability.html#a70a6248dfeb87e1ef227a2dd3d4f41bb">OnValidate</a> ()</td></tr>
+<tr class="separator:a70a6248dfeb87e1ef227a2dd3d4f41bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
 <div class="textblock"><p>Base abstract class for an <a class="el" href="class_ability.html" title="Base abstract class for an Ability.">Ability</a>. </p>
@@ -322,8 +328,33 @@ Gràfic de crides a aquesta funció:</div>
 
 </div>
 </div>
-<a id="a393933c729063962332677c3ddd5d4e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a393933c729063962332677c3ddd5d4e1">&#9670;&nbsp;</a></span>TriggerAbility()</h2>
+<a id="a70a6248dfeb87e1ef227a2dd3d4f41bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70a6248dfeb87e1ef227a2dd3d4f41bb">&#9670;&nbsp;</a></span>OnValidate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ability.OnValidate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a4e6e5db015832f91de48b68658ec69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a4e6e5db015832f91de48b68658ec69">&#9670;&nbsp;</a></span>TriggerAbility()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -335,8 +366,18 @@ Gràfic de crides a aquesta funció:</div>
           <td class="memname">abstract void Ability.TriggerAbility </td>
           <td>(</td>
           <td class="paramtype">Vector3&#160;</td>
-          <td class="paramname"><em>lookAt</em></td><td>)</td>
+          <td class="paramname"><em>lookAt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>author</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -346,11 +387,11 @@ Gràfic de crides a aquesta funció:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implementat a <a class="el" href="class_ability___stats_changer.html#a113c18fb5be1fa153ec28d131d1b2c93">Ability_StatsChanger</a>, <a class="el" href="class_ability___player_relative.html#a74129ed38e185f90a00ec9924a3ecdbb">Ability_PlayerRelative</a>, <a class="el" href="class_ability___instanciable.html#acd9b521d5e3e7b9d8b9e6d46c5e43f3e">Ability_Instanciable</a> i <a class="el" href="class_ability___dash.html#a5c3910aaf85b86254560096d82a6c6bd">Ability_Dash</a>.</p>
+<p>Implementat a <a class="el" href="class_ability___stats_changer.html#a9b5d2b57c9e1369ec89ff50b9818d1b6">Ability_StatsChanger</a>, <a class="el" href="class_ability___player_relative.html#a147af83cdc2b932f749d96e9974260fa">Ability_PlayerRelative</a>, <a class="el" href="class_ability___instanciable.html#a2874cb997047ff431148d036aa06e163">Ability_Instanciable</a> i <a class="el" href="class_ability___dash.html#a4b8c736f5d9b2cab6cca814a98e234f6">Ability_Dash</a>.</p>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_ability_a393933c729063962332677c3ddd5d4e1_icgraph.svg" width="634" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_ability_a7a4e6e5db015832f91de48b68658ec69_icgraph.svg" width="634" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

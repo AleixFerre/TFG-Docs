@@ -103,7 +103,6 @@ $(document).ready(function(){initNavTree('class_effect.html',''); initResizable(
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Mètodes públics</a> &#124;
-<a href="#pub-attribs">Atributs Públics</a> &#124;
 <a href="class_effect-members.html">Llista de tots els membres</a>  </div>
   <div class="headertitle">
 <div class="title">Referència de la Classe Effect<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -115,26 +114,21 @@ $(document).ready(function(){initNavTree('class_effect.html',''); initResizable(
 <div class="dynheader">
 Diagrama d'Herència per a Effect:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_effect__inherit__graph.svg" width="415" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_effect__inherit__graph.svg" width="567" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
-<tr class="memitem:ae421c8b51f4b5f859b03ea719d384e8f"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect.html#ae421c8b51f4b5f859b03ea719d384e8f">Activate</a> (<a class="el" href="class_player_stats.html">PlayerStats</a> stats)</td></tr>
-<tr class="separator:ae421c8b51f4b5f859b03ea719d384e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a928c504cba23842da98461acb52eb7e0"><td class="memItemLeft" align="right" valign="top">abstract IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect.html#a928c504cba23842da98461acb52eb7e0">GetCorrutine</a> (<a class="el" href="class_player_stats.html">PlayerStats</a> stats)</td></tr>
-<tr class="separator:a928c504cba23842da98461acb52eb7e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Atributs Públics</h2></td></tr>
-<tr class="memitem:af97c60deac4677fe1aec13cd9567bb5b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect.html#af97c60deac4677fe1aec13cd9567bb5b">eName</a> = &quot;New <a class="el" href="class_effect.html">Effect</a>&quot;</td></tr>
-<tr class="separator:af97c60deac4677fe1aec13cd9567bb5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad48818ca38f71bb7d5e844bd220ffce0"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect.html#ad48818ca38f71bb7d5e844bd220ffce0">Activate</a> (<a class="el" href="class_movable_stats.html">MovableStats</a> stats)</td></tr>
+<tr class="separator:ad48818ca38f71bb7d5e844bd220ffce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a280600ca7907b4f73d355e6a62a7040c"><td class="memItemLeft" align="right" valign="top">abstract IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_effect.html#a280600ca7907b4f73d355e6a62a7040c">GetCorrutine</a> (<a class="el" href="class_movable_stats.html">MovableStats</a> stats, <a class="el" href="class_effect_manager.html">EffectManager</a> manager=null)</td></tr>
+<tr class="separator:a280600ca7907b4f73d355e6a62a7040c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
 <div class="textblock"><p>Abstract base info container class for an <a class="el" href="class_effect.html" title="Abstract base info container class for an Effect.">Effect</a>. </p>
 </div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
-<a id="ae421c8b51f4b5f859b03ea719d384e8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae421c8b51f4b5f859b03ea719d384e8f">&#9670;&nbsp;</a></span>Activate()</h2>
+<a id="ad48818ca38f71bb7d5e844bd220ffce0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad48818ca38f71bb7d5e844bd220ffce0">&#9670;&nbsp;</a></span>Activate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145,7 +139,7 @@ Atributs Públics</h2></td></tr>
         <tr>
           <td class="memname">abstract void Effect.Activate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_player_stats.html">PlayerStats</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_movable_stats.html">MovableStats</a>&#160;</td>
           <td class="paramname"><em>stats</em></td><td>)</td>
           <td></td>
         </tr>
@@ -157,17 +151,17 @@ Atributs Públics</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implementat a <a class="el" href="class_heal_relative_effect.html#ad97460dd2df0392b50c0110b2ad66866">HealRelativeEffect</a>, <a class="el" href="class_heal_effect.html#a1fd5ade7d7cc3f788c73a7452fb795a7">HealEffect</a> i <a class="el" href="class_timed_effect.html#a81effb7aaf4845c7d14fc4a99f58279d">TimedEffect</a>.</p>
+<p>Implementat a <a class="el" href="class_timed_effect.html#a1fe3417d4a50cd38345d1dc7bf8a3dc9">TimedEffect</a>, <a class="el" href="class_item_statistic_effect.html#abbdbb3e54a3aeeb784c5aadaec695753">ItemStatisticEffect</a>, <a class="el" href="class_heal_relative_effect.html#a51b9463a8c26ca163a387671a9bbe374">HealRelativeEffect</a> i <a class="el" href="class_heal_effect.html#a339d401861134bd9b6aaf777fe5d1cef">HealEffect</a>.</p>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_effect_ae421c8b51f4b5f859b03ea719d384e8f_icgraph.svg" width="584" height="286"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_effect_ad48818ca38f71bb7d5e844bd220ffce0_icgraph.svg" width="584" height="286"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a928c504cba23842da98461acb52eb7e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a928c504cba23842da98461acb52eb7e0">&#9670;&nbsp;</a></span>GetCorrutine()</h2>
+<a id="a280600ca7907b4f73d355e6a62a7040c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a280600ca7907b4f73d355e6a62a7040c">&#9670;&nbsp;</a></span>GetCorrutine()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -178,9 +172,19 @@ Gràfic de crides a aquesta funció:</div>
         <tr>
           <td class="memname">abstract IEnumerator Effect.GetCorrutine </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_player_stats.html">PlayerStats</a>&#160;</td>
-          <td class="paramname"><em>stats</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_movable_stats.html">MovableStats</a>&#160;</td>
+          <td class="paramname"><em>stats</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="class_effect_manager.html">EffectManager</a>&#160;</td>
+          <td class="paramname"><em>manager</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -190,27 +194,12 @@ Gràfic de crides a aquesta funció:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implementat a <a class="el" href="class_statistic_change_effect.html#a34cf0b14b23da130e3b32589b1126614">StatisticChangeEffect</a> i <a class="el" href="class_instant_effect.html#a07e60429c030406f1a8892ad76b63f45">InstantEffect</a>.</p>
+<p>Implementat a <a class="el" href="class_instant_effect.html#aed6b908b0ffe3229c4d539b3b7305120">InstantEffect</a> i <a class="el" href="class_statistic_change_effect.html#a6b97d63af2684fc63da404170c15706b">StatisticChangeEffect</a>.</p>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_effect_a928c504cba23842da98461acb52eb7e0_icgraph.svg" width="611" height="286"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_effect_a280600ca7907b4f73d355e6a62a7040c_icgraph.svg" width="611" height="286"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-
-</div>
-</div>
-<h2 class="groupheader">Documentació de les Dades Membre</h2>
-<a id="af97c60deac4677fe1aec13cd9567bb5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af97c60deac4677fe1aec13cd9567bb5b">&#9670;&nbsp;</a></span>eName</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">string Effect.eName = &quot;New <a class="el" href="class_effect.html">Effect</a>&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

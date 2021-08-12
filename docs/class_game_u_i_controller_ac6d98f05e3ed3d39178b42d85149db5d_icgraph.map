@@ -1,0 +1,6 @@
+<map id="GameUIController.UpdateMinions" name="GameUIController.UpdateMinions">
+<area shape="rect" id="node1" title=" " alt="" coords="637,5,852,32"/>
+<area shape="rect" id="node2" href="$class_game_controller.html#a708420d4559f1a7ad5d1a50d6b3df9bf" title="One of the players killed a minion." alt="" coords="412,5,589,32"/>
+<area shape="rect" id="node3" href="$class_minion_stats.html#a5366cb256edc6dc42f01c2907ee14e7a" title="Function that implements what is done when this entity dies." alt="" coords="249,5,364,32"/>
+<area shape="rect" id="node4" href="$class_minion_stats.html#ad1a8cab09c44cd06629a2dbe924c83ff" title=" " alt="" coords="5,5,201,32"/>
+</map>
