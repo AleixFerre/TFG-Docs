@@ -1,5 +1,6 @@
 var class_item =
 [
+    [ "category", "class_item.html#a5ad1e82d7a72099c4a6e6fa343a2a246", null ],
     [ "iDescription", "class_item.html#a54948b69617f3bf1c46a8ad75e32c597", null ],
     [ "iEffects", "class_item.html#a9cfcd2950bcb6255b325e0800e03cda6", null ],
     [ "iGoldCost", "class_item.html#a5116db206195100929b366e87ca37099", null ],

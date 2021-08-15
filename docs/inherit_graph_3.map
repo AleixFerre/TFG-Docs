@@ -1,5 +1,3 @@
 <map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
-<area shape="rect" id="node1" title=" " alt="" coords="61,5,144,32"/>
-<area shape="rect" id="node2" href="$class_generic_dictionary.html" title="Generic Serializable Dictionary for Unity 2020.1." alt="" coords="248,23,381,65"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,56,200,83"/>
+<area shape="rect" id="node1" href="$struct_generic_dictionary_1_1_key_value_pair.html" title=" " alt="" coords="5,5,204,47"/>
 </map>

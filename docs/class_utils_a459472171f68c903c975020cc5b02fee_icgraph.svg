@@ -208,7 +208,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_nexus_stats.html#ae804a5fa576e7252285f85ff03aa0615" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="class_nexus_stats.html#ab95924ed5e4afbc80b9ead5a186f6b79" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="828.5,-572.5 828.5,-591.5 974.5,-591.5 974.5,-572.5 828.5,-572.5"/>
 <text text-anchor="middle" x="901.5" y="-579.5" font-family="Helvetica,sans-Serif" font-size="10.00">NexusStats.DealDamageRPC</text>
 </a>
@@ -223,7 +223,7 @@ var sectionId = 'dynsection-0';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_turret_stats.html#a503110135edcf63f735168caec63debd" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="class_turret_stats.html#a2033725304e14040f7e2a92e1a32fc5c" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="830,-534.5 830,-553.5 973,-553.5 973,-534.5 830,-534.5"/>
 <text text-anchor="middle" x="901.5" y="-541.5" font-family="Helvetica,sans-Serif" font-size="10.00">TurretStats.DealDamageRPC</text>
 </a>
@@ -238,7 +238,7 @@ var sectionId = 'dynsection-0';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_minion_stats.html#ad1a8cab09c44cd06629a2dbe924c83ff" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="class_minion_stats.html#a0a96f247dbad88ea2ebbcac31069cfb9" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="828,-496.5 828,-515.5 975,-515.5 975,-496.5 828,-496.5"/>
 <text text-anchor="middle" x="901.5" y="-503.5" font-family="Helvetica,sans-Serif" font-size="10.00">MinionStats.DealDamageRPC</text>
 </a>
@@ -268,7 +268,7 @@ var sectionId = 'dynsection-0';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="class_player_stats.html#af3f5e42d89a4925ff14f7edc904513ad" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="135,-28.5 135,-47.5 281,-47.5 281,-28.5 135,-28.5"/>
 <text text-anchor="middle" x="208" y="-35.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.DealDamageRPC</text>
 </a>

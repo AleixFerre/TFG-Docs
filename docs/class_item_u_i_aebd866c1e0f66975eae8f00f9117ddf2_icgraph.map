@@ -1,0 +1,5 @@
+<map id="ItemUI.Initialize" name="ItemUI.Initialize">
+<area shape="rect" id="node1" title=" " alt="" coords="309,5,420,32"/>
+<area shape="rect" id="node2" href="$class_shop.html#ac7740abbc4e7ac58cb7b8d7ad41f7a33" title=" " alt="" coords="137,5,261,32"/>
+<area shape="rect" id="node3" href="$class_shop.html#ae0e651cd12e281aa7a6436d02355756b" title=" " alt="" coords="5,5,89,32"/>
+</map>

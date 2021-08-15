@@ -1,5 +1,5 @@
 <map id="ModelPlayerMediator.DamageBasicAttack" name="ModelPlayerMediator.DamageBasicAttack">
 <area shape="rect" id="node1" title=" " alt="" coords="5,5,201,47"/>
 <area shape="rect" id="node2" href="$class_basic_attack.html#ab41a7fd3006e5a8a3d2d8399d41e630f" title=" " alt="" coords="249,13,465,39"/>
-<area shape="rect" id="node3" href="$class_stats.html#addb9e052562b5e3fcab17ee2c1fa60f9" title="Specify the amount of damage and the Inventory that the amount of Gold will go in if it is hit for th..." alt="" coords="513,13,644,39"/>
+<area shape="rect" id="node3" href="$class_stats.html#acba1e25dcc4ca826d7974c8d4f611609" title="Specify the amount of damage and the Inventory that the amount of Gold will go in if it is hit for th..." alt="" coords="513,13,644,39"/>
 </map>

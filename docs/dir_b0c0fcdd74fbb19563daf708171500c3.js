@@ -1,5 +1,8 @@
 var dir_b0c0fcdd74fbb19563daf708171500c3 =
 [
+    [ "BaseRegenerator.cs", "_base_regenerator_8cs.html", [
+      [ "BaseRegenerator", "class_base_regenerator.html", "class_base_regenerator" ]
+    ] ],
     [ "GameController.cs", "_game_controller_8cs.html", [
       [ "GameController", "class_game_controller.html", "class_game_controller" ]
     ] ],

@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_nexus_stats.html#ae804a5fa576e7252285f85ff03aa0615" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="class_nexus_stats.html#ab95924ed5e4afbc80b9ead5a186f6b79" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 146,-19.5 146,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="73" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">NexusStats.DealDamageRPC</text>
 </a>

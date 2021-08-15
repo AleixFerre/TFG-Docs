@@ -115,19 +115,18 @@ $(document).ready(function(){initNavTree('class_turret_stats.html',''); initResi
 <div class="dynheader">
 Diagrama d'Herència per a TurretStats:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_stats__inherit__graph.svg" width="122" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_stats__inherit__graph.svg" width="122" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
-<tr class="memitem:aee98bd9f23c2bb2192d3fbc961d15004"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_stats.html#aee98bd9f23c2bb2192d3fbc961d15004">DealDamage</a> (int amount, <a class="el" href="class_inventory.html">Inventory</a> who)</td></tr>
-<tr class="memdesc:aee98bd9f23c2bb2192d3fbc961d15004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the amount of damage and the <a class="el" href="class_inventory.html">Inventory</a> that the amount of Gold will go in if it is hit for the last time  <a href="class_turret_stats.html#aee98bd9f23c2bb2192d3fbc961d15004">Més...</a><br /></td></tr>
-<tr class="separator:aee98bd9f23c2bb2192d3fbc961d15004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af46d98017e579bee2c75ba4da9869daa"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_stats.html#af46d98017e579bee2c75ba4da9869daa">DealDamage</a> (int physicalDamage, int magicalDamage, int trueDamage, <a class="el" href="class_inventory.html">Inventory</a> who)</td></tr>
+<tr class="memdesc:af46d98017e579bee2c75ba4da9869daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the amount of damage and the <a class="el" href="class_inventory.html">Inventory</a> that the amount of Gold will go in if it is hit for the last time  <a href="class_turret_stats.html#af46d98017e579bee2c75ba4da9869daa">Més...</a><br /></td></tr>
+<tr class="separator:af46d98017e579bee2c75ba4da9869daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_structure_stats"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_structure_stats')"><img src="closed.png" alt="-"/>&#160;Mètodes públics inherited from <a class="el" href="class_structure_stats.html">StructureStats</a></td></tr>
-<tr class="memitem:afa9bb92887ecc5840e8c40c68137917c inherit pub_methods_class_structure_stats"><td class="memItemLeft" align="right" valign="top">override float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_structure_stats.html#afa9bb92887ecc5840e8c40c68137917c">GetRange</a> ()</td></tr>
-<tr class="memdesc:afa9bb92887ecc5840e8c40c68137917c inherit pub_methods_class_structure_stats"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the range of the entity  <a href="class_structure_stats.html#afa9bb92887ecc5840e8c40c68137917c">Més...</a><br /></td></tr>
-<tr class="separator:afa9bb92887ecc5840e8c40c68137917c inherit pub_methods_class_structure_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52c2896887d916143811c4bff751dd6c inherit pub_methods_class_structure_stats"><td class="memItemLeft" align="right" valign="top">override sealed float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_structure_stats.html#a52c2896887d916143811c4bff751dd6c">GetRange</a> ()</td></tr>
+<tr class="memdesc:a52c2896887d916143811c4bff751dd6c inherit pub_methods_class_structure_stats"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the range of the entity  <a href="class_structure_stats.html#a52c2896887d916143811c4bff751dd6c">Més...</a><br /></td></tr>
+<tr class="separator:a52c2896887d916143811c4bff751dd6c inherit pub_methods_class_structure_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Atributs Públics</h2></td></tr>
@@ -140,11 +139,15 @@ Atributs Públics</h2></td></tr>
 <tr class="inherit_header pub_attribs_class_structure_stats"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_structure_stats')"><img src="closed.png" alt="-"/>&#160;Atributs Públics inherited from <a class="el" href="class_structure_stats.html">StructureStats</a></td></tr>
 <tr class="memitem:a59b01526c3fa1b0feaf1b51ba9de2011 inherit pub_attribs_class_structure_stats"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_structure_stats.html#a59b01526c3fa1b0feaf1b51ba9de2011">structureRadius</a> = 1f</td></tr>
 <tr class="separator:a59b01526c3fa1b0feaf1b51ba9de2011 inherit pub_attribs_class_structure_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9eb8a3e518b30c7f74f91efe828b433 inherit pub_attribs_class_structure_stats"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_structure_stats.html#ab9eb8a3e518b30c7f74f91efe828b433">activated</a> = false</td></tr>
+<tr class="separator:ab9eb8a3e518b30c7f74f91efe828b433 inherit pub_attribs_class_structure_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a030ab2c7d2c9445069e285ecbba2235f inherit pub_attribs_class_structure_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_structure_stats.html#a030ab2c7d2c9445069e285ecbba2235f">initHP</a></td></tr>
 <tr class="separator:a030ab2c7d2c9445069e285ecbba2235f inherit pub_attribs_class_structure_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_stats"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_stats')"><img src="closed.png" alt="-"/>&#160;Atributs Públics inherited from <a class="el" href="class_stats.html">Stats</a></td></tr>
 <tr class="memitem:ab661897854a3917b933c5176a4a3bcc5 inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#ab661897854a3917b933c5176a4a3bcc5">HP</a></td></tr>
 <tr class="separator:ab661897854a3917b933c5176a4a3bcc5 inherit pub_attribs_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc8d3370552e1d04b85f0a9d67a5800f inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#abc8d3370552e1d04b85f0a9d67a5800f">armor</a></td></tr>
+<tr class="separator:abc8d3370552e1d04b85f0a9d67a5800f inherit pub_attribs_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdb9bb504223bfff99551a4fa15978fc inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#acdb9bb504223bfff99551a4fa15978fc">isDead</a> = false</td></tr>
 <tr class="separator:acdb9bb504223bfff99551a4fa15978fc inherit pub_attribs_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b9e3df188c9f4a679aa20f3922bcb2a inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#a1b9e3df188c9f4a679aa20f3922bcb2a">team</a></td></tr>
@@ -155,13 +158,19 @@ Mètodes Protegits</h2></td></tr>
 <tr class="memitem:afba2a2bb8d56fba966bb1c8ff069b63a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_stats.html#afba2a2bb8d56fba966bb1c8ff069b63a">Die</a> ()</td></tr>
 <tr class="memdesc:afba2a2bb8d56fba966bb1c8ff069b63a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that implements what is done when this entity dies.  <a href="class_turret_stats.html#afba2a2bb8d56fba966bb1c8ff069b63a">Més...</a><br /></td></tr>
 <tr class="separator:afba2a2bb8d56fba966bb1c8ff069b63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc8826b6b4090ba3d1b9aadbe4b5076f"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_stats.html#afc8826b6b4090ba3d1b9aadbe4b5076f">Activate</a> ()</td></tr>
+<tr class="separator:afc8826b6b4090ba3d1b9aadbe4b5076f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_stats"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_stats')"><img src="closed.png" alt="-"/>&#160;Mètodes Protegits inherited from <a class="el" href="class_stats.html">Stats</a></td></tr>
+<tr class="memitem:a9df505fedc8cd6b56e743913cafe8c0c inherit pro_methods_class_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#a9df505fedc8cd6b56e743913cafe8c0c">DamageReduction</a> (int physicalDamage, int magicalDamage, int trueDamage)</td></tr>
+<tr class="memdesc:a9df505fedc8cd6b56e743913cafe8c0c inherit pro_methods_class_stats"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the corresponding damage to this entity according to the armor and magicResist it have  <a href="class_stats.html#a9df505fedc8cd6b56e743913cafe8c0c">Més...</a><br /></td></tr>
+<tr class="separator:a9df505fedc8cd6b56e743913cafe8c0c inherit pro_methods_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Mètodes Privats</h2></td></tr>
 <tr class="memitem:a3192f8253accadf672e3afb4de7391eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_stats.html#a3192f8253accadf672e3afb4de7391eb">Start</a> ()</td></tr>
 <tr class="separator:a3192f8253accadf672e3afb4de7391eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a503110135edcf63f735168caec63debd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_stats.html#a503110135edcf63f735168caec63debd">DealDamageRPC</a> (int amount, string who)</td></tr>
-<tr class="separator:a503110135edcf63f735168caec63debd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2033725304e14040f7e2a92e1a32fc5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turret_stats.html#a2033725304e14040f7e2a92e1a32fc5c">DealDamageRPC</a> (int physicalDamage, int magicalDamage, int trueDamage, string who)</td></tr>
+<tr class="separator:a2033725304e14040f7e2a92e1a32fc5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Atributs Privats</h2></td></tr>
@@ -171,8 +180,6 @@ Atributs Privats</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_class_structure_stats"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_structure_stats')"><img src="closed.png" alt="-"/>&#160;Atributs Protegits inherited from <a class="el" href="class_structure_stats.html">StructureStats</a></td></tr>
-<tr class="memitem:ab9eb8a3e518b30c7f74f91efe828b433 inherit pro_attribs_class_structure_stats"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_structure_stats.html#ab9eb8a3e518b30c7f74f91efe828b433">activated</a> = false</td></tr>
-<tr class="separator:ab9eb8a3e518b30c7f74f91efe828b433 inherit pro_attribs_class_structure_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ff873ac031bd48dd69ec591123d4ca5 inherit pro_attribs_class_structure_stats"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_structure_stats.html">StructureStats</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_structure_stats.html#a6ff873ac031bd48dd69ec591123d4ca5">structuresToActivateWhenDead</a></td></tr>
 <tr class="separator:a6ff873ac031bd48dd69ec591123d4ca5 inherit pro_attribs_class_structure_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_stats"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_stats')"><img src="closed.png" alt="-"/>&#160;Atributs Protegits inherited from <a class="el" href="class_stats.html">Stats</a></td></tr>
@@ -180,8 +187,40 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:aef879deb07564f768be5355c15cfa558 inherit pro_attribs_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentació de les Funcions Membre</h2>
-<a id="aee98bd9f23c2bb2192d3fbc961d15004"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee98bd9f23c2bb2192d3fbc961d15004">&#9670;&nbsp;</a></span>DealDamage()</h2>
+<a id="afc8826b6b4090ba3d1b9aadbe4b5076f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc8826b6b4090ba3d1b9aadbe4b5076f">&#9670;&nbsp;</a></span>Activate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void TurretStats.Activate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="class_structure_stats.html#ae1bcd69f106e8a15d456ce6230731b03">StructureStats</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_turret_stats_afc8826b6b4090ba3d1b9aadbe4b5076f_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af46d98017e579bee2c75ba4da9869daa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af46d98017e579bee2c75ba4da9869daa">&#9670;&nbsp;</a></span>DealDamage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,7 +232,19 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">override void TurretStats.DealDamage </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>amount</em>, </td>
+          <td class="paramname"><em>physicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>magicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>trueDamage</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -217,18 +268,20 @@ Additional Inherited Members</h2></td></tr>
 <p>Specify the amount of damage and the <a class="el" href="class_inventory.html">Inventory</a> that the amount of Gold will go in if it is hit for the last time </p>
 <dl class="params"><dt>Paràmetres</dt><dd>
   <table class="params">
-    <tr><td class="paramname">amount</td><td>The amount of pre-calculated damage</td></tr>
+    <tr><td class="paramname">physicalDamage</td><td>The amount of Physical Damage dealt</td></tr>
+    <tr><td class="paramname">magicalDamage</td><td>The amount of Magical Damage dealt</td></tr>
+    <tr><td class="paramname">trueDamage</td><td>The amount of True Damage dealt</td></tr>
     <tr><td class="paramname">who</td><td><a class="el" href="class_inventory.html">Inventory</a> from who is attacking. Optional for the non-player entities.</td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implementa <a class="el" href="class_stats.html#addb9e052562b5e3fcab17ee2c1fa60f9">Stats</a>.</p>
+<p>Implementa <a class="el" href="class_stats.html#acba1e25dcc4ca826d7974c8d4f611609">Stats</a>.</p>
 
 </div>
 </div>
-<a id="a503110135edcf63f735168caec63debd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a503110135edcf63f735168caec63debd">&#9670;&nbsp;</a></span>DealDamageRPC()</h2>
+<a id="a2033725304e14040f7e2a92e1a32fc5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2033725304e14040f7e2a92e1a32fc5c">&#9670;&nbsp;</a></span>DealDamageRPC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,7 +293,19 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">void TurretStats.DealDamageRPC </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>amount</em>, </td>
+          <td class="paramname"><em>physicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>magicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>trueDamage</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -263,7 +328,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_turret_stats_a503110135edcf63f735168caec63debd_cgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_turret_stats_a2033725304e14040f7e2a92e1a32fc5c_cgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -293,16 +359,18 @@ Gràfic de crides d'aquesta funció:</div>
 
 <p>Function that implements what is done when this entity dies. </p>
 
-<p>Implementa <a class="el" href="class_stats.html#a7d78d923fe19940fd45a276035a009c8">Stats</a>.</p>
+<p>Reimplementat de <a class="el" href="class_structure_stats.html#a47d6bbbce7de8a935120066f849d8bd4">StructureStats</a>.</p>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_stats_afba2a2bb8d56fba966bb1c8ff069b63a_cgraph.svg" width="600" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_stats_afba2a2bb8d56fba966bb1c8ff069b63a_cgraph.svg" width="600" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_stats_afba2a2bb8d56fba966bb1c8ff069b63a_icgraph.svg" width="359" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_turret_stats_afba2a2bb8d56fba966bb1c8ff069b63a_icgraph.svg" width="359" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

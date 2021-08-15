@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['magicresist_1450',['MagicResist',['../_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92ba8e7f4869c160be729031fc88ef030ec2',1,'Statistic.cs']]],
-  ['main_5fmenu_1451',['MAIN_MENU',['../_scenes_8cs.html#a23cc8aadc51c6514e8ba08140a570f8caa16d505f03a4b6f35486f65f6a61317e',1,'Scenes.cs']]],
-  ['manager_1452',['MANAGER',['../_scenes_8cs.html#a23cc8aadc51c6514e8ba08140a570f8ca929a43a844650a2ba236b9a50d1bbd20',1,'Scenes.cs']]],
-  ['movementspeed_1453',['MovementSpeed',['../_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022a6ac1a7dc525ac874fef15626633a9c9c',1,'Statistic.cs']]]
+  ['loading_1528',['LOADING',['../_scenes_8cs.html#a23cc8aadc51c6514e8ba08140a570f8caf9f6955ebca09a484157c05f80acd65e',1,'Scenes.cs']]],
+  ['lobby_1529',['LOBBY',['../_scenes_8cs.html#a23cc8aadc51c6514e8ba08140a570f8ca531109fbee70c7b3d1196aff910e52a2',1,'Scenes.cs']]]
 ];

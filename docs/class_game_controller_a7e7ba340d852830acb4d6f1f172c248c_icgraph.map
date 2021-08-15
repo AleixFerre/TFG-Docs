@@ -1,5 +1,5 @@
 <map id="GameController.GetTime" name="GameController.GetTime">
 <area shape="rect" id="node1" title="Get the current time in seconds from the start of the game" alt="" coords="412,5,577,32"/>
 <area shape="rect" id="node2" href="$class_minion_stats.html#a5366cb256edc6dc42f01c2907ee14e7a" title="Function that implements what is done when this entity dies." alt="" coords="249,5,364,32"/>
-<area shape="rect" id="node3" href="$class_minion_stats.html#ad1a8cab09c44cd06629a2dbe924c83ff" title=" " alt="" coords="5,5,201,32"/>
+<area shape="rect" id="node3" href="$class_minion_stats.html#a0a96f247dbad88ea2ebbcac31069cfb9" title=" " alt="" coords="5,5,201,32"/>
 </map>

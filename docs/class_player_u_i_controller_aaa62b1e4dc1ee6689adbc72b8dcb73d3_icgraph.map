@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="When you heal HP, we will reset the lerped bar" alt="" coords="1553,99,1743,125"/>
 <area shape="rect" id="node2" href="$class_player_u_i_controller.html#aca577b724c1f3f2ed54ad1165a7842c2" title="Sets the current HP value to the Image." alt="" coords="1335,47,1505,89"/>
 <area shape="rect" id="node10" href="$class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="1335,123,1505,165"/>
-<area shape="rect" id="node3" href="$class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed" title=" " alt="" coords="185,68,380,95"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#af3f5e42d89a4925ff14f7edc904513ad" title=" " alt="" coords="185,68,380,95"/>
 <area shape="rect" id="node4" href="$class_player_stats.html#ae2c6a9d91ac8ff99b7f0dc32079f1931" title=" " alt="" coords="1125,43,1271,69"/>
 <area shape="rect" id="node8" href="$class_player_stats.html#a75c908d1b8c5eb0b414db7ab99ceab9e" title="Called whenever the player levels up." alt="" coords="1129,93,1267,120"/>
 <area shape="rect" id="node5" href="$class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" title="This is triggered when the player respawns." alt="" coords="901,43,1047,69"/>

@@ -1,6 +1,6 @@
 <map id="Ability_Lis4.DealDamageInTime" name="Ability_Lis4.DealDamageInTime">
 <area shape="rect" id="node1" title=" " alt="" coords="5,56,211,83"/>
 <area shape="rect" id="node2" href="$class_ability_base.html#a2def910c9621754a4e91d49ab5455af4" title="Returns the calculated damage." alt="" coords="259,5,453,32"/>
-<area shape="rect" id="node3" href="$class_stats.html#addb9e052562b5e3fcab17ee2c1fa60f9" title="Specify the amount of damage and the Inventory that the amount of Gold will go in if it is hit for th..." alt="" coords="291,56,421,83"/>
+<area shape="rect" id="node3" href="$class_stats.html#acba1e25dcc4ca826d7974c8d4f611609" title="Specify the amount of damage and the Inventory that the amount of Gold will go in if it is hit for th..." alt="" coords="291,56,421,83"/>
 <area shape="rect" id="node4" href="$class_ability.html#a548a250c44f3c230ac82ad28a6c78720" title=" " alt="" coords="289,107,423,133"/>
 </map>

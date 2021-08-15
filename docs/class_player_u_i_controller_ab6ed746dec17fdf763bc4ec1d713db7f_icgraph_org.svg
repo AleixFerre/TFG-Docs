@@ -80,7 +80,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="class_player_stats.html#af3f5e42d89a4925ff14f7edc904513ad" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="135,-76.5 135,-95.5 281,-95.5 281,-76.5 135,-76.5"/>
 <text text-anchor="middle" x="208" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.DealDamageRPC</text>
 </a>

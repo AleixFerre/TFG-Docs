@@ -119,8 +119,7 @@ $(document).ready(function(){initNavTree('class_player_stats.html',''); initResi
 <div class="dynheader">
 Diagrama d'Herència per a PlayerStats:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats__inherit__graph.svg" width="127" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats__inherit__graph.svg" width="127" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -128,9 +127,9 @@ Mètodes públics</h2></td></tr>
 <tr class="memitem:ae874ab5cbb490cbdcf3f5613b8bc2240"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240">Initialize</a> (<a class="el" href="class_character.html">Character</a> character, Animator _anim, PhotonView _view, GameObject indicator)</td></tr>
 <tr class="memdesc:ae874ab5cbb490cbdcf3f5613b8bc2240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the actual <a class="el" href="class_stats.html">Stats</a> of the Player.  <a href="class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240">Més...</a><br /></td></tr>
 <tr class="separator:ae874ab5cbb490cbdcf3f5613b8bc2240"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a647f9b1d02b99a9f35a69f10e9982208"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#a647f9b1d02b99a9f35a69f10e9982208">DealDamage</a> (int amount, <a class="el" href="class_inventory.html">Inventory</a> who)</td></tr>
-<tr class="memdesc:a647f9b1d02b99a9f35a69f10e9982208"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the amount of damage and the <a class="el" href="class_inventory.html">Inventory</a> that the amount of Gold will go in if it is hit for the last time  <a href="class_player_stats.html#a647f9b1d02b99a9f35a69f10e9982208">Més...</a><br /></td></tr>
-<tr class="separator:a647f9b1d02b99a9f35a69f10e9982208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c981655955bbd00bb32b1f29ae59de0"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#a6c981655955bbd00bb32b1f29ae59de0">DealDamage</a> (int physicalDamage, int magicalDamage, int trueDamage, <a class="el" href="class_inventory.html">Inventory</a> who)</td></tr>
+<tr class="memdesc:a6c981655955bbd00bb32b1f29ae59de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the amount of damage and the <a class="el" href="class_inventory.html">Inventory</a> that the amount of Gold will go in if it is hit for the last time  <a href="class_player_stats.html#a6c981655955bbd00bb32b1f29ae59de0">Més...</a><br /></td></tr>
+<tr class="separator:a6c981655955bbd00bb32b1f29ae59de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27fb46ca044608f34db45eb95ac16b4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c">Respawn</a> ()</td></tr>
 <tr class="memdesc:a27fb46ca044608f34db45eb95ac16b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is triggered when the player respawns.  <a href="class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c">Més...</a><br /></td></tr>
 <tr class="separator:a27fb46ca044608f34db45eb95ac16b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,6 +173,8 @@ Atributs Públics</h2></td></tr>
 <tr class="separator:a13688e05f1cd83724ffa8ae871e3a907"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac295f6f537f7115ab0da83d3c53d6a38"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#ac295f6f537f7115ab0da83d3c53d6a38">layerMask</a></td></tr>
 <tr class="separator:ac295f6f537f7115ab0da83d3c53d6a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab792bd20781f5593b352964dc30a7419"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#ab792bd20781f5593b352964dc30a7419">critChance</a></td></tr>
+<tr class="separator:ab792bd20781f5593b352964dc30a7419"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8848e2454233b252ffd2594ddfb12b3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#ab8848e2454233b252ffd2594ddfb12b3">MP</a></td></tr>
 <tr class="separator:ab8848e2454233b252ffd2594ddfb12b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae099712c00670682d91194fff33086bd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#ae099712c00670682d91194fff33086bd">maxMP</a></td></tr>
@@ -200,6 +201,8 @@ Atributs Públics</h2></td></tr>
 <tr class="inherit_header pub_attribs_class_stats"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_stats')"><img src="closed.png" alt="-"/>&#160;Atributs Públics inherited from <a class="el" href="class_stats.html">Stats</a></td></tr>
 <tr class="memitem:ab661897854a3917b933c5176a4a3bcc5 inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#ab661897854a3917b933c5176a4a3bcc5">HP</a></td></tr>
 <tr class="separator:ab661897854a3917b933c5176a4a3bcc5 inherit pub_attribs_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc8d3370552e1d04b85f0a9d67a5800f inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#abc8d3370552e1d04b85f0a9d67a5800f">armor</a></td></tr>
+<tr class="separator:abc8d3370552e1d04b85f0a9d67a5800f inherit pub_attribs_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdb9bb504223bfff99551a4fa15978fc inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#acdb9bb504223bfff99551a4fa15978fc">isDead</a> = false</td></tr>
 <tr class="separator:acdb9bb504223bfff99551a4fa15978fc inherit pub_attribs_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b9e3df188c9f4a679aa20f3922bcb2a inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#a1b9e3df188c9f4a679aa20f3922bcb2a">team</a></td></tr>
@@ -209,8 +212,6 @@ Atributs Públics</h2></td></tr>
 Mètodes Protegits</h2></td></tr>
 <tr class="memitem:ae2c6a9d91ac8ff99b7f0dc32079f1931"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#ae2c6a9d91ac8ff99b7f0dc32079f1931">HealRPC</a> (int amount)</td></tr>
 <tr class="separator:ae2c6a9d91ac8ff99b7f0dc32079f1931"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6542a649dfb0cccc9fe329c83024e3ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed">DealDamageRPC</a> (int amount, string who)</td></tr>
-<tr class="separator:a6542a649dfb0cccc9fe329c83024e3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5caca2bd8f676341a2b269aea8a0f1ff"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff">Die</a> ()</td></tr>
 <tr class="memdesc:a5caca2bd8f676341a2b269aea8a0f1ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that implements what is done when this entity dies.  <a href="class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff">Més...</a><br /></td></tr>
 <tr class="separator:a5caca2bd8f676341a2b269aea8a0f1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,6 +221,10 @@ Mètodes Protegits</h2></td></tr>
 <tr class="separator:a0348bfd846a1fb5122239414e9ec558b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af74a866a9312c345f3cd03235be2f329"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#af74a866a9312c345f3cd03235be2f329">AddXpRPC</a> (int amount)</td></tr>
 <tr class="separator:af74a866a9312c345f3cd03235be2f329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_stats"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_stats')"><img src="closed.png" alt="-"/>&#160;Mètodes Protegits inherited from <a class="el" href="class_stats.html">Stats</a></td></tr>
+<tr class="memitem:a9df505fedc8cd6b56e743913cafe8c0c inherit pro_methods_class_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#a9df505fedc8cd6b56e743913cafe8c0c">DamageReduction</a> (int physicalDamage, int magicalDamage, int trueDamage)</td></tr>
+<tr class="memdesc:a9df505fedc8cd6b56e743913cafe8c0c inherit pro_methods_class_stats"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the corresponding damage to this entity according to the armor and magicResist it have  <a href="class_stats.html#a9df505fedc8cd6b56e743913cafe8c0c">Més...</a><br /></td></tr>
+<tr class="separator:a9df505fedc8cd6b56e743913cafe8c0c inherit pro_methods_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Atributs Protegits</h2></td></tr>
@@ -241,6 +246,8 @@ Mètodes Privats</h2></td></tr>
 <tr class="separator:ae25b7817bb5fb9dad046cf347ae7af45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15175185aaa4f8290e5148640f0ff80a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#a15175185aaa4f8290e5148640f0ff80a">Update</a> ()</td></tr>
 <tr class="separator:a15175185aaa4f8290e5148640f0ff80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3f5e42d89a4925ff14f7edc904513ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#af3f5e42d89a4925ff14f7edc904513ad">DealDamageRPC</a> (int physicalDamage, int magicalDamage, int trueDamage, string who)</td></tr>
+<tr class="separator:af3f5e42d89a4925ff14f7edc904513ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a620fe13f60352662681e10c7ee39d975"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#a620fe13f60352662681e10c7ee39d975">DestroyCurrentAbilities</a> ()</td></tr>
 <tr class="memdesc:a620fe13f60352662681e10c7ee39d975"><td class="mdescLeft">&#160;</td><td class="mdescRight">We trigger this function when the player dies in order to destroy all the current player abilities nearby.  <a href="class_player_stats.html#a620fe13f60352662681e10c7ee39d975">Més...</a><br /></td></tr>
 <tr class="separator:a620fe13f60352662681e10c7ee39d975"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,6 +266,8 @@ Mètodes Privats</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Atributs Privats</h2></td></tr>
+<tr class="memitem:ac76f92f1a3dc87c8c39dc157639b4180"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#ac76f92f1a3dc87c8c39dc157639b4180">critPower</a></td></tr>
+<tr class="separator:ac76f92f1a3dc87c8c39dc157639b4180"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab627fd14db469942fd167a478c4b9532"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#ab627fd14db469942fd167a478c4b9532">attackSpeed</a></td></tr>
 <tr class="separator:ab627fd14db469942fd167a478c4b9532"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56c77fddd00d49e39aa7c6d6999b1e84"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#a56c77fddd00d49e39aa7c6d6999b1e84">XPAmount</a></td></tr>
@@ -269,8 +278,6 @@ Atributs Privats</h2></td></tr>
 <tr class="separator:acbd6bd09e969f6a7ed285ae62a51d2d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7402c6f256fa7864bbb8b1f4a1a5c461"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#a7402c6f256fa7864bbb8b1f4a1a5c461">lastRegenTime</a></td></tr>
 <tr class="separator:a7402c6f256fa7864bbb8b1f4a1a5c461"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac18a028060bf4e96c70b30346663b72c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_status_8cs.html#a67a0db04d321a74b7e7fcfd3f1a3f70b">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_stats.html#ac18a028060bf4e96c70b30346663b72c">status</a></td></tr>
-<tr class="separator:ac18a028060bf4e96c70b30346663b72c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
 <div class="textblock"><p>Player <a class="el" href="class_stats.html">Stats</a> is the main class that controls all the Player Statistics in all time in the game execution. </p>
@@ -296,7 +303,8 @@ Atributs Privats</h2></td></tr>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a2515cde362ce22291cde0073d23e2d9c_icgraph.svg" width="575" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a2515cde362ce22291cde0073d23e2d9c_icgraph.svg" width="575" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -572,8 +580,8 @@ Gràfic de crides a aquesta funció:</div>
 
 </div>
 </div>
-<a id="a647f9b1d02b99a9f35a69f10e9982208"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a647f9b1d02b99a9f35a69f10e9982208">&#9670;&nbsp;</a></span>DealDamage()</h2>
+<a id="a6c981655955bbd00bb32b1f29ae59de0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c981655955bbd00bb32b1f29ae59de0">&#9670;&nbsp;</a></span>DealDamage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -585,7 +593,19 @@ Gràfic de crides a aquesta funció:</div>
           <td class="memname">override void PlayerStats.DealDamage </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>amount</em>, </td>
+          <td class="paramname"><em>physicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>magicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>trueDamage</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -609,18 +629,20 @@ Gràfic de crides a aquesta funció:</div>
 <p>Specify the amount of damage and the <a class="el" href="class_inventory.html">Inventory</a> that the amount of Gold will go in if it is hit for the last time </p>
 <dl class="params"><dt>Paràmetres</dt><dd>
   <table class="params">
-    <tr><td class="paramname">amount</td><td>The amount of pre-calculated damage</td></tr>
+    <tr><td class="paramname">physicalDamage</td><td>The amount of Physical Damage dealt</td></tr>
+    <tr><td class="paramname">magicalDamage</td><td>The amount of Magical Damage dealt</td></tr>
+    <tr><td class="paramname">trueDamage</td><td>The amount of True Damage dealt</td></tr>
     <tr><td class="paramname">who</td><td><a class="el" href="class_inventory.html">Inventory</a> from who is attacking. Optional for the non-player entities.</td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implementa <a class="el" href="class_stats.html#addb9e052562b5e3fcab17ee2c1fa60f9">Stats</a>.</p>
+<p>Implementa <a class="el" href="class_stats.html#acba1e25dcc4ca826d7974c8d4f611609">Stats</a>.</p>
 
 </div>
 </div>
-<a id="a6542a649dfb0cccc9fe329c83024e3ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6542a649dfb0cccc9fe329c83024e3ed">&#9670;&nbsp;</a></span>DealDamageRPC()</h2>
+<a id="af3f5e42d89a4925ff14f7edc904513ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3f5e42d89a4925ff14f7edc904513ad">&#9670;&nbsp;</a></span>DealDamageRPC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -632,7 +654,19 @@ Gràfic de crides a aquesta funció:</div>
           <td class="memname">void PlayerStats.DealDamageRPC </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>amount</em>, </td>
+          <td class="paramname"><em>physicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>magicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>trueDamage</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -648,14 +682,15 @@ Gràfic de crides a aquesta funció:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_stats_a6542a649dfb0cccc9fe329c83024e3ed_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_stats_af3f5e42d89a4925ff14f7edc904513ad_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -687,7 +722,8 @@ Gràfic de crides d'aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a620fe13f60352662681e10c7ee39d975_icgraph.svg" width="596" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a620fe13f60352662681e10c7ee39d975_icgraph.svg" width="596" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -726,7 +762,8 @@ Gràfic de crides d'aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a5caca2bd8f676341a2b269aea8a0f1ff_icgraph.svg" width="367" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a5caca2bd8f676341a2b269aea8a0f1ff_icgraph.svg" width="367" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -908,7 +945,8 @@ Gràfic de crides d'aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_stats_ae874ab5cbb490cbdcf3f5613b8bc2240_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_stats_ae874ab5cbb490cbdcf3f5613b8bc2240_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1014,7 +1052,7 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a8d05b6ec32ee2a10f700a57ac7342340_icgraph.svg" width="386" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_stats_a8d05b6ec32ee2a10f700a57ac7342340_icgraph.svg" width="632" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1325,6 +1363,42 @@ Gràfic de crides d'aquesta funció:</div>
 
 </div>
 </div>
+<a id="ab792bd20781f5593b352964dc30a7419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab792bd20781f5593b352964dc30a7419">&#9670;&nbsp;</a></span>critChance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float PlayerStats.critChance</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac76f92f1a3dc87c8c39dc157639b4180"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac76f92f1a3dc87c8c39dc157639b4180">&#9670;&nbsp;</a></span>critPower</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float PlayerStats.critPower</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa5bb3f8a41afb53f9e4ba6bb34793ad1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa5bb3f8a41afb53f9e4ba6bb34793ad1">&#9670;&nbsp;</a></span>effectManager</h2>
 
@@ -1549,28 +1623,6 @@ Gràfic de crides d'aquesta funció:</div>
           <td class="memname">float PlayerStats.runMultiplicator</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac18a028060bf4e96c70b30346663b72c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac18a028060bf4e96c70b30346663b72c">&#9670;&nbsp;</a></span>status</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_status_8cs.html#a67a0db04d321a74b7e7fcfd3f1a3f70b">Status</a> PlayerStats.status</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

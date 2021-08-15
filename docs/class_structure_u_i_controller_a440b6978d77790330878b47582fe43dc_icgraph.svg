@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_nexus_stats.html#ae804a5fa576e7252285f85ff03aa0615" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="class_nexus_stats.html#ab95924ed5e4afbc80b9ead5a186f6b79" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="0,-38.5 0,-57.5 146,-57.5 146,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="73" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">NexusStats.DealDamageRPC</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_turret_stats.html#a503110135edcf63f735168caec63debd" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="class_turret_stats.html#a2033725304e14040f7e2a92e1a32fc5c" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="1.5,-0.5 1.5,-19.5 144.5,-19.5 144.5,-0.5 1.5,-0.5"/>
 <text text-anchor="middle" x="73" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TurretStats.DealDamageRPC</text>
 </a>

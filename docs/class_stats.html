@@ -118,15 +118,14 @@ $(document).ready(function(){initNavTree('class_stats.html',''); initResizable()
 <div class="dynheader">
 Diagrama d'Herència per a Stats:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_stats__inherit__graph.svg" width="450" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_stats__inherit__graph.svg" width="450" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
-<tr class="memitem:addb9e052562b5e3fcab17ee2c1fa60f9"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#addb9e052562b5e3fcab17ee2c1fa60f9">DealDamage</a> (int amount, <a class="el" href="class_inventory.html">Inventory</a> who=null)</td></tr>
-<tr class="memdesc:addb9e052562b5e3fcab17ee2c1fa60f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the amount of damage and the <a class="el" href="class_inventory.html">Inventory</a> that the amount of Gold will go in if it is hit for the last time  <a href="class_stats.html#addb9e052562b5e3fcab17ee2c1fa60f9">Més...</a><br /></td></tr>
-<tr class="separator:addb9e052562b5e3fcab17ee2c1fa60f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acba1e25dcc4ca826d7974c8d4f611609"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#acba1e25dcc4ca826d7974c8d4f611609">DealDamage</a> (int physicalDamage, int magicalDamage, int trueDamage, <a class="el" href="class_inventory.html">Inventory</a> who=null)</td></tr>
+<tr class="memdesc:acba1e25dcc4ca826d7974c8d4f611609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the amount of damage and the <a class="el" href="class_inventory.html">Inventory</a> that the amount of Gold will go in if it is hit for the last time  <a href="class_stats.html#acba1e25dcc4ca826d7974c8d4f611609">Més...</a><br /></td></tr>
+<tr class="separator:acba1e25dcc4ca826d7974c8d4f611609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad08d308b784a74c8a009ba48c0a237f"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#aad08d308b784a74c8a009ba48c0a237f">GetRange</a> ()</td></tr>
 <tr class="memdesc:aad08d308b784a74c8a009ba48c0a237f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the range of the entity  <a href="class_stats.html#aad08d308b784a74c8a009ba48c0a237f">Més...</a><br /></td></tr>
 <tr class="separator:aad08d308b784a74c8a009ba48c0a237f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,6 +134,8 @@ Mètodes públics</h2></td></tr>
 Atributs Públics</h2></td></tr>
 <tr class="memitem:ab661897854a3917b933c5176a4a3bcc5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#ab661897854a3917b933c5176a4a3bcc5">HP</a></td></tr>
 <tr class="separator:ab661897854a3917b933c5176a4a3bcc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc8d3370552e1d04b85f0a9d67a5800f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#abc8d3370552e1d04b85f0a9d67a5800f">armor</a></td></tr>
+<tr class="separator:abc8d3370552e1d04b85f0a9d67a5800f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdb9bb504223bfff99551a4fa15978fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#acdb9bb504223bfff99551a4fa15978fc">isDead</a> = false</td></tr>
 <tr class="separator:acdb9bb504223bfff99551a4fa15978fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b9e3df188c9f4a679aa20f3922bcb2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#a1b9e3df188c9f4a679aa20f3922bcb2a">team</a></td></tr>
@@ -142,6 +143,9 @@ Atributs Públics</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Mètodes Protegits</h2></td></tr>
+<tr class="memitem:a9df505fedc8cd6b56e743913cafe8c0c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#a9df505fedc8cd6b56e743913cafe8c0c">DamageReduction</a> (int physicalDamage, int magicalDamage, int trueDamage)</td></tr>
+<tr class="memdesc:a9df505fedc8cd6b56e743913cafe8c0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the corresponding damage to this entity according to the armor and magicResist it have  <a href="class_stats.html#a9df505fedc8cd6b56e743913cafe8c0c">Més...</a><br /></td></tr>
+<tr class="separator:a9df505fedc8cd6b56e743913cafe8c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d78d923fe19940fd45a276035a009c8"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#a7d78d923fe19940fd45a276035a009c8">Die</a> ()</td></tr>
 <tr class="memdesc:a7d78d923fe19940fd45a276035a009c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that implements what is done when this entity dies.  <a href="class_stats.html#a7d78d923fe19940fd45a276035a009c8">Més...</a><br /></td></tr>
 <tr class="separator:a7d78d923fe19940fd45a276035a009c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,13 +159,74 @@ Atributs Protegits</h2></td></tr>
 Atributs Privats</h2></td></tr>
 <tr class="memitem:a1d40ac4607ee9cafae05e9118d8a6bf7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#a1d40ac4607ee9cafae05e9118d8a6bf7">maxHP</a></td></tr>
 <tr class="separator:a1d40ac4607ee9cafae05e9118d8a6bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf64ae5964ca54bc9853328551f7c686"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#aaf64ae5964ca54bc9853328551f7c686">magicResist</a></td></tr>
+<tr class="separator:aaf64ae5964ca54bc9853328551f7c686"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
 <div class="textblock"><p>Base class <a class="el" href="class_stats.html">Stats</a> of the entity.</p>
 <p>This class is abstract so DO NOT INSTANTIATE an object with this type.</p>
 </div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
-<a id="addb9e052562b5e3fcab17ee2c1fa60f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addb9e052562b5e3fcab17ee2c1fa60f9">&#9670;&nbsp;</a></span>DealDamage()</h2>
+<a id="a9df505fedc8cd6b56e743913cafe8c0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9df505fedc8cd6b56e743913cafe8c0c">&#9670;&nbsp;</a></span>DamageReduction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Stats.DamageReduction </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>physicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>magicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>trueDamage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Apply the corresponding damage to this entity according to the armor and magicResist it have </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">physicalDamage</td><td>The amount of Physical Damage dealt</td></tr>
+    <tr><td class="paramname">magicalDamage</td><td>The amount of Magical Damage dealt</td></tr>
+    <tr><td class="paramname">trueDamage</td><td>The amount of True Damage dealt</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>The reduced damage amount</dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_stats_a9df505fedc8cd6b56e743913cafe8c0c_icgraph.svg" width="418" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="acba1e25dcc4ca826d7974c8d4f611609"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acba1e25dcc4ca826d7974c8d4f611609">&#9670;&nbsp;</a></span>DealDamage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -173,7 +238,19 @@ Atributs Privats</h2></td></tr>
           <td class="memname">abstract void Stats.DealDamage </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>amount</em>, </td>
+          <td class="paramname"><em>physicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>magicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>trueDamage</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -197,17 +274,20 @@ Atributs Privats</h2></td></tr>
 <p>Specify the amount of damage and the <a class="el" href="class_inventory.html">Inventory</a> that the amount of Gold will go in if it is hit for the last time </p>
 <dl class="params"><dt>Paràmetres</dt><dd>
   <table class="params">
-    <tr><td class="paramname">amount</td><td>The amount of pre-calculated damage</td></tr>
+    <tr><td class="paramname">physicalDamage</td><td>The amount of Physical Damage dealt</td></tr>
+    <tr><td class="paramname">magicalDamage</td><td>The amount of Magical Damage dealt</td></tr>
+    <tr><td class="paramname">trueDamage</td><td>The amount of True Damage dealt</td></tr>
     <tr><td class="paramname">who</td><td><a class="el" href="class_inventory.html">Inventory</a> from who is attacking. Optional for the non-player entities.</td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implementat a <a class="el" href="class_player_stats.html#a647f9b1d02b99a9f35a69f10e9982208">PlayerStats</a>, <a class="el" href="class_turret_stats.html#aee98bd9f23c2bb2192d3fbc961d15004">TurretStats</a>, <a class="el" href="class_nexus_stats.html#a028edbf22e9b3dab950c13ebd33c802c">NexusStats</a> i <a class="el" href="class_minion_stats.html#a57b6670813270b14f7c578ddd0b9fc10">MinionStats</a>.</p>
+<p>Implementat a <a class="el" href="class_player_stats.html#a6c981655955bbd00bb32b1f29ae59de0">PlayerStats</a>, <a class="el" href="class_turret_stats.html#af46d98017e579bee2c75ba4da9869daa">TurretStats</a>, <a class="el" href="class_nexus_stats.html#acf3dfe59fe04e03aa429da8ef091d735">NexusStats</a> i <a class="el" href="class_minion_stats.html#a9942aad33ba0b41e8c7ee6d05076cdc4">MinionStats</a>.</p>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_stats_addb9e052562b5e3fcab17ee2c1fa60f9_icgraph.svg" width="650" height="254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_stats_acba1e25dcc4ca826d7974c8d4f611609_icgraph.svg" width="650" height="254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -237,7 +317,7 @@ Gràfic de crides a aquesta funció:</div>
 
 <p>Function that implements what is done when this entity dies. </p>
 
-<p>Implementat a <a class="el" href="class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff">PlayerStats</a>, <a class="el" href="class_turret_stats.html#afba2a2bb8d56fba966bb1c8ff069b63a">TurretStats</a>, <a class="el" href="class_nexus_stats.html#a3faadcb2bca6d50c1da5e1235900f3f7">NexusStats</a>, <a class="el" href="class_minion_stats.html#a5366cb256edc6dc42f01c2907ee14e7a">MinionStats</a> i <a class="el" href="class_mannequin_stats.html#a8bd8eed182eccafe2a9f3a2764e82dc3">MannequinStats</a>.</p>
+<p>Implementat a <a class="el" href="class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff">PlayerStats</a>, <a class="el" href="class_turret_stats.html#afba2a2bb8d56fba966bb1c8ff069b63a">TurretStats</a>, <a class="el" href="class_nexus_stats.html#a3faadcb2bca6d50c1da5e1235900f3f7">NexusStats</a>, <a class="el" href="class_minion_stats.html#a5366cb256edc6dc42f01c2907ee14e7a">MinionStats</a>, <a class="el" href="class_mannequin_stats.html#a8bd8eed182eccafe2a9f3a2764e82dc3">MannequinStats</a> i <a class="el" href="class_structure_stats.html#a47d6bbbce7de8a935120066f849d8bd4">StructureStats</a>.</p>
 
 </div>
 </div>
@@ -266,17 +346,31 @@ Gràfic de crides a aquesta funció:</div>
 
 <p>Returns the range of the entity </p>
 
-<p>Reimplementat a <a class="el" href="class_structure_stats.html#afa9bb92887ecc5840e8c40c68137917c">StructureStats</a> i <a class="el" href="class_movable_stats.html#a391da924ae762885f7e113ebb72fdf65">MovableStats</a>.</p>
+<p>Reimplementat a <a class="el" href="class_structure_stats.html#a52c2896887d916143811c4bff751dd6c">StructureStats</a> i <a class="el" href="class_movable_stats.html#a391da924ae762885f7e113ebb72fdf65">MovableStats</a>.</p>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_stats_aad08d308b784a74c8a009ba48c0a237f_icgraph.svg" width="100%" height="407"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_stats_aad08d308b784a74c8a009ba48c0a237f_icgraph.svg" width="100%" height="445"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="abc8d3370552e1d04b85f0a9d67a5800f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc8d3370552e1d04b85f0a9d67a5800f">&#9670;&nbsp;</a></span>armor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Stats.armor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab661897854a3917b933c5176a4a3bcc5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab661897854a3917b933c5176a4a3bcc5">&#9670;&nbsp;</a></span>HP</h2>
 
@@ -301,6 +395,28 @@ Gràfic de crides a aquesta funció:</div>
           <td class="memname">bool Stats.isDead = false</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf64ae5964ca54bc9853328551f7c686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf64ae5964ca54bc9853328551f7c686">&#9670;&nbsp;</a></span>magicResist</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Stats.magicResist</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

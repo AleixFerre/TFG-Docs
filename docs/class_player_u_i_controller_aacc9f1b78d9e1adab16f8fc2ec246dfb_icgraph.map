@@ -6,7 +6,7 @@
 <area shape="rect" id="node11" href="$class_mannequin_stats.html#a0cecf416149ad28539cb696fad4ae175" title=" " alt="" coords="641,107,808,133"/>
 <area shape="rect" id="node5" href="$class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff" title="Function that implements what is done when this entity dies." alt="" coords="454,5,567,32"/>
 <area shape="rect" id="node7" href="$class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf" title="Initialize the PlayerController." alt="" coords="428,56,593,83"/>
-<area shape="rect" id="node6" href="$class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed" title=" " alt="" coords="185,5,380,32"/>
+<area shape="rect" id="node6" href="$class_player_stats.html#af3f5e42d89a4925ff14f7edc904513ad" title=" " alt="" coords="185,5,380,32"/>
 <area shape="rect" id="node8" href="$class_model_sync.html#ab8359f73ae31a7f926c80ebcd7e9444a" title="This starts all the initialization chain for the player." alt="" coords="209,56,356,83"/>
 <area shape="rect" id="node9" href="$class_model_sync.html#a47be08ee3bbd2a173514e74da3dd65cb" title=" " alt="" coords="12,31,131,57"/>
 <area shape="rect" id="node10" href="$class_model_sync.html#abf63af5a901636617cb742aab24c4d6f" title=" " alt="" coords="5,81,137,108"/>

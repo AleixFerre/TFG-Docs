@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_player_stats.html#a6542a649dfb0cccc9fe329c83024e3ed" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="class_player_stats.html#af3f5e42d89a4925ff14f7edc904513ad" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="184,-76.5 184,-95.5 330,-95.5 330,-76.5 184,-76.5"/>
 <text text-anchor="middle" x="257" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.DealDamageRPC</text>
 </a>

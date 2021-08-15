@@ -66,7 +66,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_stats.html#addb9e052562b5e3fcab17ee2c1fa60f9" target="_top" xlink:title="Specify the amount of damage and the Inventory that the amount of Gold will go in if it is hit for th...">
+<g id="a_node4"><a xlink:href="class_stats.html#acba1e25dcc4ca826d7974c8d4f611609" target="_top" xlink:title="Specify the amount of damage and the Inventory that the amount of Gold will go in if it is hit for th...">
 <polygon fill="none" stroke="black" points="355,-50 355,-69 453,-69 453,-50 355,-50"/>
 <text text-anchor="middle" x="404" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">Stats.DealDamage</text>
 </a>

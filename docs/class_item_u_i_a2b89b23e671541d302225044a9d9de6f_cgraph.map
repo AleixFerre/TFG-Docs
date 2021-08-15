@@ -1,0 +1,6 @@
+<map id="ItemUI.OnPointerClick" name="ItemUI.OnPointerClick">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,156,57"/>
+<area shape="rect" id="node2" href="$class_current_item_shop.html#a7df6c42491987972d6d04a06c803525a" title=" " alt="" coords="204,31,389,57"/>
+<area shape="rect" id="node3" href="$class_item_u_i.html#a3621f37c3d29275407a00265d7823825" title=" " alt="" coords="449,5,558,32"/>
+<area shape="rect" id="node4" href="$class_item_u_i.html#af1bd6a6501f51af9f49a53a5a1a871e4" title=" " alt="" coords="437,56,569,83"/>
+</map>

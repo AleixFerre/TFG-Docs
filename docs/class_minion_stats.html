@@ -117,15 +117,14 @@ $(document).ready(function(){initNavTree('class_minion_stats.html',''); initResi
 <div class="dynheader">
 Diagrama d'Herència per a MinionStats:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_minion_stats__inherit__graph.svg" width="122" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_minion_stats__inherit__graph.svg" width="122" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
-<tr class="memitem:a57b6670813270b14f7c578ddd0b9fc10"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minion_stats.html#a57b6670813270b14f7c578ddd0b9fc10">DealDamage</a> (int amount, <a class="el" href="class_inventory.html">Inventory</a> who)</td></tr>
-<tr class="memdesc:a57b6670813270b14f7c578ddd0b9fc10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the amount of damage and the <a class="el" href="class_inventory.html">Inventory</a> that the amount of Gold will go in if it is hit for the last time  <a href="class_minion_stats.html#a57b6670813270b14f7c578ddd0b9fc10">Més...</a><br /></td></tr>
-<tr class="separator:a57b6670813270b14f7c578ddd0b9fc10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9942aad33ba0b41e8c7ee6d05076cdc4"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minion_stats.html#a9942aad33ba0b41e8c7ee6d05076cdc4">DealDamage</a> (int physicalDamage, int magicalDamage, int trueDamage, <a class="el" href="class_inventory.html">Inventory</a> who)</td></tr>
+<tr class="memdesc:a9942aad33ba0b41e8c7ee6d05076cdc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the amount of damage and the <a class="el" href="class_inventory.html">Inventory</a> that the amount of Gold will go in if it is hit for the last time  <a href="class_minion_stats.html#a9942aad33ba0b41e8c7ee6d05076cdc4">Més...</a><br /></td></tr>
+<tr class="separator:a9942aad33ba0b41e8c7ee6d05076cdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36aef70b8c65656c552168e0453209ee"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minion_stats.html#a36aef70b8c65656c552168e0453209ee">ApplyStatistic</a> (<a class="el" href="_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92b">IntStatistic</a> statistic, int amount)</td></tr>
 <tr class="separator:a36aef70b8c65656c552168e0453209ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f345ef52764fa6eb7fe7160b73026f9"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minion_stats.html#a0f345ef52764fa6eb7fe7160b73026f9">ApplyStatistic</a> (<a class="el" href="_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022">FloatStatistic</a> statistic, float amount)</td></tr>
@@ -144,13 +143,17 @@ Mètodes Protegits</h2></td></tr>
 <tr class="separator:a5366cb256edc6dc42f01c2907ee14e7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abecc35855bcf8bb1e30909708b3fa882"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minion_stats.html#abecc35855bcf8bb1e30909708b3fa882">HealRPC</a> (int amount)</td></tr>
 <tr class="separator:abecc35855bcf8bb1e30909708b3fa882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_stats"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_stats')"><img src="closed.png" alt="-"/>&#160;Mètodes Protegits inherited from <a class="el" href="class_stats.html">Stats</a></td></tr>
+<tr class="memitem:a9df505fedc8cd6b56e743913cafe8c0c inherit pro_methods_class_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#a9df505fedc8cd6b56e743913cafe8c0c">DamageReduction</a> (int physicalDamage, int magicalDamage, int trueDamage)</td></tr>
+<tr class="memdesc:a9df505fedc8cd6b56e743913cafe8c0c inherit pro_methods_class_stats"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the corresponding damage to this entity according to the armor and magicResist it have  <a href="class_stats.html#a9df505fedc8cd6b56e743913cafe8c0c">Més...</a><br /></td></tr>
+<tr class="separator:a9df505fedc8cd6b56e743913cafe8c0c inherit pro_methods_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Mètodes Privats</h2></td></tr>
 <tr class="memitem:ad20288fcb2661cb6a811b7fd467d7424"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minion_stats.html#ad20288fcb2661cb6a811b7fd467d7424">Start</a> ()</td></tr>
 <tr class="separator:ad20288fcb2661cb6a811b7fd467d7424"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1a8cab09c44cd06629a2dbe924c83ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minion_stats.html#ad1a8cab09c44cd06629a2dbe924c83ff">DealDamageRPC</a> (int amount, string who)</td></tr>
-<tr class="separator:ad1a8cab09c44cd06629a2dbe924c83ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a96f247dbad88ea2ebbcac31069cfb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minion_stats.html#a0a96f247dbad88ea2ebbcac31069cfb9">DealDamageRPC</a> (int physicalDamage, int magicalDamage, int trueDamage, string who)</td></tr>
+<tr class="separator:a0a96f247dbad88ea2ebbcac31069cfb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Atributs Privats</h2></td></tr>
@@ -179,6 +182,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_attribs_class_stats"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_stats')"><img src="closed.png" alt="-"/>&#160;Atributs Públics inherited from <a class="el" href="class_stats.html">Stats</a></td></tr>
 <tr class="memitem:ab661897854a3917b933c5176a4a3bcc5 inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#ab661897854a3917b933c5176a4a3bcc5">HP</a></td></tr>
 <tr class="separator:ab661897854a3917b933c5176a4a3bcc5 inherit pub_attribs_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc8d3370552e1d04b85f0a9d67a5800f inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#abc8d3370552e1d04b85f0a9d67a5800f">armor</a></td></tr>
+<tr class="separator:abc8d3370552e1d04b85f0a9d67a5800f inherit pub_attribs_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdb9bb504223bfff99551a4fa15978fc inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#acdb9bb504223bfff99551a4fa15978fc">isDead</a> = false</td></tr>
 <tr class="separator:acdb9bb504223bfff99551a4fa15978fc inherit pub_attribs_class_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b9e3df188c9f4a679aa20f3922bcb2a inherit pub_attribs_class_stats"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stats.html#a1b9e3df188c9f4a679aa20f3922bcb2a">team</a></td></tr>
@@ -266,8 +271,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a57b6670813270b14f7c578ddd0b9fc10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57b6670813270b14f7c578ddd0b9fc10">&#9670;&nbsp;</a></span>DealDamage()</h2>
+<a id="a9942aad33ba0b41e8c7ee6d05076cdc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9942aad33ba0b41e8c7ee6d05076cdc4">&#9670;&nbsp;</a></span>DealDamage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,7 +284,19 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">override void MinionStats.DealDamage </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>amount</em>, </td>
+          <td class="paramname"><em>physicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>magicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>trueDamage</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -303,18 +320,20 @@ Additional Inherited Members</h2></td></tr>
 <p>Specify the amount of damage and the <a class="el" href="class_inventory.html">Inventory</a> that the amount of Gold will go in if it is hit for the last time </p>
 <dl class="params"><dt>Paràmetres</dt><dd>
   <table class="params">
-    <tr><td class="paramname">amount</td><td>The amount of pre-calculated damage</td></tr>
+    <tr><td class="paramname">physicalDamage</td><td>The amount of Physical Damage dealt</td></tr>
+    <tr><td class="paramname">magicalDamage</td><td>The amount of Magical Damage dealt</td></tr>
+    <tr><td class="paramname">trueDamage</td><td>The amount of True Damage dealt</td></tr>
     <tr><td class="paramname">who</td><td><a class="el" href="class_inventory.html">Inventory</a> from who is attacking. Optional for the non-player entities.</td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implementa <a class="el" href="class_stats.html#addb9e052562b5e3fcab17ee2c1fa60f9">Stats</a>.</p>
+<p>Implementa <a class="el" href="class_stats.html#acba1e25dcc4ca826d7974c8d4f611609">Stats</a>.</p>
 
 </div>
 </div>
-<a id="ad1a8cab09c44cd06629a2dbe924c83ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1a8cab09c44cd06629a2dbe924c83ff">&#9670;&nbsp;</a></span>DealDamageRPC()</h2>
+<a id="a0a96f247dbad88ea2ebbcac31069cfb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a96f247dbad88ea2ebbcac31069cfb9">&#9670;&nbsp;</a></span>DealDamageRPC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -326,7 +345,19 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">void MinionStats.DealDamageRPC </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>amount</em>, </td>
+          <td class="paramname"><em>physicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>magicalDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>trueDamage</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -349,7 +380,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_minion_stats_ad1a8cab09c44cd06629a2dbe924c83ff_cgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_minion_stats_a0a96f247dbad88ea2ebbcac31069cfb9_cgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -383,12 +415,14 @@ Gràfic de crides d'aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_minion_stats_a5366cb256edc6dc42f01c2907ee14e7a_cgraph.svg" width="614" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_minion_stats_a5366cb256edc6dc42f01c2907ee14e7a_cgraph.svg" width="614" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_minion_stats_a5366cb256edc6dc42f01c2907ee14e7a_icgraph.svg" width="370" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_minion_stats_a5366cb256edc6dc42f01c2907ee14e7a_icgraph.svg" width="370" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

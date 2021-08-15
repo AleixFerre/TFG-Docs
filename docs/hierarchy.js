@@ -3,6 +3,9 @@ var hierarchy =
     [ "IDictionary", null, [
       [ "GenericDictionary< TKey, TValue >", "class_generic_dictionary.html", null ]
     ] ],
+    [ "IPointerClickHandler", null, [
+      [ "ItemUI", "class_item_u_i.html", null ]
+    ] ],
     [ "ISerializationCallbackReceiver", null, [
       [ "GenericDictionary< TKey, TValue >", "class_generic_dictionary.html", null ]
     ] ],
@@ -19,9 +22,11 @@ var hierarchy =
       [ "AsyncLoader", "class_async_loader.html", null ],
       [ "AttackRangeIndicator", "class_attack_range_indicator.html", null ],
       [ "BackgroundScaling", "class_background_scaling.html", null ],
+      [ "BaseRegenerator", "class_base_regenerator.html", null ],
       [ "BasicAttack", "class_basic_attack.html", null ],
       [ "Billboard", "class_billboard.html", null ],
       [ "ConnectionManager", "class_connection_manager.html", null ],
+      [ "CurrentItemShop", "class_current_item_shop.html", null ],
       [ "Drop", "class_drop.html", [
         [ "Coin", "class_coin.html", null ],
         [ "Diamond", "class_diamond.html", null ],
@@ -31,6 +36,7 @@ var hierarchy =
       [ "EffectManager", "class_effect_manager.html", null ],
       [ "GameUIController", "class_game_u_i_controller.html", null ],
       [ "Inventory", "class_inventory.html", null ],
+      [ "ItemUI", "class_item_u_i.html", null ],
       [ "LoadingCanvas", "class_loading_canvas.html", null ],
       [ "Mannequin", "class_mannequin.html", null ],
       [ "ModelPlayerMediator", "class_model_player_mediator.html", null ],
@@ -44,6 +50,7 @@ var hierarchy =
       [ "ProfilePanel", "class_profile_panel.html", null ],
       [ "RangedAttackFollow", "class_ranged_attack_follow.html", null ],
       [ "RespawnCanvas", "class_respawn_canvas.html", null ],
+      [ "Shop", "class_shop.html", null ],
       [ "ShowPing", "class_show_ping.html", null ],
       [ "Singleton< T >", "class_singleton.html", null ],
       [ "Stats", "class_stats.html", [

@@ -1,7 +1,8 @@
 <map id="TurretShooter.OnTriggerExit" name="TurretShooter.OnTriggerExit">
-<area shape="rect" id="node1" title=" " alt="" coords="5,38,188,65"/>
-<area shape="rect" id="node2" href="$class_turret_shooter.html#afd1f3c49261fa8e1787dc3514b30f178" title="Changes the indicator state if necessary." alt="" coords="236,13,433,39"/>
-<area shape="rect" id="node5" href="$class_turret_shooter.html#a992e1233c0d67e55214a9ed37d04dc79" title="When an Attackable entity exits the range trigger, it gets removed from the corresponding list depend..." alt="" coords="239,63,430,90"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,63,188,90"/>
+<area shape="rect" id="node2" href="$class_turret_shooter.html#afd1f3c49261fa8e1787dc3514b30f178" title="Changes the indicator state if necessary." alt="" coords="236,38,433,65"/>
+<area shape="rect" id="node6" href="$class_turret_shooter.html#a992e1233c0d67e55214a9ed37d04dc79" title="When an Attackable entity exits the range trigger, it gets removed from the corresponding list depend..." alt="" coords="239,89,430,115"/>
 <area shape="rect" id="node3" href="$class_turret_indicator.html#a18c506cc6d384bb9ca9789b8e27d1684" title="This function gets calls whenever the Turret changes the intern state." alt="" coords="481,13,688,39"/>
+<area shape="rect" id="node5" href="$class_turret_ray.html#a04f048c8df3897ad7d562dffaa08b4a5" title=" " alt="" coords="515,63,654,90"/>
 <area shape="rect" id="node4" href="$class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50" title="Returns the color corresponing to the current TurretState of the indicator" alt="" coords="736,5,895,47"/>
 </map>

@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_turret_stats.html#a503110135edcf63f735168caec63debd" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="class_turret_stats.html#a2033725304e14040f7e2a92e1a32fc5c" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 143,-19.5 143,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="71.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TurretStats.DealDamageRPC</text>
 </a>

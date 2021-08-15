@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_minion_stats.html#ad1a8cab09c44cd06629a2dbe924c83ff" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="class_minion_stats.html#a0a96f247dbad88ea2ebbcac31069cfb9" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="0,-38.5 0,-57.5 147,-57.5 147,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="73.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">MinionStats.DealDamageRPC</text>
 </a>

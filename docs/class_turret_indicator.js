@@ -5,6 +5,7 @@ var class_turret_indicator =
       [ "AttackingLocal", "class_turret_indicator.html#ab4bc2977541bcb4e5678c2f625c1ae5aadf434079b644dccfb35f699539f71fa1", null ],
       [ "AttackingOther", "class_turret_indicator.html#ab4bc2977541bcb4e5678c2f625c1ae5aa9e8b9164f73c62d6a973c6b1cf29e46f", null ]
     ] ],
+    [ "DisableIndicator", "class_turret_indicator.html#aa1568e65ed37d42ed908433bc857050c", null ],
     [ "GetColorFromState", "class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50", null ],
     [ "Initialize", "class_turret_indicator.html#a19e8f71242fb5ed02d3ccc6e66b46680", null ],
     [ "isIdle", "class_turret_indicator.html#a135ea87f05f39602a8f8ffca67b60dcd", null ],

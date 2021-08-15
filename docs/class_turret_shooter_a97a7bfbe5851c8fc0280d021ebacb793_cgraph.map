@@ -1,8 +1,10 @@
 <map id="TurretShooter.Update" name="TurretShooter.Update">
-<area shape="rect" id="node1" title=" " alt="" coords="5,38,151,65"/>
-<area shape="rect" id="node2" href="$class_turret_shooter.html#abdbfe8d7746ee1e665f8da7e1a423bf7" title=" " alt="" coords="199,38,337,65"/>
-<area shape="rect" id="node3" href="$class_turret_shooter.html#a8be25a5629564093b66ab8d2b42692cc" title=" " alt="" coords="385,60,555,101"/>
-<area shape="rect" id="node4" href="$class_turret_indicator.html#a18c506cc6d384bb9ca9789b8e27d1684" title="This function gets calls whenever the Turret changes the intern state." alt="" coords="603,13,809,39"/>
-<area shape="rect" id="node6" href="$class_ranged_attack_follow.html#ab3769cf75d3db66abcd5cb2174a8dd57" title=" " alt="" coords="605,67,807,94"/>
-<area shape="rect" id="node5" href="$class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50" title="Returns the color corresponing to the current TurretState of the indicator" alt="" coords="857,5,1016,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,60,151,87"/>
+<area shape="rect" id="node2" href="$class_turret_shooter.html#afd1f3c49261fa8e1787dc3514b30f178" title="Changes the indicator state if necessary." alt="" coords="385,5,583,32"/>
+<area shape="rect" id="node6" href="$class_turret_shooter.html#abdbfe8d7746ee1e665f8da7e1a423bf7" title=" " alt="" coords="199,85,337,112"/>
+<area shape="rect" id="node3" href="$class_turret_indicator.html#a18c506cc6d384bb9ca9789b8e27d1684" title="This function gets calls whenever the Turret changes the intern state." alt="" coords="631,111,837,137"/>
+<area shape="rect" id="node5" href="$class_turret_ray.html#a04f048c8df3897ad7d562dffaa08b4a5" title=" " alt="" coords="665,56,803,83"/>
+<area shape="rect" id="node4" href="$class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50" title="Returns the color corresponing to the current TurretState of the indicator" alt="" coords="885,103,1044,145"/>
+<area shape="rect" id="node7" href="$class_turret_shooter.html#a8be25a5629564093b66ab8d2b42692cc" title=" " alt="" coords="399,107,569,149"/>
+<area shape="rect" id="node8" href="$class_ranged_attack_follow.html#aa53dfc5a1b7c08631665bf5691ccf413" title="Initializes the ranged attack object and sets its properties accordingly" alt="" coords="633,161,835,188"/>
 </map>

@@ -1,9 +1,9 @@
 <map id="TurretIndicator.OnStateChanged" name="TurretIndicator.OnStateChanged">
 <area shape="rect" id="node1" title="This function gets calls whenever the Turret changes the intern state." alt="" coords="720,71,927,98"/>
 <area shape="rect" id="node2" href="$class_turret_shooter.html#a8be25a5629564093b66ab8d2b42692cc" title=" " alt="" coords="489,5,658,47"/>
-<area shape="rect" id="node3" href="$class_turret_shooter.html#abdbfe8d7746ee1e665f8da7e1a423bf7" title=" " alt="" coords="266,42,405,69"/>
+<area shape="rect" id="node3" href="$class_turret_shooter.html#abdbfe8d7746ee1e665f8da7e1a423bf7" title=" " alt="" coords="266,46,405,73"/>
 <area shape="rect" id="node6" href="$class_turret_shooter.html#afd1f3c49261fa8e1787dc3514b30f178" title="Changes the indicator state if necessary." alt="" coords="475,122,672,149"/>
-<area shape="rect" id="node4" href="$class_turret_shooter.html#ac92c11affc1a61877bda45f9cedf9fe2" title=" " alt="" coords="5,17,196,43"/>
-<area shape="rect" id="node5" href="$class_turret_shooter.html#a97a7bfbe5851c8fc0280d021ebacb793" title=" " alt="" coords="28,67,173,94"/>
-<area shape="rect" id="node7" href="$class_turret_shooter.html#a91af004b685cacac7466bcebe82eb08d" title=" " alt="" coords="244,122,427,149"/>
+<area shape="rect" id="node4" href="$class_turret_shooter.html#ac92c11affc1a61877bda45f9cedf9fe2" title=" " alt="" coords="5,46,196,73"/>
+<area shape="rect" id="node5" href="$class_turret_shooter.html#a97a7bfbe5851c8fc0280d021ebacb793" title=" " alt="" coords="28,97,173,123"/>
+<area shape="rect" id="node7" href="$class_turret_shooter.html#a91af004b685cacac7466bcebe82eb08d" title=" " alt="" coords="244,147,427,174"/>
 </map>

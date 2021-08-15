@@ -1,0 +1,5 @@
+<map id="BaseRegenerator.HealPlayers" name="BaseRegenerator.HealPlayers">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,201,57"/>
+<area shape="rect" id="node2" href="$class_movable_stats.html#a8db5075f6cb3977efdc5c92f2fb927f5" title=" " alt="" coords="265,5,396,32"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#a8d05b6ec32ee2a10f700a57ac7342340" title=" " alt="" coords="249,56,412,83"/>
+</map>

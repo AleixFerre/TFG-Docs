@@ -1,4 +1,5 @@
 <map id="StructureUIController.InitializeColors" name="StructureUIController.InitializeColors">
-<area shape="rect" id="node1" title=" " alt="" coords="220,5,413,47"/>
-<area shape="rect" id="node2" href="$class_structure_u_i_controller.html#a908b4e1272b87043c5ba601517f0c1d9" title=" " alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="220,27,413,69"/>
+<area shape="rect" id="node2" href="$class_nexus_stats.html#ab75e21d9dab118cc45f49f6d3e8bc090" title=" " alt="" coords="19,5,159,32"/>
+<area shape="rect" id="node3" href="$class_structure_u_i_controller.html#a908b4e1272b87043c5ba601517f0c1d9" title=" " alt="" coords="5,57,172,98"/>
 </map>
