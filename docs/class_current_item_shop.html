@@ -113,14 +113,17 @@ $(document).ready(function(){initNavTree('class_current_item_shop.html',''); ini
 <div class="dynheader">
 Diagrama d'Herència per a CurrentItemShop:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_current_item_shop__inherit__graph.svg" width="130" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_current_item_shop__inherit__graph.svg" width="130" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
+<tr class="memitem:a96327722769d2770bdf5cebc78efbb03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_current_item_shop.html#a96327722769d2770bdf5cebc78efbb03">CheckBuyable</a> ()</td></tr>
+<tr class="separator:a96327722769d2770bdf5cebc78efbb03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7df6c42491987972d6d04a06c803525a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_current_item_shop.html#a7df6c42491987972d6d04a06c803525a">SetCurrent</a> (<a class="el" href="class_item_u_i.html">ItemUI</a> itemUI)</td></tr>
 <tr class="separator:a7df6c42491987972d6d04a06c803525a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac931da08dc792088bbb913a1db71cf27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_current_item_shop.html#ac931da08dc792088bbb913a1db71cf27">BuyCurrent</a> ()</td></tr>
+<tr class="separator:ac931da08dc792088bbb913a1db71cf27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Atributs Públics</h2></td></tr>
@@ -130,6 +133,8 @@ Atributs Públics</h2></td></tr>
 <tr class="separator:a6f857426ee66aeb1c07258dac45aeafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3534364bea327531fc9e845719f3116"><td class="memItemLeft" align="right" valign="top">CanvasGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_current_item_shop.html#ad3534364bea327531fc9e845719f3116">group</a></td></tr>
 <tr class="separator:ad3534364bea327531fc9e845719f3116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4483457ce54119fd111af4a95b8dd755"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_current_item_shop.html#a4483457ce54119fd111af4a95b8dd755">buyButton</a></td></tr>
+<tr class="separator:a4483457ce54119fd111af4a95b8dd755"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Atributs Privats</h2></td></tr>
@@ -139,8 +144,62 @@ Atributs Privats</h2></td></tr>
 <tr class="separator:aa45f3b0ee0504429730c88e00ffd578f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63658dd2ac30faeda2dabf4a608d0f4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_item_u_i.html">ItemUI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_current_item_shop.html#a63658dd2ac30faeda2dabf4a608d0f4b">current</a></td></tr>
 <tr class="separator:a63658dd2ac30faeda2dabf4a608d0f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ff179d93ef468ea3b2e163e6d14443c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_inventory.html">Inventory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_current_item_shop.html#a9ff179d93ef468ea3b2e163e6d14443c">localInventory</a></td></tr>
+<tr class="separator:a9ff179d93ef468ea3b2e163e6d14443c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="ac931da08dc792088bbb913a1db71cf27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac931da08dc792088bbb913a1db71cf27">&#9670;&nbsp;</a></span>BuyCurrent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CurrentItemShop.BuyCurrent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_current_item_shop_ac931da08dc792088bbb913a1db71cf27_cgraph.svg" width="100%" height="465"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a96327722769d2770bdf5cebc78efbb03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96327722769d2770bdf5cebc78efbb03">&#9670;&nbsp;</a></span>CheckBuyable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CurrentItemShop.CheckBuyable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_current_item_shop_a96327722769d2770bdf5cebc78efbb03_cgraph.svg" width="622" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_current_item_shop_a96327722769d2770bdf5cebc78efbb03_icgraph.svg" width="363" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a7df6c42491987972d6d04a06c803525a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7df6c42491987972d6d04a06c803525a">&#9670;&nbsp;</a></span>SetCurrent()</h2>
 
@@ -159,19 +218,31 @@ Atributs Privats</h2></td></tr>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_current_item_shop_a7df6c42491987972d6d04a06c803525a_cgraph.svg" width="376" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_current_item_shop_a7df6c42491987972d6d04a06c803525a_cgraph.svg" width="376" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_current_item_shop_a7df6c42491987972d6d04a06c803525a_icgraph.svg" width="395" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_current_item_shop_a7df6c42491987972d6d04a06c803525a_icgraph.svg" width="395" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a4483457ce54119fd111af4a95b8dd755"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4483457ce54119fd111af4a95b8dd755">&#9670;&nbsp;</a></span>buyButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Button CurrentItemShop.buyButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a63658dd2ac30faeda2dabf4a608d0f4b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a63658dd2ac30faeda2dabf4a608d0f4b">&#9670;&nbsp;</a></span>current</h2>
 
@@ -276,6 +347,28 @@ Gràfic de crides a aquesta funció:</div>
           <td class="memname">TMP_Text CurrentItemShop.itemNameTxt</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ff179d93ef468ea3b2e163e6d14443c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ff179d93ef468ea3b2e163e6d14443c">&#9670;&nbsp;</a></span>localInventory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_inventory.html">Inventory</a> CurrentItemShop.localInventory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_movable_stats.html#ae2d94d5a40d77ea2a6218fdea08a97d5" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="class_movable_stats.html#a538d94715dfd6ac060b1c39935180ed7" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="170,-0.5 170,-19.5 309,-19.5 309,-0.5 170,-0.5"/>
 <text text-anchor="middle" x="239.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MovableStats.ApplyStatistic</text>
 </a>

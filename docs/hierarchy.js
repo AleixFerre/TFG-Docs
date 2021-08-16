@@ -4,7 +4,8 @@ var hierarchy =
       [ "GenericDictionary< TKey, TValue >", "class_generic_dictionary.html", null ]
     ] ],
     [ "IPointerClickHandler", null, [
-      [ "ItemUI", "class_item_u_i.html", null ]
+      [ "ItemUI", "class_item_u_i.html", null ],
+      [ "SellableItemUI", "class_sellable_item_u_i.html", null ]
     ] ],
     [ "ISerializationCallbackReceiver", null, [
       [ "GenericDictionary< TKey, TValue >", "class_generic_dictionary.html", null ]
@@ -50,6 +51,7 @@ var hierarchy =
       [ "ProfilePanel", "class_profile_panel.html", null ],
       [ "RangedAttackFollow", "class_ranged_attack_follow.html", null ],
       [ "RespawnCanvas", "class_respawn_canvas.html", null ],
+      [ "SellableItemUI", "class_sellable_item_u_i.html", null ],
       [ "Shop", "class_shop.html", null ],
       [ "ShowPing", "class_show_ping.html", null ],
       [ "Singleton< T >", "class_singleton.html", null ],
@@ -118,6 +120,7 @@ var hierarchy =
     [ "Singleton< SceneController >", "class_singleton.html", [
       [ "SceneController", "class_scene_controller.html", null ]
     ] ],
+    [ "StatisticExtension", "class_statistic_extension.html", null ],
     [ "StatusExtension", "class_status_extension.html", null ],
     [ "Utils", "class_utils.html", null ]
 ];

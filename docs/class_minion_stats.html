@@ -125,10 +125,10 @@ Mètodes públics</h2></td></tr>
 <tr class="memitem:a9942aad33ba0b41e8c7ee6d05076cdc4"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minion_stats.html#a9942aad33ba0b41e8c7ee6d05076cdc4">DealDamage</a> (int physicalDamage, int magicalDamage, int trueDamage, <a class="el" href="class_inventory.html">Inventory</a> who)</td></tr>
 <tr class="memdesc:a9942aad33ba0b41e8c7ee6d05076cdc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the amount of damage and the <a class="el" href="class_inventory.html">Inventory</a> that the amount of Gold will go in if it is hit for the last time  <a href="class_minion_stats.html#a9942aad33ba0b41e8c7ee6d05076cdc4">Més...</a><br /></td></tr>
 <tr class="separator:a9942aad33ba0b41e8c7ee6d05076cdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36aef70b8c65656c552168e0453209ee"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minion_stats.html#a36aef70b8c65656c552168e0453209ee">ApplyStatistic</a> (<a class="el" href="_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92b">IntStatistic</a> statistic, int amount)</td></tr>
-<tr class="separator:a36aef70b8c65656c552168e0453209ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f345ef52764fa6eb7fe7160b73026f9"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minion_stats.html#a0f345ef52764fa6eb7fe7160b73026f9">ApplyStatistic</a> (<a class="el" href="_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022">FloatStatistic</a> statistic, float amount)</td></tr>
-<tr class="separator:a0f345ef52764fa6eb7fe7160b73026f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a167b90a72b43ea4bc84b75a62adc5d01"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minion_stats.html#a167b90a72b43ea4bc84b75a62adc5d01">ApplyStatistic</a> (<a class="el" href="_statistic_8cs.html#af8ec0dbad1fc33aff3a07f6437573770">AddStackingStatistic</a> statistic, int amount)</td></tr>
+<tr class="separator:a167b90a72b43ea4bc84b75a62adc5d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab374a30a91015fa397794eddfafe0c6f"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minion_stats.html#ab374a30a91015fa397794eddfafe0c6f">ApplyStatistic</a> (<a class="el" href="_statistic_8cs.html#af96358dd05325193441d10c7221f3112">MultiplyStackingStatistic</a> statistic, float amount)</td></tr>
+<tr class="separator:ab374a30a91015fa397794eddfafe0c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_movable_stats"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_movable_stats')"><img src="closed.png" alt="-"/>&#160;Mètodes públics inherited from <a class="el" href="class_movable_stats.html">MovableStats</a></td></tr>
 <tr class="memitem:a8db5075f6cb3977efdc5c92f2fb927f5 inherit pub_methods_class_movable_stats"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_movable_stats.html#a8db5075f6cb3977efdc5c92f2fb927f5">Heal</a> (int amount)</td></tr>
 <tr class="separator:a8db5075f6cb3977efdc5c92f2fb927f5 inherit pub_methods_class_movable_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,8 +195,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
 <div class="textblock"><p>Minion <a class="el" href="class_stats.html">Stats</a> is the main class that controls all the Minion Statistics for every Minion entity within the game execution. </p>
 </div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
-<a id="a0f345ef52764fa6eb7fe7160b73026f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f345ef52764fa6eb7fe7160b73026f9">&#9670;&nbsp;</a></span>ApplyStatistic() <span class="overload">[1/2]</span></h2>
+<a id="a167b90a72b43ea4bc84b75a62adc5d01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a167b90a72b43ea4bc84b75a62adc5d01">&#9670;&nbsp;</a></span>ApplyStatistic() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,45 +207,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">override void MinionStats.ApplyStatistic </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022">FloatStatistic</a>&#160;</td>
-          <td class="paramname"><em>statistic</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>amount</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implementa <a class="el" href="class_movable_stats.html#a86eeffe9b7dc2104faa58bc592f157ae">MovableStats</a>.</p>
-
-</div>
-</div>
-<a id="a36aef70b8c65656c552168e0453209ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36aef70b8c65656c552168e0453209ee">&#9670;&nbsp;</a></span>ApplyStatistic() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override void MinionStats.ApplyStatistic </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92b">IntStatistic</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_statistic_8cs.html#af8ec0dbad1fc33aff3a07f6437573770">AddStackingStatistic</a>&#160;</td>
           <td class="paramname"><em>statistic</em>, </td>
         </tr>
         <tr>
@@ -267,7 +229,45 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implementa <a class="el" href="class_movable_stats.html#ae2d94d5a40d77ea2a6218fdea08a97d5">MovableStats</a>.</p>
+<p>Implementa <a class="el" href="class_movable_stats.html#a538d94715dfd6ac060b1c39935180ed7">MovableStats</a>.</p>
+
+</div>
+</div>
+<a id="ab374a30a91015fa397794eddfafe0c6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab374a30a91015fa397794eddfafe0c6f">&#9670;&nbsp;</a></span>ApplyStatistic() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void MinionStats.ApplyStatistic </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_statistic_8cs.html#af96358dd05325193441d10c7221f3112">MultiplyStackingStatistic</a>&#160;</td>
+          <td class="paramname"><em>statistic</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>amount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="class_movable_stats.html#a48664f89a560dce10b66f1eb9e16629e">MovableStats</a>.</p>
 
 </div>
 </div>
@@ -380,8 +380,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_minion_stats_a0a96f247dbad88ea2ebbcac31069cfb9_cgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_minion_stats_a0a96f247dbad88ea2ebbcac31069cfb9_cgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -415,14 +414,12 @@ Gràfic de crides d'aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_minion_stats_a5366cb256edc6dc42f01c2907ee14e7a_cgraph.svg" width="614" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_minion_stats_a5366cb256edc6dc42f01c2907ee14e7a_cgraph.svg" width="614" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_minion_stats_a5366cb256edc6dc42f01c2907ee14e7a_icgraph.svg" width="370" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_minion_stats_a5366cb256edc6dc42f01c2907ee14e7a_icgraph.svg" width="370" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

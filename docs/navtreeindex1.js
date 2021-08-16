@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"class_ability_indicator.html#aaf1aa8f26591497f20fc44435964f990":[0,0,10,1],
 "class_ability_indicator.html#acae801a27f14d6c9e3676b8d1c3765f6":[0,0,10,5],
 "class_ability_indicator.html#adb78f306aac5e3d3503e0a3fad73325d":[0,0,10,3],
 "class_ability_indicator.html#aedf0ed6feae8a7a01cc16ae0b6867176":[0,0,10,0],
@@ -134,13 +135,17 @@ var NAVTREEINDEX1 =
 "class_connection_manager.html#a9b5c535dd81e861835cfddf10b2fd19a":[0,0,21,0],
 "class_connection_manager.html#acb44adcca94dd19f39d038c282a4dae4":[0,0,21,1],
 "class_current_item_shop.html":[0,0,23],
-"class_current_item_shop.html#a0d47c1c0742fad30cb1a016c849be510":[0,0,23,6],
-"class_current_item_shop.html#a126cc047f73ad895a14f89423784d4ff":[0,0,23,4],
-"class_current_item_shop.html#a63658dd2ac30faeda2dabf4a608d0f4b":[0,0,23,1],
-"class_current_item_shop.html#a6f857426ee66aeb1c07258dac45aeafa":[0,0,23,5],
-"class_current_item_shop.html#a7df6c42491987972d6d04a06c803525a":[0,0,23,0],
-"class_current_item_shop.html#aa45f3b0ee0504429730c88e00ffd578f":[0,0,23,2],
-"class_current_item_shop.html#ad3534364bea327531fc9e845719f3116":[0,0,23,3],
+"class_current_item_shop.html#a0d47c1c0742fad30cb1a016c849be510":[0,0,23,9],
+"class_current_item_shop.html#a126cc047f73ad895a14f89423784d4ff":[0,0,23,7],
+"class_current_item_shop.html#a4483457ce54119fd111af4a95b8dd755":[0,0,23,3],
+"class_current_item_shop.html#a63658dd2ac30faeda2dabf4a608d0f4b":[0,0,23,4],
+"class_current_item_shop.html#a6f857426ee66aeb1c07258dac45aeafa":[0,0,23,8],
+"class_current_item_shop.html#a7df6c42491987972d6d04a06c803525a":[0,0,23,2],
+"class_current_item_shop.html#a96327722769d2770bdf5cebc78efbb03":[0,0,23,1],
+"class_current_item_shop.html#a9ff179d93ef468ea3b2e163e6d14443c":[0,0,23,10],
+"class_current_item_shop.html#aa45f3b0ee0504429730c88e00ffd578f":[0,0,23,5],
+"class_current_item_shop.html#ac931da08dc792088bbb913a1db71cf27":[0,0,23,0],
+"class_current_item_shop.html#ad3534364bea327531fc9e845719f3116":[0,0,23,6],
 "class_diamond.html":[0,0,24],
 "class_diamond.html#ab4e76bdce2d79bb0c805405732984d50":[0,0,24,0],
 "class_disconnection_checker.html":[0,0,25],
@@ -244,10 +249,5 @@ var NAVTREEINDEX1 =
 "class_heal_effect.html#ad8c09fc0e7bcaa0f92e3fb3005787b9d":[0,0,33,1],
 "class_heal_relative_effect.html":[0,0,34],
 "class_heal_relative_effect.html#a51b9463a8c26ca163a387671a9bbe374":[0,0,34,0],
-"class_heal_relative_effect.html#afd1e824d5c201a520689eb633f70ac45":[0,0,34,1],
-"class_heart.html":[0,0,35],
-"class_heart.html#a0fe409e888708ccf6fa062c07feca68c":[0,0,35,0],
-"class_indicated_ability.html":[0,0,36],
-"class_indicated_ability.html#a1e90ac43cfc19ee0437a2ed32b726b4a":[0,0,36,3],
-"class_indicated_ability.html#a3b2748b1e5eb34a403c89960b764f81b":[0,0,36,0]
+"class_heal_relative_effect.html#afd1e824d5c201a520689eb633f70ac45":[0,0,34,1]
 };

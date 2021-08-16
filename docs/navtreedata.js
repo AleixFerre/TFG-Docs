@@ -51,10 +51,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_ability_8cs.html",
-"class_ability_indicator.html#acae801a27f14d6c9e3676b8d1c3765f6",
-"class_indicated_ability.html#a3fb67f5735854b93b92405d1c202072b",
-"class_player_stats.html#a4df625156bb2ae99262e81b28346ccb4",
-"class_turret_u_i_controller.html"
+"class_ability_indicator.html#aaf1aa8f26591497f20fc44435964f990",
+"class_heart.html",
+"class_player_h_u_d_controller.html#adf30ead91cd36140e32d0ad158fbbae4",
+"class_turret_shooter.html#a3094011d6c3b2c31017b6b289fedece8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

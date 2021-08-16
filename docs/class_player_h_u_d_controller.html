@@ -122,8 +122,8 @@ Diagrama d'Herència per a PlayerHUDController:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
-<tr class="memitem:a3717d3272b98e6e47c909bdb5af2a99f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a3717d3272b98e6e47c909bdb5af2a99f">Initialize</a> (<a class="el" href="class_character.html">Character</a> _character, PhotonView _view)</td></tr>
-<tr class="separator:a3717d3272b98e6e47c909bdb5af2a99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af18de1b3d5444d69cc35c9390692ab72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#af18de1b3d5444d69cc35c9390692ab72">Initialize</a> (<a class="el" href="class_character.html">Character</a> _character, PhotonView _view, <a class="el" href="class_inventory.html">Inventory</a> _inventory)</td></tr>
+<tr class="separator:af18de1b3d5444d69cc35c9390692ab72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf30ead91cd36140e32d0ad158fbbae4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#adf30ead91cd36140e32d0ad158fbbae4">InitializeAbilities</a> (<a class="el" href="class_player_stats.html">PlayerStats</a> stats, GameObject indicator)</td></tr>
 <tr class="separator:adf30ead91cd36140e32d0ad158fbbae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2461120d3cfef6e83b38062b1373e04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#ab2461120d3cfef6e83b38062b1373e04">UpdateHP</a> (int HP, int maxHP)</td></tr>
@@ -134,6 +134,8 @@ Mètodes públics</h2></td></tr>
 <tr class="separator:aeef77dcdfaf1c9b719e4350c17c88fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a654b56cf8a75ded0109d5aac569b2757"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a654b56cf8a75ded0109d5aac569b2757">UpdateLevel</a> (int level, int xp, int maxXP)</td></tr>
 <tr class="separator:a654b56cf8a75ded0109d5aac569b2757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac39302aee1420d6afbc3a73805929143"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#ac39302aee1420d6afbc3a73805929143">UpdateItems</a> (List&lt; <a class="el" href="class_item.html">Item</a> &gt; items)</td></tr>
+<tr class="separator:ac39302aee1420d6afbc3a73805929143"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Atributs Públics</h2></td></tr>
@@ -159,8 +161,10 @@ Atributs Públics</h2></td></tr>
 <tr class="separator:a0dac9c36e2ff3b260fb993bace45f45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6a89910fda660fef2f36c4ec918b36f"><td class="memItemLeft" align="right" valign="top">TMP_Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#ad6a89910fda660fef2f36c4ec918b36f">goldTxt</a></td></tr>
 <tr class="separator:ad6a89910fda660fef2f36c4ec918b36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa92e0dd5db21d0b4b27c1c85e2165ea7"><td class="memItemLeft" align="right" valign="top">Image[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#aa92e0dd5db21d0b4b27c1c85e2165ea7">items</a> = new Image[6]</td></tr>
-<tr class="separator:aa92e0dd5db21d0b4b27c1c85e2165ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e4a0aa514eff36a121259f9e18f1a06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_sellable_item_u_i.html">SellableItemUI</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a8e4a0aa514eff36a121259f9e18f1a06">itemImgs</a> = new <a class="el" href="class_sellable_item_u_i.html">SellableItemUI</a>[6]</td></tr>
+<tr class="separator:a8e4a0aa514eff36a121259f9e18f1a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88fafccee3c35c212db33aedcaf9a938"><td class="memItemLeft" align="right" valign="top">Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a88fafccee3c35c212db33aedcaf9a938">emptySprite</a></td></tr>
+<tr class="separator:a88fafccee3c35c212db33aedcaf9a938"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95b4f2ae1921d0acab974ca6e027a25b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ability_cooldown.html">AbilityCooldown</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a95b4f2ae1921d0acab974ca6e027a25b">abilities</a></td></tr>
 <tr class="separator:a95b4f2ae1921d0acab974ca6e027a25b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56a5b4da39101bf390d76f5790c787a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_effect_h_u_d_controller.html">EffectHUDController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_h_u_d_controller.html#a56a5b4da39101bf390d76f5790c787a2">effectHUDController</a></td></tr>
@@ -186,8 +190,8 @@ Atributs Privats</h2></td></tr>
 <div class="textblock"><p>This script manages all the ingame bottom UI.</p>
 <p>This includes all the HP, MP, level, character sprite, inventory and gold.</p>
 </div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
-<a id="a3717d3272b98e6e47c909bdb5af2a99f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3717d3272b98e6e47c909bdb5af2a99f">&#9670;&nbsp;</a></span>Initialize()</h2>
+<a id="af18de1b3d5444d69cc35c9390692ab72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af18de1b3d5444d69cc35c9390692ab72">&#9670;&nbsp;</a></span>Initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202,7 +206,13 @@ Atributs Privats</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">PhotonView&#160;</td>
-          <td class="paramname"><em>_view</em>&#160;</td>
+          <td class="paramname"><em>_view</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_inventory.html">Inventory</a>&#160;</td>
+          <td class="paramname"><em>_inventory</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -212,9 +222,15 @@ Atributs Privats</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_af18de1b3d5444d69cc35c9390692ab72_cgraph.svg" width="407" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_a3717d3272b98e6e47c909bdb5af2a99f_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_af18de1b3d5444d69cc35c9390692ab72_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -253,8 +269,7 @@ Gràfic de crides d'aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_adf30ead91cd36140e32d0ad158fbbae4_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_adf30ead91cd36140e32d0ad158fbbae4_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -309,8 +324,7 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_ad2c7c75671ae997600550e725a75e136_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_ad2c7c75671ae997600550e725a75e136_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -358,7 +372,7 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_aeef77dcdfaf1c9b719e4350c17c88fa5_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_aeef77dcdfaf1c9b719e4350c17c88fa5_icgraph.svg" width="100%" height="568"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -397,7 +411,36 @@ Gràfic de crides d'aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_ab2461120d3cfef6e83b38062b1373e04_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_ab2461120d3cfef6e83b38062b1373e04_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac39302aee1420d6afbc3a73805929143"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac39302aee1420d6afbc3a73805929143">&#9670;&nbsp;</a></span>UpdateItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerHUDController.UpdateItems </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_item.html">Item</a> &gt;&#160;</td>
+          <td class="paramname"><em>items</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_ac39302aee1420d6afbc3a73805929143_cgraph.svg" width="400" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_ac39302aee1420d6afbc3a73805929143_icgraph.svg" width="607" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -480,8 +523,7 @@ Gràfic de crides d'aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_a09d27238c0e659b8f98828367c7622ba_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_player_h_u_d_controller_a09d27238c0e659b8f98828367c7622ba_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -545,6 +587,20 @@ Gràfic de crides a aquesta funció:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_effect_h_u_d_controller.html">EffectHUDController</a> PlayerHUDController.effectHUDController</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88fafccee3c35c212db33aedcaf9a938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88fafccee3c35c212db33aedcaf9a938">&#9670;&nbsp;</a></span>emptySprite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Sprite PlayerHUDController.emptySprite</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -621,14 +677,14 @@ Gràfic de crides a aquesta funció:</div>
 
 </div>
 </div>
-<a id="aa92e0dd5db21d0b4b27c1c85e2165ea7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa92e0dd5db21d0b4b27c1c85e2165ea7">&#9670;&nbsp;</a></span>items</h2>
+<a id="a8e4a0aa514eff36a121259f9e18f1a06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e4a0aa514eff36a121259f9e18f1a06">&#9670;&nbsp;</a></span>itemImgs</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Image [] PlayerHUDController.items = new Image[6]</td>
+          <td class="memname"><a class="el" href="class_sellable_item_u_i.html">SellableItemUI</a> [] PlayerHUDController.itemImgs = new <a class="el" href="class_sellable_item_u_i.html">SellableItemUI</a>[6]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -728,7 +784,7 @@ Gràfic de crides a aquesta funció:</div>
 </div>
 </div>
 <hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
-<li>F:/Unity Projects/Treball de Fi de Grau/Assets/Scripts/Player/<a class="el" href="_player_h_u_d_controller_8cs.html">PlayerHUDController.cs</a></li>
+<li>F:/Unity Projects/Treball de Fi de Grau/Assets/Scripts/Player/UI/<a class="el" href="_player_h_u_d_controller_8cs.html">PlayerHUDController.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

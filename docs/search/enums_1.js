@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['floatstatistic_1506',['FloatStatistic',['../_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022',1,'Statistic.cs']]]
+  ['estatlobby_1543',['EstatLobby',['../class_lobby.html#aae1e92550db31d8491bc697f28635d22',1,'Lobby']]]
 ];

@@ -113,14 +113,15 @@ $(document).ready(function(){initNavTree('class_item_u_i.html',''); initResizabl
 <div class="dynheader">
 Diagrama d'Herència per a ItemUI:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_item_u_i__inherit__graph.svg" width="286" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_item_u_i__inherit__graph.svg" width="286" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
 <tr class="memitem:aebd866c1e0f66975eae8f00f9117ddf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_u_i.html#aebd866c1e0f66975eae8f00f9117ddf2">Initialize</a> (<a class="el" href="class_item.html">Item</a> _item, <a class="el" href="class_current_item_shop.html">CurrentItemShop</a> _currentItem)</td></tr>
 <tr class="separator:aebd866c1e0f66975eae8f00f9117ddf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea5d8c789ccc8a8f0b2df526321f7b5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_u_i.html#aea5d8c789ccc8a8f0b2df526321f7b5e">CheckBuyable</a> ()</td></tr>
+<tr class="separator:aea5d8c789ccc8a8f0b2df526321f7b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b89b23e671541d302225044a9d9de6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_u_i.html#a2b89b23e671541d302225044a9d9de6f">OnPointerClick</a> (PointerEventData eventData)</td></tr>
 <tr class="separator:a2b89b23e671541d302225044a9d9de6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1bd6a6501f51af9f49a53a5a1a871e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_u_i.html#af1bd6a6501f51af9f49a53a5a1a871e4">ResetActive</a> ()</td></tr>
@@ -132,19 +133,52 @@ Mètodes públics</h2></td></tr>
 Atributs Públics</h2></td></tr>
 <tr class="memitem:acf2d02c47b20c73639c203afc8da5675"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_u_i.html#acf2d02c47b20c73639c203afc8da5675">image</a></td></tr>
 <tr class="separator:acf2d02c47b20c73639c203afc8da5675"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a621e59af71a8cc084accd80829ff40c4"><td class="memItemLeft" align="right" valign="top">TMP_Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_u_i.html#a621e59af71a8cc084accd80829ff40c4">text</a></td></tr>
-<tr class="separator:a621e59af71a8cc084accd80829ff40c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef0c553d0532f31640a099669d005b1f"><td class="memItemLeft" align="right" valign="top">TMP_Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_u_i.html#aef0c553d0532f31640a099669d005b1f">costTxt</a></td></tr>
+<tr class="separator:aef0c553d0532f31640a099669d005b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Atributs Privats</h2></td></tr>
 <tr class="memitem:ad0fb6bdeb86eecef864c66af29b98884"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_u_i.html#ad0fb6bdeb86eecef864c66af29b98884">activeImg</a></td></tr>
 <tr class="separator:ad0fb6bdeb86eecef864c66af29b98884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af71355a8739edfab4d48f340a4f4320a"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_u_i.html#af71355a8739edfab4d48f340a4f4320a">lockedImg</a></td></tr>
+<tr class="separator:af71355a8739edfab4d48f340a4f4320a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fcbac7c18853fc363b1ae8fae97bf0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_item.html">Item</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_u_i.html#a4fcbac7c18853fc363b1ae8fae97bf0e">item</a></td></tr>
 <tr class="separator:a4fcbac7c18853fc363b1ae8fae97bf0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa755a37ac15795a0e35be3050e0b55df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_current_item_shop.html">CurrentItemShop</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_u_i.html#aa755a37ac15795a0e35be3050e0b55df">currentItem</a></td></tr>
 <tr class="separator:aa755a37ac15795a0e35be3050e0b55df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c5cf0646f7143422f1d8fcd8ea7dd99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_inventory.html">Inventory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_u_i.html#a2c5cf0646f7143422f1d8fcd8ea7dd99">localInventory</a></td></tr>
+<tr class="separator:a2c5cf0646f7143422f1d8fcd8ea7dd99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="aea5d8c789ccc8a8f0b2df526321f7b5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea5d8c789ccc8a8f0b2df526321f7b5e">&#9670;&nbsp;</a></span>CheckBuyable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ItemUI.CheckBuyable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_item_u_i_aea5d8c789ccc8a8f0b2df526321f7b5e_cgraph.svg" width="562" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_item_u_i_aea5d8c789ccc8a8f0b2df526321f7b5e_icgraph.svg" width="303" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a3621f37c3d29275407a00265d7823825"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3621f37c3d29275407a00265d7823825">&#9670;&nbsp;</a></span>GetItem()</h2>
 
@@ -162,7 +196,7 @@ Atributs Privats</h2></td></tr>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_item_u_i_a3621f37c3d29275407a00265d7823825_icgraph.svg" width="552" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_item_u_i_a3621f37c3d29275407a00265d7823825_icgraph.svg" width="574" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -220,7 +254,7 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_item_u_i_a2b89b23e671541d302225044a9d9de6f_cgraph.svg" width="575" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_item_u_i_a2b89b23e671541d302225044a9d9de6f_cgraph.svg" width="100%" height="541"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -243,8 +277,7 @@ Gràfic de crides d'aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_item_u_i_af1bd6a6501f51af9f49a53a5a1a871e4_icgraph.svg" width="575" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_item_u_i_af1bd6a6501f51af9f49a53a5a1a871e4_icgraph.svg" width="575" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -268,6 +301,20 @@ Gràfic de crides a aquesta funció:</div>
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef0c553d0532f31640a099669d005b1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef0c553d0532f31640a099669d005b1f">&#9670;&nbsp;</a></span>costTxt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_Text ItemUI.costTxt</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -330,16 +377,46 @@ Gràfic de crides a aquesta funció:</div>
 
 </div>
 </div>
-<a id="a621e59af71a8cc084accd80829ff40c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a621e59af71a8cc084accd80829ff40c4">&#9670;&nbsp;</a></span>text</h2>
+<a id="a2c5cf0646f7143422f1d8fcd8ea7dd99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c5cf0646f7143422f1d8fcd8ea7dd99">&#9670;&nbsp;</a></span>localInventory</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TMP_Text ItemUI.text</td>
+          <td class="memname"><a class="el" href="class_inventory.html">Inventory</a> ItemUI.localInventory</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af71355a8739edfab4d48f340a4f4320a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af71355a8739edfab4d48f340a4f4320a">&#9670;&nbsp;</a></span>lockedImg</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image ItemUI.lockedImg</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

@@ -1,0 +1,4 @@
+<map id="Inventory.CanBuy" name="Inventory.CanBuy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node2" href="$class_inventory.html#a78bab4c24d6da82bdef1a27f5c33934e" title=" " alt="" coords="176,5,361,32"/>
+</map>

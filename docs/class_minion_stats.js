@@ -1,7 +1,7 @@
 var class_minion_stats =
 [
-    [ "ApplyStatistic", "class_minion_stats.html#a0f345ef52764fa6eb7fe7160b73026f9", null ],
-    [ "ApplyStatistic", "class_minion_stats.html#a36aef70b8c65656c552168e0453209ee", null ],
+    [ "ApplyStatistic", "class_minion_stats.html#a167b90a72b43ea4bc84b75a62adc5d01", null ],
+    [ "ApplyStatistic", "class_minion_stats.html#ab374a30a91015fa397794eddfafe0c6f", null ],
     [ "DealDamage", "class_minion_stats.html#a9942aad33ba0b41e8c7ee6d05076cdc4", null ],
     [ "DealDamageRPC", "class_minion_stats.html#a0a96f247dbad88ea2ebbcac31069cfb9", null ],
     [ "Die", "class_minion_stats.html#a5366cb256edc6dc42f01c2907ee14e7a", null ],

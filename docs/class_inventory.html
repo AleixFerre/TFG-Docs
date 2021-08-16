@@ -104,6 +104,7 @@ $(document).ready(function(){initNavTree('class_inventory.html',''); initResizab
   <div class="summary">
 <a href="#pub-methods">Mètodes públics</a> &#124;
 <a href="#pub-attribs">Atributs Públics</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
 <a href="#pri-attribs">Atributs Privats</a> &#124;
 <a href="class_inventory-members.html">Llista de tots els membres</a>  </div>
   <div class="headertitle">
@@ -126,6 +127,12 @@ Mètodes públics</h2></td></tr>
 <tr class="separator:a154fe342bac27ad9f38a79da5c770d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac533e00e2603d169f9d4972f853e1447"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inventory.html#ac533e00e2603d169f9d4972f853e1447">SpendGold</a> (int amount)</td></tr>
 <tr class="separator:ac533e00e2603d169f9d4972f853e1447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22aa6615c02eff40c88a48c96905e962"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inventory.html#a22aa6615c02eff40c88a48c96905e962">BuyItem</a> (<a class="el" href="class_item.html">Item</a> item)</td></tr>
+<tr class="separator:a22aa6615c02eff40c88a48c96905e962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1e7ae193e520340f457705d73e27607"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inventory.html#af1e7ae193e520340f457705d73e27607">SellItem</a> (<a class="el" href="class_item.html">Item</a> item)</td></tr>
+<tr class="separator:af1e7ae193e520340f457705d73e27607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eba5ec568d6e06c754b71057888fcdd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inventory.html#a4eba5ec568d6e06c754b71057888fcdd">CanBuy</a> (<a class="el" href="class_item.html">Item</a> item)</td></tr>
+<tr class="separator:a4eba5ec568d6e06c754b71057888fcdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Atributs Públics</h2></td></tr>
@@ -134,12 +141,17 @@ Atributs Públics</h2></td></tr>
 <tr class="memitem:aa719c3638d806356badf0c7f6aeedbff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_player_stats.html">PlayerStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inventory.html#aa719c3638d806356badf0c7f6aeedbff">stats</a></td></tr>
 <tr class="separator:aa719c3638d806356badf0c7f6aeedbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:a78bab4c24d6da82bdef1a27f5c33934e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inventory.html#a78bab4c24d6da82bdef1a27f5c33934e">HadAlreadyBought</a> (<a class="el" href="class_item.html">Item</a> item)</td></tr>
+<tr class="separator:a78bab4c24d6da82bdef1a27f5c33934e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Atributs Privats</h2></td></tr>
 <tr class="memitem:a3abd5e6a5c36f3246b914bd1b9806b31"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inventory.html#a3abd5e6a5c36f3246b914bd1b9806b31">gold</a> = 500</td></tr>
 <tr class="separator:a3abd5e6a5c36f3246b914bd1b9806b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aad2febb2693d22acc72d0252a445c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_item.html">Item</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inventory.html#a5aad2febb2693d22acc72d0252a445c3">items</a></td></tr>
-<tr class="separator:a5aad2febb2693d22acc72d0252a445c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a293c252e7e0964f7df6cce377d22f247"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_item.html">Item</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inventory.html#a293c252e7e0964f7df6cce377d22f247">items</a> = new List&lt;<a class="el" href="class_item.html">Item</a>&gt;()</td></tr>
+<tr class="separator:a293c252e7e0964f7df6cce377d22f247"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0d33cdcd7c380a135944db449bbc10d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_player_h_u_d_controller.html">PlayerHUDController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inventory.html#ab0d33cdcd7c380a135944db449bbc10d">hUDController</a></td></tr>
 <tr class="separator:ab0d33cdcd7c380a135944db449bbc10d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -168,6 +180,98 @@ Gràfic de crides d'aquesta funció:</div>
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_inventory_a154fe342bac27ad9f38a79da5c770d39_icgraph.svg" width="324" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a22aa6615c02eff40c88a48c96905e962"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22aa6615c02eff40c88a48c96905e962">&#9670;&nbsp;</a></span>BuyItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Inventory.BuyItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_item.html">Item</a>&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_inventory_a22aa6615c02eff40c88a48c96905e962_cgraph.svg" width="604" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_inventory_a22aa6615c02eff40c88a48c96905e962_icgraph.svg" width="372" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a4eba5ec568d6e06c754b71057888fcdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eba5ec568d6e06c754b71057888fcdd">&#9670;&nbsp;</a></span>CanBuy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Inventory.CanBuy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_item.html">Item</a>&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_inventory_a4eba5ec568d6e06c754b71057888fcdd_cgraph.svg" width="367" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_inventory_a4eba5ec568d6e06c754b71057888fcdd_icgraph.svg" width="624" height="227"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a78bab4c24d6da82bdef1a27f5c33934e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78bab4c24d6da82bdef1a27f5c33934e">&#9670;&nbsp;</a></span>HadAlreadyBought()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Inventory.HadAlreadyBought </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_item.html">Item</a>&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_inventory_a78bab4c24d6da82bdef1a27f5c33934e_icgraph.svg" width="100%" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -218,7 +322,36 @@ Gràfic de crides d'aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_inventory_af5cb79cb50692e3fb6c98df25812dcbc_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_inventory_af5cb79cb50692e3fb6c98df25812dcbc_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af1e7ae193e520340f457705d73e27607"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1e7ae193e520340f457705d73e27607">&#9670;&nbsp;</a></span>SellItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Inventory.SellItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_item.html">Item</a>&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_inventory_af1e7ae193e520340f457705d73e27607_cgraph.svg" width="596" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_inventory_af1e7ae193e520340f457705d73e27607_icgraph.svg" width="350" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -297,8 +430,8 @@ Gràfic de crides a aquesta funció:</div>
 
 </div>
 </div>
-<a id="a5aad2febb2693d22acc72d0252a445c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5aad2febb2693d22acc72d0252a445c3">&#9670;&nbsp;</a></span>items</h2>
+<a id="a293c252e7e0964f7df6cce377d22f247"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a293c252e7e0964f7df6cce377d22f247">&#9670;&nbsp;</a></span>items</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,7 +440,7 @@ Gràfic de crides a aquesta funció:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_item.html">Item</a> [] Inventory.items</td>
+          <td class="memname">List&lt;<a class="el" href="class_item.html">Item</a>&gt; Inventory.items = new List&lt;<a class="el" href="class_item.html">Item</a>&gt;()</td>
         </tr>
       </table>
   </td>
@@ -348,7 +481,7 @@ Gràfic de crides a aquesta funció:</div>
 </div>
 </div>
 <hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
-<li>F:/Unity Projects/Treball de Fi de Grau/Assets/Scripts/Player/<a class="el" href="_inventory_8cs.html">Inventory.cs</a></li>
+<li>F:/Unity Projects/Treball de Fi de Grau/Assets/Scripts/Player/UI/<a class="el" href="_inventory_8cs.html">Inventory.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

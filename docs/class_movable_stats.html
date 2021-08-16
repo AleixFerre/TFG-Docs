@@ -121,10 +121,10 @@ Diagrama d'Herència per a MovableStats:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
-<tr class="memitem:ae2d94d5a40d77ea2a6218fdea08a97d5"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_movable_stats.html#ae2d94d5a40d77ea2a6218fdea08a97d5">ApplyStatistic</a> (<a class="el" href="_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92b">IntStatistic</a> statistic, int amount)</td></tr>
-<tr class="separator:ae2d94d5a40d77ea2a6218fdea08a97d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86eeffe9b7dc2104faa58bc592f157ae"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_movable_stats.html#a86eeffe9b7dc2104faa58bc592f157ae">ApplyStatistic</a> (<a class="el" href="_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022">FloatStatistic</a> statistic, float amount)</td></tr>
-<tr class="separator:a86eeffe9b7dc2104faa58bc592f157ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a538d94715dfd6ac060b1c39935180ed7"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_movable_stats.html#a538d94715dfd6ac060b1c39935180ed7">ApplyStatistic</a> (<a class="el" href="_statistic_8cs.html#af8ec0dbad1fc33aff3a07f6437573770">AddStackingStatistic</a> statistic, int amount)</td></tr>
+<tr class="separator:a538d94715dfd6ac060b1c39935180ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48664f89a560dce10b66f1eb9e16629e"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_movable_stats.html#a48664f89a560dce10b66f1eb9e16629e">ApplyStatistic</a> (<a class="el" href="_statistic_8cs.html#af96358dd05325193441d10c7221f3112">MultiplyStackingStatistic</a> statistic, float amount)</td></tr>
+<tr class="separator:a48664f89a560dce10b66f1eb9e16629e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8db5075f6cb3977efdc5c92f2fb927f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_movable_stats.html#a8db5075f6cb3977efdc5c92f2fb927f5">Heal</a> (int amount)</td></tr>
 <tr class="separator:a8db5075f6cb3977efdc5c92f2fb927f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a391da924ae762885f7e113ebb72fdf65"><td class="memItemLeft" align="right" valign="top">override sealed float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_movable_stats.html#a391da924ae762885f7e113ebb72fdf65">GetRange</a> ()</td></tr>
@@ -171,8 +171,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>Base class <a class="el" href="class_stats.html">Stats</a> of the entity who can move and is affected by Abilities. </p>
 <p>This class is abstract so DO NOT INSTANTIATE an object with this type.</p>
 </div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
-<a id="a86eeffe9b7dc2104faa58bc592f157ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86eeffe9b7dc2104faa58bc592f157ae">&#9670;&nbsp;</a></span>ApplyStatistic() <span class="overload">[1/2]</span></h2>
+<a id="a538d94715dfd6ac060b1c39935180ed7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a538d94715dfd6ac060b1c39935180ed7">&#9670;&nbsp;</a></span>ApplyStatistic() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -183,45 +183,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">abstract void MovableStats.ApplyStatistic </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_statistic_8cs.html#abe3cf4bc0c06db6025684d805e6c2022">FloatStatistic</a>&#160;</td>
-          <td class="paramname"><em>statistic</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>amount</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implementat a <a class="el" href="class_player_stats.html#a435b7ef22a526ca14f0bfe2608556656">PlayerStats</a> i <a class="el" href="class_minion_stats.html#a0f345ef52764fa6eb7fe7160b73026f9">MinionStats</a>.</p>
-
-</div>
-</div>
-<a id="ae2d94d5a40d77ea2a6218fdea08a97d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2d94d5a40d77ea2a6218fdea08a97d5">&#9670;&nbsp;</a></span>ApplyStatistic() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">abstract void MovableStats.ApplyStatistic </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="_statistic_8cs.html#ab362e551ad848252fd64a6e5dc98e92b">IntStatistic</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_statistic_8cs.html#af8ec0dbad1fc33aff3a07f6437573770">AddStackingStatistic</a>&#160;</td>
           <td class="paramname"><em>statistic</em>, </td>
         </tr>
         <tr>
@@ -243,12 +205,51 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implementat a <a class="el" href="class_player_stats.html#aadda3920a5abc9b642425157f74ad117">PlayerStats</a> i <a class="el" href="class_minion_stats.html#a36aef70b8c65656c552168e0453209ee">MinionStats</a>.</p>
+<p>Implementat a <a class="el" href="class_player_stats.html#a7c4530de7792642b174b073ea1902c71">PlayerStats</a> i <a class="el" href="class_minion_stats.html#a167b90a72b43ea4bc84b75a62adc5d01">MinionStats</a>.</p>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_movable_stats_ae2d94d5a40d77ea2a6218fdea08a97d5_icgraph.svg" width="428" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_movable_stats_a538d94715dfd6ac060b1c39935180ed7_icgraph.svg" width="100%" height="397"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+</div>
+
+</div>
+</div>
+<a id="a48664f89a560dce10b66f1eb9e16629e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48664f89a560dce10b66f1eb9e16629e">&#9670;&nbsp;</a></span>ApplyStatistic() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void MovableStats.ApplyStatistic </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_statistic_8cs.html#af96358dd05325193441d10c7221f3112">MultiplyStackingStatistic</a>&#160;</td>
+          <td class="paramname"><em>statistic</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>amount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implementat a <a class="el" href="class_player_stats.html#adb5671e928ca842bb3132accd93c11a0">PlayerStats</a> i <a class="el" href="class_minion_stats.html#ab374a30a91015fa397794eddfafe0c6f">MinionStats</a>.</p>
 
 </div>
 </div>
