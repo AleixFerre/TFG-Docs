@@ -23,12 +23,11 @@ var class_lobby =
     [ "charactersGO", "class_lobby.html#adbbcd41bc77b14419e90567da659c979", null ],
     [ "estat", "class_lobby.html#a679a4016ff53b4a2628306e52cf66abc", null ],
     [ "firstPick", "class_lobby.html#a7cbc5809d1d37a0f9ff65d258996e9b0", null ],
-    [ "frameImages", "class_lobby.html#a1e40323c2cb14addd035ccbe35734666", null ],
+    [ "frameImages", "class_lobby.html#acd45b74054b47aac1779c346e97ba3e6", null ],
     [ "playerCountTxt", "class_lobby.html#ae19bf75a3f66b6dcf5ad7791cc4bea82", null ],
     [ "readyButton", "class_lobby.html#ae317efc7e00d7d1fa0b9bf46636e00d9", null ],
     [ "selectCharacterPanel", "class_lobby.html#a51f604d2de17594edf20d7bf96821572", null ],
     [ "selectedCharacter", "class_lobby.html#ae6ee047c2901d58a4e80af56a87b9c65", null ],
-    [ "selectedColor", "class_lobby.html#ae6709e9814f20417ba9559b2ac6d2e2f", null ],
     [ "startGameBtn", "class_lobby.html#a47509b615eef51f7bbe29ee20367e2e9", null ],
     [ "view", "class_lobby.html#afd098a3a92509a29bf314f6b906ca9fb", null ],
     [ "waitingForPlayersTxt", "class_lobby.html#a0c5d34e133ca0c85c6b9196e9ae7274b", null ]

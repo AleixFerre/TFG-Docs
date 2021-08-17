@@ -1,6 +1,6 @@
 var class_structure_stats =
 [
-    [ "Activate", "class_structure_stats.html#ae1bcd69f106e8a15d456ce6230731b03", null ],
+    [ "Activate", "class_structure_stats.html#a9288d34a28aecd99033a0f2998df3a21", null ],
     [ "Die", "class_structure_stats.html#a47d6bbbce7de8a935120066f849d8bd4", null ],
     [ "DrawArcs", "class_structure_stats.html#ac93b889aa0a95f84eb866c3743230b6f", null ],
     [ "GetRange", "class_structure_stats.html#a52c2896887d916143811c4bff751dd6c", null ],

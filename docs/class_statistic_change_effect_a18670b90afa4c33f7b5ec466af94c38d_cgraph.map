@@ -1,6 +1,6 @@
 <map id="StatisticChangeEffect.ApplyTimedEffect" name="StatisticChangeEffect.ApplyTimedEffect">
 <area shape="rect" id="node1" title=" " alt="" coords="5,23,189,65"/>
-<area shape="rect" id="node2" href="$class_movable_stats.html#a538d94715dfd6ac060b1c39935180ed7" title=" " alt="" coords="242,5,427,32"/>
+<area shape="rect" id="node2" href="$class_movable_stats.html#a496f0de472c44aa2c5aa86bb5625eecd" title=" " alt="" coords="242,5,427,32"/>
 <area shape="rect" id="node3" href="$class_effect_manager.html#aabe536a972389473af36e685412eecd1" title="This function needs to be called whenever a TimedEffect finishes" alt="" coords="237,56,432,83"/>
 <area shape="rect" id="node4" href="$class_effect_h_u_d_controller.html#a5d2dd46778d538fb1474624fd083818b" title=" " alt="" coords="480,49,663,90"/>
 </map>

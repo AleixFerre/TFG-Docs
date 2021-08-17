@@ -1,10 +1,7 @@
 <map id="PlayerStats.AddXP" name="PlayerStats.AddXP">
-<area shape="rect" id="node1" title="Add some XP amount." alt="" coords="436,81,569,108"/>
-<area shape="rect" id="node2" href="$class_mannequin_stats.html#a8bd8eed182eccafe2a9f3a2764e82dc3" title="Function that implements what is done when this entity dies." alt="" coords="249,5,388,32"/>
-<area shape="rect" id="node3" href="$class_minion_stats.html#a5366cb256edc6dc42f01c2907ee14e7a" title="Function that implements what is done when this entity dies." alt="" coords="261,56,376,83"/>
-<area shape="rect" id="node5" href="$class_turret_stats.html#afba2a2bb8d56fba966bb1c8ff069b63a" title="Function that implements what is done when this entity dies." alt="" coords="264,107,373,133"/>
-<area shape="rect" id="node7" href="$class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff" title="Function that implements what is done when this entity dies." alt="" coords="262,157,375,184"/>
-<area shape="rect" id="node4" href="$class_minion_stats.html#a0a96f247dbad88ea2ebbcac31069cfb9" title=" " alt="" coords="5,56,201,83"/>
-<area shape="rect" id="node6" href="$class_turret_stats.html#a2033725304e14040f7e2a92e1a32fc5c" title=" " alt="" coords="8,107,199,133"/>
-<area shape="rect" id="node8" href="$class_player_stats.html#af3f5e42d89a4925ff14f7edc904513ad" title=" " alt="" coords="6,157,201,184"/>
+<area shape="rect" id="node1" title="Add some XP amount." alt="" coords="224,81,357,108"/>
+<area shape="rect" id="node2" href="$class_mannequin_stats.html#a8bd8eed182eccafe2a9f3a2764e82dc3" title="Function that implements what is done when this entity dies." alt="" coords="21,5,160,32"/>
+<area shape="rect" id="node3" href="$class_turret_stats.html#afba2a2bb8d56fba966bb1c8ff069b63a" title="Function that implements what is done when this entity dies." alt="" coords="36,56,145,83"/>
+<area shape="rect" id="node4" href="$class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf" title="When this entity dies, it gives to the killer this bounty" alt="" coords="5,107,176,133"/>
+<area shape="rect" id="node5" href="$class_player_stats.html#abecc5e0421296d745f700eee2a26adf3" title="When this entity dies, it gives to the killer this bounty" alt="" coords="6,157,175,184"/>
 </map>

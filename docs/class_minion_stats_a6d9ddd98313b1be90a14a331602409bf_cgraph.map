@@ -1,0 +1,8 @@
+<map id="MinionStats.GiveRewards" name="MinionStats.GiveRewards">
+<area shape="rect" id="node1" title="When this entity dies, it gives to the killer this bounty" alt="" coords="5,81,176,108"/>
+<area shape="rect" id="node2" href="$class_game_controller.html#a708420d4559f1a7ad5d1a50d6b3df9bf" title="One of the players killed a minion." alt="" coords="224,5,401,32"/>
+<area shape="rect" id="node4" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="246,56,379,83"/>
+<area shape="rect" id="node5" href="$class_game_controller.html#a3284abf9985021d4e4936f90d858a7dd" title="Get a player GameObject by name." alt="" coords="225,107,400,133"/>
+<area shape="rect" id="node6" href="$class_game_controller.html#a7e7ba340d852830acb4d6f1f172c248c" title="Get the current time in seconds from the start of the game" alt="" coords="230,157,395,184"/>
+<area shape="rect" id="node3" href="$class_game_u_i_controller.html#ac6d98f05e3ed3d39178b42d85149db5d" title=" " alt="" coords="449,5,664,32"/>
+</map>

@@ -1,7 +1,4 @@
 <map id="Stats.DamageReduction" name="Stats.DamageReduction">
-<area shape="rect" id="node1" title="Apply the corresponding damage to this entity according to the armor and magicResist it have" alt="" coords="249,81,412,108"/>
-<area shape="rect" id="node2" href="$class_minion_stats.html#a0a96f247dbad88ea2ebbcac31069cfb9" title=" " alt="" coords="5,5,201,32"/>
-<area shape="rect" id="node3" href="$class_nexus_stats.html#ab95924ed5e4afbc80b9ead5a186f6b79" title=" " alt="" coords="6,56,201,83"/>
-<area shape="rect" id="node4" href="$class_turret_stats.html#a2033725304e14040f7e2a92e1a32fc5c" title=" " alt="" coords="8,107,199,133"/>
-<area shape="rect" id="node5" href="$class_player_stats.html#af3f5e42d89a4925ff14f7edc904513ad" title=" " alt="" coords="6,157,201,184"/>
+<area shape="rect" id="node1" title="Apply the corresponding damage to this entity according to the armor and magicResist it have" alt="" coords="212,5,375,32"/>
+<area shape="rect" id="node2" href="$class_stats.html#aa42ab5ae9f21d5c9b7670548e07495de" title=" " alt="" coords="5,5,164,32"/>
 </map>

@@ -1,13 +1,14 @@
 <map id="PlayerController.Initialize" name="PlayerController.Initialize">
-<area shape="rect" id="node1" title="Initialize the PlayerController." alt="" coords="5,101,171,127"/>
-<area shape="rect" id="node2" href="$class_player_stats.html#afcace3e680c4d2f0d8ae4a3d963b0d53" title="Returns the AbilityCooldowns of the abilities" alt="" coords="219,50,380,77"/>
-<area shape="rect" id="node3" href="$class_basic_attack.html#ac85eb061d597f5879d31fb8e7a0316d5" title=" " alt="" coords="227,101,371,127"/>
-<area shape="rect" id="node4" href="$class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240" title="Initialize the actual Stats of the Player." alt="" coords="229,151,370,178"/>
+<area shape="rect" id="node1" title="Initialize the PlayerController." alt="" coords="5,126,171,153"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#afcace3e680c4d2f0d8ae4a3d963b0d53" title="Returns the AbilityCooldowns of the abilities" alt="" coords="219,75,380,102"/>
+<area shape="rect" id="node3" href="$class_basic_attack.html#ac85eb061d597f5879d31fb8e7a0316d5" title=" " alt="" coords="227,126,371,153"/>
+<area shape="rect" id="node4" href="$class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240" title="Initialize the actual Stats of the Player." alt="" coords="229,177,370,203"/>
 <area shape="rect" id="node5" href="$class_player_u_i_controller.html#ab6ed746dec17fdf763bc4ec1d713db7f" title="Initializes all the values and colors for this Player." alt="" coords="437,46,611,73"/>
 <area shape="rect" id="node11" href="$class_player_h_u_d_controller.html#af18de1b3d5444d69cc35c9390692ab72" title=" " alt="" coords="428,101,620,127"/>
 <area shape="rect" id="node13" href="$class_effect_manager.html#a5b9a498227bc61493b5246eb1303fc6e" title="This method initializes the EffectManager with the proper HUD Controller to start showing the effects..." alt="" coords="446,151,602,178"/>
 <area shape="rect" id="node14" href="$class_inventory.html#af5cb79cb50692e3fb6c98df25812dcbc" title=" " alt="" coords="462,202,586,229"/>
 <area shape="rect" id="node16" href="$class_player_h_u_d_controller.html#adf30ead91cd36140e32d0ad158fbbae4" title=" " alt="" coords="428,253,620,295"/>
+<area shape="rect" id="node20" href="$class_player_stats.html#a856d6147e020365c88ea7b01cb4961a6" title=" " alt="" coords="449,319,599,346"/>
 <area shape="rect" id="node6" href="$class_player_u_i_controller.html#aa5b61a93967fa5ce39bfd950a9e9d584" title="Initializes all the values into the Image and Text." alt="" coords="673,37,850,79"/>
 <area shape="rect" id="node7" href="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" title="Sets the current level and xp to the Image." alt="" coords="913,5,1083,47"/>
 <area shape="rect" id="node9" href="$class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="913,71,1083,112"/>

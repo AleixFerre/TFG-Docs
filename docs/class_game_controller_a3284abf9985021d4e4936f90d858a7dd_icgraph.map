@@ -1,7 +1,5 @@
 <map id="GameController.GetPlayer" name="GameController.GetPlayer">
-<area shape="rect" id="node1" title="Get a player GameObject by name." alt="" coords="412,31,587,57"/>
-<area shape="rect" id="node2" href="$class_minion_stats.html#a5366cb256edc6dc42f01c2907ee14e7a" title="Function that implements what is done when this entity dies." alt="" coords="249,5,364,32"/>
-<area shape="rect" id="node4" href="$class_turret_stats.html#afba2a2bb8d56fba966bb1c8ff069b63a" title="Function that implements what is done when this entity dies." alt="" coords="252,56,361,83"/>
-<area shape="rect" id="node3" href="$class_minion_stats.html#a0a96f247dbad88ea2ebbcac31069cfb9" title=" " alt="" coords="5,5,201,32"/>
-<area shape="rect" id="node5" href="$class_turret_stats.html#a2033725304e14040f7e2a92e1a32fc5c" title=" " alt="" coords="8,56,199,83"/>
+<area shape="rect" id="node1" title="Get a player GameObject by name." alt="" coords="224,31,399,57"/>
+<area shape="rect" id="node2" href="$class_turret_stats.html#afba2a2bb8d56fba966bb1c8ff069b63a" title="Function that implements what is done when this entity dies." alt="" coords="36,5,145,32"/>
+<area shape="rect" id="node3" href="$class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf" title="When this entity dies, it gives to the killer this bounty" alt="" coords="5,56,176,83"/>
 </map>

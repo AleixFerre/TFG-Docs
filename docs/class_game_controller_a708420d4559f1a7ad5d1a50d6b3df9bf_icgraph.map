@@ -1,5 +1,4 @@
 <map id="GameController.AddMinion" name="GameController.AddMinion">
-<area shape="rect" id="node1" title="One of the players killed a minion." alt="" coords="412,5,589,32"/>
-<area shape="rect" id="node2" href="$class_minion_stats.html#a5366cb256edc6dc42f01c2907ee14e7a" title="Function that implements what is done when this entity dies." alt="" coords="249,5,364,32"/>
-<area shape="rect" id="node3" href="$class_minion_stats.html#a0a96f247dbad88ea2ebbcac31069cfb9" title=" " alt="" coords="5,5,201,32"/>
+<area shape="rect" id="node1" title="One of the players killed a minion." alt="" coords="224,5,401,32"/>
+<area shape="rect" id="node2" href="$class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf" title="When this entity dies, it gives to the killer this bounty" alt="" coords="5,5,176,32"/>
 </map>

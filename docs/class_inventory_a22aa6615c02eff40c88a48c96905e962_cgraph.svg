@@ -82,7 +82,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_movable_stats.html#a538d94715dfd6ac060b1c39935180ed7" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="class_movable_stats.html#a496f0de472c44aa2c5aa86bb5625eecd" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="306,-137 306,-156 445,-156 445,-137 306,-137"/>
 <text text-anchor="middle" x="375.5" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00">MovableStats.ApplyStatistic</text>
 </a>

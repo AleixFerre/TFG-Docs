@@ -26,5 +26,6 @@ var class_player_h_u_d_controller =
     [ "mpBar", "class_player_h_u_d_controller.html#a2f3526a76db9ff97a5e2595b4ebc7c32", null ],
     [ "mpRegenTxt", "class_player_h_u_d_controller.html#a214ac2eb290034a1b1dc3f9825ff9758", null ],
     [ "mpTxt", "class_player_h_u_d_controller.html#ad758e03016a65337bd8158051699bb9f", null ],
+    [ "storeGoldTxt", "class_player_h_u_d_controller.html#af251e2a6a171b9126788c157104643df", null ],
     [ "view", "class_player_h_u_d_controller.html#a01cfcb12c2f9d2687c14a8c39d2c67dc", null ]
 ];

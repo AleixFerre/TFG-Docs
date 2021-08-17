@@ -1,7 +1,5 @@
 <map id="StructureUIController.Initalize" name="StructureUIController.Initalize">
-<area shape="rect" id="node1" title=" " alt="" coords="193,81,384,108"/>
-<area shape="rect" id="node2" href="$class_nexus_stats.html#ab75e21d9dab118cc45f49f6d3e8bc090" title=" " alt="" coords="5,5,145,32"/>
-<area shape="rect" id="node3" href="$class_turret_stats.html#afc8826b6b4090ba3d1b9aadbe4b5076f" title=" " alt="" coords="7,56,143,83"/>
-<area shape="rect" id="node4" href="$class_nexus_stats.html#a2f625990da73631c1b2218f6ad2787cf" title=" " alt="" coords="14,107,137,133"/>
-<area shape="rect" id="node5" href="$class_turret_stats.html#a3192f8253accadf672e3afb4de7391eb" title=" " alt="" coords="16,157,135,184"/>
+<area shape="rect" id="node1" title=" " alt="" coords="176,31,367,57"/>
+<area shape="rect" id="node2" href="$class_nexus_stats.html#a2f625990da73631c1b2218f6ad2787cf" title=" " alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node3" href="$class_turret_stats.html#a3192f8253accadf672e3afb4de7391eb" title=" " alt="" coords="7,56,126,83"/>
 </map>

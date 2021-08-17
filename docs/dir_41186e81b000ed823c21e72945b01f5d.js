@@ -1,6 +1,9 @@
 var dir_41186e81b000ed823c21e72945b01f5d =
 [
     [ "UI", "dir_355ebdeb3cb75b20388daddb97c31680.html", "dir_355ebdeb3cb75b20388daddb97c31680" ],
+    [ "CharacterUI.cs", "_character_u_i_8cs.html", [
+      [ "CharacterUI", "class_character_u_i.html", "class_character_u_i" ]
+    ] ],
     [ "LoadingCanvas.cs", "_loading_canvas_8cs.html", [
       [ "LoadingCanvas", "class_loading_canvas.html", "class_loading_canvas" ]
     ] ],

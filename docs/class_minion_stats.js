@@ -1,10 +1,9 @@
 var class_minion_stats =
 [
-    [ "ApplyStatistic", "class_minion_stats.html#a167b90a72b43ea4bc84b75a62adc5d01", null ],
     [ "ApplyStatistic", "class_minion_stats.html#ab374a30a91015fa397794eddfafe0c6f", null ],
-    [ "DealDamage", "class_minion_stats.html#a9942aad33ba0b41e8c7ee6d05076cdc4", null ],
-    [ "DealDamageRPC", "class_minion_stats.html#a0a96f247dbad88ea2ebbcac31069cfb9", null ],
     [ "Die", "class_minion_stats.html#a5366cb256edc6dc42f01c2907ee14e7a", null ],
+    [ "GetUI", "class_minion_stats.html#aa9681d190d77ce2d17151fec22baa13a", null ],
+    [ "GiveRewards", "class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf", null ],
     [ "HealRPC", "class_minion_stats.html#abecc35855bcf8bb1e30909708b3fa882", null ],
     [ "Start", "class_minion_stats.html#ad20288fcb2661cb6a811b7fd467d7424", null ],
     [ "_collider", "class_minion_stats.html#abc16c6ee9a20ffa191d28879d9149da5", null ],
@@ -13,6 +12,5 @@ var class_minion_stats =
     [ "animator", "class_minion_stats.html#adc790017fd2e17535f7492cfd9c3c1c5", null ],
     [ "baseXpAmount", "class_minion_stats.html#a9db142fc47944521f0f027438a62ef32", null ],
     [ "coinAmount", "class_minion_stats.html#adf20ff7a0c2e233203891df4f8dca382", null ],
-    [ "lastHitted", "class_minion_stats.html#a512c1a950bdfebe431bd286282422f80", null ],
     [ "uiControl", "class_minion_stats.html#addd7271ce7ed20f6f2fef91fa41e60a8", null ]
 ];

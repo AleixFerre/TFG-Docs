@@ -1,0 +1,11 @@
+<map id="Stats.DealDamage" name="Stats.DealDamage">
+<area shape="rect" id="node1" title="Specify the amount of damage and the Inventory that the amount of Gold will go in if it is hit for th..." alt="" coords="513,145,644,171"/>
+<area shape="rect" id="node2" href="$class_basic_attack.html#ab41a7fd3006e5a8a3d2d8399d41e630f" title=" " alt="" coords="249,14,465,41"/>
+<area shape="rect" id="node4" href="$class_ability___lis4.html#abf66fa4ed9cc553dc8ab52d7bbd12406" title=" " alt="" coords="255,69,460,95"/>
+<area shape="rect" id="node6" href="$class_ability___lis1.html#afd1d7924ca79144a0e19a84705b7590e" title=" " alt="" coords="267,119,447,146"/>
+<area shape="rect" id="node7" href="$class_ability___lis4.html#a4497c50ddbd3f508448a76a1eafdd203" title=" " alt="" coords="267,170,447,197"/>
+<area shape="rect" id="node8" href="$class_out_of_bounds.html#a17995358e6ec7014c0e35845aa4e7890" title=" " alt="" coords="262,221,453,247"/>
+<area shape="rect" id="node9" href="$class_ranged_attack_follow.html#a3af5fcd78604ae899fb6c46c184987fa" title=" " alt="" coords="264,271,451,298"/>
+<area shape="rect" id="node3" href="$class_model_player_mediator.html#a4fbf51870eca9fe09be5598b1b610749" title=" " alt="" coords="5,5,201,47"/>
+<area shape="rect" id="node5" href="$class_ability___lis4.html#a81b6301f39ee1f8a105aaf40bb6ec51e" title=" " alt="" coords="33,71,173,98"/>
+</map>

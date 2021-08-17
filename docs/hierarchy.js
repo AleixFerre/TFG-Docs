@@ -26,6 +26,7 @@ var hierarchy =
       [ "BaseRegenerator", "class_base_regenerator.html", null ],
       [ "BasicAttack", "class_basic_attack.html", null ],
       [ "Billboard", "class_billboard.html", null ],
+      [ "CharacterUI", "class_character_u_i.html", null ],
       [ "ConnectionManager", "class_connection_manager.html", null ],
       [ "CurrentItemShop", "class_current_item_shop.html", null ],
       [ "Drop", "class_drop.html", [
@@ -43,6 +44,7 @@ var hierarchy =
       [ "ModelPlayerMediator", "class_model_player_mediator.html", null ],
       [ "ModelSync", "class_model_sync.html", null ],
       [ "OptionsMenu", "class_options_menu.html", null ],
+      [ "OutOfBounds", "class_out_of_bounds.html", null ],
       [ "PauseMenu", "class_pause_menu.html", null ],
       [ "PlayerController", "class_player_controller.html", null ],
       [ "PlayerHUDController", "class_player_h_u_d_controller.html", null ],
