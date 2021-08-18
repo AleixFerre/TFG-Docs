@@ -1,0 +1,5 @@
+<map id="MinionAI.Initialize" name="MinionAI.Initialize">
+<area shape="rect" id="node1" title=" " alt="" coords="415,5,537,32"/>
+<area shape="rect" id="node2" href="$class_minion_stats.html#aa5a0ca66d4dd72c3e70c7ae9ee8e6cb8" title=" " alt="" coords="224,5,367,32"/>
+<area shape="rect" id="node3" href="$class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf" title="When this entity dies, it gives to the killer this bounty" alt="" coords="5,5,176,32"/>
+</map>

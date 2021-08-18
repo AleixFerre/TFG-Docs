@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"class_ability_indicator.html#a5622fb68800e111de3f75a8adf6efd17":[0,0,10,6],
 "class_ability_indicator.html#a72979c78b7bc103d96446e3bb2ec07f4":[0,0,10,7],
 "class_ability_indicator.html#a7aa3c24f1f532445b203f1d19f8d6db8":[0,0,10,4],
 "class_ability_indicator.html#aaf1aa8f26591497f20fc44435964f990":[0,0,10,1],
@@ -190,8 +191,8 @@ var NAVTREEINDEX1 =
 "class_effect_manager.html#aacaa149f0b45cbfb64ee33c1d47e87f3":[0,0,30,5],
 "class_effect_manager.html#aeea62b1fb20aaac149d21960d4683aa6":[0,0,30,6],
 "class_game_controller.html":[0,0,31],
-"class_game_controller.html#a045756a191baa7e90ca55768cf2279f7":[0,0,31,25],
 "class_game_controller.html#a0d83f0779a2ddcb3fb4bd2494c7497ae":[0,0,31,6],
+"class_game_controller.html#a12908c03958874ac87044379db141c9e":[0,0,31,25],
 "class_game_controller.html#a262b46e661b13ccf4ec012a4b35c6b2f":[0,0,31,16],
 "class_game_controller.html#a2db056edd4ce25aa04feee11214cf911":[0,0,31,33],
 "class_game_controller.html#a32343c01795c3b274ea4d9f6f2b27e88":[0,0,31,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "class_generic_dictionary.html#a679f48bd2ee64873186e97c78b642213":[0,0,33,19],
 "class_generic_dictionary.html#a7ef41939aa49dc6c0c18a64dca398839":[0,0,33,4],
 "class_generic_dictionary.html#a930e061852836b6997d0975b2271865d":[0,0,33,15],
-"class_generic_dictionary.html#aa3fd065828bdb39d64be67280a056d96":[0,0,33,18],
-"class_generic_dictionary.html#aa7e3c7674d72aa09908d823828bfe9a0":[0,0,33,9]
+"class_generic_dictionary.html#aa3fd065828bdb39d64be67280a056d96":[0,0,33,18]
 };

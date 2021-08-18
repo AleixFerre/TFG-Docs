@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_player_stats.html#adb5671e928ca842bb3132accd93c11a0" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="class_player_stats.html#a3507e028445e5b53fa9adf640b83c7e8" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="0,-6 0,-25 131,-25 131,-6 0,-6"/>
 <text text-anchor="middle" x="65.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerStats.ApplyStatistic</text>
 </a>

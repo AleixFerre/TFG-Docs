@@ -11,7 +11,7 @@
 <area shape="rect" id="node14" href="$class_effect_manager.html#a5b9a498227bc61493b5246eb1303fc6e" title="This method initializes the EffectManager with the proper HUD Controller to start showing the effects..." alt="" coords="670,151,826,178"/>
 <area shape="rect" id="node15" href="$class_inventory.html#af5cb79cb50692e3fb6c98df25812dcbc" title=" " alt="" coords="686,202,810,229"/>
 <area shape="rect" id="node17" href="$class_player_h_u_d_controller.html#adf30ead91cd36140e32d0ad158fbbae4" title=" " alt="" coords="652,253,844,295"/>
-<area shape="rect" id="node21" href="$class_player_stats.html#a856d6147e020365c88ea7b01cb4961a6" title=" " alt="" coords="673,319,823,346"/>
+<area shape="rect" id="node21" href="$class_player_stats.html#a856d6147e020365c88ea7b01cb4961a6" title="Copies the Character initial values to the actual Stats script" alt="" coords="673,319,823,346"/>
 <area shape="rect" id="node7" href="$class_player_u_i_controller.html#aa5b61a93967fa5ce39bfd950a9e9d584" title="Initializes all the values into the Image and Text." alt="" coords="897,37,1074,79"/>
 <area shape="rect" id="node8" href="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" title="Sets the current level and xp to the Image." alt="" coords="1137,5,1307,47"/>
 <area shape="rect" id="node10" href="$class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="1137,71,1307,112"/>

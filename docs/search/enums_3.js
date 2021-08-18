@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['multiplystackingstatistic_1577',['MultiplyStackingStatistic',['../_statistic_8cs.html#af96358dd05325193441d10c7221f3112',1,'Statistic.cs']]]
+  ['playerstate_1604',['PlayerState',['../class_basic_attack.html#a79124cc3f973d837b2f08509038bdb03',1,'BasicAttack']]]
 ];

@@ -25,7 +25,7 @@ var class_game_controller =
     [ "localPlayer", "class_game_controller.html#ab4e0963b5f560fa4c662a6f4a35b3867", null ],
     [ "mapElementsUis", "class_game_controller.html#af6eeca3f92392f4947f6ac65ded3f480", null ],
     [ "placeholderCamera", "class_game_controller.html#a32343c01795c3b274ea4d9f6f2b27e88", null ],
-    [ "players", "class_game_controller.html#a045756a191baa7e90ca55768cf2279f7", null ],
+    [ "players", "class_game_controller.html#a12908c03958874ac87044379db141c9e", null ],
     [ "readyCount", "class_game_controller.html#a3fbcde76fdaac310854ce370b452e78e", null ],
     [ "redKills", "class_game_controller.html#aed40fdca01dd073aa0cb18768fe7f403", null ],
     [ "redMinions", "class_game_controller.html#ae9992119d2656bd87561a926c6ddfe86", null ],

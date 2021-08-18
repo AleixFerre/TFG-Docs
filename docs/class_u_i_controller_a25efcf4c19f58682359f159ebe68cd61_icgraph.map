@@ -1,7 +1,9 @@
 <map id="UIController.LoadColors" name="UIController.LoadColors">
-<area shape="rect" id="node1" title=" " alt="" coords="612,31,771,57"/>
-<area shape="rect" id="node2" href="$class_u_i_controller.html#ab1853922923ea143f0e27d10425a3adb" title=" " alt="" coords="409,5,541,32"/>
-<area shape="rect" id="node3" href="$class_u_i_controller.html#a5f4c8564677f50adca215a4c91020c5c" title=" " alt="" coords="387,56,564,83"/>
-<area shape="rect" id="node4" href="$class_structure_stats.html#a9288d34a28aecd99033a0f2998df3a21" title=" " alt="" coords="183,56,339,83"/>
-<area shape="rect" id="node5" href="$class_structure_stats.html#a47d6bbbce7de8a935120066f849d8bd4" title="Function that implements what is done when this entity dies." alt="" coords="5,56,135,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="653,31,812,57"/>
+<area shape="rect" id="node2" href="$class_u_i_controller.html#ab1853922923ea143f0e27d10425a3adb" title=" " alt="" coords="451,5,583,32"/>
+<area shape="rect" id="node3" href="$class_u_i_controller.html#a5f4c8564677f50adca215a4c91020c5c" title=" " alt="" coords="428,56,605,83"/>
+<area shape="rect" id="node4" href="$class_structure_stats.html#a9288d34a28aecd99033a0f2998df3a21" title=" " alt="" coords="224,31,380,57"/>
+<area shape="rect" id="node6" href="$class_minion_stats.html#aa5a0ca66d4dd72c3e70c7ae9ee8e6cb8" title=" " alt="" coords="231,81,373,108"/>
+<area shape="rect" id="node5" href="$class_structure_stats.html#a47d6bbbce7de8a935120066f849d8bd4" title="Function that implements what is done when this entity dies." alt="" coords="26,31,155,57"/>
+<area shape="rect" id="node7" href="$class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf" title="When this entity dies, it gives to the killer this bounty" alt="" coords="5,81,176,108"/>
 </map>

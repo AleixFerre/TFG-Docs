@@ -49,6 +49,8 @@ var annotated_dup =
     [ "MainMenu", "class_main_menu.html", "class_main_menu" ],
     [ "Mannequin", "class_mannequin.html", "class_mannequin" ],
     [ "MannequinStats", "class_mannequin_stats.html", "class_mannequin_stats" ],
+    [ "MinionAI", "class_minion_a_i.html", "class_minion_a_i" ],
+    [ "MinionSpawner", "class_minion_spawner.html", "class_minion_spawner" ],
     [ "MinionStats", "class_minion_stats.html", "class_minion_stats" ],
     [ "MinionUIController", "class_minion_u_i_controller.html", "class_minion_u_i_controller" ],
     [ "ModelPlayerMediator", "class_model_player_mediator.html", "class_model_player_mediator" ],

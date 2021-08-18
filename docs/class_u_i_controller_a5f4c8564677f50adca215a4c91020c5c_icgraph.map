@@ -1,5 +1,7 @@
 <map id="UIController.InitializeColors" name="UIController.InitializeColors">
-<area shape="rect" id="node1" title=" " alt="" coords="387,5,564,32"/>
-<area shape="rect" id="node2" href="$class_structure_stats.html#a9288d34a28aecd99033a0f2998df3a21" title=" " alt="" coords="183,5,339,32"/>
-<area shape="rect" id="node3" href="$class_structure_stats.html#a47d6bbbce7de8a935120066f849d8bd4" title="Function that implements what is done when this entity dies." alt="" coords="5,5,135,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="428,31,605,57"/>
+<area shape="rect" id="node2" href="$class_structure_stats.html#a9288d34a28aecd99033a0f2998df3a21" title=" " alt="" coords="224,5,380,32"/>
+<area shape="rect" id="node4" href="$class_minion_stats.html#aa5a0ca66d4dd72c3e70c7ae9ee8e6cb8" title=" " alt="" coords="231,56,373,83"/>
+<area shape="rect" id="node3" href="$class_structure_stats.html#a47d6bbbce7de8a935120066f849d8bd4" title="Function that implements what is done when this entity dies." alt="" coords="26,5,155,32"/>
+<area shape="rect" id="node5" href="$class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf" title="When this entity dies, it gives to the killer this bounty" alt="" coords="5,56,176,83"/>
 </map>

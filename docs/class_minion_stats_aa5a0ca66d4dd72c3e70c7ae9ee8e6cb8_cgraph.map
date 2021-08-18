@@ -1,0 +1,11 @@
+<map id="MinionStats.Initialize" name="MinionStats.Initialize">
+<area shape="rect" id="node1" title=" " alt="" coords="5,69,148,96"/>
+<area shape="rect" id="node2" href="$class_minion_u_i_controller.html#ab78a1deb8df96e5afb81f12b3732b5f0" title=" " alt="" coords="197,19,372,45"/>
+<area shape="rect" id="node3" href="$class_minion_a_i.html#a174b746b62e9b80b1e59edbbd8a309ff" title=" " alt="" coords="223,69,346,96"/>
+<area shape="rect" id="node7" href="$class_u_i_controller.html#a5f4c8564677f50adca215a4c91020c5c" title=" " alt="" coords="196,132,373,159"/>
+<area shape="rect" id="node4" href="$class_utils.html#a6ac07f202eb5cc4bf2322b73d1196f90" title="Returns the enemy Team of the passed one." alt="" coords="427,5,574,32"/>
+<area shape="rect" id="node5" href="$class_minion_a_i.html#ac52b368d1ec72545ac0c0a4708c1c155" title=" " alt="" coords="434,56,567,83"/>
+<area shape="rect" id="node6" href="$class_minion_a_i.html#a84c1cea7268781a3cafec4135d94df5c" title=" " alt="" coords="434,107,567,133"/>
+<area shape="rect" id="node8" href="$class_u_i_controller.html#a25efcf4c19f58682359f159ebe68cd61" title=" " alt="" coords="421,157,580,184"/>
+<area shape="rect" id="node9" href="$class_utils.html#ab9e5182f0bed89c77ffe578768c9c8c2" title="Pass a hex string and you get the Color." alt="" coords="628,157,775,184"/>
+</map>
