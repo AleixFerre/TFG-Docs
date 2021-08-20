@@ -1,17 +1,10 @@
 <map id="MinionStats.GiveRewards" name="MinionStats.GiveRewards">
-<area shape="rect" id="node1" title="When this entity dies, it gives to the killer this bounty" alt="" coords="5,107,176,133"/>
-<area shape="rect" id="node2" href="$class_game_controller.html#a708420d4559f1a7ad5d1a50d6b3df9bf" title="One of the players killed a minion." alt="" coords="224,5,401,32"/>
-<area shape="rect" id="node4" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="246,56,379,83"/>
-<area shape="rect" id="node5" href="$class_game_controller.html#a3284abf9985021d4e4936f90d858a7dd" title="Get a player GameObject by name." alt="" coords="225,107,400,133"/>
-<area shape="rect" id="node6" href="$class_game_controller.html#a7e7ba340d852830acb4d6f1f172c248c" title="Get the current time in seconds from the start of the game" alt="" coords="230,157,395,184"/>
-<area shape="rect" id="node7" href="$class_minion_stats.html#aa5a0ca66d4dd72c3e70c7ae9ee8e6cb8" title=" " alt="" coords="241,208,384,235"/>
-<area shape="rect" id="node3" href="$class_game_u_i_controller.html#ac6d98f05e3ed3d39178b42d85149db5d" title=" " alt="" coords="449,5,664,32"/>
-<area shape="rect" id="node8" href="$class_minion_u_i_controller.html#ab78a1deb8df96e5afb81f12b3732b5f0" title=" " alt="" coords="469,157,644,184"/>
-<area shape="rect" id="node9" href="$class_minion_a_i.html#a174b746b62e9b80b1e59edbbd8a309ff" title=" " alt="" coords="495,208,618,235"/>
-<area shape="rect" id="node13" href="$class_u_i_controller.html#a5f4c8564677f50adca215a4c91020c5c" title=" " alt="" coords="468,271,645,297"/>
-<area shape="rect" id="node10" href="$class_utils.html#a6ac07f202eb5cc4bf2322b73d1196f90" title="Returns the enemy Team of the passed one." alt="" coords="718,144,865,171"/>
-<area shape="rect" id="node11" href="$class_minion_a_i.html#ac52b368d1ec72545ac0c0a4708c1c155" title=" " alt="" coords="725,195,858,221"/>
-<area shape="rect" id="node12" href="$class_minion_a_i.html#a84c1cea7268781a3cafec4135d94df5c" title=" " alt="" coords="725,245,858,272"/>
-<area shape="rect" id="node14" href="$class_u_i_controller.html#a25efcf4c19f58682359f159ebe68cd61" title=" " alt="" coords="712,296,871,323"/>
-<area shape="rect" id="node15" href="$class_utils.html#ab9e5182f0bed89c77ffe578768c9c8c2" title="Pass a hex string and you get the Color." alt="" coords="919,296,1065,323"/>
+<area shape="rect" id="node1" title="When this entity dies, it gives to the killer this bounty" alt="" coords="5,119,176,146"/>
+<area shape="rect" id="node2" href="$class_inventory.html#a154fe342bac27ad9f38a79da5c770d39" title=" " alt="" coords="249,14,376,41"/>
+<area shape="rect" id="node4" href="$class_game_controller.html#a708420d4559f1a7ad5d1a50d6b3df9bf" title="One of the players killed a minion." alt="" coords="224,69,401,95"/>
+<area shape="rect" id="node6" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="246,119,379,146"/>
+<area shape="rect" id="node7" href="$class_game_controller.html#a3284abf9985021d4e4936f90d858a7dd" title="Get a player GameObject by name." alt="" coords="225,170,400,197"/>
+<area shape="rect" id="node8" href="$class_game_controller.html#a7e7ba340d852830acb4d6f1f172c248c" title="Get the current time in seconds from the start of the game" alt="" coords="230,221,395,247"/>
+<area shape="rect" id="node3" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="463,5,650,47"/>
+<area shape="rect" id="node5" href="$class_game_u_i_controller.html#ac6d98f05e3ed3d39178b42d85149db5d" title=" " alt="" coords="449,71,664,98"/>
 </map>

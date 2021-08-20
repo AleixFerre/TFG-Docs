@@ -1,7 +1,7 @@
 <map id="MinionAI.SetRange" name="MinionAI.SetRange">
-<area shape="rect" id="node1" title=" " alt="" coords="639,31,772,57"/>
-<area shape="rect" id="node2" href="$class_minion_stats.html#a8a7574c262faabc0da0c3be815c1d379" title=" " alt="" coords="415,5,591,32"/>
-<area shape="rect" id="node3" href="$class_minion_a_i.html#a174b746b62e9b80b1e59edbbd8a309ff" title=" " alt="" coords="441,56,564,83"/>
-<area shape="rect" id="node4" href="$class_minion_stats.html#aa5a0ca66d4dd72c3e70c7ae9ee8e6cb8" title=" " alt="" coords="224,56,367,83"/>
-<area shape="rect" id="node5" href="$class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf" title="When this entity dies, it gives to the killer this bounty" alt="" coords="5,56,176,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="423,56,556,83"/>
+<area shape="rect" id="node2" href="$class_minion_stats.html#a8a7574c262faabc0da0c3be815c1d379" title=" " alt="" coords="197,5,373,32"/>
+<area shape="rect" id="node3" href="$class_minion_a_i.html#a174b746b62e9b80b1e59edbbd8a309ff" title=" " alt="" coords="224,56,347,83"/>
+<area shape="rect" id="node5" href="$class_minion_stats.html#a324ef0476601c818d6d8a80b34309a3a" title=" " alt="" coords="196,107,375,133"/>
+<area shape="rect" id="node4" href="$class_minion_stats.html#aa5a0ca66d4dd72c3e70c7ae9ee8e6cb8" title=" " alt="" coords="5,56,148,83"/>
 </map>

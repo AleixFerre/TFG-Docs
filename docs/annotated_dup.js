@@ -50,6 +50,7 @@ var annotated_dup =
     [ "Mannequin", "class_mannequin.html", "class_mannequin" ],
     [ "MannequinStats", "class_mannequin_stats.html", "class_mannequin_stats" ],
     [ "MinionAI", "class_minion_a_i.html", "class_minion_a_i" ],
+    [ "MinionAttack", "class_minion_attack.html", "class_minion_attack" ],
     [ "MinionSpawner", "class_minion_spawner.html", "class_minion_spawner" ],
     [ "MinionStats", "class_minion_stats.html", "class_minion_stats" ],
     [ "MinionUIController", "class_minion_u_i_controller.html", "class_minion_u_i_controller" ],

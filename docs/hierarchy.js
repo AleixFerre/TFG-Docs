@@ -42,6 +42,7 @@ var hierarchy =
       [ "LoadingCanvas", "class_loading_canvas.html", null ],
       [ "Mannequin", "class_mannequin.html", null ],
       [ "MinionAI", "class_minion_a_i.html", null ],
+      [ "MinionAttack", "class_minion_attack.html", null ],
       [ "MinionSpawner", "class_minion_spawner.html", null ],
       [ "ModelPlayerMediator", "class_model_player_mediator.html", null ],
       [ "ModelSync", "class_model_sync.html", null ],

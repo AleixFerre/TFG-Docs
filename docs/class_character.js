@@ -8,6 +8,7 @@ var class_character =
     [ "attackSpeed", "class_character.html#a333bb479c37d4def86230708fc8eb1a8", null ],
     [ "cDescription", "class_character.html#a9142928af68a13afb61caa75d527953e", null ],
     [ "cName", "class_character.html#aaf0d87db5c7b3dea8c8830dac5bab557", null ],
+    [ "goldRegen", "class_character.html#afb7101c4961b070936c5e93200cab7e9", null ],
     [ "index", "class_character.html#abba3015859162f8542beb3895471404c", null ],
     [ "levelUpHPAdd", "class_character.html#a89b2e79a8e56dc361ad45e5e9ac09df9", null ],
     [ "levelUpHPRegenAdd", "class_character.html#ad64df944909f236c7b1b643396fea9e5", null ],

@@ -3,6 +3,9 @@ var dir_88a426e54272566848ad4c1f16de8ad1 =
     [ "MinionAI.cs", "_minion_a_i_8cs.html", [
       [ "MinionAI", "class_minion_a_i.html", "class_minion_a_i" ]
     ] ],
+    [ "MinionAttack.cs", "_minion_attack_8cs.html", [
+      [ "MinionAttack", "class_minion_attack.html", "class_minion_attack" ]
+    ] ],
     [ "MinionSpawner.cs", "_minion_spawner_8cs.html", [
       [ "MinionSpawner", "class_minion_spawner.html", "class_minion_spawner" ]
     ] ],

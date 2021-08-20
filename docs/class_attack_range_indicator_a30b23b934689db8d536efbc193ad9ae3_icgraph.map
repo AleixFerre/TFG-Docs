@@ -1,4 +1,8 @@
 <map id="AttackRangeIndicator.SetRange" name="AttackRangeIndicator.SetRange">
-<area shape="rect" id="node1" title=" " alt="" coords="228,5,399,47"/>
-<area shape="rect" id="node2" href="$class_player_stats.html#a3507e028445e5b53fa9adf640b83c7e8" title=" " alt="" coords="5,13,180,39"/>
+<area shape="rect" id="node1" title=" " alt="" coords="835,23,1005,65"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#a3507e028445e5b53fa9adf640b83c7e8" title=" " alt="" coords="610,5,785,32"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#a85d656089081a1fae4eb9c531f44eaee" title=" " alt="" coords="608,56,787,83"/>
+<area shape="rect" id="node4" href="$class_item_statistic_effect.html#a7e60cf01d0ee7f4b00fe817a36a7b2b4" title=" " alt="" coords="392,56,560,83"/>
+<area shape="rect" id="node5" href="$class_inventory.html#af1e7ae193e520340f457705d73e27607" title=" " alt="" coords="220,56,344,83"/>
+<area shape="rect" id="node6" href="$class_sellable_item_u_i.html#acf95fddf5bd754193101c046807a195c" title=" " alt="" coords="5,49,172,90"/>
 </map>

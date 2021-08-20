@@ -1,6 +1,8 @@
 <map id="Inventory.AddGold" name="Inventory.AddGold">
-<area shape="rect" id="node1" title=" " alt="" coords="223,56,349,83"/>
-<area shape="rect" id="node2" href="$class_mannequin_stats.html#a8bd8eed182eccafe2a9f3a2764e82dc3" title="Function that implements what is done when this entity dies." alt="" coords="21,5,159,32"/>
-<area shape="rect" id="node3" href="$class_player_stats.html#abecc5e0421296d745f700eee2a26adf3" title="When this entity dies, it gives to the killer this bounty" alt="" coords="5,56,175,83"/>
-<area shape="rect" id="node4" href="$class_coin.html#a38022b7f8466c95101067154d8b4de13" title=" " alt="" coords="21,107,159,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="224,107,351,133"/>
+<area shape="rect" id="node2" href="$class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf" title="When this entity dies, it gives to the killer this bounty" alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node3" href="$class_turret_stats.html#abeb56bb247ac9247caff0e93a4a1dc68" title="When this entity dies, it gives to the killer this bounty" alt="" coords="8,56,173,83"/>
+<area shape="rect" id="node4" href="$class_player_stats.html#abecc5e0421296d745f700eee2a26adf3" title="When this entity dies, it gives to the killer this bounty" alt="" coords="6,107,175,133"/>
+<area shape="rect" id="node5" href="$class_coin.html#a38022b7f8466c95101067154d8b4de13" title=" " alt="" coords="21,157,160,184"/>
+<area shape="rect" id="node6" href="$class_player_stats.html#a15175185aaa4f8290e5148640f0ff80a" title=" " alt="" coords="23,208,158,235"/>
 </map>

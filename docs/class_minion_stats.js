@@ -6,12 +6,13 @@ var class_minion_stats =
     [ "GiveRewards", "class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf", null ],
     [ "HealRPC", "class_minion_stats.html#abecc35855bcf8bb1e30909708b3fa882", null ],
     [ "Initialize", "class_minion_stats.html#aa5a0ca66d4dd72c3e70c7ae9ee8e6cb8", null ],
+    [ "RevertStatistic", "class_minion_stats.html#a324ef0476601c818d6d8a80b34309a3a", null ],
     [ "_collider", "class_minion_stats.html#abc16c6ee9a20ffa191d28879d9149da5", null ],
     [ "_HP", "class_minion_stats.html#ad0402a797a44cee16a1d415a30ed939d", null ],
     [ "_view", "class_minion_stats.html#a080233b45b89a1e75fa75241bd3f0b8e", null ],
     [ "ai", "class_minion_stats.html#aa7432d250d3fe22a1dc5ee5fc0a7f397", null ],
     [ "animator", "class_minion_stats.html#adc790017fd2e17535f7492cfd9c3c1c5", null ],
     [ "baseXpAmount", "class_minion_stats.html#a9db142fc47944521f0f027438a62ef32", null ],
-    [ "coinAmount", "class_minion_stats.html#adf20ff7a0c2e233203891df4f8dca382", null ],
+    [ "goldReward", "class_minion_stats.html#a1a7786ff00d36986fdbbc7996c2256d6", null ],
     [ "uiControl", "class_minion_stats.html#addd7271ce7ed20f6f2fef91fa41e60a8", null ]
 ];
