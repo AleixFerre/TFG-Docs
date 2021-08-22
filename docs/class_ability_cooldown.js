@@ -4,7 +4,6 @@ var class_ability_cooldown =
     [ "ButtonTriggered", "class_ability_cooldown.html#a24d10146f84157eecd34133535f98c0b", null ],
     [ "CancelIndicator", "class_ability_cooldown.html#a72879179eb9de54cd5db0eb9f212cc1d", null ],
     [ "CoolDown", "class_ability_cooldown.html#a4766d65414fd56b9d80cf569b1118cb4", null ],
-    [ "GetAbility", "class_ability_cooldown.html#a5ec8f016a296ebaa560e4b6e551e2530", null ],
     [ "HaveEnoughMana", "class_ability_cooldown.html#a5ca1d60dfd6c2023676de0fe049bcb91", null ],
     [ "HideIndicator", "class_ability_cooldown.html#af8f6b0ae57a0c25c6027f9269a2a9410", null ],
     [ "Initialize", "class_ability_cooldown.html#aa01c150ac26f1694a1e174e152510094", null ],

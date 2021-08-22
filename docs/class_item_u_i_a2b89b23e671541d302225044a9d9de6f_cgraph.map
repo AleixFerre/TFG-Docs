@@ -1,14 +1,15 @@
 <map id="ItemUI.OnPointerClick" name="ItemUI.OnPointerClick">
-<area shape="rect" id="node1" title=" " alt="" coords="5,111,156,137"/>
-<area shape="rect" id="node2" href="$class_inventory.html#a22aa6615c02eff40c88a48c96905e962" title=" " alt="" coords="234,111,359,137"/>
-<area shape="rect" id="node5" href="$class_inventory.html#a4eba5ec568d6e06c754b71057888fcdd" title=" " alt="" coords="469,5,592,32"/>
-<area shape="rect" id="node10" href="$class_current_item_shop.html#a7df6c42491987972d6d04a06c803525a" title=" " alt="" coords="204,239,389,265"/>
-<area shape="rect" id="node3" href="$class_item_statistic_effect.html#abbdbb3e54a3aeeb784c5aadaec695753" title=" " alt="" coords="441,188,620,215"/>
-<area shape="rect" id="node7" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="437,122,624,163"/>
-<area shape="rect" id="node8" href="$class_player_h_u_d_controller.html#ac39302aee1420d6afbc3a73805929143" title=" " alt="" coords="437,57,624,98"/>
-<area shape="rect" id="node4" href="$class_movable_stats.html#acf1dcd4dda6a7737fd53e33c84d2f6e7" title=" " alt="" coords="672,188,857,215"/>
-<area shape="rect" id="node6" href="$class_inventory.html#a78bab4c24d6da82bdef1a27f5c33934e" title=" " alt="" coords="672,5,857,32"/>
-<area shape="rect" id="node9" href="$class_sellable_item_u_i.html#a6af430a8024bce99b71d8e5867e1c496" title=" " alt="" coords="687,64,842,91"/>
-<area shape="rect" id="node11" href="$class_item_u_i.html#a3621f37c3d29275407a00265d7823825" title=" " alt="" coords="476,239,585,265"/>
-<area shape="rect" id="node12" href="$class_item_u_i.html#af1bd6a6501f51af9f49a53a5a1a871e4" title=" " alt="" coords="465,289,597,316"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,156,108"/>
+<area shape="rect" id="node2" href="$class_item_u_i.html#a7989b50db532215f7732954841b6ae4d" title=" " alt="" coords="241,56,352,83"/>
+<area shape="rect" id="node11" href="$class_current_item_shop.html#a7df6c42491987972d6d04a06c803525a" title=" " alt="" coords="204,107,389,133"/>
+<area shape="rect" id="node3" href="$class_inventory.html#a22aa6615c02eff40c88a48c96905e962" title=" " alt="" coords="441,56,566,83"/>
+<area shape="rect" id="node6" href="$class_inventory.html#a4eba5ec568d6e06c754b71057888fcdd" title=" " alt="" coords="649,5,772,32"/>
+<area shape="rect" id="node4" href="$class_item_statistic_effect.html#abbdbb3e54a3aeeb784c5aadaec695753" title=" " alt="" coords="621,56,800,83"/>
+<area shape="rect" id="node8" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="617,173,804,214"/>
+<area shape="rect" id="node9" href="$class_player_h_u_d_controller.html#ac39302aee1420d6afbc3a73805929143" title=" " alt="" coords="617,107,804,149"/>
+<area shape="rect" id="node5" href="$class_movable_stats.html#acf1dcd4dda6a7737fd53e33c84d2f6e7" title=" " alt="" coords="852,56,1037,83"/>
+<area shape="rect" id="node7" href="$class_inventory.html#a78bab4c24d6da82bdef1a27f5c33934e" title=" " alt="" coords="852,5,1037,32"/>
+<area shape="rect" id="node10" href="$class_sellable_item_u_i.html#a6af430a8024bce99b71d8e5867e1c496" title=" " alt="" coords="867,115,1022,141"/>
+<area shape="rect" id="node12" href="$class_item_u_i.html#a3621f37c3d29275407a00265d7823825" title=" " alt="" coords="449,107,558,133"/>
+<area shape="rect" id="node13" href="$class_item_u_i.html#af1bd6a6501f51af9f49a53a5a1a871e4" title=" " alt="" coords="437,157,569,184"/>
 </map>

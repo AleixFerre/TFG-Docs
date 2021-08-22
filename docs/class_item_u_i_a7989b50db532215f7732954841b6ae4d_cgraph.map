@@ -1,0 +1,11 @@
+<map id="ItemUI.BuyItem" name="ItemUI.BuyItem">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,116,57"/>
+<area shape="rect" id="node2" href="$class_inventory.html#a22aa6615c02eff40c88a48c96905e962" title=" " alt="" coords="164,56,289,83"/>
+<area shape="rect" id="node5" href="$class_inventory.html#a4eba5ec568d6e06c754b71057888fcdd" title=" " alt="" coords="369,5,492,32"/>
+<area shape="rect" id="node3" href="$class_item_statistic_effect.html#abbdbb3e54a3aeeb784c5aadaec695753" title=" " alt="" coords="341,56,520,83"/>
+<area shape="rect" id="node7" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="337,173,524,214"/>
+<area shape="rect" id="node8" href="$class_player_h_u_d_controller.html#ac39302aee1420d6afbc3a73805929143" title=" " alt="" coords="337,107,524,149"/>
+<area shape="rect" id="node4" href="$class_movable_stats.html#acf1dcd4dda6a7737fd53e33c84d2f6e7" title=" " alt="" coords="572,56,757,83"/>
+<area shape="rect" id="node6" href="$class_inventory.html#a78bab4c24d6da82bdef1a27f5c33934e" title=" " alt="" coords="572,5,757,32"/>
+<area shape="rect" id="node9" href="$class_sellable_item_u_i.html#a6af430a8024bce99b71d8e5867e1c496" title=" " alt="" coords="587,115,742,141"/>
+</map>
