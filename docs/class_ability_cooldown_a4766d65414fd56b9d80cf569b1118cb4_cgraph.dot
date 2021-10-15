@@ -2,10 +2,11 @@ digraph "AbilityCooldown.CoolDown"
 {
  // INTERACTIVE_SVG=YES
  // LATEX_PDF_SIZE
+  bgcolor="transparent";
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
   Node1 [label="AbilityCooldown.CoolDown",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This function is called whenever this ability is in cooldown."];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="AbilityCooldown.HaveEnoughMana",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ability_cooldown.html#a5ca1d60dfd6c2023676de0fe049bcb91",tooltip="Returns true if you have enough mana to cast this ability"];
+  Node2 [label="AbilityCooldown.HaveEnoughMana",height=0.2,width=0.4,color="black",URL="$class_ability_cooldown.html#a5ca1d60dfd6c2023676de0fe049bcb91",tooltip="Returns true if you have enough mana to cast this ability"];
 }

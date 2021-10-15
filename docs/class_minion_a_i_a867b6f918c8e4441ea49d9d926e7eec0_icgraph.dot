@@ -2,16 +2,17 @@ digraph "MinionAI.Walk"
 {
  // INTERACTIVE_SVG=YES
  // LATEX_PDF_SIZE
+  bgcolor="transparent";
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="RL";
   Node1 [label="MinionAI.Walk",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="MinionAI.DamageTarget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_minion_a_i.html#a09c01338937d9f42fa47d55ca1a36cb6",tooltip=" "];
+  Node2 [label="MinionAI.DamageTarget",height=0.2,width=0.4,color="black",URL="$class_minion_a_i.html#a09c01338937d9f42fa47d55ca1a36cb6",tooltip=" "];
   Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="MinionAttack.Attack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_minion_attack.html#a9302ebf23d762d3fad0506021ded19d5",tooltip=" "];
+  Node3 [label="MinionAttack.Attack",height=0.2,width=0.4,color="black",URL="$class_minion_attack.html#a9302ebf23d762d3fad0506021ded19d5",tooltip=" "];
   Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="MinionAI.OnTriggerExit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_minion_a_i.html#abe6357773e5b7ab64896a0403ca3bccc",tooltip=" "];
+  Node4 [label="MinionAI.OnTriggerExit",height=0.2,width=0.4,color="black",URL="$class_minion_a_i.html#abe6357773e5b7ab64896a0403ca3bccc",tooltip=" "];
   Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="MinionAI.Update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_minion_a_i.html#aaac498df3854c92e7b81bc0f36071a8b",tooltip=" "];
+  Node5 [label="MinionAI.Update",height=0.2,width=0.4,color="black",URL="$class_minion_a_i.html#aaac498df3854c92e7b81bc0f36071a8b",tooltip=" "];
 }

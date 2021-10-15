@@ -2,20 +2,21 @@ digraph "TurretShooter.Shoot"
 {
  // INTERACTIVE_SVG=YES
  // LATEX_PDF_SIZE
+  bgcolor="transparent";
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
   Node1 [label="TurretShooter.Shoot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="TurretShooter.AttackWith\lPriority",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_shooter.html#a8be25a5629564093b66ab8d2b42692cc",tooltip=" "];
+  Node2 [label="TurretShooter.AttackWith\lPriority",height=0.2,width=0.4,color="black",URL="$class_turret_shooter.html#a8be25a5629564093b66ab8d2b42692cc",tooltip=" "];
   Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="TurretIndicator.OnStateChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_indicator.html#a18c506cc6d384bb9ca9789b8e27d1684",tooltip="This function gets calls whenever the Turret changes the intern state."];
+  Node3 [label="TurretIndicator.OnStateChanged",height=0.2,width=0.4,color="black",URL="$class_turret_indicator.html#a18c506cc6d384bb9ca9789b8e27d1684",tooltip="This function gets calls whenever the Turret changes the intern state."];
   Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="TurretIndicator.GetColor\lFromState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50",tooltip="Returns the color corresponing to the current TurretState of the indicator"];
+  Node4 [label="TurretIndicator.GetColor\lFromState",height=0.2,width=0.4,color="black",URL="$class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50",tooltip="Returns the color corresponing to the current TurretState of the indicator"];
   Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="RangedAttackFollow.SetTarget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ranged_attack_follow.html#aa53dfc5a1b7c08631665bf5691ccf413",tooltip="Initializes the ranged attack object and sets its properties accordingly"];
+  Node5 [label="RangedAttackFollow.SetTarget",height=0.2,width=0.4,color="black",URL="$class_ranged_attack_follow.html#aa53dfc5a1b7c08631665bf5691ccf413",tooltip="Initializes the ranged attack object and sets its properties accordingly"];
   Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="TurretRay.SetTarget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_ray.html#a04f048c8df3897ad7d562dffaa08b4a5",tooltip=" "];
+  Node6 [label="TurretRay.SetTarget",height=0.2,width=0.4,color="black",URL="$class_turret_ray.html#a04f048c8df3897ad7d562dffaa08b4a5",tooltip=" "];
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

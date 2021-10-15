@@ -2,24 +2,25 @@ digraph "TurretIndicator.GetColorFromState"
 {
  // INTERACTIVE_SVG=YES
  // LATEX_PDF_SIZE
+  bgcolor="transparent";
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="RL";
   Node1 [label="TurretIndicator.GetColor\lFromState",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns the color corresponing to the current TurretState of the indicator"];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="TurretIndicator.OnStateChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_indicator.html#a18c506cc6d384bb9ca9789b8e27d1684",tooltip="This function gets calls whenever the Turret changes the intern state."];
+  Node2 [label="TurretIndicator.OnStateChanged",height=0.2,width=0.4,color="black",URL="$class_turret_indicator.html#a18c506cc6d384bb9ca9789b8e27d1684",tooltip="This function gets calls whenever the Turret changes the intern state."];
   Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="TurretShooter.AttackWith\lPriority",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_shooter.html#a8be25a5629564093b66ab8d2b42692cc",tooltip=" "];
+  Node3 [label="TurretShooter.AttackWith\lPriority",height=0.2,width=0.4,color="black",URL="$class_turret_shooter.html#a8be25a5629564093b66ab8d2b42692cc",tooltip=" "];
   Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="TurretShooter.Shoot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_shooter.html#abdbfe8d7746ee1e665f8da7e1a423bf7",tooltip=" "];
+  Node4 [label="TurretShooter.Shoot",height=0.2,width=0.4,color="black",URL="$class_turret_shooter.html#abdbfe8d7746ee1e665f8da7e1a423bf7",tooltip=" "];
   Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="TurretShooter.OnTriggerEnter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_shooter.html#ac92c11affc1a61877bda45f9cedf9fe2",tooltip=" "];
+  Node5 [label="TurretShooter.OnTriggerEnter",height=0.2,width=0.4,color="black",URL="$class_turret_shooter.html#ac92c11affc1a61877bda45f9cedf9fe2",tooltip=" "];
   Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="TurretShooter.Update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_shooter.html#a97a7bfbe5851c8fc0280d021ebacb793",tooltip=" "];
+  Node6 [label="TurretShooter.Update",height=0.2,width=0.4,color="black",URL="$class_turret_shooter.html#a97a7bfbe5851c8fc0280d021ebacb793",tooltip=" "];
   Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node7 [label="TurretShooter.CheckNewState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_shooter.html#afd1f3c49261fa8e1787dc3514b30f178",tooltip="Changes the indicator state if necessary."];
+  Node7 [label="TurretShooter.CheckNewState",height=0.2,width=0.4,color="black",URL="$class_turret_shooter.html#afd1f3c49261fa8e1787dc3514b30f178",tooltip="Changes the indicator state if necessary."];
   Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node8 [label="TurretShooter.OnTriggerExit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_shooter.html#a91af004b685cacac7466bcebe82eb08d",tooltip=" "];
+  Node8 [label="TurretShooter.OnTriggerExit",height=0.2,width=0.4,color="black",URL="$class_turret_shooter.html#a91af004b685cacac7466bcebe82eb08d",tooltip=" "];
   Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }
