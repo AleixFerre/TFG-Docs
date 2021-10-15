@@ -1,6 +1,0 @@
-<map id="PlayerStats.GiveRewards" name="PlayerStats.GiveRewards">
-<area shape="rect" id="node1" title="When this entity dies, it gives to the killer this bounty" alt="" coords="5,38,175,65"/>
-<area shape="rect" id="node2" href="$class_inventory.html#a154fe342bac27ad9f38a79da5c770d39" title=" " alt="" coords="226,13,353,39"/>
-<area shape="rect" id="node4" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="223,63,356,90"/>
-<area shape="rect" id="node3" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="404,5,591,47"/>
-</map>

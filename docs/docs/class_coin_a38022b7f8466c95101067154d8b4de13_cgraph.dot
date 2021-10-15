@@ -1,0 +1,13 @@
+digraph "Coin.OnTriggerEnter"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Coin.OnTriggerEnter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Inventory.AddGold",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_inventory.html#a154fe342bac27ad9f38a79da5c770d39",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PlayerHUDController.Update\lGoldTxt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5",tooltip=" "];
+}

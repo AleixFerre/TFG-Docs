@@ -1,4 +1,0 @@
-<map id="MannequinStats.Die" name="MannequinStats.Die">
-<area shape="rect" id="node1" title="Function that implements what is done when this entity dies." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node2" href="$class_movable_stats.html#a8db5075f6cb3977efdc5c92f2fb927f5" title=" " alt="" coords="192,5,323,32"/>
-</map>

@@ -1,0 +1,13 @@
+digraph "PlayerUIController.UpdateCurrentHP"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="PlayerUIController.Update\lCurrentHP",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Sets the current HP value to the Image."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="PlayerStats.LevelUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_stats.html#a75c908d1b8c5eb0b414db7ab99ceab9e",tooltip="Called whenever the player levels up."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PlayerStats.AddXpRPC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_stats.html#af74a866a9312c345f3cd03235be2f329",tooltip=" "];
+}

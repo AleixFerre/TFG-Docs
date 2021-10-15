@@ -1,8 +1,0 @@
-<map id="AbilityAffectedStats.Heal" name="AbilityAffectedStats.Heal">
-<area shape="rect" id="node1" title=" " alt="" coords="229,107,396,133"/>
-<area shape="rect" id="node2" href="$class_heal_effect.html#a2af30f8cef9a948f686b3de20ca8764f" title=" " alt="" coords="28,5,159,32"/>
-<area shape="rect" id="node3" href="$class_heal_relative_effect.html#aa7f4886743b028fb646182214d28cf06" title=" " alt="" coords="5,56,181,83"/>
-<area shape="rect" id="node4" href="$class_mannequin_stats.html#a8bd8eed182eccafe2a9f3a2764e82dc3" title="Function that implements what is done when this entity dies." alt="" coords="24,107,163,133"/>
-<area shape="rect" id="node5" href="$class_heart.html#a0fe409e888708ccf6fa062c07feca68c" title=" " alt="" coords="21,157,165,184"/>
-<area shape="rect" id="node6" href="$class_player_stats.html#a15175185aaa4f8290e5148640f0ff80a" title=" " alt="" coords="26,208,161,235"/>
-</map>

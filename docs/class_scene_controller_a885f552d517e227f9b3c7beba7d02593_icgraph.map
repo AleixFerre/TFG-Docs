@@ -1,4 +1,0 @@
-<map id="SceneController.SceneProgress" name="SceneController.SceneProgress">
-<area shape="rect" id="node1" title="Loads the ingame scene." alt="" coords="235,5,441,32"/>
-<area shape="rect" id="node2" href="$class_scene_controller.html#ab4c9c8564748875f4eb983c861783716" title="This will load the game scene in the background showing the loading screen." alt="" coords="5,5,187,32"/>
-</map>

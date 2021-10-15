@@ -1,0 +1,1028 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta property="og:description" content="Docs for the implementation of my MOBA in Unity." />
+    <meta property="og:url" content="https://github.com/AleixFerre/TFG-Docs" />
+    <!-- END opengraph metadata -->
+    <!-- BEGIN twitter metadata -->
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta name="twitter:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta name="twitter:description" content="Docs for the implementation of my MOBA in Unity." />
+    <!-- END twitter metadata -->
+    <title>Treball de Fi de Grau: Referència de la Classe GameController</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="logo.drawio.svg" /></td>
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">Treball de Fi de Grau
+                                &#160;<span id="projectnumber">1.0</span>
+                            </div>
+                            <div id="projectbrief">Documentació pel treball de final de grau. Implementació d&#39;una base per un joc de gènere MOBA multijugador en línia.</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Generat per Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_game_controller.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Mètodes públics</a> &#124;
+<a href="#pub-attribs">Atributs Públics</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
+<a href="#pri-attribs">Atributs Privats</a> &#124;
+<a href="class_game_controller-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe GameController</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>The UNIQUE Game Controller in the Scene.  
+ <a href="class_game_controller.html#details">Més...</a></p>
+<div class="dynheader">
+Diagrama d'Herència per a GameController:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 0 -->
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Mètodes públics</h2></td></tr>
+<tr class="memitem:a8c6eb0b550a90d4c6ba6d792d239e63e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a8c6eb0b550a90d4c6ba6d792d239e63e">AddPlayer</a> (<a class="el" href="class_player_u_i_controller.html">PlayerUIController</a> <a class="el" href="class_game_controller.html#a9faef73d065b7239198e86b6a17bc54a">uIController</a>)</td></tr>
+<tr class="separator:a8c6eb0b550a90d4c6ba6d792d239e63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa8670b912fa71b9898b2f917cf9c629"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#afa8670b912fa71b9898b2f917cf9c629">Die</a> (int level, <a class="el" href="class_player_stats.html">PlayerStats</a> stats)</td></tr>
+<tr class="memdesc:afa8670b912fa71b9898b2f917cf9c629"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the respawn canvas with the proper calculated death time.  <a href="class_game_controller.html#afa8670b912fa71b9898b2f917cf9c629">Més...</a><br /></td></tr>
+<tr class="separator:afa8670b912fa71b9898b2f917cf9c629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3284abf9985021d4e4936f90d858a7dd"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a3284abf9985021d4e4936f90d858a7dd">GetPlayer</a> (string playerID)</td></tr>
+<tr class="memdesc:a3284abf9985021d4e4936f90d858a7dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a player GameObject by name.  <a href="class_game_controller.html#a3284abf9985021d4e4936f90d858a7dd">Més...</a><br /></td></tr>
+<tr class="separator:a3284abf9985021d4e4936f90d858a7dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7c0741d7053003e14d5dd13ba728d85"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#af7c0741d7053003e14d5dd13ba728d85">GetLocalPlayer</a> ()</td></tr>
+<tr class="separator:af7c0741d7053003e14d5dd13ba728d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d83f0779a2ddcb3fb4bd2494c7497ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a0d83f0779a2ddcb3fb4bd2494c7497ae">FinishGame</a> (<a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a> nexusDestroyedTeam)</td></tr>
+<tr class="memdesc:a0d83f0779a2ddcb3fb4bd2494c7497ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called whenever a nexus gets destroyed.  <a href="class_game_controller.html#a0d83f0779a2ddcb3fb4bd2494c7497ae">Més...</a><br /></td></tr>
+<tr class="separator:a0d83f0779a2ddcb3fb4bd2494c7497ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f1c8039a7e36f309f44e350175bdb7d"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a9f1c8039a7e36f309f44e350175bdb7d">GetTeamSpawn</a> (<a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a> team)</td></tr>
+<tr class="memdesc:a9f1c8039a7e36f309f44e350175bdb7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Transform from the spawn given a Team.  <a href="class_game_controller.html#a9f1c8039a7e36f309f44e350175bdb7d">Més...</a><br /></td></tr>
+<tr class="separator:a9f1c8039a7e36f309f44e350175bdb7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99e3e08d9ca9475f4d3a4b7da91eb1f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a99e3e08d9ca9475f4d3a4b7da91eb1f7">GetCharacter</a> (int index)</td></tr>
+<tr class="memdesc:a99e3e08d9ca9475f4d3a4b7da91eb1f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a <a class="el" href="class_character.html">Character</a> given an index.  <a href="class_game_controller.html#a99e3e08d9ca9475f4d3a4b7da91eb1f7">Més...</a><br /></td></tr>
+<tr class="separator:a99e3e08d9ca9475f4d3a4b7da91eb1f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e7ba340d852830acb4d6f1f172c248c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a7e7ba340d852830acb4d6f1f172c248c">GetTime</a> ()</td></tr>
+<tr class="memdesc:a7e7ba340d852830acb4d6f1f172c248c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current time in seconds from the start of the game  <a href="class_game_controller.html#a7e7ba340d852830acb4d6f1f172c248c">Més...</a><br /></td></tr>
+<tr class="separator:a7e7ba340d852830acb4d6f1f172c248c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a0ba825184823ead17a974387541276"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a7a0ba825184823ead17a974387541276">AddKill</a> (<a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a> team)</td></tr>
+<tr class="memdesc:a7a0ba825184823ead17a974387541276"><td class="mdescLeft">&#160;</td><td class="mdescRight">One of the players killed another.  <a href="class_game_controller.html#a7a0ba825184823ead17a974387541276">Més...</a><br /></td></tr>
+<tr class="separator:a7a0ba825184823ead17a974387541276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a708420d4559f1a7ad5d1a50d6b3df9bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a708420d4559f1a7ad5d1a50d6b3df9bf">AddMinion</a> (<a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a> team)</td></tr>
+<tr class="memdesc:a708420d4559f1a7ad5d1a50d6b3df9bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">One of the players killed a minion.  <a href="class_game_controller.html#a708420d4559f1a7ad5d1a50d6b3df9bf">Més...</a><br /></td></tr>
+<tr class="separator:a708420d4559f1a7ad5d1a50d6b3df9bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c12aa66ebe2fd74624cff72301a5903"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a3c12aa66ebe2fd74624cff72301a5903">AddTurret</a> (<a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a> team)</td></tr>
+<tr class="memdesc:a3c12aa66ebe2fd74624cff72301a5903"><td class="mdescLeft">&#160;</td><td class="mdescRight">One of the players killed a turret.  <a href="class_game_controller.html#a3c12aa66ebe2fd74624cff72301a5903">Més...</a><br /></td></tr>
+<tr class="separator:a3c12aa66ebe2fd74624cff72301a5903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3836abaa9296797224c54b9a1b11d0c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a3836abaa9296797224c54b9a1b11d0c2">FindForUIs</a> ()</td></tr>
+<tr class="separator:a3836abaa9296797224c54b9a1b11d0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Atributs Públics</h2></td></tr>
+<tr class="memitem:a32343c01795c3b274ea4d9f6f2b27e88"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a32343c01795c3b274ea4d9f6f2b27e88">placeholderCamera</a></td></tr>
+<tr class="separator:a32343c01795c3b274ea4d9f6f2b27e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262b46e661b13ccf4ec012a4b35c6b2f"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a262b46e661b13ccf4ec012a4b35c6b2f">blueSpawn</a></td></tr>
+<tr class="separator:a262b46e661b13ccf4ec012a4b35c6b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84a9bfa0bd792c3db18f53b9b4bc3c29"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a84a9bfa0bd792c3db18f53b9b4bc3c29">redSpawn</a></td></tr>
+<tr class="separator:a84a9bfa0bd792c3db18f53b9b4bc3c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2ffe32062f08dd1fd09a2e6318ce43b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_respawn_canvas.html">RespawnCanvas</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#af2ffe32062f08dd1fd09a2e6318ce43b">respawnCanvas</a></td></tr>
+<tr class="separator:af2ffe32062f08dd1fd09a2e6318ce43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9faef73d065b7239198e86b6a17bc54a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_u_i_controller.html">GameUIController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a9faef73d065b7239198e86b6a17bc54a">uIController</a></td></tr>
+<tr class="separator:a9faef73d065b7239198e86b6a17bc54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6eeca3f92392f4947f6ac65ded3f480"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_i_controller.html">UIController</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#af6eeca3f92392f4947f6ac65ded3f480">mapElementsUis</a></td></tr>
+<tr class="separator:af6eeca3f92392f4947f6ac65ded3f480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:a97788a7aa0f09c8d748781683e5f045b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a97788a7aa0f09c8d748781683e5f045b">Start</a> ()</td></tr>
+<tr class="separator:a97788a7aa0f09c8d748781683e5f045b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53dd14ae7871deb35e9a7e877a370278"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a53dd14ae7871deb35e9a7e877a370278">ReadyRPC</a> ()</td></tr>
+<tr class="separator:a53dd14ae7871deb35e9a7e877a370278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributs Privats</h2></td></tr>
+<tr class="memitem:aa46a4b0717b224499a38246d065b7604"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character_group.html">CharacterGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#aa46a4b0717b224499a38246d065b7604">characterGroup</a></td></tr>
+<tr class="separator:aa46a4b0717b224499a38246d065b7604"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfe83814fb1f73e18bce4cde7b99b7fc"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_player_u_i_controller.html">PlayerUIController</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#acfe83814fb1f73e18bce4cde7b99b7fc">charactersUI</a> = new List&lt;<a class="el" href="class_player_u_i_controller.html">PlayerUIController</a>&gt;()</td></tr>
+<tr class="separator:acfe83814fb1f73e18bce4cde7b99b7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12908c03958874ac87044379db141c9e"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a12908c03958874ac87044379db141c9e">players</a> = new Dictionary&lt;string, GameObject&gt;()</td></tr>
+<tr class="separator:a12908c03958874ac87044379db141c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4e0963b5f560fa4c662a6f4a35b3867"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#ab4e0963b5f560fa4c662a6f4a35b3867">localPlayer</a></td></tr>
+<tr class="separator:ab4e0963b5f560fa4c662a6f4a35b3867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70c89460d73e18bc491eaaa99f41b3c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_loading_canvas.html">LoadingCanvas</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a70c89460d73e18bc491eaaa99f41b3c4">loadingCanvas</a></td></tr>
+<tr class="separator:a70c89460d73e18bc491eaaa99f41b3c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db056edd4ce25aa04feee11214cf911"><td class="memItemLeft" align="right" valign="top">PhotonView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a2db056edd4ce25aa04feee11214cf911">view</a></td></tr>
+<tr class="separator:a2db056edd4ce25aa04feee11214cf911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fbcde76fdaac310854ce370b452e78e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a3fbcde76fdaac310854ce370b452e78e">readyCount</a> = 0</td></tr>
+<tr class="separator:a3fbcde76fdaac310854ce370b452e78e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8233938c4d9c15e36bffa39ef4b6ba80"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a8233938c4d9c15e36bffa39ef4b6ba80">initTime</a></td></tr>
+<tr class="separator:a8233938c4d9c15e36bffa39ef4b6ba80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed40fdca01dd073aa0cb18768fe7f403"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#aed40fdca01dd073aa0cb18768fe7f403">redKills</a></td></tr>
+<tr class="separator:aed40fdca01dd073aa0cb18768fe7f403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb455123dbe1e4acd2ced199e451fbe0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#afb455123dbe1e4acd2ced199e451fbe0">blueKills</a></td></tr>
+<tr class="separator:afb455123dbe1e4acd2ced199e451fbe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6a87afd962169c55d73c919aa05b9f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#ab6a87afd962169c55d73c919aa05b9f8">redTurrets</a></td></tr>
+<tr class="separator:ab6a87afd962169c55d73c919aa05b9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5807ca2dc954fe381f72bda7b07a7230"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a5807ca2dc954fe381f72bda7b07a7230">blueTurrets</a></td></tr>
+<tr class="separator:a5807ca2dc954fe381f72bda7b07a7230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9992119d2656bd87561a926c6ddfe86"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#ae9992119d2656bd87561a926c6ddfe86">redMinions</a></td></tr>
+<tr class="separator:ae9992119d2656bd87561a926c6ddfe86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48b41563eb5060d7f1c8e7a2ad13178e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_controller.html#a48b41563eb5060d7f1c8e7a2ad13178e">blueMinions</a></td></tr>
+<tr class="separator:a48b41563eb5060d7f1c8e7a2ad13178e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_class_singleton"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_singleton')"><img src="closed.png" alt="-"/>&#160;Mètodes Protegits inherited from <a class="el" href="class_singleton.html">Singleton&lt; GameController &gt;</a></td></tr>
+<tr class="memitem:a811af5565edac7bf626f0c9a6a5f73f4 inherit pro_methods_class_singleton"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_singleton.html#a811af5565edac7bf626f0c9a6a5f73f4">Awake</a> ()</td></tr>
+<tr class="separator:a811af5565edac7bf626f0c9a6a5f73f4 inherit pro_methods_class_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8314a89cc477d97280c0dfef24ea7a40 inherit pro_methods_class_singleton"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_singleton.html#a8314a89cc477d97280c0dfef24ea7a40">OnValidate</a> ()</td></tr>
+<tr class="separator:a8314a89cc477d97280c0dfef24ea7a40 inherit pro_methods_class_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_singleton"><td colspan="2" onclick="javascript:toggleInherit('properties_class_singleton')"><img src="closed.png" alt="-"/>&#160;Propietats inherited from <a class="el" href="class_singleton.html">Singleton&lt; GameController &gt;</a></td></tr>
+<tr class="memitem:a54103e8475b2a352ee759d5732307534 inherit properties_class_singleton"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_singleton.html#a54103e8475b2a352ee759d5732307534">Instance</a><code> [get]</code></td></tr>
+<tr class="separator:a54103e8475b2a352ee759d5732307534 inherit properties_class_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p >The UNIQUE Game Controller in the Scene. </p>
+<p >This controls the game state in all time. </p>
+</div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a7a0ba825184823ead17a974387541276" name="a7a0ba825184823ead17a974387541276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a0ba825184823ead17a974387541276">&#9670;&nbsp;</a></span>AddKill()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameController.AddKill </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a>&#160;</td>
+          <td class="paramname"><em>team</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>One of the players killed another. </p>
+<p >Save it and show it on screen. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">team</td><td>Team of the player who killed</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 1 -->
+</div>
+</div>
+
+</div>
+</div>
+<a id="a708420d4559f1a7ad5d1a50d6b3df9bf" name="a708420d4559f1a7ad5d1a50d6b3df9bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a708420d4559f1a7ad5d1a50d6b3df9bf">&#9670;&nbsp;</a></span>AddMinion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameController.AddMinion </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a>&#160;</td>
+          <td class="paramname"><em>team</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>One of the players killed a minion. </p>
+<p >Save it and show it on screen. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">team</td><td>Team of the player who killed</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 2 -->
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 3 -->
+</div>
+</div>
+
+</div>
+</div>
+<a id="a8c6eb0b550a90d4c6ba6d792d239e63e" name="a8c6eb0b550a90d4c6ba6d792d239e63e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c6eb0b550a90d4c6ba6d792d239e63e">&#9670;&nbsp;</a></span>AddPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameController.AddPlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_player_u_i_controller.html">PlayerUIController</a>&#160;</td>
+          <td class="paramname"><em>uIController</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p></p>
+<p >When a Player enters the lobby it calls this method.</p>
+<p >When all the Players are in the room, we can change the color of the bars because we know in which team we are. </p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 4 -->
+</div>
+</div>
+
+</div>
+</div>
+<a id="a3c12aa66ebe2fd74624cff72301a5903" name="a3c12aa66ebe2fd74624cff72301a5903"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c12aa66ebe2fd74624cff72301a5903">&#9670;&nbsp;</a></span>AddTurret()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameController.AddTurret </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a>&#160;</td>
+          <td class="paramname"><em>team</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>One of the players killed a turret. </p>
+<p >Save it and show it on screen. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">team</td><td>Team of the player who killed</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 5 -->
+</div>
+</div>
+
+</div>
+</div>
+<a id="afa8670b912fa71b9898b2f917cf9c629" name="afa8670b912fa71b9898b2f917cf9c629"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa8670b912fa71b9898b2f917cf9c629">&#9670;&nbsp;</a></span>Die()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameController.Die </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_player_stats.html">PlayerStats</a>&#160;</td>
+          <td class="paramname"><em>stats</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the respawn canvas with the proper calculated death time. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">level</td><td>My current level that is needed to calculate the respawn time.</td></tr>
+    <tr><td class="paramname">stats</td><td>The <a class="el" href="class_player_stats.html" title="Player Stats is the main class that controls all the Player Statistics in all time in the game execut...">PlayerStats</a> script from the local player who just died.</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 6 -->
+</div>
+</div>
+
+</div>
+</div>
+<a id="a3836abaa9296797224c54b9a1b11d0c2" name="a3836abaa9296797224c54b9a1b11d0c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3836abaa9296797224c54b9a1b11d0c2">&#9670;&nbsp;</a></span>FindForUIs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameController.FindForUIs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d83f0779a2ddcb3fb4bd2494c7497ae" name="a0d83f0779a2ddcb3fb4bd2494c7497ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d83f0779a2ddcb3fb4bd2494c7497ae">&#9670;&nbsp;</a></span>FinishGame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameController.FinishGame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a>&#160;</td>
+          <td class="paramname"><em>nexusDestroyedTeam</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This is called whenever a nexus gets destroyed. </p>
+<p >If team is Other, it means surrender. </p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 7 -->
+</div>
+</div>
+
+</div>
+</div>
+<a id="a99e3e08d9ca9475f4d3a4b7da91eb1f7" name="a99e3e08d9ca9475f4d3a4b7da91eb1f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99e3e08d9ca9475f4d3a4b7da91eb1f7">&#9670;&nbsp;</a></span>GetCharacter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_character.html">Character</a> GameController.GetCharacter </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a <a class="el" href="class_character.html">Character</a> given an index. </p>
+
+</div>
+</div>
+<a id="af7c0741d7053003e14d5dd13ba728d85" name="af7c0741d7053003e14d5dd13ba728d85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7c0741d7053003e14d5dd13ba728d85">&#9670;&nbsp;</a></span>GetLocalPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject GameController.GetLocalPlayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3284abf9985021d4e4936f90d858a7dd" name="a3284abf9985021d4e4936f90d858a7dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3284abf9985021d4e4936f90d858a7dd">&#9670;&nbsp;</a></span>GetPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject GameController.GetPlayer </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>playerID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a player GameObject by name. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">playerID</td><td>String describing the player identifier corresponding to the playerGO name</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>The player GameObject reference if found, else null. </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 8 -->
+</div>
+</div>
+
+</div>
+</div>
+<a id="a9f1c8039a7e36f309f44e350175bdb7d" name="a9f1c8039a7e36f309f44e350175bdb7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f1c8039a7e36f309f44e350175bdb7d">&#9670;&nbsp;</a></span>GetTeamSpawn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform GameController.GetTeamSpawn </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a>&#160;</td>
+          <td class="paramname"><em>team</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Transform from the spawn given a Team. </p>
+<p >If team is <a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598a6311ae17c1ee52b36e68aaf4ad066387" title="Neutral team (enemy of all teams)">Team.Other</a> the function returns a resetted transform. </p>
+
+</div>
+</div>
+<a id="a7e7ba340d852830acb4d6f1f172c248c" name="a7e7ba340d852830acb4d6f1f172c248c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e7ba340d852830acb4d6f1f172c248c">&#9670;&nbsp;</a></span>GetTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameController.GetTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the current time in seconds from the start of the game </p>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 9 -->
+</div>
+</div>
+
+</div>
+</div>
+<a id="a53dd14ae7871deb35e9a7e877a370278" name="a53dd14ae7871deb35e9a7e877a370278"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53dd14ae7871deb35e9a7e877a370278">&#9670;&nbsp;</a></span>ReadyRPC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameController.ReadyRPC </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97788a7aa0f09c8d748781683e5f045b" name="a97788a7aa0f09c8d748781683e5f045b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97788a7aa0f09c8d748781683e5f045b">&#9670;&nbsp;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameController.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="afb455123dbe1e4acd2ced199e451fbe0" name="afb455123dbe1e4acd2ced199e451fbe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb455123dbe1e4acd2ced199e451fbe0">&#9670;&nbsp;</a></span>blueKills</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameController.blueKills</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a48b41563eb5060d7f1c8e7a2ad13178e" name="a48b41563eb5060d7f1c8e7a2ad13178e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48b41563eb5060d7f1c8e7a2ad13178e">&#9670;&nbsp;</a></span>blueMinions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameController.blueMinions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a262b46e661b13ccf4ec012a4b35c6b2f" name="a262b46e661b13ccf4ec012a4b35c6b2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a262b46e661b13ccf4ec012a4b35c6b2f">&#9670;&nbsp;</a></span>blueSpawn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform GameController.blueSpawn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5807ca2dc954fe381f72bda7b07a7230" name="a5807ca2dc954fe381f72bda7b07a7230"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5807ca2dc954fe381f72bda7b07a7230">&#9670;&nbsp;</a></span>blueTurrets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameController.blueTurrets</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa46a4b0717b224499a38246d065b7604" name="aa46a4b0717b224499a38246d065b7604"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa46a4b0717b224499a38246d065b7604">&#9670;&nbsp;</a></span>characterGroup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_character_group.html">CharacterGroup</a> GameController.characterGroup</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acfe83814fb1f73e18bce4cde7b99b7fc" name="acfe83814fb1f73e18bce4cde7b99b7fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfe83814fb1f73e18bce4cde7b99b7fc">&#9670;&nbsp;</a></span>charactersUI</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_player_u_i_controller.html">PlayerUIController</a>&gt; GameController.charactersUI = new List&lt;<a class="el" href="class_player_u_i_controller.html">PlayerUIController</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8233938c4d9c15e36bffa39ef4b6ba80" name="a8233938c4d9c15e36bffa39ef4b6ba80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8233938c4d9c15e36bffa39ef4b6ba80">&#9670;&nbsp;</a></span>initTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double GameController.initTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70c89460d73e18bc491eaaa99f41b3c4" name="a70c89460d73e18bc491eaaa99f41b3c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70c89460d73e18bc491eaaa99f41b3c4">&#9670;&nbsp;</a></span>loadingCanvas</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_loading_canvas.html">LoadingCanvas</a> GameController.loadingCanvas</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4e0963b5f560fa4c662a6f4a35b3867" name="ab4e0963b5f560fa4c662a6f4a35b3867"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4e0963b5f560fa4c662a6f4a35b3867">&#9670;&nbsp;</a></span>localPlayer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject GameController.localPlayer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6eeca3f92392f4947f6ac65ded3f480" name="af6eeca3f92392f4947f6ac65ded3f480"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6eeca3f92392f4947f6ac65ded3f480">&#9670;&nbsp;</a></span>mapElementsUis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_u_i_controller.html">UIController</a> [] GameController.mapElementsUis</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a32343c01795c3b274ea4d9f6f2b27e88" name="a32343c01795c3b274ea4d9f6f2b27e88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32343c01795c3b274ea4d9f6f2b27e88">&#9670;&nbsp;</a></span>placeholderCamera</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject GameController.placeholderCamera</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12908c03958874ac87044379db141c9e" name="a12908c03958874ac87044379db141c9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12908c03958874ac87044379db141c9e">&#9670;&nbsp;</a></span>players</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, GameObject&gt; GameController.players = new Dictionary&lt;string, GameObject&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3fbcde76fdaac310854ce370b452e78e" name="a3fbcde76fdaac310854ce370b452e78e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fbcde76fdaac310854ce370b452e78e">&#9670;&nbsp;</a></span>readyCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameController.readyCount = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed40fdca01dd073aa0cb18768fe7f403" name="aed40fdca01dd073aa0cb18768fe7f403"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed40fdca01dd073aa0cb18768fe7f403">&#9670;&nbsp;</a></span>redKills</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameController.redKills</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9992119d2656bd87561a926c6ddfe86" name="ae9992119d2656bd87561a926c6ddfe86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9992119d2656bd87561a926c6ddfe86">&#9670;&nbsp;</a></span>redMinions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameController.redMinions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84a9bfa0bd792c3db18f53b9b4bc3c29" name="a84a9bfa0bd792c3db18f53b9b4bc3c29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84a9bfa0bd792c3db18f53b9b4bc3c29">&#9670;&nbsp;</a></span>redSpawn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform GameController.redSpawn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6a87afd962169c55d73c919aa05b9f8" name="ab6a87afd962169c55d73c919aa05b9f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6a87afd962169c55d73c919aa05b9f8">&#9670;&nbsp;</a></span>redTurrets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameController.redTurrets</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2ffe32062f08dd1fd09a2e6318ce43b" name="af2ffe32062f08dd1fd09a2e6318ce43b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2ffe32062f08dd1fd09a2e6318ce43b">&#9670;&nbsp;</a></span>respawnCanvas</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_respawn_canvas.html">RespawnCanvas</a> GameController.respawnCanvas</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9faef73d065b7239198e86b6a17bc54a" name="a9faef73d065b7239198e86b6a17bc54a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9faef73d065b7239198e86b6a17bc54a">&#9670;&nbsp;</a></span>uIController</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_game_u_i_controller.html">GameUIController</a> GameController.uIController</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2db056edd4ce25aa04feee11214cf911" name="a2db056edd4ce25aa04feee11214cf911"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2db056edd4ce25aa04feee11214cf911">&#9670;&nbsp;</a></span>view</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhotonView GameController.view</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>C:/Users/AleixFerre/Git Projects/TFG/Assets/Scripts/Game/Game Control/<a class="el" href="_game_controller_8cs.html">GameController.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_game_controller.html">GameController</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+    toggleButton.title = "Toggle Light/Dark Mode"
+    document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+  })
+</script>
+</body>
+</html>

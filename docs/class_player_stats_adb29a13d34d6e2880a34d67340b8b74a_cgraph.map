@@ -1,6 +1,0 @@
-<map id="PlayerStats.SpendManaRPC" name="PlayerStats.SpendManaRPC">
-<area shape="rect" id="node1" title=" " alt="" coords="5,42,196,69"/>
-<area shape="rect" id="node2" href="$class_player_u_i_controller.html#ac7bf7455ce00b144f6a1678e524819b2" title="Sets the current MP value to the Image." alt="" coords="262,5,433,47"/>
-<area shape="rect" id="node4" href="$class_player_h_u_d_controller.html#a09d27238c0e659b8f98828367c7622ba" title=" " alt="" coords="244,71,451,98"/>
-<area shape="rect" id="node3" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="499,42,667,69"/>
-</map>

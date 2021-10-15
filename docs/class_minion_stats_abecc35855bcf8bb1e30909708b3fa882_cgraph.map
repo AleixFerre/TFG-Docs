@@ -1,5 +1,0 @@
-<map id="MinionStats.HealRPC" name="MinionStats.HealRPC">
-<area shape="rect" id="node1" title=" " alt="" coords="5,13,153,39"/>
-<area shape="rect" id="node2" href="$class_minion_u_i_controller.html#a9042cfa3430e60cf37cf0e0797692742" title="Updates the current HP of the entity." alt="" coords="201,5,373,47"/>
-<area shape="rect" id="node3" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="421,13,589,39"/>
-</map>

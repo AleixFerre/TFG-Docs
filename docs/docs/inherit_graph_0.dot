@@ -1,0 +1,45 @@
+digraph "Jerarquia Gràfica de la Classe"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node77 [label="ScriptableObject",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node77 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="Ability",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ability.html",tooltip="Base abstract class for an Ability."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="IndicatedAbility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_indicated_ability.html",tooltip="Encapsulador de les Ability que han de mostrar l'indicador"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Ability_Dash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ability___dash.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Ability_Instanciable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ability___instanciable.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Ability_PlayerRelative",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ability___player_relative.html",tooltip=" "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="NonIndicatedAbility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_non_indicated_ability.html",tooltip="Encapsulador de les Ability que NO han de mostrar cap indicador."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Ability_StatsChanger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ability___stats_changer.html",tooltip=" "];
+  Node77 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="Character",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_character.html",tooltip=" "];
+  Node77 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="CharacterGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_character_group.html",tooltip=" "];
+  Node77 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="Effect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_effect.html",tooltip="Abstract base info container class for an Effect."];
+  Node87 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="InstantEffect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_instant_effect.html",tooltip="InstantEffect és un encapsulador per tots els Effect que s'executen de forma instantània."];
+  Node88 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="HealEffect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_heal_effect.html",tooltip=" "];
+  Node88 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 [label="HealRelativeEffect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_heal_relative_effect.html",tooltip=" "];
+  Node88 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 [label="ItemStatisticEffect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_statistic_effect.html",tooltip=" "];
+  Node87 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="TimedEffect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_timed_effect.html",tooltip="TimedEffect és un encapsulador per tots els Effect que NO s'executen de forma instantània."];
+  Node92 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node93 [label="StatisticChangeEffect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_statistic_change_effect.html",tooltip=" "];
+  Node77 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 [label="Item",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item.html",tooltip="Base class for an Item"];
+  Node77 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node95 [label="ItemGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_group.html",tooltip=" "];
+}

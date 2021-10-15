@@ -1,0 +1,19 @@
+digraph "StructureStats.Die"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="StructureStats.Die",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Function that implements what is done when this entity dies."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="StructureStats.Activate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_structure_stats.html#a9288d34a28aecd99033a0f2998df3a21",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Stats.GetUI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_stats.html#a0a3ad8a03e844abd233531fd9874a91b",tooltip="This method retuns the UIController of the entity."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="UIController.InitializeColors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_i_controller.html#a5f4c8564677f50adca215a4c91020c5c",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="UIController.LoadColors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_i_controller.html#a25efcf4c19f58682359f159ebe68cd61",tooltip="Loads all the necessary colors for all the dynamic UIs in the game"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Utils.ColorFromString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_utils.html#ab9e5182f0bed89c77ffe578768c9c8c2",tooltip="Pass a hex string and you get the Color."];
+}

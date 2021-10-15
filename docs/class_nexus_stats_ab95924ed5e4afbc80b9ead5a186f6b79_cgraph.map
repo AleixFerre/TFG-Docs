@@ -1,7 +1,0 @@
-<map id="NexusStats.DealDamageRPC" name="NexusStats.DealDamageRPC">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,200,83"/>
-<area shape="rect" id="node2" href="$class_stats.html#a9df505fedc8cd6b56e743913cafe8c0c" title="Apply the corresponding damage to this entity according to the armor and magicResist it have" alt="" coords="260,5,423,32"/>
-<area shape="rect" id="node3" href="$class_nexus_stats.html#a3faadcb2bca6d50c1da5e1235900f3f7" title="Function that implements what is done when this entity dies." alt="" coords="285,56,398,83"/>
-<area shape="rect" id="node4" href="$class_structure_u_i_controller.html#a440b6978d77790330878b47582fe43dc" title="Updates the current HP of the entity." alt="" coords="248,107,435,149"/>
-<area shape="rect" id="node5" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="483,115,651,141"/>
-</map>

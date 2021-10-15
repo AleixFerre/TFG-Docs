@@ -1,0 +1,18 @@
+digraph "PlayerUIController.InitializeValues"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PlayerUIController.Initialize\lValues",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initializes all the values into the Image and Text."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="PlayerUIController.Update\lCurrentLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068",tooltip="Sets the current level and xp to the Image."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Utils.CalculateFillAmount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_utils.html#a459472171f68c903c975020cc5b02fee",tooltip="Calculates the actual normalized fill amount for the image."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PlayerUIController.Update\lMaxHP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb",tooltip=" "];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PlayerUIController.ResetLerp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_u_i_controller.html#aaa62b1e4dc1ee6689adbc72b8dcb73d3",tooltip="When you heal HP, we will reset the lerped bar"];
+}

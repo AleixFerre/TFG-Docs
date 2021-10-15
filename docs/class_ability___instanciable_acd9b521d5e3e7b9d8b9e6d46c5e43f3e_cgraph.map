@@ -1,7 +1,0 @@
-<map id="Ability_Instanciable.TriggerAbility" name="Ability_Instanciable.TriggerAbility">
-<area shape="rect" id="node1" title=" " alt="" coords="5,23,183,65"/>
-<area shape="rect" id="node2" href="$class_ability___instanciable.html#a1961e1d7df052be5c467203bb9415560" title=" " alt="" coords="231,5,416,32"/>
-<area shape="rect" id="node3" href="$class_effect_manager.html#a921aed9a2553637cdd387d3075150709" title="Starts an Effect to the entity who has this EffectManager." alt="" coords="233,56,414,83"/>
-<area shape="rect" id="node4" href="$class_effect.html#ae421c8b51f4b5f859b03ea719d384e8f" title=" " alt="" coords="477,31,583,57"/>
-<area shape="rect" id="node5" href="$class_effect.html#a928c504cba23842da98461acb52eb7e0" title=" " alt="" coords="464,81,596,108"/>
-</map>

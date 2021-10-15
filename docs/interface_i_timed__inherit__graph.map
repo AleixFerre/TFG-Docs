@@ -1,6 +1,0 @@
-<map id="ITimed" name="ITimed">
-<area shape="rect" id="node1" title="Interface for all the Effects that are timed" alt="" coords="71,5,131,32"/>
-<area shape="rect" id="node2" href="$class_heal_effect.html" title=" " alt="" coords="5,80,87,107"/>
-<area shape="rect" id="node3" href="$class_timed_effect.html" title="TimedEffect és un encapsulador per tots els Effect que NO s&#39;executen de forma instantània." alt="" coords="111,80,202,107"/>
-<area shape="rect" id="node4" href="$class_statistic_change_effect.html" title=" " alt="" coords="83,155,230,181"/>
-</map>

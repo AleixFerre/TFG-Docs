@@ -1,8 +1,0 @@
-<map id="Shop.Update" name="Shop.Update">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,103,57"/>
-<area shape="rect" id="node2" href="$class_current_item_shop.html#a96327722769d2770bdf5cebc78efbb03" title=" " alt="" coords="151,56,357,83"/>
-<area shape="rect" id="node6" href="$class_item_u_i.html#aea5d8c789ccc8a8f0b2df526321f7b5e" title=" " alt="" coords="181,5,327,32"/>
-<area shape="rect" id="node3" href="$class_inventory.html#a4eba5ec568d6e06c754b71057888fcdd" title=" " alt="" coords="405,5,528,32"/>
-<area shape="rect" id="node5" href="$class_item_u_i.html#a3621f37c3d29275407a00265d7823825" title=" " alt="" coords="412,56,521,83"/>
-<area shape="rect" id="node4" href="$class_inventory.html#a78bab4c24d6da82bdef1a27f5c33934e" title=" " alt="" coords="576,5,761,32"/>
-</map>

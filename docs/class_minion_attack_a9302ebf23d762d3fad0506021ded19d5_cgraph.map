@@ -1,7 +1,0 @@
-<map id="MinionAttack.Attack" name="MinionAttack.Attack">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,145,83"/>
-<area shape="rect" id="node2" href="$class_minion_a_i.html#a09c01338937d9f42fa47d55ca1a36cb6" title=" " alt="" coords="193,56,353,83"/>
-<area shape="rect" id="node3" href="$class_minion_a_i.html#adbc82c5f1b764d7b0e0fe202079eb84b" title=" " alt="" coords="409,5,524,32"/>
-<area shape="rect" id="node4" href="$class_stats.html#acebcf18ce39553a9c811f368a56a5583" title="Specify the amount of damage and the Inventory that the amount of Gold will go in if it is hit for th..." alt="" coords="401,56,532,83"/>
-<area shape="rect" id="node5" href="$class_minion_a_i.html#a867b6f918c8e4441ea49d9d926e7eec0" title=" " alt="" coords="413,107,520,133"/>
-</map>

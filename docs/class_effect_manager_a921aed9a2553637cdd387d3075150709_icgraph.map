@@ -1,8 +1,0 @@
-<map id="EffectManager.TriggerEffect" name="EffectManager.TriggerEffect">
-<area shape="rect" id="node1" title="Starts an Effect to the entity who has this EffectManager." alt="" coords="244,115,425,141"/>
-<area shape="rect" id="node2" href="$class_ability___lis1.html#afd1d7924ca79144a0e19a84705b7590e" title=" " alt="" coords="11,5,191,32"/>
-<area shape="rect" id="node3" href="$class_ability___lis4.html#a4497c50ddbd3f508448a76a1eafdd203" title=" " alt="" coords="11,56,191,83"/>
-<area shape="rect" id="node4" href="$class_ability___instanciable.html#a2874cb997047ff431148d036aa06e163" title=" " alt="" coords="12,107,189,149"/>
-<area shape="rect" id="node5" href="$class_ability___player_relative.html#a147af83cdc2b932f749d96e9974260fa" title=" " alt="" coords="5,173,196,214"/>
-<area shape="rect" id="node6" href="$class_ability___stats_changer.html#a9b5d2b57c9e1369ec89ff50b9818d1b6" title=" " alt="" coords="7,238,194,279"/>
-</map>

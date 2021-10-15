@@ -1,5 +1,0 @@
-<map id="StructureStats.DrawArcs" name="StructureStats.DrawArcs">
-<area shape="rect" id="node1" title=" " alt="" coords="5,29,172,56"/>
-<area shape="rect" id="node2" href="$class_utils.html#a4a7568ed069ba83cc8a304dbaadc6b20" title="Draw a Parabola with Gizmos and Handles between point a to b with max height of h" alt="" coords="220,29,352,56"/>
-<area shape="rect" id="node3" href="$class_utils.html#a580583fa87a47fc50a5c2acca2f806b2" title="Get position from a parabola defined by start and end, height, and time" alt="" coords="400,29,547,56"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="Stats.GiveRewards" name="Stats.GiveRewards">
-<area shape="rect" id="node1" title="When this entity dies, it gives to the killer this bounty" alt="" coords="336,5,468,32"/>
-<area shape="rect" id="node2" href="$class_stats.html#a151dcb8877a7a73e5d2688e55c810896" title="Function that implements what is done when this entity dies." alt="" coords="212,5,288,32"/>
-<area shape="rect" id="node3" href="$class_stats.html#aa42ab5ae9f21d5c9b7670548e07495de" title=" " alt="" coords="5,5,164,32"/>
-</map>

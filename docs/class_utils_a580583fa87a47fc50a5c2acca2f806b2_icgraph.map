@@ -1,5 +1,0 @@
-<map id="Utils.SampleParabola" name="Utils.SampleParabola">
-<area shape="rect" id="node1" title="Get position from a parabola defined by start and end, height, and time" alt="" coords="400,29,547,56"/>
-<area shape="rect" id="node2" href="$class_utils.html#a4a7568ed069ba83cc8a304dbaadc6b20" title="Draw a Parabola with Gizmos and Handles between point a to b with max height of h" alt="" coords="220,29,352,56"/>
-<area shape="rect" id="node3" href="$class_structure_stats.html#ac93b889aa0a95f84eb866c3743230b6f" title=" " alt="" coords="5,29,172,56"/>
-</map>

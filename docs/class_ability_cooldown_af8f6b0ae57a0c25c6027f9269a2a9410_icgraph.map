@@ -1,4 +1,0 @@
-<map id="AbilityCooldown.HideIndicator" name="AbilityCooldown.HideIndicator">
-<area shape="rect" id="node1" title="Hides the current indicator and triggers the current ability." alt="" coords="212,5,405,32"/>
-<area shape="rect" id="node2" href="$class_ability_cooldown.html#a0a1223f783a3c342413172a5797fa597" title=" " alt="" coords="5,5,164,32"/>
-</map>

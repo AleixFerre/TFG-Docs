@@ -1,5 +1,0 @@
-<map id="PlayerUIController.UpdateMaxHP" name="PlayerUIController.UpdateMaxHP">
-<area shape="rect" id="node1" title=" " alt="" coords="5,23,176,65"/>
-<area shape="rect" id="node2" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="235,5,403,32"/>
-<area shape="rect" id="node3" href="$class_player_u_i_controller.html#aaa62b1e4dc1ee6689adbc72b8dcb73d3" title="When you heal HP, we will reset the lerped bar" alt="" coords="224,56,413,83"/>
-</map>

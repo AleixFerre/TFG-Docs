@@ -1,9 +1,0 @@
-<map id="MovableStats.ApplyStatistic" name="MovableStats.ApplyStatistic">
-<area shape="rect" id="node1" title=" " alt="" coords="845,60,1031,87"/>
-<area shape="rect" id="node2" href="$class_item_statistic_effect.html#abbdbb3e54a3aeeb784c5aadaec695753" title=" " alt="" coords="616,31,795,57"/>
-<area shape="rect" id="node7" href="$class_statistic_change_effect.html#a18670b90afa4c33f7b5ec466af94c38d" title=" " alt="" coords="613,82,797,123"/>
-<area shape="rect" id="node3" href="$class_inventory.html#a22aa6615c02eff40c88a48c96905e962" title=" " alt="" coords="440,31,565,57"/>
-<area shape="rect" id="node4" href="$class_current_item_shop.html#ac931da08dc792088bbb913a1db71cf27" title=" " alt="" coords="204,5,392,32"/>
-<area shape="rect" id="node5" href="$class_item_u_i.html#a7989b50db532215f7732954841b6ae4d" title=" " alt="" coords="243,56,353,83"/>
-<area shape="rect" id="node6" href="$class_item_u_i.html#a2b89b23e671541d302225044a9d9de6f" title=" " alt="" coords="5,56,156,83"/>
-</map>

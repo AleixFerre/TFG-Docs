@@ -1,4 +1,0 @@
-<map id="ConnectToServer.OnConnectedToMaster" name="ConnectToServer.OnConnectedToMaster">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,208,47"/>
-<area shape="rect" id="node2" href="$class_scene_controller.html#ae792f53918da43a6af930ecf9cea0079" title="This will load the scene in the background." alt="" coords="256,13,439,39"/>
-</map>

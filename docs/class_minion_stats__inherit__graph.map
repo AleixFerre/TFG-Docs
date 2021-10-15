@@ -1,6 +1,0 @@
-<map id="MinionStats" name="MinionStats">
-<area shape="rect" id="node1" title="Minion Stats is the main class that controls all the Minion Statistics for every Minion entity within..." alt="" coords="15,229,106,256"/>
-<area shape="rect" id="node2" href="$class_movable_stats.html" title=" " alt="" coords="11,155,111,181"/>
-<area shape="rect" id="node3" href="$class_stats.html" title=" " alt="" coords="34,80,87,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,116,32"/>
-</map>

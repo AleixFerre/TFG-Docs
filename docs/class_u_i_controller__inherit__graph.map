@@ -1,9 +1,0 @@
-<map id="UIController" name="UIController">
-<area shape="rect" id="node1" title="Base abstract class for all the entities that have UI and Stats in the game." alt="" coords="175,80,264,107"/>
-<area shape="rect" id="node3" href="$class_minion_u_i_controller.html" title="UIController for all the Minion entities of the game." alt="" coords="5,155,132,181"/>
-<area shape="rect" id="node4" href="$class_player_u_i_controller.html" title="UI Controller for the Player Stats" alt="" coords="156,155,283,181"/>
-<area shape="rect" id="node5" href="$class_structure_u_i_controller.html" title=" " alt="" coords="307,155,449,181"/>
-<area shape="rect" id="node2" title=" " alt="" coords="164,5,275,32"/>
-<area shape="rect" id="node6" href="$class_nexus_u_i_controller.html" title=" " alt="" coords="240,229,367,256"/>
-<area shape="rect" id="node7" href="$class_turret_u_i_controller.html" title=" " alt="" coords="391,229,514,256"/>
-</map>

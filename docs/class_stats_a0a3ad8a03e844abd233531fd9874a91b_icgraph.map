@@ -1,8 +1,0 @@
-<map id="Stats.GetUI" name="Stats.GetUI">
-<area shape="rect" id="node1" title="This method retuns the UIController of the entity." alt="" coords="417,81,508,108"/>
-<area shape="rect" id="node2" href="$class_structure_stats.html#a9288d34a28aecd99033a0f2998df3a21" title=" " alt="" coords="213,5,369,32"/>
-<area shape="rect" id="node4" href="$class_stats.html#aa42ab5ae9f21d5c9b7670548e07495de" title=" " alt="" coords="5,81,164,108"/>
-<area shape="rect" id="node5" href="$class_stats.html#a151dcb8877a7a73e5d2688e55c810896" title="Function that implements what is done when this entity dies." alt="" coords="253,107,329,133"/>
-<area shape="rect" id="node6" href="$class_movable_stats.html#aaa1da792e42f2fc4176ef6eaf41aaf9e" title=" " alt="" coords="212,157,369,184"/>
-<area shape="rect" id="node3" href="$class_structure_stats.html#a47d6bbbce7de8a935120066f849d8bd4" title="Function that implements what is done when this entity dies." alt="" coords="20,5,149,32"/>
-</map>

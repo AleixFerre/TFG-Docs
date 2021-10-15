@@ -1,0 +1,23 @@
+digraph "PlayerUIController.InitializeValues"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="PlayerUIController.Initialize\lValues",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initializes all the values into the Image and Text."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="PlayerUIController.Initalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_u_i_controller.html#ab6ed746dec17fdf763bc4ec1d713db7f",tooltip="Initializes all the values and colors for this Player."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PlayerStats.Initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240",tooltip="Initialize the actual Stats of the Player."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PlayerController.Initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf",tooltip="Initialize the PlayerController."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ModelSync.DoEnable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_model_sync.html#ab8359f73ae31a7f926c80ebcd7e9444a",tooltip="This starts all the initialization chain for the player."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ModelSync.Start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_model_sync.html#a47be08ee3bbd2a173514e74da3dd65cb",tooltip=" "];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MannequinStats.Initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_mannequin_stats.html#a0cecf416149ad28539cb696fad4ae175",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Mannequin.Start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_mannequin.html#af638d1036ae3aee689fe03b43cea0df5",tooltip=" "];
+}

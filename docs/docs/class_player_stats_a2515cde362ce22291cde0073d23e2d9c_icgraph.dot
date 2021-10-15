@@ -1,0 +1,17 @@
+digraph "PlayerStats.AddXP"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="PlayerStats.AddXP",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Add some XP amount."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TurretStats.Die",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_stats.html#afba2a2bb8d56fba966bb1c8ff069b63a",tooltip="Function that implements what is done when this entity dies."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MinionStats.GiveRewards",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf",tooltip="When this entity dies, it gives to the killer this bounty"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TurretStats.GiveRewards",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_stats.html#abeb56bb247ac9247caff0e93a4a1dc68",tooltip="When this entity dies, it gives to the killer this bounty"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PlayerStats.GiveRewards",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_stats.html#abecc5e0421296d745f700eee2a26adf3",tooltip="When this entity dies, it gives to the killer this bounty"];
+}

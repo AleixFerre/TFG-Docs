@@ -1,4 +1,0 @@
-<map id="TurretIndicator.OnStateChanged" name="TurretIndicator.OnStateChanged">
-<area shape="rect" id="node1" title="This function gets calls whenever the Turret changes the intern state." alt="" coords="5,13,212,39"/>
-<area shape="rect" id="node2" href="$class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50" title="Returns the color corresponing to the current TurretState of the indicator" alt="" coords="260,5,419,47"/>
-</map>

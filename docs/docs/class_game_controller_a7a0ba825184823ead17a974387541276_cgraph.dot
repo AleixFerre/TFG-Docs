@@ -1,0 +1,11 @@
+digraph "GameController.AddKill"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="GameController.AddKill",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="One of the players killed another."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GameUIController.UpdateKills",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_game_u_i_controller.html#a7dec1b29a7eaf155c6538f46dc2be2bf",tooltip=" "];
+}

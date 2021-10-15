@@ -1,5 +1,0 @@
-<map id="PlayerStats.Respawn" name="PlayerStats.Respawn">
-<area shape="rect" id="node1" title="This is triggered when the player respawns." alt="" coords="251,31,397,57"/>
-<area shape="rect" id="node2" href="$class_respawn_canvas.html#aeb8465a7dc3b9f4fe6a36afc1c8bcf9a" title=" " alt="" coords="5,5,203,32"/>
-<area shape="rect" id="node3" href="$class_respawn_canvas.html#a272c2f78c7bfbeb481fcb4b737fe446c" title=" " alt="" coords="23,56,185,83"/>
-</map>

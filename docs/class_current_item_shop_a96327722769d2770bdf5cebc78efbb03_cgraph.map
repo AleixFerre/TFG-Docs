@@ -1,6 +1,0 @@
-<map id="CurrentItemShop.CheckBuyable" name="CurrentItemShop.CheckBuyable">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,212,57"/>
-<area shape="rect" id="node2" href="$class_inventory.html#a4eba5ec568d6e06c754b71057888fcdd" title=" " alt="" coords="260,5,383,32"/>
-<area shape="rect" id="node4" href="$class_item_u_i.html#a3621f37c3d29275407a00265d7823825" title=" " alt="" coords="267,56,376,83"/>
-<area shape="rect" id="node3" href="$class_inventory.html#a78bab4c24d6da82bdef1a27f5c33934e" title=" " alt="" coords="431,5,616,32"/>
-</map>

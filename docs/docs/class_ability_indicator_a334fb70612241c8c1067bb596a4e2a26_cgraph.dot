@@ -1,0 +1,35 @@
+digraph "AbilityIndicator.SetIndicator"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AbilityIndicator.SetIndicator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Shows the indicator of the wanted ability"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Ability.Blocks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ability.html#ada0f5a168924c90f6ae74918a84e3aca",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AbilityCooldown.ButtonTriggered",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ability_cooldown.html#a24d10146f84157eecd34133535f98c0b",tooltip="When the button is actually triggered, this function should execute"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PlayerStats.BlockAbilityFor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_stats.html#af942d9a5150c2d4c47800335ec062ee1",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PlayerStats.BlockAbility\lForSeconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_stats.html#a4df625156bb2ae99262e81b28346ccb4",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="PlayerStats.GetAbilityCooldown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_stats.html#a12436c563a621825a095f0fcbee67e74",tooltip=" "];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AbilityCooldown.OnFinish\lAbility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ability_cooldown.html#abe17348393bdde47c5aef87b5311593c",tooltip="This resets the state of the player when it exits the ability state"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="PlayerController.SetLook\lAtTarget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c",tooltip="The player will look at the position of this Transform."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AbilityIndicator.GetDirection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ability_indicator.html#aaf1aa8f26591497f20fc44435964f990",tooltip="Returns the vector from the player to the mouse position in world space"];
+  Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AbilityCooldown.HaveEnoughMana",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ability_cooldown.html#a5ca1d60dfd6c2023676de0fe049bcb91",tooltip="Returns true if you have enough mana to cast this ability"];
+  Node3 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="BasicAttack.ResetStateAbility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_basic_attack.html#ad88d6d1dc8cdc8dd2b7a3043e0cc0d5a",tooltip=" "];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="PlayerStats.SpendMana",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_stats.html#aac8ad79b07db35d0a9873217c992d787",tooltip=" "];
+  Node3 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Ability.TriggerAbility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ability.html#a7a4e6e5db015832f91de48b68658ec69",tooltip=" "];
+}

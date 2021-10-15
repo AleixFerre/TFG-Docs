@@ -1,6 +1,0 @@
-<map id="PlayerStats.DealDamageRPC" name="PlayerStats.DealDamageRPC">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,200,57"/>
-<area shape="rect" id="node2" href="$class_player_h_u_d_controller.html#ab2461120d3cfef6e83b38062b1373e04" title=" " alt="" coords="248,31,452,57"/>
-<area shape="rect" id="node3" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="518,5,686,32"/>
-<area shape="rect" id="node4" href="$class_player_h_u_d_controller.html#ad2c7c75671ae997600550e725a75e136" title=" " alt="" coords="500,56,704,83"/>
-</map>

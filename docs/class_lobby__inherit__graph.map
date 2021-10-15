@@ -1,4 +1,0 @@
-<map id="Lobby" name="Lobby">
-<area shape="rect" id="node1" title="Controls all the lobby state and sends all the character pick information." alt="" coords="72,80,129,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,196,32"/>
-</map>

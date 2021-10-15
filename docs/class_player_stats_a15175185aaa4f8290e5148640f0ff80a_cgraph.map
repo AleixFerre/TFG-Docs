@@ -1,7 +1,0 @@
-<map id="PlayerStats.Update" name="PlayerStats.Update">
-<area shape="rect" id="node1" title=" " alt="" coords="5,63,140,90"/>
-<area shape="rect" id="node2" href="$class_inventory.html#a154fe342bac27ad9f38a79da5c770d39" title=" " alt="" coords="206,13,333,39"/>
-<area shape="rect" id="node4" href="$class_movable_stats.html#a8db5075f6cb3977efdc5c92f2fb927f5" title=" " alt="" coords="204,63,335,90"/>
-<area shape="rect" id="node5" href="$class_player_stats.html#a8d05b6ec32ee2a10f700a57ac7342340" title=" " alt="" coords="188,114,351,141"/>
-<area shape="rect" id="node3" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="399,5,585,47"/>
-</map>

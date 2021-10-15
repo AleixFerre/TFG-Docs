@@ -1,0 +1,17 @@
+digraph "MinionAttack.Attack"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MinionAttack.Attack",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MinionAI.DamageTarget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_minion_a_i.html#a09c01338937d9f42fa47d55ca1a36cb6",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MinionAI.Attack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_minion_a_i.html#adbc82c5f1b764d7b0e0fe202079eb84b",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Stats.DealDamage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_stats.html#acebcf18ce39553a9c811f368a56a5583",tooltip="Specify the amount of damage and the Inventory that the amount of Gold will go in if it is hit for th..."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MinionAI.Walk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_minion_a_i.html#a867b6f918c8e4441ea49d9d926e7eec0",tooltip=" "];
+}

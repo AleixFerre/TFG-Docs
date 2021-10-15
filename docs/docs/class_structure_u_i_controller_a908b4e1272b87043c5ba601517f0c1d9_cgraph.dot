@@ -1,0 +1,13 @@
+digraph "StructureUIController.PreInitializeColors"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="StructureUIController.Pre\lInitializeColors",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="StructureUIController.Initialize\lColors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_structure_u_i_controller.html#ad491648142deb4740cbe79382a713f33",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="StructureUIController.Get\lTeamMaterial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_structure_u_i_controller.html#afbb40f8976e1ccab250b80b3b59c13c6",tooltip=" "];
+}

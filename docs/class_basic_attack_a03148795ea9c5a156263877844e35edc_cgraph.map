@@ -1,5 +1,0 @@
-<map id="BasicAttack.StartBasicAttackRPC" name="BasicAttack.StartBasicAttackRPC">
-<area shape="rect" id="node1" title=" " alt="" coords="5,13,228,39"/>
-<area shape="rect" id="node2" href="$class_target_attack_indicator.html#a9c5085eee4193a588f1673329c646e75" title="Sets the current target to the indicator" alt="" coords="276,5,445,47"/>
-<area shape="rect" id="node3" href="$class_stats.html#aad08d308b784a74c8a009ba48c0a237f" title="Returns the range of the entity" alt="" coords="493,13,608,39"/>
-</map>

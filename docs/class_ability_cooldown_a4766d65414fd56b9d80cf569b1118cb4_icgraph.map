@@ -1,4 +1,0 @@
-<map id="AbilityCooldown.CoolDown" name="AbilityCooldown.CoolDown">
-<area shape="rect" id="node1" title="This function is called whenever this ability is in cooldown." alt="" coords="212,5,388,32"/>
-<area shape="rect" id="node2" href="$class_ability_cooldown.html#a0a1223f783a3c342413172a5797fa597" title=" " alt="" coords="5,5,164,32"/>
-</map>

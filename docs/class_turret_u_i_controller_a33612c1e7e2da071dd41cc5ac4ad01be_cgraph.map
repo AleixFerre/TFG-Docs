@@ -1,5 +1,0 @@
-<map id="TurretUIController.InitializeColors" name="TurretUIController.InitializeColors">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,179,47"/>
-<area shape="rect" id="node2" href="$class_turret_shooter.html#a320c5a07618bf6eeed732ca91129c251" title="This method initializes the turret script." alt="" coords="227,13,377,39"/>
-<area shape="rect" id="node3" href="$class_turret_indicator.html#a19e8f71242fb5ed02d3ccc6e66b46680" title=" " alt="" coords="425,13,580,39"/>
-</map>

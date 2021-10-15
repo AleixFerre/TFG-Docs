@@ -1,0 +1,11 @@
+digraph "GameController.GetTime"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="GameController.GetTime",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the current time in seconds from the start of the game"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MinionStats.GiveRewards",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf",tooltip="When this entity dies, it gives to the killer this bounty"];
+}

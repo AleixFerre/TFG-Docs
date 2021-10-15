@@ -1,0 +1,47 @@
+digraph "PlayerHUDController.UpdateGoldTxt"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="PlayerHUDController.Update\lGoldTxt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Inventory.AddGold",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_inventory.html#a154fe342bac27ad9f38a79da5c770d39",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MinionStats.GiveRewards",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf",tooltip="When this entity dies, it gives to the killer this bounty"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TurretStats.GiveRewards",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_turret_stats.html#abeb56bb247ac9247caff0e93a4a1dc68",tooltip="When this entity dies, it gives to the killer this bounty"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PlayerStats.GiveRewards",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_stats.html#abecc5e0421296d745f700eee2a26adf3",tooltip="When this entity dies, it gives to the killer this bounty"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Coin.OnTriggerEnter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_coin.html#a38022b7f8466c95101067154d8b4de13",tooltip=" "];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="PlayerStats.Update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_stats.html#a15175185aaa4f8290e5148640f0ff80a",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Inventory.BuyItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_inventory.html#a22aa6615c02eff40c88a48c96905e962",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="CurrentItemShop.BuyCurrent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_current_item_shop.html#ac931da08dc792088bbb913a1db71cf27",tooltip=" "];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ItemUI.BuyItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_u_i.html#a7989b50db532215f7732954841b6ae4d",tooltip=" "];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ItemUI.OnPointerClick",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_u_i.html#a2b89b23e671541d302225044a9d9de6f",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Inventory.Initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_inventory.html#af5cb79cb50692e3fb6c98df25812dcbc",tooltip=" "];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="PlayerStats.Initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240",tooltip="Initialize the actual Stats of the Player."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="PlayerController.Initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf",tooltip="Initialize the PlayerController."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ModelSync.DoEnable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_model_sync.html#ab8359f73ae31a7f926c80ebcd7e9444a",tooltip="This starts all the initialization chain for the player."];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ModelSync.Start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_model_sync.html#a47be08ee3bbd2a173514e74da3dd65cb",tooltip=" "];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Inventory.SellItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_inventory.html#af1e7ae193e520340f457705d73e27607",tooltip=" "];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="SellableItemUI.OnPointer\lClick",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sellable_item_u_i.html#acf95fddf5bd754193101c046807a195c",tooltip=" "];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="Inventory.SpendGold",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_inventory.html#ac533e00e2603d169f9d4972f853e1447",tooltip=" "];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="RespawnCanvas.BuyRespawn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_respawn_canvas.html#aeb8465a7dc3b9f4fe6a36afc1c8bcf9a",tooltip=" "];
+}

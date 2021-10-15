@@ -1,8 +1,0 @@
-<map id="ItemUI.GetItem" name="ItemUI.GetItem">
-<area shape="rect" id="node1" title=" " alt="" coords="459,56,568,83"/>
-<area shape="rect" id="node2" href="$class_current_item_shop.html#ac931da08dc792088bbb913a1db71cf27" title=" " alt="" coords="213,5,401,32"/>
-<area shape="rect" id="node3" href="$class_current_item_shop.html#a96327722769d2770bdf5cebc78efbb03" title=" " alt="" coords="204,56,411,83"/>
-<area shape="rect" id="node5" href="$class_current_item_shop.html#a7df6c42491987972d6d04a06c803525a" title=" " alt="" coords="215,107,400,133"/>
-<area shape="rect" id="node4" href="$class_shop.html#a41ec87cc228509d14232052a67281eb7" title=" " alt="" coords="32,56,129,83"/>
-<area shape="rect" id="node6" href="$class_item_u_i.html#a2b89b23e671541d302225044a9d9de6f" title=" " alt="" coords="5,107,156,133"/>
-</map>

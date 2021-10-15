@@ -1,4 +1,0 @@
-<map id="TurretShooter.RemoveEnemy" name="TurretShooter.RemoveEnemy">
-<area shape="rect" id="node1" title="When an Attackable entity exits the range trigger, it gets removed from the corresponding list depend..." alt="" coords="236,5,427,32"/>
-<area shape="rect" id="node2" href="$class_turret_shooter.html#a91af004b685cacac7466bcebe82eb08d" title=" " alt="" coords="5,5,188,32"/>
-</map>

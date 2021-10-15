@@ -1,6 +1,0 @@
-<map id="PlayerStats.HealRPC" name="PlayerStats.HealRPC">
-<area shape="rect" id="node1" title=" " alt="" coords="445,31,592,57"/>
-<area shape="rect" id="node2" href="$class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" title="This is triggered when the player respawns." alt="" coords="251,31,397,57"/>
-<area shape="rect" id="node3" href="$class_respawn_canvas.html#aeb8465a7dc3b9f4fe6a36afc1c8bcf9a" title=" " alt="" coords="5,5,203,32"/>
-<area shape="rect" id="node4" href="$class_respawn_canvas.html#a272c2f78c7bfbeb481fcb4b737fe446c" title=" " alt="" coords="23,56,185,83"/>
-</map>

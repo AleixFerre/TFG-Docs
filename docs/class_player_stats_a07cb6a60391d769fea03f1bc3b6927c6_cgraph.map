@@ -1,8 +1,0 @@
-<map id="PlayerStats.HealRPC" name="PlayerStats.HealRPC">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,152,83"/>
-<area shape="rect" id="node2" href="$class_player_u_i_controller.html#aca577b724c1f3f2ed54ad1165a7842c2" title="Sets the current HP value to the Image." alt="" coords="217,19,387,61"/>
-<area shape="rect" id="node5" href="$class_player_h_u_d_controller.html#ab2461120d3cfef6e83b38062b1373e04" title=" " alt="" coords="200,85,404,112"/>
-<area shape="rect" id="node3" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="470,56,638,83"/>
-<area shape="rect" id="node4" href="$class_player_u_i_controller.html#aaa62b1e4dc1ee6689adbc72b8dcb73d3" title="When you heal HP, we will reset the lerped bar" alt="" coords="459,5,649,32"/>
-<area shape="rect" id="node6" href="$class_player_h_u_d_controller.html#ad2c7c75671ae997600550e725a75e136" title=" " alt="" coords="452,107,656,133"/>
-</map>

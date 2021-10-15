@@ -1,6 +1,0 @@
-<map id="MinionAI.Initialize" name="MinionAI.Initialize">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,128,83"/>
-<area shape="rect" id="node2" href="$class_utils.html#a6ac07f202eb5cc4bf2322b73d1196f90" title="Returns the enemy Team of the passed one." alt="" coords="176,5,323,32"/>
-<area shape="rect" id="node3" href="$class_minion_a_i.html#ac52b368d1ec72545ac0c0a4708c1c155" title=" " alt="" coords="183,56,316,83"/>
-<area shape="rect" id="node4" href="$class_minion_a_i.html#a84c1cea7268781a3cafec4135d94df5c" title=" " alt="" coords="183,107,316,133"/>
-</map>

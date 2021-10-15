@@ -1,4 +1,0 @@
-<map id="DisconnectionChecker" name="DisconnectionChecker">
-<area shape="rect" id="node1" title="This class manages when the player disconnects from the game, intentionally or unexpectedly." alt="" coords="25,80,177,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,196,32"/>
-</map>
