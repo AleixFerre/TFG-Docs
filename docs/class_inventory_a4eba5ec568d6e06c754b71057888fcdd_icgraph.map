@@ -1,0 +1,10 @@
+<map id="Inventory.CanBuy" name="Inventory.CanBuy">
+<area shape="rect" id="node1" title=" " alt="" coords="695,94,817,120"/>
+<area shape="rect" id="node2" href="$class_current_item_shop.html#ac931da08dc792088bbb913a1db71cf27" title=" " alt="" coords="204,6,392,32"/>
+<area shape="rect" id="node3" href="$class_item_u_i.html#a7989b50db532215f7732954841b6ae4d" title=" " alt="" coords="243,68,353,95"/>
+<area shape="rect" id="node5" href="$class_inventory.html#a22aa6615c02eff40c88a48c96905e962" title=" " alt="" coords="481,43,606,70"/>
+<area shape="rect" id="node6" href="$class_current_item_shop.html#a96327722769d2770bdf5cebc78efbb03" title=" " alt="" coords="440,144,647,171"/>
+<area shape="rect" id="node8" href="$class_item_u_i.html#aea5d8c789ccc8a8f0b2df526321f7b5e" title=" " alt="" coords="470,195,617,222"/>
+<area shape="rect" id="node4" href="$class_item_u_i.html#a2b89b23e671541d302225044a9d9de6f" title=" " alt="" coords="5,68,156,95"/>
+<area shape="rect" id="node7" href="$class_shop.html#a41ec87cc228509d14232052a67281eb7" title=" " alt="" coords="249,170,347,196"/>
+</map>

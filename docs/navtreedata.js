@@ -25,6 +25,19 @@
 var NAVTREE =
 [
   [ "Treball de Fi de Grau", "index.html", [
+    [ "Treball de Final de Grau", "index.html", [
+      [ "Introduction", "index.html#intro_sec", null ],
+      [ "Installation", "index.html#install_sec", [
+        [ "Step 1: Opening the box", "index.html#step1", null ]
+      ] ]
+    ] ],
+    [ "Paquets", "namespaces.html", [
+      [ "Paquets", "namespaces.html", "namespaces_dup" ],
+      [ "Funcions de Paquet", "namespacemembers.html", [
+        [ "Tot", "namespacemembers.html", null ],
+        [ "Enumeracions", "namespacemembers_enum.html", null ]
+      ] ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Llista de Classes", "annotated.html", "annotated_dup" ],
       [ "Índex de Classes", "classes.html", null ],
@@ -34,7 +47,8 @@ var NAVTREE =
         [ "Funcions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Enumeracions", "functions_enum.html", null ],
-        [ "Propietats", "functions_prop.html", null ]
+        [ "Propietats", "functions_prop.html", null ],
+        [ "Esdeveniments", "functions_evnt.html", null ]
       ] ]
     ] ],
     [ "Fitxers", "files.html", [
@@ -51,10 +65,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_ability_8cs.html",
-"class_ability_display.html#a523151de0ef892ba40847fcbc7e07f96",
-"class_generic_dictionary.html#a53b9be0eccc39107efb9a14667eafda2",
-"class_pause_menu.html#ad66a0552c131257182ce524f1c71ce4c",
-"class_structure_stats.html#a52c2896887d916143811c4bff751dd6c"
+"_timed_effect_8cs.html",
+"class_character.html#ad64df944909f236c7b1b643396fea9e5",
+"class_discord_1_1_discord.html#aa66c8625806e2b6f17dc696e03f5fcb7",
+"class_discord_1_1_network_manager.html#a2bc3319e7a5eedc8eb2fc21f39078767",
+"class_discord_1_1_voice_manager.html#a0a3f48fd0e1221f047e6107028a4d2f1",
+"class_main_menu.html#ad1ecd6c8eea2c5f5531906486e1f0040",
+"class_player_u_i_controller.html#af7f4a20f0db17b541c3f30ecadfe8d3a",
+"dir_2863194c9ba8869c3920e30063c1edf2.html",
+"namespaces.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

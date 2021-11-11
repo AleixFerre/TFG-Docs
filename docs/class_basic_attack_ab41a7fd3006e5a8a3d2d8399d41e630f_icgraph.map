@@ -1,0 +1,4 @@
+<map id="BasicAttack.DamageBasicAttack" name="BasicAttack.DamageBasicAttack">
+<area shape="rect" id="node1" title=" " alt="" coords="249,13,465,39"/>
+<area shape="rect" id="node2" href="$class_model_player_mediator.html#a4fbf51870eca9fe09be5598b1b610749" title=" " alt="" coords="5,5,201,47"/>
+</map>

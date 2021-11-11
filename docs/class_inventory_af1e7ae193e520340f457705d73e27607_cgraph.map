@@ -1,0 +1,7 @@
+<map id="Inventory.SellItem" name="Inventory.SellItem">
+<area shape="rect" id="node1" title=" " alt="" coords="5,42,129,69"/>
+<area shape="rect" id="node2" href="$class_item_statistic_effect.html#a7e60cf01d0ee7f4b00fe817a36a7b2b4" title=" " alt="" coords="187,13,355,39"/>
+<area shape="rect" id="node5" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="177,64,364,105"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#a85d656089081a1fae4eb9c531f44eaee" title=" " alt="" coords="412,13,591,39"/>
+<area shape="rect" id="node4" href="$class_attack_range_indicator.html#a30b23b934689db8d536efbc193ad9ae3" title=" " alt="" coords="639,5,809,47"/>
+</map>

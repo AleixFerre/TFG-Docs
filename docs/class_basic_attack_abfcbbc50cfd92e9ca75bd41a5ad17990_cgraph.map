@@ -1,0 +1,10 @@
+<map id="BasicAttack.Update" name="BasicAttack.Update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,144,133"/>
+<area shape="rect" id="node2" href="$class_basic_attack.html#a5d09a3ef54dfac2ab6130195c188492e" title=" " alt="" coords="192,56,339,83"/>
+<area shape="rect" id="node5" href="$class_stats.html#aad08d308b784a74c8a009ba48c0a237f" title="Returns the range of the entity" alt="" coords="845,99,960,125"/>
+<area shape="rect" id="node6" href="$class_basic_attack.html#a965a4cbb50653a0b2ed02e8bf1f88433" title=" " alt="" coords="403,107,566,133"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#ae3f3c15bb7d83955090bb397985aa006" title="Returns true if the current entity can BasicAttack the other." alt="" coords="407,5,562,32"/>
+<area shape="rect" id="node8" href="$class_basic_attack.html#a6700fa1b84e430381504535f20c2e3d8" title=" " alt="" coords="387,56,583,83"/>
+<area shape="rect" id="node4" href="$class_player_stats.html#ab3af90aeca2c49cac5ec15500ba15d8a" title="Returns true if the Player is in range with the other entity" alt="" coords="639,15,789,41"/>
+<area shape="rect" id="node7" href="$class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="631,74,797,115"/>
+</map>

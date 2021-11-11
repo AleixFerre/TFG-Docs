@@ -1,0 +1,809 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta property="og:description" content="Docs for the implementation of my MOBA in Unity." />
+    <meta property="og:url" content="https://github.com/AleixFerre/TFG-Docs" />
+    <!-- END opengraph metadata -->
+    <!-- BEGIN twitter metadata -->
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta name="twitter:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta name="twitter:description" content="Docs for the implementation of my MOBA in Unity." />
+    <!-- END twitter metadata -->
+    <title>Treball de Fi de Grau: Referència de l&#39;Estructura Discord.Discord.FFICreateParams</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="icon.png" /></td>
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">Treball de Fi de Grau
+                                &#160;<span id="projectnumber">1.0</span>
+                            </div>
+                            <div id="projectbrief">Documentació pel treball de final de grau. Implementació d&#39;una base per un joc de gènere MOBA multijugador en línia.</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Generat per Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('struct_discord_1_1_discord_1_1_f_f_i_create_params.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pac-attribs">Atributs de Paquet</a> &#124;
+<a href="struct_discord_1_1_discord_1_1_f_f_i_create_params-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de l'Estructura Discord.Discord.FFICreateParams</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-attribs" name="pac-attribs"></a>
+Atributs de Paquet</h2></td></tr>
+<tr class="memitem:a418d0a7d75428e34389e3f141d115460"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a418d0a7d75428e34389e3f141d115460">ClientId</a></td></tr>
+<tr class="separator:a418d0a7d75428e34389e3f141d115460"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27de907fe881694d8c00498f63babcea"><td class="memItemLeft" align="right" valign="top">UInt64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a27de907fe881694d8c00498f63babcea">Flags</a></td></tr>
+<tr class="separator:a27de907fe881694d8c00498f63babcea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea20f70a7b5eb6805fd38d4614b48f3"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a4ea20f70a7b5eb6805fd38d4614b48f3">Events</a></td></tr>
+<tr class="separator:a4ea20f70a7b5eb6805fd38d4614b48f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c368e16827925f64c142dd1407472d8"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a7c368e16827925f64c142dd1407472d8">EventData</a></td></tr>
+<tr class="separator:a7c368e16827925f64c142dd1407472d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa25169911ba333f08be9aa635a5c0f5"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#afa25169911ba333f08be9aa635a5c0f5">ApplicationEvents</a></td></tr>
+<tr class="separator:afa25169911ba333f08be9aa635a5c0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12002bf213ae92c711d3e0cf309d44ad"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a12002bf213ae92c711d3e0cf309d44ad">ApplicationVersion</a></td></tr>
+<tr class="separator:a12002bf213ae92c711d3e0cf309d44ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0206d66a5fdf1ee5a19394021f8ed2e6"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a0206d66a5fdf1ee5a19394021f8ed2e6">UserEvents</a></td></tr>
+<tr class="separator:a0206d66a5fdf1ee5a19394021f8ed2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa70f51c36493891e2204744a8a318597"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#aa70f51c36493891e2204744a8a318597">UserVersion</a></td></tr>
+<tr class="separator:aa70f51c36493891e2204744a8a318597"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36884fc4ecd422e3a38feb98a01c40a8"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a36884fc4ecd422e3a38feb98a01c40a8">ImageEvents</a></td></tr>
+<tr class="separator:a36884fc4ecd422e3a38feb98a01c40a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad85a68f4706cd537e2d46cfd77fa6272"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#ad85a68f4706cd537e2d46cfd77fa6272">ImageVersion</a></td></tr>
+<tr class="separator:ad85a68f4706cd537e2d46cfd77fa6272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4ede3ba17254bc0183fbb6d400899d1"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#ae4ede3ba17254bc0183fbb6d400899d1">ActivityEvents</a></td></tr>
+<tr class="separator:ae4ede3ba17254bc0183fbb6d400899d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a0242abf0be7be4c7c6b8fd783bfc9e"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a8a0242abf0be7be4c7c6b8fd783bfc9e">ActivityVersion</a></td></tr>
+<tr class="separator:a8a0242abf0be7be4c7c6b8fd783bfc9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a052ec8c61d65f828444bbee21224e6de"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a052ec8c61d65f828444bbee21224e6de">RelationshipEvents</a></td></tr>
+<tr class="separator:a052ec8c61d65f828444bbee21224e6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8ce201e87377312b52151b988cad39d"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#ab8ce201e87377312b52151b988cad39d">RelationshipVersion</a></td></tr>
+<tr class="separator:ab8ce201e87377312b52151b988cad39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f24cb53756280d0fd38159054b65768"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a4f24cb53756280d0fd38159054b65768">LobbyEvents</a></td></tr>
+<tr class="separator:a4f24cb53756280d0fd38159054b65768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb9c657f31f7078cea419d9112a6fdca"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#abb9c657f31f7078cea419d9112a6fdca">LobbyVersion</a></td></tr>
+<tr class="separator:abb9c657f31f7078cea419d9112a6fdca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e448e5d4a9cdf85b1df2f97f6f1cff"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a00e448e5d4a9cdf85b1df2f97f6f1cff">NetworkEvents</a></td></tr>
+<tr class="separator:a00e448e5d4a9cdf85b1df2f97f6f1cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeacd69218f7e150787d4f21dc62e3aa8"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#aeacd69218f7e150787d4f21dc62e3aa8">NetworkVersion</a></td></tr>
+<tr class="separator:aeacd69218f7e150787d4f21dc62e3aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0954d5a3a17f7dfd02edc8e1515266db"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a0954d5a3a17f7dfd02edc8e1515266db">OverlayEvents</a></td></tr>
+<tr class="separator:a0954d5a3a17f7dfd02edc8e1515266db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad20e784dbde089e1f0509249390be2a9"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#ad20e784dbde089e1f0509249390be2a9">OverlayVersion</a></td></tr>
+<tr class="separator:ad20e784dbde089e1f0509249390be2a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a7b254c78a74dc4203fb4ba85bd5627"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a7a7b254c78a74dc4203fb4ba85bd5627">StorageEvents</a></td></tr>
+<tr class="separator:a7a7b254c78a74dc4203fb4ba85bd5627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74e234176bfeb6b842baec4c6368e69e"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a74e234176bfeb6b842baec4c6368e69e">StorageVersion</a></td></tr>
+<tr class="separator:a74e234176bfeb6b842baec4c6368e69e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba6c8be2b0057fb46396de2ae8184aab"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#aba6c8be2b0057fb46396de2ae8184aab">StoreEvents</a></td></tr>
+<tr class="separator:aba6c8be2b0057fb46396de2ae8184aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b8ee339992e7cf88594c1cc3dd6e9a3"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a2b8ee339992e7cf88594c1cc3dd6e9a3">StoreVersion</a></td></tr>
+<tr class="separator:a2b8ee339992e7cf88594c1cc3dd6e9a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7034b176de93dd37a65d94b1f244872"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#ad7034b176de93dd37a65d94b1f244872">VoiceEvents</a></td></tr>
+<tr class="separator:ad7034b176de93dd37a65d94b1f244872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae944d3e3df98aafffef22c22a286ea78"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#ae944d3e3df98aafffef22c22a286ea78">VoiceVersion</a></td></tr>
+<tr class="separator:ae944d3e3df98aafffef22c22a286ea78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb58cefa559de21f2d64df454152ee2"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a3eb58cefa559de21f2d64df454152ee2">AchievementEvents</a></td></tr>
+<tr class="separator:a3eb58cefa559de21f2d64df454152ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a444e1eadd9610534adbbca12567688e8"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html#a444e1eadd9610534adbbca12567688e8">AchievementVersion</a></td></tr>
+<tr class="separator:a444e1eadd9610534adbbca12567688e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a3eb58cefa559de21f2d64df454152ee2" name="a3eb58cefa559de21f2d64df454152ee2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eb58cefa559de21f2d64df454152ee2">&#9670;&nbsp;</a></span>AchievementEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.AchievementEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a444e1eadd9610534adbbca12567688e8" name="a444e1eadd9610534adbbca12567688e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444e1eadd9610534adbbca12567688e8">&#9670;&nbsp;</a></span>AchievementVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt32 Discord.Discord.FFICreateParams.AchievementVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4ede3ba17254bc0183fbb6d400899d1" name="ae4ede3ba17254bc0183fbb6d400899d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4ede3ba17254bc0183fbb6d400899d1">&#9670;&nbsp;</a></span>ActivityEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.ActivityEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a0242abf0be7be4c7c6b8fd783bfc9e" name="a8a0242abf0be7be4c7c6b8fd783bfc9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a0242abf0be7be4c7c6b8fd783bfc9e">&#9670;&nbsp;</a></span>ActivityVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt32 Discord.Discord.FFICreateParams.ActivityVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa25169911ba333f08be9aa635a5c0f5" name="afa25169911ba333f08be9aa635a5c0f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa25169911ba333f08be9aa635a5c0f5">&#9670;&nbsp;</a></span>ApplicationEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.ApplicationEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12002bf213ae92c711d3e0cf309d44ad" name="a12002bf213ae92c711d3e0cf309d44ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12002bf213ae92c711d3e0cf309d44ad">&#9670;&nbsp;</a></span>ApplicationVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt32 Discord.Discord.FFICreateParams.ApplicationVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a418d0a7d75428e34389e3f141d115460" name="a418d0a7d75428e34389e3f141d115460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a418d0a7d75428e34389e3f141d115460">&#9670;&nbsp;</a></span>ClientId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Discord.Discord.FFICreateParams.ClientId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c368e16827925f64c142dd1407472d8" name="a7c368e16827925f64c142dd1407472d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c368e16827925f64c142dd1407472d8">&#9670;&nbsp;</a></span>EventData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.EventData</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ea20f70a7b5eb6805fd38d4614b48f3" name="a4ea20f70a7b5eb6805fd38d4614b48f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ea20f70a7b5eb6805fd38d4614b48f3">&#9670;&nbsp;</a></span>Events</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.Events</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27de907fe881694d8c00498f63babcea" name="a27de907fe881694d8c00498f63babcea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27de907fe881694d8c00498f63babcea">&#9670;&nbsp;</a></span>Flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt64 Discord.Discord.FFICreateParams.Flags</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36884fc4ecd422e3a38feb98a01c40a8" name="a36884fc4ecd422e3a38feb98a01c40a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36884fc4ecd422e3a38feb98a01c40a8">&#9670;&nbsp;</a></span>ImageEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.ImageEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad85a68f4706cd537e2d46cfd77fa6272" name="ad85a68f4706cd537e2d46cfd77fa6272"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad85a68f4706cd537e2d46cfd77fa6272">&#9670;&nbsp;</a></span>ImageVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt32 Discord.Discord.FFICreateParams.ImageVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f24cb53756280d0fd38159054b65768" name="a4f24cb53756280d0fd38159054b65768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f24cb53756280d0fd38159054b65768">&#9670;&nbsp;</a></span>LobbyEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.LobbyEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb9c657f31f7078cea419d9112a6fdca" name="abb9c657f31f7078cea419d9112a6fdca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb9c657f31f7078cea419d9112a6fdca">&#9670;&nbsp;</a></span>LobbyVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt32 Discord.Discord.FFICreateParams.LobbyVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00e448e5d4a9cdf85b1df2f97f6f1cff" name="a00e448e5d4a9cdf85b1df2f97f6f1cff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e448e5d4a9cdf85b1df2f97f6f1cff">&#9670;&nbsp;</a></span>NetworkEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.NetworkEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeacd69218f7e150787d4f21dc62e3aa8" name="aeacd69218f7e150787d4f21dc62e3aa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeacd69218f7e150787d4f21dc62e3aa8">&#9670;&nbsp;</a></span>NetworkVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt32 Discord.Discord.FFICreateParams.NetworkVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0954d5a3a17f7dfd02edc8e1515266db" name="a0954d5a3a17f7dfd02edc8e1515266db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0954d5a3a17f7dfd02edc8e1515266db">&#9670;&nbsp;</a></span>OverlayEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.OverlayEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad20e784dbde089e1f0509249390be2a9" name="ad20e784dbde089e1f0509249390be2a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad20e784dbde089e1f0509249390be2a9">&#9670;&nbsp;</a></span>OverlayVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt32 Discord.Discord.FFICreateParams.OverlayVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a052ec8c61d65f828444bbee21224e6de" name="a052ec8c61d65f828444bbee21224e6de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a052ec8c61d65f828444bbee21224e6de">&#9670;&nbsp;</a></span>RelationshipEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.RelationshipEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8ce201e87377312b52151b988cad39d" name="ab8ce201e87377312b52151b988cad39d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8ce201e87377312b52151b988cad39d">&#9670;&nbsp;</a></span>RelationshipVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt32 Discord.Discord.FFICreateParams.RelationshipVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a7b254c78a74dc4203fb4ba85bd5627" name="a7a7b254c78a74dc4203fb4ba85bd5627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a7b254c78a74dc4203fb4ba85bd5627">&#9670;&nbsp;</a></span>StorageEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.StorageEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74e234176bfeb6b842baec4c6368e69e" name="a74e234176bfeb6b842baec4c6368e69e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74e234176bfeb6b842baec4c6368e69e">&#9670;&nbsp;</a></span>StorageVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt32 Discord.Discord.FFICreateParams.StorageVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba6c8be2b0057fb46396de2ae8184aab" name="aba6c8be2b0057fb46396de2ae8184aab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba6c8be2b0057fb46396de2ae8184aab">&#9670;&nbsp;</a></span>StoreEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.StoreEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b8ee339992e7cf88594c1cc3dd6e9a3" name="a2b8ee339992e7cf88594c1cc3dd6e9a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b8ee339992e7cf88594c1cc3dd6e9a3">&#9670;&nbsp;</a></span>StoreVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt32 Discord.Discord.FFICreateParams.StoreVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0206d66a5fdf1ee5a19394021f8ed2e6" name="a0206d66a5fdf1ee5a19394021f8ed2e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0206d66a5fdf1ee5a19394021f8ed2e6">&#9670;&nbsp;</a></span>UserEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.UserEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa70f51c36493891e2204744a8a318597" name="aa70f51c36493891e2204744a8a318597"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa70f51c36493891e2204744a8a318597">&#9670;&nbsp;</a></span>UserVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt32 Discord.Discord.FFICreateParams.UserVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad7034b176de93dd37a65d94b1f244872" name="ad7034b176de93dd37a65d94b1f244872"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7034b176de93dd37a65d94b1f244872">&#9670;&nbsp;</a></span>VoiceEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.Discord.FFICreateParams.VoiceEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae944d3e3df98aafffef22c22a286ea78" name="ae944d3e3df98aafffef22c22a286ea78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae944d3e3df98aafffef22c22a286ea78">&#9670;&nbsp;</a></span>VoiceVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt32 Discord.Discord.FFICreateParams.VoiceVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta estructura es va generar a partir del següent fitxer:<ul>
+<li>C:/Users/AleixFerre/Git Projects/TFG/Assets/Plugins/DiscordGameSDK/<a class="el" href="_core_8cs.html">Core.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_discord.html">Discord</a></li><li class="navelem"><a class="el" href="class_discord_1_1_discord.html">Discord</a></li><li class="navelem"><a class="el" href="struct_discord_1_1_discord_1_1_f_f_i_create_params.html">FFICreateParams</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+    toggleButton.title = "Toggle Light/Dark Mode"
+    document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+  })
+</script>
+</body>
+</html>

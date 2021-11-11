@@ -1,0 +1,5 @@
+<map id="ModelPlayerMediator.ResetBasicAttack" name="ModelPlayerMediator.ResetBasicAttack">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node2" href="$class_basic_attack.html#a965a4cbb50653a0b2ed02e8bf1f88433" title=" " alt="" coords="236,13,399,39"/>
+<area shape="rect" id="node3" href="$class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="447,5,613,47"/>
+</map>

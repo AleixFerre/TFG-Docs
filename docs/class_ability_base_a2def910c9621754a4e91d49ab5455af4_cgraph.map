@@ -1,0 +1,5 @@
+<map id="AbilityBase.CalculateDamage" name="AbilityBase.CalculateDamage">
+<area shape="rect" id="node1" title="Returns the calculated damage." alt="" coords="5,31,200,57"/>
+<area shape="rect" id="node2" href="$class_ability.html#a004d2ead9a2f144fe5a181fceed114a5" title=" " alt="" coords="260,5,391,32"/>
+<area shape="rect" id="node3" href="$class_ability.html#a0c1233ee3cfecfed5c899ed29d0ec4b9" title=" " alt="" coords="248,56,403,83"/>
+</map>

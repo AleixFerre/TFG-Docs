@@ -1,0 +1,9 @@
+<map id="SceneController.LoadScene" name="SceneController.LoadScene">
+<area shape="rect" id="node1" title="This will load the scene in the background." alt="" coords="560,130,743,157"/>
+<area shape="rect" id="node2" href="$class_connection_manager.html#a9b5c535dd81e861835cfddf10b2fd19a" title=" " alt="" coords="283,5,489,47"/>
+<area shape="rect" id="node4" href="$class_game_controller.html#a0d83f0779a2ddcb3fb4bd2494c7497ae" title="This is called whenever a nexus gets destroyed." alt="" coords="293,71,479,98"/>
+<area shape="rect" id="node5" href="$class_connect_to_server.html#a0fcebedba49274c22894b6543836e101" title=" " alt="" coords="285,123,487,164"/>
+<area shape="rect" id="node6" href="$class_disconnection_checker.html#a99f0f11bc8182e7be4093b99c42bffa2" title=" " alt="" coords="260,189,512,215"/>
+<area shape="rect" id="node7" href="$class_main_menu.html#a6656e392e3ff37a437bb574ae03e0572" title=" " alt="" coords="299,239,473,266"/>
+<area shape="rect" id="node3" href="$class_connection_manager.html#acb44adcca94dd19f39d038c282a4dae4" title=" " alt="" coords="5,5,212,47"/>
+</map>

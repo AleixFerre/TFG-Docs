@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['healeffect_0',['HealEffect',['../class_heal_effect.html',1,'']]],
-  ['healrelativeeffect_1',['HealRelativeEffect',['../class_heal_relative_effect.html',1,'']]],
-  ['heart_2',['Heart',['../class_heart.html',1,'']]]
+  ['gamecontroller_0',['GameController',['../class_game_controller.html',1,'']]],
+  ['gameuicontroller_1',['GameUIController',['../class_game_u_i_controller.html',1,'']]],
+  ['genericdictionary_2',['GenericDictionary',['../class_generic_dictionary.html',1,'']]]
 ];

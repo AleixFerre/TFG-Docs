@@ -1,0 +1,9 @@
+<map id="PlayerStats.Die" name="PlayerStats.Die">
+<area shape="rect" id="node1" title="Function that implements what is done when this entity dies." alt="" coords="5,107,119,134"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#a620fe13f60352662681e10c7ee39d975" title="We trigger this function when the player dies in order to destroy all the current player abilities ne..." alt="" coords="179,5,361,47"/>
+<area shape="rect" id="node3" href="$class_player_controller.html#a8c6621b8c9485a47a092fd156404c45d" title=" " alt="" coords="187,71,353,112"/>
+<area shape="rect" id="node4" href="$class_player_h_u_d_controller.html#ab2461120d3cfef6e83b38062b1373e04" title=" " alt="" coords="168,187,372,214"/>
+<area shape="rect" id="node7" href="$class_player_h_u_d_controller.html#a09d27238c0e659b8f98828367c7622ba" title=" " alt="" coords="167,137,373,163"/>
+<area shape="rect" id="node5" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="439,137,607,163"/>
+<area shape="rect" id="node6" href="$class_player_h_u_d_controller.html#ad2c7c75671ae997600550e725a75e136" title=" " alt="" coords="421,187,625,214"/>
+</map>

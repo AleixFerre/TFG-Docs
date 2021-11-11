@@ -1,0 +1,4 @@
+<map id="PlayerUIController.UpdateCurrentMana" name="PlayerUIController.UpdateCurrentMana">
+<area shape="rect" id="node1" title="Sets the current MP value to the Image." alt="" coords="5,5,176,47"/>
+<area shape="rect" id="node2" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="224,13,392,39"/>
+</map>

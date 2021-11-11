@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['ready_0',['Ready',['../class_lobby.html#aae1e92550db31d8491bc697f28635d22ae7d31fc0602fb2ede144d18cdffd816b',1,'Lobby']]],
-  ['red_1',['Red',['../_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598aee38e4d5dd68c4e440825018d549cb47',1,'Team.cs']]],
-  ['runningmultiplicator_2',['RunningMultiplicator',['../_statistic_8cs.html#a0431437d0436f6eeedbf36cb3c80dbd4aeef00aa514964ec30dd21cab42b17f72',1,'Statistic.cs']]]
+  ['magicresist_0',['MagicResist',['../_statistic_8cs.html#a0431437d0436f6eeedbf36cb3c80dbd4a8e7f4869c160be729031fc88ef030ec2',1,'Statistic.cs']]],
+  ['main_5fmenu_1',['MAIN_MENU',['../_scenes_8cs.html#a23cc8aadc51c6514e8ba08140a570f8caa16d505f03a4b6f35486f65f6a61317e',1,'Scenes.cs']]],
+  ['manager_2',['MANAGER',['../_scenes_8cs.html#a23cc8aadc51c6514e8ba08140a570f8ca929a43a844650a2ba236b9a50d1bbd20',1,'Scenes.cs']]],
+  ['maxhp_3',['MaxHP',['../_statistic_8cs.html#a0431437d0436f6eeedbf36cb3c80dbd4a7328467362e04fb994455aeb50ac0449',1,'Statistic.cs']]],
+  ['maxmp_4',['MaxMP',['../_statistic_8cs.html#a0431437d0436f6eeedbf36cb3c80dbd4adde87e7cb541a4302ec3e7e2b429b38b',1,'Statistic.cs']]],
+  ['movementspeed_5',['MovementSpeed',['../_statistic_8cs.html#a0431437d0436f6eeedbf36cb3c80dbd4a6ac1a7dc525ac874fef15626633a9c9c',1,'Statistic.cs']]]
 ];

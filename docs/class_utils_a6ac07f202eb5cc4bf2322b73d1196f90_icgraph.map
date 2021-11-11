@@ -1,0 +1,5 @@
+<map id="Utils.GetEnemyTeam" name="Utils.GetEnemyTeam">
+<area shape="rect" id="node1" title="Returns the enemy Team of the passed one." alt="" coords="367,5,513,32"/>
+<area shape="rect" id="node2" href="$class_minion_a_i.html#a174b746b62e9b80b1e59edbbd8a309ff" title=" " alt="" coords="196,5,319,32"/>
+<area shape="rect" id="node3" href="$class_minion_stats.html#aa5a0ca66d4dd72c3e70c7ae9ee8e6cb8" title=" " alt="" coords="5,5,148,32"/>
+</map>

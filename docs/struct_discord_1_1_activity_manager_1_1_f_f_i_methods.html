@@ -1,0 +1,838 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta property="og:description" content="Docs for the implementation of my MOBA in Unity." />
+    <meta property="og:url" content="https://github.com/AleixFerre/TFG-Docs" />
+    <!-- END opengraph metadata -->
+    <!-- BEGIN twitter metadata -->
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta name="twitter:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta name="twitter:description" content="Docs for the implementation of my MOBA in Unity." />
+    <!-- END twitter metadata -->
+    <title>Treball de Fi de Grau: Referència de l&#39;Estructura Discord.ActivityManager.FFIMethods</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="icon.png" /></td>
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">Treball de Fi de Grau
+                                &#160;<span id="projectnumber">1.0</span>
+                            </div>
+                            <div id="projectbrief">Documentació pel treball de final de grau. Implementació d&#39;una base per un joc de gènere MOBA multijugador en línia.</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Generat per Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pac-methods">Funcions de Paquet</a> &#124;
+<a href="#pac-attribs">Atributs de Paquet</a> &#124;
+<a href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de l'Estructura Discord.ActivityManager.FFIMethods</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-methods" name="pac-methods"></a>
+Funcions de Paquet</h2></td></tr>
+<tr class="memitem:a5595460dae90c096365b39646ad61ac1"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a5595460dae90c096365b39646ad61ac1">RegisterCommandMethod</a> (IntPtr methodsPtr, [MarshalAs(UnmanagedType.LPStr)]string command)</td></tr>
+<tr class="separator:a5595460dae90c096365b39646ad61ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab74e8836fa59403e16c5ecaaac3857cb"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ab74e8836fa59403e16c5ecaaac3857cb">RegisterSteamMethod</a> (IntPtr methodsPtr, UInt32 steamId)</td></tr>
+<tr class="separator:ab74e8836fa59403e16c5ecaaac3857cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1626dc0ee46efb332a557bc4bcf83ec2"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a1626dc0ee46efb332a557bc4bcf83ec2">UpdateActivityCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a1626dc0ee46efb332a557bc4bcf83ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d7e7f13494ef90d451921cc3247bd15"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a9d7e7f13494ef90d451921cc3247bd15">UpdateActivityMethod</a> (IntPtr methodsPtr, ref <a class="el" href="struct_discord_1_1_activity.html">Activity</a> activity, IntPtr callbackData, <a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a1626dc0ee46efb332a557bc4bcf83ec2">UpdateActivityCallback</a> callback)</td></tr>
+<tr class="separator:a9d7e7f13494ef90d451921cc3247bd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cd7c875abdcd75517744e31a5beef85"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a4cd7c875abdcd75517744e31a5beef85">ClearActivityCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a4cd7c875abdcd75517744e31a5beef85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3bc38ff0e8c25f672004f9556b75559"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ae3bc38ff0e8c25f672004f9556b75559">ClearActivityMethod</a> (IntPtr methodsPtr, IntPtr callbackData, <a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a4cd7c875abdcd75517744e31a5beef85">ClearActivityCallback</a> callback)</td></tr>
+<tr class="separator:ae3bc38ff0e8c25f672004f9556b75559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad10a6c96e1f169dce8e992d83b80a1f7"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ad10a6c96e1f169dce8e992d83b80a1f7">SendRequestReplyCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:ad10a6c96e1f169dce8e992d83b80a1f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6bdd1f0dd3d6e980a2919a263cd8a60"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ae6bdd1f0dd3d6e980a2919a263cd8a60">SendRequestReplyMethod</a> (IntPtr methodsPtr, Int64 userId, <a class="el" href="namespace_discord.html#ade5e239176af7f60a61613f84a72ed78">ActivityJoinRequestReply</a> reply, IntPtr callbackData, <a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ad10a6c96e1f169dce8e992d83b80a1f7">SendRequestReplyCallback</a> callback)</td></tr>
+<tr class="separator:ae6bdd1f0dd3d6e980a2919a263cd8a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f82d3443615b731deb304f9e8bca75"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a17f82d3443615b731deb304f9e8bca75">SendInviteCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a17f82d3443615b731deb304f9e8bca75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac113888e106fbc5ae70e77e032bde74f"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ac113888e106fbc5ae70e77e032bde74f">SendInviteMethod</a> (IntPtr methodsPtr, Int64 userId, <a class="el" href="namespace_discord.html#add8ad8445af051d9f7fe4da3a5ce01bc">ActivityActionType</a> type, [MarshalAs(UnmanagedType.LPStr)]string content, IntPtr callbackData, <a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a17f82d3443615b731deb304f9e8bca75">SendInviteCallback</a> callback)</td></tr>
+<tr class="separator:ac113888e106fbc5ae70e77e032bde74f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac581165af043b16b124b456208e143bb"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ac581165af043b16b124b456208e143bb">AcceptInviteCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:ac581165af043b16b124b456208e143bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d580c890e2eb94504f3d153639720e6"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a0d580c890e2eb94504f3d153639720e6">AcceptInviteMethod</a> (IntPtr methodsPtr, Int64 userId, IntPtr callbackData, <a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ac581165af043b16b124b456208e143bb">AcceptInviteCallback</a> callback)</td></tr>
+<tr class="separator:a0d580c890e2eb94504f3d153639720e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-attribs" name="pac-attribs"></a>
+Atributs de Paquet</h2></td></tr>
+<tr class="memitem:aa6574842bbcd81a7ff84da0c885bef1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a5595460dae90c096365b39646ad61ac1">RegisterCommandMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#aa6574842bbcd81a7ff84da0c885bef1c">RegisterCommand</a></td></tr>
+<tr class="separator:aa6574842bbcd81a7ff84da0c885bef1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afecdba4f6da4ba812059977d459e4646"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ab74e8836fa59403e16c5ecaaac3857cb">RegisterSteamMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#afecdba4f6da4ba812059977d459e4646">RegisterSteam</a></td></tr>
+<tr class="separator:afecdba4f6da4ba812059977d459e4646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe0fc03cd18ddf982221d772ecf465ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a9d7e7f13494ef90d451921cc3247bd15">UpdateActivityMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#abe0fc03cd18ddf982221d772ecf465ce">UpdateActivity</a></td></tr>
+<tr class="separator:abe0fc03cd18ddf982221d772ecf465ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed2035fc0b2d5d1fafd296ea97eb9892"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ae3bc38ff0e8c25f672004f9556b75559">ClearActivityMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#aed2035fc0b2d5d1fafd296ea97eb9892">ClearActivity</a></td></tr>
+<tr class="separator:aed2035fc0b2d5d1fafd296ea97eb9892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac211055e1edfd19f1b40ebff6fd2c149"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ae6bdd1f0dd3d6e980a2919a263cd8a60">SendRequestReplyMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ac211055e1edfd19f1b40ebff6fd2c149">SendRequestReply</a></td></tr>
+<tr class="separator:ac211055e1edfd19f1b40ebff6fd2c149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd2c318ef08c326448a6fbc3386d89f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ac113888e106fbc5ae70e77e032bde74f">SendInviteMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#acd2c318ef08c326448a6fbc3386d89f5">SendInvite</a></td></tr>
+<tr class="separator:acd2c318ef08c326448a6fbc3386d89f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeccef9d85071d7b2ea81f975b3394982"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a0d580c890e2eb94504f3d153639720e6">AcceptInviteMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#aeccef9d85071d7b2ea81f975b3394982">AcceptInvite</a></td></tr>
+<tr class="separator:aeccef9d85071d7b2ea81f975b3394982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="ac581165af043b16b124b456208e143bb" name="ac581165af043b16b124b456208e143bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac581165af043b16b124b456208e143bb">&#9670;&nbsp;</a></span>AcceptInviteCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.ActivityManager.FFIMethods.AcceptInviteCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d580c890e2eb94504f3d153639720e6" name="a0d580c890e2eb94504f3d153639720e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d580c890e2eb94504f3d153639720e6">&#9670;&nbsp;</a></span>AcceptInviteMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.ActivityManager.FFIMethods.AcceptInviteMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ac581165af043b16b124b456208e143bb">AcceptInviteCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4cd7c875abdcd75517744e31a5beef85" name="a4cd7c875abdcd75517744e31a5beef85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cd7c875abdcd75517744e31a5beef85">&#9670;&nbsp;</a></span>ClearActivityCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.ActivityManager.FFIMethods.ClearActivityCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3bc38ff0e8c25f672004f9556b75559" name="ae3bc38ff0e8c25f672004f9556b75559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3bc38ff0e8c25f672004f9556b75559">&#9670;&nbsp;</a></span>ClearActivityMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.ActivityManager.FFIMethods.ClearActivityMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a4cd7c875abdcd75517744e31a5beef85">ClearActivityCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5595460dae90c096365b39646ad61ac1" name="a5595460dae90c096365b39646ad61ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5595460dae90c096365b39646ad61ac1">&#9670;&nbsp;</a></span>RegisterCommandMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.ActivityManager.FFIMethods.RegisterCommandMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[MarshalAs(UnmanagedType.LPStr)] string&#160;</td>
+          <td class="paramname"><em>command</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab74e8836fa59403e16c5ecaaac3857cb" name="ab74e8836fa59403e16c5ecaaac3857cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab74e8836fa59403e16c5ecaaac3857cb">&#9670;&nbsp;</a></span>RegisterSteamMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.ActivityManager.FFIMethods.RegisterSteamMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt32&#160;</td>
+          <td class="paramname"><em>steamId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17f82d3443615b731deb304f9e8bca75" name="a17f82d3443615b731deb304f9e8bca75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17f82d3443615b731deb304f9e8bca75">&#9670;&nbsp;</a></span>SendInviteCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.ActivityManager.FFIMethods.SendInviteCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac113888e106fbc5ae70e77e032bde74f" name="ac113888e106fbc5ae70e77e032bde74f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac113888e106fbc5ae70e77e032bde74f">&#9670;&nbsp;</a></span>SendInviteMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.ActivityManager.FFIMethods.SendInviteMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#add8ad8445af051d9f7fe4da3a5ce01bc">ActivityActionType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[MarshalAs(UnmanagedType.LPStr)] string&#160;</td>
+          <td class="paramname"><em>content</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a17f82d3443615b731deb304f9e8bca75">SendInviteCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad10a6c96e1f169dce8e992d83b80a1f7" name="ad10a6c96e1f169dce8e992d83b80a1f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad10a6c96e1f169dce8e992d83b80a1f7">&#9670;&nbsp;</a></span>SendRequestReplyCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.ActivityManager.FFIMethods.SendRequestReplyCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6bdd1f0dd3d6e980a2919a263cd8a60" name="ae6bdd1f0dd3d6e980a2919a263cd8a60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6bdd1f0dd3d6e980a2919a263cd8a60">&#9670;&nbsp;</a></span>SendRequestReplyMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.ActivityManager.FFIMethods.SendRequestReplyMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#ade5e239176af7f60a61613f84a72ed78">ActivityJoinRequestReply</a>&#160;</td>
+          <td class="paramname"><em>reply</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ad10a6c96e1f169dce8e992d83b80a1f7">SendRequestReplyCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1626dc0ee46efb332a557bc4bcf83ec2" name="a1626dc0ee46efb332a557bc4bcf83ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1626dc0ee46efb332a557bc4bcf83ec2">&#9670;&nbsp;</a></span>UpdateActivityCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.ActivityManager.FFIMethods.UpdateActivityCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d7e7f13494ef90d451921cc3247bd15" name="a9d7e7f13494ef90d451921cc3247bd15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d7e7f13494ef90d451921cc3247bd15">&#9670;&nbsp;</a></span>UpdateActivityMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.ActivityManager.FFIMethods.UpdateActivityMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_activity.html">Activity</a>&#160;</td>
+          <td class="paramname"><em>activity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a1626dc0ee46efb332a557bc4bcf83ec2">UpdateActivityCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="aeccef9d85071d7b2ea81f975b3394982" name="aeccef9d85071d7b2ea81f975b3394982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeccef9d85071d7b2ea81f975b3394982">&#9670;&nbsp;</a></span>AcceptInvite</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a0d580c890e2eb94504f3d153639720e6">AcceptInviteMethod</a> Discord.ActivityManager.FFIMethods.AcceptInvite</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed2035fc0b2d5d1fafd296ea97eb9892" name="aed2035fc0b2d5d1fafd296ea97eb9892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed2035fc0b2d5d1fafd296ea97eb9892">&#9670;&nbsp;</a></span>ClearActivity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ae3bc38ff0e8c25f672004f9556b75559">ClearActivityMethod</a> Discord.ActivityManager.FFIMethods.ClearActivity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6574842bbcd81a7ff84da0c885bef1c" name="aa6574842bbcd81a7ff84da0c885bef1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6574842bbcd81a7ff84da0c885bef1c">&#9670;&nbsp;</a></span>RegisterCommand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a5595460dae90c096365b39646ad61ac1">RegisterCommandMethod</a> Discord.ActivityManager.FFIMethods.RegisterCommand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afecdba4f6da4ba812059977d459e4646" name="afecdba4f6da4ba812059977d459e4646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afecdba4f6da4ba812059977d459e4646">&#9670;&nbsp;</a></span>RegisterSteam</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ab74e8836fa59403e16c5ecaaac3857cb">RegisterSteamMethod</a> Discord.ActivityManager.FFIMethods.RegisterSteam</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd2c318ef08c326448a6fbc3386d89f5" name="acd2c318ef08c326448a6fbc3386d89f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd2c318ef08c326448a6fbc3386d89f5">&#9670;&nbsp;</a></span>SendInvite</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ac113888e106fbc5ae70e77e032bde74f">SendInviteMethod</a> Discord.ActivityManager.FFIMethods.SendInvite</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac211055e1edfd19f1b40ebff6fd2c149" name="ac211055e1edfd19f1b40ebff6fd2c149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac211055e1edfd19f1b40ebff6fd2c149">&#9670;&nbsp;</a></span>SendRequestReply</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#ae6bdd1f0dd3d6e980a2919a263cd8a60">SendRequestReplyMethod</a> Discord.ActivityManager.FFIMethods.SendRequestReply</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe0fc03cd18ddf982221d772ecf465ce" name="abe0fc03cd18ddf982221d772ecf465ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe0fc03cd18ddf982221d772ecf465ce">&#9670;&nbsp;</a></span>UpdateActivity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html#a9d7e7f13494ef90d451921cc3247bd15">UpdateActivityMethod</a> Discord.ActivityManager.FFIMethods.UpdateActivity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta estructura es va generar a partir del següent fitxer:<ul>
+<li>C:/Users/AleixFerre/Git Projects/TFG/Assets/Plugins/DiscordGameSDK/<a class="el" href="_core_8cs.html">Core.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_discord.html">Discord</a></li><li class="navelem"><a class="el" href="class_discord_1_1_activity_manager.html">ActivityManager</a></li><li class="navelem"><a class="el" href="struct_discord_1_1_activity_manager_1_1_f_f_i_methods.html">FFIMethods</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+    toggleButton.title = "Toggle Light/Dark Mode"
+    document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+  })
+</script>
+</body>
+</html>

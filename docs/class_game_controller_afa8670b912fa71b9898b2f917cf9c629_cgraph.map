@@ -1,0 +1,4 @@
+<map id="GameController.Die" name="GameController.Die">
+<area shape="rect" id="node1" title="Sets the respawn canvas with the proper calculated death time." alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node2" href="$class_respawn_canvas.html#a9933ffd44d95c8f31be7c38a55a7b1c2" title=" " alt="" coords="188,5,377,32"/>
+</map>

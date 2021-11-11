@@ -1,0 +1,676 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta property="og:description" content="Docs for the implementation of my MOBA in Unity." />
+    <meta property="og:url" content="https://github.com/AleixFerre/TFG-Docs" />
+    <!-- END opengraph metadata -->
+    <!-- BEGIN twitter metadata -->
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta name="twitter:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta name="twitter:description" content="Docs for the implementation of my MOBA in Unity." />
+    <!-- END twitter metadata -->
+    <title>Treball de Fi de Grau: Referència de l&#39;Estructura Discord.NetworkManager.FFIMethods</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="icon.png" /></td>
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">Treball de Fi de Grau
+                                &#160;<span id="projectnumber">1.0</span>
+                            </div>
+                            <div id="projectbrief">Documentació pel treball de final de grau. Implementació d&#39;una base per un joc de gènere MOBA multijugador en línia.</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Generat per Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('struct_discord_1_1_network_manager_1_1_f_f_i_methods.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pac-methods">Funcions de Paquet</a> &#124;
+<a href="#pac-attribs">Atributs de Paquet</a> &#124;
+<a href="struct_discord_1_1_network_manager_1_1_f_f_i_methods-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de l'Estructura Discord.NetworkManager.FFIMethods</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-methods" name="pac-methods"></a>
+Funcions de Paquet</h2></td></tr>
+<tr class="memitem:abd218ebeef418fa6f6fa5a57f50e3990"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#abd218ebeef418fa6f6fa5a57f50e3990">GetPeerIdMethod</a> (IntPtr methodsPtr, ref UInt64 peerId)</td></tr>
+<tr class="separator:abd218ebeef418fa6f6fa5a57f50e3990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf8534017339dcf80820d21f8b375f0e"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#abf8534017339dcf80820d21f8b375f0e">FlushMethod</a> (IntPtr methodsPtr)</td></tr>
+<tr class="separator:abf8534017339dcf80820d21f8b375f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace30d706edcc146a55954dbf0807e46e"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#ace30d706edcc146a55954dbf0807e46e">OpenPeerMethod</a> (IntPtr methodsPtr, UInt64 peerId, [MarshalAs(UnmanagedType.LPStr)]string routeData)</td></tr>
+<tr class="separator:ace30d706edcc146a55954dbf0807e46e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaa69e84ac49507db301edbd6c698c94"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#aaaa69e84ac49507db301edbd6c698c94">UpdatePeerMethod</a> (IntPtr methodsPtr, UInt64 peerId, [MarshalAs(UnmanagedType.LPStr)]string routeData)</td></tr>
+<tr class="separator:aaaa69e84ac49507db301edbd6c698c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01c04204dc5bfed8f24d07088c765f99"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a01c04204dc5bfed8f24d07088c765f99">ClosePeerMethod</a> (IntPtr methodsPtr, UInt64 peerId)</td></tr>
+<tr class="separator:a01c04204dc5bfed8f24d07088c765f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ced96e49cec6c359c9a4b79b4f733e9"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a8ced96e49cec6c359c9a4b79b4f733e9">OpenChannelMethod</a> (IntPtr methodsPtr, UInt64 peerId, byte channelId, bool reliable)</td></tr>
+<tr class="separator:a8ced96e49cec6c359c9a4b79b4f733e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eee3170395b9ff58e6e30d9ca47baa9"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a9eee3170395b9ff58e6e30d9ca47baa9">CloseChannelMethod</a> (IntPtr methodsPtr, UInt64 peerId, byte channelId)</td></tr>
+<tr class="separator:a9eee3170395b9ff58e6e30d9ca47baa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb570a433d6fa0a6f6387518203d5680"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#abb570a433d6fa0a6f6387518203d5680">SendMessageMethod</a> (IntPtr methodsPtr, UInt64 peerId, byte channelId, byte[] data, Int32 dataLen)</td></tr>
+<tr class="separator:abb570a433d6fa0a6f6387518203d5680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-attribs" name="pac-attribs"></a>
+Atributs de Paquet</h2></td></tr>
+<tr class="memitem:a2c8fb19514db9f79837bd291ce835c48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#abd218ebeef418fa6f6fa5a57f50e3990">GetPeerIdMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a2c8fb19514db9f79837bd291ce835c48">GetPeerId</a></td></tr>
+<tr class="separator:a2c8fb19514db9f79837bd291ce835c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7eda3855a76cd57874205146c075806"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#abf8534017339dcf80820d21f8b375f0e">FlushMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#ae7eda3855a76cd57874205146c075806">Flush</a></td></tr>
+<tr class="separator:ae7eda3855a76cd57874205146c075806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae731b25aa74455bf07f8101401afbc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#ace30d706edcc146a55954dbf0807e46e">OpenPeerMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#aae731b25aa74455bf07f8101401afbc1">OpenPeer</a></td></tr>
+<tr class="separator:aae731b25aa74455bf07f8101401afbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e78ef1c650b4c9fc65fc819b2c4bd71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#aaaa69e84ac49507db301edbd6c698c94">UpdatePeerMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a6e78ef1c650b4c9fc65fc819b2c4bd71">UpdatePeer</a></td></tr>
+<tr class="separator:a6e78ef1c650b4c9fc65fc819b2c4bd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a971190825f5d2f71fc61e98962c2ac60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a01c04204dc5bfed8f24d07088c765f99">ClosePeerMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a971190825f5d2f71fc61e98962c2ac60">ClosePeer</a></td></tr>
+<tr class="separator:a971190825f5d2f71fc61e98962c2ac60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab96be5828add90f4a3f38e254629c458"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a8ced96e49cec6c359c9a4b79b4f733e9">OpenChannelMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#ab96be5828add90f4a3f38e254629c458">OpenChannel</a></td></tr>
+<tr class="separator:ab96be5828add90f4a3f38e254629c458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1147245b1887e7b3fd3a9f4b47ac70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a9eee3170395b9ff58e6e30d9ca47baa9">CloseChannelMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a9a1147245b1887e7b3fd3a9f4b47ac70">CloseChannel</a></td></tr>
+<tr class="separator:a9a1147245b1887e7b3fd3a9f4b47ac70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c8ef2e01eab593df0f7f4d13b43ba50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#abb570a433d6fa0a6f6387518203d5680">SendMessageMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a5c8ef2e01eab593df0f7f4d13b43ba50">SendMessage</a></td></tr>
+<tr class="separator:a5c8ef2e01eab593df0f7f4d13b43ba50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a9eee3170395b9ff58e6e30d9ca47baa9" name="a9eee3170395b9ff58e6e30d9ca47baa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eee3170395b9ff58e6e30d9ca47baa9">&#9670;&nbsp;</a></span>CloseChannelMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.NetworkManager.FFIMethods.CloseChannelMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01c04204dc5bfed8f24d07088c765f99" name="a01c04204dc5bfed8f24d07088c765f99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c04204dc5bfed8f24d07088c765f99">&#9670;&nbsp;</a></span>ClosePeerMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.NetworkManager.FFIMethods.ClosePeerMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf8534017339dcf80820d21f8b375f0e" name="abf8534017339dcf80820d21f8b375f0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf8534017339dcf80820d21f8b375f0e">&#9670;&nbsp;</a></span>FlushMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.NetworkManager.FFIMethods.FlushMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd218ebeef418fa6f6fa5a57f50e3990" name="abd218ebeef418fa6f6fa5a57f50e3990"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd218ebeef418fa6f6fa5a57f50e3990">&#9670;&nbsp;</a></span>GetPeerIdMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.NetworkManager.FFIMethods.GetPeerIdMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8ced96e49cec6c359c9a4b79b4f733e9" name="a8ced96e49cec6c359c9a4b79b4f733e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ced96e49cec6c359c9a4b79b4f733e9">&#9670;&nbsp;</a></span>OpenChannelMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.NetworkManager.FFIMethods.OpenChannelMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reliable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace30d706edcc146a55954dbf0807e46e" name="ace30d706edcc146a55954dbf0807e46e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace30d706edcc146a55954dbf0807e46e">&#9670;&nbsp;</a></span>OpenPeerMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.NetworkManager.FFIMethods.OpenPeerMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[MarshalAs(UnmanagedType.LPStr)] string&#160;</td>
+          <td class="paramname"><em>routeData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb570a433d6fa0a6f6387518203d5680" name="abb570a433d6fa0a6f6387518203d5680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb570a433d6fa0a6f6387518203d5680">&#9670;&nbsp;</a></span>SendMessageMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.NetworkManager.FFIMethods.SendMessageMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>dataLen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaaa69e84ac49507db301edbd6c698c94" name="aaaa69e84ac49507db301edbd6c698c94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaa69e84ac49507db301edbd6c698c94">&#9670;&nbsp;</a></span>UpdatePeerMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.NetworkManager.FFIMethods.UpdatePeerMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[MarshalAs(UnmanagedType.LPStr)] string&#160;</td>
+          <td class="paramname"><em>routeData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a9a1147245b1887e7b3fd3a9f4b47ac70" name="a9a1147245b1887e7b3fd3a9f4b47ac70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a1147245b1887e7b3fd3a9f4b47ac70">&#9670;&nbsp;</a></span>CloseChannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a9eee3170395b9ff58e6e30d9ca47baa9">CloseChannelMethod</a> Discord.NetworkManager.FFIMethods.CloseChannel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a971190825f5d2f71fc61e98962c2ac60" name="a971190825f5d2f71fc61e98962c2ac60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a971190825f5d2f71fc61e98962c2ac60">&#9670;&nbsp;</a></span>ClosePeer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a01c04204dc5bfed8f24d07088c765f99">ClosePeerMethod</a> Discord.NetworkManager.FFIMethods.ClosePeer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7eda3855a76cd57874205146c075806" name="ae7eda3855a76cd57874205146c075806"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7eda3855a76cd57874205146c075806">&#9670;&nbsp;</a></span>Flush</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#abf8534017339dcf80820d21f8b375f0e">FlushMethod</a> Discord.NetworkManager.FFIMethods.Flush</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c8fb19514db9f79837bd291ce835c48" name="a2c8fb19514db9f79837bd291ce835c48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c8fb19514db9f79837bd291ce835c48">&#9670;&nbsp;</a></span>GetPeerId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#abd218ebeef418fa6f6fa5a57f50e3990">GetPeerIdMethod</a> Discord.NetworkManager.FFIMethods.GetPeerId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab96be5828add90f4a3f38e254629c458" name="ab96be5828add90f4a3f38e254629c458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab96be5828add90f4a3f38e254629c458">&#9670;&nbsp;</a></span>OpenChannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#a8ced96e49cec6c359c9a4b79b4f733e9">OpenChannelMethod</a> Discord.NetworkManager.FFIMethods.OpenChannel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae731b25aa74455bf07f8101401afbc1" name="aae731b25aa74455bf07f8101401afbc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae731b25aa74455bf07f8101401afbc1">&#9670;&nbsp;</a></span>OpenPeer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#ace30d706edcc146a55954dbf0807e46e">OpenPeerMethod</a> Discord.NetworkManager.FFIMethods.OpenPeer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c8ef2e01eab593df0f7f4d13b43ba50" name="a5c8ef2e01eab593df0f7f4d13b43ba50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c8ef2e01eab593df0f7f4d13b43ba50">&#9670;&nbsp;</a></span>SendMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#abb570a433d6fa0a6f6387518203d5680">SendMessageMethod</a> Discord.NetworkManager.FFIMethods.SendMessage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e78ef1c650b4c9fc65fc819b2c4bd71" name="a6e78ef1c650b4c9fc65fc819b2c4bd71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e78ef1c650b4c9fc65fc819b2c4bd71">&#9670;&nbsp;</a></span>UpdatePeer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html#aaaa69e84ac49507db301edbd6c698c94">UpdatePeerMethod</a> Discord.NetworkManager.FFIMethods.UpdatePeer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta estructura es va generar a partir del següent fitxer:<ul>
+<li>C:/Users/AleixFerre/Git Projects/TFG/Assets/Plugins/DiscordGameSDK/<a class="el" href="_core_8cs.html">Core.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_discord.html">Discord</a></li><li class="navelem"><a class="el" href="class_discord_1_1_network_manager.html">NetworkManager</a></li><li class="navelem"><a class="el" href="struct_discord_1_1_network_manager_1_1_f_f_i_methods.html">FFIMethods</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+    toggleButton.title = "Toggle Light/Dark Mode"
+    document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+  })
+</script>
+</body>
+</html>

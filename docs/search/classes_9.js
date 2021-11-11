@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['loadingcanvas_0',['LoadingCanvas',['../class_loading_canvas.html',1,'']]],
-  ['lobby_1',['Lobby',['../class_lobby.html',1,'']]]
+  ['keyvaluepair_0',['KeyValuePair',['../struct_generic_dictionary_1_1_key_value_pair.html',1,'GenericDictionary']]]
 ];

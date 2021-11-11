@@ -1,0 +1,4 @@
+<map id="Stats.DamageReduction" name="Stats.DamageReduction">
+<area shape="rect" id="node1" title="Apply the corresponding damage to this entity according to the armor and magicResist it have" alt="" coords="212,5,375,32"/>
+<area shape="rect" id="node2" href="$class_stats.html#aa42ab5ae9f21d5c9b7670548e07495de" title=" " alt="" coords="5,5,164,32"/>
+</map>

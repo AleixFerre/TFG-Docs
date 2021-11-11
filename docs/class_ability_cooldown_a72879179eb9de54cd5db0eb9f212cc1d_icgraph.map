@@ -1,0 +1,4 @@
+<map id="AbilityCooldown.CancelIndicator" name="AbilityCooldown.CancelIndicator">
+<area shape="rect" id="node1" title="Cancels the current indicator and DOESN&#39;T trigger the current ability." alt="" coords="212,5,419,32"/>
+<area shape="rect" id="node2" href="$class_ability_cooldown.html#a0a1223f783a3c342413172a5797fa597" title=" " alt="" coords="5,5,164,32"/>
+</map>

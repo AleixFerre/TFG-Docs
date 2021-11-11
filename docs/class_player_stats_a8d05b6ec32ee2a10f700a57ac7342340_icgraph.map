@@ -1,0 +1,7 @@
+<map id="PlayerStats.RegenMana" name="PlayerStats.RegenMana">
+<area shape="rect" id="node1" title=" " alt="" coords="464,56,627,83"/>
+<area shape="rect" id="node2" href="$class_base_regenerator.html#a4d65b6c57ff0f1c756eee99844fda2fa" title=" " alt="" coords="220,5,416,32"/>
+<area shape="rect" id="node4" href="$class_diamond.html#ab4e76bdce2d79bb0c805405732984d50" title=" " alt="" coords="236,56,400,83"/>
+<area shape="rect" id="node5" href="$class_player_stats.html#a15175185aaa4f8290e5148640f0ff80a" title=" " alt="" coords="251,107,385,133"/>
+<area shape="rect" id="node3" href="$class_base_regenerator.html#acecbe261698255104a7aa49ff334be98" title=" " alt="" coords="5,5,172,32"/>
+</map>

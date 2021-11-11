@@ -1,0 +1,4 @@
+<map id="PlayerStats.IsInRange" name="PlayerStats.IsInRange">
+<area shape="rect" id="node1" title="Returns true if the Player is in range with the other entity" alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node2" href="$class_stats.html#aad08d308b784a74c8a009ba48c0a237f" title="Returns the range of the entity" alt="" coords="204,5,319,32"/>
+</map>

@@ -11,7 +11,15 @@ var searchData=
   ['abilitycooldown_8',['AbilityCooldown',['../class_ability_cooldown.html',1,'']]],
   ['abilitydisplay_9',['AbilityDisplay',['../class_ability_display.html',1,'']]],
   ['abilityindicator_10',['AbilityIndicator',['../class_ability_indicator.html',1,'']]],
-  ['arrowanimation_11',['ArrowAnimation',['../class_arrow_animation.html',1,'']]],
-  ['asyncloader_12',['AsyncLoader',['../class_async_loader.html',1,'']]],
-  ['attackrangeindicator_13',['AttackRangeIndicator',['../class_attack_range_indicator.html',1,'']]]
+  ['achievementmanager_11',['AchievementManager',['../class_discord_1_1_achievement_manager.html',1,'Discord']]],
+  ['activity_12',['Activity',['../struct_discord_1_1_activity.html',1,'Discord']]],
+  ['activityassets_13',['ActivityAssets',['../struct_discord_1_1_activity_assets.html',1,'Discord']]],
+  ['activitymanager_14',['ActivityManager',['../class_discord_1_1_activity_manager.html',1,'Discord']]],
+  ['activityparty_15',['ActivityParty',['../struct_discord_1_1_activity_party.html',1,'Discord']]],
+  ['activitysecrets_16',['ActivitySecrets',['../struct_discord_1_1_activity_secrets.html',1,'Discord']]],
+  ['activitytimestamps_17',['ActivityTimestamps',['../struct_discord_1_1_activity_timestamps.html',1,'Discord']]],
+  ['applicationmanager_18',['ApplicationManager',['../class_discord_1_1_application_manager.html',1,'Discord']]],
+  ['arrowanimation_19',['ArrowAnimation',['../class_arrow_animation.html',1,'']]],
+  ['asyncloader_20',['AsyncLoader',['../class_async_loader.html',1,'']]],
+  ['attackrangeindicator_21',['AttackRangeIndicator',['../class_attack_range_indicator.html',1,'']]]
 ];

@@ -1,0 +1,5 @@
+<map id="PlayerStats.CanAttack" name="PlayerStats.CanAttack">
+<area shape="rect" id="node1" title="Returns true if the current entity can BasicAttack the other." alt="" coords="5,5,160,32"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#ab3af90aeca2c49cac5ec15500ba15d8a" title="Returns true if the Player is in range with the other entity" alt="" coords="208,5,359,32"/>
+<area shape="rect" id="node3" href="$class_stats.html#aad08d308b784a74c8a009ba48c0a237f" title="Returns the range of the entity" alt="" coords="407,5,521,32"/>
+</map>

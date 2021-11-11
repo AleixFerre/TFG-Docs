@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['other_0',['Other',['../_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598a6311ae17c1ee52b36e68aaf4ad066387',1,'Team.cs']]]
+  ['join_0',['Join',['../namespace_discord.html#add8ad8445af051d9f7fe4da3a5ce01bcaa286d9991c6a547ae25a5f5216164b8f',1,'Discord']]]
 ];

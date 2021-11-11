@@ -1,4 +1,29 @@
 var searchData=
 [
-  ['none_0',['None',['../class_basic_attack.html#a79124cc3f973d837b2f08509038bdb03a6adf97f83acf6453d4a6a4b1070f3754',1,'BasicAttack']]]
+  ['idle_0',['Idle',['../class_turret_indicator.html#ab4bc2977541bcb4e5678c2f625c1ae5aae599161956d626eda4cb0a5ffb85271c',1,'TurretIndicator.Idle()'],['../namespace_discord.html#a225fb5555c4b0e4acba2b4b64ad69213ae599161956d626eda4cb0a5ffb85271c',1,'Discord.Idle()']]],
+  ['ignore_1',['Ignore',['../namespace_discord.html#ade5e239176af7f60a61613f84a72ed78afd038fc7f319e48f3115d92bf5bdbef9',1,'Discord']]],
+  ['implicit_2',['Implicit',['../namespace_discord.html#adb0328dd7c25bb96b4a94cd3a094df5da07e01d7a96d9fd76cf08aa5916f7c788',1,'Discord']]],
+  ['info_3',['Info',['../namespace_discord.html#a43f93bc331b4674c16c53df4240573caa4059b0251f66a18cb56f544728796875',1,'Discord']]],
+  ['ingame_4',['INGAME',['../_scenes_8cs.html#a23cc8aadc51c6514e8ba08140a570f8caa2e8a4a15de815a5b9e3830fa3b986d6',1,'Scenes.cs']]],
+  ['insufficientbuffer_5',['InsufficientBuffer',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781ad8e525244cfc7eaf69bc0e311defde94',1,'Discord']]],
+  ['internalerror_6',['InternalError',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781a8462b58246e70e5c83e5b939a9332cb5',1,'Discord']]],
+  ['invalidaccesstoken_7',['InvalidAccessToken',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781aff0ce5e391827e44de37b946cb61ed75',1,'Discord']]],
+  ['invalidbase64_8',['InvalidBase64',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781a16ae7f5ad43cae2b8cabfd11b6c4e6b6',1,'Discord']]],
+  ['invalidchannel_9',['InvalidChannel',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781a94a9e4213f08b322090d83fa5a8be5e4',1,'Discord']]],
+  ['invalidcommand_10',['InvalidCommand',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781ae01b8763e8076df4395e3fa649286e67',1,'Discord']]],
+  ['invaliddataurl_11',['InvalidDataUrl',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781a9f04b2517b279a1e1458de87e4e85d45',1,'Discord']]],
+  ['invalidentitlement_12',['InvalidEntitlement',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781ac97d9e2a684b50d8b6ac1744555473c1',1,'Discord']]],
+  ['invalidevent_13',['InvalidEvent',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781a42fee7e7a62b3ca0a0addab64d81a6ba',1,'Discord']]],
+  ['invalidfilename_14',['InvalidFilename',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781aa457c2458fd6b078bd45612dbefef462',1,'Discord']]],
+  ['invalidfilesize_15',['InvalidFileSize',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781a223ef2cb013bb9378da6101d520a1136',1,'Discord']]],
+  ['invalidgiftcode_16',['InvalidGiftCode',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781a38f749ec688944dac1124e205b09d5a0',1,'Discord']]],
+  ['invalidguild_17',['InvalidGuild',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781a9f2eb1f5893fd3fb3ea19830a0e72ea4',1,'Discord']]],
+  ['invalidinvite_18',['InvalidInvite',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781abfd98133f7648fcb118daa59ba85c087',1,'Discord']]],
+  ['invalidjoinsecret_19',['InvalidJoinSecret',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781ac5725761f948ac64d3bc5590e2677165',1,'Discord']]],
+  ['invalidlobbysecret_20',['InvalidLobbySecret',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781af202a93f98524d6cd507ba09b7aa7bd8',1,'Discord']]],
+  ['invalidorigin_21',['InvalidOrigin',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781a1fe38849a83d213a4abe42bd422d2f70',1,'Discord']]],
+  ['invalidpayload_22',['InvalidPayload',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781a2d730f4aa6a660e8825d5294008a4ef7',1,'Discord']]],
+  ['invalidpermissions_23',['InvalidPermissions',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781a24b3f7308a96241f041ad876d89fe07b',1,'Discord']]],
+  ['invalidsecret_24',['InvalidSecret',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781ad8028d088133a0abc13ed61e8fe7058b',1,'Discord']]],
+  ['invalidversion_25',['InvalidVersion',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781a47ff03d2239a69112904305444be2fc0',1,'Discord']]]
 ];

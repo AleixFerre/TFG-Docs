@@ -1,0 +1,5 @@
+<map id="MovableStats.HealRPC" name="MovableStats.HealRPC">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,163,57"/>
+<area shape="rect" id="node2" href="$class_stats.html#a0a3ad8a03e844abd233531fd9874a91b" title="This method retuns the UIController of the entity." alt="" coords="263,5,353,32"/>
+<area shape="rect" id="node3" href="$class_u_i_controller.html#a465eebf37083ebf78879ab8bbd71c069" title="Updates the current HP of the entity." alt="" coords="211,56,405,83"/>
+</map>

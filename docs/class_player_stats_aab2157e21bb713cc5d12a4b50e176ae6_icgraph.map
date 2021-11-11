@@ -1,0 +1,5 @@
+<map id="PlayerStats.GetXPNeeded" name="PlayerStats.GetXPNeeded">
+<area shape="rect" id="node1" title=" " alt="" coords="399,5,573,32"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#af74a866a9312c345f3cd03235be2f329" title=" " alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#a75c908d1b8c5eb0b414db7ab99ceab9e" title="Called whenever the player levels up." alt="" coords="212,31,351,57"/>
+</map>

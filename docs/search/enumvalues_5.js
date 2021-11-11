@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['idle_0',['Idle',['../class_turret_indicator.html#ab4bc2977541bcb4e5678c2f625c1ae5aae599161956d626eda4cb0a5ffb85271c',1,'TurretIndicator']]],
-  ['ingame_1',['INGAME',['../_scenes_8cs.html#a23cc8aadc51c6514e8ba08140a570f8caa2e8a4a15de815a5b9e3830fa3b986d6',1,'Scenes.cs']]]
+  ['freepurchase_0',['FreePurchase',['../namespace_discord.html#a34924a1822c9ceda842f8fe194428490a7bdcd855ae8d9e83c6b2ab58ed609f7d',1,'Discord']]],
+  ['friend_1',['Friend',['../namespace_discord.html#adb0328dd7c25bb96b4a94cd3a094df5da930a91848917f92cf7e2f8d744fa4177',1,'Discord']]]
 ];

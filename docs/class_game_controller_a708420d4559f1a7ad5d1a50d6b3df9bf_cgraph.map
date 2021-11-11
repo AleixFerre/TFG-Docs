@@ -1,0 +1,4 @@
+<map id="GameController.AddMinion" name="GameController.AddMinion">
+<area shape="rect" id="node1" title="One of the players killed a minion." alt="" coords="5,5,183,32"/>
+<area shape="rect" id="node2" href="$class_game_u_i_controller.html#ac6d98f05e3ed3d39178b42d85149db5d" title=" " alt="" coords="231,5,445,32"/>
+</map>

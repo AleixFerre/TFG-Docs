@@ -1,0 +1,722 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta property="og:description" content="Docs for the implementation of my MOBA in Unity." />
+    <meta property="og:url" content="https://github.com/AleixFerre/TFG-Docs" />
+    <!-- END opengraph metadata -->
+    <!-- BEGIN twitter metadata -->
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta name="twitter:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta name="twitter:description" content="Docs for the implementation of my MOBA in Unity." />
+    <!-- END twitter metadata -->
+    <title>Treball de Fi de Grau: Referència de la Classe Discord.NetworkManager</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="icon.png" /></td>
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">Treball de Fi de Grau
+                                &#160;<span id="projectnumber">1.0</span>
+                            </div>
+                            <div id="projectbrief">Documentació pel treball de final de grau. Implementació d&#39;una base per un joc de gènere MOBA multijugador en línia.</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Generat per Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_discord_1_1_network_manager.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-methods">Mètodes públics</a> &#124;
+<a href="#properties">Propietats</a> &#124;
+<a href="#events">Esdeveniments</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
+<a href="#pri-static-methods">Mètodes Privats Estàtics</a> &#124;
+<a href="#pri-attribs">Atributs Privats</a> &#124;
+<a href="class_discord_1_1_network_manager-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe Discord.NetworkManager</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>FFIEvents</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>FFIMethods</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Mètodes públics</h2></td></tr>
+<tr class="memitem:ab5a52d6f1119c7d832166ebdb43eaaa2"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#ab5a52d6f1119c7d832166ebdb43eaaa2">MessageHandler</a> (UInt64 peerId, byte channelId, byte[] data)</td></tr>
+<tr class="separator:ab5a52d6f1119c7d832166ebdb43eaaa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc3319e7a5eedc8eb2fc21f39078767"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a2bc3319e7a5eedc8eb2fc21f39078767">RouteUpdateHandler</a> (string routeData)</td></tr>
+<tr class="separator:a2bc3319e7a5eedc8eb2fc21f39078767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69f0246a02898bae83b32b4e84fe634a"><td class="memItemLeft" align="right" valign="top">UInt64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a69f0246a02898bae83b32b4e84fe634a">GetPeerId</a> ()</td></tr>
+<tr class="memdesc:a69f0246a02898bae83b32b4e84fe634a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the local peer ID for this process.  <a href="class_discord_1_1_network_manager.html#a69f0246a02898bae83b32b4e84fe634a">Més...</a><br /></td></tr>
+<tr class="separator:a69f0246a02898bae83b32b4e84fe634a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b696708dbc903663b2bd665add863d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a5b696708dbc903663b2bd665add863d1">Flush</a> ()</td></tr>
+<tr class="memdesc:a5b696708dbc903663b2bd665add863d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send pending network messages.  <a href="class_discord_1_1_network_manager.html#a5b696708dbc903663b2bd665add863d1">Més...</a><br /></td></tr>
+<tr class="separator:a5b696708dbc903663b2bd665add863d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1484b1c556b7b3a40240893443507246"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a1484b1c556b7b3a40240893443507246">OpenPeer</a> (UInt64 peerId, string routeData)</td></tr>
+<tr class="memdesc:a1484b1c556b7b3a40240893443507246"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open a connection to a remote peer.  <a href="class_discord_1_1_network_manager.html#a1484b1c556b7b3a40240893443507246">Més...</a><br /></td></tr>
+<tr class="separator:a1484b1c556b7b3a40240893443507246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e6384aeccb1225def70faaf31f0686c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a6e6384aeccb1225def70faaf31f0686c">UpdatePeer</a> (UInt64 peerId, string routeData)</td></tr>
+<tr class="memdesc:a6e6384aeccb1225def70faaf31f0686c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the route data for a connected peer.  <a href="class_discord_1_1_network_manager.html#a6e6384aeccb1225def70faaf31f0686c">Més...</a><br /></td></tr>
+<tr class="separator:a6e6384aeccb1225def70faaf31f0686c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9ccbda21ba960f51688c8b039c8af53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#ad9ccbda21ba960f51688c8b039c8af53">ClosePeer</a> (UInt64 peerId)</td></tr>
+<tr class="memdesc:ad9ccbda21ba960f51688c8b039c8af53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the connection to a remote peer.  <a href="class_discord_1_1_network_manager.html#ad9ccbda21ba960f51688c8b039c8af53">Més...</a><br /></td></tr>
+<tr class="separator:ad9ccbda21ba960f51688c8b039c8af53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83417756220726fe5fb7b54b4ea2e203"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a83417756220726fe5fb7b54b4ea2e203">OpenChannel</a> (UInt64 peerId, byte channelId, bool reliable)</td></tr>
+<tr class="memdesc:a83417756220726fe5fb7b54b4ea2e203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open a message channel to a connected peer.  <a href="class_discord_1_1_network_manager.html#a83417756220726fe5fb7b54b4ea2e203">Més...</a><br /></td></tr>
+<tr class="separator:a83417756220726fe5fb7b54b4ea2e203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a401e3ee5511848cfa20dc0991d242ffe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a401e3ee5511848cfa20dc0991d242ffe">CloseChannel</a> (UInt64 peerId, byte channelId)</td></tr>
+<tr class="memdesc:a401e3ee5511848cfa20dc0991d242ffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close a message channel to a connected peer.  <a href="class_discord_1_1_network_manager.html#a401e3ee5511848cfa20dc0991d242ffe">Més...</a><br /></td></tr>
+<tr class="separator:a401e3ee5511848cfa20dc0991d242ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e15ae0b2c8186fe1bd9891f0ea73ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a00e15ae0b2c8186fe1bd9891f0ea73ee">SendMessage</a> (UInt64 peerId, byte channelId, byte[] data)</td></tr>
+<tr class="memdesc:a00e15ae0b2c8186fe1bd9891f0ea73ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a message to a connected peer over an opened message channel.  <a href="class_discord_1_1_network_manager.html#a00e15ae0b2c8186fe1bd9891f0ea73ee">Més...</a><br /></td></tr>
+<tr class="separator:a00e15ae0b2c8186fe1bd9891f0ea73ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Propietats</h2></td></tr>
+<tr class="memitem:a18143d4f0c665e7c07f9a9e5d863f82d"><td class="memItemLeft" align="right" valign="top">FFIMethods&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a18143d4f0c665e7c07f9a9e5d863f82d">Methods</a><code> [get]</code></td></tr>
+<tr class="separator:a18143d4f0c665e7c07f9a9e5d863f82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Esdeveniments</h2></td></tr>
+<tr class="memitem:a5891435925684d11ed557c900c81d4a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_discord_1_1_network_manager.html#ab5a52d6f1119c7d832166ebdb43eaaa2">MessageHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a5891435925684d11ed557c900c81d4a0">OnMessage</a></td></tr>
+<tr class="separator:a5891435925684d11ed557c900c81d4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf91931092d07b917f921bdc732b7c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_discord_1_1_network_manager.html#a2bc3319e7a5eedc8eb2fc21f39078767">RouteUpdateHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a3cf91931092d07b917f921bdc732b7c3">OnRouteUpdate</a></td></tr>
+<tr class="separator:a3cf91931092d07b917f921bdc732b7c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:a6cfe6a4893c857393e805d1c48bbbd0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a6cfe6a4893c857393e805d1c48bbbd0c">InitEvents</a> (IntPtr eventsPtr, ref FFIEvents events)</td></tr>
+<tr class="separator:a6cfe6a4893c857393e805d1c48bbbd0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Mètodes Privats Estàtics</h2></td></tr>
+<tr class="memitem:ac59b5aa6c72dc2319ba6d221f1bb56a9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#ac59b5aa6c72dc2319ba6d221f1bb56a9">OnMessageImpl</a> (IntPtr ptr, UInt64 peerId, byte channelId, IntPtr dataPtr, Int32 dataLen)</td></tr>
+<tr class="separator:ac59b5aa6c72dc2319ba6d221f1bb56a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf5a11b59fb2ca9f1845194abc208cc1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#adf5a11b59fb2ca9f1845194abc208cc1">OnRouteUpdateImpl</a> (IntPtr ptr, string routeData)</td></tr>
+<tr class="separator:adf5a11b59fb2ca9f1845194abc208cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributs Privats</h2></td></tr>
+<tr class="memitem:a330ac3e7770b1d163b406a277887f774"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a330ac3e7770b1d163b406a277887f774">MethodsPtr</a></td></tr>
+<tr class="separator:a330ac3e7770b1d163b406a277887f774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6077a510ec89268724bb393040f5969a"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_network_manager.html#a6077a510ec89268724bb393040f5969a">MethodsStructure</a></td></tr>
+<tr class="separator:a6077a510ec89268724bb393040f5969a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a401e3ee5511848cfa20dc0991d242ffe" name="a401e3ee5511848cfa20dc0991d242ffe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a401e3ee5511848cfa20dc0991d242ffe">&#9670;&nbsp;</a></span>CloseChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.NetworkManager.CloseChannel </td>
+          <td>(</td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Close a message channel to a connected peer. </p>
+
+</div>
+</div>
+<a id="ad9ccbda21ba960f51688c8b039c8af53" name="ad9ccbda21ba960f51688c8b039c8af53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9ccbda21ba960f51688c8b039c8af53">&#9670;&nbsp;</a></span>ClosePeer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.NetworkManager.ClosePeer </td>
+          <td>(</td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Close the connection to a remote peer. </p>
+
+</div>
+</div>
+<a id="a5b696708dbc903663b2bd665add863d1" name="a5b696708dbc903663b2bd665add863d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b696708dbc903663b2bd665add863d1">&#9670;&nbsp;</a></span>Flush()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.NetworkManager.Flush </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send pending network messages. </p>
+
+</div>
+</div>
+<a id="a69f0246a02898bae83b32b4e84fe634a" name="a69f0246a02898bae83b32b4e84fe634a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69f0246a02898bae83b32b4e84fe634a">&#9670;&nbsp;</a></span>GetPeerId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt64 Discord.NetworkManager.GetPeerId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the local peer ID for this process. </p>
+
+</div>
+</div>
+<a id="a6cfe6a4893c857393e805d1c48bbbd0c" name="a6cfe6a4893c857393e805d1c48bbbd0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cfe6a4893c857393e805d1c48bbbd0c">&#9670;&nbsp;</a></span>InitEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.NetworkManager.InitEvents </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>eventsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref FFIEvents&#160;</td>
+          <td class="paramname"><em>events</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_network_manager_a6cfe6a4893c857393e805d1c48bbbd0c_cgraph.svg" width="435" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ab5a52d6f1119c7d832166ebdb43eaaa2" name="ab5a52d6f1119c7d832166ebdb43eaaa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5a52d6f1119c7d832166ebdb43eaaa2">&#9670;&nbsp;</a></span>MessageHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.NetworkManager.MessageHandler </td>
+          <td>(</td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac59b5aa6c72dc2319ba6d221f1bb56a9" name="ac59b5aa6c72dc2319ba6d221f1bb56a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac59b5aa6c72dc2319ba6d221f1bb56a9">&#9670;&nbsp;</a></span>OnMessageImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.NetworkManager.OnMessageImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>dataPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>dataLen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_network_manager_ac59b5aa6c72dc2319ba6d221f1bb56a9_icgraph.svg" width="435" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="adf5a11b59fb2ca9f1845194abc208cc1" name="adf5a11b59fb2ca9f1845194abc208cc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf5a11b59fb2ca9f1845194abc208cc1">&#9670;&nbsp;</a></span>OnRouteUpdateImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.NetworkManager.OnRouteUpdateImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>routeData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_network_manager_adf5a11b59fb2ca9f1845194abc208cc1_icgraph.svg" width="435" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a83417756220726fe5fb7b54b4ea2e203" name="a83417756220726fe5fb7b54b4ea2e203"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83417756220726fe5fb7b54b4ea2e203">&#9670;&nbsp;</a></span>OpenChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.NetworkManager.OpenChannel </td>
+          <td>(</td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reliable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Open a message channel to a connected peer. </p>
+
+</div>
+</div>
+<a id="a1484b1c556b7b3a40240893443507246" name="a1484b1c556b7b3a40240893443507246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1484b1c556b7b3a40240893443507246">&#9670;&nbsp;</a></span>OpenPeer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.NetworkManager.OpenPeer </td>
+          <td>(</td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>routeData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Open a connection to a remote peer. </p>
+
+</div>
+</div>
+<a id="a2bc3319e7a5eedc8eb2fc21f39078767" name="a2bc3319e7a5eedc8eb2fc21f39078767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bc3319e7a5eedc8eb2fc21f39078767">&#9670;&nbsp;</a></span>RouteUpdateHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.NetworkManager.RouteUpdateHandler </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>routeData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00e15ae0b2c8186fe1bd9891f0ea73ee" name="a00e15ae0b2c8186fe1bd9891f0ea73ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e15ae0b2c8186fe1bd9891f0ea73ee">&#9670;&nbsp;</a></span>SendMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.NetworkManager.SendMessage </td>
+          <td>(</td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send a message to a connected peer over an opened message channel. </p>
+
+</div>
+</div>
+<a id="a6e6384aeccb1225def70faaf31f0686c" name="a6e6384aeccb1225def70faaf31f0686c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e6384aeccb1225def70faaf31f0686c">&#9670;&nbsp;</a></span>UpdatePeer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.NetworkManager.UpdatePeer </td>
+          <td>(</td>
+          <td class="paramtype">UInt64&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>routeData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update the route data for a connected peer. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a330ac3e7770b1d163b406a277887f774" name="a330ac3e7770b1d163b406a277887f774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a330ac3e7770b1d163b406a277887f774">&#9670;&nbsp;</a></span>MethodsPtr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.NetworkManager.MethodsPtr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6077a510ec89268724bb393040f5969a" name="a6077a510ec89268724bb393040f5969a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6077a510ec89268724bb393040f5969a">&#9670;&nbsp;</a></span>MethodsStructure</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object Discord.NetworkManager.MethodsStructure</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Propietats</h2>
+<a id="a18143d4f0c665e7c07f9a9e5d863f82d" name="a18143d4f0c665e7c07f9a9e5d863f82d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18143d4f0c665e7c07f9a9e5d863f82d">&#9670;&nbsp;</a></span>Methods</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FFIMethods Discord.NetworkManager.Methods</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació dels Esdeveniments</h2>
+<a id="a5891435925684d11ed557c900c81d4a0" name="a5891435925684d11ed557c900c81d4a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5891435925684d11ed557c900c81d4a0">&#9670;&nbsp;</a></span>OnMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_discord_1_1_network_manager.html#ab5a52d6f1119c7d832166ebdb43eaaa2">MessageHandler</a> Discord.NetworkManager.OnMessage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3cf91931092d07b917f921bdc732b7c3" name="a3cf91931092d07b917f921bdc732b7c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cf91931092d07b917f921bdc732b7c3">&#9670;&nbsp;</a></span>OnRouteUpdate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_discord_1_1_network_manager.html#a2bc3319e7a5eedc8eb2fc21f39078767">RouteUpdateHandler</a> Discord.NetworkManager.OnRouteUpdate</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>C:/Users/AleixFerre/Git Projects/TFG/Assets/Plugins/DiscordGameSDK/<a class="el" href="_core_8cs.html">Core.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_discord.html">Discord</a></li><li class="navelem"><a class="el" href="class_discord_1_1_network_manager.html">NetworkManager</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+    toggleButton.title = "Toggle Light/Dark Mode"
+    document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+  })
+</script>
+</body>
+</html>

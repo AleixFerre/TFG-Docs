@@ -1,0 +1,4 @@
+<map id="AttackRangeIndicator" name="AttackRangeIndicator">
+<area shape="rect" id="node1" title="Script that shows and hides the Range Indicator of the basic attack." alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="23,5,134,32"/>
+</map>

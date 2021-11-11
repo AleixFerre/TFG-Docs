@@ -1,0 +1,5 @@
+<map id="UIController.UpdateCurrentHP" name="UIController.UpdateCurrentHP">
+<area shape="rect" id="node1" title="Updates the current HP of the entity." alt="" coords="212,31,407,57"/>
+<area shape="rect" id="node2" href="$class_stats.html#aa42ab5ae9f21d5c9b7670548e07495de" title=" " alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node3" href="$class_movable_stats.html#aaa1da792e42f2fc4176ef6eaf41aaf9e" title=" " alt="" coords="6,56,163,83"/>
+</map>

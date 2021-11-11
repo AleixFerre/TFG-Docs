@@ -1,0 +1,840 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta property="og:description" content="Docs for the implementation of my MOBA in Unity." />
+    <meta property="og:url" content="https://github.com/AleixFerre/TFG-Docs" />
+    <!-- END opengraph metadata -->
+    <!-- BEGIN twitter metadata -->
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta name="twitter:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta name="twitter:description" content="Docs for the implementation of my MOBA in Unity." />
+    <!-- END twitter metadata -->
+    <title>Treball de Fi de Grau: Referència de la Classe Discord.OverlayManager</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="icon.png" /></td>
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">Treball de Fi de Grau
+                                &#160;<span id="projectnumber">1.0</span>
+                            </div>
+                            <div id="projectbrief">Documentació pel treball de final de grau. Implementació d&#39;una base per un joc de gènere MOBA multijugador en línia.</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Generat per Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_discord_1_1_overlay_manager.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-methods">Mètodes públics</a> &#124;
+<a href="#properties">Propietats</a> &#124;
+<a href="#events">Esdeveniments</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
+<a href="#pri-static-methods">Mètodes Privats Estàtics</a> &#124;
+<a href="#pri-attribs">Atributs Privats</a> &#124;
+<a href="class_discord_1_1_overlay_manager-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe Discord.OverlayManager</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>FFIEvents</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>FFIMethods</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Mètodes públics</h2></td></tr>
+<tr class="memitem:ac35d92a6d84434162b08cd059900e2f4"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#ac35d92a6d84434162b08cd059900e2f4">SetLockedHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:ac35d92a6d84434162b08cd059900e2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afee2fbf9a315dea7793ce59b3b4af50c"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#afee2fbf9a315dea7793ce59b3b4af50c">OpenActivityInviteHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:afee2fbf9a315dea7793ce59b3b4af50c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade3690cfffc05d160e49868fb7dff526"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#ade3690cfffc05d160e49868fb7dff526">OpenGuildInviteHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:ade3690cfffc05d160e49868fb7dff526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12237afc863971a61f4dad7dbe07f57b"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#a12237afc863971a61f4dad7dbe07f57b">OpenVoiceSettingsHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a12237afc863971a61f4dad7dbe07f57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54ee7b74c930fbd9c454177b35ee6567"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#a54ee7b74c930fbd9c454177b35ee6567">ToggleHandler</a> (bool locked)</td></tr>
+<tr class="separator:a54ee7b74c930fbd9c454177b35ee6567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88c089e91b91d2623bc2c5effe129c91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#a88c089e91b91d2623bc2c5effe129c91">IsEnabled</a> ()</td></tr>
+<tr class="separator:a88c089e91b91d2623bc2c5effe129c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4d498052c4489f5ca04c49dd5b758cf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#ae4d498052c4489f5ca04c49dd5b758cf">IsLocked</a> ()</td></tr>
+<tr class="separator:ae4d498052c4489f5ca04c49dd5b758cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d0ba2806608e643a84e90f4ffe7dc62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#a0d0ba2806608e643a84e90f4ffe7dc62">SetLocked</a> (bool locked, <a class="el" href="class_discord_1_1_overlay_manager.html#ac35d92a6d84434162b08cd059900e2f4">SetLockedHandler</a> callback)</td></tr>
+<tr class="separator:a0d0ba2806608e643a84e90f4ffe7dc62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab64992037e9849e6ba39454e5a3b8880"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#ab64992037e9849e6ba39454e5a3b8880">OpenActivityInvite</a> (<a class="el" href="namespace_discord.html#add8ad8445af051d9f7fe4da3a5ce01bc">ActivityActionType</a> type, <a class="el" href="class_discord_1_1_overlay_manager.html#afee2fbf9a315dea7793ce59b3b4af50c">OpenActivityInviteHandler</a> callback)</td></tr>
+<tr class="separator:ab64992037e9849e6ba39454e5a3b8880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af44c6f02f2b9bfb6fec68a297afaaa0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#af44c6f02f2b9bfb6fec68a297afaaa0a">OpenGuildInvite</a> (string code, <a class="el" href="class_discord_1_1_overlay_manager.html#ade3690cfffc05d160e49868fb7dff526">OpenGuildInviteHandler</a> callback)</td></tr>
+<tr class="separator:af44c6f02f2b9bfb6fec68a297afaaa0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05be274a16d9ccc8dbe207225465ea2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#a05be274a16d9ccc8dbe207225465ea2b">OpenVoiceSettings</a> (<a class="el" href="class_discord_1_1_overlay_manager.html#a12237afc863971a61f4dad7dbe07f57b">OpenVoiceSettingsHandler</a> callback)</td></tr>
+<tr class="separator:a05be274a16d9ccc8dbe207225465ea2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Propietats</h2></td></tr>
+<tr class="memitem:aa5d315b7337785105c0f43d97665f0e5"><td class="memItemLeft" align="right" valign="top">FFIMethods&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#aa5d315b7337785105c0f43d97665f0e5">Methods</a><code> [get]</code></td></tr>
+<tr class="separator:aa5d315b7337785105c0f43d97665f0e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Esdeveniments</h2></td></tr>
+<tr class="memitem:adac005497ba7d91f454dbe8c0c205618"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_discord_1_1_overlay_manager.html#a54ee7b74c930fbd9c454177b35ee6567">ToggleHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#adac005497ba7d91f454dbe8c0c205618">OnToggle</a></td></tr>
+<tr class="separator:adac005497ba7d91f454dbe8c0c205618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:a73633e53b7b023385b22d24e617d8f61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#a73633e53b7b023385b22d24e617d8f61">InitEvents</a> (IntPtr eventsPtr, ref FFIEvents events)</td></tr>
+<tr class="separator:a73633e53b7b023385b22d24e617d8f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Mètodes Privats Estàtics</h2></td></tr>
+<tr class="memitem:a5a8fcc056fb20a8f34e63dc569c3101a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#a5a8fcc056fb20a8f34e63dc569c3101a">SetLockedCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a5a8fcc056fb20a8f34e63dc569c3101a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac711f20a362559b9432992489cfb2cef"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#ac711f20a362559b9432992489cfb2cef">OpenActivityInviteCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:ac711f20a362559b9432992489cfb2cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9745370bd9c0bb9a01cea00e84b2a7d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#ad9745370bd9c0bb9a01cea00e84b2a7d">OpenGuildInviteCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:ad9745370bd9c0bb9a01cea00e84b2a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae748b53b96899df71f22129c5d59c29e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#ae748b53b96899df71f22129c5d59c29e">OpenVoiceSettingsCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:ae748b53b96899df71f22129c5d59c29e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9577c06c57d6ff9002b78c2709c85857"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#a9577c06c57d6ff9002b78c2709c85857">OnToggleImpl</a> (IntPtr ptr, bool locked)</td></tr>
+<tr class="separator:a9577c06c57d6ff9002b78c2709c85857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributs Privats</h2></td></tr>
+<tr class="memitem:a48ba33362eb1fbdf6c29d64241f4ba4e"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#a48ba33362eb1fbdf6c29d64241f4ba4e">MethodsPtr</a></td></tr>
+<tr class="separator:a48ba33362eb1fbdf6c29d64241f4ba4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeee9a31c7732e230840bc0b67268fc48"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_overlay_manager.html#aeee9a31c7732e230840bc0b67268fc48">MethodsStructure</a></td></tr>
+<tr class="separator:aeee9a31c7732e230840bc0b67268fc48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a73633e53b7b023385b22d24e617d8f61" name="a73633e53b7b023385b22d24e617d8f61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73633e53b7b023385b22d24e617d8f61">&#9670;&nbsp;</a></span>InitEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.OverlayManager.InitEvents </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>eventsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref FFIEvents&#160;</td>
+          <td class="paramname"><em>events</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_a73633e53b7b023385b22d24e617d8f61_cgraph.svg" width="427" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a88c089e91b91d2623bc2c5effe129c91" name="a88c089e91b91d2623bc2c5effe129c91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88c089e91b91d2623bc2c5effe129c91">&#9670;&nbsp;</a></span>IsEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Discord.OverlayManager.IsEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4d498052c4489f5ca04c49dd5b758cf" name="ae4d498052c4489f5ca04c49dd5b758cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4d498052c4489f5ca04c49dd5b758cf">&#9670;&nbsp;</a></span>IsLocked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Discord.OverlayManager.IsLocked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9577c06c57d6ff9002b78c2709c85857" name="a9577c06c57d6ff9002b78c2709c85857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9577c06c57d6ff9002b78c2709c85857">&#9670;&nbsp;</a></span>OnToggleImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.OverlayManager.OnToggleImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>locked</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_a9577c06c57d6ff9002b78c2709c85857_icgraph.svg" width="427" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ab64992037e9849e6ba39454e5a3b8880" name="ab64992037e9849e6ba39454e5a3b8880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab64992037e9849e6ba39454e5a3b8880">&#9670;&nbsp;</a></span>OpenActivityInvite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.OverlayManager.OpenActivityInvite </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#add8ad8445af051d9f7fe4da3a5ce01bc">ActivityActionType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_overlay_manager.html#afee2fbf9a315dea7793ce59b3b4af50c">OpenActivityInviteHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_ab64992037e9849e6ba39454e5a3b8880_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac711f20a362559b9432992489cfb2cef" name="ac711f20a362559b9432992489cfb2cef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac711f20a362559b9432992489cfb2cef">&#9670;&nbsp;</a></span>OpenActivityInviteCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.OverlayManager.OpenActivityInviteCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_ac711f20a362559b9432992489cfb2cef_cgraph.svg" width="456" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_ac711f20a362559b9432992489cfb2cef_icgraph.svg" width="456" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="afee2fbf9a315dea7793ce59b3b4af50c" name="afee2fbf9a315dea7793ce59b3b4af50c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afee2fbf9a315dea7793ce59b3b4af50c">&#9670;&nbsp;</a></span>OpenActivityInviteHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.OverlayManager.OpenActivityInviteHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_afee2fbf9a315dea7793ce59b3b4af50c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="af44c6f02f2b9bfb6fec68a297afaaa0a" name="af44c6f02f2b9bfb6fec68a297afaaa0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af44c6f02f2b9bfb6fec68a297afaaa0a">&#9670;&nbsp;</a></span>OpenGuildInvite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.OverlayManager.OpenGuildInvite </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>code</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_overlay_manager.html#ade3690cfffc05d160e49868fb7dff526">OpenGuildInviteHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_af44c6f02f2b9bfb6fec68a297afaaa0a_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ad9745370bd9c0bb9a01cea00e84b2a7d" name="ad9745370bd9c0bb9a01cea00e84b2a7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9745370bd9c0bb9a01cea00e84b2a7d">&#9670;&nbsp;</a></span>OpenGuildInviteCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.OverlayManager.OpenGuildInviteCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_ad9745370bd9c0bb9a01cea00e84b2a7d_cgraph.svg" width="456" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_ad9745370bd9c0bb9a01cea00e84b2a7d_icgraph.svg" width="456" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ade3690cfffc05d160e49868fb7dff526" name="ade3690cfffc05d160e49868fb7dff526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade3690cfffc05d160e49868fb7dff526">&#9670;&nbsp;</a></span>OpenGuildInviteHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.OverlayManager.OpenGuildInviteHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_ade3690cfffc05d160e49868fb7dff526_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a05be274a16d9ccc8dbe207225465ea2b" name="a05be274a16d9ccc8dbe207225465ea2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05be274a16d9ccc8dbe207225465ea2b">&#9670;&nbsp;</a></span>OpenVoiceSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.OverlayManager.OpenVoiceSettings </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_overlay_manager.html#a12237afc863971a61f4dad7dbe07f57b">OpenVoiceSettingsHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_a05be274a16d9ccc8dbe207225465ea2b_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae748b53b96899df71f22129c5d59c29e" name="ae748b53b96899df71f22129c5d59c29e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae748b53b96899df71f22129c5d59c29e">&#9670;&nbsp;</a></span>OpenVoiceSettingsCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.OverlayManager.OpenVoiceSettingsCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_ae748b53b96899df71f22129c5d59c29e_cgraph.svg" width="456" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_ae748b53b96899df71f22129c5d59c29e_icgraph.svg" width="456" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a12237afc863971a61f4dad7dbe07f57b" name="a12237afc863971a61f4dad7dbe07f57b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12237afc863971a61f4dad7dbe07f57b">&#9670;&nbsp;</a></span>OpenVoiceSettingsHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.OverlayManager.OpenVoiceSettingsHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_a12237afc863971a61f4dad7dbe07f57b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a0d0ba2806608e643a84e90f4ffe7dc62" name="a0d0ba2806608e643a84e90f4ffe7dc62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d0ba2806608e643a84e90f4ffe7dc62">&#9670;&nbsp;</a></span>SetLocked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.OverlayManager.SetLocked </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>locked</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_overlay_manager.html#ac35d92a6d84434162b08cd059900e2f4">SetLockedHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_a0d0ba2806608e643a84e90f4ffe7dc62_cgraph.svg" width="667" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a5a8fcc056fb20a8f34e63dc569c3101a" name="a5a8fcc056fb20a8f34e63dc569c3101a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a8fcc056fb20a8f34e63dc569c3101a">&#9670;&nbsp;</a></span>SetLockedCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.OverlayManager.SetLockedCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_a5a8fcc056fb20a8f34e63dc569c3101a_cgraph.svg" width="432" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_a5a8fcc056fb20a8f34e63dc569c3101a_icgraph.svg" width="432" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac35d92a6d84434162b08cd059900e2f4" name="ac35d92a6d84434162b08cd059900e2f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac35d92a6d84434162b08cd059900e2f4">&#9670;&nbsp;</a></span>SetLockedHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.OverlayManager.SetLockedHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_overlay_manager_ac35d92a6d84434162b08cd059900e2f4_icgraph.svg" width="667" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a54ee7b74c930fbd9c454177b35ee6567" name="a54ee7b74c930fbd9c454177b35ee6567"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54ee7b74c930fbd9c454177b35ee6567">&#9670;&nbsp;</a></span>ToggleHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.OverlayManager.ToggleHandler </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>locked</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a48ba33362eb1fbdf6c29d64241f4ba4e" name="a48ba33362eb1fbdf6c29d64241f4ba4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48ba33362eb1fbdf6c29d64241f4ba4e">&#9670;&nbsp;</a></span>MethodsPtr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.OverlayManager.MethodsPtr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeee9a31c7732e230840bc0b67268fc48" name="aeee9a31c7732e230840bc0b67268fc48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeee9a31c7732e230840bc0b67268fc48">&#9670;&nbsp;</a></span>MethodsStructure</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object Discord.OverlayManager.MethodsStructure</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Propietats</h2>
+<a id="aa5d315b7337785105c0f43d97665f0e5" name="aa5d315b7337785105c0f43d97665f0e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5d315b7337785105c0f43d97665f0e5">&#9670;&nbsp;</a></span>Methods</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FFIMethods Discord.OverlayManager.Methods</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació dels Esdeveniments</h2>
+<a id="adac005497ba7d91f454dbe8c0c205618" name="adac005497ba7d91f454dbe8c0c205618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adac005497ba7d91f454dbe8c0c205618">&#9670;&nbsp;</a></span>OnToggle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_discord_1_1_overlay_manager.html#a54ee7b74c930fbd9c454177b35ee6567">ToggleHandler</a> Discord.OverlayManager.OnToggle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>C:/Users/AleixFerre/Git Projects/TFG/Assets/Plugins/DiscordGameSDK/<a class="el" href="_core_8cs.html">Core.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_discord.html">Discord</a></li><li class="navelem"><a class="el" href="class_discord_1_1_overlay_manager.html">OverlayManager</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+    toggleButton.title = "Toggle Light/Dark Mode"
+    document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+  })
+</script>
+</body>
+</html>

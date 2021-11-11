@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['xpamount_0',['XPAmount',['../class_player_stats.html#a56c77fddd00d49e39aa7c6d6999b1e84',1,'PlayerStats']]],
-  ['xpimage_1',['xpImage',['../class_player_u_i_controller.html#a9b5a4a500dd58f860aac581820173c7b',1,'PlayerUIController']]],
-  ['xplevel_2',['XPLevel',['../class_player_stats.html#a66b47c4b91bf7dc2dc5eaedb2fb5e33f',1,'PlayerStats']]],
-  ['xpreward_3',['XpReward',['../class_turret_stats.html#ae4844e43bdd9037fd42d8398ae3db9ca',1,'TurretStats']]]
+  ['waitcoroutine_0',['waitCoroutine',['../class_respawn_canvas.html#a650e5d20b64107a3c9a8a244ecc53ede',1,'RespawnCanvas']]],
+  ['waitingforplayerstxt_1',['waitingForPlayersTxt',['../class_lobby.html#a0c5d34e133ca0c85c6b9196e9ae7274b',1,'Lobby']]],
+  ['wantedposition_2',['wantedPosition',['../class_shop.html#ad7a5aa432b90282d1547a9132cf984d4',1,'Shop']]],
+  ['wanttoattackagain_3',['wantToAttackAgain',['../class_basic_attack.html#a08dced1824f9715339429db154fd767e',1,'BasicAttack']]],
+  ['width_4',['Width',['../struct_discord_1_1_image_dimensions.html#a586dbba02b7a0abcbf1fee52e5da00b7',1,'Discord::ImageDimensions']]],
+  ['winnertext_5',['winnerText',['../class_post_game_menu.html#a4e3fcd2b709ccc25a027b6fef5dcadc3',1,'PostGameMenu']]]
 ];

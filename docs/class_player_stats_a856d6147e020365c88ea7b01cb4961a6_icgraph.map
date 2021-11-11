@@ -1,0 +1,7 @@
+<map id="PlayerStats.InitValues" name="PlayerStats.InitValues">
+<area shape="rect" id="node1" title="Copies the Character initial values to the actual Stats script" alt="" coords="769,5,920,32"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240" title="Initialize the actual Stats of the Player." alt="" coords="580,5,721,32"/>
+<area shape="rect" id="node3" href="$class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf" title="Initialize the PlayerController." alt="" coords="367,5,532,32"/>
+<area shape="rect" id="node4" href="$class_model_sync.html#ab8359f73ae31a7f926c80ebcd7e9444a" title="This starts all the initialization chain for the player." alt="" coords="172,5,319,32"/>
+<area shape="rect" id="node5" href="$class_model_sync.html#a47be08ee3bbd2a173514e74da3dd65cb" title=" " alt="" coords="5,5,124,32"/>
+</map>

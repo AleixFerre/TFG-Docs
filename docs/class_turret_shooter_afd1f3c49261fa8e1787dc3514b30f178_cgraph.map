@@ -1,0 +1,6 @@
+<map id="TurretShooter.CheckNewState" name="TurretShooter.CheckNewState">
+<area shape="rect" id="node1" title="Changes the indicator state if necessary." alt="" coords="5,38,203,65"/>
+<area shape="rect" id="node2" href="$class_turret_indicator.html#a18c506cc6d384bb9ca9789b8e27d1684" title="This function gets calls whenever the Turret changes the intern state." alt="" coords="251,13,457,39"/>
+<area shape="rect" id="node4" href="$class_turret_ray.html#a04f048c8df3897ad7d562dffaa08b4a5" title=" " alt="" coords="285,63,423,90"/>
+<area shape="rect" id="node3" href="$class_turret_indicator.html#a4ce9f7929435b6d9ba46c4fd34d67f50" title="Returns the color corresponing to the current TurretState of the indicator" alt="" coords="505,5,664,47"/>
+</map>

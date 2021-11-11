@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['waittodestroy_0',['WaitToDestroy',['../class_drop.html#ae647616b46e8759f6b55cb95609ea2db',1,'Drop']]],
-  ['walk_1',['Walk',['../class_minion_a_i.html#a867b6f918c8e4441ea49d9d926e7eec0',1,'MinionAI']]]
+  ['validateorexit_0',['ValidateOrExit',['../class_discord_1_1_application_manager.html#a5a8e7fd447be2a631b5cc3d4ac724111',1,'Discord::ApplicationManager']]],
+  ['validateorexitcallbackimpl_1',['ValidateOrExitCallbackImpl',['../class_discord_1_1_application_manager.html#adf8fb3f060615e1ec78375f019f39321',1,'Discord::ApplicationManager']]],
+  ['validateorexithandler_2',['ValidateOrExitHandler',['../class_discord_1_1_application_manager.html#ad9b5e30dacf2214e295320a810903a34',1,'Discord::ApplicationManager']]]
 ];

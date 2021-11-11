@@ -1,0 +1,7 @@
+<map id="PlayerUIController.InitializeValues" name="PlayerUIController.InitializeValues">
+<area shape="rect" id="node1" title="Initializes all the values into the Image and Text." alt="" coords="5,39,183,80"/>
+<area shape="rect" id="node2" href="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" title="Sets the current level and xp to the Image." alt="" coords="231,5,401,47"/>
+<area shape="rect" id="node4" href="$class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="231,71,401,112"/>
+<area shape="rect" id="node3" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="460,21,628,47"/>
+<area shape="rect" id="node5" href="$class_player_u_i_controller.html#aaa62b1e4dc1ee6689adbc72b8dcb73d3" title="When you heal HP, we will reset the lerped bar" alt="" coords="449,78,639,105"/>
+</map>

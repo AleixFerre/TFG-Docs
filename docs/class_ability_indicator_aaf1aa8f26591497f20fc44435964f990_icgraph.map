@@ -1,0 +1,6 @@
+<map id="AbilityIndicator.GetDirection" name="AbilityIndicator.GetDirection">
+<area shape="rect" id="node1" title="Returns the vector from the player to the mouse position in world space" alt="" coords="491,31,673,57"/>
+<area shape="rect" id="node2" href="$class_ability_cooldown.html#a24d10146f84157eecd34133535f98c0b" title="When the button is actually triggered, this function should execute" alt="" coords="233,31,443,57"/>
+<area shape="rect" id="node3" href="$class_ability_indicator.html#a334fb70612241c8c1067bb596a4e2a26" title="Shows the indicator of the wanted ability" alt="" coords="5,5,185,32"/>
+<area shape="rect" id="node4" href="$class_ability_cooldown.html#a0a1223f783a3c342413172a5797fa597" title=" " alt="" coords="16,56,175,83"/>
+</map>

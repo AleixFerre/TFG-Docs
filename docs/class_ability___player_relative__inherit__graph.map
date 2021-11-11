@@ -1,0 +1,6 @@
+<map id="Ability_PlayerRelative" name="Ability_PlayerRelative">
+<area shape="rect" id="node1" title=" " alt="" coords="5,229,152,256"/>
+<area shape="rect" id="node2" href="$class_indicated_ability.html" title="Encapsulador de les Ability que han de mostrar l&#39;indicador" alt="" coords="23,155,134,181"/>
+<area shape="rect" id="node3" href="$class_ability.html" title="Base abstract class for an Ability." alt="" coords="49,80,108,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="19,5,138,32"/>
+</map>

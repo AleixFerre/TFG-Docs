@@ -24,6 +24,11 @@
 */
 var menudata={children:[
 {text:"Pàgina principal",url:"index.html"},
+{text:"Paquets",url:"namespaces.html",children:[
+{text:"Paquets",url:"namespaces.html"},
+{text:"Funcions de Paquet",url:"namespacemembers.html",children:[
+{text:"Tot",url:"namespacemembers.html"},
+{text:"Enumeracions",url:"namespacemembers_enum.html"}]}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Llista de Classes",url:"annotated.html"},
 {text:"Índex de Classes",url:"classes.html"},
@@ -77,6 +82,7 @@ var menudata={children:[
 {text:"s",url:"functions_func_s.html#index_s"},
 {text:"t",url:"functions_func_t.html#index_t"},
 {text:"u",url:"functions_func_u.html#index_u"},
+{text:"v",url:"functions_func_v.html#index_v"},
 {text:"w",url:"functions_func_w.html#index_w"}]},
 {text:"Variables",url:"functions_vars.html",children:[
 {text:"_",url:"functions_vars.html#index__5F"},
@@ -89,6 +95,7 @@ var menudata={children:[
 {text:"g",url:"functions_vars_g.html#index_g"},
 {text:"h",url:"functions_vars_h.html#index_h"},
 {text:"i",url:"functions_vars_i.html#index_i"},
+{text:"j",url:"functions_vars_j.html#index_j"},
 {text:"k",url:"functions_vars_k.html#index_k"},
 {text:"l",url:"functions_vars_l.html#index_l"},
 {text:"m",url:"functions_vars_m.html#index_m"},
@@ -105,7 +112,8 @@ var menudata={children:[
 {text:"x",url:"functions_vars_x.html#index_x"},
 {text:"z",url:"functions_vars_z.html#index_z"}]},
 {text:"Enumeracions",url:"functions_enum.html"},
-{text:"Propietats",url:"functions_prop.html"}]}]},
+{text:"Propietats",url:"functions_prop.html"},
+{text:"Esdeveniments",url:"functions_evnt.html"}]}]},
 {text:"Fitxers",url:"files.html",children:[
 {text:"Llista dels Fitxers",url:"files.html"},
 {text:"Membres de Fitxers",url:"globals.html",children:[

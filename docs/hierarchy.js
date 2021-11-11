@@ -1,8 +1,29 @@
 var hierarchy =
 [
+    [ "Discord.AchievementManager", "class_discord_1_1_achievement_manager.html", null ],
+    [ "Discord.Activity", "struct_discord_1_1_activity.html", null ],
+    [ "Discord.ActivityAssets", "struct_discord_1_1_activity_assets.html", null ],
+    [ "Discord.ActivityManager", "class_discord_1_1_activity_manager.html", null ],
+    [ "Discord.ActivityParty", "struct_discord_1_1_activity_party.html", null ],
+    [ "Discord.ActivitySecrets", "struct_discord_1_1_activity_secrets.html", null ],
+    [ "Discord.ActivityTimestamps", "struct_discord_1_1_activity_timestamps.html", null ],
+    [ "Discord.ApplicationManager", "class_discord_1_1_application_manager.html", null ],
+    [ "Discord.Constants", "class_discord_1_1_constants.html", null ],
+    [ "Discord.Entitlement", "struct_discord_1_1_entitlement.html", null ],
+    [ "Exception", null, [
+      [ "Discord.ResultException", "class_discord_1_1_result_exception.html", null ]
+    ] ],
+    [ "Discord.FileStat", "struct_discord_1_1_file_stat.html", null ],
     [ "IDictionary", null, [
       [ "GenericDictionary< TKey, TValue >", "class_generic_dictionary.html", null ]
     ] ],
+    [ "IDisposable", null, [
+      [ "Discord.Discord", "class_discord_1_1_discord.html", null ]
+    ] ],
+    [ "Discord.ImageDimensions", "struct_discord_1_1_image_dimensions.html", null ],
+    [ "Discord.ImageHandle", "struct_discord_1_1_image_handle.html", null ],
+    [ "Discord.ImageManager", "class_discord_1_1_image_manager.html", null ],
+    [ "Discord.InputMode", "struct_discord_1_1_input_mode.html", null ],
     [ "IPointerClickHandler", null, [
       [ "ItemUI", "class_item_u_i.html", null ],
       [ "SellableItemUI", "class_sellable_item_u_i.html", null ]
@@ -11,6 +32,11 @@ var hierarchy =
       [ "GenericDictionary< TKey, TValue >", "class_generic_dictionary.html", null ]
     ] ],
     [ "GenericDictionary< TKey, TValue >.KeyValuePair", "struct_generic_dictionary_1_1_key_value_pair.html", null ],
+    [ "Discord.Lobby", "struct_discord_1_1_lobby.html", null ],
+    [ "Discord.LobbyManager", "class_discord_1_1_lobby_manager.html", null ],
+    [ "Discord.LobbyMemberTransaction", "struct_discord_1_1_lobby_member_transaction.html", null ],
+    [ "Discord.LobbySearchQuery", "struct_discord_1_1_lobby_search_query.html", null ],
+    [ "Discord.LobbyTransaction", "struct_discord_1_1_lobby_transaction.html", null ],
     [ "MonoBehaviour", null, [
       [ "AbilityBase", "class_ability_base.html", [
         [ "Ability_Lis1", "class_ability___lis1.html", null ],
@@ -29,6 +55,8 @@ var hierarchy =
       [ "CharacterUI", "class_character_u_i.html", null ],
       [ "ConnectionManager", "class_connection_manager.html", null ],
       [ "CurrentItemShop", "class_current_item_shop.html", null ],
+      [ "DiscordButton", "class_discord_button.html", null ],
+      [ "DiscordController", "class_discord_controller.html", null ],
       [ "Drop", "class_drop.html", [
         [ "Coin", "class_coin.html", null ],
         [ "Diamond", "class_diamond.html", null ],
@@ -57,6 +85,7 @@ var hierarchy =
       [ "RangedAttackFollow", "class_ranged_attack_follow.html", null ],
       [ "RespawnCanvas", "class_respawn_canvas.html", null ],
       [ "SellableItemUI", "class_sellable_item_u_i.html", null ],
+      [ "ServerConnectionTest", "class_server_connection_test.html", null ],
       [ "Shop", "class_shop.html", null ],
       [ "ShowPing", "class_show_ping.html", null ],
       [ "Singleton< T >", "class_singleton.html", null ],
@@ -91,7 +120,14 @@ var hierarchy =
       [ "Lobby", "class_lobby.html", null ],
       [ "MainMenu", "class_main_menu.html", null ]
     ] ],
+    [ "Discord.NetworkManager", "class_discord_1_1_network_manager.html", null ],
+    [ "Discord.OAuth2Token", "struct_discord_1_1_o_auth2_token.html", null ],
+    [ "Discord.OverlayManager", "class_discord_1_1_overlay_manager.html", null ],
+    [ "Discord.PartySize", "struct_discord_1_1_party_size.html", null ],
     [ "PostGameData", "class_post_game_data.html", null ],
+    [ "Discord.Presence", "struct_discord_1_1_presence.html", null ],
+    [ "Discord.Relationship", "struct_discord_1_1_relationship.html", null ],
+    [ "Discord.RelationshipManager", "class_discord_1_1_relationship_manager.html", null ],
     [ "ScriptableObject", null, [
       [ "Ability", "class_ability.html", [
         [ "IndicatedAbility", "class_indicated_ability.html", [
@@ -125,7 +161,15 @@ var hierarchy =
     [ "Singleton< SceneController >", "class_singleton.html", [
       [ "SceneController", "class_scene_controller.html", null ]
     ] ],
+    [ "Discord.Sku", "struct_discord_1_1_sku.html", null ],
+    [ "Discord.SkuPrice", "struct_discord_1_1_sku_price.html", null ],
     [ "StatisticExtension", "class_statistic_extension.html", null ],
     [ "StatusExtension", "class_status_extension.html", null ],
-    [ "Utils", "class_utils.html", null ]
+    [ "Discord.StorageManager", "class_discord_1_1_storage_manager.html", null ],
+    [ "Discord.StoreManager", "class_discord_1_1_store_manager.html", null ],
+    [ "Discord.User", "struct_discord_1_1_user.html", null ],
+    [ "Discord.UserAchievement", "struct_discord_1_1_user_achievement.html", null ],
+    [ "Discord.UserManager", "class_discord_1_1_user_manager.html", null ],
+    [ "Utils", "class_utils.html", null ],
+    [ "Discord.VoiceManager", "class_discord_1_1_voice_manager.html", null ]
 ];

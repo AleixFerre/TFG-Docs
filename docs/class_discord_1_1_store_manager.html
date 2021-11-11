@@ -1,0 +1,973 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta property="og:description" content="Docs for the implementation of my MOBA in Unity." />
+    <meta property="og:url" content="https://github.com/AleixFerre/TFG-Docs" />
+    <!-- END opengraph metadata -->
+    <!-- BEGIN twitter metadata -->
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta name="twitter:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta name="twitter:description" content="Docs for the implementation of my MOBA in Unity." />
+    <!-- END twitter metadata -->
+    <title>Treball de Fi de Grau: Referència de la Classe Discord.StoreManager</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="icon.png" /></td>
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">Treball de Fi de Grau
+                                &#160;<span id="projectnumber">1.0</span>
+                            </div>
+                            <div id="projectbrief">Documentació pel treball de final de grau. Implementació d&#39;una base per un joc de gènere MOBA multijugador en línia.</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Generat per Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_discord_1_1_store_manager.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-methods">Mètodes públics</a> &#124;
+<a href="#properties">Propietats</a> &#124;
+<a href="#events">Esdeveniments</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
+<a href="#pri-static-methods">Mètodes Privats Estàtics</a> &#124;
+<a href="#pri-attribs">Atributs Privats</a> &#124;
+<a href="class_discord_1_1_store_manager-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe Discord.StoreManager</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>FFIEvents</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>FFIMethods</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Mètodes públics</h2></td></tr>
+<tr class="memitem:ab28436a312214ceb4950656948521a94"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#ab28436a312214ceb4950656948521a94">FetchSkusHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:ab28436a312214ceb4950656948521a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4ede4759032efbb7980e25aff3a17e0"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#aa4ede4759032efbb7980e25aff3a17e0">FetchEntitlementsHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:aa4ede4759032efbb7980e25aff3a17e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a21f57cc07aa6ceed7aea22231f08b1"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a5a21f57cc07aa6ceed7aea22231f08b1">StartPurchaseHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a5a21f57cc07aa6ceed7aea22231f08b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa95c950b56cf1bbd844479a369db6e25"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#aa95c950b56cf1bbd844479a369db6e25">EntitlementCreateHandler</a> (ref <a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a> entitlement)</td></tr>
+<tr class="separator:aa95c950b56cf1bbd844479a369db6e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ae8629d5d81e06ffc9b8a7cdfb8532"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a59ae8629d5d81e06ffc9b8a7cdfb8532">EntitlementDeleteHandler</a> (ref <a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a> entitlement)</td></tr>
+<tr class="separator:a59ae8629d5d81e06ffc9b8a7cdfb8532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2fe8ceee3f644161d5782739918abc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#ae2fe8ceee3f644161d5782739918abc9">FetchSkus</a> (<a class="el" href="class_discord_1_1_store_manager.html#ab28436a312214ceb4950656948521a94">FetchSkusHandler</a> callback)</td></tr>
+<tr class="separator:ae2fe8ceee3f644161d5782739918abc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37f79717d110bd687fd6a8ca59019a96"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a37f79717d110bd687fd6a8ca59019a96">CountSkus</a> ()</td></tr>
+<tr class="separator:a37f79717d110bd687fd6a8ca59019a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef06f20d40cc4aa88c8a285479a8fc74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_sku.html">Sku</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#aef06f20d40cc4aa88c8a285479a8fc74">GetSku</a> (Int64 skuId)</td></tr>
+<tr class="separator:aef06f20d40cc4aa88c8a285479a8fc74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f5e49e517cee396e9b272d2548e73a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_sku.html">Sku</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a83f5e49e517cee396e9b272d2548e73a">GetSkuAt</a> (Int32 index)</td></tr>
+<tr class="separator:a83f5e49e517cee396e9b272d2548e73a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1caab195119f39c625e533e77580307d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a1caab195119f39c625e533e77580307d">FetchEntitlements</a> (<a class="el" href="class_discord_1_1_store_manager.html#aa4ede4759032efbb7980e25aff3a17e0">FetchEntitlementsHandler</a> callback)</td></tr>
+<tr class="separator:a1caab195119f39c625e533e77580307d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fdf9736aae6dc45498b821ac325b8e3"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a9fdf9736aae6dc45498b821ac325b8e3">CountEntitlements</a> ()</td></tr>
+<tr class="separator:a9fdf9736aae6dc45498b821ac325b8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8e39280e11afbc69f1f0a66984fc2e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#ac8e39280e11afbc69f1f0a66984fc2e2">GetEntitlement</a> (Int64 entitlementId)</td></tr>
+<tr class="separator:ac8e39280e11afbc69f1f0a66984fc2e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01402273a0595c4d1c88665d99b96f25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a01402273a0595c4d1c88665d99b96f25">GetEntitlementAt</a> (Int32 index)</td></tr>
+<tr class="separator:a01402273a0595c4d1c88665d99b96f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb49498c91dd16dd1f9e3837dfaaaa30"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#aeb49498c91dd16dd1f9e3837dfaaaa30">HasSkuEntitlement</a> (Int64 skuId)</td></tr>
+<tr class="separator:aeb49498c91dd16dd1f9e3837dfaaaa30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac114f356f2db1fa40469fe553ec1a30c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#ac114f356f2db1fa40469fe553ec1a30c">StartPurchase</a> (Int64 skuId, <a class="el" href="class_discord_1_1_store_manager.html#a5a21f57cc07aa6ceed7aea22231f08b1">StartPurchaseHandler</a> callback)</td></tr>
+<tr class="separator:ac114f356f2db1fa40469fe553ec1a30c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1085b25cc82d467fa387d28ca8482c17"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; <a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a1085b25cc82d467fa387d28ca8482c17">GetEntitlements</a> ()</td></tr>
+<tr class="separator:a1085b25cc82d467fa387d28ca8482c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a004a0fef16e36c606200eb07996b88bf"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; <a class="el" href="struct_discord_1_1_sku.html">Sku</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a004a0fef16e36c606200eb07996b88bf">GetSkus</a> ()</td></tr>
+<tr class="separator:a004a0fef16e36c606200eb07996b88bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Propietats</h2></td></tr>
+<tr class="memitem:a741a8ccbf1be94aa894a90f1d962500d"><td class="memItemLeft" align="right" valign="top">FFIMethods&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a741a8ccbf1be94aa894a90f1d962500d">Methods</a><code> [get]</code></td></tr>
+<tr class="separator:a741a8ccbf1be94aa894a90f1d962500d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Esdeveniments</h2></td></tr>
+<tr class="memitem:a5cdb55195ade8b9bdbef78733ef7caaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_discord_1_1_store_manager.html#aa95c950b56cf1bbd844479a369db6e25">EntitlementCreateHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a5cdb55195ade8b9bdbef78733ef7caaf">OnEntitlementCreate</a></td></tr>
+<tr class="separator:a5cdb55195ade8b9bdbef78733ef7caaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec26c66972e2af22e6b2253975a7409f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_discord_1_1_store_manager.html#a59ae8629d5d81e06ffc9b8a7cdfb8532">EntitlementDeleteHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#aec26c66972e2af22e6b2253975a7409f">OnEntitlementDelete</a></td></tr>
+<tr class="separator:aec26c66972e2af22e6b2253975a7409f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:a2135ab10a4e10299ea4a12404544d2c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a2135ab10a4e10299ea4a12404544d2c5">InitEvents</a> (IntPtr eventsPtr, ref FFIEvents events)</td></tr>
+<tr class="separator:a2135ab10a4e10299ea4a12404544d2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Mètodes Privats Estàtics</h2></td></tr>
+<tr class="memitem:a048b48cc01c6d532b8bf2cbdd58a6e31"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a048b48cc01c6d532b8bf2cbdd58a6e31">FetchSkusCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a048b48cc01c6d532b8bf2cbdd58a6e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7fa76a1a43139335e31141faf8f798e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#ad7fa76a1a43139335e31141faf8f798e">FetchEntitlementsCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:ad7fa76a1a43139335e31141faf8f798e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22d7a4b79eeaeaa0ceca35654cb3c7ef"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a22d7a4b79eeaeaa0ceca35654cb3c7ef">StartPurchaseCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a22d7a4b79eeaeaa0ceca35654cb3c7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a553b9e41d034cd38004de699cb287d94"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a553b9e41d034cd38004de699cb287d94">OnEntitlementCreateImpl</a> (IntPtr ptr, ref <a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a> entitlement)</td></tr>
+<tr class="separator:a553b9e41d034cd38004de699cb287d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe7fda78b362e14c2c6ed42f6c5fc082"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#abe7fda78b362e14c2c6ed42f6c5fc082">OnEntitlementDeleteImpl</a> (IntPtr ptr, ref <a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a> entitlement)</td></tr>
+<tr class="separator:abe7fda78b362e14c2c6ed42f6c5fc082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributs Privats</h2></td></tr>
+<tr class="memitem:a4b657c69f5213782fdaabb21f9d8459b"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#a4b657c69f5213782fdaabb21f9d8459b">MethodsPtr</a></td></tr>
+<tr class="separator:a4b657c69f5213782fdaabb21f9d8459b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc63c5d5196a0ae0c7c5b3b645d3bafa"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_store_manager.html#adc63c5d5196a0ae0c7c5b3b645d3bafa">MethodsStructure</a></td></tr>
+<tr class="separator:adc63c5d5196a0ae0c7c5b3b645d3bafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a9fdf9736aae6dc45498b821ac325b8e3" name="a9fdf9736aae6dc45498b821ac325b8e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fdf9736aae6dc45498b821ac325b8e3">&#9670;&nbsp;</a></span>CountEntitlements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Discord.StoreManager.CountEntitlements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a9fdf9736aae6dc45498b821ac325b8e3_icgraph.svg" width="424" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a37f79717d110bd687fd6a8ca59019a96" name="a37f79717d110bd687fd6a8ca59019a96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37f79717d110bd687fd6a8ca59019a96">&#9670;&nbsp;</a></span>CountSkus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Discord.StoreManager.CountSkus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a37f79717d110bd687fd6a8ca59019a96_icgraph.svg" width="484" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aa95c950b56cf1bbd844479a369db6e25" name="aa95c950b56cf1bbd844479a369db6e25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa95c950b56cf1bbd844479a369db6e25">&#9670;&nbsp;</a></span>EntitlementCreateHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.StoreManager.EntitlementCreateHandler </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a>&#160;</td>
+          <td class="paramname"><em>entitlement</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59ae8629d5d81e06ffc9b8a7cdfb8532" name="a59ae8629d5d81e06ffc9b8a7cdfb8532"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59ae8629d5d81e06ffc9b8a7cdfb8532">&#9670;&nbsp;</a></span>EntitlementDeleteHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.StoreManager.EntitlementDeleteHandler </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a>&#160;</td>
+          <td class="paramname"><em>entitlement</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1caab195119f39c625e533e77580307d" name="a1caab195119f39c625e533e77580307d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1caab195119f39c625e533e77580307d">&#9670;&nbsp;</a></span>FetchEntitlements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.StoreManager.FetchEntitlements </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_store_manager.html#aa4ede4759032efbb7980e25aff3a17e0">FetchEntitlementsHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a1caab195119f39c625e533e77580307d_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ad7fa76a1a43139335e31141faf8f798e" name="ad7fa76a1a43139335e31141faf8f798e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7fa76a1a43139335e31141faf8f798e">&#9670;&nbsp;</a></span>FetchEntitlementsCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.StoreManager.FetchEntitlementsCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_ad7fa76a1a43139335e31141faf8f798e_cgraph.svg" width="435" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_ad7fa76a1a43139335e31141faf8f798e_icgraph.svg" width="435" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aa4ede4759032efbb7980e25aff3a17e0" name="aa4ede4759032efbb7980e25aff3a17e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4ede4759032efbb7980e25aff3a17e0">&#9670;&nbsp;</a></span>FetchEntitlementsHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.StoreManager.FetchEntitlementsHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_aa4ede4759032efbb7980e25aff3a17e0_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae2fe8ceee3f644161d5782739918abc9" name="ae2fe8ceee3f644161d5782739918abc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2fe8ceee3f644161d5782739918abc9">&#9670;&nbsp;</a></span>FetchSkus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.StoreManager.FetchSkus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_store_manager.html#ab28436a312214ceb4950656948521a94">FetchSkusHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_ae2fe8ceee3f644161d5782739918abc9_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a048b48cc01c6d532b8bf2cbdd58a6e31" name="a048b48cc01c6d532b8bf2cbdd58a6e31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a048b48cc01c6d532b8bf2cbdd58a6e31">&#9670;&nbsp;</a></span>FetchSkusCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.StoreManager.FetchSkusCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a048b48cc01c6d532b8bf2cbdd58a6e31_cgraph.svg" width="435" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a048b48cc01c6d532b8bf2cbdd58a6e31_icgraph.svg" width="466" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ab28436a312214ceb4950656948521a94" name="ab28436a312214ceb4950656948521a94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab28436a312214ceb4950656948521a94">&#9670;&nbsp;</a></span>FetchSkusHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.StoreManager.FetchSkusHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_ab28436a312214ceb4950656948521a94_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac8e39280e11afbc69f1f0a66984fc2e2" name="ac8e39280e11afbc69f1f0a66984fc2e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8e39280e11afbc69f1f0a66984fc2e2">&#9670;&nbsp;</a></span>GetEntitlement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a> Discord.StoreManager.GetEntitlement </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>entitlementId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01402273a0595c4d1c88665d99b96f25" name="a01402273a0595c4d1c88665d99b96f25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01402273a0595c4d1c88665d99b96f25">&#9670;&nbsp;</a></span>GetEntitlementAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a> Discord.StoreManager.GetEntitlementAt </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a01402273a0595c4d1c88665d99b96f25_icgraph.svg" width="411" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a1085b25cc82d467fa387d28ca8482c17" name="a1085b25cc82d467fa387d28ca8482c17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1085b25cc82d467fa387d28ca8482c17">&#9670;&nbsp;</a></span>GetEntitlements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt; <a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a> &gt; Discord.StoreManager.GetEntitlements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a1085b25cc82d467fa387d28ca8482c17_cgraph.svg" width="424" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aef06f20d40cc4aa88c8a285479a8fc74" name="aef06f20d40cc4aa88c8a285479a8fc74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef06f20d40cc4aa88c8a285479a8fc74">&#9670;&nbsp;</a></span>GetSku()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_sku.html">Sku</a> Discord.StoreManager.GetSku </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>skuId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83f5e49e517cee396e9b272d2548e73a" name="a83f5e49e517cee396e9b272d2548e73a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83f5e49e517cee396e9b272d2548e73a">&#9670;&nbsp;</a></span>GetSkuAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_sku.html">Sku</a> Discord.StoreManager.GetSkuAt </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a83f5e49e517cee396e9b272d2548e73a_icgraph.svg" width="442" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a004a0fef16e36c606200eb07996b88bf" name="a004a0fef16e36c606200eb07996b88bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a004a0fef16e36c606200eb07996b88bf">&#9670;&nbsp;</a></span>GetSkus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt; <a class="el" href="struct_discord_1_1_sku.html">Sku</a> &gt; Discord.StoreManager.GetSkus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a004a0fef16e36c606200eb07996b88bf_cgraph.svg" width="484" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aeb49498c91dd16dd1f9e3837dfaaaa30" name="aeb49498c91dd16dd1f9e3837dfaaaa30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb49498c91dd16dd1f9e3837dfaaaa30">&#9670;&nbsp;</a></span>HasSkuEntitlement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Discord.StoreManager.HasSkuEntitlement </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>skuId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2135ab10a4e10299ea4a12404544d2c5" name="a2135ab10a4e10299ea4a12404544d2c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2135ab10a4e10299ea4a12404544d2c5">&#9670;&nbsp;</a></span>InitEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.StoreManager.InitEvents </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>eventsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref FFIEvents&#160;</td>
+          <td class="paramname"><em>events</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a2135ab10a4e10299ea4a12404544d2c5_cgraph.svg" width="470" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a553b9e41d034cd38004de699cb287d94" name="a553b9e41d034cd38004de699cb287d94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a553b9e41d034cd38004de699cb287d94">&#9670;&nbsp;</a></span>OnEntitlementCreateImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.StoreManager.OnEntitlementCreateImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a>&#160;</td>
+          <td class="paramname"><em>entitlement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a553b9e41d034cd38004de699cb287d94_icgraph.svg" width="470" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="abe7fda78b362e14c2c6ed42f6c5fc082" name="abe7fda78b362e14c2c6ed42f6c5fc082"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe7fda78b362e14c2c6ed42f6c5fc082">&#9670;&nbsp;</a></span>OnEntitlementDeleteImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.StoreManager.OnEntitlementDeleteImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_entitlement.html">Entitlement</a>&#160;</td>
+          <td class="paramname"><em>entitlement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_abe7fda78b362e14c2c6ed42f6c5fc082_icgraph.svg" width="470" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac114f356f2db1fa40469fe553ec1a30c" name="ac114f356f2db1fa40469fe553ec1a30c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac114f356f2db1fa40469fe553ec1a30c">&#9670;&nbsp;</a></span>StartPurchase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.StoreManager.StartPurchase </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>skuId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_store_manager.html#a5a21f57cc07aa6ceed7aea22231f08b1">StartPurchaseHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_ac114f356f2db1fa40469fe553ec1a30c_cgraph.svg" width="655" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a22d7a4b79eeaeaa0ceca35654cb3c7ef" name="a22d7a4b79eeaeaa0ceca35654cb3c7ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22d7a4b79eeaeaa0ceca35654cb3c7ef">&#9670;&nbsp;</a></span>StartPurchaseCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.StoreManager.StartPurchaseCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a22d7a4b79eeaeaa0ceca35654cb3c7ef_cgraph.svg" width="424" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a22d7a4b79eeaeaa0ceca35654cb3c7ef_icgraph.svg" width="424" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a5a21f57cc07aa6ceed7aea22231f08b1" name="a5a21f57cc07aa6ceed7aea22231f08b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a21f57cc07aa6ceed7aea22231f08b1">&#9670;&nbsp;</a></span>StartPurchaseHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.StoreManager.StartPurchaseHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_store_manager_a5a21f57cc07aa6ceed7aea22231f08b1_icgraph.svg" width="655" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a4b657c69f5213782fdaabb21f9d8459b" name="a4b657c69f5213782fdaabb21f9d8459b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b657c69f5213782fdaabb21f9d8459b">&#9670;&nbsp;</a></span>MethodsPtr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.StoreManager.MethodsPtr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc63c5d5196a0ae0c7c5b3b645d3bafa" name="adc63c5d5196a0ae0c7c5b3b645d3bafa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc63c5d5196a0ae0c7c5b3b645d3bafa">&#9670;&nbsp;</a></span>MethodsStructure</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object Discord.StoreManager.MethodsStructure</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Propietats</h2>
+<a id="a741a8ccbf1be94aa894a90f1d962500d" name="a741a8ccbf1be94aa894a90f1d962500d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a741a8ccbf1be94aa894a90f1d962500d">&#9670;&nbsp;</a></span>Methods</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FFIMethods Discord.StoreManager.Methods</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació dels Esdeveniments</h2>
+<a id="a5cdb55195ade8b9bdbef78733ef7caaf" name="a5cdb55195ade8b9bdbef78733ef7caaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cdb55195ade8b9bdbef78733ef7caaf">&#9670;&nbsp;</a></span>OnEntitlementCreate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_discord_1_1_store_manager.html#aa95c950b56cf1bbd844479a369db6e25">EntitlementCreateHandler</a> Discord.StoreManager.OnEntitlementCreate</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec26c66972e2af22e6b2253975a7409f" name="aec26c66972e2af22e6b2253975a7409f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec26c66972e2af22e6b2253975a7409f">&#9670;&nbsp;</a></span>OnEntitlementDelete</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_discord_1_1_store_manager.html#a59ae8629d5d81e06ffc9b8a7cdfb8532">EntitlementDeleteHandler</a> Discord.StoreManager.OnEntitlementDelete</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir dels següents fitxers:<ul>
+<li>C:/Users/AleixFerre/Git Projects/TFG/Assets/Plugins/DiscordGameSDK/<a class="el" href="_core_8cs.html">Core.cs</a></li>
+<li>C:/Users/AleixFerre/Git Projects/TFG/Assets/Plugins/DiscordGameSDK/<a class="el" href="_store_manager_8cs.html">StoreManager.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_discord.html">Discord</a></li><li class="navelem"><a class="el" href="class_discord_1_1_store_manager.html">StoreManager</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+    toggleButton.title = "Toggle Light/Dark Mode"
+    document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+  })
+</script>
+</body>
+</html>

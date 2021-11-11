@@ -1,0 +1,4 @@
+<map id="PlayerController.ResetAllStates" name="PlayerController.ResetAllStates">
+<area shape="rect" id="node1" title=" " alt="" coords="167,5,333,47"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff" title="Function that implements what is done when this entity dies." alt="" coords="5,13,119,39"/>
+</map>

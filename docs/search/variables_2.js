@@ -15,5 +15,6 @@ var searchData=
   ['blueteamminionstxt_12',['blueTeamMinionsTxt',['../class_game_u_i_controller.html#a4f98eb6e35186b5575752a2cec30c0b9',1,'GameUIController']]],
   ['blueteamturretstxt_13',['blueTeamTurretsTxt',['../class_game_u_i_controller.html#a7d9604a86a81df206dab823ed543c25a',1,'GameUIController']]],
   ['blueturrets_14',['blueTurrets',['../class_game_controller.html#a5807ca2dc954fe381f72bda7b07a7230',1,'GameController']]],
-  ['buybutton_15',['buyButton',['../class_current_item_shop.html#a4483457ce54119fd111af4a95b8dd755',1,'CurrentItemShop']]]
+  ['bot_15',['Bot',['../struct_discord_1_1_user.html#abc999def28c1e045f62620b0343ba16e',1,'Discord::User']]],
+  ['buybutton_16',['buyButton',['../class_current_item_shop.html#a4483457ce54119fd111af4a95b8dd755',1,'CurrentItemShop']]]
 ];

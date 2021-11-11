@@ -1,0 +1,4 @@
+<map id="BasicAttack.DamageBasicAttack" name="BasicAttack.DamageBasicAttack">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,221,32"/>
+<area shape="rect" id="node2" href="$class_stats.html#acebcf18ce39553a9c811f368a56a5583" title="Specify the amount of damage and the Inventory that the amount of Gold will go in if it is hit for th..." alt="" coords="269,5,400,32"/>
+</map>

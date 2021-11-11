@@ -1,0 +1,6 @@
+<map id="EffectManager.TriggerEffect" name="EffectManager.TriggerEffect">
+<area shape="rect" id="node1" title="Starts an Effect to the entity who has this EffectManager." alt="" coords="5,56,187,83"/>
+<area shape="rect" id="node2" href="$class_effect.html#ad48818ca38f71bb7d5e844bd220ffce0" title=" " alt="" coords="273,5,379,32"/>
+<area shape="rect" id="node3" href="$class_effect.html#a280600ca7907b4f73d355e6a62a7040c" title=" " alt="" coords="260,56,392,83"/>
+<area shape="rect" id="node4" href="$class_effect_h_u_d_controller.html#a5d2dd46778d538fb1474624fd083818b" title=" " alt="" coords="235,107,417,149"/>
+</map>

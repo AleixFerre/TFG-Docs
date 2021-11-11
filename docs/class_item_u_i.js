@@ -12,5 +12,7 @@ var class_item_u_i =
     [ "image", "class_item_u_i.html#acf2d02c47b20c73639c203afc8da5675", null ],
     [ "item", "class_item_u_i.html#a4fcbac7c18853fc363b1ae8fae97bf0e", null ],
     [ "localInventory", "class_item_u_i.html#a2c5cf0646f7143422f1d8fcd8ea7dd99", null ],
-    [ "lockedImg", "class_item_u_i.html#af71355a8739edfab4d48f340a4f4320a", null ]
+    [ "lockedImg", "class_item_u_i.html#af71355a8739edfab4d48f340a4f4320a", null ],
+    [ "nameTxt", "class_item_u_i.html#aae450c7e8df7d041e1ddb0ee593b877e", null ],
+    [ "tagTxt", "class_item_u_i.html#a552219ee5e3527168ee040f607d75f98", null ]
 ];

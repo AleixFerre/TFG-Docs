@@ -1,0 +1,3065 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta property="og:description" content="Docs for the implementation of my MOBA in Unity." />
+    <meta property="og:url" content="https://github.com/AleixFerre/TFG-Docs" />
+    <!-- END opengraph metadata -->
+    <!-- BEGIN twitter metadata -->
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta name="twitter:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta name="twitter:description" content="Docs for the implementation of my MOBA in Unity." />
+    <!-- END twitter metadata -->
+    <title>Treball de Fi de Grau: Referència de la Classe Discord.LobbyManager</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="icon.png" /></td>
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">Treball de Fi de Grau
+                                &#160;<span id="projectnumber">1.0</span>
+                            </div>
+                            <div id="projectbrief">Documentació pel treball de final de grau. Implementació d&#39;una base per un joc de gènere MOBA multijugador en línia.</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Generat per Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_discord_1_1_lobby_manager.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-methods">Mètodes públics</a> &#124;
+<a href="#properties">Propietats</a> &#124;
+<a href="#events">Esdeveniments</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
+<a href="#pri-static-methods">Mètodes Privats Estàtics</a> &#124;
+<a href="#pri-attribs">Atributs Privats</a> &#124;
+<a href="class_discord_1_1_lobby_manager-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe Discord.LobbyManager</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>FFIEvents</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>FFIMethods</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Mètodes públics</h2></td></tr>
+<tr class="memitem:a4f327cb999831ef6308825a731e7f668"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a4f327cb999831ef6308825a731e7f668">CreateLobbyHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result, ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a> lobby)</td></tr>
+<tr class="separator:a4f327cb999831ef6308825a731e7f668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7defc3eae67058e63f263a399f4a6a51"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a7defc3eae67058e63f263a399f4a6a51">UpdateLobbyHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a7defc3eae67058e63f263a399f4a6a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b834930ab322ff280de37bf1a41d35"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a31b834930ab322ff280de37bf1a41d35">DeleteLobbyHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a31b834930ab322ff280de37bf1a41d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c0c8d5a2026b80343431f962f3525a6"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a4c0c8d5a2026b80343431f962f3525a6">ConnectLobbyHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result, ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a> lobby)</td></tr>
+<tr class="separator:a4c0c8d5a2026b80343431f962f3525a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349b0a1b45025517da0ef5bf1a588bec"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a349b0a1b45025517da0ef5bf1a588bec">ConnectLobbyWithActivitySecretHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result, ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a> lobby)</td></tr>
+<tr class="separator:a349b0a1b45025517da0ef5bf1a588bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adccf3efed945f84f6469f7b3c14e25d0"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#adccf3efed945f84f6469f7b3c14e25d0">DisconnectLobbyHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:adccf3efed945f84f6469f7b3c14e25d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3e068f06b6a673144e178bc6d15bbdb"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#ad3e068f06b6a673144e178bc6d15bbdb">UpdateMemberHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:ad3e068f06b6a673144e178bc6d15bbdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a8871df7282b8f795ef038d11346b11"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a4a8871df7282b8f795ef038d11346b11">SendLobbyMessageHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a4a8871df7282b8f795ef038d11346b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dd0362e80a7ab5673c08b788bae1a02"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a1dd0362e80a7ab5673c08b788bae1a02">SearchHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a1dd0362e80a7ab5673c08b788bae1a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadfcecb8c0adc871a14318fc0ee56fec"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#aadfcecb8c0adc871a14318fc0ee56fec">ConnectVoiceHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:aadfcecb8c0adc871a14318fc0ee56fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67e68db24a62e7e762bfd6d92dc5fdcc"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a67e68db24a62e7e762bfd6d92dc5fdcc">DisconnectVoiceHandler</a> (<a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a67e68db24a62e7e762bfd6d92dc5fdcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa6eafd3399355d147907d39a020d993"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#afa6eafd3399355d147907d39a020d993">LobbyUpdateHandler</a> (Int64 lobbyId)</td></tr>
+<tr class="separator:afa6eafd3399355d147907d39a020d993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedd2d58ee49ce3160079e225919ce787"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#aedd2d58ee49ce3160079e225919ce787">LobbyDeleteHandler</a> (Int64 lobbyId, UInt32 reason)</td></tr>
+<tr class="separator:aedd2d58ee49ce3160079e225919ce787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ac01a3c5a9cfa97ae8ca4a7cae6f86"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a20ac01a3c5a9cfa97ae8ca4a7cae6f86">MemberConnectHandler</a> (Int64 lobbyId, Int64 userId)</td></tr>
+<tr class="separator:a20ac01a3c5a9cfa97ae8ca4a7cae6f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a842dfee0ae7d83cedac91b1516ae2804"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a842dfee0ae7d83cedac91b1516ae2804">MemberUpdateHandler</a> (Int64 lobbyId, Int64 userId)</td></tr>
+<tr class="separator:a842dfee0ae7d83cedac91b1516ae2804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53cb25f26f21e1c30aa8a2141b1caef9"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a53cb25f26f21e1c30aa8a2141b1caef9">MemberDisconnectHandler</a> (Int64 lobbyId, Int64 userId)</td></tr>
+<tr class="separator:a53cb25f26f21e1c30aa8a2141b1caef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a761a5399010331a15ce79371a4f81def"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a761a5399010331a15ce79371a4f81def">LobbyMessageHandler</a> (Int64 lobbyId, Int64 userId, byte[] data)</td></tr>
+<tr class="separator:a761a5399010331a15ce79371a4f81def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e522b9b61bf55850add3c011817ef35"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a9e522b9b61bf55850add3c011817ef35">SpeakingHandler</a> (Int64 lobbyId, Int64 userId, bool speaking)</td></tr>
+<tr class="separator:a9e522b9b61bf55850add3c011817ef35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede67c117c4138bce25c6763b6b86647"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#aede67c117c4138bce25c6763b6b86647">NetworkMessageHandler</a> (Int64 lobbyId, Int64 userId, byte channelId, byte[] data)</td></tr>
+<tr class="separator:aede67c117c4138bce25c6763b6b86647"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c16be89875ed3887f4681fd9728d9c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_transaction.html">LobbyTransaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a2c16be89875ed3887f4681fd9728d9c7">GetLobbyCreateTransaction</a> ()</td></tr>
+<tr class="separator:a2c16be89875ed3887f4681fd9728d9c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5703ec5bc92bce0fd1c567a419a2a74c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_transaction.html">LobbyTransaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a5703ec5bc92bce0fd1c567a419a2a74c">GetLobbyUpdateTransaction</a> (Int64 lobbyId)</td></tr>
+<tr class="separator:a5703ec5bc92bce0fd1c567a419a2a74c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56c210601acbf6851f52ae69ca28acd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_member_transaction.html">LobbyMemberTransaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a56c210601acbf6851f52ae69ca28acd9">GetMemberUpdateTransaction</a> (Int64 lobbyId, Int64 userId)</td></tr>
+<tr class="separator:a56c210601acbf6851f52ae69ca28acd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16a83fedf181d31f9ed426f437e7c03b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a16a83fedf181d31f9ed426f437e7c03b">CreateLobby</a> (<a class="el" href="struct_discord_1_1_lobby_transaction.html">LobbyTransaction</a> transaction, <a class="el" href="class_discord_1_1_lobby_manager.html#a4f327cb999831ef6308825a731e7f668">CreateLobbyHandler</a> callback)</td></tr>
+<tr class="separator:a16a83fedf181d31f9ed426f437e7c03b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a192abf94e47110885d529a42e023548d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a192abf94e47110885d529a42e023548d">UpdateLobby</a> (Int64 lobbyId, <a class="el" href="struct_discord_1_1_lobby_transaction.html">LobbyTransaction</a> transaction, <a class="el" href="class_discord_1_1_lobby_manager.html#a7defc3eae67058e63f263a399f4a6a51">UpdateLobbyHandler</a> callback)</td></tr>
+<tr class="separator:a192abf94e47110885d529a42e023548d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa500bb7fe666337440186ee19727ce01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#aa500bb7fe666337440186ee19727ce01">DeleteLobby</a> (Int64 lobbyId, <a class="el" href="class_discord_1_1_lobby_manager.html#a31b834930ab322ff280de37bf1a41d35">DeleteLobbyHandler</a> callback)</td></tr>
+<tr class="separator:aa500bb7fe666337440186ee19727ce01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f37e0d4c588304d09bcbc22bae1d75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a40f37e0d4c588304d09bcbc22bae1d75">ConnectLobby</a> (Int64 lobbyId, string secret, <a class="el" href="class_discord_1_1_lobby_manager.html#a4c0c8d5a2026b80343431f962f3525a6">ConnectLobbyHandler</a> callback)</td></tr>
+<tr class="separator:a40f37e0d4c588304d09bcbc22bae1d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ca5ce3cf956df7ed785ce063c0f1ee0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a1ca5ce3cf956df7ed785ce063c0f1ee0">ConnectLobbyWithActivitySecret</a> (string activitySecret, <a class="el" href="class_discord_1_1_lobby_manager.html#a349b0a1b45025517da0ef5bf1a588bec">ConnectLobbyWithActivitySecretHandler</a> callback)</td></tr>
+<tr class="separator:a1ca5ce3cf956df7ed785ce063c0f1ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91416fd92c6d6dc79140be4bdd8b0439"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a91416fd92c6d6dc79140be4bdd8b0439">DisconnectLobby</a> (Int64 lobbyId, <a class="el" href="class_discord_1_1_lobby_manager.html#adccf3efed945f84f6469f7b3c14e25d0">DisconnectLobbyHandler</a> callback)</td></tr>
+<tr class="separator:a91416fd92c6d6dc79140be4bdd8b0439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a840fe0a40591f4292854a48e7027464e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby.html">Lobby</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a840fe0a40591f4292854a48e7027464e">GetLobby</a> (Int64 lobbyId)</td></tr>
+<tr class="separator:a840fe0a40591f4292854a48e7027464e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a935bbe169c8152e9325d1db8105664e3"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a935bbe169c8152e9325d1db8105664e3">GetLobbyActivitySecret</a> (Int64 lobbyId)</td></tr>
+<tr class="separator:a935bbe169c8152e9325d1db8105664e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed403412c10e884a049e5b845d35a114"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#aed403412c10e884a049e5b845d35a114">GetLobbyMetadataValue</a> (Int64 lobbyId, string key)</td></tr>
+<tr class="separator:aed403412c10e884a049e5b845d35a114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4ea766466363780a701ef0a2291b78e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#ad4ea766466363780a701ef0a2291b78e">GetLobbyMetadataKey</a> (Int64 lobbyId, Int32 index)</td></tr>
+<tr class="separator:ad4ea766466363780a701ef0a2291b78e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a341ad47e2455d0cf34076e7667fb8fa4"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a341ad47e2455d0cf34076e7667fb8fa4">LobbyMetadataCount</a> (Int64 lobbyId)</td></tr>
+<tr class="separator:a341ad47e2455d0cf34076e7667fb8fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac42ff265a123ce2760f205b14361d38"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#aac42ff265a123ce2760f205b14361d38">MemberCount</a> (Int64 lobbyId)</td></tr>
+<tr class="separator:aac42ff265a123ce2760f205b14361d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47aec9454847120948d7df6627bd8659"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a47aec9454847120948d7df6627bd8659">GetMemberUserId</a> (Int64 lobbyId, Int32 index)</td></tr>
+<tr class="separator:a47aec9454847120948d7df6627bd8659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cb4c9f65752cd2fcff816c7ae4aa65c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_user.html">User</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a7cb4c9f65752cd2fcff816c7ae4aa65c">GetMemberUser</a> (Int64 lobbyId, Int64 userId)</td></tr>
+<tr class="separator:a7cb4c9f65752cd2fcff816c7ae4aa65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26a979a0451c86c043375bb5c7e3163e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a26a979a0451c86c043375bb5c7e3163e">GetMemberMetadataValue</a> (Int64 lobbyId, Int64 userId, string key)</td></tr>
+<tr class="separator:a26a979a0451c86c043375bb5c7e3163e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27925e0e88ea2ee8ae79869ee4935ecc"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a27925e0e88ea2ee8ae79869ee4935ecc">GetMemberMetadataKey</a> (Int64 lobbyId, Int64 userId, Int32 index)</td></tr>
+<tr class="separator:a27925e0e88ea2ee8ae79869ee4935ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a120863efeb643713dbba5430fcd41d7e"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a120863efeb643713dbba5430fcd41d7e">MemberMetadataCount</a> (Int64 lobbyId, Int64 userId)</td></tr>
+<tr class="separator:a120863efeb643713dbba5430fcd41d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80e1b8185b96f4ffa8921ad9f08030db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a80e1b8185b96f4ffa8921ad9f08030db">UpdateMember</a> (Int64 lobbyId, Int64 userId, <a class="el" href="struct_discord_1_1_lobby_member_transaction.html">LobbyMemberTransaction</a> transaction, <a class="el" href="class_discord_1_1_lobby_manager.html#ad3e068f06b6a673144e178bc6d15bbdb">UpdateMemberHandler</a> callback)</td></tr>
+<tr class="separator:a80e1b8185b96f4ffa8921ad9f08030db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a014efe9df801024585fd5fc5a58ed5d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a014efe9df801024585fd5fc5a58ed5d8">SendLobbyMessage</a> (Int64 lobbyId, byte[] data, <a class="el" href="class_discord_1_1_lobby_manager.html#a4a8871df7282b8f795ef038d11346b11">SendLobbyMessageHandler</a> callback)</td></tr>
+<tr class="separator:a014efe9df801024585fd5fc5a58ed5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b5f83037012ede483b5d39036411270"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_search_query.html">LobbySearchQuery</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a9b5f83037012ede483b5d39036411270">GetSearchQuery</a> ()</td></tr>
+<tr class="separator:a9b5f83037012ede483b5d39036411270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3169df0c5ac9a42417b327763ddaa914"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a3169df0c5ac9a42417b327763ddaa914">Search</a> (<a class="el" href="struct_discord_1_1_lobby_search_query.html">LobbySearchQuery</a> query, <a class="el" href="class_discord_1_1_lobby_manager.html#a1dd0362e80a7ab5673c08b788bae1a02">SearchHandler</a> callback)</td></tr>
+<tr class="separator:a3169df0c5ac9a42417b327763ddaa914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a986e14030f43b5c3bf0ec942d8358858"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a986e14030f43b5c3bf0ec942d8358858">LobbyCount</a> ()</td></tr>
+<tr class="separator:a986e14030f43b5c3bf0ec942d8358858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84b14501881c5098b862b5a6ee722e39"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a84b14501881c5098b862b5a6ee722e39">GetLobbyId</a> (Int32 index)</td></tr>
+<tr class="separator:a84b14501881c5098b862b5a6ee722e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b8add67cac3e493113df1ad5a586e58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a9b8add67cac3e493113df1ad5a586e58">ConnectVoice</a> (Int64 lobbyId, <a class="el" href="class_discord_1_1_lobby_manager.html#aadfcecb8c0adc871a14318fc0ee56fec">ConnectVoiceHandler</a> callback)</td></tr>
+<tr class="separator:a9b8add67cac3e493113df1ad5a586e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3854530b3fa70983f10ce44d70f5150a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a3854530b3fa70983f10ce44d70f5150a">DisconnectVoice</a> (Int64 lobbyId, <a class="el" href="class_discord_1_1_lobby_manager.html#a67e68db24a62e7e762bfd6d92dc5fdcc">DisconnectVoiceHandler</a> callback)</td></tr>
+<tr class="separator:a3854530b3fa70983f10ce44d70f5150a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7a02976d1cdcf1d39749b185201b941"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#ae7a02976d1cdcf1d39749b185201b941">ConnectNetwork</a> (Int64 lobbyId)</td></tr>
+<tr class="separator:ae7a02976d1cdcf1d39749b185201b941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6845c7d4312c662327f427c0bd5dd3f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a6845c7d4312c662327f427c0bd5dd3f1">DisconnectNetwork</a> (Int64 lobbyId)</td></tr>
+<tr class="separator:a6845c7d4312c662327f427c0bd5dd3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a166c2487879cd3443c862211be93a7de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a166c2487879cd3443c862211be93a7de">FlushNetwork</a> ()</td></tr>
+<tr class="separator:a166c2487879cd3443c862211be93a7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a356cbd063364919363e0eb24db03bd0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a356cbd063364919363e0eb24db03bd0e">OpenNetworkChannel</a> (Int64 lobbyId, byte channelId, bool reliable)</td></tr>
+<tr class="separator:a356cbd063364919363e0eb24db03bd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1ef5013670cc4493c516790e03302b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#ac1ef5013670cc4493c516790e03302b1">SendNetworkMessage</a> (Int64 lobbyId, Int64 userId, byte channelId, byte[] data)</td></tr>
+<tr class="separator:ac1ef5013670cc4493c516790e03302b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad543c9d32e7028f027ced401125bc0eb"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; <a class="el" href="struct_discord_1_1_user.html">User</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#ad543c9d32e7028f027ced401125bc0eb">GetMemberUsers</a> (Int64 lobbyID)</td></tr>
+<tr class="separator:ad543c9d32e7028f027ced401125bc0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a649037cc9631a62754f0c454ba63804c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a649037cc9631a62754f0c454ba63804c">SendLobbyMessage</a> (Int64 lobbyID, string data, <a class="el" href="class_discord_1_1_lobby_manager.html#a4a8871df7282b8f795ef038d11346b11">SendLobbyMessageHandler</a> handler)</td></tr>
+<tr class="separator:a649037cc9631a62754f0c454ba63804c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Propietats</h2></td></tr>
+<tr class="memitem:a12229395ae285e08a76f70a3175ae691"><td class="memItemLeft" align="right" valign="top">FFIMethods&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a12229395ae285e08a76f70a3175ae691">Methods</a><code> [get]</code></td></tr>
+<tr class="separator:a12229395ae285e08a76f70a3175ae691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Esdeveniments</h2></td></tr>
+<tr class="memitem:a5f8d410c2807acbc0acbd6b8052d0f12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_discord_1_1_lobby_manager.html#afa6eafd3399355d147907d39a020d993">LobbyUpdateHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a5f8d410c2807acbc0acbd6b8052d0f12">OnLobbyUpdate</a></td></tr>
+<tr class="separator:a5f8d410c2807acbc0acbd6b8052d0f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf13d764ddec97d54d28d30d4a36b2a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_discord_1_1_lobby_manager.html#aedd2d58ee49ce3160079e225919ce787">LobbyDeleteHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#aaf13d764ddec97d54d28d30d4a36b2a5">OnLobbyDelete</a></td></tr>
+<tr class="separator:aaf13d764ddec97d54d28d30d4a36b2a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd18e9fa0e71b2d63272feb2a4e72002"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_discord_1_1_lobby_manager.html#a20ac01a3c5a9cfa97ae8ca4a7cae6f86">MemberConnectHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#abd18e9fa0e71b2d63272feb2a4e72002">OnMemberConnect</a></td></tr>
+<tr class="separator:abd18e9fa0e71b2d63272feb2a4e72002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8af986376bdc16bf22b727d0112e0de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_discord_1_1_lobby_manager.html#a842dfee0ae7d83cedac91b1516ae2804">MemberUpdateHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#aa8af986376bdc16bf22b727d0112e0de">OnMemberUpdate</a></td></tr>
+<tr class="separator:aa8af986376bdc16bf22b727d0112e0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab260fca1fae235792d65712f85584e2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_discord_1_1_lobby_manager.html#a53cb25f26f21e1c30aa8a2141b1caef9">MemberDisconnectHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#ab260fca1fae235792d65712f85584e2f">OnMemberDisconnect</a></td></tr>
+<tr class="separator:ab260fca1fae235792d65712f85584e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb954018a78891d0826307f4cce67c1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_discord_1_1_lobby_manager.html#a761a5399010331a15ce79371a4f81def">LobbyMessageHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#abb954018a78891d0826307f4cce67c1c">OnLobbyMessage</a></td></tr>
+<tr class="separator:abb954018a78891d0826307f4cce67c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9b2f370472d573fd8f316daaa2d9f65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_discord_1_1_lobby_manager.html#a9e522b9b61bf55850add3c011817ef35">SpeakingHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#ab9b2f370472d573fd8f316daaa2d9f65">OnSpeaking</a></td></tr>
+<tr class="separator:ab9b2f370472d573fd8f316daaa2d9f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad98fb794c2116428e2c9523e85d055db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_discord_1_1_lobby_manager.html#aede67c117c4138bce25c6763b6b86647">NetworkMessageHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#ad98fb794c2116428e2c9523e85d055db">OnNetworkMessage</a></td></tr>
+<tr class="separator:ad98fb794c2116428e2c9523e85d055db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:ab6ffd0cfd022478e75068e3512543b7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#ab6ffd0cfd022478e75068e3512543b7b">InitEvents</a> (IntPtr eventsPtr, ref FFIEvents events)</td></tr>
+<tr class="separator:ab6ffd0cfd022478e75068e3512543b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Mètodes Privats Estàtics</h2></td></tr>
+<tr class="memitem:ae9a68f577df1bb7970d4a4436cc2c24f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#ae9a68f577df1bb7970d4a4436cc2c24f">CreateLobbyCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result, ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a> lobby)</td></tr>
+<tr class="separator:ae9a68f577df1bb7970d4a4436cc2c24f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50fc2d2f5ecb73013817640740fa0a2d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a50fc2d2f5ecb73013817640740fa0a2d">UpdateLobbyCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a50fc2d2f5ecb73013817640740fa0a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bcd5db7a092bf3dc32eaf04c3f8ebc6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a0bcd5db7a092bf3dc32eaf04c3f8ebc6">DeleteLobbyCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a0bcd5db7a092bf3dc32eaf04c3f8ebc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87bb3dcd3349150fff475a21f689de9f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a87bb3dcd3349150fff475a21f689de9f">ConnectLobbyCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result, ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a> lobby)</td></tr>
+<tr class="separator:a87bb3dcd3349150fff475a21f689de9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c092c306a1aceb2df04e6bbfab09f3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#ac0c092c306a1aceb2df04e6bbfab09f3">ConnectLobbyWithActivitySecretCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result, ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a> lobby)</td></tr>
+<tr class="separator:ac0c092c306a1aceb2df04e6bbfab09f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cd5afa26b9eb28e7504d8be8214e5bf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a3cd5afa26b9eb28e7504d8be8214e5bf">DisconnectLobbyCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a3cd5afa26b9eb28e7504d8be8214e5bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd38e2465ede4025a7bcca6c29c7536b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#abd38e2465ede4025a7bcca6c29c7536b">UpdateMemberCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:abd38e2465ede4025a7bcca6c29c7536b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e1ee660e032ef975225872df7114ba7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a1e1ee660e032ef975225872df7114ba7">SendLobbyMessageCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a1e1ee660e032ef975225872df7114ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2ea449703fc83ed68f0deab0a23f12f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#af2ea449703fc83ed68f0deab0a23f12f">SearchCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:af2ea449703fc83ed68f0deab0a23f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab17e47144d89c1050418db805a3d9a81"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#ab17e47144d89c1050418db805a3d9a81">ConnectVoiceCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:ab17e47144d89c1050418db805a3d9a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7076080c468b30ccbb569a96d93b5461"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a7076080c468b30ccbb569a96d93b5461">DisconnectVoiceCallbackImpl</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a7076080c468b30ccbb569a96d93b5461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c2b99087e1a249b11df735f8e124baa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a0c2b99087e1a249b11df735f8e124baa">OnLobbyUpdateImpl</a> (IntPtr ptr, Int64 lobbyId)</td></tr>
+<tr class="separator:a0c2b99087e1a249b11df735f8e124baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa838988612673ae83a236c44c8c2c577"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#aa838988612673ae83a236c44c8c2c577">OnLobbyDeleteImpl</a> (IntPtr ptr, Int64 lobbyId, UInt32 reason)</td></tr>
+<tr class="separator:aa838988612673ae83a236c44c8c2c577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14c63d2c74f8c0101285e226f9653a36"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a14c63d2c74f8c0101285e226f9653a36">OnMemberConnectImpl</a> (IntPtr ptr, Int64 lobbyId, Int64 userId)</td></tr>
+<tr class="separator:a14c63d2c74f8c0101285e226f9653a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89754630e5ea24f0d9d1ce4a87e856b4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a89754630e5ea24f0d9d1ce4a87e856b4">OnMemberUpdateImpl</a> (IntPtr ptr, Int64 lobbyId, Int64 userId)</td></tr>
+<tr class="separator:a89754630e5ea24f0d9d1ce4a87e856b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6784a21c634acce8f8e3e363bb62757f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a6784a21c634acce8f8e3e363bb62757f">OnMemberDisconnectImpl</a> (IntPtr ptr, Int64 lobbyId, Int64 userId)</td></tr>
+<tr class="separator:a6784a21c634acce8f8e3e363bb62757f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae06675638c4945b71fd79bf3268c1299"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#ae06675638c4945b71fd79bf3268c1299">OnLobbyMessageImpl</a> (IntPtr ptr, Int64 lobbyId, Int64 userId, IntPtr dataPtr, Int32 dataLen)</td></tr>
+<tr class="separator:ae06675638c4945b71fd79bf3268c1299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa57a566b19835ca26d3495e139457f67"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#aa57a566b19835ca26d3495e139457f67">OnSpeakingImpl</a> (IntPtr ptr, Int64 lobbyId, Int64 userId, bool speaking)</td></tr>
+<tr class="separator:aa57a566b19835ca26d3495e139457f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a181368087d3d8fc8d047dc633a693e37"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a181368087d3d8fc8d047dc633a693e37">OnNetworkMessageImpl</a> (IntPtr ptr, Int64 lobbyId, Int64 userId, byte channelId, IntPtr dataPtr, Int32 dataLen)</td></tr>
+<tr class="separator:a181368087d3d8fc8d047dc633a693e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributs Privats</h2></td></tr>
+<tr class="memitem:a1e4dfed888900badf851151f865ce96a"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#a1e4dfed888900badf851151f865ce96a">MethodsPtr</a></td></tr>
+<tr class="separator:a1e4dfed888900badf851151f865ce96a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaee6c657c398778dd44d77659927b979"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_discord_1_1_lobby_manager.html#aaee6c657c398778dd44d77659927b979">MethodsStructure</a></td></tr>
+<tr class="separator:aaee6c657c398778dd44d77659927b979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a40f37e0d4c588304d09bcbc22bae1d75" name="a40f37e0d4c588304d09bcbc22bae1d75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40f37e0d4c588304d09bcbc22bae1d75">&#9670;&nbsp;</a></span>ConnectLobby()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.ConnectLobby </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>secret</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_lobby_manager.html#a4c0c8d5a2026b80343431f962f3525a6">ConnectLobbyHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a40f37e0d4c588304d09bcbc22bae1d75_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a87bb3dcd3349150fff475a21f689de9f" name="a87bb3dcd3349150fff475a21f689de9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87bb3dcd3349150fff475a21f689de9f">&#9670;&nbsp;</a></span>ConnectLobbyCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.ConnectLobbyCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a>&#160;</td>
+          <td class="paramname"><em>lobby</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a87bb3dcd3349150fff475a21f689de9f_cgraph.svg" width="472" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a87bb3dcd3349150fff475a21f689de9f_icgraph.svg" width="472" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a4c0c8d5a2026b80343431f962f3525a6" name="a4c0c8d5a2026b80343431f962f3525a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c0c8d5a2026b80343431f962f3525a6">&#9670;&nbsp;</a></span>ConnectLobbyHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.ConnectLobbyHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a>&#160;</td>
+          <td class="paramname"><em>lobby</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a4c0c8d5a2026b80343431f962f3525a6_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a1ca5ce3cf956df7ed785ce063c0f1ee0" name="a1ca5ce3cf956df7ed785ce063c0f1ee0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ca5ce3cf956df7ed785ce063c0f1ee0">&#9670;&nbsp;</a></span>ConnectLobbyWithActivitySecret()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.ConnectLobbyWithActivitySecret </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>activitySecret</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_lobby_manager.html#a349b0a1b45025517da0ef5bf1a588bec">ConnectLobbyWithActivitySecretHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a1ca5ce3cf956df7ed785ce063c0f1ee0_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac0c092c306a1aceb2df04e6bbfab09f3" name="ac0c092c306a1aceb2df04e6bbfab09f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0c092c306a1aceb2df04e6bbfab09f3">&#9670;&nbsp;</a></span>ConnectLobbyWithActivitySecretCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.ConnectLobbyWithActivitySecretCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a>&#160;</td>
+          <td class="paramname"><em>lobby</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_ac0c092c306a1aceb2df04e6bbfab09f3_cgraph.svg" width="506" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_ac0c092c306a1aceb2df04e6bbfab09f3_icgraph.svg" width="504" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a349b0a1b45025517da0ef5bf1a588bec" name="a349b0a1b45025517da0ef5bf1a588bec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a349b0a1b45025517da0ef5bf1a588bec">&#9670;&nbsp;</a></span>ConnectLobbyWithActivitySecretHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.ConnectLobbyWithActivitySecretHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a>&#160;</td>
+          <td class="paramname"><em>lobby</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a349b0a1b45025517da0ef5bf1a588bec_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae7a02976d1cdcf1d39749b185201b941" name="ae7a02976d1cdcf1d39749b185201b941"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7a02976d1cdcf1d39749b185201b941">&#9670;&nbsp;</a></span>ConnectNetwork()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.ConnectNetwork </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b8add67cac3e493113df1ad5a586e58" name="a9b8add67cac3e493113df1ad5a586e58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b8add67cac3e493113df1ad5a586e58">&#9670;&nbsp;</a></span>ConnectVoice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.ConnectVoice </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_lobby_manager.html#aadfcecb8c0adc871a14318fc0ee56fec">ConnectVoiceHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a9b8add67cac3e493113df1ad5a586e58_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ab17e47144d89c1050418db805a3d9a81" name="ab17e47144d89c1050418db805a3d9a81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab17e47144d89c1050418db805a3d9a81">&#9670;&nbsp;</a></span>ConnectVoiceCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.ConnectVoiceCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_ab17e47144d89c1050418db805a3d9a81_cgraph.svg" width="472" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_ab17e47144d89c1050418db805a3d9a81_icgraph.svg" width="472" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aadfcecb8c0adc871a14318fc0ee56fec" name="aadfcecb8c0adc871a14318fc0ee56fec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadfcecb8c0adc871a14318fc0ee56fec">&#9670;&nbsp;</a></span>ConnectVoiceHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.ConnectVoiceHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_aadfcecb8c0adc871a14318fc0ee56fec_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a16a83fedf181d31f9ed426f437e7c03b" name="a16a83fedf181d31f9ed426f437e7c03b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16a83fedf181d31f9ed426f437e7c03b">&#9670;&nbsp;</a></span>CreateLobby()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.CreateLobby </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_transaction.html">LobbyTransaction</a>&#160;</td>
+          <td class="paramname"><em>transaction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_lobby_manager.html#a4f327cb999831ef6308825a731e7f668">CreateLobbyHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a16a83fedf181d31f9ed426f437e7c03b_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae9a68f577df1bb7970d4a4436cc2c24f" name="ae9a68f577df1bb7970d4a4436cc2c24f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9a68f577df1bb7970d4a4436cc2c24f">&#9670;&nbsp;</a></span>CreateLobbyCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.CreateLobbyCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a>&#160;</td>
+          <td class="paramname"><em>lobby</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_ae9a68f577df1bb7970d4a4436cc2c24f_cgraph.svg" width="454" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_ae9a68f577df1bb7970d4a4436cc2c24f_icgraph.svg" width="454" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a4f327cb999831ef6308825a731e7f668" name="a4f327cb999831ef6308825a731e7f668"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f327cb999831ef6308825a731e7f668">&#9670;&nbsp;</a></span>CreateLobbyHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.CreateLobbyHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a>&#160;</td>
+          <td class="paramname"><em>lobby</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a4f327cb999831ef6308825a731e7f668_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aa500bb7fe666337440186ee19727ce01" name="aa500bb7fe666337440186ee19727ce01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa500bb7fe666337440186ee19727ce01">&#9670;&nbsp;</a></span>DeleteLobby()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.DeleteLobby </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_lobby_manager.html#a31b834930ab322ff280de37bf1a41d35">DeleteLobbyHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_aa500bb7fe666337440186ee19727ce01_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a0bcd5db7a092bf3dc32eaf04c3f8ebc6" name="a0bcd5db7a092bf3dc32eaf04c3f8ebc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bcd5db7a092bf3dc32eaf04c3f8ebc6">&#9670;&nbsp;</a></span>DeleteLobbyCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.DeleteLobbyCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a0bcd5db7a092bf3dc32eaf04c3f8ebc6_cgraph.svg" width="451" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a0bcd5db7a092bf3dc32eaf04c3f8ebc6_icgraph.svg" width="451" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a31b834930ab322ff280de37bf1a41d35" name="a31b834930ab322ff280de37bf1a41d35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b834930ab322ff280de37bf1a41d35">&#9670;&nbsp;</a></span>DeleteLobbyHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.DeleteLobbyHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a31b834930ab322ff280de37bf1a41d35_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a91416fd92c6d6dc79140be4bdd8b0439" name="a91416fd92c6d6dc79140be4bdd8b0439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91416fd92c6d6dc79140be4bdd8b0439">&#9670;&nbsp;</a></span>DisconnectLobby()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.DisconnectLobby </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_lobby_manager.html#adccf3efed945f84f6469f7b3c14e25d0">DisconnectLobbyHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a91416fd92c6d6dc79140be4bdd8b0439_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a3cd5afa26b9eb28e7504d8be8214e5bf" name="a3cd5afa26b9eb28e7504d8be8214e5bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cd5afa26b9eb28e7504d8be8214e5bf">&#9670;&nbsp;</a></span>DisconnectLobbyCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.DisconnectLobbyCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a3cd5afa26b9eb28e7504d8be8214e5bf_cgraph.svg" width="507" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a3cd5afa26b9eb28e7504d8be8214e5bf_icgraph.svg" width="507" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="adccf3efed945f84f6469f7b3c14e25d0" name="adccf3efed945f84f6469f7b3c14e25d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adccf3efed945f84f6469f7b3c14e25d0">&#9670;&nbsp;</a></span>DisconnectLobbyHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.DisconnectLobbyHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_adccf3efed945f84f6469f7b3c14e25d0_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a6845c7d4312c662327f427c0bd5dd3f1" name="a6845c7d4312c662327f427c0bd5dd3f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6845c7d4312c662327f427c0bd5dd3f1">&#9670;&nbsp;</a></span>DisconnectNetwork()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.DisconnectNetwork </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3854530b3fa70983f10ce44d70f5150a" name="a3854530b3fa70983f10ce44d70f5150a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3854530b3fa70983f10ce44d70f5150a">&#9670;&nbsp;</a></span>DisconnectVoice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.DisconnectVoice </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_lobby_manager.html#a67e68db24a62e7e762bfd6d92dc5fdcc">DisconnectVoiceHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a3854530b3fa70983f10ce44d70f5150a_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a7076080c468b30ccbb569a96d93b5461" name="a7076080c468b30ccbb569a96d93b5461"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7076080c468b30ccbb569a96d93b5461">&#9670;&nbsp;</a></span>DisconnectVoiceCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.DisconnectVoiceCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a7076080c468b30ccbb569a96d93b5461_cgraph.svg" width="507" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a7076080c468b30ccbb569a96d93b5461_icgraph.svg" width="507" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a67e68db24a62e7e762bfd6d92dc5fdcc" name="a67e68db24a62e7e762bfd6d92dc5fdcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67e68db24a62e7e762bfd6d92dc5fdcc">&#9670;&nbsp;</a></span>DisconnectVoiceHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.DisconnectVoiceHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a67e68db24a62e7e762bfd6d92dc5fdcc_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a166c2487879cd3443c862211be93a7de" name="a166c2487879cd3443c862211be93a7de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a166c2487879cd3443c862211be93a7de">&#9670;&nbsp;</a></span>FlushNetwork()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.FlushNetwork </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a840fe0a40591f4292854a48e7027464e" name="a840fe0a40591f4292854a48e7027464e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a840fe0a40591f4292854a48e7027464e">&#9670;&nbsp;</a></span>GetLobby()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby.html">Lobby</a> Discord.LobbyManager.GetLobby </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a935bbe169c8152e9325d1db8105664e3" name="a935bbe169c8152e9325d1db8105664e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a935bbe169c8152e9325d1db8105664e3">&#9670;&nbsp;</a></span>GetLobbyActivitySecret()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Discord.LobbyManager.GetLobbyActivitySecret </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c16be89875ed3887f4681fd9728d9c7" name="a2c16be89875ed3887f4681fd9728d9c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c16be89875ed3887f4681fd9728d9c7">&#9670;&nbsp;</a></span>GetLobbyCreateTransaction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_transaction.html">LobbyTransaction</a> Discord.LobbyManager.GetLobbyCreateTransaction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84b14501881c5098b862b5a6ee722e39" name="a84b14501881c5098b862b5a6ee722e39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84b14501881c5098b862b5a6ee722e39">&#9670;&nbsp;</a></span>GetLobbyId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Discord.LobbyManager.GetLobbyId </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad4ea766466363780a701ef0a2291b78e" name="ad4ea766466363780a701ef0a2291b78e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4ea766466363780a701ef0a2291b78e">&#9670;&nbsp;</a></span>GetLobbyMetadataKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Discord.LobbyManager.GetLobbyMetadataKey </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed403412c10e884a049e5b845d35a114" name="aed403412c10e884a049e5b845d35a114"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed403412c10e884a049e5b845d35a114">&#9670;&nbsp;</a></span>GetLobbyMetadataValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Discord.LobbyManager.GetLobbyMetadataValue </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5703ec5bc92bce0fd1c567a419a2a74c" name="a5703ec5bc92bce0fd1c567a419a2a74c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5703ec5bc92bce0fd1c567a419a2a74c">&#9670;&nbsp;</a></span>GetLobbyUpdateTransaction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_transaction.html">LobbyTransaction</a> Discord.LobbyManager.GetLobbyUpdateTransaction </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27925e0e88ea2ee8ae79869ee4935ecc" name="a27925e0e88ea2ee8ae79869ee4935ecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27925e0e88ea2ee8ae79869ee4935ecc">&#9670;&nbsp;</a></span>GetMemberMetadataKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Discord.LobbyManager.GetMemberMetadataKey </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a26a979a0451c86c043375bb5c7e3163e" name="a26a979a0451c86c043375bb5c7e3163e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26a979a0451c86c043375bb5c7e3163e">&#9670;&nbsp;</a></span>GetMemberMetadataValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Discord.LobbyManager.GetMemberMetadataValue </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56c210601acbf6851f52ae69ca28acd9" name="a56c210601acbf6851f52ae69ca28acd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56c210601acbf6851f52ae69ca28acd9">&#9670;&nbsp;</a></span>GetMemberUpdateTransaction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_member_transaction.html">LobbyMemberTransaction</a> Discord.LobbyManager.GetMemberUpdateTransaction </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7cb4c9f65752cd2fcff816c7ae4aa65c" name="a7cb4c9f65752cd2fcff816c7ae4aa65c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cb4c9f65752cd2fcff816c7ae4aa65c">&#9670;&nbsp;</a></span>GetMemberUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_user.html">User</a> Discord.LobbyManager.GetMemberUser </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a7cb4c9f65752cd2fcff816c7ae4aa65c_icgraph.svg" width="419" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a47aec9454847120948d7df6627bd8659" name="a47aec9454847120948d7df6627bd8659"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47aec9454847120948d7df6627bd8659">&#9670;&nbsp;</a></span>GetMemberUserId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Discord.LobbyManager.GetMemberUserId </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a47aec9454847120948d7df6627bd8659_icgraph.svg" width="419" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ad543c9d32e7028f027ced401125bc0eb" name="ad543c9d32e7028f027ced401125bc0eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad543c9d32e7028f027ced401125bc0eb">&#9670;&nbsp;</a></span>GetMemberUsers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt; <a class="el" href="struct_discord_1_1_user.html">User</a> &gt; Discord.LobbyManager.GetMemberUsers </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_ad543c9d32e7028f027ced401125bc0eb_cgraph.svg" width="446" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a9b5f83037012ede483b5d39036411270" name="a9b5f83037012ede483b5d39036411270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b5f83037012ede483b5d39036411270">&#9670;&nbsp;</a></span>GetSearchQuery()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_search_query.html">LobbySearchQuery</a> Discord.LobbyManager.GetSearchQuery </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6ffd0cfd022478e75068e3512543b7b" name="ab6ffd0cfd022478e75068e3512543b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ffd0cfd022478e75068e3512543b7b">&#9670;&nbsp;</a></span>InitEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.InitEvents </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>eventsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref FFIEvents&#160;</td>
+          <td class="paramname"><em>events</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_ab6ffd0cfd022478e75068e3512543b7b_cgraph.svg" width="490" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a986e14030f43b5c3bf0ec942d8358858" name="a986e14030f43b5c3bf0ec942d8358858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a986e14030f43b5c3bf0ec942d8358858">&#9670;&nbsp;</a></span>LobbyCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Discord.LobbyManager.LobbyCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aedd2d58ee49ce3160079e225919ce787" name="aedd2d58ee49ce3160079e225919ce787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedd2d58ee49ce3160079e225919ce787">&#9670;&nbsp;</a></span>LobbyDeleteHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.LobbyDeleteHandler </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt32&#160;</td>
+          <td class="paramname"><em>reason</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a761a5399010331a15ce79371a4f81def" name="a761a5399010331a15ce79371a4f81def"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a761a5399010331a15ce79371a4f81def">&#9670;&nbsp;</a></span>LobbyMessageHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.LobbyMessageHandler </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a341ad47e2455d0cf34076e7667fb8fa4" name="a341ad47e2455d0cf34076e7667fb8fa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a341ad47e2455d0cf34076e7667fb8fa4">&#9670;&nbsp;</a></span>LobbyMetadataCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Discord.LobbyManager.LobbyMetadataCount </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa6eafd3399355d147907d39a020d993" name="afa6eafd3399355d147907d39a020d993"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa6eafd3399355d147907d39a020d993">&#9670;&nbsp;</a></span>LobbyUpdateHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.LobbyUpdateHandler </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20ac01a3c5a9cfa97ae8ca4a7cae6f86" name="a20ac01a3c5a9cfa97ae8ca4a7cae6f86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20ac01a3c5a9cfa97ae8ca4a7cae6f86">&#9670;&nbsp;</a></span>MemberConnectHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.MemberConnectHandler </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac42ff265a123ce2760f205b14361d38" name="aac42ff265a123ce2760f205b14361d38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac42ff265a123ce2760f205b14361d38">&#9670;&nbsp;</a></span>MemberCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Discord.LobbyManager.MemberCount </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_aac42ff265a123ce2760f205b14361d38_icgraph.svg" width="446" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a53cb25f26f21e1c30aa8a2141b1caef9" name="a53cb25f26f21e1c30aa8a2141b1caef9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53cb25f26f21e1c30aa8a2141b1caef9">&#9670;&nbsp;</a></span>MemberDisconnectHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.MemberDisconnectHandler </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a120863efeb643713dbba5430fcd41d7e" name="a120863efeb643713dbba5430fcd41d7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a120863efeb643713dbba5430fcd41d7e">&#9670;&nbsp;</a></span>MemberMetadataCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Discord.LobbyManager.MemberMetadataCount </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a842dfee0ae7d83cedac91b1516ae2804" name="a842dfee0ae7d83cedac91b1516ae2804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a842dfee0ae7d83cedac91b1516ae2804">&#9670;&nbsp;</a></span>MemberUpdateHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.MemberUpdateHandler </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aede67c117c4138bce25c6763b6b86647" name="aede67c117c4138bce25c6763b6b86647"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aede67c117c4138bce25c6763b6b86647">&#9670;&nbsp;</a></span>NetworkMessageHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.NetworkMessageHandler </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa838988612673ae83a236c44c8c2c577" name="aa838988612673ae83a236c44c8c2c577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa838988612673ae83a236c44c8c2c577">&#9670;&nbsp;</a></span>OnLobbyDeleteImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.OnLobbyDeleteImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt32&#160;</td>
+          <td class="paramname"><em>reason</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_aa838988612673ae83a236c44c8c2c577_icgraph.svg" width="446" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae06675638c4945b71fd79bf3268c1299" name="ae06675638c4945b71fd79bf3268c1299"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae06675638c4945b71fd79bf3268c1299">&#9670;&nbsp;</a></span>OnLobbyMessageImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.OnLobbyMessageImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>dataPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>dataLen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_ae06675638c4945b71fd79bf3268c1299_icgraph.svg" width="446" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a0c2b99087e1a249b11df735f8e124baa" name="a0c2b99087e1a249b11df735f8e124baa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c2b99087e1a249b11df735f8e124baa">&#9670;&nbsp;</a></span>OnLobbyUpdateImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.OnLobbyUpdateImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a0c2b99087e1a249b11df735f8e124baa_icgraph.svg" width="446" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a14c63d2c74f8c0101285e226f9653a36" name="a14c63d2c74f8c0101285e226f9653a36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14c63d2c74f8c0101285e226f9653a36">&#9670;&nbsp;</a></span>OnMemberConnectImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.OnMemberConnectImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a14c63d2c74f8c0101285e226f9653a36_icgraph.svg" width="458" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a6784a21c634acce8f8e3e363bb62757f" name="a6784a21c634acce8f8e3e363bb62757f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6784a21c634acce8f8e3e363bb62757f">&#9670;&nbsp;</a></span>OnMemberDisconnectImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.OnMemberDisconnectImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a6784a21c634acce8f8e3e363bb62757f_icgraph.svg" width="458" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a89754630e5ea24f0d9d1ce4a87e856b4" name="a89754630e5ea24f0d9d1ce4a87e856b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89754630e5ea24f0d9d1ce4a87e856b4">&#9670;&nbsp;</a></span>OnMemberUpdateImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.OnMemberUpdateImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a89754630e5ea24f0d9d1ce4a87e856b4_icgraph.svg" width="458" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a181368087d3d8fc8d047dc633a693e37" name="a181368087d3d8fc8d047dc633a693e37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a181368087d3d8fc8d047dc633a693e37">&#9670;&nbsp;</a></span>OnNetworkMessageImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.OnNetworkMessageImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>dataPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>dataLen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a181368087d3d8fc8d047dc633a693e37_icgraph.svg" width="458" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aa57a566b19835ca26d3495e139457f67" name="aa57a566b19835ca26d3495e139457f67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa57a566b19835ca26d3495e139457f67">&#9670;&nbsp;</a></span>OnSpeakingImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.OnSpeakingImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>speaking</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_aa57a566b19835ca26d3495e139457f67_icgraph.svg" width="490" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a356cbd063364919363e0eb24db03bd0e" name="a356cbd063364919363e0eb24db03bd0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a356cbd063364919363e0eb24db03bd0e">&#9670;&nbsp;</a></span>OpenNetworkChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.OpenNetworkChannel </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reliable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3169df0c5ac9a42417b327763ddaa914" name="a3169df0c5ac9a42417b327763ddaa914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3169df0c5ac9a42417b327763ddaa914">&#9670;&nbsp;</a></span>Search()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.Search </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_search_query.html">LobbySearchQuery</a>&#160;</td>
+          <td class="paramname"><em>query</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_lobby_manager.html#a1dd0362e80a7ab5673c08b788bae1a02">SearchHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a3169df0c5ac9a42417b327763ddaa914_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="af2ea449703fc83ed68f0deab0a23f12f" name="af2ea449703fc83ed68f0deab0a23f12f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2ea449703fc83ed68f0deab0a23f12f">&#9670;&nbsp;</a></span>SearchCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.SearchCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_af2ea449703fc83ed68f0deab0a23f12f_cgraph.svg" width="459" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_af2ea449703fc83ed68f0deab0a23f12f_icgraph.svg" width="459" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a1dd0362e80a7ab5673c08b788bae1a02" name="a1dd0362e80a7ab5673c08b788bae1a02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dd0362e80a7ab5673c08b788bae1a02">&#9670;&nbsp;</a></span>SearchHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.SearchHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a1dd0362e80a7ab5673c08b788bae1a02_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a014efe9df801024585fd5fc5a58ed5d8" name="a014efe9df801024585fd5fc5a58ed5d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a014efe9df801024585fd5fc5a58ed5d8">&#9670;&nbsp;</a></span>SendLobbyMessage() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.SendLobbyMessage </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_lobby_manager.html#a4a8871df7282b8f795ef038d11346b11">SendLobbyMessageHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a014efe9df801024585fd5fc5a58ed5d8_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a014efe9df801024585fd5fc5a58ed5d8_icgraph.svg" width="438" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a649037cc9631a62754f0c454ba63804c" name="a649037cc9631a62754f0c454ba63804c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a649037cc9631a62754f0c454ba63804c">&#9670;&nbsp;</a></span>SendLobbyMessage() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.SendLobbyMessage </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_lobby_manager.html#a4a8871df7282b8f795ef038d11346b11">SendLobbyMessageHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a649037cc9631a62754f0c454ba63804c_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a1e1ee660e032ef975225872df7114ba7" name="a1e1ee660e032ef975225872df7114ba7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e1ee660e032ef975225872df7114ba7">&#9670;&nbsp;</a></span>SendLobbyMessageCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.SendLobbyMessageCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a1e1ee660e032ef975225872df7114ba7_cgraph.svg" width="438" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a1e1ee660e032ef975225872df7114ba7_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a4a8871df7282b8f795ef038d11346b11" name="a4a8871df7282b8f795ef038d11346b11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a8871df7282b8f795ef038d11346b11">&#9670;&nbsp;</a></span>SendLobbyMessageHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.SendLobbyMessageHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a4a8871df7282b8f795ef038d11346b11_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac1ef5013670cc4493c516790e03302b1" name="ac1ef5013670cc4493c516790e03302b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1ef5013670cc4493c516790e03302b1">&#9670;&nbsp;</a></span>SendNetworkMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.SendNetworkMessage </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e522b9b61bf55850add3c011817ef35" name="a9e522b9b61bf55850add3c011817ef35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e522b9b61bf55850add3c011817ef35">&#9670;&nbsp;</a></span>SpeakingHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.SpeakingHandler </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>speaking</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a192abf94e47110885d529a42e023548d" name="a192abf94e47110885d529a42e023548d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a192abf94e47110885d529a42e023548d">&#9670;&nbsp;</a></span>UpdateLobby()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.UpdateLobby </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_transaction.html">LobbyTransaction</a>&#160;</td>
+          <td class="paramname"><em>transaction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_lobby_manager.html#a7defc3eae67058e63f263a399f4a6a51">UpdateLobbyHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a192abf94e47110885d529a42e023548d_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a50fc2d2f5ecb73013817640740fa0a2d" name="a50fc2d2f5ecb73013817640740fa0a2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50fc2d2f5ecb73013817640740fa0a2d">&#9670;&nbsp;</a></span>UpdateLobbyCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.UpdateLobbyCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a50fc2d2f5ecb73013817640740fa0a2d_cgraph.svg" width="459" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a50fc2d2f5ecb73013817640740fa0a2d_icgraph.svg" width="459" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a7defc3eae67058e63f263a399f4a6a51" name="a7defc3eae67058e63f263a399f4a6a51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7defc3eae67058e63f263a399f4a6a51">&#9670;&nbsp;</a></span>UpdateLobbyHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.UpdateLobbyHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a7defc3eae67058e63f263a399f4a6a51_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a80e1b8185b96f4ffa8921ad9f08030db" name="a80e1b8185b96f4ffa8921ad9f08030db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80e1b8185b96f4ffa8921ad9f08030db">&#9670;&nbsp;</a></span>UpdateMember()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Discord.LobbyManager.UpdateMember </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_member_transaction.html">LobbyMemberTransaction</a>&#160;</td>
+          <td class="paramname"><em>transaction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_discord_1_1_lobby_manager.html#ad3e068f06b6a673144e178bc6d15bbdb">UpdateMemberHandler</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_a80e1b8185b96f4ffa8921ad9f08030db_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="abd38e2465ede4025a7bcca6c29c7536b" name="abd38e2465ede4025a7bcca6c29c7536b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd38e2465ede4025a7bcca6c29c7536b">&#9670;&nbsp;</a></span>UpdateMemberCallbackImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Discord.LobbyManager.UpdateMemberCallbackImpl </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_abd38e2465ede4025a7bcca6c29c7536b_cgraph.svg" width="459" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_abd38e2465ede4025a7bcca6c29c7536b_icgraph.svg" width="459" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ad3e068f06b6a673144e178bc6d15bbdb" name="ad3e068f06b6a673144e178bc6d15bbdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3e068f06b6a673144e178bc6d15bbdb">&#9670;&nbsp;</a></span>UpdateMemberHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.UpdateMemberHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_discord_1_1_lobby_manager_ad3e068f06b6a673144e178bc6d15bbdb_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a1e4dfed888900badf851151f865ce96a" name="a1e4dfed888900badf851151f865ce96a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e4dfed888900badf851151f865ce96a">&#9670;&nbsp;</a></span>MethodsPtr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Discord.LobbyManager.MethodsPtr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaee6c657c398778dd44d77659927b979" name="aaee6c657c398778dd44d77659927b979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee6c657c398778dd44d77659927b979">&#9670;&nbsp;</a></span>MethodsStructure</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object Discord.LobbyManager.MethodsStructure</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Propietats</h2>
+<a id="a12229395ae285e08a76f70a3175ae691" name="a12229395ae285e08a76f70a3175ae691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12229395ae285e08a76f70a3175ae691">&#9670;&nbsp;</a></span>Methods</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FFIMethods Discord.LobbyManager.Methods</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació dels Esdeveniments</h2>
+<a id="aaf13d764ddec97d54d28d30d4a36b2a5" name="aaf13d764ddec97d54d28d30d4a36b2a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf13d764ddec97d54d28d30d4a36b2a5">&#9670;&nbsp;</a></span>OnLobbyDelete</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_discord_1_1_lobby_manager.html#aedd2d58ee49ce3160079e225919ce787">LobbyDeleteHandler</a> Discord.LobbyManager.OnLobbyDelete</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb954018a78891d0826307f4cce67c1c" name="abb954018a78891d0826307f4cce67c1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb954018a78891d0826307f4cce67c1c">&#9670;&nbsp;</a></span>OnLobbyMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_discord_1_1_lobby_manager.html#a761a5399010331a15ce79371a4f81def">LobbyMessageHandler</a> Discord.LobbyManager.OnLobbyMessage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f8d410c2807acbc0acbd6b8052d0f12" name="a5f8d410c2807acbc0acbd6b8052d0f12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f8d410c2807acbc0acbd6b8052d0f12">&#9670;&nbsp;</a></span>OnLobbyUpdate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_discord_1_1_lobby_manager.html#afa6eafd3399355d147907d39a020d993">LobbyUpdateHandler</a> Discord.LobbyManager.OnLobbyUpdate</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd18e9fa0e71b2d63272feb2a4e72002" name="abd18e9fa0e71b2d63272feb2a4e72002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd18e9fa0e71b2d63272feb2a4e72002">&#9670;&nbsp;</a></span>OnMemberConnect</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_discord_1_1_lobby_manager.html#a20ac01a3c5a9cfa97ae8ca4a7cae6f86">MemberConnectHandler</a> Discord.LobbyManager.OnMemberConnect</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab260fca1fae235792d65712f85584e2f" name="ab260fca1fae235792d65712f85584e2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab260fca1fae235792d65712f85584e2f">&#9670;&nbsp;</a></span>OnMemberDisconnect</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_discord_1_1_lobby_manager.html#a53cb25f26f21e1c30aa8a2141b1caef9">MemberDisconnectHandler</a> Discord.LobbyManager.OnMemberDisconnect</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8af986376bdc16bf22b727d0112e0de" name="aa8af986376bdc16bf22b727d0112e0de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8af986376bdc16bf22b727d0112e0de">&#9670;&nbsp;</a></span>OnMemberUpdate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_discord_1_1_lobby_manager.html#a842dfee0ae7d83cedac91b1516ae2804">MemberUpdateHandler</a> Discord.LobbyManager.OnMemberUpdate</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad98fb794c2116428e2c9523e85d055db" name="ad98fb794c2116428e2c9523e85d055db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad98fb794c2116428e2c9523e85d055db">&#9670;&nbsp;</a></span>OnNetworkMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_discord_1_1_lobby_manager.html#aede67c117c4138bce25c6763b6b86647">NetworkMessageHandler</a> Discord.LobbyManager.OnNetworkMessage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9b2f370472d573fd8f316daaa2d9f65" name="ab9b2f370472d573fd8f316daaa2d9f65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9b2f370472d573fd8f316daaa2d9f65">&#9670;&nbsp;</a></span>OnSpeaking</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_discord_1_1_lobby_manager.html#a9e522b9b61bf55850add3c011817ef35">SpeakingHandler</a> Discord.LobbyManager.OnSpeaking</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir dels següents fitxers:<ul>
+<li>C:/Users/AleixFerre/Git Projects/TFG/Assets/Plugins/DiscordGameSDK/<a class="el" href="_core_8cs.html">Core.cs</a></li>
+<li>C:/Users/AleixFerre/Git Projects/TFG/Assets/Plugins/DiscordGameSDK/<a class="el" href="_lobby_manager_8cs.html">LobbyManager.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_discord.html">Discord</a></li><li class="navelem"><a class="el" href="class_discord_1_1_lobby_manager.html">LobbyManager</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+    toggleButton.title = "Toggle Light/Dark Mode"
+    document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<map id="TurretShooter.AttackWithPriority" name="TurretShooter.AttackWithPriority">
+<area shape="rect" id="node1" title=" " alt="" coords="431,23,600,65"/>
+<area shape="rect" id="node2" href="$class_turret_shooter.html#abdbfe8d7746ee1e665f8da7e1a423bf7" title=" " alt="" coords="244,31,383,57"/>
+<area shape="rect" id="node3" href="$class_turret_shooter.html#ac92c11affc1a61877bda45f9cedf9fe2" title=" " alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node4" href="$class_turret_shooter.html#a97a7bfbe5851c8fc0280d021ebacb793" title=" " alt="" coords="28,56,173,83"/>
+</map>

@@ -1,0 +1,2962 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta property="og:description" content="Docs for the implementation of my MOBA in Unity." />
+    <meta property="og:url" content="https://github.com/AleixFerre/TFG-Docs" />
+    <!-- END opengraph metadata -->
+    <!-- BEGIN twitter metadata -->
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta name="twitter:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta name="twitter:description" content="Docs for the implementation of my MOBA in Unity." />
+    <!-- END twitter metadata -->
+    <title>Treball de Fi de Grau: Referència de l&#39;Estructura Discord.LobbyManager.FFIMethods</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="icon.png" /></td>
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">Treball de Fi de Grau
+                                &#160;<span id="projectnumber">1.0</span>
+                            </div>
+                            <div id="projectbrief">Documentació pel treball de final de grau. Implementació d&#39;una base per un joc de gènere MOBA multijugador en línia.</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Generat per Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pac-methods">Funcions de Paquet</a> &#124;
+<a href="#pac-attribs">Atributs de Paquet</a> &#124;
+<a href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de l'Estructura Discord.LobbyManager.FFIMethods</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-methods" name="pac-methods"></a>
+Funcions de Paquet</h2></td></tr>
+<tr class="memitem:ac53e61e32f7ec52fe90d19f636aebb06"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ac53e61e32f7ec52fe90d19f636aebb06">GetLobbyCreateTransactionMethod</a> (IntPtr methodsPtr, ref IntPtr transaction)</td></tr>
+<tr class="separator:ac53e61e32f7ec52fe90d19f636aebb06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a894f72a80fe50147b34364e283ee722f"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a894f72a80fe50147b34364e283ee722f">GetLobbyUpdateTransactionMethod</a> (IntPtr methodsPtr, Int64 lobbyId, ref IntPtr transaction)</td></tr>
+<tr class="separator:a894f72a80fe50147b34364e283ee722f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416a6dca792c842c18dca92577341b3e"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a416a6dca792c842c18dca92577341b3e">GetMemberUpdateTransactionMethod</a> (IntPtr methodsPtr, Int64 lobbyId, Int64 userId, ref IntPtr transaction)</td></tr>
+<tr class="separator:a416a6dca792c842c18dca92577341b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b8591b345b88ea4e69eaf12c11fe948"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a5b8591b345b88ea4e69eaf12c11fe948">CreateLobbyCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result, ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a> lobby)</td></tr>
+<tr class="separator:a5b8591b345b88ea4e69eaf12c11fe948"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4de98029b2d2ec70ef1f6c8ff49aae"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aed4de98029b2d2ec70ef1f6c8ff49aae">CreateLobbyMethod</a> (IntPtr methodsPtr, IntPtr transaction, IntPtr callbackData, <a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a5b8591b345b88ea4e69eaf12c11fe948">CreateLobbyCallback</a> callback)</td></tr>
+<tr class="separator:aed4de98029b2d2ec70ef1f6c8ff49aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d636a6a511fd51d0d657c1682dda5d9"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a9d636a6a511fd51d0d657c1682dda5d9">UpdateLobbyCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a9d636a6a511fd51d0d657c1682dda5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95ce6c23b3438a1aee6d24de52dd7582"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a95ce6c23b3438a1aee6d24de52dd7582">UpdateLobbyMethod</a> (IntPtr methodsPtr, Int64 lobbyId, IntPtr transaction, IntPtr callbackData, <a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a9d636a6a511fd51d0d657c1682dda5d9">UpdateLobbyCallback</a> callback)</td></tr>
+<tr class="separator:a95ce6c23b3438a1aee6d24de52dd7582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdee2d7812e041821840fd1db2d8f195"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#afdee2d7812e041821840fd1db2d8f195">DeleteLobbyCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:afdee2d7812e041821840fd1db2d8f195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a387d3cc6be34513aab1c1059aa906ae5"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a387d3cc6be34513aab1c1059aa906ae5">DeleteLobbyMethod</a> (IntPtr methodsPtr, Int64 lobbyId, IntPtr callbackData, <a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#afdee2d7812e041821840fd1db2d8f195">DeleteLobbyCallback</a> callback)</td></tr>
+<tr class="separator:a387d3cc6be34513aab1c1059aa906ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a0df7cd953f9adfc6892b7462fd8dc4"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a6a0df7cd953f9adfc6892b7462fd8dc4">ConnectLobbyCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result, ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a> lobby)</td></tr>
+<tr class="separator:a6a0df7cd953f9adfc6892b7462fd8dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e3c543f4f917e61279c84ab000c0ae6"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a2e3c543f4f917e61279c84ab000c0ae6">ConnectLobbyMethod</a> (IntPtr methodsPtr, Int64 lobbyId, [MarshalAs(UnmanagedType.LPStr)]string secret, IntPtr callbackData, <a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a6a0df7cd953f9adfc6892b7462fd8dc4">ConnectLobbyCallback</a> callback)</td></tr>
+<tr class="separator:a2e3c543f4f917e61279c84ab000c0ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a8e1b90f3ed79cae645a588d65afbc7"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a0a8e1b90f3ed79cae645a588d65afbc7">ConnectLobbyWithActivitySecretCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result, ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a> lobby)</td></tr>
+<tr class="separator:a0a8e1b90f3ed79cae645a588d65afbc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa75279f92b19faa10dab461a0472f9bc"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aa75279f92b19faa10dab461a0472f9bc">ConnectLobbyWithActivitySecretMethod</a> (IntPtr methodsPtr, [MarshalAs(UnmanagedType.LPStr)]string activitySecret, IntPtr callbackData, <a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a0a8e1b90f3ed79cae645a588d65afbc7">ConnectLobbyWithActivitySecretCallback</a> callback)</td></tr>
+<tr class="separator:aa75279f92b19faa10dab461a0472f9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbfefcf916b85c1c2203aadddbd9ec4e"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#afbfefcf916b85c1c2203aadddbd9ec4e">DisconnectLobbyCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:afbfefcf916b85c1c2203aadddbd9ec4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f92b28b8d5b6cdbde42288fda7461cd"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a2f92b28b8d5b6cdbde42288fda7461cd">DisconnectLobbyMethod</a> (IntPtr methodsPtr, Int64 lobbyId, IntPtr callbackData, <a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#afbfefcf916b85c1c2203aadddbd9ec4e">DisconnectLobbyCallback</a> callback)</td></tr>
+<tr class="separator:a2f92b28b8d5b6cdbde42288fda7461cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8db1591ea6403c92ac5bb36800e1676"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ab8db1591ea6403c92ac5bb36800e1676">GetLobbyMethod</a> (IntPtr methodsPtr, Int64 lobbyId, ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a> lobby)</td></tr>
+<tr class="separator:ab8db1591ea6403c92ac5bb36800e1676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a778cbfe5422ce86fd26cda669ab5f5f8"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a778cbfe5422ce86fd26cda669ab5f5f8">GetLobbyActivitySecretMethod</a> (IntPtr methodsPtr, Int64 lobbyId, StringBuilder secret)</td></tr>
+<tr class="separator:a778cbfe5422ce86fd26cda669ab5f5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f98069eafa348872ee021e5d808d647"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a6f98069eafa348872ee021e5d808d647">GetLobbyMetadataValueMethod</a> (IntPtr methodsPtr, Int64 lobbyId, [MarshalAs(UnmanagedType.LPStr)]string key, StringBuilder value)</td></tr>
+<tr class="separator:a6f98069eafa348872ee021e5d808d647"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61f8a4a5de5d4386fc39171e4bf541a2"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a61f8a4a5de5d4386fc39171e4bf541a2">GetLobbyMetadataKeyMethod</a> (IntPtr methodsPtr, Int64 lobbyId, Int32 index, StringBuilder key)</td></tr>
+<tr class="separator:a61f8a4a5de5d4386fc39171e4bf541a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc8f3f19ca5d3c6f298409f17da3301c"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#acc8f3f19ca5d3c6f298409f17da3301c">LobbyMetadataCountMethod</a> (IntPtr methodsPtr, Int64 lobbyId, ref Int32 count)</td></tr>
+<tr class="separator:acc8f3f19ca5d3c6f298409f17da3301c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f7fb9d5d4d7c56a0401514db3c62fc"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a10f7fb9d5d4d7c56a0401514db3c62fc">MemberCountMethod</a> (IntPtr methodsPtr, Int64 lobbyId, ref Int32 count)</td></tr>
+<tr class="separator:a10f7fb9d5d4d7c56a0401514db3c62fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63230d387e0bdd8fffff7737cbbce657"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a63230d387e0bdd8fffff7737cbbce657">GetMemberUserIdMethod</a> (IntPtr methodsPtr, Int64 lobbyId, Int32 index, ref Int64 userId)</td></tr>
+<tr class="separator:a63230d387e0bdd8fffff7737cbbce657"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3916ff73417a8560837653d7126989d7"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a3916ff73417a8560837653d7126989d7">GetMemberUserMethod</a> (IntPtr methodsPtr, Int64 lobbyId, Int64 userId, ref <a class="el" href="struct_discord_1_1_user.html">User</a> user)</td></tr>
+<tr class="separator:a3916ff73417a8560837653d7126989d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d19cae160e3846972eebef9de37394a"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a2d19cae160e3846972eebef9de37394a">GetMemberMetadataValueMethod</a> (IntPtr methodsPtr, Int64 lobbyId, Int64 userId, [MarshalAs(UnmanagedType.LPStr)]string key, StringBuilder value)</td></tr>
+<tr class="separator:a2d19cae160e3846972eebef9de37394a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed6e1c8572ebe807a75ec275f6590f8e"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aed6e1c8572ebe807a75ec275f6590f8e">GetMemberMetadataKeyMethod</a> (IntPtr methodsPtr, Int64 lobbyId, Int64 userId, Int32 index, StringBuilder key)</td></tr>
+<tr class="separator:aed6e1c8572ebe807a75ec275f6590f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40facbb16399feb7acf7d70f38e58319"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a40facbb16399feb7acf7d70f38e58319">MemberMetadataCountMethod</a> (IntPtr methodsPtr, Int64 lobbyId, Int64 userId, ref Int32 count)</td></tr>
+<tr class="separator:a40facbb16399feb7acf7d70f38e58319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18981d6bee987b680ad96dcd5892cf33"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a18981d6bee987b680ad96dcd5892cf33">UpdateMemberCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a18981d6bee987b680ad96dcd5892cf33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3216d8f1f4be991fdf1fdbc6a1dcfca"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#af3216d8f1f4be991fdf1fdbc6a1dcfca">UpdateMemberMethod</a> (IntPtr methodsPtr, Int64 lobbyId, Int64 userId, IntPtr transaction, IntPtr callbackData, <a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a18981d6bee987b680ad96dcd5892cf33">UpdateMemberCallback</a> callback)</td></tr>
+<tr class="separator:af3216d8f1f4be991fdf1fdbc6a1dcfca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d46e217d63246600d523aacb8487d0c"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a2d46e217d63246600d523aacb8487d0c">SendLobbyMessageCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a2d46e217d63246600d523aacb8487d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe51260628f33407b0e7b929d9169119"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#afe51260628f33407b0e7b929d9169119">SendLobbyMessageMethod</a> (IntPtr methodsPtr, Int64 lobbyId, byte[] data, Int32 dataLen, IntPtr callbackData, <a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a2d46e217d63246600d523aacb8487d0c">SendLobbyMessageCallback</a> callback)</td></tr>
+<tr class="separator:afe51260628f33407b0e7b929d9169119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd3680971321bc00e6b0082ecad63375"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#acd3680971321bc00e6b0082ecad63375">GetSearchQueryMethod</a> (IntPtr methodsPtr, ref IntPtr query)</td></tr>
+<tr class="separator:acd3680971321bc00e6b0082ecad63375"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a797c2aba8046d45e995c901031316e07"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a797c2aba8046d45e995c901031316e07">SearchCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a797c2aba8046d45e995c901031316e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afca305bd62d159e666a2a611cb8dc62f"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#afca305bd62d159e666a2a611cb8dc62f">SearchMethod</a> (IntPtr methodsPtr, IntPtr query, IntPtr callbackData, <a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a797c2aba8046d45e995c901031316e07">SearchCallback</a> callback)</td></tr>
+<tr class="separator:afca305bd62d159e666a2a611cb8dc62f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3848d4316519f55059d317d63fc8a3e2"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a3848d4316519f55059d317d63fc8a3e2">LobbyCountMethod</a> (IntPtr methodsPtr, ref Int32 count)</td></tr>
+<tr class="separator:a3848d4316519f55059d317d63fc8a3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb3728f6223e2041ef5fecbb7e371aae"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aeb3728f6223e2041ef5fecbb7e371aae">GetLobbyIdMethod</a> (IntPtr methodsPtr, Int32 index, ref Int64 lobbyId)</td></tr>
+<tr class="separator:aeb3728f6223e2041ef5fecbb7e371aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a926b252109706cc2875682eda725ece6"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a926b252109706cc2875682eda725ece6">ConnectVoiceCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a926b252109706cc2875682eda725ece6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30b58200851df6c4281bb0944821a0f7"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a30b58200851df6c4281bb0944821a0f7">ConnectVoiceMethod</a> (IntPtr methodsPtr, Int64 lobbyId, IntPtr callbackData, <a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a926b252109706cc2875682eda725ece6">ConnectVoiceCallback</a> callback)</td></tr>
+<tr class="separator:a30b58200851df6c4281bb0944821a0f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa643aafb0152197234db45c292549d5e"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aa643aafb0152197234db45c292549d5e">DisconnectVoiceCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:aa643aafb0152197234db45c292549d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9256ff2048fd0a13337724ff3af5bca"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ad9256ff2048fd0a13337724ff3af5bca">DisconnectVoiceMethod</a> (IntPtr methodsPtr, Int64 lobbyId, IntPtr callbackData, <a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aa643aafb0152197234db45c292549d5e">DisconnectVoiceCallback</a> callback)</td></tr>
+<tr class="separator:ad9256ff2048fd0a13337724ff3af5bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6eb91550fb2e0f3dc73dbe186aeafea"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aa6eb91550fb2e0f3dc73dbe186aeafea">ConnectNetworkMethod</a> (IntPtr methodsPtr, Int64 lobbyId)</td></tr>
+<tr class="separator:aa6eb91550fb2e0f3dc73dbe186aeafea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a473d6e41d059bc08b6ac27c10d84258f"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a473d6e41d059bc08b6ac27c10d84258f">DisconnectNetworkMethod</a> (IntPtr methodsPtr, Int64 lobbyId)</td></tr>
+<tr class="separator:a473d6e41d059bc08b6ac27c10d84258f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a950d148d918d5196633072944ed178a1"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a950d148d918d5196633072944ed178a1">FlushNetworkMethod</a> (IntPtr methodsPtr)</td></tr>
+<tr class="separator:a950d148d918d5196633072944ed178a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf12e13dcbfe9f827f962ba17b7c8dbf"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#abf12e13dcbfe9f827f962ba17b7c8dbf">OpenNetworkChannelMethod</a> (IntPtr methodsPtr, Int64 lobbyId, byte channelId, bool reliable)</td></tr>
+<tr class="separator:abf12e13dcbfe9f827f962ba17b7c8dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465dc8b9c775f57ce1ab95cf9a4cd8cf"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a465dc8b9c775f57ce1ab95cf9a4cd8cf">SendNetworkMessageMethod</a> (IntPtr methodsPtr, Int64 lobbyId, Int64 userId, byte channelId, byte[] data, Int32 dataLen)</td></tr>
+<tr class="separator:a465dc8b9c775f57ce1ab95cf9a4cd8cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-attribs" name="pac-attribs"></a>
+Atributs de Paquet</h2></td></tr>
+<tr class="memitem:addb52a2aaf710ee422285a8cd322c625"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ac53e61e32f7ec52fe90d19f636aebb06">GetLobbyCreateTransactionMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#addb52a2aaf710ee422285a8cd322c625">GetLobbyCreateTransaction</a></td></tr>
+<tr class="separator:addb52a2aaf710ee422285a8cd322c625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a037d5597f11d6870b2e6b14347240a2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a894f72a80fe50147b34364e283ee722f">GetLobbyUpdateTransactionMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a037d5597f11d6870b2e6b14347240a2a">GetLobbyUpdateTransaction</a></td></tr>
+<tr class="separator:a037d5597f11d6870b2e6b14347240a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a354145f4808dea9af131050366de8b8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a416a6dca792c842c18dca92577341b3e">GetMemberUpdateTransactionMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a354145f4808dea9af131050366de8b8c">GetMemberUpdateTransaction</a></td></tr>
+<tr class="separator:a354145f4808dea9af131050366de8b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bbe482a57d4172a290affd8a60a7c4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aed4de98029b2d2ec70ef1f6c8ff49aae">CreateLobbyMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a1bbe482a57d4172a290affd8a60a7c4b">CreateLobby</a></td></tr>
+<tr class="separator:a1bbe482a57d4172a290affd8a60a7c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac589576823bb210e5e4b261c74bb62df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a95ce6c23b3438a1aee6d24de52dd7582">UpdateLobbyMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ac589576823bb210e5e4b261c74bb62df">UpdateLobby</a></td></tr>
+<tr class="separator:ac589576823bb210e5e4b261c74bb62df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09ffbc477acad3338a7f962fa2dc16d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a387d3cc6be34513aab1c1059aa906ae5">DeleteLobbyMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a09ffbc477acad3338a7f962fa2dc16d3">DeleteLobby</a></td></tr>
+<tr class="separator:a09ffbc477acad3338a7f962fa2dc16d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54ccc8bde93aa4e4c3cf4ebb7a2bb3e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a2e3c543f4f917e61279c84ab000c0ae6">ConnectLobbyMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a54ccc8bde93aa4e4c3cf4ebb7a2bb3e8">ConnectLobby</a></td></tr>
+<tr class="separator:a54ccc8bde93aa4e4c3cf4ebb7a2bb3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06f720900ff62c3a2b1d73cee5a499ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aa75279f92b19faa10dab461a0472f9bc">ConnectLobbyWithActivitySecretMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a06f720900ff62c3a2b1d73cee5a499ef">ConnectLobbyWithActivitySecret</a></td></tr>
+<tr class="separator:a06f720900ff62c3a2b1d73cee5a499ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e87946affba8e6dd2211a96526a832"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a2f92b28b8d5b6cdbde42288fda7461cd">DisconnectLobbyMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a58e87946affba8e6dd2211a96526a832">DisconnectLobby</a></td></tr>
+<tr class="separator:a58e87946affba8e6dd2211a96526a832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3bc2f8bb3bc645e8d24a78046184c08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ab8db1591ea6403c92ac5bb36800e1676">GetLobbyMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ad3bc2f8bb3bc645e8d24a78046184c08">GetLobby</a></td></tr>
+<tr class="separator:ad3bc2f8bb3bc645e8d24a78046184c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecfd74a20d5907f0737ee7766f9df8f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a778cbfe5422ce86fd26cda669ab5f5f8">GetLobbyActivitySecretMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aecfd74a20d5907f0737ee7766f9df8f7">GetLobbyActivitySecret</a></td></tr>
+<tr class="separator:aecfd74a20d5907f0737ee7766f9df8f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8579161f1069ae24575e71ae9a98d989"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a6f98069eafa348872ee021e5d808d647">GetLobbyMetadataValueMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a8579161f1069ae24575e71ae9a98d989">GetLobbyMetadataValue</a></td></tr>
+<tr class="separator:a8579161f1069ae24575e71ae9a98d989"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a74606b633a1d6e6a2993b9f498f16d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a61f8a4a5de5d4386fc39171e4bf541a2">GetLobbyMetadataKeyMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a7a74606b633a1d6e6a2993b9f498f16d">GetLobbyMetadataKey</a></td></tr>
+<tr class="separator:a7a74606b633a1d6e6a2993b9f498f16d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71ee3576d27fb5784d530d6d0f1280b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#acc8f3f19ca5d3c6f298409f17da3301c">LobbyMetadataCountMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a71ee3576d27fb5784d530d6d0f1280b1">LobbyMetadataCount</a></td></tr>
+<tr class="separator:a71ee3576d27fb5784d530d6d0f1280b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b44d04c07a1614db7021d4b7970ac8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a10f7fb9d5d4d7c56a0401514db3c62fc">MemberCountMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ac8b44d04c07a1614db7021d4b7970ac8">MemberCount</a></td></tr>
+<tr class="separator:ac8b44d04c07a1614db7021d4b7970ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7da9f14b2971d86cfa881760ff688426"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a63230d387e0bdd8fffff7737cbbce657">GetMemberUserIdMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a7da9f14b2971d86cfa881760ff688426">GetMemberUserId</a></td></tr>
+<tr class="separator:a7da9f14b2971d86cfa881760ff688426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dadb28fa654892f54ab85c98b4608c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a3916ff73417a8560837653d7126989d7">GetMemberUserMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a2dadb28fa654892f54ab85c98b4608c4">GetMemberUser</a></td></tr>
+<tr class="separator:a2dadb28fa654892f54ab85c98b4608c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b56163108a47642709d5345cace4316"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a2d19cae160e3846972eebef9de37394a">GetMemberMetadataValueMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a4b56163108a47642709d5345cace4316">GetMemberMetadataValue</a></td></tr>
+<tr class="separator:a4b56163108a47642709d5345cace4316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18a3ed5020dd5f3290f66f8c2af15810"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aed6e1c8572ebe807a75ec275f6590f8e">GetMemberMetadataKeyMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a18a3ed5020dd5f3290f66f8c2af15810">GetMemberMetadataKey</a></td></tr>
+<tr class="separator:a18a3ed5020dd5f3290f66f8c2af15810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58b4a04371038567663bec87c61c865c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a40facbb16399feb7acf7d70f38e58319">MemberMetadataCountMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a58b4a04371038567663bec87c61c865c">MemberMetadataCount</a></td></tr>
+<tr class="separator:a58b4a04371038567663bec87c61c865c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64562c7334b2370e319eb36c1fe247e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#af3216d8f1f4be991fdf1fdbc6a1dcfca">UpdateMemberMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a64562c7334b2370e319eb36c1fe247e0">UpdateMember</a></td></tr>
+<tr class="separator:a64562c7334b2370e319eb36c1fe247e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac75136f555c7e7d0a92c577b85735de0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#afe51260628f33407b0e7b929d9169119">SendLobbyMessageMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ac75136f555c7e7d0a92c577b85735de0">SendLobbyMessage</a></td></tr>
+<tr class="separator:ac75136f555c7e7d0a92c577b85735de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a373ec4e11594c2b98b9dbb23973407d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#acd3680971321bc00e6b0082ecad63375">GetSearchQueryMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a373ec4e11594c2b98b9dbb23973407d2">GetSearchQuery</a></td></tr>
+<tr class="separator:a373ec4e11594c2b98b9dbb23973407d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d68c9ddedbd29d4c77e7a58750e3b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#afca305bd62d159e666a2a611cb8dc62f">SearchMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ae0d68c9ddedbd29d4c77e7a58750e3b9">Search</a></td></tr>
+<tr class="separator:ae0d68c9ddedbd29d4c77e7a58750e3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2bdba65a7f186d9f40a72bb94b5c6c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a3848d4316519f55059d317d63fc8a3e2">LobbyCountMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ac2bdba65a7f186d9f40a72bb94b5c6c8">LobbyCount</a></td></tr>
+<tr class="separator:ac2bdba65a7f186d9f40a72bb94b5c6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6acdc00e2c252a336e90c92ef680ae5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aeb3728f6223e2041ef5fecbb7e371aae">GetLobbyIdMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a6acdc00e2c252a336e90c92ef680ae5a">GetLobbyId</a></td></tr>
+<tr class="separator:a6acdc00e2c252a336e90c92ef680ae5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bdc9cb7956dcdb8373daecc5a55cd69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a30b58200851df6c4281bb0944821a0f7">ConnectVoiceMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a9bdc9cb7956dcdb8373daecc5a55cd69">ConnectVoice</a></td></tr>
+<tr class="separator:a9bdc9cb7956dcdb8373daecc5a55cd69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7152bd7aab050eea25911e1a66849c3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ad9256ff2048fd0a13337724ff3af5bca">DisconnectVoiceMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a7152bd7aab050eea25911e1a66849c3c">DisconnectVoice</a></td></tr>
+<tr class="separator:a7152bd7aab050eea25911e1a66849c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae186437f142a5fe19618fe23b319b95f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aa6eb91550fb2e0f3dc73dbe186aeafea">ConnectNetworkMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ae186437f142a5fe19618fe23b319b95f">ConnectNetwork</a></td></tr>
+<tr class="separator:ae186437f142a5fe19618fe23b319b95f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1566f8842795d3529e42dfc25fef597"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a473d6e41d059bc08b6ac27c10d84258f">DisconnectNetworkMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ac1566f8842795d3529e42dfc25fef597">DisconnectNetwork</a></td></tr>
+<tr class="separator:ac1566f8842795d3529e42dfc25fef597"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaec3d381a9c2bb4e52b64227e6d383d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a950d148d918d5196633072944ed178a1">FlushNetworkMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aaec3d381a9c2bb4e52b64227e6d383d9">FlushNetwork</a></td></tr>
+<tr class="separator:aaec3d381a9c2bb4e52b64227e6d383d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb496c1889135f08937f15455f2c1b79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#abf12e13dcbfe9f827f962ba17b7c8dbf">OpenNetworkChannelMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#afb496c1889135f08937f15455f2c1b79">OpenNetworkChannel</a></td></tr>
+<tr class="separator:afb496c1889135f08937f15455f2c1b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3bcc481059ade966de405eee21d3357"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a465dc8b9c775f57ce1ab95cf9a4cd8cf">SendNetworkMessageMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ac3bcc481059ade966de405eee21d3357">SendNetworkMessage</a></td></tr>
+<tr class="separator:ac3bcc481059ade966de405eee21d3357"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a6a0df7cd953f9adfc6892b7462fd8dc4" name="a6a0df7cd953f9adfc6892b7462fd8dc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a0df7cd953f9adfc6892b7462fd8dc4">&#9670;&nbsp;</a></span>ConnectLobbyCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.ConnectLobbyCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a>&#160;</td>
+          <td class="paramname"><em>lobby</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e3c543f4f917e61279c84ab000c0ae6" name="a2e3c543f4f917e61279c84ab000c0ae6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e3c543f4f917e61279c84ab000c0ae6">&#9670;&nbsp;</a></span>ConnectLobbyMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.ConnectLobbyMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[MarshalAs(UnmanagedType.LPStr)] string&#160;</td>
+          <td class="paramname"><em>secret</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a6a0df7cd953f9adfc6892b7462fd8dc4">ConnectLobbyCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a8e1b90f3ed79cae645a588d65afbc7" name="a0a8e1b90f3ed79cae645a588d65afbc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a8e1b90f3ed79cae645a588d65afbc7">&#9670;&nbsp;</a></span>ConnectLobbyWithActivitySecretCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.ConnectLobbyWithActivitySecretCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a>&#160;</td>
+          <td class="paramname"><em>lobby</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa75279f92b19faa10dab461a0472f9bc" name="aa75279f92b19faa10dab461a0472f9bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa75279f92b19faa10dab461a0472f9bc">&#9670;&nbsp;</a></span>ConnectLobbyWithActivitySecretMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.ConnectLobbyWithActivitySecretMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[MarshalAs(UnmanagedType.LPStr)] string&#160;</td>
+          <td class="paramname"><em>activitySecret</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a0a8e1b90f3ed79cae645a588d65afbc7">ConnectLobbyWithActivitySecretCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6eb91550fb2e0f3dc73dbe186aeafea" name="aa6eb91550fb2e0f3dc73dbe186aeafea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6eb91550fb2e0f3dc73dbe186aeafea">&#9670;&nbsp;</a></span>ConnectNetworkMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.ConnectNetworkMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a926b252109706cc2875682eda725ece6" name="a926b252109706cc2875682eda725ece6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a926b252109706cc2875682eda725ece6">&#9670;&nbsp;</a></span>ConnectVoiceCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.ConnectVoiceCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30b58200851df6c4281bb0944821a0f7" name="a30b58200851df6c4281bb0944821a0f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30b58200851df6c4281bb0944821a0f7">&#9670;&nbsp;</a></span>ConnectVoiceMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.ConnectVoiceMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a926b252109706cc2875682eda725ece6">ConnectVoiceCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b8591b345b88ea4e69eaf12c11fe948" name="a5b8591b345b88ea4e69eaf12c11fe948"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b8591b345b88ea4e69eaf12c11fe948">&#9670;&nbsp;</a></span>CreateLobbyCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.CreateLobbyCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a>&#160;</td>
+          <td class="paramname"><em>lobby</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed4de98029b2d2ec70ef1f6c8ff49aae" name="aed4de98029b2d2ec70ef1f6c8ff49aae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed4de98029b2d2ec70ef1f6c8ff49aae">&#9670;&nbsp;</a></span>CreateLobbyMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.CreateLobbyMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>transaction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a5b8591b345b88ea4e69eaf12c11fe948">CreateLobbyCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afdee2d7812e041821840fd1db2d8f195" name="afdee2d7812e041821840fd1db2d8f195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdee2d7812e041821840fd1db2d8f195">&#9670;&nbsp;</a></span>DeleteLobbyCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.DeleteLobbyCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a387d3cc6be34513aab1c1059aa906ae5" name="a387d3cc6be34513aab1c1059aa906ae5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a387d3cc6be34513aab1c1059aa906ae5">&#9670;&nbsp;</a></span>DeleteLobbyMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.DeleteLobbyMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#afdee2d7812e041821840fd1db2d8f195">DeleteLobbyCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afbfefcf916b85c1c2203aadddbd9ec4e" name="afbfefcf916b85c1c2203aadddbd9ec4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbfefcf916b85c1c2203aadddbd9ec4e">&#9670;&nbsp;</a></span>DisconnectLobbyCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.DisconnectLobbyCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f92b28b8d5b6cdbde42288fda7461cd" name="a2f92b28b8d5b6cdbde42288fda7461cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f92b28b8d5b6cdbde42288fda7461cd">&#9670;&nbsp;</a></span>DisconnectLobbyMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.DisconnectLobbyMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#afbfefcf916b85c1c2203aadddbd9ec4e">DisconnectLobbyCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a473d6e41d059bc08b6ac27c10d84258f" name="a473d6e41d059bc08b6ac27c10d84258f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a473d6e41d059bc08b6ac27c10d84258f">&#9670;&nbsp;</a></span>DisconnectNetworkMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.DisconnectNetworkMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa643aafb0152197234db45c292549d5e" name="aa643aafb0152197234db45c292549d5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa643aafb0152197234db45c292549d5e">&#9670;&nbsp;</a></span>DisconnectVoiceCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.DisconnectVoiceCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9256ff2048fd0a13337724ff3af5bca" name="ad9256ff2048fd0a13337724ff3af5bca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9256ff2048fd0a13337724ff3af5bca">&#9670;&nbsp;</a></span>DisconnectVoiceMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.DisconnectVoiceMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aa643aafb0152197234db45c292549d5e">DisconnectVoiceCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a950d148d918d5196633072944ed178a1" name="a950d148d918d5196633072944ed178a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a950d148d918d5196633072944ed178a1">&#9670;&nbsp;</a></span>FlushNetworkMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.FlushNetworkMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a778cbfe5422ce86fd26cda669ab5f5f8" name="a778cbfe5422ce86fd26cda669ab5f5f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a778cbfe5422ce86fd26cda669ab5f5f8">&#9670;&nbsp;</a></span>GetLobbyActivitySecretMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.GetLobbyActivitySecretMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StringBuilder&#160;</td>
+          <td class="paramname"><em>secret</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac53e61e32f7ec52fe90d19f636aebb06" name="ac53e61e32f7ec52fe90d19f636aebb06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac53e61e32f7ec52fe90d19f636aebb06">&#9670;&nbsp;</a></span>GetLobbyCreateTransactionMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.GetLobbyCreateTransactionMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref IntPtr&#160;</td>
+          <td class="paramname"><em>transaction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb3728f6223e2041ef5fecbb7e371aae" name="aeb3728f6223e2041ef5fecbb7e371aae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb3728f6223e2041ef5fecbb7e371aae">&#9670;&nbsp;</a></span>GetLobbyIdMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.GetLobbyIdMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61f8a4a5de5d4386fc39171e4bf541a2" name="a61f8a4a5de5d4386fc39171e4bf541a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61f8a4a5de5d4386fc39171e4bf541a2">&#9670;&nbsp;</a></span>GetLobbyMetadataKeyMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.GetLobbyMetadataKeyMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StringBuilder&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f98069eafa348872ee021e5d808d647" name="a6f98069eafa348872ee021e5d808d647"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f98069eafa348872ee021e5d808d647">&#9670;&nbsp;</a></span>GetLobbyMetadataValueMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.GetLobbyMetadataValueMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[MarshalAs(UnmanagedType.LPStr)] string&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StringBuilder&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8db1591ea6403c92ac5bb36800e1676" name="ab8db1591ea6403c92ac5bb36800e1676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8db1591ea6403c92ac5bb36800e1676">&#9670;&nbsp;</a></span>GetLobbyMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.GetLobbyMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_lobby.html">Lobby</a>&#160;</td>
+          <td class="paramname"><em>lobby</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a894f72a80fe50147b34364e283ee722f" name="a894f72a80fe50147b34364e283ee722f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a894f72a80fe50147b34364e283ee722f">&#9670;&nbsp;</a></span>GetLobbyUpdateTransactionMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.GetLobbyUpdateTransactionMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref IntPtr&#160;</td>
+          <td class="paramname"><em>transaction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed6e1c8572ebe807a75ec275f6590f8e" name="aed6e1c8572ebe807a75ec275f6590f8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed6e1c8572ebe807a75ec275f6590f8e">&#9670;&nbsp;</a></span>GetMemberMetadataKeyMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.GetMemberMetadataKeyMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StringBuilder&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d19cae160e3846972eebef9de37394a" name="a2d19cae160e3846972eebef9de37394a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d19cae160e3846972eebef9de37394a">&#9670;&nbsp;</a></span>GetMemberMetadataValueMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.GetMemberMetadataValueMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[MarshalAs(UnmanagedType.LPStr)] string&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StringBuilder&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a416a6dca792c842c18dca92577341b3e" name="a416a6dca792c842c18dca92577341b3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a416a6dca792c842c18dca92577341b3e">&#9670;&nbsp;</a></span>GetMemberUpdateTransactionMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.GetMemberUpdateTransactionMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref IntPtr&#160;</td>
+          <td class="paramname"><em>transaction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63230d387e0bdd8fffff7737cbbce657" name="a63230d387e0bdd8fffff7737cbbce657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63230d387e0bdd8fffff7737cbbce657">&#9670;&nbsp;</a></span>GetMemberUserIdMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.GetMemberUserIdMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref Int64&#160;</td>
+          <td class="paramname"><em>userId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3916ff73417a8560837653d7126989d7" name="a3916ff73417a8560837653d7126989d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3916ff73417a8560837653d7126989d7">&#9670;&nbsp;</a></span>GetMemberUserMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.GetMemberUserMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_user.html">User</a>&#160;</td>
+          <td class="paramname"><em>user</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd3680971321bc00e6b0082ecad63375" name="acd3680971321bc00e6b0082ecad63375"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd3680971321bc00e6b0082ecad63375">&#9670;&nbsp;</a></span>GetSearchQueryMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.GetSearchQueryMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref IntPtr&#160;</td>
+          <td class="paramname"><em>query</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3848d4316519f55059d317d63fc8a3e2" name="a3848d4316519f55059d317d63fc8a3e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3848d4316519f55059d317d63fc8a3e2">&#9670;&nbsp;</a></span>LobbyCountMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.LobbyCountMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref Int32&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc8f3f19ca5d3c6f298409f17da3301c" name="acc8f3f19ca5d3c6f298409f17da3301c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc8f3f19ca5d3c6f298409f17da3301c">&#9670;&nbsp;</a></span>LobbyMetadataCountMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.LobbyMetadataCountMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref Int32&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10f7fb9d5d4d7c56a0401514db3c62fc" name="a10f7fb9d5d4d7c56a0401514db3c62fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f7fb9d5d4d7c56a0401514db3c62fc">&#9670;&nbsp;</a></span>MemberCountMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.MemberCountMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref Int32&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40facbb16399feb7acf7d70f38e58319" name="a40facbb16399feb7acf7d70f38e58319"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40facbb16399feb7acf7d70f38e58319">&#9670;&nbsp;</a></span>MemberMetadataCountMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.MemberMetadataCountMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref Int32&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf12e13dcbfe9f827f962ba17b7c8dbf" name="abf12e13dcbfe9f827f962ba17b7c8dbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf12e13dcbfe9f827f962ba17b7c8dbf">&#9670;&nbsp;</a></span>OpenNetworkChannelMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.OpenNetworkChannelMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reliable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a797c2aba8046d45e995c901031316e07" name="a797c2aba8046d45e995c901031316e07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a797c2aba8046d45e995c901031316e07">&#9670;&nbsp;</a></span>SearchCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.SearchCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afca305bd62d159e666a2a611cb8dc62f" name="afca305bd62d159e666a2a611cb8dc62f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afca305bd62d159e666a2a611cb8dc62f">&#9670;&nbsp;</a></span>SearchMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.SearchMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>query</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a797c2aba8046d45e995c901031316e07">SearchCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d46e217d63246600d523aacb8487d0c" name="a2d46e217d63246600d523aacb8487d0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d46e217d63246600d523aacb8487d0c">&#9670;&nbsp;</a></span>SendLobbyMessageCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.SendLobbyMessageCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe51260628f33407b0e7b929d9169119" name="afe51260628f33407b0e7b929d9169119"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe51260628f33407b0e7b929d9169119">&#9670;&nbsp;</a></span>SendLobbyMessageMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.SendLobbyMessageMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>dataLen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a2d46e217d63246600d523aacb8487d0c">SendLobbyMessageCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a465dc8b9c775f57ce1ab95cf9a4cd8cf" name="a465dc8b9c775f57ce1ab95cf9a4cd8cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a465dc8b9c775f57ce1ab95cf9a4cd8cf">&#9670;&nbsp;</a></span>SendNetworkMessageMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.LobbyManager.FFIMethods.SendNetworkMessageMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>channelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>dataLen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d636a6a511fd51d0d657c1682dda5d9" name="a9d636a6a511fd51d0d657c1682dda5d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d636a6a511fd51d0d657c1682dda5d9">&#9670;&nbsp;</a></span>UpdateLobbyCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.UpdateLobbyCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a95ce6c23b3438a1aee6d24de52dd7582" name="a95ce6c23b3438a1aee6d24de52dd7582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95ce6c23b3438a1aee6d24de52dd7582">&#9670;&nbsp;</a></span>UpdateLobbyMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.UpdateLobbyMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>transaction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a9d636a6a511fd51d0d657c1682dda5d9">UpdateLobbyCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18981d6bee987b680ad96dcd5892cf33" name="a18981d6bee987b680ad96dcd5892cf33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18981d6bee987b680ad96dcd5892cf33">&#9670;&nbsp;</a></span>UpdateMemberCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.UpdateMemberCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3216d8f1f4be991fdf1fdbc6a1dcfca" name="af3216d8f1f4be991fdf1fdbc6a1dcfca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3216d8f1f4be991fdf1fdbc6a1dcfca">&#9670;&nbsp;</a></span>UpdateMemberMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.LobbyManager.FFIMethods.UpdateMemberMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>lobbyId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>transaction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a18981d6bee987b680ad96dcd5892cf33">UpdateMemberCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a54ccc8bde93aa4e4c3cf4ebb7a2bb3e8" name="a54ccc8bde93aa4e4c3cf4ebb7a2bb3e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54ccc8bde93aa4e4c3cf4ebb7a2bb3e8">&#9670;&nbsp;</a></span>ConnectLobby</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a2e3c543f4f917e61279c84ab000c0ae6">ConnectLobbyMethod</a> Discord.LobbyManager.FFIMethods.ConnectLobby</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a06f720900ff62c3a2b1d73cee5a499ef" name="a06f720900ff62c3a2b1d73cee5a499ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06f720900ff62c3a2b1d73cee5a499ef">&#9670;&nbsp;</a></span>ConnectLobbyWithActivitySecret</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aa75279f92b19faa10dab461a0472f9bc">ConnectLobbyWithActivitySecretMethod</a> Discord.LobbyManager.FFIMethods.ConnectLobbyWithActivitySecret</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae186437f142a5fe19618fe23b319b95f" name="ae186437f142a5fe19618fe23b319b95f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae186437f142a5fe19618fe23b319b95f">&#9670;&nbsp;</a></span>ConnectNetwork</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aa6eb91550fb2e0f3dc73dbe186aeafea">ConnectNetworkMethod</a> Discord.LobbyManager.FFIMethods.ConnectNetwork</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bdc9cb7956dcdb8373daecc5a55cd69" name="a9bdc9cb7956dcdb8373daecc5a55cd69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bdc9cb7956dcdb8373daecc5a55cd69">&#9670;&nbsp;</a></span>ConnectVoice</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a30b58200851df6c4281bb0944821a0f7">ConnectVoiceMethod</a> Discord.LobbyManager.FFIMethods.ConnectVoice</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1bbe482a57d4172a290affd8a60a7c4b" name="a1bbe482a57d4172a290affd8a60a7c4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bbe482a57d4172a290affd8a60a7c4b">&#9670;&nbsp;</a></span>CreateLobby</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aed4de98029b2d2ec70ef1f6c8ff49aae">CreateLobbyMethod</a> Discord.LobbyManager.FFIMethods.CreateLobby</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09ffbc477acad3338a7f962fa2dc16d3" name="a09ffbc477acad3338a7f962fa2dc16d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09ffbc477acad3338a7f962fa2dc16d3">&#9670;&nbsp;</a></span>DeleteLobby</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a387d3cc6be34513aab1c1059aa906ae5">DeleteLobbyMethod</a> Discord.LobbyManager.FFIMethods.DeleteLobby</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58e87946affba8e6dd2211a96526a832" name="a58e87946affba8e6dd2211a96526a832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58e87946affba8e6dd2211a96526a832">&#9670;&nbsp;</a></span>DisconnectLobby</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a2f92b28b8d5b6cdbde42288fda7461cd">DisconnectLobbyMethod</a> Discord.LobbyManager.FFIMethods.DisconnectLobby</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1566f8842795d3529e42dfc25fef597" name="ac1566f8842795d3529e42dfc25fef597"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1566f8842795d3529e42dfc25fef597">&#9670;&nbsp;</a></span>DisconnectNetwork</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a473d6e41d059bc08b6ac27c10d84258f">DisconnectNetworkMethod</a> Discord.LobbyManager.FFIMethods.DisconnectNetwork</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7152bd7aab050eea25911e1a66849c3c" name="a7152bd7aab050eea25911e1a66849c3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7152bd7aab050eea25911e1a66849c3c">&#9670;&nbsp;</a></span>DisconnectVoice</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ad9256ff2048fd0a13337724ff3af5bca">DisconnectVoiceMethod</a> Discord.LobbyManager.FFIMethods.DisconnectVoice</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaec3d381a9c2bb4e52b64227e6d383d9" name="aaec3d381a9c2bb4e52b64227e6d383d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaec3d381a9c2bb4e52b64227e6d383d9">&#9670;&nbsp;</a></span>FlushNetwork</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a950d148d918d5196633072944ed178a1">FlushNetworkMethod</a> Discord.LobbyManager.FFIMethods.FlushNetwork</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3bc2f8bb3bc645e8d24a78046184c08" name="ad3bc2f8bb3bc645e8d24a78046184c08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3bc2f8bb3bc645e8d24a78046184c08">&#9670;&nbsp;</a></span>GetLobby</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ab8db1591ea6403c92ac5bb36800e1676">GetLobbyMethod</a> Discord.LobbyManager.FFIMethods.GetLobby</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aecfd74a20d5907f0737ee7766f9df8f7" name="aecfd74a20d5907f0737ee7766f9df8f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecfd74a20d5907f0737ee7766f9df8f7">&#9670;&nbsp;</a></span>GetLobbyActivitySecret</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a778cbfe5422ce86fd26cda669ab5f5f8">GetLobbyActivitySecretMethod</a> Discord.LobbyManager.FFIMethods.GetLobbyActivitySecret</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="addb52a2aaf710ee422285a8cd322c625" name="addb52a2aaf710ee422285a8cd322c625"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addb52a2aaf710ee422285a8cd322c625">&#9670;&nbsp;</a></span>GetLobbyCreateTransaction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#ac53e61e32f7ec52fe90d19f636aebb06">GetLobbyCreateTransactionMethod</a> Discord.LobbyManager.FFIMethods.GetLobbyCreateTransaction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6acdc00e2c252a336e90c92ef680ae5a" name="a6acdc00e2c252a336e90c92ef680ae5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6acdc00e2c252a336e90c92ef680ae5a">&#9670;&nbsp;</a></span>GetLobbyId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aeb3728f6223e2041ef5fecbb7e371aae">GetLobbyIdMethod</a> Discord.LobbyManager.FFIMethods.GetLobbyId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a74606b633a1d6e6a2993b9f498f16d" name="a7a74606b633a1d6e6a2993b9f498f16d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a74606b633a1d6e6a2993b9f498f16d">&#9670;&nbsp;</a></span>GetLobbyMetadataKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a61f8a4a5de5d4386fc39171e4bf541a2">GetLobbyMetadataKeyMethod</a> Discord.LobbyManager.FFIMethods.GetLobbyMetadataKey</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8579161f1069ae24575e71ae9a98d989" name="a8579161f1069ae24575e71ae9a98d989"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8579161f1069ae24575e71ae9a98d989">&#9670;&nbsp;</a></span>GetLobbyMetadataValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a6f98069eafa348872ee021e5d808d647">GetLobbyMetadataValueMethod</a> Discord.LobbyManager.FFIMethods.GetLobbyMetadataValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a037d5597f11d6870b2e6b14347240a2a" name="a037d5597f11d6870b2e6b14347240a2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a037d5597f11d6870b2e6b14347240a2a">&#9670;&nbsp;</a></span>GetLobbyUpdateTransaction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a894f72a80fe50147b34364e283ee722f">GetLobbyUpdateTransactionMethod</a> Discord.LobbyManager.FFIMethods.GetLobbyUpdateTransaction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18a3ed5020dd5f3290f66f8c2af15810" name="a18a3ed5020dd5f3290f66f8c2af15810"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18a3ed5020dd5f3290f66f8c2af15810">&#9670;&nbsp;</a></span>GetMemberMetadataKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#aed6e1c8572ebe807a75ec275f6590f8e">GetMemberMetadataKeyMethod</a> Discord.LobbyManager.FFIMethods.GetMemberMetadataKey</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b56163108a47642709d5345cace4316" name="a4b56163108a47642709d5345cace4316"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b56163108a47642709d5345cace4316">&#9670;&nbsp;</a></span>GetMemberMetadataValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a2d19cae160e3846972eebef9de37394a">GetMemberMetadataValueMethod</a> Discord.LobbyManager.FFIMethods.GetMemberMetadataValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a354145f4808dea9af131050366de8b8c" name="a354145f4808dea9af131050366de8b8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a354145f4808dea9af131050366de8b8c">&#9670;&nbsp;</a></span>GetMemberUpdateTransaction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a416a6dca792c842c18dca92577341b3e">GetMemberUpdateTransactionMethod</a> Discord.LobbyManager.FFIMethods.GetMemberUpdateTransaction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2dadb28fa654892f54ab85c98b4608c4" name="a2dadb28fa654892f54ab85c98b4608c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dadb28fa654892f54ab85c98b4608c4">&#9670;&nbsp;</a></span>GetMemberUser</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a3916ff73417a8560837653d7126989d7">GetMemberUserMethod</a> Discord.LobbyManager.FFIMethods.GetMemberUser</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7da9f14b2971d86cfa881760ff688426" name="a7da9f14b2971d86cfa881760ff688426"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7da9f14b2971d86cfa881760ff688426">&#9670;&nbsp;</a></span>GetMemberUserId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a63230d387e0bdd8fffff7737cbbce657">GetMemberUserIdMethod</a> Discord.LobbyManager.FFIMethods.GetMemberUserId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a373ec4e11594c2b98b9dbb23973407d2" name="a373ec4e11594c2b98b9dbb23973407d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a373ec4e11594c2b98b9dbb23973407d2">&#9670;&nbsp;</a></span>GetSearchQuery</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#acd3680971321bc00e6b0082ecad63375">GetSearchQueryMethod</a> Discord.LobbyManager.FFIMethods.GetSearchQuery</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2bdba65a7f186d9f40a72bb94b5c6c8" name="ac2bdba65a7f186d9f40a72bb94b5c6c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2bdba65a7f186d9f40a72bb94b5c6c8">&#9670;&nbsp;</a></span>LobbyCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a3848d4316519f55059d317d63fc8a3e2">LobbyCountMethod</a> Discord.LobbyManager.FFIMethods.LobbyCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71ee3576d27fb5784d530d6d0f1280b1" name="a71ee3576d27fb5784d530d6d0f1280b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71ee3576d27fb5784d530d6d0f1280b1">&#9670;&nbsp;</a></span>LobbyMetadataCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#acc8f3f19ca5d3c6f298409f17da3301c">LobbyMetadataCountMethod</a> Discord.LobbyManager.FFIMethods.LobbyMetadataCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac8b44d04c07a1614db7021d4b7970ac8" name="ac8b44d04c07a1614db7021d4b7970ac8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8b44d04c07a1614db7021d4b7970ac8">&#9670;&nbsp;</a></span>MemberCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a10f7fb9d5d4d7c56a0401514db3c62fc">MemberCountMethod</a> Discord.LobbyManager.FFIMethods.MemberCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58b4a04371038567663bec87c61c865c" name="a58b4a04371038567663bec87c61c865c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58b4a04371038567663bec87c61c865c">&#9670;&nbsp;</a></span>MemberMetadataCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a40facbb16399feb7acf7d70f38e58319">MemberMetadataCountMethod</a> Discord.LobbyManager.FFIMethods.MemberMetadataCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb496c1889135f08937f15455f2c1b79" name="afb496c1889135f08937f15455f2c1b79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb496c1889135f08937f15455f2c1b79">&#9670;&nbsp;</a></span>OpenNetworkChannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#abf12e13dcbfe9f827f962ba17b7c8dbf">OpenNetworkChannelMethod</a> Discord.LobbyManager.FFIMethods.OpenNetworkChannel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0d68c9ddedbd29d4c77e7a58750e3b9" name="ae0d68c9ddedbd29d4c77e7a58750e3b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0d68c9ddedbd29d4c77e7a58750e3b9">&#9670;&nbsp;</a></span>Search</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#afca305bd62d159e666a2a611cb8dc62f">SearchMethod</a> Discord.LobbyManager.FFIMethods.Search</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac75136f555c7e7d0a92c577b85735de0" name="ac75136f555c7e7d0a92c577b85735de0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac75136f555c7e7d0a92c577b85735de0">&#9670;&nbsp;</a></span>SendLobbyMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#afe51260628f33407b0e7b929d9169119">SendLobbyMessageMethod</a> Discord.LobbyManager.FFIMethods.SendLobbyMessage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac3bcc481059ade966de405eee21d3357" name="ac3bcc481059ade966de405eee21d3357"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3bcc481059ade966de405eee21d3357">&#9670;&nbsp;</a></span>SendNetworkMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a465dc8b9c775f57ce1ab95cf9a4cd8cf">SendNetworkMessageMethod</a> Discord.LobbyManager.FFIMethods.SendNetworkMessage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac589576823bb210e5e4b261c74bb62df" name="ac589576823bb210e5e4b261c74bb62df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac589576823bb210e5e4b261c74bb62df">&#9670;&nbsp;</a></span>UpdateLobby</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#a95ce6c23b3438a1aee6d24de52dd7582">UpdateLobbyMethod</a> Discord.LobbyManager.FFIMethods.UpdateLobby</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64562c7334b2370e319eb36c1fe247e0" name="a64562c7334b2370e319eb36c1fe247e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64562c7334b2370e319eb36c1fe247e0">&#9670;&nbsp;</a></span>UpdateMember</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html#af3216d8f1f4be991fdf1fdbc6a1dcfca">UpdateMemberMethod</a> Discord.LobbyManager.FFIMethods.UpdateMember</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta estructura es va generar a partir del següent fitxer:<ul>
+<li>C:/Users/AleixFerre/Git Projects/TFG/Assets/Plugins/DiscordGameSDK/<a class="el" href="_core_8cs.html">Core.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_discord.html">Discord</a></li><li class="navelem"><a class="el" href="class_discord_1_1_lobby_manager.html">LobbyManager</a></li><li class="navelem"><a class="el" href="struct_discord_1_1_lobby_manager_1_1_f_f_i_methods.html">FFIMethods</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+    toggleButton.title = "Toggle Light/Dark Mode"
+    document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,564 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta property="og:description" content="Docs for the implementation of my MOBA in Unity." />
+    <meta property="og:url" content="https://github.com/AleixFerre/TFG-Docs" />
+    <!-- END opengraph metadata -->
+    <!-- BEGIN twitter metadata -->
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/AleixFerre/TFG-Docs/main/icon.png" />
+    <meta name="twitter:title" content="TFG MOBA Docs - Aleix Ferré" />
+    <meta name="twitter:description" content="Docs for the implementation of my MOBA in Unity." />
+    <!-- END twitter metadata -->
+    <title>Treball de Fi de Grau: Referència de l&#39;Estructura Discord.AchievementManager.FFIMethods</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectlogo"><img alt="Logo" src="icon.png" /></td>
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">Treball de Fi de Grau
+                                &#160;<span id="projectnumber">1.0</span>
+                            </div>
+                            <div id="projectbrief">Documentació pel treball de final de grau. Implementació d&#39;una base per un joc de gènere MOBA multijugador en línia.</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Generat per Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pac-methods">Funcions de Paquet</a> &#124;
+<a href="#pac-attribs">Atributs de Paquet</a> &#124;
+<a href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de l'Estructura Discord.AchievementManager.FFIMethods</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-methods" name="pac-methods"></a>
+Funcions de Paquet</h2></td></tr>
+<tr class="memitem:a43042f23a245d35900638e565b53bcf0"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#a43042f23a245d35900638e565b53bcf0">SetUserAchievementCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:a43042f23a245d35900638e565b53bcf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1a06234d8e68e680e5f81a7ad0c22e5"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#ab1a06234d8e68e680e5f81a7ad0c22e5">SetUserAchievementMethod</a> (IntPtr methodsPtr, Int64 achievementId, byte percentComplete, IntPtr callbackData, <a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#a43042f23a245d35900638e565b53bcf0">SetUserAchievementCallback</a> callback)</td></tr>
+<tr class="separator:ab1a06234d8e68e680e5f81a7ad0c22e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad826d531f69fad17a8c13545cd74887e"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#ad826d531f69fad17a8c13545cd74887e">FetchUserAchievementsCallback</a> (IntPtr ptr, <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> result)</td></tr>
+<tr class="separator:ad826d531f69fad17a8c13545cd74887e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22e155bf2cec6ef59663516f149b7710"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#a22e155bf2cec6ef59663516f149b7710">FetchUserAchievementsMethod</a> (IntPtr methodsPtr, IntPtr callbackData, <a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#ad826d531f69fad17a8c13545cd74887e">FetchUserAchievementsCallback</a> callback)</td></tr>
+<tr class="separator:a22e155bf2cec6ef59663516f149b7710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa51cfd974917d6d191b2129676c9fa"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#acaa51cfd974917d6d191b2129676c9fa">CountUserAchievementsMethod</a> (IntPtr methodsPtr, ref Int32 count)</td></tr>
+<tr class="separator:acaa51cfd974917d6d191b2129676c9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0280aab8e5e7e08b3102ec9db7ebf9d0"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#a0280aab8e5e7e08b3102ec9db7ebf9d0">GetUserAchievementMethod</a> (IntPtr methodsPtr, Int64 userAchievementId, ref <a class="el" href="struct_discord_1_1_user_achievement.html">UserAchievement</a> userAchievement)</td></tr>
+<tr class="separator:a0280aab8e5e7e08b3102ec9db7ebf9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa84676563fb2b20f480cd2f5e8ab2243"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#aa84676563fb2b20f480cd2f5e8ab2243">GetUserAchievementAtMethod</a> (IntPtr methodsPtr, Int32 index, ref <a class="el" href="struct_discord_1_1_user_achievement.html">UserAchievement</a> userAchievement)</td></tr>
+<tr class="separator:aa84676563fb2b20f480cd2f5e8ab2243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-attribs" name="pac-attribs"></a>
+Atributs de Paquet</h2></td></tr>
+<tr class="memitem:acf18da54ef063ad39a7545fef7c9f05b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#ab1a06234d8e68e680e5f81a7ad0c22e5">SetUserAchievementMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#acf18da54ef063ad39a7545fef7c9f05b">SetUserAchievement</a></td></tr>
+<tr class="separator:acf18da54ef063ad39a7545fef7c9f05b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ae0822e10dab585d4b4549c58315e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#a22e155bf2cec6ef59663516f149b7710">FetchUserAchievementsMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#a27ae0822e10dab585d4b4549c58315e3">FetchUserAchievements</a></td></tr>
+<tr class="separator:a27ae0822e10dab585d4b4549c58315e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3897f046908cf409c50aaa1a0460d862"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#acaa51cfd974917d6d191b2129676c9fa">CountUserAchievementsMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#a3897f046908cf409c50aaa1a0460d862">CountUserAchievements</a></td></tr>
+<tr class="separator:a3897f046908cf409c50aaa1a0460d862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41ec2f83af7482018a1a4cfacc0750f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#a0280aab8e5e7e08b3102ec9db7ebf9d0">GetUserAchievementMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#a41ec2f83af7482018a1a4cfacc0750f2">GetUserAchievement</a></td></tr>
+<tr class="separator:a41ec2f83af7482018a1a4cfacc0750f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a420f753668b63b52d5be57fc10d78644"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#aa84676563fb2b20f480cd2f5e8ab2243">GetUserAchievementAtMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#a420f753668b63b52d5be57fc10d78644">GetUserAchievementAt</a></td></tr>
+<tr class="separator:a420f753668b63b52d5be57fc10d78644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="acaa51cfd974917d6d191b2129676c9fa" name="acaa51cfd974917d6d191b2129676c9fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaa51cfd974917d6d191b2129676c9fa">&#9670;&nbsp;</a></span>CountUserAchievementsMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.AchievementManager.FFIMethods.CountUserAchievementsMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref Int32&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad826d531f69fad17a8c13545cd74887e" name="ad826d531f69fad17a8c13545cd74887e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad826d531f69fad17a8c13545cd74887e">&#9670;&nbsp;</a></span>FetchUserAchievementsCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.AchievementManager.FFIMethods.FetchUserAchievementsCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22e155bf2cec6ef59663516f149b7710" name="a22e155bf2cec6ef59663516f149b7710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22e155bf2cec6ef59663516f149b7710">&#9670;&nbsp;</a></span>FetchUserAchievementsMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.AchievementManager.FFIMethods.FetchUserAchievementsMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#ad826d531f69fad17a8c13545cd74887e">FetchUserAchievementsCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa84676563fb2b20f480cd2f5e8ab2243" name="aa84676563fb2b20f480cd2f5e8ab2243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa84676563fb2b20f480cd2f5e8ab2243">&#9670;&nbsp;</a></span>GetUserAchievementAtMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.AchievementManager.FFIMethods.GetUserAchievementAtMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_user_achievement.html">UserAchievement</a>&#160;</td>
+          <td class="paramname"><em>userAchievement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0280aab8e5e7e08b3102ec9db7ebf9d0" name="a0280aab8e5e7e08b3102ec9db7ebf9d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0280aab8e5e7e08b3102ec9db7ebf9d0">&#9670;&nbsp;</a></span>GetUserAchievementMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate <a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a> Discord.AchievementManager.FFIMethods.GetUserAchievementMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>userAchievementId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref <a class="el" href="struct_discord_1_1_user_achievement.html">UserAchievement</a>&#160;</td>
+          <td class="paramname"><em>userAchievement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43042f23a245d35900638e565b53bcf0" name="a43042f23a245d35900638e565b53bcf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43042f23a245d35900638e565b53bcf0">&#9670;&nbsp;</a></span>SetUserAchievementCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.AchievementManager.FFIMethods.SetUserAchievementCallback </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781">Result</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1a06234d8e68e680e5f81a7ad0c22e5" name="ab1a06234d8e68e680e5f81a7ad0c22e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1a06234d8e68e680e5f81a7ad0c22e5">&#9670;&nbsp;</a></span>SetUserAchievementMethod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Discord.AchievementManager.FFIMethods.SetUserAchievementMethod </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>methodsPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>achievementId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>percentComplete</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>callbackData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#a43042f23a245d35900638e565b53bcf0">SetUserAchievementCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a3897f046908cf409c50aaa1a0460d862" name="a3897f046908cf409c50aaa1a0460d862"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3897f046908cf409c50aaa1a0460d862">&#9670;&nbsp;</a></span>CountUserAchievements</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#acaa51cfd974917d6d191b2129676c9fa">CountUserAchievementsMethod</a> Discord.AchievementManager.FFIMethods.CountUserAchievements</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27ae0822e10dab585d4b4549c58315e3" name="a27ae0822e10dab585d4b4549c58315e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27ae0822e10dab585d4b4549c58315e3">&#9670;&nbsp;</a></span>FetchUserAchievements</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#a22e155bf2cec6ef59663516f149b7710">FetchUserAchievementsMethod</a> Discord.AchievementManager.FFIMethods.FetchUserAchievements</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41ec2f83af7482018a1a4cfacc0750f2" name="a41ec2f83af7482018a1a4cfacc0750f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ec2f83af7482018a1a4cfacc0750f2">&#9670;&nbsp;</a></span>GetUserAchievement</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#a0280aab8e5e7e08b3102ec9db7ebf9d0">GetUserAchievementMethod</a> Discord.AchievementManager.FFIMethods.GetUserAchievement</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a420f753668b63b52d5be57fc10d78644" name="a420f753668b63b52d5be57fc10d78644"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a420f753668b63b52d5be57fc10d78644">&#9670;&nbsp;</a></span>GetUserAchievementAt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#aa84676563fb2b20f480cd2f5e8ab2243">GetUserAchievementAtMethod</a> Discord.AchievementManager.FFIMethods.GetUserAchievementAt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf18da54ef063ad39a7545fef7c9f05b" name="acf18da54ef063ad39a7545fef7c9f05b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf18da54ef063ad39a7545fef7c9f05b">&#9670;&nbsp;</a></span>SetUserAchievement</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html#ab1a06234d8e68e680e5f81a7ad0c22e5">SetUserAchievementMethod</a> Discord.AchievementManager.FFIMethods.SetUserAchievement</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta estructura es va generar a partir del següent fitxer:<ul>
+<li>C:/Users/AleixFerre/Git Projects/TFG/Assets/Plugins/DiscordGameSDK/<a class="el" href="_core_8cs.html">Core.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_discord.html">Discord</a></li><li class="navelem"><a class="el" href="class_discord_1_1_achievement_manager.html">AchievementManager</a></li><li class="navelem"><a class="el" href="struct_discord_1_1_achievement_manager_1_1_f_f_i_methods.html">FFIMethods</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+    toggleButton.title = "Toggle Light/Dark Mode"
+    document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+  })
+</script>
+</body>
+</html>

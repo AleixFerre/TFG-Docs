@@ -1,0 +1,8 @@
+<map id="MinionAI.Attack" name="MinionAI.Attack">
+<area shape="rect" id="node1" title=" " alt="" coords="404,81,519,108"/>
+<area shape="rect" id="node2" href="$class_minion_a_i.html#a09c01338937d9f42fa47d55ca1a36cb6" title=" " alt="" coords="195,5,355,32"/>
+<area shape="rect" id="node4" href="$class_minion_a_i.html#a0fc1bd659496863102f9294e09a2a328" title=" " alt="" coords="193,56,356,83"/>
+<area shape="rect" id="node5" href="$class_minion_a_i.html#abe6357773e5b7ab64896a0403ca3bccc" title=" " alt="" coords="197,107,352,133"/>
+<area shape="rect" id="node6" href="$class_minion_a_i.html#aaac498df3854c92e7b81bc0f36071a8b" title=" " alt="" coords="216,157,333,184"/>
+<area shape="rect" id="node3" href="$class_minion_attack.html#a9302ebf23d762d3fad0506021ded19d5" title=" " alt="" coords="5,5,145,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="PlayerHUDController.InitializeAbilities" name="PlayerHUDController.InitializeAbilities">
+<area shape="rect" id="node1" title=" " alt="" coords="5,23,197,65"/>
+<area shape="rect" id="node2" href="$class_ability_cooldown.html#aa01c150ac26f1694a1e174e152510094" title="Initializes the current AbilityCooldown." alt="" coords="245,31,411,57"/>
+<area shape="rect" id="node3" href="$class_ability_cooldown.html#a2142f4ae1a75b2e88bd33d8553680a33" title="This function is called whenever this ability is ready and you have enough mana." alt="" coords="459,5,649,32"/>
+<area shape="rect" id="node4" href="$class_ability.html#a680fce4c2981c462afc82d28fe3958ef" title=" " alt="" coords="499,56,609,83"/>
+</map>

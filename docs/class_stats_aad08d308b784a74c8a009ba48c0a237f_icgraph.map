@@ -1,0 +1,10 @@
+<map id="Stats.GetRange" name="Stats.GetRange">
+<area shape="rect" id="node1" title="Returns the range of the entity" alt="" coords="875,56,989,83"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#ab3af90aeca2c49cac5ec15500ba15d8a" title="Returns true if the Player is in range with the other entity" alt="" coords="667,5,817,32"/>
+<area shape="rect" id="node5" href="$class_basic_attack.html#abfcbbc50cfd92e9ca75bd41a5ad17990" title=" " alt="" coords="5,31,144,57"/>
+<area shape="rect" id="node6" href="$class_target_attack_indicator.html#a9c5085eee4193a588f1673329c646e75" title="Sets the current target to the indicator" alt="" coords="657,107,827,149"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#ae3f3c15bb7d83955090bb397985aa006" title="Returns true if the current entity can BasicAttack the other." alt="" coords="421,5,575,32"/>
+<area shape="rect" id="node4" href="$class_basic_attack.html#a5d09a3ef54dfac2ab6130195c188492e" title=" " alt="" coords="192,5,339,32"/>
+<area shape="rect" id="node7" href="$class_basic_attack.html#ace5923cbff178c07c4583cf0d611f2f2" title=" " alt="" coords="403,111,593,137"/>
+<area shape="rect" id="node8" href="$class_basic_attack.html#a03148795ea9c5a156263877844e35edc" title=" " alt="" coords="387,161,609,188"/>
+</map>

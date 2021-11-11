@@ -1,0 +1,9 @@
+<map id="BasicAttack.CastRay" name="BasicAttack.CastRay">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,152,83"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#ae3f3c15bb7d83955090bb397985aa006" title="Returns true if the current entity can BasicAttack the other." alt="" coords="221,5,375,32"/>
+<area shape="rect" id="node5" href="$class_basic_attack.html#a965a4cbb50653a0b2ed02e8bf1f88433" title=" " alt="" coords="217,56,379,83"/>
+<area shape="rect" id="node7" href="$class_basic_attack.html#a6700fa1b84e430381504535f20c2e3d8" title=" " alt="" coords="200,107,396,133"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#ab3af90aeca2c49cac5ec15500ba15d8a" title="Returns true if the Player is in range with the other entity" alt="" coords="452,5,603,32"/>
+<area shape="rect" id="node4" href="$class_stats.html#aad08d308b784a74c8a009ba48c0a237f" title="Returns the range of the entity" alt="" coords="659,5,773,32"/>
+<area shape="rect" id="node6" href="$class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="444,78,611,119"/>
+</map>

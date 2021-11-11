@@ -1,0 +1,5 @@
+<map id="AbilityCooldown.Initialize" name="AbilityCooldown.Initialize">
+<area shape="rect" id="node1" title="Initializes the current AbilityCooldown." alt="" coords="5,31,171,57"/>
+<area shape="rect" id="node2" href="$class_ability_cooldown.html#a2142f4ae1a75b2e88bd33d8553680a33" title="This function is called whenever this ability is ready and you have enough mana." alt="" coords="219,5,409,32"/>
+<area shape="rect" id="node3" href="$class_ability.html#a680fce4c2981c462afc82d28fe3958ef" title=" " alt="" coords="259,56,369,83"/>
+</map>

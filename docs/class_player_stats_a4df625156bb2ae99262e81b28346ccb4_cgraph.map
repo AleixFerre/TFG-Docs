@@ -1,0 +1,6 @@
+<map id="PlayerStats.BlockAbilityForSeconds" name="PlayerStats.BlockAbilityForSeconds">
+<area shape="rect" id="node1" title=" " alt="" coords="5,27,168,69"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#a12436c563a621825a095f0fcbee67e74" title=" " alt="" coords="216,5,423,32"/>
+<area shape="rect" id="node3" href="$class_ability_cooldown.html#abe17348393bdde47c5aef87b5311593c" title="This resets the state of the player when it exits the ability state" alt="" coords="234,57,405,98"/>
+<area shape="rect" id="node4" href="$class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="471,57,637,98"/>
+</map>

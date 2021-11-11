@@ -1,0 +1,6 @@
+<map id="HealEffect" name="HealEffect">
+<area shape="rect" id="node1" title=" " alt="" coords="24,229,105,256"/>
+<area shape="rect" id="node2" href="$class_instant_effect.html" title="InstantEffect és un encapsulador per tots els Effect que s&#39;executen de forma instantània." alt="" coords="17,155,112,181"/>
+<area shape="rect" id="node3" href="$class_effect.html" title="Abstract base info container class for an Effect." alt="" coords="37,80,92,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,124,32"/>
+</map>

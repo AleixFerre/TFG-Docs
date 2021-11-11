@@ -1,0 +1,5 @@
+<map id="Stats.Die" name="Stats.Die">
+<area shape="rect" id="node1" title="Function that implements what is done when this entity dies." alt="" coords="5,31,81,57"/>
+<area shape="rect" id="node2" href="$class_stats.html#a0a3ad8a03e844abd233531fd9874a91b" title="This method retuns the UIController of the entity." alt="" coords="150,5,241,32"/>
+<area shape="rect" id="node3" href="$class_stats.html#a5eff9d4781e35015cc65746ec9800a35" title="When this entity dies, it gives to the killer this bounty" alt="" coords="129,56,261,83"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="RespawnCanvas.ResetCount" name="RespawnCanvas.ResetCount">
+<area shape="rect" id="node1" title=" " alt="" coords="188,5,377,32"/>
+<area shape="rect" id="node2" href="$class_game_controller.html#afa8670b912fa71b9898b2f917cf9c629" title="Sets the respawn canvas with the proper calculated death time." alt="" coords="5,5,140,32"/>
+</map>
