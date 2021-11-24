@@ -48,7 +48,6 @@ var hierarchy =
       [ "ArrowAnimation", "class_arrow_animation.html", null ],
       [ "AsyncLoader", "class_async_loader.html", null ],
       [ "AttackRangeIndicator", "class_attack_range_indicator.html", null ],
-      [ "BackgroundScaling", "class_background_scaling.html", null ],
       [ "BaseRegenerator", "class_base_regenerator.html", null ],
       [ "BasicAttack", "class_basic_attack.html", null ],
       [ "Billboard", "class_billboard.html", null ],
@@ -57,11 +56,6 @@ var hierarchy =
       [ "CurrentItemShop", "class_current_item_shop.html", null ],
       [ "DiscordButton", "class_discord_button.html", null ],
       [ "DiscordController", "class_discord_controller.html", null ],
-      [ "Drop", "class_drop.html", [
-        [ "Coin", "class_coin.html", null ],
-        [ "Diamond", "class_diamond.html", null ],
-        [ "Heart", "class_heart.html", null ]
-      ] ],
       [ "EffectHUDController", "class_effect_h_u_d_controller.html", null ],
       [ "EffectManager", "class_effect_manager.html", null ],
       [ "GameUIController", "class_game_u_i_controller.html", null ],

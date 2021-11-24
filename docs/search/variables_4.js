@@ -7,9 +7,8 @@ var searchData=
   ['desiredposx_4',['desiredPosX',['../class_arrow_animation.html#accb785ea49dcf90c89a7fe495e969a56',1,'ArrowAnimation']]],
   ['desiredscale_5',['desiredScale',['../class_character_u_i.html#a043038b903d16fc5a81ec2ebd16ed6ac',1,'CharacterUI']]],
   ['desiredtxtposx_6',['desiredTxtPosX',['../class_arrow_animation.html#a64759a230325768d87fcd5dee13a7af6',1,'ArrowAnimation']]],
-  ['destroy_5ftime_7',['DESTROY_TIME',['../class_drop.html#a9f16b95daea180b48936daf0b021a373',1,'Drop']]],
-  ['details_8',['Details',['../struct_discord_1_1_activity.html#a33fb9e8123649cbaf64c92aa4d7d4b51',1,'Discord::Activity']]],
-  ['dict_9',['dict',['../class_generic_dictionary.html#a53b9be0eccc39107efb9a14667eafda2',1,'GenericDictionary']]],
-  ['discriminator_10',['Discriminator',['../struct_discord_1_1_user.html#a841613222d0fc9e16a17d6a8c00dd682',1,'Discord::User']]],
-  ['dllname_11',['DllName',['../class_discord_1_1_constants.html#a86a294bd81f758d46cefb0e163540d2a',1,'Discord::Constants']]]
+  ['details_7',['Details',['../struct_discord_1_1_activity.html#a33fb9e8123649cbaf64c92aa4d7d4b51',1,'Discord::Activity']]],
+  ['dict_8',['dict',['../class_generic_dictionary.html#a53b9be0eccc39107efb9a14667eafda2',1,'GenericDictionary']]],
+  ['discriminator_9',['Discriminator',['../struct_discord_1_1_user.html#a841613222d0fc9e16a17d6a8c00dd682',1,'Discord::User']]],
+  ['dllname_10',['DllName',['../class_discord_1_1_constants.html#a86a294bd81f758d46cefb0e163540d2a',1,'Discord::Constants']]]
 ];

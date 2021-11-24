@@ -46,9 +46,9 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 548;
+var viewWidth = 724;
 var viewHeight = 39;
-var sectionId = 'dynsection-4';
+var sectionId = 'dynsection-5';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
@@ -93,6 +93,21 @@ var sectionId = 'dynsection-4';
 <title>Node2&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M366.13,-15.5C374.63,-15.5 383.26,-15.5 391.72,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="391.94,-19 401.94,-15.5 391.94,-12 391.94,-19"/>
+</g>
+<!-- Node4 -->
+<g id="node4" class="node">
+<title>Node4</title>
+<g id="a_node4"><a xlink:href="class_connect_to_server.html#a58534f26c3d1f90a9c07d9f436ccc025" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="576,-6 576,-25 716,-25 716,-6 576,-6"/>
+<text text-anchor="middle" x="646" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">ConnectToServer.ParseError</text>
+</a>
+</g>
+</g>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3" class="edge">
+<title>Node3&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M540.37,-15.5C548.7,-15.5 557.26,-15.5 565.73,-15.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="565.99,-19 575.99,-15.5 565.99,-12 565.99,-19"/>
 </g>
 </g>
 </svg>

@@ -1,4 +1,12 @@
 <map id="MinionStats.Die" name="MinionStats.Die">
-<area shape="rect" id="node1" title="Function that implements what is done when this entity dies." alt="" coords="5,5,120,32"/>
-<area shape="rect" id="node2" href="$class_minion_a_i.html#ab2c89d67e723eeeb2fb44f42c46db000" title=" " alt="" coords="168,5,287,32"/>
+<area shape="rect" id="node1" title="Function that implements what is done when this entity dies." alt="" coords="5,94,120,121"/>
+<area shape="rect" id="node2" href="$class_minion_a_i.html#ab2c89d67e723eeeb2fb44f42c46db000" title=" " alt="" coords="194,69,313,95"/>
+<area shape="rect" id="node3" href="$class_minion_stats.html#a6d9ddd98313b1be90a14a331602409bf" title="When this entity dies, it gives to the killer this bounty" alt="" coords="168,119,339,146"/>
+<area shape="rect" id="node4" href="$class_inventory.html#a154fe342bac27ad9f38a79da5c770d39" title=" " alt="" coords="412,14,539,41"/>
+<area shape="rect" id="node6" href="$class_game_controller.html#a708420d4559f1a7ad5d1a50d6b3df9bf" title="One of the players killed a minion." alt="" coords="387,69,564,95"/>
+<area shape="rect" id="node8" href="$class_player_stats.html#a2515cde362ce22291cde0073d23e2d9c" title="Add some XP amount." alt="" coords="409,119,542,146"/>
+<area shape="rect" id="node9" href="$class_game_controller.html#a3284abf9985021d4e4936f90d858a7dd" title="Get a player GameObject by name." alt="" coords="388,170,563,197"/>
+<area shape="rect" id="node10" href="$class_game_controller.html#a7e7ba340d852830acb4d6f1f172c248c" title="Get the current time in seconds from the start of the game" alt="" coords="393,221,558,247"/>
+<area shape="rect" id="node5" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="626,5,813,47"/>
+<area shape="rect" id="node7" href="$class_game_u_i_controller.html#ac6d98f05e3ed3d39178b42d85149db5d" title=" " alt="" coords="612,71,827,98"/>
 </map>

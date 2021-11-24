@@ -12,5 +12,8 @@ var dir_f13b41af88cf68434578284aaf699e39 =
     [ "ScriptableObjects", "dir_120869d834648ba2350ce8503a8a7de1.html", "dir_120869d834648ba2350ce8503a8a7de1" ],
     [ "Static", "dir_c660b576967a483dc898adb5072c73e3.html", "dir_c660b576967a483dc898adb5072c73e3" ],
     [ "StyleEffects", "dir_9e925bd80af65c50f90e1d9593b843a8.html", "dir_9e925bd80af65c50f90e1d9593b843a8" ],
-    [ "Utils", "dir_d59928a8991e409486b76da4b2a9995a.html", "dir_d59928a8991e409486b76da4b2a9995a" ]
+    [ "Utils", "dir_d59928a8991e409486b76da4b2a9995a.html", "dir_d59928a8991e409486b76da4b2a9995a" ],
+    [ "ServerConnectionTest.cs", "_server_connection_test_8cs.html", [
+      [ "ServerConnectionTest", "class_server_connection_test.html", "class_server_connection_test" ]
+    ] ]
 ];

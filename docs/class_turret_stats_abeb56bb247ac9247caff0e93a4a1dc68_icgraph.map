@@ -1,0 +1,4 @@
+<map id="TurretStats.GiveRewards" name="TurretStats.GiveRewards">
+<area shape="rect" id="node1" title="When this entity dies, it gives to the killer this bounty" alt="" coords="163,5,328,32"/>
+<area shape="rect" id="node2" href="$class_turret_stats.html#afba2a2bb8d56fba966bb1c8ff069b63a" title="Function that implements what is done when this entity dies." alt="" coords="5,5,115,32"/>
+</map>

@@ -65,15 +65,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_ability_8cs.html",
-"_timed_effect_8cs.html",
-"class_character.html#ad64df944909f236c7b1b643396fea9e5",
-"class_discord_1_1_discord.html#aa66c8625806e2b6f17dc696e03f5fcb7",
-"class_discord_1_1_network_manager.html#a2bc3319e7a5eedc8eb2fc21f39078767",
-"class_discord_1_1_voice_manager.html#a0a3f48fd0e1221f047e6107028a4d2f1",
-"class_main_menu.html#ad1ecd6c8eea2c5f5531906486e1f0040",
-"class_player_u_i_controller.html#af7f4a20f0db17b541c3f30ecadfe8d3a",
-"dir_2863194c9ba8869c3920e30063c1edf2.html",
-"namespaces.html"
+"_turret_u_i_controller_8cs.html",
+"class_connect_to_server.html#a0134630a9f1d52d26322c883ca6e86e5",
+"class_discord_1_1_discord.html#ada82622ecdbcb0c7a2e31307c6eb95a1",
+"class_discord_1_1_network_manager.html#a83417756220726fe5fb7b54b4ea2e203",
+"class_discord_1_1_voice_manager.html#a9555c6aad755db6f3471e84029e5266e",
+"class_minion_a_i.html#aeda0a70a112d3eae79886f51aa84c848",
+"class_respawn_canvas.html#a1a454dbef286303a51d62df7f4bba0ae",
+"dir_f66f4de8698762ca528d41a6831a101d.html",
+"struct_discord_1_1_activity_party.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,10 +1,9 @@
 <map id="MovableStats.Heal" name="MovableStats.Heal">
-<area shape="rect" id="node1" title=" " alt="" coords="464,132,595,159"/>
+<area shape="rect" id="node1" title=" " alt="" coords="464,107,595,133"/>
 <area shape="rect" id="node2" href="$class_heal_effect.html#a339d401861134bd9b6aaf777fe5d1cef" title=" " alt="" coords="253,5,383,32"/>
 <area shape="rect" id="node3" href="$class_heal_relative_effect.html#a51b9463a8c26ca163a387671a9bbe374" title=" " alt="" coords="230,56,406,83"/>
 <area shape="rect" id="node4" href="$class_mannequin_stats.html#a8bd8eed182eccafe2a9f3a2764e82dc3" title="Function that implements what is done when this entity dies." alt="" coords="249,107,387,133"/>
 <area shape="rect" id="node5" href="$class_base_regenerator.html#a4d65b6c57ff0f1c756eee99844fda2fa" title=" " alt="" coords="220,157,416,184"/>
-<area shape="rect" id="node7" href="$class_heart.html#a0fe409e888708ccf6fa062c07feca68c" title=" " alt="" coords="246,208,390,235"/>
-<area shape="rect" id="node8" href="$class_player_stats.html#a15175185aaa4f8290e5148640f0ff80a" title=" " alt="" coords="251,259,385,285"/>
+<area shape="rect" id="node7" href="$class_player_stats.html#a15175185aaa4f8290e5148640f0ff80a" title=" " alt="" coords="251,208,385,235"/>
 <area shape="rect" id="node6" href="$class_base_regenerator.html#acecbe261698255104a7aa49ff334be98" title=" " alt="" coords="5,157,172,184"/>
 </map>

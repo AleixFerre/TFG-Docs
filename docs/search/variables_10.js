@@ -13,9 +13,7 @@ var searchData=
   ['playersinside_10',['playersInside',['../class_base_regenerator.html#aed3cff78d0afbe45055ee62927884e1e',1,'BaseRegenerator']]],
   ['playerstats_11',['playerStats',['../class_ability_cooldown.html#ada36a8ccb6108d11b2d5127ba78867af',1,'AbilityCooldown']]],
   ['playertransform_12',['playerTransform',['../class_turret_indicator.html#a41034ee451a9d70f47f8d80263448709',1,'TurretIndicator']]],
-  ['playing_13',['playing',['../class_background_scaling.html#ae093a68d981d9b10d80d0b85ca7b7e2e',1,'BackgroundScaling']]],
-  ['playingatbeggining_14',['playingAtBeggining',['../class_background_scaling.html#af7ad65c16ee52b849cc39b140f218cb8',1,'BackgroundScaling']]],
-  ['prefab_15',['prefab',['../class_character.html#aee663336fca28117de2c96cd3313f1c0',1,'Character']]],
-  ['presence_16',['Presence',['../struct_discord_1_1_relationship.html#a213c982bac520ba9c87fb27f14c17e4f',1,'Discord::Relationship']]],
-  ['price_17',['Price',['../struct_discord_1_1_sku.html#ab000f63dd1616b1cadf49d8bcf591e9e',1,'Discord::Sku']]]
+  ['prefab_13',['prefab',['../class_character.html#aee663336fca28117de2c96cd3313f1c0',1,'Character']]],
+  ['presence_14',['Presence',['../struct_discord_1_1_relationship.html#a213c982bac520ba9c87fb27f14c17e4f',1,'Discord::Relationship']]],
+  ['price_15',['Price',['../struct_discord_1_1_sku.html#ab000f63dd1616b1cadf49d8bcf591e9e',1,'Discord::Sku']]]
 ];
