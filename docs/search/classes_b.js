@@ -10,5 +10,6 @@ var searchData=
   ['minionuicontroller_7',['MinionUIController',['../class_minion_u_i_controller.html',1,'']]],
   ['modelplayermediator_8',['ModelPlayerMediator',['../class_model_player_mediator.html',1,'']]],
   ['modelsync_9',['ModelSync',['../class_model_sync.html',1,'']]],
-  ['movablestats_10',['MovableStats',['../class_movable_stats.html',1,'']]]
+  ['movablestats_10',['MovableStats',['../class_movable_stats.html',1,'']]],
+  ['msrelativeeffect_11',['MSRelativeEffect',['../class_m_s_relative_effect.html',1,'']]]
 ];

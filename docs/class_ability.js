@@ -9,7 +9,6 @@ var class_ability =
     [ "TriggerAbility", "class_ability.html#a7a4e6e5db015832f91de48b68658ec69", null ],
     [ "aBaseCoolDown", "class_ability.html#ad60507d23ff3e1066699d1b7dda98891", null ],
     [ "aBlockedAbilities", "class_ability.html#afbe51498b3da120428500c242aa653ec", null ],
-    [ "aCode", "class_ability.html#a7034201a871c21a8f647466974bce78e", null ],
     [ "aDescription", "class_ability.html#ad475644b9e03812c05429263fad2e129", null ],
     [ "aDuration", "class_ability.html#a980df335e3949b84b034a665bed5dcbb", null ],
     [ "aIndex", "class_ability.html#aacb68ee156352343c230e4a73b765bfb", null ],

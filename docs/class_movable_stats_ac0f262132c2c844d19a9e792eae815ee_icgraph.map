@@ -1,4 +1,5 @@
 <map id="MovableStats.RevertStatistic" name="MovableStats.RevertStatistic">
-<area shape="rect" id="node1" title=" " alt="" coords="237,13,425,39"/>
-<area shape="rect" id="node2" href="$class_statistic_change_effect.html#a18670b90afa4c33f7b5ec466af94c38d" title=" " alt="" coords="5,5,189,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="245,46,433,73"/>
+<area shape="rect" id="node2" href="$class_m_s_relative_effect.html#a52613a353fbd328f3bc41b476581c7bc" title=" " alt="" coords="5,5,197,47"/>
+<area shape="rect" id="node3" href="$class_statistic_change_effect.html#a18670b90afa4c33f7b5ec466af94c38d" title=" " alt="" coords="9,71,193,112"/>
 </map>

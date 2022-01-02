@@ -1,0 +1,4 @@
+<map id="Colors.ColorizeText" name="Colors.ColorizeText">
+<area shape="rect" id="node1" title="Replaces all the colors placeholders in the given string with the corresponding colors." alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node2" href="$class_colors.html#a7904c54cc32b0138a7f0beecaa8d92c1" title="Returns the color corresponding to the given Statistic." alt="" coords="188,5,380,32"/>
+</map>

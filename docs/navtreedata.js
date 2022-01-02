@@ -31,13 +31,6 @@ var NAVTREE =
         [ "Step 1: Opening the box", "index.html#step1", null ]
       ] ]
     ] ],
-    [ "Paquets", "namespaces.html", [
-      [ "Paquets", "namespaces.html", "namespaces_dup" ],
-      [ "Funcions de Paquet", "namespacemembers.html", [
-        [ "Tot", "namespacemembers.html", null ],
-        [ "Enumeracions", "namespacemembers_enum.html", null ]
-      ] ]
-    ] ],
     [ "Classes", "annotated.html", [
       [ "Llista de Classes", "annotated.html", "annotated_dup" ],
       [ "Índex de Classes", "classes.html", null ],
@@ -47,8 +40,7 @@ var NAVTREE =
         [ "Funcions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Enumeracions", "functions_enum.html", null ],
-        [ "Propietats", "functions_prop.html", null ],
-        [ "Esdeveniments", "functions_evnt.html", null ]
+        [ "Propietats", "functions_prop.html", null ]
       ] ]
     ] ],
     [ "Fitxers", "files.html", [
@@ -65,15 +57,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_ability_8cs.html",
-"_turret_u_i_controller_8cs.html",
-"class_connect_to_server.html#a0134630a9f1d52d26322c883ca6e86e5",
-"class_discord_1_1_discord.html#ada82622ecdbcb0c7a2e31307c6eb95a1",
-"class_discord_1_1_network_manager.html#a83417756220726fe5fb7b54b4ea2e203",
-"class_discord_1_1_voice_manager.html#a9555c6aad755db6f3471e84029e5266e",
-"class_minion_a_i.html#aeda0a70a112d3eae79886f51aa84c848",
-"class_respawn_canvas.html#a1a454dbef286303a51d62df7f4bba0ae",
-"dir_f66f4de8698762ca528d41a6831a101d.html",
-"struct_discord_1_1_activity_party.html"
+"class_ability_indicator.html",
+"class_heal_relative_effect.html#a51b9463a8c26ca163a387671a9bbe374",
+"class_player_controller.html#a567a5267fea43c150b1711d76377ed43",
+"class_stats.html#a5bc07d51676f30fd5506d140777bda89",
+"functions_vars_e.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

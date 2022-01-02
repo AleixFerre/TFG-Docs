@@ -17,7 +17,6 @@ var class_ability_cooldown =
     [ "abilityIndicator", "class_ability_cooldown.html#ad19f1e5403c9fc86d2abf97a8e52db1e", null ],
     [ "abilityIndicatorGO", "class_ability_cooldown.html#a07ad09ec9eab9ba26843e886a0054b8b", null ],
     [ "blockedAbility", "class_ability_cooldown.html#a3bbedb3445e2f744a5728320ab3e7319", null ],
-    [ "cancelAbilityCode", "class_ability_cooldown.html#a4c544be4a5f988d0bf7be32651f97c40", null ],
     [ "coolDownBGImage", "class_ability_cooldown.html#a87b69fead394954d406485f786af1902", null ],
     [ "coolDownFillImage", "class_ability_cooldown.html#ae620d95923588160fe6d384605d3b8d0", null ],
     [ "coolDownTextDisplay", "class_ability_cooldown.html#ac49303da1ad7de4bbf7283e1ab42fcfb", null ],
@@ -32,5 +31,6 @@ var class_ability_cooldown =
     [ "playerController", "class_ability_cooldown.html#a6c27aa11d9c57ac45906e3a4bc2df09d", null ],
     [ "playerStats", "class_ability_cooldown.html#ada36a8ccb6108d11b2d5127ba78867af", null ],
     [ "ready", "class_ability_cooldown.html#ac2449cfbab136b46eb67b08dfcec98ac", null ],
+    [ "tooltip", "class_ability_cooldown.html#a575ff8af6f32825da3ee0f3e9eea0dda", null ],
     [ "view", "class_ability_cooldown.html#aea6516ee6b2bf529ea9a7b3f2f44a1d0", null ]
 ];

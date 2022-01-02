@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['optionsmenu_2ecs_0',['OptionsMenu.cs',['../_options_menu_8cs.html',1,'']]],
-  ['outofbounds_2ecs_1',['OutOfBounds.cs',['../_out_of_bounds_8cs.html',1,'']]]
+  ['nexusstats_2ecs_0',['NexusStats.cs',['../_nexus_stats_8cs.html',1,'']]],
+  ['nexusuicontroller_2ecs_1',['NexusUIController.cs',['../_nexus_u_i_controller_8cs.html',1,'']]],
+  ['nonindicatedability_2ecs_2',['NonIndicatedAbility.cs',['../_non_indicated_ability_8cs.html',1,'']]]
 ];

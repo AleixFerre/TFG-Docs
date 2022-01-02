@@ -1,22 +1,26 @@
 <map id="PlayerController.Initialize" name="PlayerController.Initialize">
-<area shape="rect" id="node1" title="Initialize the PlayerController." alt="" coords="5,126,171,153"/>
-<area shape="rect" id="node2" href="$class_player_stats.html#aa38dc976db5d7536e94655676cb19e1d" title="Returns the AbilityCooldowns of the abilities" alt="" coords="219,75,380,102"/>
-<area shape="rect" id="node3" href="$class_basic_attack.html#ac85eb061d597f5879d31fb8e7a0316d5" title=" " alt="" coords="227,126,371,153"/>
-<area shape="rect" id="node4" href="$class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240" title="Initialize the actual Stats of the Player." alt="" coords="229,177,370,203"/>
-<area shape="rect" id="node5" href="$class_player_u_i_controller.html#ab6ed746dec17fdf763bc4ec1d713db7f" title="Initializes all the values and colors for this Player." alt="" coords="437,46,611,73"/>
-<area shape="rect" id="node11" href="$class_player_h_u_d_controller.html#af18de1b3d5444d69cc35c9390692ab72" title=" " alt="" coords="428,101,620,127"/>
-<area shape="rect" id="node13" href="$class_effect_manager.html#a5b9a498227bc61493b5246eb1303fc6e" title="This method initializes the EffectManager with the proper HUD Controller to start showing the effects..." alt="" coords="446,151,602,178"/>
-<area shape="rect" id="node14" href="$class_inventory.html#af5cb79cb50692e3fb6c98df25812dcbc" title=" " alt="" coords="462,202,586,229"/>
-<area shape="rect" id="node16" href="$class_player_h_u_d_controller.html#adf30ead91cd36140e32d0ad158fbbae4" title=" " alt="" coords="428,253,620,295"/>
-<area shape="rect" id="node20" href="$class_player_stats.html#a856d6147e020365c88ea7b01cb4961a6" title="Copies the Character initial values to the actual Stats script" alt="" coords="449,319,599,346"/>
-<area shape="rect" id="node6" href="$class_player_u_i_controller.html#aa5b61a93967fa5ce39bfd950a9e9d584" title="Initializes all the values into the Image and Text." alt="" coords="673,37,850,79"/>
-<area shape="rect" id="node7" href="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" title="Sets the current level and xp to the Image." alt="" coords="913,5,1083,47"/>
-<area shape="rect" id="node9" href="$class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="913,71,1083,112"/>
-<area shape="rect" id="node8" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="1152,21,1320,47"/>
-<area shape="rect" id="node10" href="$class_player_u_i_controller.html#aaa62b1e4dc1ee6689adbc72b8dcb73d3" title="When you heal HP, we will reset the lerped bar" alt="" coords="1141,78,1331,105"/>
-<area shape="rect" id="node12" href="$class_sellable_item_u_i.html#a10394a2c7d2d0a72d9c8b05fbf3e8696" title=" " alt="" coords="683,103,839,130"/>
-<area shape="rect" id="node15" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="668,195,855,236"/>
-<area shape="rect" id="node17" href="$class_ability_cooldown.html#aa01c150ac26f1694a1e174e152510094" title="Initializes the current AbilityCooldown." alt="" coords="679,261,844,287"/>
-<area shape="rect" id="node18" href="$class_ability_cooldown.html#a2142f4ae1a75b2e88bd33d8553680a33" title="This function is called whenever this ability is ready and you have enough mana." alt="" coords="903,235,1093,262"/>
-<area shape="rect" id="node19" href="$class_ability.html#a680fce4c2981c462afc82d28fe3958ef" title=" " alt="" coords="943,286,1053,313"/>
+<area shape="rect" id="node1" title="Initialize the PlayerController." alt="" coords="5,67,171,94"/>
+<area shape="rect" id="node2" href="$class_player_stats.html#aa38dc976db5d7536e94655676cb19e1d" title="Returns the AbilityCooldowns of the abilities" alt="" coords="219,17,380,43"/>
+<area shape="rect" id="node3" href="$class_basic_attack.html#ac85eb061d597f5879d31fb8e7a0316d5" title=" " alt="" coords="227,67,371,94"/>
+<area shape="rect" id="node5" href="$class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240" title="Initialize the actual Stats of the Player." alt="" coords="229,173,370,199"/>
+<area shape="rect" id="node4" href="$class_target_attack_indicator.html#af2d860ed1933fd56dee2e01a1af9f626" title="Sets the scale of the indicator" alt="" coords="439,5,609,47"/>
+<area shape="rect" id="node6" href="$class_player_u_i_controller.html#ab6ed746dec17fdf763bc4ec1d713db7f" title="Initializes all the values and colors for this Player." alt="" coords="437,71,611,98"/>
+<area shape="rect" id="node12" href="$class_player_h_u_d_controller.html#af18de1b3d5444d69cc35c9390692ab72" title=" " alt="" coords="428,122,620,149"/>
+<area shape="rect" id="node14" href="$class_effect_manager.html#a5b9a498227bc61493b5246eb1303fc6e" title="This method initializes the EffectManager with the proper HUD Controller to start showing the effects..." alt="" coords="446,173,602,199"/>
+<area shape="rect" id="node15" href="$class_inventory.html#af5cb79cb50692e3fb6c98df25812dcbc" title=" " alt="" coords="462,223,586,250"/>
+<area shape="rect" id="node17" href="$class_player_h_u_d_controller.html#adf30ead91cd36140e32d0ad158fbbae4" title=" " alt="" coords="428,275,620,316"/>
+<area shape="rect" id="node24" href="$class_player_stats.html#a856d6147e020365c88ea7b01cb4961a6" title="Copies the Character initial values to the actual Stats script" alt="" coords="449,341,599,367"/>
+<area shape="rect" id="node7" href="$class_player_u_i_controller.html#aa5b61a93967fa5ce39bfd950a9e9d584" title="Initializes all the values into the Image and Text." alt="" coords="673,60,850,101"/>
+<area shape="rect" id="node8" href="$class_player_u_i_controller.html#adadd54ec10a1236aa7c08022d27fa068" title="Sets the current level and xp to the Image." alt="" coords="913,21,1083,63"/>
+<area shape="rect" id="node10" href="$class_player_u_i_controller.html#aacc9f1b78d9e1adab16f8fc2ec246dfb" title=" " alt="" coords="913,87,1083,128"/>
+<area shape="rect" id="node9" href="$class_utils.html#a459472171f68c903c975020cc5b02fee" title="Calculates the actual normalized fill amount for the image." alt="" coords="1152,37,1320,63"/>
+<area shape="rect" id="node11" href="$class_player_u_i_controller.html#aaa62b1e4dc1ee6689adbc72b8dcb73d3" title="When you heal HP, we will reset the lerped bar" alt="" coords="1141,94,1331,121"/>
+<area shape="rect" id="node13" href="$class_sellable_item_u_i.html#a10394a2c7d2d0a72d9c8b05fbf3e8696" title=" " alt="" coords="683,126,839,153"/>
+<area shape="rect" id="node16" href="$class_player_h_u_d_controller.html#aeef77dcdfaf1c9b719e4350c17c88fa5" title=" " alt="" coords="668,216,855,257"/>
+<area shape="rect" id="node18" href="$class_ability_cooldown.html#aa01c150ac26f1694a1e174e152510094" title="Initializes the current AbilityCooldown." alt="" coords="679,282,844,309"/>
+<area shape="rect" id="node19" href="$class_ability_cooldown.html#a2142f4ae1a75b2e88bd33d8553680a33" title="This function is called whenever this ability is ready and you have enough mana." alt="" coords="903,181,1093,207"/>
+<area shape="rect" id="node20" href="$class_ability.html#a004d2ead9a2f144fe5a181fceed114a5" title=" " alt="" coords="933,231,1063,258"/>
+<area shape="rect" id="node21" href="$class_ability.html#a0c1233ee3cfecfed5c899ed29d0ec4b9" title=" " alt="" coords="921,282,1075,309"/>
+<area shape="rect" id="node22" href="$class_ability.html#a680fce4c2981c462afc82d28fe3958ef" title=" " alt="" coords="943,333,1053,359"/>
+<area shape="rect" id="node23" href="$class_tooltip_hoverable.html#aa032f3d5511f81d1991c779fba71d295" title=" " alt="" coords="909,383,1087,410"/>
 </map>

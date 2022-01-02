@@ -22,5 +22,8 @@ var dir_41186e81b000ed823c21e72945b01f5d =
     ] ],
     [ "ProfilePanel.cs", "_profile_panel_8cs.html", [
       [ "ProfilePanel", "class_profile_panel.html", "class_profile_panel" ]
+    ] ],
+    [ "SinusAnimation.cs", "_sinus_animation_8cs.html", [
+      [ "SinusAnimation", "class_sinus_animation.html", "class_sinus_animation" ]
     ] ]
 ];

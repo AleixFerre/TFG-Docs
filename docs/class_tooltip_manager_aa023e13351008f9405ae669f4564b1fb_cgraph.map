@@ -1,0 +1,6 @@
+<map id="TooltipManager.Show" name="TooltipManager.Show">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,152,61"/>
+<area shape="rect" id="node2" href="$class_colors.html#a88d5235ff6c5ddeec0809fababbd74f9" title="Replaces all the colors placeholders in the given string with the corresponding colors." alt="" coords="234,5,369,32"/>
+<area shape="rect" id="node4" href="$class_tooltip_manager.html#aa5a889f22c10f6fc53ec7e7eacf95e8a" title=" " alt="" coords="200,57,403,98"/>
+<area shape="rect" id="node3" href="$class_colors.html#a7904c54cc32b0138a7f0beecaa8d92c1" title="Returns the color corresponding to the given Statistic." alt="" coords="451,5,643,32"/>
+</map>

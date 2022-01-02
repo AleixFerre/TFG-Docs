@@ -1,10 +1,11 @@
 <map id="PlayerHUDController.ResetLerp" name="PlayerHUDController.ResetLerp">
-<area shape="rect" id="node1" title=" " alt="" coords="940,56,1144,83"/>
-<area shape="rect" id="node2" href="$class_player_h_u_d_controller.html#ab2461120d3cfef6e83b38062b1373e04" title=" " alt="" coords="688,56,892,83"/>
-<area shape="rect" id="node3" href="$class_player_stats.html#a72df1a303afe102b8b4ac7a1e594cd75" title=" " alt="" coords="445,5,640,32"/>
-<area shape="rect" id="node4" href="$class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff" title="Function that implements what is done when this entity dies." alt="" coords="486,56,599,83"/>
-<area shape="rect" id="node5" href="$class_player_stats.html#ae2c6a9d91ac8ff99b7f0dc32079f1931" title=" " alt="" coords="469,107,616,133"/>
-<area shape="rect" id="node6" href="$class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" title="This is triggered when the player respawns." alt="" coords="251,107,397,133"/>
-<area shape="rect" id="node7" href="$class_respawn_canvas.html#aeb8465a7dc3b9f4fe6a36afc1c8bcf9a" title=" " alt="" coords="5,81,203,108"/>
-<area shape="rect" id="node8" href="$class_respawn_canvas.html#a272c2f78c7bfbeb481fcb4b737fe446c" title=" " alt="" coords="23,132,185,159"/>
+<area shape="rect" id="node1" title=" " alt="" coords="940,81,1144,108"/>
+<area shape="rect" id="node2" href="$class_player_h_u_d_controller.html#ab2461120d3cfef6e83b38062b1373e04" title=" " alt="" coords="688,81,892,108"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#af74a866a9312c345f3cd03235be2f329" title=" " alt="" coords="463,5,622,32"/>
+<area shape="rect" id="node4" href="$class_player_stats.html#a72df1a303afe102b8b4ac7a1e594cd75" title=" " alt="" coords="445,56,640,83"/>
+<area shape="rect" id="node5" href="$class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff" title="Function that implements what is done when this entity dies." alt="" coords="486,107,599,133"/>
+<area shape="rect" id="node6" href="$class_player_stats.html#ae2c6a9d91ac8ff99b7f0dc32079f1931" title=" " alt="" coords="469,157,616,184"/>
+<area shape="rect" id="node7" href="$class_player_stats.html#a27fb46ca044608f34db45eb95ac16b4c" title="This is triggered when the player respawns." alt="" coords="251,157,397,184"/>
+<area shape="rect" id="node8" href="$class_respawn_canvas.html#aeb8465a7dc3b9f4fe6a36afc1c8bcf9a" title=" " alt="" coords="5,132,203,159"/>
+<area shape="rect" id="node9" href="$class_respawn_canvas.html#a272c2f78c7bfbeb481fcb4b737fe446c" title=" " alt="" coords="23,183,185,209"/>
 </map>

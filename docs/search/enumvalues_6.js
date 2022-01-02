@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['getguildtimeout_0',['GetGuildTimeout',['../namespace_discord.html#a5a522601a18b598f781c1fa3eea3b781a33a59aec14b26a649ff3d77bb1f2f21c',1,'Discord']]],
-  ['global_1',['Global',['../namespace_discord.html#aebc2069b464d225e4a729fc8036a73c0a4cc6684df7b4a92b1dec6fce3264fac8',1,'Discord']]],
-  ['goldregen_2',['GoldRegen',['../_statistic_8cs.html#a0431437d0436f6eeedbf36cb3c80dbd4af29e9b3ecee2b18a22e27722dd6f1c2b',1,'Statistic.cs']]],
-  ['greaterthan_3',['GreaterThan',['../namespace_discord.html#a3256ef3cd7262f6208388ed6b8116f08af6d044fe1f01fb0c956b80099e2a3072',1,'Discord']]],
-  ['greaterthanorequal_4',['GreaterThanOrEqual',['../namespace_discord.html#a3256ef3cd7262f6208388ed6b8116f08a25c44812e9d75f685d2a0b815dea1ebe',1,'Discord']]]
+  ['magicresist_0',['MagicResist',['../_statistic_8cs.html#a0431437d0436f6eeedbf36cb3c80dbd4a8e7f4869c160be729031fc88ef030ec2',1,'Statistic.cs']]],
+  ['main_5fmenu_1',['MAIN_MENU',['../_scenes_8cs.html#a23cc8aadc51c6514e8ba08140a570f8caa16d505f03a4b6f35486f65f6a61317e',1,'Scenes.cs']]],
+  ['manager_2',['MANAGER',['../_scenes_8cs.html#a23cc8aadc51c6514e8ba08140a570f8ca929a43a844650a2ba236b9a50d1bbd20',1,'Scenes.cs']]],
+  ['maxhp_3',['MaxHP',['../_statistic_8cs.html#a0431437d0436f6eeedbf36cb3c80dbd4a7328467362e04fb994455aeb50ac0449',1,'Statistic.cs']]],
+  ['maxmp_4',['MaxMP',['../_statistic_8cs.html#a0431437d0436f6eeedbf36cb3c80dbd4adde87e7cb541a4302ec3e7e2b429b38b',1,'Statistic.cs']]],
+  ['movementspeed_5',['MovementSpeed',['../_statistic_8cs.html#a0431437d0436f6eeedbf36cb3c80dbd4a6ac1a7dc525ac874fef15626633a9c9c',1,'Statistic.cs']]]
 ];

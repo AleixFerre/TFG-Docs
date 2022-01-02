@@ -1,0 +1,9 @@
+<map id="MSRelativeEffect.ApplyTimedEffect" name="MSRelativeEffect.ApplyTimedEffect">
+<area shape="rect" id="node1" title=" " alt="" coords="5,86,197,127"/>
+<area shape="rect" id="node2" href="$class_movable_stats.html#acf1dcd4dda6a7737fd53e33c84d2f6e7" title=" " alt="" coords="250,5,435,32"/>
+<area shape="rect" id="node3" href="$class_m_s_relative_effect.html#a448d408f4fd75e6dd848ec5e28e44bd4" title=" " alt="" coords="253,57,432,98"/>
+<area shape="rect" id="node4" href="$class_effect_manager.html#aabe536a972389473af36e685412eecd1" title="This function needs to be called whenever a TimedEffect finishes" alt="" coords="245,123,440,149"/>
+<area shape="rect" id="node7" href="$class_movable_stats.html#ac0f262132c2c844d19a9e792eae815ee" title=" " alt="" coords="249,173,437,200"/>
+<area shape="rect" id="node5" href="$class_effect_h_u_d_controller.html#a5d2dd46778d538fb1474624fd083818b" title=" " alt="" coords="488,115,671,157"/>
+<area shape="rect" id="node6" href="$class_tooltip_hoverable.html#aa032f3d5511f81d1991c779fba71d295" title=" " alt="" coords="719,123,897,149"/>
+</map>

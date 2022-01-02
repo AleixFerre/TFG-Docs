@@ -1,0 +1,4 @@
+<map id="Colors.ColorizeText" name="Colors.ColorizeText">
+<area shape="rect" id="node1" title="Replaces all the colors placeholders in the given string with the corresponding colors." alt="" coords="200,5,335,32"/>
+<area shape="rect" id="node2" href="$class_tooltip_manager.html#aa023e13351008f9405ae669f4564b1fb" title=" " alt="" coords="5,5,152,32"/>
+</map>

@@ -12,7 +12,7 @@
 <area shape="rect" id="node4" href="$class_player_stats.html#af942d9a5150c2d4c47800335ec062ee1" title=" " alt="" coords="489,64,672,91"/>
 <area shape="rect" id="node8" href="$class_player_controller.html#a36323c07b7cd9e0ccab9c8016611827c" title="The player will look at the position of this Transform." alt="" coords="1205,86,1372,127"/>
 <area shape="rect" id="node9" href="$class_ability_indicator.html#aaf1aa8f26591497f20fc44435964f990" title="Returns the vector from the player to the mouse position in world space" alt="" coords="489,173,672,200"/>
-<area shape="rect" id="node11" href="$class_basic_attack.html#ad88d6d1dc8cdc8dd2b7a3043e0cc0d5a" title=" " alt="" coords="481,224,680,251"/>
+<area shape="rect" id="node11" href="$class_basic_attack.html#a1a00417e80bdc4f0061f4bdd441b22bf" title=" " alt="" coords="481,224,680,251"/>
 <area shape="rect" id="node12" href="$class_player_stats.html#aac8ad79b07db35d0a9873217c992d787" title=" " alt="" coords="499,275,662,301"/>
 <area shape="rect" id="node13" href="$class_ability.html#a7a4e6e5db015832f91de48b68658ec69" title=" " alt="" coords="512,325,649,352"/>
 <area shape="rect" id="node5" href="$class_player_stats.html#a4df625156bb2ae99262e81b28346ccb4" title=" " alt="" coords="740,57,903,98"/>

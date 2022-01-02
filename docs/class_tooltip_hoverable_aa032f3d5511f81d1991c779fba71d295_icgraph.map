@@ -1,0 +1,25 @@
+<map id="TooltipHoverable.SetTooltip" name="TooltipHoverable.SetTooltip">
+<area shape="rect" id="node1" title=" " alt="" coords="1320,78,1499,105"/>
+<area shape="rect" id="node2" href="$class_ability_cooldown.html#aa01c150ac26f1694a1e174e152510094" title="Initializes the current AbilityCooldown." alt="" coords="1098,21,1263,47"/>
+<area shape="rect" id="node8" href="$class_sellable_item_u_i.html#a6af430a8024bce99b71d8e5867e1c496" title=" " alt="" coords="1103,78,1258,105"/>
+<area shape="rect" id="node14" href="$class_effect_h_u_d_controller.html#a5d2dd46778d538fb1474624fd083818b" title=" " alt="" coords="1089,160,1272,201"/>
+<area shape="rect" id="node3" href="$class_player_h_u_d_controller.html#adf30ead91cd36140e32d0ad158fbbae4" title=" " alt="" coords="848,5,1040,47"/>
+<area shape="rect" id="node4" href="$class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240" title="Initialize the actual Stats of the Player." alt="" coords="632,13,773,39"/>
+<area shape="rect" id="node5" href="$class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf" title="Initialize the PlayerController." alt="" coords="382,13,547,39"/>
+<area shape="rect" id="node6" href="$class_model_sync.html#ab8359f73ae31a7f926c80ebcd7e9444a" title="This starts all the initialization chain for the player." alt="" coords="174,13,321,39"/>
+<area shape="rect" id="node7" href="$class_model_sync.html#a47be08ee3bbd2a173514e74da3dd65cb" title=" " alt="" coords="5,13,124,39"/>
+<area shape="rect" id="node9" href="$class_player_h_u_d_controller.html#ac39302aee1420d6afbc3a73805929143" title=" " alt="" coords="851,71,1037,112"/>
+<area shape="rect" id="node10" href="$class_inventory.html#a22aa6615c02eff40c88a48c96905e962" title=" " alt="" coords="640,74,765,101"/>
+<area shape="rect" id="node11" href="$class_current_item_shop.html#ac931da08dc792088bbb913a1db71cf27" title=" " alt="" coords="371,70,559,97"/>
+<area shape="rect" id="node12" href="$class_item_u_i.html#a7989b50db532215f7732954841b6ae4d" title=" " alt="" coords="409,121,520,147"/>
+<area shape="rect" id="node13" href="$class_item_u_i.html#a2b89b23e671541d302225044a9d9de6f" title=" " alt="" coords="172,121,323,147"/>
+<area shape="rect" id="node15" href="$class_effect_manager.html#aabe536a972389473af36e685412eecd1" title="This function needs to be called whenever a TimedEffect finishes" alt="" coords="847,167,1041,194"/>
+<area shape="rect" id="node18" href="$class_effect_manager.html#a921aed9a2553637cdd387d3075150709" title="/// Starts an Effect to the entity who has this EffectManager." alt="" coords="853,337,1035,363"/>
+<area shape="rect" id="node16" href="$class_m_s_relative_effect.html#a52613a353fbd328f3bc41b476581c7bc" title=" " alt="" coords="607,125,799,167"/>
+<area shape="rect" id="node17" href="$class_statistic_change_effect.html#a18670b90afa4c33f7b5ec466af94c38d" title=" " alt="" coords="611,191,795,232"/>
+<area shape="rect" id="node19" href="$class_ability___lis1.html#afd1d7924ca79144a0e19a84705b7590e" title=" " alt="" coords="613,257,793,283"/>
+<area shape="rect" id="node20" href="$class_ability___lis4.html#a4497c50ddbd3f508448a76a1eafdd203" title=" " alt="" coords="613,307,793,334"/>
+<area shape="rect" id="node21" href="$class_ability___instanciable.html#a2874cb997047ff431148d036aa06e163" title=" " alt="" coords="614,359,791,400"/>
+<area shape="rect" id="node22" href="$class_ability___player_relative.html#a147af83cdc2b932f749d96e9974260fa" title=" " alt="" coords="607,424,798,465"/>
+<area shape="rect" id="node23" href="$class_ability___stats_changer.html#a9b5d2b57c9e1369ec89ff50b9818d1b6" title=" " alt="" coords="609,489,796,531"/>
+</map>

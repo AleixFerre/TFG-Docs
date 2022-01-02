@@ -10,6 +10,7 @@ var class_player_h_u_d_controller =
     [ "UpdateItems", "class_player_h_u_d_controller.html#ac39302aee1420d6afbc3a73805929143", null ],
     [ "UpdateLevel", "class_player_h_u_d_controller.html#a654b56cf8a75ded0109d5aac569b2757", null ],
     [ "UpdateMP", "class_player_h_u_d_controller.html#a09d27238c0e659b8f98828367c7622ba", null ],
+    [ "UpdateRegen", "class_player_h_u_d_controller.html#a66b5ba75b95155d79c83bd4afc03f2c4", null ],
     [ "abilities", "class_player_h_u_d_controller.html#a95b4f2ae1921d0acab974ca6e027a25b", null ],
     [ "character", "class_player_h_u_d_controller.html#a4f488783c8b22f28641ea7fc45a6b9db", null ],
     [ "characterIcon", "class_player_h_u_d_controller.html#a18fe319d2fc8c25093905ac769fbfe6d", null ],

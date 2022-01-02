@@ -1,4 +1,7 @@
 <map id="PlayerHUDController.UpdateItems" name="PlayerHUDController.UpdateItems">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,192,47"/>
-<area shape="rect" id="node2" href="$class_sellable_item_u_i.html#a6af430a8024bce99b71d8e5867e1c496" title=" " alt="" coords="240,13,395,39"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,23,192,65"/>
+<area shape="rect" id="node2" href="$class_sellable_item_u_i.html#a6af430a8024bce99b71d8e5867e1c496" title=" " alt="" coords="240,31,395,57"/>
+<area shape="rect" id="node3" href="$class_sellable_item_u_i.html#a4470cb453b79fb32e9d18d61389cb21d" title=" " alt="" coords="443,5,641,32"/>
+<area shape="rect" id="node5" href="$class_tooltip_hoverable.html#aa032f3d5511f81d1991c779fba71d295" title=" " alt="" coords="453,56,631,83"/>
+<area shape="rect" id="node4" href="$class_item_statistic_effect.html#a37cc28041fcf0c1f5bd7eded463b2509" title=" " alt="" coords="689,5,869,32"/>
 </map>

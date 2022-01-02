@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['createflags_0',['CreateFlags',['../namespace_discord.html#a65875714c890760a89b2a1d298e3eb26',1,'Discord']]]
+  ['estatlobby_0',['EstatLobby',['../class_lobby.html#aae1e92550db31d8491bc697f28635d22',1,'Lobby']]]
 ];

@@ -1,0 +1,4 @@
+<map id="BasicAttack.Initialize" name="BasicAttack.Initialize">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,149,39"/>
+<area shape="rect" id="node2" href="$class_target_attack_indicator.html#af2d860ed1933fd56dee2e01a1af9f626" title="Sets the scale of the indicator" alt="" coords="197,5,367,47"/>
+</map>

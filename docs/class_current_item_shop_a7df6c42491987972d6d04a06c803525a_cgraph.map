@@ -1,5 +1,6 @@
 <map id="CurrentItemShop.SetCurrent" name="CurrentItemShop.SetCurrent">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,191,57"/>
-<area shape="rect" id="node2" href="$class_item_u_i.html#a3621f37c3d29275407a00265d7823825" title=" " alt="" coords="250,5,359,32"/>
-<area shape="rect" id="node3" href="$class_item_u_i.html#af1bd6a6501f51af9f49a53a5a1a871e4" title=" " alt="" coords="239,56,371,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,191,83"/>
+<area shape="rect" id="node2" href="$class_item_u_i.html#a3621f37c3d29275407a00265d7823825" title=" " alt="" coords="274,5,383,32"/>
+<area shape="rect" id="node3" href="$class_item_u_i.html#af1bd6a6501f51af9f49a53a5a1a871e4" title=" " alt="" coords="263,56,395,83"/>
+<area shape="rect" id="node4" href="$class_item_statistic_effect.html#a37cc28041fcf0c1f5bd7eded463b2509" title=" " alt="" coords="239,107,419,133"/>
 </map>

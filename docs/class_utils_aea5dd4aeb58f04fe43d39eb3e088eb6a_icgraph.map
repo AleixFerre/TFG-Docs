@@ -1,4 +1,6 @@
 <map id="Utils.MapRange" name="Utils.MapRange">
-<area shape="rect" id="node1" title="This function will remap a number in range to another." alt="" coords="203,5,317,32"/>
-<area shape="rect" id="node2" href="$class_turret_indicator.html#aaa28d80b0f70bacdde2fd7974603a915" title=" " alt="" coords="5,5,155,32"/>
+<area shape="rect" id="node1" title="This function will remap a number in range to another." alt="" coords="455,31,569,57"/>
+<area shape="rect" id="node2" href="$class_press_any_key.html#aa46b91ab44517db0eda96a4dfc181b39" title=" " alt="" coords="200,5,407,32"/>
+<area shape="rect" id="node4" href="$class_turret_indicator.html#aaa28d80b0f70bacdde2fd7974603a915" title=" " alt="" coords="229,56,378,83"/>
+<area shape="rect" id="node3" href="$class_press_any_key.html#a6e881e18d913060a35fc06ae2fe65b83" title=" " alt="" coords="5,5,152,32"/>
 </map>

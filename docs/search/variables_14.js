@@ -1,21 +1,6 @@
 var searchData=
 [
-  ['tagtxt_0',['tagTxt',['../class_item_u_i.html#a552219ee5e3527168ee040f607d75f98',1,'ItemUI']]],
-  ['target_1',['target',['../class_target_attack_indicator.html#a3b8ac1b2b2dd22ae85c9a2f5df028b4b',1,'TargetAttackIndicator']]],
-  ['targetindicator_2',['targetIndicator',['../class_basic_attack.html#a9e4a5bf8451103c3e9cba97eb926ca97',1,'BasicAttack']]],
-  ['targetstats_3',['targetStats',['../class_minion_a_i.html#a297c1b4a97781e5629fbe5dd34b78d11',1,'MinionAI']]],
-  ['td_4',['TD',['../class_ranged_attack_follow.html#a7fe978aa4a54751e5de66a8b529079a4',1,'RangedAttackFollow']]],
-  ['team_5',['team',['../class_stats.html#a1b9e3df188c9f4a679aa20f3922bcb2a',1,'Stats.team()'],['../class_u_i_controller.html#af82bbe8d4b6ca730eacd6af9ffaa50eb',1,'UIController.team()'],['../class_minion_spawner.html#a39185223c4b028a6a74b7637d58b3544',1,'MinionSpawner.team()']]],
-  ['teambasedrenderers_6',['teamBasedRenderers',['../class_structure_u_i_controller.html#a81e8324cd26ca2472ec8eced8795d6d8',1,'StructureUIController']]],
-  ['texttransform_7',['textTransform',['../class_arrow_animation.html#a852404e64f139afbaeadb6c38445e30b',1,'ArrowAnimation']]],
-  ['timebetweengroupspawns_8',['timeBetweenGroupSpawns',['../class_minion_spawner.html#ae10e10ea5f053105a3d12f70365c965b',1,'MinionSpawner']]],
-  ['timebetweenshots_9',['timeBetweenShots',['../class_turret_shooter.html#adcf68a1782681bf1fd85e326e4d3cc9a',1,'TurretShooter']]],
-  ['timebetweensinglespawn_10',['timeBetweenSingleSpawn',['../class_minion_spawner.html#a9d55e54250419d182c4f4449c10f6a0f',1,'MinionSpawner']]],
-  ['timesshot_11',['timesShot',['../class_turret_shooter.html#a70bd961222a278332fe4c7031cdc22d9',1,'TurretShooter']]],
-  ['timestamps_12',['Timestamps',['../struct_discord_1_1_activity.html#a76d1e30ae28c76a6a679ad3feaa193ed',1,'Discord::Activity']]],
-  ['timetxt_13',['timeTxt',['../class_game_u_i_controller.html#a43515ba40532e7b39b74cb1c457637d3',1,'GameUIController']]],
-  ['titletxt_14',['titleTxt',['../class_connect_to_server.html#ac00e8c316adedfe8e066b3ee48996da5',1,'ConnectToServer.titleTxt()'],['../class_profile_panel.html#aec2bfc233353ccb1627704613be9a54d',1,'ProfilePanel.titleTxt()'],['../class_ability_display.html#a51d152bd15c319fcf3725dcc24a1540a',1,'AbilityDisplay.titleTxt()']]],
-  ['toenemyeffects_15',['toEnemyEffects',['../class_ability_base.html#a7127c1b928bad15a7bc17f90e963779b',1,'AbilityBase']]],
-  ['totalseconds_16',['totalSeconds',['../class_respawn_canvas.html#af323e0db7d3ea9d01e8b744ac4a8a41d',1,'RespawnCanvas']]],
-  ['type_17',['Type',['../struct_discord_1_1_image_handle.html#a020fe5c41aa510363a1592b66d4d4ea2',1,'Discord.ImageHandle.Type()'],['../struct_discord_1_1_activity.html#a3f34bff87b63e94dcf54a58008abd2f4',1,'Discord.Activity.Type()'],['../struct_discord_1_1_relationship.html#a50e327cdd552fde59887fe135f6360f3',1,'Discord.Relationship.Type()'],['../struct_discord_1_1_lobby.html#afb7a5081078e32d2695b291001143bf3',1,'Discord.Lobby.Type()'],['../struct_discord_1_1_entitlement.html#ac19fb46a40f3ae1edfee165e9b2d41f7',1,'Discord.Entitlement.Type()'],['../struct_discord_1_1_sku.html#a4f175deb2dce1dde94e24c1a15d089be',1,'Discord.Sku.Type()'],['../struct_discord_1_1_input_mode.html#a8e4cfd049d5d5c0fb39ee8cbae2905f0',1,'Discord.InputMode.Type()']]]
+  ['uicontrol_0',['uiControl',['../class_minion_stats.html#addd7271ce7ed20f6f2fef91fa41e60a8',1,'MinionStats.uiControl()'],['../class_nexus_stats.html#ac696006b252c90f67e32727575b49572',1,'NexusStats.uiControl()'],['../class_turret_stats.html#a703e8f316563a34d6c4023d6e43d98f4',1,'TurretStats.uiControl()'],['../class_player_stats.html#a6ff9ff5103109911bfeab9a759883092',1,'PlayerStats.uiControl()']]],
+  ['uicontroller_1',['uIController',['../class_game_controller.html#a9faef73d065b7239198e86b6a17bc54a',1,'GameController']]],
+  ['usesdecimal_2',['usesDecimal',['../class_item_statistic_effect.html#aa7c7089ea051a1a4d71311cd453e5358',1,'ItemStatisticEffect.usesDecimal()'],['../class_statistic_change_effect.html#a2e1c32e1ae462c5568e8b81783c63096',1,'StatisticChangeEffect.usesDecimal()']]]
 ];

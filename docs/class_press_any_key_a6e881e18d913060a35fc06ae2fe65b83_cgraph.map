@@ -1,4 +1,5 @@
 <map id="PressAnyKey.Update" name="PressAnyKey.Update">
 <area shape="rect" id="node1" title=" " alt="" coords="5,5,152,32"/>
-<area shape="rect" id="node2" href="$class_background_scaling.html#a5be1f23dcb3664542419b0f37a451a83" title=" " alt="" coords="200,5,424,32"/>
+<area shape="rect" id="node2" href="$class_press_any_key.html#aa46b91ab44517db0eda96a4dfc181b39" title=" " alt="" coords="200,5,407,32"/>
+<area shape="rect" id="node3" href="$class_utils.html#aea5dd4aeb58f04fe43d39eb3e088eb6a" title="This function will remap a number in range to another." alt="" coords="455,5,569,32"/>
 </map>
