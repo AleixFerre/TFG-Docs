@@ -10,7 +10,7 @@ var class_player_stats =
     [ "DealDamageRPC", "class_player_stats.html#a72df1a303afe102b8b4ac7a1e594cd75", null ],
     [ "DestroyCurrentAbilities", "class_player_stats.html#a620fe13f60352662681e10c7ee39d975", null ],
     [ "Die", "class_player_stats.html#a5caca2bd8f676341a2b269aea8a0f1ff", null ],
-    [ "GetAbilities", "class_player_stats.html#aa38dc976db5d7536e94655676cb19e1d", null ],
+    [ "GetAbilities", "class_player_stats.html#afcace3e680c4d2f0d8ae4a3d963b0d53", null ],
     [ "GetAbilityCooldown", "class_player_stats.html#a12436c563a621825a095f0fcbee67e74", null ],
     [ "GetUI", "class_player_stats.html#acaf5c56dfd65195b1a2bd2334e9e6017", null ],
     [ "GetXPNeeded", "class_player_stats.html#aab2157e21bb713cc5d12a4b50e176ae6", null ],

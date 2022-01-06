@@ -4,7 +4,7 @@ var dir_a3707b6e14a70c47334d1470d38037c9 =
       [ "MovableStats", "class_movable_stats.html", "class_movable_stats" ]
     ] ],
     [ "Singleton.cs", "_singleton_8cs.html", [
-      [ "Singleton< T >", "class_singleton.html", "class_singleton" ]
+      [ "Singleton", "class_singleton.html", "class_singleton" ]
     ] ],
     [ "Statistic.cs", "_statistic_8cs.html", "_statistic_8cs" ],
     [ "Stats.cs", "_stats_8cs.html", [

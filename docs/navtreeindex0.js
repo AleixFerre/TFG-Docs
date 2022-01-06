@@ -84,7 +84,6 @@ var NAVTREEINDEX0 =
 "_scenes_8cs.html#a23cc8aadc51c6514e8ba08140a570f8cac81c108e7d4243a8c425a7f92c23bde9":[2,0,0,0,8,2,0,5],
 "_scenes_8cs.html#a23cc8aadc51c6514e8ba08140a570f8caf9f6955ebca09a484157c05f80acd65e":[2,0,0,0,8,2,0,0],
 "_sellable_item_u_i_8cs.html":[2,0,0,0,7,1,3],
-"_server_connection_test_8cs.html":[2,0,0,0,13],
 "_settings_data_8cs.html":[2,0,0,0,10,2],
 "_shop_8cs.html":[2,0,0,0,5,5,2],
 "_show_ping_8cs.html":[2,0,0,0,1,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "class_ability_display.html#a51d152bd15c319fcf3725dcc24a1540a":[1,0,9,3],
 "class_ability_display.html#a523151de0ef892ba40847fcbc7e07f96":[1,0,9,0],
 "class_ability_display.html#abec3d59959cd040e046d2e175891be67":[1,0,9,2],
-"class_ability_display.html#acc032a519d19436347672367c1b0dfee":[1,0,9,1]
+"class_ability_display.html#acc032a519d19436347672367c1b0dfee":[1,0,9,1],
+"class_ability_indicator.html":[1,0,10]
 };

@@ -60,7 +60,6 @@ var hierarchy =
       [ "RangedAttackFollow", "class_ranged_attack_follow.html", null ],
       [ "RespawnCanvas", "class_respawn_canvas.html", null ],
       [ "SellableItemUI", "class_sellable_item_u_i.html", null ],
-      [ "ServerConnectionTest", "class_server_connection_test.html", null ],
       [ "Shop", "class_shop.html", null ],
       [ "ShowPing", "class_show_ping.html", null ],
       [ "Singleton< T >", "class_singleton.html", null ],

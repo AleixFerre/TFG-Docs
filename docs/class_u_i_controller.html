@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
-    <meta name="generator" content="Doxygen 1.9.3" />
+    <meta name="generator" content="Doxygen 1.9.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- BEGIN opengraph metadata -->
     <meta property="og:title" content="TFG MOBA Docs - Aleix Ferré" />
@@ -53,22 +53,21 @@
                 </tbody>
             </table>
         </div>
-        <!-- end header part --><!-- Generat per Doxygen 1.9.3 -->
+        <!-- end header part --><!-- Generat per Doxygen 1.9.1 -->
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-var searchBox = new SearchBox("searchBox", "search",'Cerca','.html');
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca','.html');
 /* @license-end */
 </script>
 <script type="text/javascript" src="menudata.js"></script>
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
 $(function() {
   initMenu('',true,false,'search.php','Cerca');
   $(document).ready(function() { init_search(); });
 });
-/* @license-end */
-</script>
+/* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
@@ -82,7 +81,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
 $(document).ready(function(){initNavTree('class_u_i_controller.html',''); initResizable(); });
 /* @license-end */
 </script>
@@ -108,8 +107,10 @@ $(document).ready(function(){initNavTree('class_u_i_controller.html',''); initRe
 <a href="#pro-attribs">Atributs Protegits</a> &#124;
 <a href="#pro-static-attribs">Atributs Protegits Estàtics</a> &#124;
 <a href="#pri-methods">Mètodes Privats</a> &#124;
+<a href="#pri-static-attribs">Atributs Privats Estàtics</a> &#124;
 <a href="class_u_i_controller-members.html">Llista de tots els membres</a>  </div>
-  <div class="headertitle"><div class="title">Referència de la Classe UIController<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle">
+<div class="title">Referència de la Classe UIController<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -118,11 +119,19 @@ $(document).ready(function(){initNavTree('class_u_i_controller.html',''); initRe
 <div class="dynheader">
 Diagrama d'Herència per a UIController:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_u_i_controller__inherit__graph.svg" width="520" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><img src="class_u_i_controller__inherit__graph.png" border="0" usemap="#a_u_i_controller_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_u_i_controller_inherit__map" id="a_u_i_controller_inherit__map">
+<area shape="rect" title="Base abstract class for all the entities that have UI and Stats in the game." alt="" coords="175,80,264,107"/>
+<area shape="rect" href="class_minion_u_i_controller.html" title="UIController for all the Minion entities of the game." alt="" coords="5,155,132,181"/>
+<area shape="rect" href="class_player_u_i_controller.html" title="UI Controller for the Player Stats" alt="" coords="156,155,283,181"/>
+<area shape="rect" href="class_structure_u_i_controller.html" title=" " alt="" coords="307,155,449,181"/>
+<area shape="rect" title=" " alt="" coords="164,5,275,32"/>
+<area shape="rect" href="class_nexus_u_i_controller.html" title=" " alt="" coords="240,229,367,256"/>
+<area shape="rect" href="class_turret_u_i_controller.html" title=" " alt="" coords="391,229,514,256"/>
+</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">llegenda</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Mètodes públics</h2></td></tr>
 <tr class="memitem:a465eebf37083ebf78879ab8bbd71c069"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a465eebf37083ebf78879ab8bbd71c069">UpdateCurrentHP</a> (int newHP, int maxHP)</td></tr>
 <tr class="memdesc:a465eebf37083ebf78879ab8bbd71c069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the current HP of the entity.  <a href="class_u_i_controller.html#a465eebf37083ebf78879ab8bbd71c069">Més...</a><br /></td></tr>
@@ -130,22 +139,33 @@ Mètodes públics</h2></td></tr>
 <tr class="memitem:a5f4c8564677f50adca215a4c91020c5c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a5f4c8564677f50adca215a4c91020c5c">InitializeColors</a> ()</td></tr>
 <tr class="separator:a5f4c8564677f50adca215a4c91020c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Atributs Públics</h2></td></tr>
 <tr class="memitem:af0a2d6ad18543ed300df78f615559a30"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#af0a2d6ad18543ed300df78f615559a30">hpImage</a></td></tr>
 <tr class="separator:af0a2d6ad18543ed300df78f615559a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6083eb4888f332848e2a0fa1c7a8908e"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a6083eb4888f332848e2a0fa1c7a8908e">hpImageSmooth</a></td></tr>
 <tr class="separator:a6083eb4888f332848e2a0fa1c7a8908e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Atributs Protegits</h2></td></tr>
 <tr class="memitem:af82bbe8d4b6ca730eacd6af9ffaa50eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_team_8cs.html#a9c13bb5b1d69698f9b47900990eaa598">Team</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#af82bbe8d4b6ca730eacd6af9ffaa50eb">team</a></td></tr>
 <tr class="separator:af82bbe8d4b6ca730eacd6af9ffaa50eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
 Atributs Protegits Estàtics</h2></td></tr>
 <tr class="memitem:a43b9da2a4ca2adcc7cc74dc4ad22ce65"><td class="memItemLeft" align="right" valign="top">static Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a43b9da2a4ca2adcc7cc74dc4ad22ce65">myColor</a> = Color.clear</td></tr>
 <tr class="separator:a43b9da2a4ca2adcc7cc74dc4ad22ce65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:ab1853922923ea143f0e27d10425a3adb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#ab1853922923ea143f0e27d10425a3adb">Awake</a> ()</td></tr>
+<tr class="separator:ab1853922923ea143f0e27d10425a3adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25efcf4c19f58682359f159ebe68cd61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a25efcf4c19f58682359f159ebe68cd61">LoadColors</a> ()</td></tr>
+<tr class="memdesc:a25efcf4c19f58682359f159ebe68cd61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all the necessary colors for all the dynamic UIs in the game  <a href="class_u_i_controller.html#a25efcf4c19f58682359f159ebe68cd61">Més...</a><br /></td></tr>
+<tr class="separator:a25efcf4c19f58682359f159ebe68cd61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Atributs Privats Estàtics</h2></td></tr>
 <tr class="memitem:a6cc6af5b0def67c9ae7e4416142da062"><td class="memItemLeft" align="right" valign="top">static Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a6cc6af5b0def67c9ae7e4416142da062">allyColor</a></td></tr>
 <tr class="separator:a6cc6af5b0def67c9ae7e4416142da062"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aace3192b63dd268b329ae1ed26e5ee39"><td class="memItemLeft" align="right" valign="top">static Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#aace3192b63dd268b329ae1ed26e5ee39">enemyColor</a></td></tr>
@@ -154,19 +174,11 @@ Atributs Protegits Estàtics</h2></td></tr>
 <tr class="separator:a0ee44bc99bd2ffb958407b69b2f448ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bb645b57f4b68b99edde103cd32fa16"><td class="memItemLeft" align="right" valign="top">static Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a9bb645b57f4b68b99edde103cd32fa16">smoothEnemyColor</a></td></tr>
 <tr class="separator:a9bb645b57f4b68b99edde103cd32fa16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Mètodes Privats</h2></td></tr>
-<tr class="memitem:ab1853922923ea143f0e27d10425a3adb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#ab1853922923ea143f0e27d10425a3adb">Awake</a> ()</td></tr>
-<tr class="separator:ab1853922923ea143f0e27d10425a3adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25efcf4c19f58682359f159ebe68cd61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a25efcf4c19f58682359f159ebe68cd61">LoadColors</a> ()</td></tr>
-<tr class="memdesc:a25efcf4c19f58682359f159ebe68cd61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all the necessary colors for all the dynamic UIs in the game  <a href="class_u_i_controller.html#a25efcf4c19f58682359f159ebe68cd61">Més...</a><br /></td></tr>
-<tr class="separator:a25efcf4c19f58682359f159ebe68cd61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
-<div class="textblock"><p >Base abstract class for all the entities that have UI and <a class="el" href="class_stats.html">Stats</a> in the game. </p>
+<div class="textblock"><p>Base abstract class for all the entities that have UI and <a class="el" href="class_stats.html">Stats</a> in the game. </p>
 </div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
-<a id="ab1853922923ea143f0e27d10425a3adb" name="ab1853922923ea143f0e27d10425a3adb"></a>
+<a id="ab1853922923ea143f0e27d10425a3adb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab1853922923ea143f0e27d10425a3adb">&#9670;&nbsp;</a></span>Awake()</h2>
 
 <div class="memitem">
@@ -191,13 +203,17 @@ Mètodes Privats</h2></td></tr>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_u_i_controller_ab1853922923ea143f0e27d10425a3adb_cgraph.svg" width="544" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><img src="class_u_i_controller_ab1853922923ea143f0e27d10425a3adb_cgraph.png" border="0" usemap="#aclass_u_i_controller_ab1853922923ea143f0e27d10425a3adb_cgraph" alt=""/></div>
+<map name="aclass_u_i_controller_ab1853922923ea143f0e27d10425a3adb_cgraph" id="aclass_u_i_controller_ab1853922923ea143f0e27d10425a3adb_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,137,32"/>
+<area shape="rect" href="class_u_i_controller.html#a25efcf4c19f58682359f159ebe68cd61" title="Loads all the necessary colors for all the dynamic UIs in the game" alt="" coords="185,5,344,32"/>
+<area shape="rect" href="class_utils.html#ab9e5182f0bed89c77ffe578768c9c8c2" title="Pass a hex string and you get the Color." alt="" coords="392,5,539,32"/>
+</map>
 </div>
 
 </div>
 </div>
-<a id="a5f4c8564677f50adca215a4c91020c5c" name="a5f4c8564677f50adca215a4c91020c5c"></a>
+<a id="a5f4c8564677f50adca215a4c91020c5c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f4c8564677f50adca215a4c91020c5c">&#9670;&nbsp;</a></span>InitializeColors()</h2>
 
 <div class="memitem">
@@ -221,26 +237,35 @@ Gràfic de crides d'aquesta funció:</div>
 </div><div class="memdoc">
 
 <p></p>
-<p >Change the HP color to be green when is ally and red when is enemy.</p>
-<p >WARNING: The team property NEED TO BE SET BEFORE RUNNING THIS FUNCTION. </p>
+<p>Change the HP color to be green when is ally and red when is enemy.</p>
+<p>WARNING: The team property NEED TO BE SET BEFORE RUNNING THIS FUNCTION.</p>
 
-<p>Reimplementat a <a class="el" href="class_structure_u_i_controller.html#ad491648142deb4740cbe79382a713f33">StructureUIController</a>, <a class="el" href="class_turret_u_i_controller.html#a33612c1e7e2da071dd41cc5ac4ad01be">TurretUIController</a> i <a class="el" href="class_player_u_i_controller.html#a4ded39e7d1585b167b8efaf088a3fe0a">PlayerUIController</a>.</p>
+<p>Reimplementat a <a class="el" href="class_player_u_i_controller.html#a4ded39e7d1585b167b8efaf088a3fe0a">PlayerUIController</a>, <a class="el" href="class_turret_u_i_controller.html#a33612c1e7e2da071dd41cc5ac4ad01be">TurretUIController</a> i <a class="el" href="class_structure_u_i_controller.html#ad491648142deb4740cbe79382a713f33">StructureUIController</a>.</p>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_u_i_controller_a5f4c8564677f50adca215a4c91020c5c_cgraph.svg" width="590" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><img src="class_u_i_controller_a5f4c8564677f50adca215a4c91020c5c_cgraph.png" border="0" usemap="#aclass_u_i_controller_a5f4c8564677f50adca215a4c91020c5c_cgraph" alt=""/></div>
+<map name="aclass_u_i_controller_a5f4c8564677f50adca215a4c91020c5c_cgraph" id="aclass_u_i_controller_a5f4c8564677f50adca215a4c91020c5c_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,183,32"/>
+<area shape="rect" href="class_u_i_controller.html#a25efcf4c19f58682359f159ebe68cd61" title="Loads all the necessary colors for all the dynamic UIs in the game" alt="" coords="231,5,389,32"/>
+<area shape="rect" href="class_utils.html#ab9e5182f0bed89c77ffe578768c9c8c2" title="Pass a hex string and you get the Color." alt="" coords="437,5,584,32"/>
+</map>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_u_i_controller_a5f4c8564677f50adca215a4c91020c5c_icgraph.svg" width="570" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><img src="class_u_i_controller_a5f4c8564677f50adca215a4c91020c5c_icgraph.png" border="0" usemap="#aclass_u_i_controller_a5f4c8564677f50adca215a4c91020c5c_icgraph" alt=""/></div>
+<map name="aclass_u_i_controller_a5f4c8564677f50adca215a4c91020c5c_icgraph" id="aclass_u_i_controller_a5f4c8564677f50adca215a4c91020c5c_icgraph">
+<area shape="rect" title=" " alt="" coords="387,31,564,57"/>
+<area shape="rect" href="class_structure_stats.html#a9288d34a28aecd99033a0f2998df3a21" title=" " alt="" coords="183,5,339,32"/>
+<area shape="rect" href="class_minion_stats.html#aa5a0ca66d4dd72c3e70c7ae9ee8e6cb8" title=" " alt="" coords="189,56,332,83"/>
+<area shape="rect" href="class_structure_stats.html#a47d6bbbce7de8a935120066f849d8bd4" title="Function that implements what is done when this entity dies." alt="" coords="5,5,135,32"/>
+</map>
 </div>
 
 </div>
 </div>
-<a id="a25efcf4c19f58682359f159ebe68cd61" name="a25efcf4c19f58682359f159ebe68cd61"></a>
+<a id="a25efcf4c19f58682359f159ebe68cd61"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25efcf4c19f58682359f159ebe68cd61">&#9670;&nbsp;</a></span>LoadColors()</h2>
 
 <div class="memitem">
@@ -267,19 +292,29 @@ Gràfic de crides a aquesta funció:</div>
 <div class="dynheader">
 Gràfic de crides d'aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_u_i_controller_a25efcf4c19f58682359f159ebe68cd61_cgraph.svg" width="364" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><img src="class_u_i_controller_a25efcf4c19f58682359f159ebe68cd61_cgraph.png" border="0" usemap="#aclass_u_i_controller_a25efcf4c19f58682359f159ebe68cd61_cgraph" alt=""/></div>
+<map name="aclass_u_i_controller_a25efcf4c19f58682359f159ebe68cd61_cgraph" id="aclass_u_i_controller_a25efcf4c19f58682359f159ebe68cd61_cgraph">
+<area shape="rect" title="Loads all the necessary colors for all the dynamic UIs in the game" alt="" coords="5,5,164,32"/>
+<area shape="rect" href="class_utils.html#ab9e5182f0bed89c77ffe578768c9c8c2" title="Pass a hex string and you get the Color." alt="" coords="212,5,359,32"/>
+</map>
 </div>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_u_i_controller_a25efcf4c19f58682359f159ebe68cd61_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><img src="class_u_i_controller_a25efcf4c19f58682359f159ebe68cd61_icgraph.png" border="0" usemap="#aclass_u_i_controller_a25efcf4c19f58682359f159ebe68cd61_icgraph" alt=""/></div>
+<map name="aclass_u_i_controller_a25efcf4c19f58682359f159ebe68cd61_icgraph" id="aclass_u_i_controller_a25efcf4c19f58682359f159ebe68cd61_icgraph">
+<area shape="rect" title="Loads all the necessary colors for all the dynamic UIs in the game" alt="" coords="612,31,771,57"/>
+<area shape="rect" href="class_u_i_controller.html#ab1853922923ea143f0e27d10425a3adb" title=" " alt="" coords="409,5,541,32"/>
+<area shape="rect" href="class_u_i_controller.html#a5f4c8564677f50adca215a4c91020c5c" title=" " alt="" coords="387,56,564,83"/>
+<area shape="rect" href="class_structure_stats.html#a9288d34a28aecd99033a0f2998df3a21" title=" " alt="" coords="183,31,339,57"/>
+<area shape="rect" href="class_minion_stats.html#aa5a0ca66d4dd72c3e70c7ae9ee8e6cb8" title=" " alt="" coords="189,81,332,108"/>
+<area shape="rect" href="class_structure_stats.html#a47d6bbbce7de8a935120066f849d8bd4" title="Function that implements what is done when this entity dies." alt="" coords="5,31,135,57"/>
+</map>
 </div>
 
 </div>
 </div>
-<a id="a465eebf37083ebf78879ab8bbd71c069" name="a465eebf37083ebf78879ab8bbd71c069"></a>
+<a id="a465eebf37083ebf78879ab8bbd71c069"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a465eebf37083ebf78879ab8bbd71c069">&#9670;&nbsp;</a></span>UpdateCurrentHP()</h2>
 
 <div class="memitem">
@@ -314,20 +349,24 @@ Gràfic de crides a aquesta funció:</div>
 </div><div class="memdoc">
 
 <p>Updates the current HP of the entity. </p>
-<p >Please first update the public field in the <a class="el" href="class_stats.html">Stats</a> class </p>
+<p>Please first update the public field in the <a class="el" href="class_stats.html">Stats</a> class</p>
 
-<p>Implementat a <a class="el" href="class_structure_u_i_controller.html#a440b6978d77790330878b47582fe43dc">StructureUIController</a>, <a class="el" href="class_minion_u_i_controller.html#a9042cfa3430e60cf37cf0e0797692742">MinionUIController</a> i <a class="el" href="class_player_u_i_controller.html#aca577b724c1f3f2ed54ad1165a7842c2">PlayerUIController</a>.</p>
+<p>Implementat a <a class="el" href="class_player_u_i_controller.html#aca577b724c1f3f2ed54ad1165a7842c2">PlayerUIController</a>, <a class="el" href="class_minion_u_i_controller.html#a9042cfa3430e60cf37cf0e0797692742">MinionUIController</a> i <a class="el" href="class_structure_u_i_controller.html#a440b6978d77790330878b47582fe43dc">StructureUIController</a>.</p>
 <div class="dynheader">
 Gràfic de crides a aquesta funció:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_u_i_controller_a465eebf37083ebf78879ab8bbd71c069_icgraph.svg" width="412" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><img src="class_u_i_controller_a465eebf37083ebf78879ab8bbd71c069_icgraph.png" border="0" usemap="#aclass_u_i_controller_a465eebf37083ebf78879ab8bbd71c069_icgraph" alt=""/></div>
+<map name="aclass_u_i_controller_a465eebf37083ebf78879ab8bbd71c069_icgraph" id="aclass_u_i_controller_a465eebf37083ebf78879ab8bbd71c069_icgraph">
+<area shape="rect" title="Updates the current HP of the entity." alt="" coords="212,31,407,57"/>
+<area shape="rect" href="class_stats.html#aa42ab5ae9f21d5c9b7670548e07495de" title=" " alt="" coords="5,5,164,32"/>
+<area shape="rect" href="class_movable_stats.html#aaa1da792e42f2fc4176ef6eaf41aaf9e" title=" " alt="" coords="6,56,163,83"/>
+</map>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Documentació de les Dades Membre</h2>
-<a id="a6cc6af5b0def67c9ae7e4416142da062" name="a6cc6af5b0def67c9ae7e4416142da062"></a>
+<a id="a6cc6af5b0def67c9ae7e4416142da062"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6cc6af5b0def67c9ae7e4416142da062">&#9670;&nbsp;</a></span>allyColor</h2>
 
 <div class="memitem">
@@ -342,14 +381,14 @@ Gràfic de crides a aquesta funció:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aace3192b63dd268b329ae1ed26e5ee39" name="aace3192b63dd268b329ae1ed26e5ee39"></a>
+<a id="aace3192b63dd268b329ae1ed26e5ee39"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aace3192b63dd268b329ae1ed26e5ee39">&#9670;&nbsp;</a></span>enemyColor</h2>
 
 <div class="memitem">
@@ -364,14 +403,14 @@ Gràfic de crides a aquesta funció:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af0a2d6ad18543ed300df78f615559a30" name="af0a2d6ad18543ed300df78f615559a30"></a>
+<a id="af0a2d6ad18543ed300df78f615559a30"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af0a2d6ad18543ed300df78f615559a30">&#9670;&nbsp;</a></span>hpImage</h2>
 
 <div class="memitem">
@@ -385,7 +424,7 @@ Gràfic de crides a aquesta funció:</div>
 
 </div>
 </div>
-<a id="a6083eb4888f332848e2a0fa1c7a8908e" name="a6083eb4888f332848e2a0fa1c7a8908e"></a>
+<a id="a6083eb4888f332848e2a0fa1c7a8908e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6083eb4888f332848e2a0fa1c7a8908e">&#9670;&nbsp;</a></span>hpImageSmooth</h2>
 
 <div class="memitem">
@@ -399,7 +438,7 @@ Gràfic de crides a aquesta funció:</div>
 
 </div>
 </div>
-<a id="a43b9da2a4ca2adcc7cc74dc4ad22ce65" name="a43b9da2a4ca2adcc7cc74dc4ad22ce65"></a>
+<a id="a43b9da2a4ca2adcc7cc74dc4ad22ce65"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43b9da2a4ca2adcc7cc74dc4ad22ce65">&#9670;&nbsp;</a></span>myColor</h2>
 
 <div class="memitem">
@@ -421,7 +460,7 @@ Gràfic de crides a aquesta funció:</div>
 
 </div>
 </div>
-<a id="a0ee44bc99bd2ffb958407b69b2f448ad" name="a0ee44bc99bd2ffb958407b69b2f448ad"></a>
+<a id="a0ee44bc99bd2ffb958407b69b2f448ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ee44bc99bd2ffb958407b69b2f448ad">&#9670;&nbsp;</a></span>smoothAllyColor</h2>
 
 <div class="memitem">
@@ -436,14 +475,14 @@ Gràfic de crides a aquesta funció:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a9bb645b57f4b68b99edde103cd32fa16" name="a9bb645b57f4b68b99edde103cd32fa16"></a>
+<a id="a9bb645b57f4b68b99edde103cd32fa16"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9bb645b57f4b68b99edde103cd32fa16">&#9670;&nbsp;</a></span>smoothEnemyColor</h2>
 
 <div class="memitem">
@@ -458,14 +497,14 @@ Gràfic de crides a aquesta funció:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af82bbe8d4b6ca730eacd6af9ffaa50eb" name="af82bbe8d4b6ca730eacd6af9ffaa50eb"></a>
+<a id="af82bbe8d4b6ca730eacd6af9ffaa50eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af82bbe8d4b6ca730eacd6af9ffaa50eb">&#9670;&nbsp;</a></span>team</h2>
 
 <div class="memitem">
@@ -497,7 +536,7 @@ Gràfic de crides a aquesta funció:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_u_i_controller.html">UIController</a></li>
-    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 <script type="text/javascript">

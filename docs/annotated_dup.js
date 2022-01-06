@@ -74,7 +74,6 @@ var annotated_dup =
     [ "RespawnCanvas", "class_respawn_canvas.html", "class_respawn_canvas" ],
     [ "SceneController", "class_scene_controller.html", "class_scene_controller" ],
     [ "SellableItemUI", "class_sellable_item_u_i.html", "class_sellable_item_u_i" ],
-    [ "ServerConnectionTest", "class_server_connection_test.html", "class_server_connection_test" ],
     [ "SettingsData", "class_settings_data.html", "class_settings_data" ],
     [ "Shop", "class_shop.html", "class_shop" ],
     [ "ShowPing", "class_show_ping.html", "class_show_ping" ],

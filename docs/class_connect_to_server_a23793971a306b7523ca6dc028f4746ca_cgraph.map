@@ -1,6 +1,5 @@
 <map id="ConnectToServer.RetryConnection" name="ConnectToServer.RetryConnection">
-<area shape="rect" id="node1" title=" " alt="" coords="5,13,225,39"/>
-<area shape="rect" id="node2" href="$class_connect_to_server.html#af54d350629abc28677d474dda9fbd6a0" title=" " alt="" coords="273,5,493,47"/>
-<area shape="rect" id="node3" href="$class_connect_to_server.html#a2ca5fc3ab94cacd35c3cc2b641e1b463" title=" " alt="" coords="541,13,725,39"/>
-<area shape="rect" id="node4" href="$class_connect_to_server.html#a58534f26c3d1f90a9c07d9f436ccc025" title=" " alt="" coords="773,13,960,39"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,225,32"/>
+<area shape="rect" id="node2" href="$class_connect_to_server.html#a2ca5fc3ab94cacd35c3cc2b641e1b463" title=" " alt="" coords="273,5,457,32"/>
+<area shape="rect" id="node3" href="$class_connect_to_server.html#a58534f26c3d1f90a9c07d9f436ccc025" title=" " alt="" coords="505,5,692,32"/>
 </map>

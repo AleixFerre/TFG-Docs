@@ -6,7 +6,6 @@ var class_connect_to_server =
     [ "OnErrorInfo", "class_connect_to_server.html#a9df07244dc7dd2662e6b333ed3d7dab0", null ],
     [ "ParseError", "class_connect_to_server.html#a58534f26c3d1f90a9c07d9f436ccc025", null ],
     [ "RetryConnection", "class_connect_to_server.html#a23793971a306b7523ca6dc028f4746ca", null ],
-    [ "RetryConnectionCorrutine", "class_connect_to_server.html#af54d350629abc28677d474dda9fbd6a0", null ],
     [ "ShowError", "class_connect_to_server.html#a2ca5fc3ab94cacd35c3cc2b641e1b463", null ],
     [ "Start", "class_connect_to_server.html#a586c4eaddbfb5ab8e5bfe771057651ea", null ],
     [ "descriptionTxt", "class_connect_to_server.html#af2d80b65e26ee138a72c24b3e9022796", null ],

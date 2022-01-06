@@ -57,11 +57,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_ability_8cs.html",
-"class_ability_indicator.html",
-"class_heal_relative_effect.html#a51b9463a8c26ca163a387671a9bbe374",
-"class_player_controller.html#a567a5267fea43c150b1711d76377ed43",
-"class_stats.html#a5bc07d51676f30fd5506d140777bda89",
-"functions_vars_e.html"
+"class_ability_indicator.html#a334fb70612241c8c1067bb596a4e2a26",
+"class_indicated_ability.html",
+"class_player_controller.html#a63709ae1de3232234e1f2caa6aa487ce",
+"class_stats.html#ab661897854a3917b933c5176a4a3bcc5",
+"functions_vars_l.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

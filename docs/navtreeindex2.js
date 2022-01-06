@@ -1,7 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"class_heal_relative_effect.html#a51b9463a8c26ca163a387671a9bbe374":[1,0,34,0],
-"class_heal_relative_effect.html#afd1e824d5c201a520689eb633f70ac45":[1,0,34,1],
 "class_indicated_ability.html":[1,0,35],
 "class_indicated_ability.html#a1e90ac43cfc19ee0437a2ed32b726b4a":[1,0,35,3],
 "class_indicated_ability.html#a3b2748b1e5eb34a403c89960b764f81b":[1,0,35,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX2 =
 "class_player_controller.html#a3c79ef842d2c37a7516b8c033413e7b0":[1,0,62,8],
 "class_player_controller.html#a47aa7c4989a845f761de76a6cf46ddd7":[1,0,62,25],
 "class_player_controller.html#a4e7678b9f3a9cd56474a5649e4b39591":[1,0,62,15],
-"class_player_controller.html#a53e932ee02c4c2cc18c7219d40e93cad":[1,0,62,0]
+"class_player_controller.html#a53e932ee02c4c2cc18c7219d40e93cad":[1,0,62,0],
+"class_player_controller.html#a567a5267fea43c150b1711d76377ed43":[1,0,62,2],
+"class_player_controller.html#a5d788bff9987de6517490e562cc130ff":[1,0,62,22]
 };

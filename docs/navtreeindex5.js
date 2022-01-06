@@ -1,11 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"functions_vars_e.html":[1,3,2,5],
-"functions_vars_f.html":[1,3,2,6],
-"functions_vars_g.html":[1,3,2,7],
-"functions_vars_h.html":[1,3,2,8],
-"functions_vars_i.html":[1,3,2,9],
-"functions_vars_k.html":[1,3,2,10],
 "functions_vars_l.html":[1,3,2,11],
 "functions_vars_m.html":[1,3,2,12],
 "functions_vars_n.html":[1,3,2,13],
@@ -25,8 +19,8 @@ var NAVTREEINDEX5 =
 "globals_enum.html":[2,1,2],
 "globals_type.html":[2,1,1],
 "hierarchy.html":[1,2],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "index.html#install_sec":[0,1],
 "index.html#intro_sec":[0,0],
 "index.html#step1":[0,1,0],

@@ -3,7 +3,7 @@
 <area shape="rect" id="node2" href="$class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf" title="Initialize the PlayerController." alt="" coords="215,67,380,94"/>
 <area shape="rect" id="node26" href="$class_model_player_mediator.html#abb544efe7192b8e934f60f770d5ac334" title=" " alt="" coords="200,118,395,145"/>
 <area shape="rect" id="node27" href="$class_player_controller.html#a6be7bc2319b024c6bf66f1b1c96f7ba5" title="Player Model will call this function to parent and sync itself to this GameObject" alt="" coords="209,169,385,195"/>
-<area shape="rect" id="node3" href="$class_player_stats.html#aa38dc976db5d7536e94655676cb19e1d" title="Returns the AbilityCooldowns of the abilities" alt="" coords="443,17,604,43"/>
+<area shape="rect" id="node3" href="$class_player_stats.html#afcace3e680c4d2f0d8ae4a3d963b0d53" title="Returns the AbilityCooldowns of the abilities" alt="" coords="443,17,604,43"/>
 <area shape="rect" id="node4" href="$class_basic_attack.html#ac85eb061d597f5879d31fb8e7a0316d5" title=" " alt="" coords="451,67,595,94"/>
 <area shape="rect" id="node6" href="$class_player_stats.html#ae874ab5cbb490cbdcf3f5613b8bc2240" title="Initialize the actual Stats of the Player." alt="" coords="453,173,594,199"/>
 <area shape="rect" id="node5" href="$class_target_attack_indicator.html#af2d860ed1933fd56dee2e01a1af9f626" title="Sets the scale of the indicator" alt="" coords="663,5,833,47"/>
