@@ -25,12 +25,6 @@
 var NAVTREE =
 [
   [ "Treball de Fi de Grau", "index.html", [
-    [ "Treball de Final de Grau", "index.html", [
-      [ "Introduction", "index.html#intro_sec", null ],
-      [ "Installation", "index.html#install_sec", [
-        [ "Step 1: Opening the box", "index.html#step1", null ]
-      ] ]
-    ] ],
     [ "Classes", "annotated.html", [
       [ "Llista de Classes", "annotated.html", "annotated_dup" ],
       [ "Índex de Classes", "classes.html", null ],
@@ -57,11 +51,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_ability_8cs.html",
-"class_ability_indicator.html#a334fb70612241c8c1067bb596a4e2a26",
-"class_heal_relative_effect.html#a51b9463a8c26ca163a387671a9bbe374",
-"class_player_controller.html#a53e932ee02c4c2cc18c7219d40e93cad",
-"class_stats.html#aa42ab5ae9f21d5c9b7670548e07495de",
-"functions_vars_h.html"
+"class_ability_indicator.html#a5622fb68800e111de3f75a8adf6efd17",
+"class_indicated_ability.html#a1e90ac43cfc19ee0437a2ed32b726b4a",
+"class_player_controller.html#a63709ae1de3232234e1f2caa6aa487ce",
+"class_stats.html#ab661897854a3917b933c5176a4a3bcc5",
+"functions_vars_m.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

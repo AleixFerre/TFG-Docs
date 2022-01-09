@@ -8,8 +8,7 @@ var indexSectionsWithContent =
   5: "h",
   6: "aepst",
   7: "abcgilmnoprw",
-  8: "ciktv",
-  9: "t"
+  8: "ciktv"
 };
 
 var indexSectionNames =
@@ -22,8 +21,7 @@ var indexSectionNames =
   5: "typedefs",
   6: "enums",
   7: "enumvalues",
-  8: "properties",
-  9: "pages"
+  8: "properties"
 };
 
 var indexSectionLabels =
@@ -36,7 +34,6 @@ var indexSectionLabels =
   5: "Definicions de Tipus",
   6: "Enumeracions",
   7: "Valors de les Enumeracions",
-  8: "Propietats",
-  9: "Pàgines"
+  8: "Propietats"
 };
 
