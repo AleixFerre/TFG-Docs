@@ -1,6 +1,6 @@
 <map id="PlayerStats.Initialize" name="PlayerStats.Initialize">
-<area shape="rect" id="node1" title="Initialize the actual Stats of the Player." alt="" coords="580,5,721,32"/>
-<area shape="rect" id="node2" href="$class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf" title="Initialize the PlayerController." alt="" coords="367,5,532,32"/>
-<area shape="rect" id="node3" href="$class_model_sync.html#ab8359f73ae31a7f926c80ebcd7e9444a" title="This starts all the initialization chain for the player." alt="" coords="172,5,319,32"/>
+<area shape="rect" id="node1" title="Initialize the actual Stats of the Player." alt="" coords="607,5,748,32"/>
+<area shape="rect" id="node2" href="$class_player_controller.html#a75e94e4fd555e57e55ab4b7e54024dcf" title="Initialize the PlayerController." alt="" coords="393,5,559,32"/>
+<area shape="rect" id="node3" href="$class_model_sync.html#af4c507f953e72b3ff215ec6c5a42897c" title="This starts all the initialization chain for the player." alt="" coords="172,5,345,32"/>
 <area shape="rect" id="node4" href="$class_model_sync.html#a47be08ee3bbd2a173514e74da3dd65cb" title=" " alt="" coords="5,5,124,32"/>
 </map>

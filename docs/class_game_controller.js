@@ -11,7 +11,6 @@ var class_game_controller =
     [ "GetLocalPlayer", "class_game_controller.html#af7c0741d7053003e14d5dd13ba728d85", null ],
     [ "GetPlayer", "class_game_controller.html#a3284abf9985021d4e4936f90d858a7dd", null ],
     [ "GetTeamSpawn", "class_game_controller.html#a9f1c8039a7e36f309f44e350175bdb7d", null ],
-    [ "GetTime", "class_game_controller.html#a7e7ba340d852830acb4d6f1f172c248c", null ],
     [ "ReadyRPC", "class_game_controller.html#a53dd14ae7871deb35e9a7e877a370278", null ],
     [ "Start", "class_game_controller.html#a97788a7aa0f09c8d748781683e5f045b", null ],
     [ "blueKills", "class_game_controller.html#afb455123dbe1e4acd2ced199e451fbe0", null ],
@@ -33,5 +32,6 @@ var class_game_controller =
     [ "redTurrets", "class_game_controller.html#ab6a87afd962169c55d73c919aa05b9f8", null ],
     [ "respawnCanvas", "class_game_controller.html#af2ffe32062f08dd1fd09a2e6318ce43b", null ],
     [ "uIController", "class_game_controller.html#a9faef73d065b7239198e86b6a17bc54a", null ],
-    [ "view", "class_game_controller.html#a2db056edd4ce25aa04feee11214cf911", null ]
+    [ "view", "class_game_controller.html#a2db056edd4ce25aa04feee11214cf911", null ],
+    [ "Time", "class_game_controller.html#ab4dd84a6ef421b233e570c923ac1f3ac", null ]
 ];

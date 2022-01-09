@@ -3,7 +3,7 @@
 <area shape="rect" id="node2" href="$class_ability_base.html#a2def910c9621754a4e91d49ab5455af4" title="Returns the calculated damage." alt="" coords="233,31,428,57"/>
 <area shape="rect" id="node5" href="$class_stats.html#acebcf18ce39553a9c811f368a56a5583" title="Specify the amount of damage and the Inventory that the amount of Gold will go in if it is hit for th..." alt="" coords="265,81,396,108"/>
 <area shape="rect" id="node6" href="$class_ability_base.html#a1efb376f3d64023249da5dd6c5346aac" title="Funció generica que retorna null si no és un objectiu valid o el component concret de Stats de l&#39;obje..." alt="" coords="259,132,403,159"/>
-<area shape="rect" id="node7" href="$class_effect_manager.html#a921aed9a2553637cdd387d3075150709" title="/// Starts an Effect to the entity who has this EffectManager." alt="" coords="240,183,421,209"/>
+<area shape="rect" id="node7" href="$class_effect_manager.html#a921aed9a2553637cdd387d3075150709" title="Starts an Effect to the entity who has this EffectManager." alt="" coords="240,183,421,209"/>
 <area shape="rect" id="node3" href="$class_ability.html#a004d2ead9a2f144fe5a181fceed114a5" title=" " alt="" coords="502,5,633,32"/>
 <area shape="rect" id="node4" href="$class_ability.html#a0c1233ee3cfecfed5c899ed29d0ec4b9" title=" " alt="" coords="490,56,645,83"/>
 <area shape="rect" id="node8" href="$class_effect.html#ad48818ca38f71bb7d5e844bd220ffce0" title=" " alt="" coords="515,132,620,159"/>

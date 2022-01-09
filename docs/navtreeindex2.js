@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"class_heal_relative_effect.html#a51b9463a8c26ca163a387671a9bbe374":[1,0,34,0],
+"class_heal_relative_effect.html#afd1e824d5c201a520689eb633f70ac45":[1,0,34,1],
 "class_indicated_ability.html":[1,0,35],
 "class_indicated_ability.html#a1e90ac43cfc19ee0437a2ed32b726b4a":[1,0,35,3],
 "class_indicated_ability.html#a3b2748b1e5eb34a403c89960b764f81b":[1,0,35,0],
@@ -154,12 +156,13 @@ var NAVTREEINDEX2 =
 "class_minion_attack.html#a791eabefba03833f37eb80b525954afb":[1,0,48,1],
 "class_minion_attack.html#a9302ebf23d762d3fad0506021ded19d5":[1,0,48,0],
 "class_minion_spawner.html":[1,0,49],
+"class_minion_spawner.html#a26c8816d5b016839df3e9dc961d7d8bd":[1,0,49,4],
 "class_minion_spawner.html#a2e3ada5c17cf1583aec9a829f5bbb5e6":[1,0,49,3],
-"class_minion_spawner.html#a39185223c4b028a6a74b7637d58b3544":[1,0,49,4],
+"class_minion_spawner.html#a39185223c4b028a6a74b7637d58b3544":[1,0,49,5],
 "class_minion_spawner.html#a6f9b9e5c995ed7f836eebd150cfb260e":[1,0,49,1],
-"class_minion_spawner.html#a9d55e54250419d182c4f4449c10f6a0f":[1,0,49,6],
+"class_minion_spawner.html#a9d55e54250419d182c4f4449c10f6a0f":[1,0,49,7],
 "class_minion_spawner.html#aa5abbe9e12263468aa52fc26d574353e":[1,0,49,2],
-"class_minion_spawner.html#ae10e10ea5f053105a3d12f70365c965b":[1,0,49,5],
+"class_minion_spawner.html#ae10e10ea5f053105a3d12f70365c965b":[1,0,49,6],
 "class_minion_spawner.html#ae65938a5d57ce6559c61eac8ae69b40f":[1,0,49,0],
 "class_minion_stats.html":[1,0,50],
 "class_minion_stats.html#a080233b45b89a1e75fa75241bd3f0b8e":[1,0,50,10],
@@ -197,8 +200,8 @@ var NAVTREEINDEX2 =
 "class_model_sync.html#a5f716d0c4e544e36e54227b1bb01b7c8":[1,0,53,2],
 "class_model_sync.html#a65794b3e028d649ccd59ba953c226a58":[1,0,53,3],
 "class_model_sync.html#a692071740cde973d3c24ed53168c50f3":[1,0,53,6],
-"class_model_sync.html#ab8359f73ae31a7f926c80ebcd7e9444a":[1,0,53,0],
 "class_model_sync.html#ad79eab98a5e60913ccb15c841771762b":[1,0,53,4],
+"class_model_sync.html#af4c507f953e72b3ff215ec6c5a42897c":[1,0,53,0],
 "class_movable_stats.html":[1,0,54],
 "class_movable_stats.html#a391da924ae762885f7e113ebb72fdf65":[1,0,54,1],
 "class_movable_stats.html#a80243468d2197cfe017767d84398146b":[1,0,54,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "class_player_controller.html#a3a3a70a0f7be44e858ef3560e6909c30":[1,0,62,14],
 "class_player_controller.html#a3c79ef842d2c37a7516b8c033413e7b0":[1,0,62,8],
 "class_player_controller.html#a47aa7c4989a845f761de76a6cf46ddd7":[1,0,62,25],
-"class_player_controller.html#a4e7678b9f3a9cd56474a5649e4b39591":[1,0,62,15],
-"class_player_controller.html#a53e932ee02c4c2cc18c7219d40e93cad":[1,0,62,0],
-"class_player_controller.html#a567a5267fea43c150b1711d76377ed43":[1,0,62,2],
-"class_player_controller.html#a5d788bff9987de6517490e562cc130ff":[1,0,62,22]
+"class_player_controller.html#a4e7678b9f3a9cd56474a5649e4b39591":[1,0,62,15]
 };

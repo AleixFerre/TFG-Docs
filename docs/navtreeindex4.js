@@ -1,5 +1,8 @@
 var NAVTREEINDEX4 =
 {
+"class_stats.html#aa42ab5ae9f21d5c9b7670548e07495de":[1,0,81,2],
+"class_stats.html#aad08d308b784a74c8a009ba48c0a237f":[1,0,81,4],
+"class_stats.html#aaf64ae5964ca54bc9853328551f7c686":[1,0,81,11],
 "class_stats.html#ab661897854a3917b933c5176a4a3bcc5":[1,0,81,8],
 "class_stats.html#abc8d3370552e1d04b85f0a9d67a5800f":[1,0,81,7],
 "class_stats.html#acdb9bb504223bfff99551a4fa15978fc":[1,0,81,9],
@@ -199,8 +202,8 @@ var NAVTREEINDEX4 =
 "functions_e.html":[1,3,0,5],
 "functions_enum.html":[1,3,3],
 "functions_f.html":[1,3,0,6],
-"functions_func.html":[1,3,1,0],
 "functions_func.html":[1,3,1],
+"functions_func.html":[1,3,1,0],
 "functions_func_b.html":[1,3,1,1],
 "functions_func_c.html":[1,3,1,2],
 "functions_func_d.html":[1,3,1,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX4 =
 "functions_vars_d.html":[1,3,2,4],
 "functions_vars_e.html":[1,3,2,5],
 "functions_vars_f.html":[1,3,2,6],
-"functions_vars_g.html":[1,3,2,7],
-"functions_vars_h.html":[1,3,2,8],
-"functions_vars_i.html":[1,3,2,9],
-"functions_vars_k.html":[1,3,2,10]
+"functions_vars_g.html":[1,3,2,7]
 };

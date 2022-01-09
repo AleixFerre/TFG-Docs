@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['disconnectionchecker_896',['DisconnectionChecker',['../class_disconnection_checker.html',1,'']]],
-  ['discordbutton_897',['DiscordButton',['../class_discord_button.html',1,'']]]
+  ['disconnectionchecker_898',['DisconnectionChecker',['../class_disconnection_checker.html',1,'']]],
+  ['discordbutton_899',['DiscordButton',['../class_discord_button.html',1,'']]]
 ];

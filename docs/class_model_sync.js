@@ -1,6 +1,6 @@
 var class_model_sync =
 [
-    [ "DoEnable", "class_model_sync.html#ab8359f73ae31a7f926c80ebcd7e9444a", null ],
+    [ "InitializeGame", "class_model_sync.html#af4c507f953e72b3ff215ec6c5a42897c", null ],
     [ "Start", "class_model_sync.html#a47be08ee3bbd2a173514e74da3dd65cb", null ],
     [ "anim", "class_model_sync.html#a5f716d0c4e544e36e54227b1bb01b7c8", null ],
     [ "mediator", "class_model_sync.html#a65794b3e028d649ccd59ba953c226a58", null ],

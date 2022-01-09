@@ -1,0 +1,4 @@
+<map id="ModelSync.InitializeGame" name="ModelSync.InitializeGame">
+<area shape="rect" id="node1" title="This starts all the initialization chain for the player." alt="" coords="172,5,345,32"/>
+<area shape="rect" id="node2" href="$class_model_sync.html#a47be08ee3bbd2a173514e74da3dd65cb" title=" " alt="" coords="5,5,124,32"/>
+</map>

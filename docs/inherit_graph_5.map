@@ -28,7 +28,7 @@
 <area shape="rect" id="node29" href="$class_loading_canvas.html" title=" " alt="" coords="213,1576,323,1603"/>
 <area shape="rect" id="node30" href="$class_mannequin.html" title=" " alt="" coords="225,1627,311,1653"/>
 <area shape="rect" id="node31" href="$class_minion_a_i.html" title=" " alt="" coords="232,1677,304,1704"/>
-<area shape="rect" id="node32" href="$class_minion_attack.html" title=" " alt="" coords="219,1728,317,1755"/>
+<area shape="rect" id="node32" href="$class_minion_attack.html" title="This class is responsible for traspassing the minion animator events to the minion AI functions." alt="" coords="219,1728,317,1755"/>
 <area shape="rect" id="node33" href="$class_minion_spawner.html" title=" " alt="" coords="213,1779,323,1805"/>
 <area shape="rect" id="node34" href="$class_model_player_mediator.html" title=" " alt="" coords="196,1829,340,1856"/>
 <area shape="rect" id="node35" href="$class_model_sync.html" title=" " alt="" coords="225,1880,311,1907"/>
